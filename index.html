@@ -2,51 +2,95 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BJT 学習</title>
   <style>
-    body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 16px; }
-    h1 { font-size: 22px; }
-    ul { list-style: none; padding: 0; }
-    li { padding: 12px 0; border-bottom: 1px solid #ddd; }
-    a { color: #0366d6; text-decoration: none; font-size: 18px; }
+    body { font-family: sans-serif; max-width: 960px; margin: 32px auto; padding: 0 16px; color: #222; line-height: 1.55; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 18px; margin-top: 30px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+    a { color: #0366d6; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    button { padding: 8px 16px; cursor: pointer; font-size: 14px; }
+    button { padding: 10px 16px; cursor: pointer; font-size: 14px; min-height: 40px; }
     .user-bar { margin-bottom: 20px; color: #555; font-size: 14px; }
     .hidden { display: none; }
+    .quick-menu { display: flex; gap: 12px; margin: 16px 0; flex-wrap: wrap; }
+    .quick-menu a { display: inline-block; padding: 12px 18px; background: #f5f5f5; border: 1px solid #ddd; border-radius: 4px; font-size: 15px; min-height: 44px; box-sizing: border-box; }
+    .quick-menu a:hover { background: #e7f3ff; text-decoration: none; }
+    .phase { margin-bottom: 24px; }
+    .phase-name { font-weight: 600; color: #0366d6; margin-bottom: 4px; }
+    .phase-desc { color: #666; font-size: 13px; margin-bottom: 10px; }
+    .lesson-list { list-style: none; padding: 0; margin: 0; }
+    .lesson-list li { padding: 10px; border-bottom: 1px solid #eee; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+    .lesson-list li:hover { background: #fafafa; }
+    .lesson-info { flex: 1; min-width: 0; }
+    .lesson-info .order { color: #888; font-size: 13px; margin-right: 6px; }
+    .lesson-info .title { font-weight: 500; }
+    .lesson-info .vi { color: #666; font-size: 13px; margin-left: 6px; }
+    .lesson-info .time { color: #999; font-size: 12px; margin-left: 6px; }
+    .badge { font-size: 12px; padding: 2px 8px; border-radius: 10px; white-space: nowrap; }
+    .badge-done { background: #d4edda; color: #155724; }
+    .badge-ready { background: #cce5ff; color: #004085; }
+    .badge-todo { background: #f0f0f0; color: #888; }
+    .lesson-list .todo { color: #888; cursor: not-allowed; }
+    .lesson-list .todo:hover { background: transparent; }
+
+    @media (max-width: 600px) {
+      body { margin: 12px auto; padding: 0 10px; }
+      h1 { font-size: 20px; }
+      .lesson-list li { flex-wrap: wrap; padding: 12px 8px; }
+      .lesson-info .vi { display: block; margin-left: 0; margin-top: 2px; }
+      .lesson-info .time { display: inline; }
+      .quick-menu { flex-direction: column; }
+      .quick-menu a { text-align: center; }
+    }
   </style>
 </head>
 <body>
-  <h1>BJT 学習 - Trang chủ</h1>
+  <h1>BJT 学習</h1>
 
   <div id="loading">Đang tải...</div>
 
   <div id="loginView" class="hidden">
-    <p>Đăng nhập để bắt đầu học và đồng bộ lịch sử qua nhiều thiết bị.</p>
+    <p>Đăng nhập để lưu tiến độ học và đồng bộ qua nhiều thiết bị.</p>
     <button id="loginBtn">Đăng nhập với Google</button>
+    <p style="font-size:13px;color:#666;margin-top:12px;">Bạn cũng có thể xem nội dung bài học mà không cần đăng nhập (nhưng sẽ không lưu được tiến độ).</p>
+    <p><a href="#" id="browseAnonBtn">→ Xem bài học không cần đăng nhập</a></p>
   </div>
 
   <div id="appView" class="hidden">
-    <div class="user-bar">
+    <div class="user-bar" id="userBar">
       👤 <span id="userEmail"></span> | <a href="#" id="logoutBtn">Đăng xuất</a>
     </div>
-    <ul>
-      <li><a href="study.html">▶ Bắt đầu học</a></li>
-    </ul>
+
+    <div class="quick-menu">
+      <a href="study.html">⏱️ Đo thời gian học</a>
+    </div>
+
+    <h2>📚 Lộ trình học</h2>
+    <div id="curriculumMeta" style="font-size:13px;color:#666;margin-bottom:16px;"></div>
+    <div id="curriculum"></div>
   </div>
 
   <script type="module">
     import { firebaseConfig } from './firebase-config.js';
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
     import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+    import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
+    const db = getFirestore(app);
     const provider = new GoogleAuthProvider();
 
     const loadingEl = document.getElementById('loading');
     const loginView = document.getElementById('loginView');
     const appView = document.getElementById('appView');
     const userEmailEl = document.getElementById('userEmail');
+    const userBar = document.getElementById('userBar');
+
+    let curriculum = null;
+    let completedLessons = new Set();
+    let anonymousMode = false;
 
     document.getElementById('loginBtn').addEventListener('click', async () => {
       try {
@@ -56,22 +100,111 @@
       }
     });
 
+    document.getElementById('browseAnonBtn').addEventListener('click', (e) => {
+      e.preventDefault();
+      anonymousMode = true;
+      showAppView(null);
+    });
+
     document.getElementById('logoutBtn').addEventListener('click', (e) => {
       e.preventDefault();
+      anonymousMode = false;
       signOut(auth);
     });
 
-    onAuthStateChanged(auth, (user) => {
-      loadingEl.classList.add('hidden');
-      if (user) {
-        loginView.classList.add('hidden');
-        appView.classList.remove('hidden');
-        userEmailEl.textContent = user.email;
-      } else {
-        appView.classList.add('hidden');
-        loginView.classList.remove('hidden');
+    async function loadCurriculum() {
+      const res = await fetch('lessons/index.json');
+      curriculum = await res.json();
+    }
+
+    async function loadProgress(uid) {
+      try {
+        const snap = await getDocs(collection(db, 'users', uid, 'progress'));
+        completedLessons = new Set(snap.docs.map(d => d.id));
+      } catch {
+        completedLessons = new Set();
       }
-    });
+    }
+
+    function renderCurriculum() {
+      const container = document.getElementById('curriculum');
+      const meta = document.getElementById('curriculumMeta');
+      const totalReady = curriculum.lessons.filter(l => l.status === 'ready').length;
+      const done = curriculum.lessons.filter(l => completedLessons.has(l.id)).length;
+      meta.textContent = `Mục tiêu: ${curriculum.target} · Xuất phát: ${curriculum.startLevel} · ${curriculum.totalLessons} bài · ${totalReady} bài có sẵn · ${done} bài đã xong`;
+
+      container.innerHTML = '';
+      curriculum.phases.forEach((phase, phaseIdx) => {
+        const phaseDiv = document.createElement('div');
+        phaseDiv.className = 'phase';
+        const lessonsHtml = phase.lessons.map(lessonId => {
+          const lesson = curriculum.lessons.find(l => l.id === lessonId);
+          if (!lesson) return '';
+          const isDone = completedLessons.has(lesson.id);
+          const isReady = lesson.status === 'ready';
+          let badge;
+          if (isDone) badge = `<span class="badge badge-done">✓ Xong</span>`;
+          else if (isReady) badge = `<span class="badge badge-ready">Sẵn sàng</span>`;
+          else badge = `<span class="badge badge-todo">Sắp ra</span>`;
+
+          const link = isReady ? `lesson.html?id=${lesson.id}` : '#';
+          const cls = isReady ? '' : 'todo';
+          return `
+            <li class="${cls}">
+              <div class="lesson-info">
+                <span class="order">#${lesson.order}</span>
+                ${isReady ? `<a href="${link}"><span class="title">${lesson.title}</span></a>` : `<span class="title">${lesson.title}</span>`}
+                <span class="vi">— ${lesson.titleVi}</span>
+                <span class="time">(${lesson.estimatedMinutes}p)</span>
+              </div>
+              ${badge}
+            </li>`;
+        }).join('');
+        phaseDiv.innerHTML = `
+          <div class="phase-name">${phase.name}</div>
+          <div class="phase-desc">${phase.description}</div>
+          <ul class="lesson-list">${lessonsHtml}</ul>`;
+        container.appendChild(phaseDiv);
+      });
+    }
+
+    async function showAppView(user) {
+      loadingEl.classList.add('hidden');
+      loginView.classList.add('hidden');
+      appView.classList.remove('hidden');
+
+      if (user) {
+        userBar.classList.remove('hidden');
+        userEmailEl.textContent = user.email;
+        await loadProgress(user.uid);
+      } else {
+        userBar.classList.add('hidden');
+        completedLessons = new Set();
+      }
+      renderCurriculum();
+    }
+
+    (async () => {
+      try {
+        await loadCurriculum();
+      } catch (err) {
+        loadingEl.textContent = 'Không tải được curriculum: ' + err.message;
+        return;
+      }
+
+      onAuthStateChanged(auth, (user) => {
+        if (user) {
+          anonymousMode = false;
+          showAppView(user);
+        } else if (anonymousMode) {
+          showAppView(null);
+        } else {
+          loadingEl.classList.add('hidden');
+          appView.classList.add('hidden');
+          loginView.classList.remove('hidden');
+        }
+      });
+    })();
   </script>
 </body>
 </html>

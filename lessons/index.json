@@ -1,0 +1,459 @@
+{
+  "target": "J2 (530-599) BJT",
+  "startLevel": "初級修了 (post-N4 / hướng N3)",
+  "source": {
+    "title": "新にほんご敬語トレーニング【音声ダウンロード版】",
+    "author": "金子広幸 (Kaneko Hiroyuki)",
+    "publisher": "アスク出版",
+    "note": "Sách giáo viên BJT recommend. Có bản dịch Anh/Trung/Hàn + audio download."
+  },
+  "totalLessons": 24,
+  "phases": [
+    {
+      "name": "第1章: 敬語への入り口",
+      "description": "Vào cửa kính ngữ — 3 loại keigo (尊敬語/謙譲語/丁寧語), quy tắc cơ bản, khi nào dùng loại nào.",
+      "lessons": ["L01"]
+    },
+    {
+      "name": "第2章: 場面別敬語トレーニング",
+      "description": "18 bài luyện kính ngữ theo tình huống thật: thăm khách, mời, nhờ, từ chối, xin lỗi, điện thoại, mail, phỏng vấn, MC...",
+      "lessons": ["L02", "L03", "L04", "L05", "L06", "L07", "L08", "L09", "L10", "L11", "L12", "L13", "L14", "L15", "L16", "L17", "L18", "L19"]
+    },
+    {
+      "name": "第3章: だんだん敬語をとる",
+      "description": "Khi quan hệ trở nên thân thiết hơn — cách giảm dần kính ngữ một cách tự nhiên, tránh quá formal hay quá suồng sã.",
+      "lessons": ["L20"]
+    },
+    {
+      "name": "付録: Tài liệu tham khảo",
+      "description": "Role cards luyện đóng vai, bảng tra động từ keigo, list cụm trang trọng & expression theo style hội thoại.",
+      "lessons": ["L21", "L22", "L23", "L24"]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "order": 1,
+      "title": "敬語への入り口",
+      "titleVi": "Vào cửa kính ngữ — Nền tảng 3 loại keigo",
+      "phase": 1,
+      "chapter": "第1章",
+      "topics": [
+        "どうして敬語がある? — Vì sao có kính ngữ (lịch sử + lợi ích)",
+        "どんなとき? だれに? — 4 keigo bạn nghe hàng ngày (taxi/thu ngân/nhà hàng)",
+        "3 nhóm keigo: 尊敬語 / 謙譲語 / ていねい語",
+        "ウチ vs ソト — quy tắc cốt lõi",
+        "3 phong cách: 敬語スタイル / ですますスタイル / 友達スタイル",
+        "改まった言い方 — đổi từ vựng cho trang trọng",
+        "Keigo trong thông báo công cộng & thư"
+      ],
+      "estimatedMinutes": 40,
+      "status": "ready"
+    },
+    {
+      "id": "L02",
+      "order": 2,
+      "title": "訪問する",
+      "titleVi": "Thăm khách hàng / Tới thăm nhà",
+      "phase": 2,
+      "chapter": "第2章 - 1",
+      "page": 22,
+      "topics": [
+        "訪問のときの特別な言い方 (ごめんください / お邪魔します)",
+        "「お/ご〜ください」 — sonkeigo pattern",
+        "「つまらないものですが…」 — cụm khiêm nhường khi tặng quà",
+        "「お/ご〜になります」 — sonkeigo pattern",
+        "尊敬語の特別な形 (召し上がります / なさいます)",
+        "かんたん尊敬語 — れる/られる形 (読まれます / 出られます)"
+      ],
+      "estimatedMinutes": 35,
+      "status": "todo"
+    },
+    {
+      "id": "L03",
+      "order": 3,
+      "title": "簡単にあいさつする",
+      "titleVi": "Chào hỏi ngắn gọn (vào/ra văn phòng, đi/về)",
+      "phase": 2,
+      "chapter": "第2章 - 2",
+      "page": 32,
+      "topics": [
+        "よく使われるあいさつ (お先に失礼します / お気をつけて)",
+        "「お/ご〜します」 — kenjougo pattern",
+        "謙譲語の特別な形 (拝見します / お目にかかります)",
+        "尊敬語と謙譲語のポイント — phân biệt nguy hiểm"
+      ],
+      "estimatedMinutes": 35,
+      "status": "todo"
+    },
+    {
+      "id": "L04",
+      "order": 4,
+      "title": "誘う",
+      "titleVi": "Mời / Rủ rê (đi ăn, dự sự kiện)",
+      "phase": 2,
+      "chapter": "第2章 - 3",
+      "page": 42,
+      "topics": [
+        "声をかける — cách gọi mở thoại",
+        "予定を聞く (何かご予定がありますか / ご都合はいかがでしょうか)",
+        "誘う — cách mời đúng level",
+        "「ご遠慮なく」",
+        "「〜ております」 — humble continuous"
+      ],
+      "estimatedMinutes": 30,
+      "status": "todo"
+    },
+    {
+      "id": "L05",
+      "order": 5,
+      "title": "お願いする",
+      "titleVi": "Nhờ vả / Yêu cầu",
+      "phase": 2,
+      "chapter": "第2章 - 4",
+      "page": 50,
+      "topics": [
+        "呼びかける — cách gọi để bắt đầu yêu cầu",
+        "「(実は)〜のですが」 — đệm trước nội dung chính",
+        "前置きを言う — bối cảnh trước khi yêu cầu",
+        "「〜いただけませんか」 — yêu cầu lịch sự",
+        "お願いを言う + 続けてお願いを言う",
+        "ていねいさを変えるには — điều chỉnh độ trang trọng",
+        "呼びかけのことば + 文末の表現"
+      ],
+      "estimatedMinutes": 40,
+      "status": "todo"
+    },
+    {
+      "id": "L06",
+      "order": 6,
+      "title": "断る",
+      "titleVi": "Từ chối",
+      "phase": 2,
+      "chapter": "第2章 - 5",
+      "page": 58,
+      "topics": [
+        "「〜はちょっと…」 — từ chối nhẹ nhàng kiểu Nhật",
+        "断る — cấu trúc từ chối chính thức",
+        "謝る — xin lỗi kèm theo từ chối",
+        "いい関係を続けることを伝える — giữ quan hệ tốt sau khi từ chối"
+      ],
+      "estimatedMinutes": 30,
+      "status": "todo"
+    },
+    {
+      "id": "L07",
+      "order": 7,
+      "title": "申し出る",
+      "titleVi": "Đề nghị giúp đỡ / Xin phép làm",
+      "phase": 2,
+      "chapter": "第2章 - 6",
+      "page": 66,
+      "topics": [
+        "「お/ご〜(いた)しましょうか」 — đề nghị giúp đỡ",
+        "「〜(さ)せていただきます」 — xin phép làm",
+        "「〜(さ)せてください」 — xin phép thẳng thắn"
+      ],
+      "estimatedMinutes": 30,
+      "status": "todo"
+    },
+    {
+      "id": "L08",
+      "order": 8,
+      "title": "おわびする",
+      "titleVi": "Xin lỗi / Tạ lỗi (lỗi của mình)",
+      "phase": 2,
+      "chapter": "第2章 - 7",
+      "page": 72,
+      "topics": [
+        "謝る — các tầng xin lỗi (申し訳ありません / 大変失礼いたしました)",
+        "ミスを報告する — báo cáo lỗi đã xảy ra",
+        "反省の気持ちを伝える — thể hiện sự ăn năn",
+        "おわびを言われたら — đáp lại khi bị xin lỗi"
+      ],
+      "estimatedMinutes": 35,
+      "status": "todo"
+    },
+    {
+      "id": "L09",
+      "order": 9,
+      "title": "意見を言う",
+      "titleVi": "Phát biểu ý kiến (đồng ý/phản đối/đề xuất)",
+      "phase": 2,
+      "chapter": "第2章 - 8",
+      "page": 78,
+      "topics": [
+        "意見を募る — hỏi xin ý kiến",
+        "賛成か反対かを一言で言う — nói lập trường ngắn gọn",
+        "意見を言い始める — câu mở đầu",
+        "自分の意見を言う — trình bày ý kiến",
+        "意見を受ける — nhận ý kiến của người khác",
+        "意見の理由を言う — nêu lý do"
+      ],
+      "estimatedMinutes": 40,
+      "status": "todo"
+    },
+    {
+      "id": "L10",
+      "order": 10,
+      "title": "予約を受ける",
+      "titleVi": "Tiếp nhận đặt chỗ (nhà hàng/khách sạn)",
+      "phase": 2,
+      "chapter": "第2章 - 9",
+      "page": 86,
+      "topics": [
+        "「〜でございます」 — dạng lịch sự cao của です",
+        "「承ります」 — tiếp nhận yêu cầu",
+        "「〜でいらっしゃいます」 — sonkeigo của です",
+        "「お/ご〜になれます」 — biểu hiện khả năng kính ngữ",
+        "「お/ご〜いただけます」",
+        "「〜になさいますか」 — hỏi lựa chọn",
+        "「〜(さ)せていただきます」"
+      ],
+      "estimatedMinutes": 40,
+      "status": "todo"
+    },
+    {
+      "id": "L11",
+      "order": 11,
+      "title": "サービスの敬語",
+      "titleVi": "Kính ngữ ngành dịch vụ (cửa hàng/quầy)",
+      "phase": 2,
+      "chapter": "第2章 - 10",
+      "page": 94,
+      "topics": [
+        "「お/ご〜になりましたら」 — sau khi quý khách...",
+        "「お/ご〜くださいませ」 — xin quý khách... (cực lịch sự)",
+        "短くした敬語の形 — keigo rút gọn trong dịch vụ",
+        "サービスでよく使われる表現 (お待たせしました / かしこまりました)",
+        "「けっこうです」 — sắc thái OK / từ chối"
+      ],
+      "estimatedMinutes": 35,
+      "status": "todo"
+    },
+    {
+      "id": "L12",
+      "order": 12,
+      "title": "相談を受ける",
+      "titleVi": "Tiếp nhận tư vấn / Đưa lời khuyên",
+      "phase": 2,
+      "chapter": "第2章 - 11",
+      "page": 100,
+      "topics": [
+        "希望や好みを聞く — hỏi nguyện vọng/sở thích",
+        "提案する・勧める — đề xuất / khuyên",
+        "「ご存知ですか」 ↔ 「存じております」「存じ上げております」 (knowing - người/vật)",
+        "「ご〜です」 — sonkeigo dạng です"
+      ],
+      "estimatedMinutes": 35,
+      "status": "todo"
+    },
+    {
+      "id": "L13",
+      "order": 13,
+      "title": "スピーチをする",
+      "titleVi": "Phát biểu / Diễn thuyết trước nhiều người",
+      "phase": 2,
+      "chapter": "第2章 - 12",
+      "page": 108,
+      "topics": [
+        "スピーチを始める — câu mở đầu (皆様, 〜について)",
+        "聞いている人たちに問いかける — hỏi tương tác với khán giả",
+        "説明する — cách trình bày nội dung",
+        "スピーチを終える — câu kết",
+        "スピーチでよく使うことば (ですから / ご存じのように)"
+      ],
+      "estimatedMinutes": 40,
+      "status": "todo"
+    },
+    {
+      "id": "L14",
+      "order": 14,
+      "title": "面接を受ける",
+      "titleVi": "Đi phỏng vấn (xin việc / nhập học)",
+      "phase": 2,
+      "chapter": "第2章 - 13",
+      "page": 116,
+      "topics": [
+        "「〜でまいりました」 — giới thiệu đã đến từ đâu",
+        "「〜でございます」 — tự giới thiệu siêu lịch sự",
+        "面接でよく使うていねいな言い方 — cụm thường dùng",
+        "Cách trả lời câu hỏi 志望動機 / 自己PR bằng keigo"
+      ],
+      "estimatedMinutes": 40,
+      "status": "todo"
+    },
+    {
+      "id": "L15",
+      "order": 15,
+      "title": "電話の敬語",
+      "titleVi": "Kính ngữ điện thoại",
+      "phase": 2,
+      "chapter": "第2章 - 14",
+      "page": 124,
+      "topics": [
+        "「(社名)+の(名前)+と申しますが」 — chuẩn mở thoại business",
+        "取り次ぎでよく使うことば — chuyển máy",
+        "留守番電話に応えるとき — đáp khi gặp máy trả lời tự động",
+        "留守番電話のメッセージ — để lại lời nhắn"
+      ],
+      "estimatedMinutes": 40,
+      "status": "todo"
+    },
+    {
+      "id": "L16",
+      "order": 16,
+      "title": "インタビューをする",
+      "titleVi": "Phỏng vấn chủ động (đi hỏi người khác)",
+      "phase": 2,
+      "chapter": "第2章 - 15",
+      "page": 132,
+      "topics": [
+        "用件を伝える — nói rõ mục đích",
+        "相手の話を広げる — đào sâu câu chuyện đối phương",
+        "答えにくい質問に答える — trả lời câu khó",
+        "確認したいとき — câu xác nhận lại",
+        "「お忙しい中、わざわざ〜いただいて…」"
+      ],
+      "estimatedMinutes": 35,
+      "status": "todo"
+    },
+    {
+      "id": "L17",
+      "order": 17,
+      "title": "報告をする",
+      "titleVi": "Báo cáo (kết quả/sự cố)",
+      "phase": 2,
+      "chapter": "第2章 - 16",
+      "page": 138,
+      "topics": [
+        "まず、ひと言で報告する — báo gọn một câu trước",
+        "順を追って報告する — báo theo trình tự",
+        "「このようなトラブルがあって…」 — báo sự cố",
+        "感想を言う — nêu cảm nhận"
+      ],
+      "estimatedMinutes": 35,
+      "status": "todo"
+    },
+    {
+      "id": "L18",
+      "order": 18,
+      "title": "司会の敬語",
+      "titleVi": "Kính ngữ MC / Người điều phối",
+      "phase": 2,
+      "chapter": "第2章 - 17",
+      "page": 146,
+      "topics": [
+        "「〜中、お集まりいただきまして」 — mở đầu cảm ơn",
+        "「ご質問がおありでしたら」 — mời đặt câu hỏi",
+        "報告を伝える — truyền đạt thông báo",
+        "感想を聞く — hỏi cảm nhận khán giả",
+        "「私、本日の司会を務めます〜と申します」"
+      ],
+      "estimatedMinutes": 35,
+      "status": "todo"
+    },
+    {
+      "id": "L19",
+      "order": 19,
+      "title": "メールの敬語",
+      "titleVi": "Kính ngữ email",
+      "phase": 2,
+      "chapter": "第2章 - 18",
+      "page": 154,
+      "topics": [
+        "メールの基本的なスタイル — cấu trúc chuẩn (件名/宛先/挨拶/本文/結び)",
+        "情報を伝える — truyền thông tin",
+        "同じ内容を口頭とメールでどう変えるか — khác biệt nói vs viết",
+        "メールでよく使われる表現 (お世話になっております / 何卒よろしく / 取り急ぎ)"
+      ],
+      "estimatedMinutes": 40,
+      "status": "todo"
+    },
+    {
+      "id": "L20",
+      "order": 20,
+      "title": "だんだん敬語をとる",
+      "titleVi": "Giảm dần kính ngữ — khi quan hệ thân thiết hơn",
+      "phase": 3,
+      "chapter": "第3章",
+      "page": 161,
+      "topics": [
+        "Khi nào nên giảm keigo (sau bao lâu quen, mức nào thân)",
+        "Cách chuyển từ formal sang semi-casual mượt mà",
+        "Tránh quá formal khi đối phương đã thoải mái",
+        "Tránh quá casual với người khách / cấp trên",
+        "Đọc tình huống để chọn level đúng"
+      ],
+      "estimatedMinutes": 30,
+      "status": "todo"
+    },
+    {
+      "id": "L21",
+      "order": 21,
+      "title": "付録: 役割カード",
+      "titleVi": "Phụ lục: Role Cards — Thẻ đóng vai luyện hội thoại",
+      "phase": 4,
+      "chapter": "付録 1",
+      "page": 168,
+      "topics": [
+        "Thẻ tình huống đóng vai (luyện cặp đôi)",
+        "Dùng kèm các bài Chapter 2 để practice"
+      ],
+      "estimatedMinutes": 20,
+      "status": "todo",
+      "type": "reference"
+    },
+    {
+      "id": "L22",
+      "order": 22,
+      "title": "付録: 敬語動詞の表",
+      "titleVi": "Phụ lục: Bảng động từ keigo (sonkeigo / kenjougo)",
+      "phase": 4,
+      "chapter": "付録 2",
+      "page": 176,
+      "topics": [
+        "Bảng tra cứu: 食べる → 召し上がる / いただく",
+        "Các động từ có dạng đặc biệt (irregular keigo)",
+        "Phân biệt sonkeigo vs kenjougo từng cặp"
+      ],
+      "estimatedMinutes": 20,
+      "status": "todo",
+      "type": "reference"
+    },
+    {
+      "id": "L23",
+      "order": 23,
+      "title": "付録: よく使う改まった言い方",
+      "titleVi": "Phụ lục: Cụm trang trọng hay dùng (formal speech)",
+      "phase": 4,
+      "chapter": "付録 3",
+      "page": 177,
+      "topics": [
+        "今日 → 本日 / 昨日 → 昨日(さくじつ) / 明日 → 明日(みょうにち)",
+        "Cụm văn thư trang trọng",
+        "Tương đương formal của từ thường dùng"
+      ],
+      "estimatedMinutes": 15,
+      "status": "todo",
+      "type": "reference"
+    },
+    {
+      "id": "L24",
+      "order": 24,
+      "title": "付録: 会話のスタイル別表現リスト",
+      "titleVi": "Phụ lục: List cụm theo style hội thoại (casual → formal)",
+      "phase": 4,
+      "chapter": "付録 4",
+      "page": 182,
+      "topics": [
+        "So sánh cùng nội dung qua các style: タメ口 / 丁寧 / 敬語",
+        "Áp dụng vào tình huống cụ thể",
+        "Index nhanh khi tra cứu khi viết/nói"
+      ],
+      "estimatedMinutes": 15,
+      "status": "todo",
+      "type": "reference"
+    }
+  ]
+}

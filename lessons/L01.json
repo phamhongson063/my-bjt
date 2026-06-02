@@ -1,0 +1,339 @@
+{
+  "id": "L01",
+  "order": 1,
+  "title": "敬語への入り口",
+  "titleVi": "Vào cửa kính ngữ — Nền tảng 3 loại keigo",
+  "level": "初級修了 (post-N4 → N3)",
+  "phase": "第1章: 敬語への入り口",
+  "estimatedMinutes": 40,
+  "intro": "Chương 1 — chương dạo đầu trước khi vào 18 bài tình huống ở Chương 2. Sau chương này bạn sẽ trả lời được: 敬語 là gì và tại sao có nó? 3 nhóm keigo khác nhau ra sao? Khi nào dùng nhóm nào? ウチ vs ソト là gì? Cùng 1 nội dung sẽ thay đổi thế nào qua 3 phong cách 敬語/ですます/友達?",
+  "intro_jp": "第1章は、第2章「場面別敬語トレーニング」に入る前の入り口です。この章では、敬語とは何か、どうして敬語があるのか、3つのグループ(尊敬語・謙譲語・ていねい語)はどう違うのか、ウチとソトの考え方、そして3つの会話のスタイル(敬語スタイル・ですますスタイル・友達スタイル)について学びます。",
+  "sections": [
+    {
+      "type": "tips",
+      "title": "🌏 どうして敬語がある? — Vì sao có kính ngữ? (trang 14)",
+      "content": "📜 Lịch sử:\nNgày xưa Nhật có 身分制度 (chế độ giai cấp) — sinh ra giai cấp nào thì cả đời ở giai cấp đó. Keigo ban đầu là công cụ ngôn ngữ duy trì chế độ ấy. Tuy nhiên, với 明治維新 (Minh Trị Duy Tân) bắt đầu cuối những năm 1860, chế độ giai cấp dần thay đổi. Bây giờ keigo được dùng theo: 人間関係の親疎 (độ thân/sơ trong quan hệ) và 社会的立場 (vị thế xã hội — tuổi, địa vị xã hội, kinh nghiệm).\n\n✅ Lợi ích:\nDùng keigo → giao tiếp suôn sẻ. Vì keigo biểu đạt rõ ràng sự quan tâm tới đối phương và tôn trọng vị thế xã hội — thông qua ngữ pháp và từ vựng. Ngược lại, dùng SAI keigo có thể bị HIỂU NHẦM là không quan tâm đối phương.\n\n💭 Lầm tưởng:\nCó người nói \"có keigo thì quan hệ con người trở nên xa cách\". Nhưng keigo là công cụ rất tiện để biểu đạt sự quan tâm và kính trọng. Hơn nữa, phong cách hội thoại không chỉ có 「敬語スタイル」 mà còn có 「ですますスタイル」 và 「友達スタイル」 (xem p.18). Biết phân chia khéo léo 3 phong cách này → có thể biểu đạt cả sự thân thiết, cả việc coi nhau như bạn — qua chính ngôn ngữ mình dùng.\n\n敬語の世界へようこそ! Chào mừng bạn đến với thế giới của keigo — chúng ta cùng học nhé.",
+      "content_jp": "日本には身分制度があって、生まれたときの身分は、一生変えることができませんでした。敬語は、初めは身分制度を支えることばとして使われていました。しかし、1860年代後半に始まった明治維新で、この身分制度がだんだん変わりました。今では、人間関係の親疎(どのくらい親しいか)や社会的立場(年齢や社会での地位や経験のどのくらい違うか)によって、敬語が使われるようになりました。\n\n敬語を使うと、コミュニケーションがうまく行きます。それは、相手への配慮や社会的立場の尊重を、文法や語彙ではっきり表すことができるからです。ただし、反対に正しく使えないと、相手を配慮していないと誤解される可能性があるとも言えます。\n\n「敬語があると人間関係が遠くなってしまう」という人もいます。でも、敬語は、相手への配慮と尊敬をわかりやすく表現できる、とても便利な道具です。また、会話のスタイルは「敬語スタイル」だけではなくて、「ですますスタイル」や「友達スタイル」もあります(p.18)。これらを上手に使い分けることができれば、相手への親しみを表し、友達だと思っていることを、ことばの中に含めて、伝えることができます。\n\n敬語の世界へようこそ! これからいっしょに学びましょう。"
+    },
+    {
+      "type": "vocab",
+      "title": "👀 どんなとき? だれに? — Khi nào dùng? Với ai? (trang 15-16)",
+      "intro": "Ngoài khi nói chuyện 1-1, đôi khi keigo còn được dùng khi nói với cả ĐÁM ĐÔNG.\n\nĐặc biệt, dù không có đối tượng cụ thể để kính trọng, vẫn dùng sonkeigo hoặc kenjougo như cách dùng ていねい語 — để làm bầu không khí cả câu nói trở nên trang trọng.\n\n📌 Dưới đây là 7 ví dụ keigo từ đời sống hằng ngày (trang 15-16): 4 cụm giao tiếp thường ngày (nhân viên, thu ngân, taxi, nhà hàng) + 2 thông báo công cộng (nhà ga, cửa hàng) + 1 lời mở đầu thư.\n\nChúng ta đang nghe và thấy keigo ở rất nhiều nơi đấy.",
+      "intro_jp": "敬語は一対一で話すとき以外にも、ときどき、大勢の人に対して使われるときもあります。\n\n特に、敬語の対象がなくても、尊敬語や謙譲語をていねい語のように使って、ことば全体の雰囲気をていねいにすることがあります。\n\n(私たちはいろいろなところで敬語を聞いたり見たりしていますね。)",
+      "items": [
+        {
+          "jp": "どうぞ、おかけください",
+          "kana": "どうぞ、おかけください",
+          "audio": "asset/audio/Track1-02.mp3",
+          "audioStart": 7,
+          "audioEnd": 11,
+          "image": "images/L01/okake-kudasai.jpg",
+          "vi": "Mời quý khách ngồi ạ (nhân viên mời khách ngồi xuống ghế)",
+          "note": "「おかけください」 là sonkeigo của 「かけてください」. Bạn có thể nghĩ \"gọi điện thoại à?\" — nhưng ở đây 「いすに座る」 (ngồi xuống ghế) cũng nói là 「いすにかける」. → Pattern 「お/ご～ください」 được học chi tiết ở p.23 (L02, 1課).",
+          "note_jp": "「おかけください」は「かけてください」の尊敬語です。「電話をかけるんですか?」と思うかもしれませんね。でも「いすに座る」ことを「いすにかける」と言います。 → p.23 1課「お/ご～ください」",
+          "exampleJp": "尊敬語 (sonkeigo / honorific word)",
+          "exampleVi": "Tôn kính ngữ — dùng cho hành động của ĐỐI PHƯƠNG (khách ngồi xuống = khách làm)."
+        },
+        {
+          "jp": "1,000円おあずかりします",
+          "kana": "せんえん おあずかりします",
+          "audio": "asset/audio/Track1-02.mp3",
+          "audioStart": 11,
+          "audioEnd": 15,
+          "image": "images/L01/oazukari.jpg",
+          "vi": "Tôi xin nhận 1,000 yên ạ (thu ngân nhận tiền khách)",
+          "note": "「おあずかりします」 là kenjougo của 「あずかります」. → Pattern 「お/ご～します」 được học chi tiết ở p.34 (L03, 2課).",
+          "note_jp": "「おあずかりします」は「あずかります」の謙譲語です。 → p.34 2課「お/ご～します」",
+          "exampleJp": "謙譲語 (kenjougo / humble word)",
+          "exampleVi": "Khiêm nhường ngữ — dùng cho hành động của MÌNH (nhân viên \"nhận\" tiền khách)."
+        },
+        {
+          "jp": "どちらまで行かれますか",
+          "kana": "どちらまで いかれますか",
+          "audio": "asset/audio/Track1-02.mp3",
+          "audioStart": 15,
+          "audioEnd": 19,
+          "image": "images/L01/ikaremasu.jpg",
+          "vi": "Anh/chị đi đến đâu ạ? (tài xế taxi hỏi khách)",
+          "note": "「行かれます」 là sonkeigo của 「行きます」. → かんたん尊敬語 (dạng れる/られる) được học chi tiết ở p.24 (L02, 1課).",
+          "note_jp": "「行かれます」は「行きます」の尊敬語です。 → p.24 1課 かんたん尊敬語",
+          "exampleJp": "尊敬語 (かんたん尊敬語 — dạng れる/られる)",
+          "exampleVi": "Tôn kính ngữ dạng đơn giản — gắn れる/られる vào động từ."
+        },
+        {
+          "jp": "ご注文はお決まりですか",
+          "kana": "ごちゅうもんは おきまりですか",
+          "audio": "asset/audio/Track1-02.mp3",
+          "audioStart": 19,
+          "audioEnd": 22,
+          "image": "images/L01/okimari.jpg",
+          "vi": "Quý khách đã quyết định gọi món chưa ạ? (nhân viên nhà hàng)",
+          "note": "「ご(注文)」 là ていねい語. 「お決まりですか」 là sonkeigo có nghĩa 「決まっていますか」 (dạng rút gọn). → Pattern 短くした敬語の形 được học chi tiết ở p.95 (L11, 10課).",
+          "note_jp": "「ご(注文)」は「(注文)」のていねい語です。「お決まりですか」は「決まっていますか」の意味の尊敬語です。 → p.95 10課 短くした敬語の形",
+          "exampleJp": "ていねい語 + 尊敬語",
+          "exampleVi": "Lịch sự ngữ + tôn kính ngữ kết hợp trong cùng 1 câu."
+        },
+        {
+          "jp": "まもなく一番線に湘南新宿ライン、平塚行きがまいります。黄色い線の内側にお下がりください",
+          "audio": "asset/audio/Track1-02.mp3",
+          "audioStart": 22,
+          "audioEnd": 35,
+          "image": "images/L01/16_1.png",
+          "kana": "まもなく いちばんせんに しょうなんしんじゅくライン、ひらつかゆきが まいります。きいろい せんの うちがわに おさがりください",
+          "vi": "Thông báo nhà ga (Sắp tới, tuyến Shounan-Shinjuku hướng Hiratsuka sẽ đến đường ray số 1. Quý khách đứng vào phía trong vạch vàng ạ).",
+          "note": "「まいります」 = kenjougo của 「行く」. Ở đây nghĩa: tàu của công ty CHÚNG TÔI (ウチ) sẽ đi đến nơi quý khách (ソト) đang đứng. Đối tượng kính trọng cụ thể KHÔNG có — nhưng vẫn dùng kenjougo để cả thông báo nghe trang trọng với khách. 「お下がりください」 = sonkeigo (yêu cầu khách lùi lại).",
+          "note_jp": "この「まいります」は、「私たちの会社が運行している電車が、お客さんがいる場所に行きます」の意味で、使っています。",
+          "exampleJp": "謙譲語 (まいる) + 尊敬語 (お下がりください)",
+          "exampleVi": "Tàu là ウチ → kenjougo. Hành động của khách (lùi/đứng) → sonkeigo."
+        },
+        {
+          "jp": "本日もさくらデパートにご来店いただきまして、まことにありがとうございます。お客様にご案内申し上げます。ただいま7階におきまして、九州、秋の特別展を開催中でございます。どうぞご来場ください",
+          "audio": "asset/audio/Track1-02.mp3",
+          "audioStart": 35,
+          "audioEnd": 57,
+          "image": "images/L01/16_2.png",
+          "kana": "ほんじつも さくらデパートに ごらいてん いただきまして、まことに ありがとうございます。おきゃくさまに ごあんない もうしあげます。ただいま ななかいに おきまして、きゅうしゅう、あきの とくべつてんを かいさいちゅうで ございます。どうぞ ごらいじょう ください",
+          "vi": "Thông báo trong cửa hàng Sakura (Cảm ơn quý khách hôm nay đã ghé thăm. Xin thông báo: tầng 7 đang có triển lãm đặc biệt mùa thu Kyushu. Mời quý khách ghé thăm ạ).",
+          "note": "Hàng loạt 改まった言い方 + keigo các nhóm được dùng để làm cả thông báo trang trọng với khách hàng. Đối chiếu từng cụm:\n• 本日 = 今日\n• 来店する = 店に来る\n• まことに = 本当に\n• ご案内申し上げます = 知らせます\n• ただいま = 今\n• 〜におきまして = 〜で\n• 〜でございます = 〜です\n• 来場する = 会場に来る",
+          "note_jp": "「本日」=「今日」, 「来店する」=「店に来る」, 「まことに」=「本当に」, 「ご案内申し上げます」=「知らせます」, 「ただいま」=「今」, 「〜におきまして」=「〜で」, 「〜でございます」=「〜です」, 「来場する」=「会場に来る」",
+          "exampleJp": "ていねい語 + 尊敬語 + 謙譲語 + 改まった言い方 (tổng hợp)",
+          "exampleVi": "Tổng hợp nhiều nhóm keigo + cách nói trang trọng → tạo bầu không khí kính trọng tổng thể."
+        },
+        {
+          "jp": "だんだん寒くなってまいりました",
+          "kana": "だんだん さむくなって まいりました",
+          "vi": "Trời ngày càng trở lạnh ạ. (Lời mở đầu thư — 手紙の最初のあいさつ)",
+          "note": "「まいる」 trong thư KHÔNG phải để kính trọng ai cụ thể — mà để tạo ấn tượng tốt với người đọc. Cả câu nghe trang trọng → người đọc cảm thấy được tôn trọng.",
+          "note_jp": "このように手紙に書くこともありますが、これも誰かに敬語を使っているというわけではなくて、読んでいる人に印象がよくなるようにしているのです。",
+          "exampleJp": "謙譲語 (まいる) — dùng để \"tạo bầu không khí\"",
+          "exampleVi": "Không có đối tượng cụ thể — mục đích là sự trang trọng tổng thể với người đọc."
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 敬語のグループ — 3 nhóm keigo (trang 17)",
+      "items": [
+        {
+          "pattern": "① 尊敬語グループ",
+          "patternVi": "Tôn kính ngữ",
+          "explanation": "Dùng cho hành động của ĐỐI PHƯƠNG. NÂNG đối phương lên, biểu thị kính trọng TRỰC TIẾP.",
+          "explanation_jp": "相手のすることに使う。相手を高めて、直接的に敬意を表す。",
+          "examples": [
+            { "jp": "「お/ご〜になります」", "vi": "Mẫu sonkeigo chuẩn" },
+            { "jp": "「いらっしゃいます」", "vi": "(Ngài) đến / đi / có mặt" },
+            { "jp": "「書かれる」", "vi": "(Anh) viết (dạng れる/られる)" },
+            { "jp": "など", "vi": "v.v." }
+          ]
+        },
+        {
+          "pattern": "② 謙譲語グループ",
+          "patternVi": "Khiêm nhường ngữ",
+          "explanation": "Dùng cho hành động của MÌNH hướng tới người trên. HẠ mình xuống, biểu thị kính trọng GIÁN TIẾP.",
+          "explanation_jp": "自分が目上に対してすることに使う。自分を低めて、間接的に敬意を表す。",
+          "examples": [
+            { "jp": "「お/ご〜します」", "vi": "Mẫu kenjougo chuẩn" },
+            { "jp": "「拝見します」", "vi": "Tôi xem (kenjougo của 見る)" },
+            { "jp": "など", "vi": "v.v." }
+          ]
+        },
+        {
+          "pattern": "③ ていねい語グループ",
+          "patternVi": "Lịch sự ngữ",
+          "explanation": "Làm bầu không khí cả câu nghe lịch sự. Cả câu nghe trang trọng đối với người nghe.",
+          "explanation_jp": "ことば全体の雰囲気をていねいにする。文全体が、聞いている人にとってていねいに聞こえるようにする。",
+          "examples": [
+            { "jp": "「です」「ます」", "vi": "Hậu tố lịch sự cơ bản" },
+            { "jp": "「〜でございます」", "vi": "Dạng lịch sự cao của です" },
+            { "jp": "「お手紙」「ご連絡」", "vi": "Chữ お/ご thẩm mỹ trước danh từ" },
+            { "jp": "など", "vi": "v.v." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "📌 Footnote sách: 3 nhóm vs 5 nhóm + 改まった言い方",
+      "content": "🔢 3 NHÓM vs 5 NHÓM:\nGần đây có cách chia 謙譲語 và 丁寧語 mỗi loại thành 2, để thành 5 nhóm — đây là tinh thần của 文化庁 文化審議会答申2006『敬語の指針』. Tuy nhiên sách này dùng cách chia 3 NHÓM.\n\n📖 改まった言い方:\nKhi nói với 目上の人 (người trên), thay vì 「あした」「友達」 thì có khi nói 「あす」「友人」. Sách này gọi cách nói như vậy là 「改まった言い方」 (formal speech).",
+      "content_jp": "※ 最近、謙譲語と丁寧語をそれぞれ2つに分けて5つのグループにする考え方(文化庁 文化審議会答申2006『敬語の指針』)もありますが、この本では3つのグループを使います。\n\n目上の人に話すときには「あした」「友達」と言わないで、「あす」「友人」と言ったりすることもあります。これを、この本では「改まった言い方」と呼びます。"
+    },
+    {
+      "type": "reading",
+      "title": "🎭 会話のスタイル — 3 phong cách (trang 18)",
+      "passage": "次の会話を、敬語に注意して読んでみましょう。\n\n【一番上】\nA: あの、申し訳ありませんが、水曜日にクラスを休んでしまいましたので、プリントをコピーさせていただけませんか。\nB: ええ、いいですよ。あとでコピーしてお渡ししますね。\nA: ありがとうございます。\n\n【真ん中】\nA: あの、すみませんが、水曜日にクラスを休んでしまったから、プリントをコピーさせてもらえませんか。\nB: ええ、いいですよ。あとでコピーして渡しますね。\nA: ありがとうございます。\n\n【一番下】\nA: ねえ、悪いけど、水曜日にクラスを休んじゃったから、プリント、コピーさせてもらえない?\nB: うん、いいよ。あとでコピーして渡すね。\nA: ありがとう。\n\nこの本では、一番上を「敬語スタイル」、真ん中を「ですますスタイル」、一番下を「友達スタイル」と言います。同じ意味の会話でも、人間関係に合わせてスタイルを変えると、表現が豊かになります。\n\n→ p.161 だんだん敬語をとる",
+      "passageVi": "Hãy đọc các đoạn hội thoại sau, chú ý keigo.\n\n【Trên cùng】\nA: Dạ, xin lỗi, em đã nghỉ lớp hôm thứ Tư, em xin phép được copy bản in được không ạ?\nB: Vâng, được chứ. Tôi sẽ copy và đưa cho em sau.\nA: Em cảm ơn ạ.\n\n【Giữa】\nA: Ờ, xin lỗi, vì hôm thứ Tư em nghỉ lớp, có thể cho em copy bản in không?\nB: Vâng, được chứ. Tôi sẽ copy và đưa cho em sau.\nA: Cảm ơn.\n\n【Dưới cùng】\nA: Này, ngại quá, hôm thứ Tư nghỉ lớp rồi, cho mượn copy bản in được không?\nB: Ờ, được. Tý copy đưa nha.\nA: Cảm ơn.\n\nSách gọi đoạn trên cùng là 「敬語スタイル」, ở giữa là 「ですますスタイル」, dưới cùng là 「友達スタイル」. Cùng một nội dung nhưng đổi phong cách theo quan hệ giữa người với người → biểu đạt trở nên phong phú.",
+      "questions": [
+        {
+          "q": "この本では、一番上のスタイルを何と呼びますか。",
+          "qVi": "Sách gọi phong cách trên cùng (đoạn 1) là gì?",
+          "options": [
+            { "jp": "敬語スタイル", "vi": "Phong cách kính ngữ" },
+            { "jp": "ですますスタイル", "vi": "Phong cách lịch sự cơ bản" },
+            { "jp": "友達スタイル", "vi": "Phong cách bạn bè" },
+            { "jp": "公式スタイル", "vi": "Phong cách công thức (không có trong sách)" }
+          ],
+          "answer": 0,
+          "explanation": "Sách viết: \"一番上を「敬語スタイル」、真ん中を「ですますスタイル」、一番下を「友達スタイル」と言います。\"",
+          "explanation_jp": "本に「一番上を『敬語スタイル』、真ん中を『ですますスタイル』、一番下を『友達スタイル』と言います」と書いてあります。"
+        },
+        {
+          "q": "「コピーさせていただけませんか」と「コピーさせてもらえませんか」の違いは、どのレベルの違いですか。",
+          "qVi": "Khác biệt giữa「いただけませんか」 và 「もらえませんか」 là gì?",
+          "options": [
+            { "jp": "敬語スタイル vs ですますスタイル", "vi": "Kính ngữ vs lịch sự cơ bản — いただく là kenjougo, もらう là động từ thường" },
+            { "jp": "ですますスタイル vs 友達スタイル", "vi": "Lịch sự cơ bản vs bạn bè" },
+            { "jp": "意味が違う", "vi": "Nghĩa khác nhau" },
+            { "jp": "違いはない", "vi": "Không khác" }
+          ],
+          "answer": 0,
+          "explanation": "「いただく」 là kenjougo (khiêm nhường) của 「もらう」. Vì vậy 「させていただけませんか」 thuộc 敬語スタイル, còn 「させてもらえませんか」 thuộc ですますスタイル.",
+          "explanation_jp": "「いただく」は「もらう」の謙譲語です。だから「させていただけませんか」は敬語スタイル、「させてもらえませんか」はですますスタイルになります。"
+        },
+        {
+          "q": "本の説明によると、スタイルを変える目的は何ですか。",
+          "qVi": "Theo sách, mục đích của việc đổi phong cách là gì?",
+          "options": [
+            { "jp": "文法を練習するため", "vi": "Để luyện ngữ pháp" },
+            { "jp": "人間関係に合わせて表現を豊かにするため", "vi": "Để biểu đạt phong phú theo quan hệ giữa người với người" },
+            { "jp": "敬語が苦手な人に配慮するため", "vi": "Để tránh cho người không quen keigo" },
+            { "jp": "短く話すため", "vi": "Để nói ngắn gọn" }
+          ],
+          "answer": 1,
+          "explanation": "Sách viết: \"同じ意味の会話でも、人間関係に合わせてスタイルを変えると、表現が豊かになります。\"",
+          "explanation_jp": "本に「同じ意味の会話でも、人間関係に合わせてスタイルを変えると、表現が豊かになります」と書いてあります。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "🏢 ウチとソト — Quy tắc Trong/Ngoài (trang 19)",
+      "scene": "Quy tắc quan trọng của 敬語 Nhật: khi nói với ソト (người ngoài nhóm) về một người ウチ (người trong nhóm), KHÔNG dùng sonkeigo về người ウチ đó. ウチ = gia đình, đồng nghiệp, người cùng nhóm.",
+      "image": "images/L01/uchi-soto.jpg",
+      "imageAlt": "ソト(外) vs ウチ(内): khách (ソト) gọi điện đến công ty, nhân viên Alex (ウチ) trả lời thay sếp 金子部長 đang họp.",
+      "imageCaption": "Minh hoạ trang 19 — bên trái: ソト (khách gọi đến). Bên phải: ウチ (công ty mình — Alex trả lời điện thoại, 金子部長 và đồng nghiệp đang họp).",
+      "lines": [
+        { "speaker": "—", "jp": "〈取引先の人との電話〉", "vi": "(Điện thoại với khách hàng — ví dụ ĐÚNG)" },
+        { "speaker": "取引先 (ソト)", "jp": "金子部長、いらっしゃいますか。", "vi": "Anh trưởng phòng Kaneko có ở đó không ạ?" },
+        { "speaker": "アレックス (ウチ)", "jp": "金子はただいま会議に出ております。3時に終わる予定ですので、そのころご連絡させます。", "vi": "Kaneko hiện đang dự họp ạ. Dự kiến kết thúc 3 giờ, lúc đó tôi sẽ cho [anh ấy] liên lạc lại ạ." },
+        { "speaker": "✗ 間違い例", "jp": "金子部長はただいま会議に出ていらっしゃいます。", "vi": "(SAI — vẫn dùng chức 部長 + sonkeigo いらっしゃる về sếp mình với khách)" },
+        { "speaker": "✗ 間違い例", "jp": "3時に終わる予定ですので、そのころお電話していただきます。", "vi": "(SAI — dùng いただく kiểu lạ; câu này hàm ý \"tôi sẽ NHẬN được điện thoại từ anh\" — không tự nhiên ở đây)" },
+        { "speaker": "—", "jp": "〈家族の呼び方〉", "vi": "(Cách gọi người trong gia đình)" },
+        { "speaker": "A (ソト)", "jp": "お父様はお元気でいらっしゃいますか。", "vi": "Ba của anh/chị có khoẻ không?" },
+        { "speaker": "B (家族の話)", "jp": "はい、父は元気でおります。", "vi": "Vâng, ba tôi khoẻ ạ." },
+        { "speaker": "A (ソト — 新宿区役所)", "jp": "こちら新宿区役所ですが、お母様、いらっしゃいますか。", "vi": "Đây là UBND quận Shinjuku, mẹ của anh/chị có ở đó không ạ?" },
+        { "speaker": "B (家族の話)", "jp": "母は出かけております。", "vi": "Mẹ tôi đi vắng ạ." }
+      ],
+      "vocabHighlight": [
+        "Khi gọi VỀ người ウチ (mình + nhóm mình) với người ソト: KHÔNG dùng sonkeigo",
+        "→ Bỏ chức danh (部長/課長/さん) + dùng kenjougo (おる, まいる…) khi tự nhắc về ウチ",
+        "→ Sách viết: 「『ソト』の人に『ウチ』の人のことを話すときは、尊敬語を使いません」",
+        "Quy tắc áp dụng cho: 家族, 同じ会社の人, 同じグループの人"
+      ],
+      "note": "Phần này được học chi tiết ở [L15 電話の敬語] (trang 124, 14課).",
+      "note_jp": "日本語の敬語で、大切なルールがあります。「ソト」の人に「ウチ」の人のことを話すときは、尊敬語を使いません。ウチの人は、家族や、同じ会社の人、同じグループの人です。 → p.124 14課 電話の敬語"
+    },
+    {
+      "type": "quiz",
+      "title": "✏️ 練習問題 — Bài tập tổng kết",
+      "questions": [
+        {
+          "q": "駅のアナウンス「電車がまいります」 — この「まいる」は何の意味で使っていますか。",
+          "qVi": "Thông báo nhà ga 「電車がまいります」 — まいる ở đây mang nghĩa gì?",
+          "options": [
+            { "jp": "電車に敬意を払う", "vi": "Tỏ lòng kính trọng với tàu" },
+            { "jp": "私たちの会社が運行している電車が、お客さんがいる場所に行く", "vi": "Tàu của công ty (chúng tôi) đi tới nơi khách đang đứng" },
+            { "jp": "「来る」と「行く」の両方の意味", "vi": "Vừa là 来る vừa là 行く" },
+            { "jp": "古い日本語", "vi": "Tiếng Nhật cổ" }
+          ],
+          "answer": 1,
+          "explanation": "Sách giải thích trực tiếp: \"この「まいります」は、「私たちの会社が運行している電車が、お客さんがいる場所に行きます」の意味で、使っています。\"",
+          "explanation_jp": "本に「この『まいります』は、『私たちの会社が運行している電車が、お客さんがいる場所に行きます』の意味で、使っています」と書いてあります。"
+        },
+        {
+          "q": "手紙の「だんだん寒くなってまいりました」 — なぜ「まいる」が使われていますか。",
+          "qVi": "Trong lời mở đầu thư 「だんだん寒くなってまいりました」 — vì sao dùng まいる?",
+          "options": [
+            { "jp": "特定の誰かに敬語を使っている", "vi": "Đang dùng keigo với ai cụ thể" },
+            { "jp": "読んでいる人に印象がよくなるようにしている", "vi": "Để tạo ấn tượng tốt với người đọc" },
+            { "jp": "文法のルール", "vi": "Vì quy tắc ngữ pháp bắt buộc" },
+            { "jp": "古い手紙の習慣", "vi": "Theo phong tục thư cổ" }
+          ],
+          "answer": 1,
+          "explanation": "Sách giải thích: \"これも誰かに敬語を使っているというわけではなくて、読んでいる人に印象がよくなるようにしているのです。\"",
+          "explanation_jp": "本に「これも誰かに敬語を使っているというわけではなくて、読んでいる人に印象がよくなるようにしているのです」と書いてあります。"
+        },
+        {
+          "q": "「お/ご〜になります」「いらっしゃいます」「書かれる」 — これらは何のグループの例ですか。",
+          "qVi": "「お/ご〜になります」「いらっしゃいます」「書かれる」 thuộc nhóm nào?",
+          "options": [
+            { "jp": "尊敬語グループ", "vi": "Tôn kính ngữ" },
+            { "jp": "謙譲語グループ", "vi": "Khiêm nhường ngữ" },
+            { "jp": "ていねい語グループ", "vi": "Lịch sự ngữ" },
+            { "jp": "改まった言い方", "vi": "Cách nói trang trọng" }
+          ],
+          "answer": 0,
+          "explanation": "Sách (trang 17, bảng 敬語のグループ) liệt kê các ví dụ này thuộc 尊敬語グループ.",
+          "explanation_jp": "本の17ページの「敬語のグループ」の表で、これらは尊敬語グループの例として書かれています。"
+        },
+        {
+          "q": "「お/ご〜します」「拝見します」 — これらは何のグループの例ですか。",
+          "qVi": "「お/ご〜します」「拝見します」 thuộc nhóm nào?",
+          "options": [
+            { "jp": "尊敬語グループ", "vi": "Tôn kính ngữ" },
+            { "jp": "謙譲語グループ", "vi": "Khiêm nhường ngữ" },
+            { "jp": "ていねい語グループ", "vi": "Lịch sự ngữ" },
+            { "jp": "改まった言い方", "vi": "Cách nói trang trọng" }
+          ],
+          "answer": 1,
+          "explanation": "Sách (trang 17) liệt kê các ví dụ này thuộc 謙譲語グループ — dùng cho hành động của mình hướng tới người trên.",
+          "explanation_jp": "本の17ページで、これらは謙譲語グループの例として書かれています。自分が目上に対してすることに使います。"
+        },
+        {
+          "q": "「です」「ます」「〜でございます」「お手紙」「ご連絡」 — これらは何のグループの例ですか。",
+          "qVi": "「です」「ます」「〜でございます」「お手紙」「ご連絡」 thuộc nhóm nào?",
+          "options": [
+            { "jp": "尊敬語グループ", "vi": "Tôn kính ngữ" },
+            { "jp": "謙譲語グループ", "vi": "Khiêm nhường ngữ" },
+            { "jp": "ていねい語グループ", "vi": "Lịch sự ngữ" },
+            { "jp": "改まった言い方", "vi": "Cách nói trang trọng" }
+          ],
+          "answer": 2,
+          "explanation": "Sách (trang 17) liệt kê các ví dụ này thuộc ていねい語グループ — làm cả câu nghe trang trọng đối với người nghe.",
+          "explanation_jp": "本の17ページで、これらはていねい語グループの例として書かれています。文全体が、聞いている人にとってていねいに聞こえるようにします。"
+        },
+        {
+          "q": "目上の人に話すとき、「あした」「友達」の代わりに何と言うことがありますか。",
+          "qVi": "Khi nói với người trên, đôi khi thay 「あした」「友達」 bằng từ gì?",
+          "options": [
+            { "jp": "「きょう」「家族」", "vi": "(không liên quan)" },
+            { "jp": "「あす」「友人」", "vi": "(đúng — đây chính là 改まった言い方)" },
+            { "jp": "「明日」「友」", "vi": "(không phải)" },
+            { "jp": "そのまま「あした」「友達」", "vi": "(giữ nguyên)" }
+          ],
+          "answer": 1,
+          "explanation": "Sách (trang 17 footnote): \"目上の人に話すときには「あした」「友達」と言わないで、「あす」「友人」と言ったりすることもあります。これを、この本では「改まった言い方」と呼びます。\"",
+          "explanation_jp": "本の17ページの注に「目上の人に話すときには『あした』『友達』と言わないで、『あす』『友人』と言ったりすることもあります。これを、この本では『改まった言い方』と呼びます」と書いてあります。"
+        },
+        {
+          "q": "取引先の人から電話で「金子部長、いらっしゃいますか」と聞かれました。同じ会社の社員として、どう答えるのが正しいですか。",
+          "qVi": "Khách (取引先) gọi điện hỏi 「金子部長、いらっしゃいますか」. Là nhân viên cùng công ty, bạn đáp thế nào?",
+          "options": [
+            { "jp": "金子部長は会議に出ていらっしゃいます。", "vi": "(sai — vẫn dùng sonkeigo về sếp mình với khách)" },
+            { "jp": "金子は会議に出ております。", "vi": "(đúng — bỏ 部長, dùng kenjougo おる)" },
+            { "jp": "金子部長は会議中です。", "vi": "(sai — vẫn dùng chức 部長)" },
+            { "jp": "金子さんは今会議中でございます。", "vi": "(sai — dùng さん với người ウチ)" }
+          ],
+          "answer": 1,
+          "explanation": "Quy tắc của sách: \"「ソト」の人に「ウチ」の人のことを話すときは、ウチの人は…敬語を使いません\". Sếp mình thuộc ウチ khi đối thoại với ソト → bỏ chức danh + dùng kenjougo おる. Câu mẫu trong sách: 「金子は会議に出ております…」",
+          "explanation_jp": "本のウチとソトのルール:「ソト」の人に「ウチ」の人のことを話すときは、ウチの人について敬語を使いません。ウチの人(部長)について話すので、「部長」を取って、謙譲語の「おる」を使います。本の例:「金子は会議に出ております…」"
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "🎯 Bước tiếp theo",
+      "content": "Chương 1 đã giới thiệu bản đồ keigo (3 nhóm + ウチ/ソト + 3 phong cách). Từ Chương 2 trở đi, sách bắt đầu 18 bài luyện theo tình huống cụ thể.\n\n→ Bài tiếp theo: L02「訪問する」 (p.22) — học mẫu sonkeigo 「お/ご〜ください」 và 「お/ご〜になります」 khi đi thăm khách.",
+      "content_jp": "第1章では、敬語の地図(3つのグループ・ウチとソト・3つの会話のスタイル)を紹介しました。第2章からは、場面別に18の課が始まります。\n\n→ 次は L02「訪問する」(p.22) — 訪問のとき、「お/ご〜ください」「お/ご〜になります」などの尊敬語の文型を学びます。"
+    }
+  ]
+}

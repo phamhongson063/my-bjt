@@ -2,88 +2,524 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>BJT - Bắt đầu học</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BJT - Thống kê</title>
   <style>
-    body { font-family: sans-serif; max-width: 700px; margin: 40px auto; padding: 0 16px; }
+    body { font-family: sans-serif; max-width: 960px; margin: 32px auto; padding: 0 16px; line-height: 1.5; color: #222; }
     h1 { font-size: 22px; }
-    .controls { margin: 20px 0; }
-    select, button { padding: 8px 12px; font-size: 16px; margin-right: 8px; }
-    button { cursor: pointer; }
-    button:disabled { cursor: not-allowed; opacity: 0.5; }
-    #timer { font-size: 36px; font-family: monospace; margin: 20px 0; }
-    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
-    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-    th { background: #f5f5f5; }
+    h2 { font-size: 18px; margin-top: 30px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+    h3 { font-size: 16px; margin-top: 24px; }
     .nav { margin-bottom: 20px; }
     .nav a { color: #0366d6; text-decoration: none; }
-    .row-btn { padding: 2px 6px; font-size: 12px; margin-right: 2px; }
-    th:nth-child(4), td:nth-child(4) { width: 1%; white-space: nowrap; }
+    .user-bar { margin-bottom: 20px; color: #555; font-size: 14px; }
+    .hidden { display: none; }
+    .login-hint { background: #fff3cd; border-left: 4px solid #ffc107; padding: 10px 14px; font-size: 13px; margin: 12px 0; border-radius: 3px; }
+
+    /* Stats cards */
+    .stat-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 20px 0; }
+    .stat-card { background: #f5f5f5; padding: 16px 14px; border-radius: 8px; text-align: center; }
+    .stat-card .label { color: #666; font-size: 13px; }
+    .stat-card .value { font-size: 26px; font-weight: 700; color: #0366d6; margin-top: 6px; font-family: monospace; }
+    .stat-card .sub { color: #888; font-size: 11px; margin-top: 2px; }
+
+    /* Chart */
+    .chart-section { background: #fafafa; border: 1px solid #eee; padding: 16px; border-radius: 8px; margin: 16px 0; }
+    .chart-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px; }
+    .chart-header h2 { margin: 0; border: none; padding: 0; font-size: 16px; }
+    .range-toggle { display: flex; gap: 4px; }
+    .range-toggle button { padding: 4px 10px; border: 1px solid #ddd; background: white; cursor: pointer; font-size: 13px; border-radius: 3px; }
+    .range-toggle button.active { background: #0366d6; color: white; border-color: #0366d6; }
+    .chart { display: flex; gap: 2px; height: 140px; align-items: flex-end; padding: 0 2px; }
+    .bar { flex: 1; min-width: 3px; background: #0366d6; min-height: 2px; border-radius: 2px 2px 0 0; cursor: pointer; transition: background 0.15s; position: relative; }
+    .bar:hover { background: #024ea4; }
+    .bar.empty { background: #e8e8e8; opacity: 0.5; }
+    .bar.today { background: #ffc107; }
+    .bar.today:hover { background: #d39e00; }
+    .chart-labels { display: flex; gap: 2px; padding: 4px 2px 0; font-size: 10px; color: #888; }
+    .chart-labels span { flex: 1; text-align: center; overflow: hidden; white-space: nowrap; }
+    .chart-empty { text-align: center; color: #888; padding: 40px 0; font-style: italic; }
+
+    /* Lesson breakdown table */
+    .lesson-stats { width: 100%; border-collapse: collapse; margin: 12px 0; }
+    .lesson-stats th, .lesson-stats td { padding: 8px 10px; border-bottom: 1px solid #eee; text-align: left; font-size: 14px; }
+    .lesson-stats th { background: #f5f5f5; font-size: 13px; }
+    .lesson-stats .time-col { text-align: right; font-family: monospace; white-space: nowrap; }
+    .lesson-stats .edit-col { text-align: center; white-space: nowrap; }
+    .lesson-stats .check { color: #28a745; font-weight: 700; }
+    .lesson-stats .order { color: #888; font-size: 12px; }
+    .lesson-stats tr.no-time { opacity: 0.5; }
+    .edit-time-btn { background: #f0f4ff; border: 1px solid #b8daff; color: #0366d6; cursor: pointer; padding: 2px 8px; font-size: 12px; border-radius: 3px; margin-left: 6px; }
+    .edit-time-btn:hover { background: #0366d6; color: white; }
+
+    /* Manual timer (existing) */
+    .manual-timer-section { margin-top: 50px; padding-top: 20px; border-top: 2px dashed #ddd; }
+    .controls { margin: 16px 0; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    .controls > label { display: inline-flex; align-items: center; gap: 6px; }
+    select, button { padding: 10px 14px; font-size: 14px; min-height: 40px; }
+    button { cursor: pointer; }
+    button:disabled { cursor: not-allowed; opacity: 0.5; }
+    #timer { font-size: 32px; font-family: monospace; margin: 16px 0; }
+    table.history-table { border-collapse: collapse; width: 100%; margin-top: 14px; }
+    table.history-table th, table.history-table td { border: 1px solid #ccc; padding: 8px; text-align: left; font-size: 13px; }
+    table.history-table th { background: #f5f5f5; }
+    .row-btn { padding: 6px 10px; font-size: 12px; margin-right: 2px; min-height: 32px; min-width: 44px; }
+    table.history-table th:nth-child(4), table.history-table td:nth-child(4) { width: 1%; white-space: nowrap; }
     .edit-btn { background: #eef; border: 1px solid #99f; }
     .remove-btn { background: #fee; border: 1px solid #f99; }
     .save-btn { background: #efe; border: 1px solid #9f9; }
     .cancel-btn { background: #eee; border: 1px solid #999; }
-    td input, td select { padding: 4px; font-size: 14px; }
-    .user-bar { margin-bottom: 20px; color: #555; font-size: 14px; }
-    .hidden { display: none; }
+    td input, td select { padding: 6px; font-size: 13px; min-height: 32px; }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      body { margin: 12px auto; padding: 0 10px; }
+      .stat-cards { grid-template-columns: 1fr 1fr; gap: 8px; }
+      .stat-card .value { font-size: 22px; }
+      .chart { height: 110px; }
+      .chart-labels { font-size: 9px; }
+      .lesson-stats { font-size: 12px; }
+      .lesson-stats th, .lesson-stats td { padding: 6px 4px; }
+      .controls { gap: 6px; }
+      .controls > label { width: 100%; }
+      .controls > label select { flex: 1; }
+      table.history-table { font-size: 12px; }
+      table.history-table th, table.history-table td { padding: 5px; }
+    }
   </style>
 </head>
 <body>
   <div class="nav"><a href="index.html">← Trang chủ</a></div>
-  <h1>Bắt đầu học</h1>
+  <h1>📊 Thống kê giờ học</h1>
 
   <div id="loading">Đang tải...</div>
 
-  <div id="loginRequired" class="hidden">
-    <p>Vui lòng <a href="index.html">đăng nhập</a> để sử dụng.</p>
-  </div>
-
-  <div id="appView" class="hidden">
-    <div class="user-bar">
+  <div id="statsView" class="hidden">
+    <div class="user-bar hidden" id="userBar">
       👤 <span id="userEmail"></span> | <a href="#" id="logoutBtn">Đăng xuất</a>
     </div>
 
-    <div class="controls">
-      <label>Loại:
-        <select id="type">
-          <option value="聴解">聴解 (Nghe hiểu)</option>
-          <option value="聴読解">聴読解 (Nghe + đọc)</option>
-          <option value="読解">読解 (Đọc hiểu)</option>
-        </select>
-      </label>
-      <button id="startBtn">Start</button>
-      <button id="stopBtn" disabled>Stop</button>
+    <div class="login-hint hidden" id="loginHint">
+      ⚠️ Chưa đăng nhập — chỉ hiển thị data lưu local trên máy này. <a href="index.html">Đăng nhập</a> để đồng bộ qua nhiều thiết bị.
     </div>
 
-    <div id="timer">00:00:00</div>
+    <div class="stat-cards">
+      <div class="stat-card">
+        <div class="label">Tổng giờ học</div>
+        <div class="value" id="totalTime">0h</div>
+        <div class="sub" id="totalSub">tất cả các bài</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Hôm nay</div>
+        <div class="value" id="todayTime">0m</div>
+        <div class="sub" id="todaySub">&nbsp;</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">🔥 Streak</div>
+        <div class="value" id="streak">0</div>
+        <div class="sub">ngày liên tiếp</div>
+      </div>
+    </div>
 
-    <h2 style="font-size: 18px; margin-top: 60px;">Lịch sử học</h2>
-    <table>
+    <div class="chart-section">
+      <div class="chart-header">
+        <h2>📅 Giờ học theo ngày</h2>
+        <div class="range-toggle">
+          <button data-days="7">7 ngày</button>
+          <button data-days="30" class="active">30 ngày</button>
+          <button data-days="90">90 ngày</button>
+        </div>
+      </div>
+      <div class="chart" id="chart"></div>
+      <div class="chart-labels" id="chartLabels"></div>
+    </div>
+
+    <h2>📚 Theo bài</h2>
+    <table class="lesson-stats">
       <thead>
         <tr>
-          <th>Loại</th>
-          <th>Bắt đầu</th>
-          <th>Thời gian</th>
-          <th>Hành động</th>
+          <th>#</th>
+          <th>Bài</th>
+          <th class="time-col">Thời gian</th>
+          <th>Trạng thái</th>
+          <th>Sửa</th>
         </tr>
       </thead>
-      <tbody id="historyBody"></tbody>
+      <tbody id="lessonStatsBody"></tbody>
     </table>
+  </div>
+
+  <div class="manual-timer-section" id="manualTimerSection">
+    <h2>⏱ Timer thủ công</h2>
+    <p style="color: #666; font-size: 13px;">Dùng khi học OFFLINE (đọc sách giấy, làm đề thi giấy...). Khi học trong app, study timer ở lesson đã tự đếm rồi.</p>
+
+    <div id="manualLoginRequired" class="login-hint hidden">
+      Cần <a href="index.html">đăng nhập</a> để dùng timer thủ công (lưu Firestore).
+    </div>
+
+    <div id="manualTimerApp" class="hidden">
+      <div class="controls">
+        <label>Loại:
+          <select id="type">
+            <option value="聴解">聴解 (Nghe hiểu)</option>
+            <option value="聴読解">聴読解 (Nghe + đọc)</option>
+            <option value="読解">読解 (Đọc hiểu)</option>
+          </select>
+        </label>
+        <button id="startBtn">Start</button>
+        <button id="stopBtn" disabled>Stop</button>
+      </div>
+
+      <div id="timer">00:00:00</div>
+
+      <h3>Lịch sử timer thủ công</h3>
+      <table class="history-table">
+        <thead>
+          <tr>
+            <th>Loại</th>
+            <th>Bắt đầu</th>
+            <th>Thời gian</th>
+            <th>Hành động</th>
+          </tr>
+        </thead>
+        <tbody id="historyBody"></tbody>
+      </table>
+    </div>
   </div>
 
   <script type="module">
     import { firebaseConfig } from './firebase-config.js';
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
     import { getAuth, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
-    import { getFirestore, collection, addDoc, updateDoc, deleteDoc, doc, query, orderBy, onSnapshot } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+    import { getFirestore, collection, addDoc, updateDoc, deleteDoc, doc, query, orderBy, onSnapshot, getDocs, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
     const db = getFirestore(app);
 
-    const loadingEl = document.getElementById('loading');
-    const loginRequired = document.getElementById('loginRequired');
-    const appView = document.getElementById('appView');
-    const userEmailEl = document.getElementById('userEmail');
+    // ========== Helpers ==========
+    function loadJsonObj(key) {
+      try { return JSON.parse(localStorage.getItem(key)) || {}; } catch { return {}; }
+    }
+    function saveJsonObj(key, obj) {
+      try { localStorage.setItem(key, JSON.stringify(obj)); } catch {}
+    }
+    function todayDateKey() {
+      const d = new Date();
+      const pad = (n) => String(n).padStart(2, '0');
+      return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+    }
+    function dateKeyOf(date) {
+      const pad = (n) => String(n).padStart(2, '0');
+      return `${date.getFullYear()}-${pad(date.getMonth()+1)}-${pad(date.getDate())}`;
+    }
+    function formatHM(ms) {
+      if (!ms || ms < 1000) return '0m';
+      const totalMin = Math.floor(ms / 60000);
+      const h = Math.floor(totalMin / 60);
+      const m = totalMin % 60;
+      if (h > 0) return `${h}h ${m}m`;
+      return `${m}m`;
+    }
+    function formatHMS(ms) {
+      const totalSec = Math.floor(ms / 1000);
+      const h = String(Math.floor(totalSec / 3600)).padStart(2, '0');
+      const m = String(Math.floor((totalSec % 3600) / 60)).padStart(2, '0');
+      const s = String(totalSec % 60).padStart(2, '0');
+      return `${h}:${m}:${s}`;
+    }
+    function formatDateTime(ts) {
+      const d = new Date(ts);
+      const pad = (n) => String(n).padStart(2, '0');
+      return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+    }
+    function parseDuration(str) {
+      const parts = str.split(':').map(Number);
+      if (parts.length !== 3 || parts.some(isNaN)) return null;
+      const [h, m, s] = parts;
+      return ((h * 3600) + (m * 60) + s) * 1000;
+    }
+    function toDatetimeLocal(ts) {
+      const d = new Date(ts);
+      const pad = (n) => String(n).padStart(2, '0');
+      return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+    }
+    function sumValues(obj) {
+      return Object.values(obj || {}).reduce((a, b) => a + (b || 0), 0);
+    }
+
+    // ========== State ==========
+    let currentUser = null;
+    let curriculum = null;
+    let stats = { totals: {}, daily: {}, completed: new Set() };
+    let currentRangeDays = 30;
+
+    // ========== Stats data loading ==========
+    async function loadCurriculum() {
+      if (curriculum) return curriculum;
+      const res = await fetch('lessons/index.json');
+      curriculum = await res.json();
+      return curriculum;
+    }
+
+    async function loadStats() {
+      // Local cache (always available)
+      const localTotals = loadJsonObj('bjt-times');
+      const localDaily = loadJsonObj('bjt-daily');
+      stats = { totals: { ...localTotals }, daily: { ...localDaily }, completed: new Set() };
+
+      if (!currentUser) return stats;
+
+      // Pull Firestore data
+      try {
+        const [totalsSnap, dailySnap, progressSnap] = await Promise.all([
+          getDocs(collection(db, 'users', currentUser.uid, 'study-totals')),
+          getDocs(collection(db, 'users', currentUser.uid, 'study-daily')),
+          getDocs(collection(db, 'users', currentUser.uid, 'progress'))
+        ]);
+        totalsSnap.forEach(d => {
+          const data = d.data();
+          const remoteMs = data.totalMs || 0;
+          stats.totals[d.id] = Math.max(stats.totals[d.id] || 0, remoteMs);
+        });
+        dailySnap.forEach(d => {
+          const data = d.data();
+          if (!stats.daily[data.date]) stats.daily[data.date] = {};
+          const remoteMs = data.activeMs || 0;
+          stats.daily[data.date][data.lessonId] = Math.max(
+            stats.daily[data.date][data.lessonId] || 0,
+            remoteMs
+          );
+        });
+        progressSnap.forEach(d => stats.completed.add(d.id));
+      } catch (err) {
+        console.warn('Stats Firestore pull failed:', err);
+      }
+      return stats;
+    }
+
+    // ========== Streak calc ==========
+    function calculateStreak(daily) {
+      let streak = 0;
+      let cursor = new Date();
+      cursor.setHours(0, 0, 0, 0);
+
+      const todayMs = sumValues(daily[dateKeyOf(cursor)] || {});
+      if (todayMs === 0) {
+        cursor.setDate(cursor.getDate() - 1);
+      }
+
+      for (let i = 0; i < 365; i++) {
+        const key = dateKeyOf(cursor);
+        const ms = sumValues(daily[key] || {});
+        if (ms > 0) {
+          streak++;
+          cursor.setDate(cursor.getDate() - 1);
+        } else {
+          break;
+        }
+      }
+      return streak;
+    }
+
+    // ========== Render ==========
+    function renderOverview() {
+      const totalMs = sumValues(stats.totals);
+      const todayMs = sumValues(stats.daily[todayDateKey()] || {});
+      const streak = calculateStreak(stats.daily);
+
+      document.getElementById('totalTime').textContent = formatHM(totalMs);
+      document.getElementById('todayTime').textContent = formatHM(todayMs);
+      document.getElementById('streak').textContent = String(streak);
+
+      const lessonsWithTime = Object.keys(stats.totals).filter(k => stats.totals[k] > 0).length;
+      document.getElementById('totalSub').textContent = `${lessonsWithTime} bài đã đụng`;
+    }
+
+    function renderChart() {
+      const chartEl = document.getElementById('chart');
+      const labelsEl = document.getElementById('chartLabels');
+      chartEl.innerHTML = '';
+      labelsEl.innerHTML = '';
+
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      const data = [];
+      for (let i = currentRangeDays - 1; i >= 0; i--) {
+        const d = new Date(today);
+        d.setDate(d.getDate() - i);
+        const key = dateKeyOf(d);
+        const ms = sumValues(stats.daily[key] || {});
+        data.push({ date: key, ms, isToday: i === 0, dateObj: new Date(d) });
+      }
+
+      const maxMs = Math.max(...data.map(d => d.ms), 1);
+      const hasAnyData = data.some(d => d.ms > 0);
+
+      if (!hasAnyData) {
+        chartEl.innerHTML = '<div class="chart-empty" style="flex:1;">Chưa có dữ liệu — học vài bài để thấy biểu đồ!</div>';
+        return;
+      }
+
+      data.forEach(d => {
+        const bar = document.createElement('div');
+        bar.className = 'bar';
+        if (d.ms === 0) bar.classList.add('empty');
+        if (d.isToday) bar.classList.add('today');
+        bar.style.height = Math.max((d.ms / maxMs) * 100, d.ms > 0 ? 5 : 2) + '%';
+        bar.title = `${d.date}\n${formatHM(d.ms)}`;
+        chartEl.appendChild(bar);
+      });
+
+      // Labels: show ~5-7 markers depending on range
+      const labelStep = currentRangeDays <= 7 ? 1 : Math.ceil(currentRangeDays / 6);
+      data.forEach((d, i) => {
+        const span = document.createElement('span');
+        if (i % labelStep === 0 || i === data.length - 1) {
+          const dd = d.dateObj;
+          const month = dd.getMonth() + 1;
+          const day = dd.getDate();
+          span.textContent = `${month}/${day}`;
+        }
+        labelsEl.appendChild(span);
+      });
+    }
+
+    function renderLessonBreakdown() {
+      const tbody = document.getElementById('lessonStatsBody');
+      tbody.innerHTML = '';
+      if (!curriculum) {
+        tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:#888;">Đang tải curriculum...</td></tr>';
+        return;
+      }
+      // Build rows from curriculum (preserves order). Show all lessons; "no-time" class for unstarted.
+      const lessons = curriculum.lessons;
+      // Sort: ones with time first (by time desc), then unstarted by order
+      const sorted = lessons.slice().sort((a, b) => {
+        const ta = stats.totals[a.id] || 0;
+        const tb = stats.totals[b.id] || 0;
+        if (ta === 0 && tb === 0) return a.order - b.order;
+        if (ta === 0) return 1;
+        if (tb === 0) return -1;
+        return tb - ta;
+      });
+      sorted.forEach(lesson => {
+        const ms = stats.totals[lesson.id] || 0;
+        const done = stats.completed.has(lesson.id);
+        const tr = document.createElement('tr');
+        tr.dataset.lessonId = lesson.id;
+        if (ms === 0) tr.classList.add('no-time');
+        const status = done ? '<span class="check">✓ Xong</span>'
+          : (ms > 0 ? '<span style="color:#0366d6;">Đang học</span>'
+            : '<span style="color:#999;">Chưa bắt đầu</span>');
+        const editBtn = ms > 0
+          ? '<button class="edit-time-btn" title="Giảm giờ học (lỡ tab chạy quá lâu)">✎ Sửa</button>'
+          : '';
+        tr.innerHTML = `
+          <td class="order">#${lesson.order}</td>
+          <td>${lesson.title}<br><span style="color:#888;font-size:12px;">${lesson.titleVi}</span></td>
+          <td class="time-col">${ms > 0 ? formatHM(ms) : '—'}</td>
+          <td>${status}</td>
+          <td class="edit-col">${editBtn}</td>`;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function enterTimeEditMode(tr, lessonId) {
+      const ms = stats.totals[lessonId] || 0;
+      const currentMin = Math.round(ms / 60000);
+      const timeTd = tr.querySelector('.time-col');
+      const editTd = tr.querySelector('.edit-col');
+      timeTd.innerHTML = `<input type="number" min="0" max="${currentMin}" value="${currentMin}" class="edit-time-input" style="width:60px;padding:4px;font-size:13px;"> phút`;
+      editTd.innerHTML = `
+        <button class="row-btn save-btn save-time-btn">✓</button>
+        <button class="row-btn cancel-btn cancel-time-btn">✕</button>`;
+      timeTd.querySelector('.edit-time-input').focus();
+      timeTd.querySelector('.edit-time-input').select();
+    }
+
+    async function updateLessonTime(lessonId, newMs) {
+      const oldMs = stats.totals[lessonId] || 0;
+      if (newMs > oldMs) { alert('Chỉ cho phép GIẢM giờ học.'); return false; }
+      if (newMs < 0) newMs = 0;
+
+      const factor = oldMs > 0 ? newMs / oldMs : 0;
+      const affectedDates = [];
+      for (const date of Object.keys(stats.daily)) {
+        if (stats.daily[date][lessonId] != null) {
+          stats.daily[date][lessonId] = Math.round(stats.daily[date][lessonId] * factor);
+          affectedDates.push(date);
+        }
+      }
+      stats.totals[lessonId] = newMs;
+
+      const localTotals = loadJsonObj('bjt-times');
+      localTotals[lessonId] = newMs;
+      saveJsonObj('bjt-times', localTotals);
+      const localDaily = loadJsonObj('bjt-daily');
+      affectedDates.forEach(date => {
+        if (localDaily[date] && localDaily[date][lessonId] != null) {
+          localDaily[date][lessonId] = stats.daily[date][lessonId];
+        }
+      });
+      saveJsonObj('bjt-daily', localDaily);
+
+      if (currentUser) {
+        try {
+          const totalsRef = doc(db, 'users', currentUser.uid, 'study-totals', lessonId);
+          await setDoc(totalsRef, { lessonId, totalMs: newMs, updatedAt: serverTimestamp() });
+          await Promise.all(affectedDates.map(date => {
+            const dailyRef = doc(db, 'users', currentUser.uid, 'study-daily', `${date}_${lessonId}`);
+            return setDoc(dailyRef, { lessonId, date, activeMs: stats.daily[date][lessonId], updatedAt: serverTimestamp() });
+          }));
+        } catch (err) {
+          alert('Lỗi đồng bộ Firestore: ' + err.message);
+          return false;
+        }
+      }
+      return true;
+    }
+
+    document.getElementById('lessonStatsBody').addEventListener('click', async (e) => {
+      const tr = e.target.closest('tr');
+      if (!tr || !tr.dataset.lessonId) return;
+      const lessonId = tr.dataset.lessonId;
+
+      if (e.target.classList.contains('edit-time-btn')) {
+        enterTimeEditMode(tr, lessonId);
+      } else if (e.target.classList.contains('cancel-time-btn')) {
+        renderLessonBreakdown();
+      } else if (e.target.classList.contains('save-time-btn')) {
+        const input = tr.querySelector('.edit-time-input');
+        const newMin = parseInt(input.value, 10);
+        if (isNaN(newMin) || newMin < 0) { alert('Số phút không hợp lệ.'); return; }
+        const ok = await updateLessonTime(lessonId, newMin * 60000);
+        if (ok) {
+          renderOverview();
+          renderChart();
+          renderLessonBreakdown();
+        }
+      }
+    });
+
+    async function refreshAllStats() {
+      await Promise.all([loadCurriculum(), loadStats()]);
+      renderOverview();
+      renderChart();
+      renderLessonBreakdown();
+    }
+
+    // ========== Range toggle ==========
+    document.querySelectorAll('.range-toggle button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.range-toggle button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentRangeDays = parseInt(btn.dataset.days, 10);
+        renderChart();
+      });
+    });
+
+    // ========== Manual timer (existing) ==========
+    const STORAGE_KEY = 'bjt-history';
     const typeEl = document.getElementById('type');
     const startBtn = document.getElementById('startBtn');
     const stopBtn = document.getElementById('stopBtn');
@@ -93,36 +529,8 @@
     let startTime = null;
     let intervalId = null;
     let currentType = null;
-    let currentUser = null;
     let unsubscribeHistory = null;
     let historyCache = [];
-
-    function formatDuration(ms) {
-      const totalSec = Math.floor(ms / 1000);
-      const h = String(Math.floor(totalSec / 3600)).padStart(2, '0');
-      const m = String(Math.floor((totalSec % 3600) / 60)).padStart(2, '0');
-      const s = String(totalSec % 60).padStart(2, '0');
-      return `${h}:${m}:${s}`;
-    }
-
-    function formatDateTime(ts) {
-      const d = new Date(ts);
-      const pad = (n) => String(n).padStart(2, '0');
-      return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
-    }
-
-    function parseDuration(str) {
-      const parts = str.split(':').map(Number);
-      if (parts.length !== 3 || parts.some(isNaN)) return null;
-      const [h, m, s] = parts;
-      return ((h * 3600) + (m * 60) + s) * 1000;
-    }
-
-    function toDatetimeLocal(ts) {
-      const d = new Date(ts);
-      const pad = (n) => String(n).padStart(2, '0');
-      return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
-    }
 
     function historyCollection() {
       return collection(db, 'users', currentUser.uid, 'history');
@@ -141,7 +549,7 @@
         tr.innerHTML = `
           <td>${item.type}</td>
           <td>${formatDateTime(item.startTime)}</td>
-          <td>${formatDuration(item.duration)}</td>
+          <td>${formatHMS(item.duration)}</td>
           <td>
             <button class="row-btn edit-btn">Edit</button>
             <button class="row-btn remove-btn">Remove</button>
@@ -160,7 +568,7 @@
           </select>
         </td>
         <td><input type="datetime-local" step="1" class="edit-start" value="${toDatetimeLocal(item.startTime)}"></td>
-        <td><input type="text" class="edit-duration" value="${formatDuration(item.duration)}" placeholder="HH:MM:SS" size="10"></td>
+        <td><input type="text" class="edit-duration" value="${formatHMS(item.duration)}" placeholder="HH:MM:SS" size="10"></td>
         <td>
           <button class="row-btn save-btn">Save</button>
           <button class="row-btn cancel-btn">Cancel</button>
@@ -176,11 +584,8 @@
 
       if (e.target.classList.contains('remove-btn')) {
         if (confirm('Xóa dòng này?')) {
-          try {
-            await deleteDoc(doc(db, 'users', currentUser.uid, 'history', id));
-          } catch (err) {
-            alert('Xóa thất bại: ' + err.message);
-          }
+          try { await deleteDoc(doc(db, 'users', currentUser.uid, 'history', id)); }
+          catch (err) { alert('Xóa thất bại: ' + err.message); }
         }
       } else if (e.target.classList.contains('edit-btn')) {
         enterEditMode(tr, item);
@@ -198,18 +603,14 @@
         }
         try {
           await updateDoc(doc(db, 'users', currentUser.uid, 'history', id), {
-            type: newType,
-            startTime: newStartTime,
-            duration: newDuration
+            type: newType, startTime: newStartTime, duration: newDuration
           });
-        } catch (err) {
-          alert('Lưu thất bại: ' + err.message);
-        }
+        } catch (err) { alert('Lưu thất bại: ' + err.message); }
       }
     });
 
     function tick() {
-      timerEl.textContent = formatDuration(Date.now() - startTime);
+      timerEl.textContent = formatHMS(Date.now() - startTime);
     }
 
     startBtn.addEventListener('click', () => {
@@ -227,13 +628,9 @@
       const duration = Date.now() - startTime;
       try {
         await addDoc(historyCollection(), {
-          type: currentType,
-          startTime,
-          duration
+          type: currentType, startTime, duration
         });
-      } catch (err) {
-        alert('Lưu thất bại: ' + err.message);
-      }
+      } catch (err) { alert('Lưu thất bại: ' + err.message); }
       startBtn.disabled = false;
       stopBtn.disabled = true;
       typeEl.disabled = false;
@@ -256,31 +653,39 @@
       typeEl.disabled = false;
     }
 
-    onAuthStateChanged(auth, (user) => {
-      loadingEl.classList.add('hidden');
+    // ========== Auth ==========
+    onAuthStateChanged(auth, async (user) => {
+      currentUser = user;
+      document.getElementById('loading').classList.add('hidden');
+      document.getElementById('statsView').classList.remove('hidden');
+
+      const userBar = document.getElementById('userBar');
+      const loginHint = document.getElementById('loginHint');
+      const manualApp = document.getElementById('manualTimerApp');
+      const manualLogin = document.getElementById('manualLoginRequired');
+
       if (user) {
-        currentUser = user;
-        loginRequired.classList.add('hidden');
-        appView.classList.remove('hidden');
-        userEmailEl.textContent = user.email;
+        userBar.classList.remove('hidden');
+        loginHint.classList.add('hidden');
+        document.getElementById('userEmail').textContent = user.email;
+        manualApp.classList.remove('hidden');
+        manualLogin.classList.add('hidden');
 
         const q = query(historyCollection(), orderBy('startTime', 'desc'));
         unsubscribeHistory = onSnapshot(q, (snapshot) => {
           const list = snapshot.docs.map(d => ({ id: d.id, ...d.data() }));
           renderHistory(list);
-        }, (err) => {
-          historyBody.innerHTML = `<tr><td colspan="4" style="color:red;">Lỗi tải lịch sử: ${err.message}</td></tr>`;
-        });
+        }, () => {});
       } else {
-        currentUser = null;
-        appView.classList.add('hidden');
-        loginRequired.classList.remove('hidden');
+        userBar.classList.add('hidden');
+        loginHint.classList.remove('hidden');
+        manualApp.classList.add('hidden');
+        manualLogin.classList.remove('hidden');
         resetTimerState();
-        if (unsubscribeHistory) {
-          unsubscribeHistory();
-          unsubscribeHistory = null;
-        }
+        if (unsubscribeHistory) { unsubscribeHistory(); unsubscribeHistory = null; }
       }
+
+      await refreshAllStats();
     });
   </script>
 </body>

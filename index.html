@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>BJT 学習</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 16px; }
+    h1 { font-size: 22px; }
+    ul { list-style: none; padding: 0; }
+    li { padding: 12px 0; border-bottom: 1px solid #ddd; }
+    a { color: #0366d6; text-decoration: none; font-size: 18px; }
+    a:hover { text-decoration: underline; }
+    button { padding: 8px 16px; cursor: pointer; font-size: 14px; }
+    .user-bar { margin-bottom: 20px; color: #555; font-size: 14px; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <h1>BJT 学習 - Trang chủ</h1>
+
+  <div id="loading">Đang tải...</div>
+
+  <div id="loginView" class="hidden">
+    <p>Đăng nhập để bắt đầu học và đồng bộ lịch sử qua nhiều thiết bị.</p>
+    <button id="loginBtn">Đăng nhập với Google</button>
+  </div>
+
+  <div id="appView" class="hidden">
+    <div class="user-bar">
+      👤 <span id="userEmail"></span> | <a href="#" id="logoutBtn">Đăng xuất</a>
+    </div>
+    <ul>
+      <li><a href="study.html">▶ Bắt đầu học</a></li>
+    </ul>
+  </div>
+
+  <script type="module">
+    import { firebaseConfig } from './firebase-config.js';
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const provider = new GoogleAuthProvider();
+
+    const loadingEl = document.getElementById('loading');
+    const loginView = document.getElementById('loginView');
+    const appView = document.getElementById('appView');
+    const userEmailEl = document.getElementById('userEmail');
+
+    document.getElementById('loginBtn').addEventListener('click', async () => {
+      try {
+        await signInWithPopup(auth, provider);
+      } catch (err) {
+        alert('Đăng nhập thất bại: ' + err.message);
+      }
+    });
+
+    document.getElementById('logoutBtn').addEventListener('click', (e) => {
+      e.preventDefault();
+      signOut(auth);
+    });
+
+    onAuthStateChanged(auth, (user) => {
+      loadingEl.classList.add('hidden');
+      if (user) {
+        loginView.classList.add('hidden');
+        appView.classList.remove('hidden');
+        userEmailEl.textContent = user.email;
+      } else {
+        appView.classList.add('hidden');
+        loginView.classList.remove('hidden');
+      }
+    });
+  </script>
+</body>
+</html>

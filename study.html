@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>BJT - Bắt đầu học</title>
+  <style>
+    body { font-family: sans-serif; max-width: 700px; margin: 40px auto; padding: 0 16px; }
+    h1 { font-size: 22px; }
+    .controls { margin: 20px 0; }
+    select, button { padding: 8px 12px; font-size: 16px; margin-right: 8px; }
+    button { cursor: pointer; }
+    button:disabled { cursor: not-allowed; opacity: 0.5; }
+    #timer { font-size: 36px; font-family: monospace; margin: 20px 0; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #f5f5f5; }
+    .nav { margin-bottom: 20px; }
+    .nav a { color: #0366d6; text-decoration: none; }
+    .row-btn { padding: 2px 6px; font-size: 12px; margin-right: 2px; }
+    th:nth-child(4), td:nth-child(4) { width: 1%; white-space: nowrap; }
+    .edit-btn { background: #eef; border: 1px solid #99f; }
+    .remove-btn { background: #fee; border: 1px solid #f99; }
+    .save-btn { background: #efe; border: 1px solid #9f9; }
+    .cancel-btn { background: #eee; border: 1px solid #999; }
+    td input, td select { padding: 4px; font-size: 14px; }
+    .user-bar { margin-bottom: 20px; color: #555; font-size: 14px; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="nav"><a href="index.html">← Trang chủ</a></div>
+  <h1>Bắt đầu học</h1>
+
+  <div id="loading">Đang tải...</div>
+
+  <div id="loginRequired" class="hidden">
+    <p>Vui lòng <a href="index.html">đăng nhập</a> để sử dụng.</p>
+  </div>
+
+  <div id="appView" class="hidden">
+    <div class="user-bar">
+      👤 <span id="userEmail"></span> | <a href="#" id="logoutBtn">Đăng xuất</a>
+    </div>
+
+    <div class="controls">
+      <label>Loại:
+        <select id="type">
+          <option value="聴解">聴解 (Nghe hiểu)</option>
+          <option value="聴読解">聴読解 (Nghe + đọc)</option>
+          <option value="読解">読解 (Đọc hiểu)</option>
+        </select>
+      </label>
+      <button id="startBtn">Start</button>
+      <button id="stopBtn" disabled>Stop</button>
+    </div>
+
+    <div id="timer">00:00:00</div>
+
+    <h2 style="font-size: 18px; margin-top: 60px;">Lịch sử học</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Loại</th>
+          <th>Bắt đầu</th>
+          <th>Thời gian</th>
+          <th>Hành động</th>
+        </tr>
+      </thead>
+      <tbody id="historyBody"></tbody>
+    </table>
+  </div>
+
+  <script type="module">
+    import { firebaseConfig } from './firebase-config.js';
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getAuth, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+    import { getFirestore, collection, addDoc, updateDoc, deleteDoc, doc, query, orderBy, onSnapshot } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+
+    const loadingEl = document.getElementById('loading');
+    const loginRequired = document.getElementById('loginRequired');
+    const appView = document.getElementById('appView');
+    const userEmailEl = document.getElementById('userEmail');
+    const typeEl = document.getElementById('type');
+    const startBtn = document.getElementById('startBtn');
+    const stopBtn = document.getElementById('stopBtn');
+    const timerEl = document.getElementById('timer');
+    const historyBody = document.getElementById('historyBody');
+
+    let startTime = null;
+    let intervalId = null;
+    let currentType = null;
+    let currentUser = null;
+    let unsubscribeHistory = null;
+    let historyCache = [];
+
+    function formatDuration(ms) {
+      const totalSec = Math.floor(ms / 1000);
+      const h = String(Math.floor(totalSec / 3600)).padStart(2, '0');
+      const m = String(Math.floor((totalSec % 3600) / 60)).padStart(2, '0');
+      const s = String(totalSec % 60).padStart(2, '0');
+      return `${h}:${m}:${s}`;
+    }
+
+    function formatDateTime(ts) {
+      const d = new Date(ts);
+      const pad = (n) => String(n).padStart(2, '0');
+      return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+    }
+
+    function parseDuration(str) {
+      const parts = str.split(':').map(Number);
+      if (parts.length !== 3 || parts.some(isNaN)) return null;
+      const [h, m, s] = parts;
+      return ((h * 3600) + (m * 60) + s) * 1000;
+    }
+
+    function toDatetimeLocal(ts) {
+      const d = new Date(ts);
+      const pad = (n) => String(n).padStart(2, '0');
+      return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+    }
+
+    function historyCollection() {
+      return collection(db, 'users', currentUser.uid, 'history');
+    }
+
+    function renderHistory(list) {
+      historyCache = list;
+      historyBody.innerHTML = '';
+      if (list.length === 0) {
+        historyBody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:#888;">Chưa có lịch sử</td></tr>';
+        return;
+      }
+      list.forEach(item => {
+        const tr = document.createElement('tr');
+        tr.dataset.id = item.id;
+        tr.innerHTML = `
+          <td>${item.type}</td>
+          <td>${formatDateTime(item.startTime)}</td>
+          <td>${formatDuration(item.duration)}</td>
+          <td>
+            <button class="row-btn edit-btn">Edit</button>
+            <button class="row-btn remove-btn">Remove</button>
+          </td>`;
+        historyBody.appendChild(tr);
+      });
+    }
+
+    function enterEditMode(tr, item) {
+      tr.innerHTML = `
+        <td>
+          <select class="edit-type">
+            <option value="聴解" ${item.type === '聴解' ? 'selected' : ''}>聴解</option>
+            <option value="聴読解" ${item.type === '聴読解' ? 'selected' : ''}>聴読解</option>
+            <option value="読解" ${item.type === '読解' ? 'selected' : ''}>読解</option>
+          </select>
+        </td>
+        <td><input type="datetime-local" step="1" class="edit-start" value="${toDatetimeLocal(item.startTime)}"></td>
+        <td><input type="text" class="edit-duration" value="${formatDuration(item.duration)}" placeholder="HH:MM:SS" size="10"></td>
+        <td>
+          <button class="row-btn save-btn">Save</button>
+          <button class="row-btn cancel-btn">Cancel</button>
+        </td>`;
+    }
+
+    historyBody.addEventListener('click', async (e) => {
+      const tr = e.target.closest('tr');
+      if (!tr || !tr.dataset.id) return;
+      const id = tr.dataset.id;
+      const item = historyCache.find(h => h.id === id);
+      if (!item) return;
+
+      if (e.target.classList.contains('remove-btn')) {
+        if (confirm('Xóa dòng này?')) {
+          try {
+            await deleteDoc(doc(db, 'users', currentUser.uid, 'history', id));
+          } catch (err) {
+            alert('Xóa thất bại: ' + err.message);
+          }
+        }
+      } else if (e.target.classList.contains('edit-btn')) {
+        enterEditMode(tr, item);
+      } else if (e.target.classList.contains('cancel-btn')) {
+        renderHistory(historyCache);
+      } else if (e.target.classList.contains('save-btn')) {
+        const newType = tr.querySelector('.edit-type').value;
+        const newStartStr = tr.querySelector('.edit-start').value;
+        const newDurStr = tr.querySelector('.edit-duration').value;
+        const newStartTime = new Date(newStartStr).getTime();
+        const newDuration = parseDuration(newDurStr);
+        if (isNaN(newStartTime) || newDuration === null || newDuration < 0) {
+          alert('Định dạng không hợp lệ. Thời gian phải có dạng HH:MM:SS.');
+          return;
+        }
+        try {
+          await updateDoc(doc(db, 'users', currentUser.uid, 'history', id), {
+            type: newType,
+            startTime: newStartTime,
+            duration: newDuration
+          });
+        } catch (err) {
+          alert('Lưu thất bại: ' + err.message);
+        }
+      }
+    });
+
+    function tick() {
+      timerEl.textContent = formatDuration(Date.now() - startTime);
+    }
+
+    startBtn.addEventListener('click', () => {
+      currentType = typeEl.value;
+      startTime = Date.now();
+      timerEl.textContent = '00:00:00';
+      intervalId = setInterval(tick, 1000);
+      startBtn.disabled = true;
+      stopBtn.disabled = false;
+      typeEl.disabled = true;
+    });
+
+    stopBtn.addEventListener('click', async () => {
+      clearInterval(intervalId);
+      const duration = Date.now() - startTime;
+      try {
+        await addDoc(historyCollection(), {
+          type: currentType,
+          startTime,
+          duration
+        });
+      } catch (err) {
+        alert('Lưu thất bại: ' + err.message);
+      }
+      startBtn.disabled = false;
+      stopBtn.disabled = true;
+      typeEl.disabled = false;
+      startTime = null;
+      intervalId = null;
+    });
+
+    document.getElementById('logoutBtn').addEventListener('click', (e) => {
+      e.preventDefault();
+      signOut(auth);
+    });
+
+    function resetTimerState() {
+      if (intervalId) clearInterval(intervalId);
+      intervalId = null;
+      startTime = null;
+      timerEl.textContent = '00:00:00';
+      startBtn.disabled = false;
+      stopBtn.disabled = true;
+      typeEl.disabled = false;
+    }
+
+    onAuthStateChanged(auth, (user) => {
+      loadingEl.classList.add('hidden');
+      if (user) {
+        currentUser = user;
+        loginRequired.classList.add('hidden');
+        appView.classList.remove('hidden');
+        userEmailEl.textContent = user.email;
+
+        const q = query(historyCollection(), orderBy('startTime', 'desc'));
+        unsubscribeHistory = onSnapshot(q, (snapshot) => {
+          const list = snapshot.docs.map(d => ({ id: d.id, ...d.data() }));
+          renderHistory(list);
+        }, (err) => {
+          historyBody.innerHTML = `<tr><td colspan="4" style="color:red;">Lỗi tải lịch sử: ${err.message}</td></tr>`;
+        });
+      } else {
+        currentUser = null;
+        appView.classList.add('hidden');
+        loginRequired.classList.remove('hidden');
+        resetTimerState();
+        if (unsubscribeHistory) {
+          unsubscribeHistory();
+          unsubscribeHistory = null;
+        }
+      }
+    });
+  </script>
+</body>
+</html>

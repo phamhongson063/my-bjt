@@ -1,965 +1,2472 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BJT - Bài học</title>
-  <style>
-    :root { --base-size: 16px; }
-    body { font-family: sans-serif; max-width: 960px; margin: 32px auto; padding: 0 16px; line-height: 1.6; color: #222; font-size: var(--base-size); }
-    .nav { margin-bottom: 20px; }
-    .nav a { color: #0366d6; text-decoration: none; }
-    .header { border-bottom: 2px solid #0366d6; padding-bottom: 12px; margin-bottom: 24px; }
-    .header h1 { font-size: calc(var(--base-size) + 6px); margin: 0 0 6px 0; }
-    .header .vi { color: #555; font-size: calc(var(--base-size) - 1px); }
-    .header .meta { color: #888; font-size: calc(var(--base-size) - 3px); margin-top: 6px; }
-    .intro { background: #f0f7ff; border-left: 4px solid #0366d6; padding: 12px 16px; margin: 20px 0; white-space: pre-wrap; font-size: var(--base-size); }
-    .section { margin: 40px 0; }
-    .section h2 { font-size: calc(var(--base-size) + 2px); border-bottom: 1px solid #ccc; padding-bottom: 6px; }
-    .vocab { display: flex; flex-direction: column; gap: 10px; }
-    .vocab-card { border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background: #fff; }
-    .vocab-jp-row { background: #f5f5f5; padding: 8px 12px; border-bottom: 1px solid #eee; }
-    .vocab-meaning { padding: 10px 12px; }
-    .vocab .jp { font-size: calc(var(--base-size) + 2px); font-weight: 600; }
-    .jp-clickable { cursor: pointer; transition: color 0.15s; }
-    .jp-clickable:hover { color: #0366d6; }
-    .jp-clickable .seg-icon { font-size: calc(var(--base-size) - 2px); opacity: 0.55; margin-left: 4px; }
-    .jp-clickable:hover .seg-icon { opacity: 1; }
-    .vocab .kana { font-size: calc(var(--base-size) - 4px); color: #777; }
-    .vocab .note { font-size: calc(var(--base-size) - 3px); color: #555; font-style: italic; margin-top: 6px; }
-    .vocab .example { font-size: calc(var(--base-size) - 3px); background: #fafafa; padding: 6px 8px; margin-top: 6px; border-left: 3px solid #ccc; }
-    .grammar-item { background: #fffbea; border: 1px solid #f0e0a0; padding: 12px 16px; margin: 12px 0; border-radius: 4px; }
-    .grammar-item .pattern { font-size: calc(var(--base-size) + 2px); font-weight: 600; color: #8a6d00; }
-    .grammar-item .pattern-vi { color: #555; font-size: calc(var(--base-size) - 2px); margin-bottom: 8px; }
-    .grammar-item .explanation { font-size: calc(var(--base-size) - 2px); margin: 8px 0; }
-    .grammar-item .warning { background: #ffe5e5; border-left: 3px solid #d9534f; padding: 8px 12px; margin: 8px 0; font-size: calc(var(--base-size) - 2px); border-radius: 2px; }
-    .grammar-item ul { padding-left: 20px; }
-    .grammar-item li { margin: 4px 0; }
-    .dialogue { background: #f5faf5; padding: 16px; border-radius: 4px; }
-    .dialogue .scene { font-style: italic; color: #555; margin-bottom: 12px; }
-    .dialogue-line { margin: 10px 0; }
-    .dialogue-line .speaker { font-weight: 600; color: #0366d6; }
-    .dialogue-line .jp { font-size: var(--base-size); }
-    .dialogue-line .vi { font-size: calc(var(--base-size) - 3px); color: #666; margin-left: 16px; }
-    .vocab-highlight { background: #fff; border: 1px dashed #aaa; padding: 10px; margin-top: 12px; font-size: calc(var(--base-size) - 3px); }
-    .vocab-highlight ul { margin: 4px 0; padding-left: 20px; }
-    .dialogue-note { background: #fef5e7; border-left: 4px solid #f0a500; padding: 10px 14px; margin-top: 12px; font-size: calc(var(--base-size) - 2px); white-space: pre-wrap; border-radius: 2px; }
-    .reading-passage { background: #f9f9f9; border: 1px solid #ddd; padding: 16px; white-space: pre-wrap; font-size: calc(var(--base-size) - 1px); margin-bottom: 12px; }
-    .reading-passage-vi { background: #fafafa; border: 1px solid #eee; padding: 12px; white-space: pre-wrap; font-size: calc(var(--base-size) - 3px); color: #555; margin-bottom: 16px; display: none; }
-    .toggle-vi { background: none; border: 1px solid #0366d6; color: #0366d6; padding: 6px 10px; font-size: calc(var(--base-size) - 4px); cursor: pointer; margin-bottom: 12px; border-radius: 3px; }
-    .quiz-item { background: #fff; border: 1px solid #ddd; padding: 14px; margin: 12px 0; border-radius: 4px; }
-    .quiz-item .q-text { font-weight: 600; margin-bottom: 4px; font-size: var(--base-size); }
-    .quiz-item .q-hint { color: #888; font-size: calc(var(--base-size) - 4px); font-style: italic; margin-bottom: 10px; }
-    .option-jp { font-size: var(--base-size); }
-    .option-vi { color: #888; font-size: calc(var(--base-size) - 4px); margin-top: 2px; margin-left: 22px; font-style: italic; }
-    body.exam-mode .q-hint, body.exam-mode .option-vi, body.exam-mode .reading-passage-vi, body.exam-mode .toggle-vi { display: none !important; }
-    body.lang-vi .explain-jp { display: none; }
-    body.lang-jp .explain-vi { display: none; }
-    body.lang-both .explain-vi, body.lang-both .explain-jp { display: block; }
-    body.lang-both .explain-jp { margin-top: 4px; padding-top: 4px; border-top: 1px dashed #ddd; }
-    .explain-vi, .explain-jp { display: block; }
-    .section-image { display: block; width: 100%; max-width: 600px; height: auto; margin: 14px auto 8px; border: 1px solid #ddd; border-radius: 6px; background: #fafafa; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
-    .section-image-caption { font-size: calc(var(--base-size) - 4px); color: #777; font-style: italic; margin: 0 auto 16px; max-width: 600px; text-align: center; }
-    .section-intro { padding: 10px 14px; background: #f0f7ff; border-left: 3px solid #0366d6; margin: 8px 0 16px; white-space: pre-wrap; font-size: var(--base-size); color: #2d3a4a; border-radius: 0 4px 4px 0; }
-    .vocab-item-image { float: right; max-width: 220px; width: 35%; height: auto; margin: 0 0 8px 12px; border: 1px solid #ddd; border-radius: 4px; background: #fafafa; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
-    @media (max-width: 600px) { .vocab-item-image { float: none; display: block; max-width: 100%; width: 100%; margin: 4px 0 10px; } }
-    .section-audio-wrap { background: #fff8e1; border: 1px solid #f0d878; border-radius: 6px; padding: 10px 14px; margin: 12px 0 16px; }
-    .section-audio-label { font-size: calc(var(--base-size) - 2px); color: #6b5400; margin-bottom: 6px; font-weight: 500; }
-    .section-audio { display: block; width: 100%; max-width: 540px; }
-    .section.has-audio .speak-btn { display: none !important; }
-    .quiz-item label { display: block; padding: 8px 10px; cursor: pointer; border-radius: 3px; margin: 4px 0; font-size: calc(var(--base-size) - 1px); }
-    .quiz-item label:hover { background: #f5f5f5; }
-    .quiz-item.answered label.correct { background: #d4edda; }
-    .quiz-item.answered label.wrong { background: #f8d7da; }
-    .quiz-item.answered input { pointer-events: none; }
-    .audio-q-box { background: #e7f3ff; border: 1px dashed #0366d6; padding: 12px; margin: 10px 0; text-align: center; border-radius: 3px; }
-    .audio-q-box button { background: #0366d6; color: white; border: none; padding: 10px 20px; font-size: var(--base-size); cursor: pointer; border-radius: 4px; min-height: 44px; }
-    .audio-q-box .hint { font-size: calc(var(--base-size) - 3px); color: #666; margin-top: 6px; }
-    .quiz-item .explanation { background: #fff3cd; border-left: 3px solid #ffc107; padding: 8px 12px; margin-top: 10px; font-size: calc(var(--base-size) - 3px); display: none; }
-    .quiz-item.answered .explanation { display: block; }
-    .quiz-summary { background: #e7f3ff; padding: 16px; border-radius: 4px; margin-top: 20px; }
-    .quiz-summary .score { font-size: calc(var(--base-size) + 8px); font-weight: 600; color: #0366d6; }
-    .tips { background: #fef5e7; border-left: 4px solid #f0a500; padding: 12px 16px; white-space: pre-wrap; font-size: calc(var(--base-size) - 1px); }
-    .complete-btn { background: #0366d6; color: white; border: none; padding: 12px 24px; font-size: var(--base-size); cursor: pointer; border-radius: 4px; margin-top: 30px; }
-    .complete-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-    .study-timer { background: #e7f3ff; border: 1px solid #b8daff; padding: 8px 14px; border-radius: 4px; margin: 12px 0; font-size: calc(var(--base-size) - 2px); display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
-    .study-timer .timer-label { color: #555; }
-    #studyTimeDisplay { font-family: monospace; font-weight: 700; font-size: calc(var(--base-size) + 2px); color: #0366d6; }
-    .study-active { color: #28a745; font-size: calc(var(--base-size) - 3px); font-weight: 600; }
-    .study-paused { color: #888; font-size: calc(var(--base-size) - 3px); }
-    .study-user-paused { color: #d9534f; font-size: calc(var(--base-size) - 3px); font-weight: 600; }
-    .study-timer .pause-toggle { display: inline-flex; align-items: center; gap: 4px; font-size: calc(var(--base-size) - 3px); cursor: pointer; color: #555; }
-    .study-timer .help { color: #888; font-size: calc(var(--base-size) - 4px); margin-left: auto; }
-    .settings-bar { background: #f5f5f5; padding: 10px 14px; border-radius: 4px; margin: 16px 0; font-size: calc(var(--base-size) - 3px); display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
-    .settings-bar select { padding: 4px 6px; font-size: calc(var(--base-size) - 3px); min-height: 32px; }
-    .settings-bar label { display: inline-flex; align-items: center; gap: 4px; }
-    .settings-bar .group-label { font-weight: 600; color: #444; }
-    .speak-btn { background: none; border: none; cursor: pointer; padding: 4px 8px; font-size: calc(var(--base-size) - 2px); opacity: 0.55; vertical-align: middle; min-width: 36px; min-height: 36px; }
-    .speak-btn:hover, .speak-btn:active { opacity: 1; }
-    .play-all-btn { background: #0366d6; color: white; border: none; padding: 8px 14px; cursor: pointer; border-radius: 3px; font-size: calc(var(--base-size) - 3px); margin-bottom: 10px; min-height: 36px; }
-    .play-all-btn:hover { background: #024ea4; }
-    .stop-btn { background: #d9534f; color: white; border: none; padding: 6px 12px; cursor: pointer; border-radius: 3px; font-size: calc(var(--base-size) - 4px); min-height: 32px; }
-    .no-tts { color: #888; font-style: italic; }
-    .complete-status { color: green; font-weight: 600; margin-top: 20px; }
-    .user-bar { margin-bottom: 20px; color: #555; font-size: calc(var(--base-size) - 3px); }
-    .hidden { display: none; }
-    .login-required { background: #fff3cd; padding: 16px; border-radius: 4px; }
-
-    /* === Mobile === */
-    @media (max-width: 600px) {
-      body { margin: 12px auto; padding: 0 10px; }
-      .settings-bar { gap: 8px; padding: 8px 10px; }
-      .settings-bar label { font-size: 12px; }
-      .header h1 { font-size: calc(var(--base-size) + 4px); }
-      .section { margin: 24px 0; }
-      .speak-btn { padding: 6px 10px; min-width: 40px; min-height: 40px; font-size: calc(var(--base-size) - 1px); }
-      .quiz-item label { padding: 12px 10px; min-height: 44px; display: flex; align-items: center; }
-      .play-all-btn, .complete-btn { width: 100%; padding: 12px; font-size: calc(var(--base-size) - 1px); }
-      .audio-q-box button { width: 100%; }
-
-      .vocab-jp-row .jp { font-size: calc(var(--base-size) + 4px); }
-
-      .reading-passage { padding: 12px; }
-      .dialogue { padding: 10px; }
-      .dialogue-line .vi { margin-left: 0; }
-    }
-  </style>
-</head>
-<body>
-  <div class="nav"><a href="index.html">← Trang chủ</a></div>
-
-  <div id="loading">Đang tải bài học...</div>
-  <div id="error" class="hidden" style="color: red;"></div>
-
-  <div id="loginRequired" class="login-required hidden">
-    <p>⚠️ Bạn chưa đăng nhập. Có thể xem nội dung nhưng <b>không thể lưu tiến độ</b>. <a href="index.html">Đăng nhập tại đây</a>.</p>
-  </div>
-
-  <div id="lessonContent" class="hidden">
-    <div class="user-bar hidden" id="userBar">
-      👤 <span id="userEmail"></span> | <a href="#" id="logoutBtn">Đăng xuất</a>
-    </div>
-
-    <div class="header">
-      <h1 id="lessonTitle"></h1>
-      <div class="vi" id="lessonTitleVi"></div>
-      <div class="meta" id="lessonMeta"></div>
-    </div>
-
-    <div class="intro" id="lessonIntro"></div>
-
-    <div class="study-timer" id="studyTimer">
-      <span class="timer-label">⏱ Đã học bài này:</span>
-      <span id="studyTimeDisplay">00:00</span>
-      <span id="studyStatus" class="study-active">● Đang học</span>
-      <label class="pause-toggle" title="Khi bật, sẽ không cộng thêm giờ cho bài này">
-        <input type="checkbox" id="pauseTracking"> 🛑 Tạm dừng tính giờ
-      </label>
-      <span class="help">Tự pause khi tab ẩn / không thao tác 90s</span>
-    </div>
-
-    <div class="settings-bar" id="settingsBar">
-      <span class="group-label">⚙️</span>
-      <label>Font
-        <select id="fontSize">
-          <option value="14">Nhỏ</option>
-          <option value="16" selected>Vừa</option>
-          <option value="18">Lớn</option>
-          <option value="20">Rất lớn</option>
-        </select>
-      </label>
-      <label title="Ẩn hết tiếng Việt trong quiz/reading, sát đề thi thật">
-        <input type="checkbox" id="examMode"> 🇯🇵 Exam mode
-      </label>
-      <label title="Ngôn ngữ phần giải thích (note/tips/explanation)">Giải thích
-        <select id="explainLang">
-          <option value="vi">🇻🇳 VN</option>
-          <option value="jp">🇯🇵 JP</option>
-          <option value="both">🌐 Cả hai</option>
-        </select>
-      </label>
-      <span style="color:#ccc;">|</span>
-      <span class="group-label">🔊</span>
-      <label>Tốc độ
-        <select id="ttsRate">
-          <option value="0.7">0.7x</option>
-          <option value="0.85">0.85x</option>
-          <option value="0.95" selected>0.95x</option>
-          <option value="1.0">1.0x</option>
-          <option value="1.15">1.15x</option>
-        </select>
-      </label>
-      <label>Giọng <select id="ttsVoice"><option>Đang tải...</option></select></label>
-      <button id="stopAudioBtn" class="stop-btn">⏹ Dừng</button>
-      <span id="ttsStatus" style="color:#666;"></span>
-    </div>
-
-    <div id="sectionsContainer"></div>
-
-    <div id="completeArea" class="hidden">
-      <button id="completeBtn" class="complete-btn">✓ Đánh dấu hoàn thành bài này</button>
-      <div id="completeStatus" class="complete-status hidden"></div>
-    </div>
-  </div>
-
-  <script type="module">
-    import { firebaseConfig } from './firebase-config.js';
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-    import { getAuth, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
-    import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
-
-    const app = initializeApp(firebaseConfig);
-    const auth = getAuth(app);
-    const db = getFirestore(app);
-
-    const params = new URLSearchParams(location.search);
-    const lessonId = params.get('id');
-
-    const loadingEl = document.getElementById('loading');
-    const errorEl = document.getElementById('error');
-    const lessonContent = document.getElementById('lessonContent');
-    const loginRequired = document.getElementById('loginRequired');
-    const userBar = document.getElementById('userBar');
-    const userEmailEl = document.getElementById('userEmail');
-    const completeArea = document.getElementById('completeArea');
-    const completeBtn = document.getElementById('completeBtn');
-    const completeStatus = document.getElementById('completeStatus');
-
-    let currentUser = null;
-    let currentLesson = null;
-    let quizScores = { correct: 0, total: 0 };
-
-    // ========== Font size (localStorage) ==========
-    const FONT_SIZE_KEY = 'bjt-font-size';
-    const VALID_FONT_SIZES = ['14', '16', '18', '20'];
-
-    function applyFontSize(px) {
-      document.documentElement.style.setProperty('--base-size', px + 'px');
-    }
-
-    const savedFontSize = localStorage.getItem(FONT_SIZE_KEY);
-    if (savedFontSize && VALID_FONT_SIZES.includes(savedFontSize)) {
-      applyFontSize(savedFontSize);
-      document.getElementById('fontSize').value = savedFontSize;
-    }
-    document.getElementById('fontSize').addEventListener('change', (e) => {
-      applyFontSize(e.target.value);
-      localStorage.setItem(FONT_SIZE_KEY, e.target.value);
-    });
-
-    // ========== Exam mode (hide VN hints) ==========
-    const EXAM_MODE_KEY = 'bjt-exam-mode';
-    function applyExamMode(on) {
-      document.body.classList.toggle('exam-mode', on);
-    }
-    const savedExamMode = localStorage.getItem(EXAM_MODE_KEY) === '1';
-    document.getElementById('examMode').checked = savedExamMode;
-    applyExamMode(savedExamMode);
-    document.getElementById('examMode').addEventListener('change', (e) => {
-      applyExamMode(e.target.checked);
-      localStorage.setItem(EXAM_MODE_KEY, e.target.checked ? '1' : '0');
-    });
-
-    // ========== Explanation language (VN / JP / both) ==========
-    const EXPLAIN_LANG_KEY = 'bjt-explain-lang';
-    const VALID_LANGS = ['vi', 'jp', 'both'];
-    function applyExplainLang(lang) {
-      document.body.classList.remove('lang-vi', 'lang-jp', 'lang-both');
-      document.body.classList.add('lang-' + lang);
-    }
-    const savedLang = VALID_LANGS.includes(localStorage.getItem(EXPLAIN_LANG_KEY))
-      ? localStorage.getItem(EXPLAIN_LANG_KEY) : 'vi';
-    document.getElementById('explainLang').value = savedLang;
-    applyExplainLang(savedLang);
-    document.getElementById('explainLang').addEventListener('change', (e) => {
-      applyExplainLang(e.target.value);
-      localStorage.setItem(EXPLAIN_LANG_KEY, e.target.value);
-    });
-
-    // Helper: bilingual block. If jp missing, fall back to vi in JP mode.
-    function bilingual(vi, jp) {
-      const vi_ = vi || '';
-      const jp_ = jp || vi || '';
-      return `<span class="explain-vi">${vi_}</span><span class="explain-jp">${jp_}</span>`;
-    }
-
-    // ========== TTS ==========
-    const TTS_RATE_KEY = 'bjt-tts-rate';
-    const TTS_VOICE_KEY = 'bjt-tts-voice-name';
-
-    let ttsRate = 0.95;
-    let selectedVoice = null;
-    let availableVoices = [];
-    const ttsSupported = 'speechSynthesis' in window;
-
-    const savedRateStr = localStorage.getItem(TTS_RATE_KEY);
-    if (savedRateStr !== null) {
-      const parsed = parseFloat(savedRateStr);
-      if (!isNaN(parsed)) ttsRate = parsed;
-    }
-    const savedVoiceName = localStorage.getItem(TTS_VOICE_KEY);
-
-    function escAttr(s) {
-      return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;');
-    }
-
-    function loadVoices() {
-      if (!ttsSupported) return;
-      const all = speechSynthesis.getVoices();
-      availableVoices = all.filter(v => v.lang.startsWith('ja'));
-      const select = document.getElementById('ttsVoice');
-      const status = document.getElementById('ttsStatus');
-      if (availableVoices.length === 0) {
-        select.innerHTML = '<option>Không có giọng JP</option>';
-        status.textContent = '⚠️ Trình duyệt/OS không có giọng tiếng Nhật.';
-        status.classList.add('no-tts');
-        return;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BJT - Bài học</title>
+    <style>
+      :root {
+        --base-size: 16px;
       }
-      select.innerHTML = availableVoices.map((v, i) => `<option value="${i}">${v.name} (${v.lang})</option>`).join('');
-      let initialIdx = 0;
-      if (savedVoiceName) {
-        const foundIdx = availableVoices.findIndex(v => v.name === savedVoiceName);
-        if (foundIdx >= 0) initialIdx = foundIdx;
+      body {
+        font-family: sans-serif;
+        max-width: 960px;
+        margin: 32px auto;
+        padding: 0 16px;
+        line-height: 1.6;
+        color: #222;
+        font-size: var(--base-size);
       }
-      selectedVoice = availableVoices[initialIdx];
-      select.value = String(initialIdx);
-      status.textContent = '';
-    }
-
-    function speak(text) {
-      if (!ttsSupported || !text) return;
-      speechSynthesis.cancel();
-      const utter = new SpeechSynthesisUtterance(text);
-      utter.lang = 'ja-JP';
-      utter.rate = ttsRate;
-      if (selectedVoice) utter.voice = selectedVoice;
-      speechSynthesis.speak(utter);
-    }
-
-    let segmentAudio = null;
-    function playSegment(src, start, end) {
-      if (segmentAudio) { segmentAudio.pause(); segmentAudio = null; }
-      const a = new Audio(src);
-      a.currentTime = start;
-      const onTick = () => {
-        if (a.currentTime >= end) {
-          a.pause();
-          a.removeEventListener('timeupdate', onTick);
+      .nav {
+        margin-bottom: 20px;
+      }
+      .nav a {
+        color: #0366d6;
+        text-decoration: none;
+      }
+      .header {
+        border-bottom: 2px solid #0366d6;
+        padding-bottom: 12px;
+        margin-bottom: 24px;
+      }
+      .header h1 {
+        font-size: calc(var(--base-size) + 6px);
+        margin: 0 0 6px 0;
+      }
+      .header .vi {
+        color: #555;
+        font-size: calc(var(--base-size) - 1px);
+      }
+      .header .meta {
+        color: #888;
+        font-size: calc(var(--base-size) - 3px);
+        margin-top: 6px;
+      }
+      .intro {
+        background: #f0f7ff;
+        border-left: 4px solid #0366d6;
+        padding: 12px 16px;
+        margin: 20px 0;
+        white-space: pre-wrap;
+        font-size: var(--base-size);
+      }
+      .section {
+        margin: 40px 0;
+      }
+      .section h2 {
+        font-size: calc(var(--base-size) + 2px);
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 6px;
+      }
+      .vocab {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .vocab-card {
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        overflow: hidden;
+        background: #fff;
+      }
+      .vocab-jp-row {
+        background: #f5f5f5;
+        padding: 8px 12px;
+        border-bottom: 1px solid #eee;
+      }
+      .vocab-meaning {
+        padding: 10px 12px;
+      }
+      .vocab .jp {
+        font-size: calc(var(--base-size) + 2px);
+        font-weight: 600;
+      }
+      .jp-clickable {
+        cursor: pointer;
+        transition: color 0.15s;
+      }
+      .jp-clickable:hover {
+        color: #0366d6;
+      }
+      .jp-clickable .seg-icon {
+        font-size: calc(var(--base-size) - 2px);
+        opacity: 0.55;
+        margin-left: 4px;
+      }
+      .jp-clickable:hover .seg-icon {
+        opacity: 1;
+      }
+      .vocab .kana {
+        font-size: calc(var(--base-size) - 4px);
+        color: #777;
+      }
+      .vocab .note {
+        font-size: calc(var(--base-size) - 3px);
+        color: #555;
+        font-style: italic;
+        margin-top: 6px;
+      }
+      .vocab .example {
+        font-size: calc(var(--base-size) - 3px);
+        background: #fafafa;
+        padding: 6px 8px;
+        margin-top: 6px;
+        border-left: 3px solid #ccc;
+      }
+      .grammar-item {
+        background: #fffbea;
+        border: 1px solid #f0e0a0;
+        padding: 12px 16px;
+        margin: 12px 0;
+        border-radius: 4px;
+      }
+      .grammar-item .pattern {
+        font-size: calc(var(--base-size) + 2px);
+        font-weight: 600;
+        color: #8a6d00;
+      }
+      .grammar-item .pattern-vi {
+        color: #555;
+        font-size: calc(var(--base-size) - 2px);
+        margin-bottom: 8px;
+      }
+      .grammar-item .explanation {
+        font-size: calc(var(--base-size) - 2px);
+        margin: 8px 0;
+      }
+      .grammar-item .warning {
+        background: #ffe5e5;
+        border-left: 3px solid #d9534f;
+        padding: 8px 12px;
+        margin: 8px 0;
+        font-size: calc(var(--base-size) - 2px);
+        border-radius: 2px;
+      }
+      .grammar-item ul {
+        padding-left: 20px;
+      }
+      .grammar-item li {
+        margin: 4px 0;
+      }
+      .dialogue {
+        background: #fff;
+        border: 1px solid #d8dee5;
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 4px 16px rgba(15, 30, 50, 0.06);
+      }
+      .dialogue-header {
+        background: linear-gradient(180deg, #f6f8fb 0%, #eef2f7 100%);
+        border-bottom: 1px solid #dde3ea;
+        padding: 10px 16px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .dialogue-header .dlg-dots {
+        display: flex;
+        gap: 5px;
+      }
+      .dialogue-header .dlg-dots span {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: #d0d6dd;
+      }
+      .dialogue-header .dlg-dots span:nth-child(1) {
+        background: #ff6058;
+      }
+      .dialogue-header .dlg-dots span:nth-child(2) {
+        background: #ffbd2e;
+      }
+      .dialogue-header .dlg-dots span:nth-child(3) {
+        background: #28ca42;
+      }
+      .dialogue-header .dlg-title {
+        font-size: calc(var(--base-size) - 3px);
+        color: #4a5560;
+        font-weight: 600;
+        flex: 1;
+        text-align: center;
+      }
+      .dialogue-body {
+        background: #f7f9fb;
+        padding: 16px 14px;
+      }
+      .dialogue .scene {
+        font-style: italic;
+        color: #555;
+        margin-bottom: 14px;
+        padding: 10px 12px;
+        background: #fff;
+        border-left: 3px solid #0366d6;
+        border-radius: 0 4px 4px 0;
+        font-size: calc(var(--base-size) - 2px);
+      }
+      .dlg-figure {
+        margin: 0 0 14px;
+        text-align: center;
+      }
+      .dlg-figure img {
+        max-width: 100%;
+        max-height: 320px;
+        height: auto;
+        border-radius: 8px;
+        border: 1px solid #e2e7ec;
+        cursor: zoom-in;
+        background: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+      .dlg-figure figcaption {
+        font-size: calc(var(--base-size) - 5px);
+        color: #7a8693;
+        font-style: italic;
+        margin-top: 6px;
+      }
+      .dialogue-toolbar {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+      }
+      .dlg-toggle-vi {
+        background: #fff;
+        border: 1px solid #cdd5dd;
+        color: #555;
+        padding: 6px 12px;
+        font-size: calc(var(--base-size) - 4px);
+        cursor: pointer;
+        border-radius: 16px;
+        min-height: 32px;
+      }
+      .dlg-toggle-vi:hover {
+        background: #f0f7ff;
+        border-color: #0366d6;
+        color: #0366d6;
+      }
+      .dlg-toggle-vi.active {
+        background: #0366d6;
+        color: #fff;
+        border-color: #0366d6;
+      }
+      .dlg-row {
+        display: flex;
+        gap: 8px;
+        margin: 14px 0;
+        max-width: 82%;
+        align-items: flex-end;
+      }
+      .dlg-row.right {
+        margin-left: auto;
+        flex-direction: row-reverse;
+      }
+      .dlg-row.narrator {
+        max-width: 100%;
+        margin: 18px auto;
+        justify-content: center;
+      }
+      .dlg-avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        flex-shrink: 0;
+        overflow: hidden;
+      }
+      .dlg-avatar-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .dlg-row.right .dlg-avatar {
+        background: #e7f1ff;
+        border-color: #b9d4f5;
+      }
+      .dlg-bubble-wrap {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+      }
+      .dlg-row.right .dlg-bubble-wrap {
+        align-items: flex-end;
+      }
+      .dlg-speaker {
+        font-size: calc(var(--base-size) - 5px);
+        color: #7a8693;
+        margin: 0 8px 3px;
+      }
+      .dlg-bubble {
+        background: #fff;
+        border: 1px solid #e2e7ec;
+        padding: 10px 14px;
+        border-radius: 14px;
+        position: relative;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.03);
+      }
+      .dlg-row.left .dlg-bubble {
+        border-bottom-left-radius: 4px;
+      }
+      .dlg-row.right .dlg-bubble {
+        background: #0366d6;
+        border-color: #0366d6;
+        color: #fff;
+        border-bottom-right-radius: 4px;
+      }
+      .dlg-row.narrator .dlg-bubble {
+        background: transparent;
+        border: 1px dashed #c4ccd4;
+        color: #666;
+        font-style: italic;
+      }
+      .dlg-row.warning .dlg-bubble {
+        background: #fff5f5;
+        border: 1px dashed #d9534f;
+        color: #842029;
+      }
+      .dlg-jp {
+        font-size: var(--base-size);
+        line-height: 1.55;
+        cursor: pointer;
+        user-select: text;
+      }
+      .dlg-jp:active {
+        opacity: 0.7;
+      }
+      .dlg-vi {
+        font-size: calc(var(--base-size) - 3px);
+        color: #5a6470;
+        margin-top: 0;
+        padding-top: 0;
+        border-top: 1px dashed transparent;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: max-height 0.25s ease, opacity 0.2s ease, margin-top 0.2s,
+          padding-top 0.2s, border-top-color 0.2s;
+        line-height: 1.5;
+      }
+      .dlg-row.right .dlg-vi {
+        color: rgba(255, 255, 255, 0.92);
+      }
+      .dialogue.show-all-vi .dlg-vi,
+      .dlg-bubble.show-vi .dlg-vi {
+        max-height: 320px;
+        opacity: 1;
+        margin-top: 8px;
+        padding-top: 8px;
+        border-top-color: rgba(0, 0, 0, 0.1);
+      }
+      .dialogue.show-all-vi .dlg-row.right .dlg-vi,
+      .dlg-row.right .dlg-bubble.show-vi .dlg-vi {
+        border-top-color: rgba(255, 255, 255, 0.25);
+      }
+      .dlg-copy-flash {
+        position: fixed;
+        bottom: 32px;
+        left: 50%;
+        transform: translateX(-50%) translateY(20px);
+        background: #1f2937;
+        color: #fff;
+        padding: 10px 18px;
+        border-radius: 24px;
+        font-size: calc(var(--base-size) - 3px);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s, transform 0.2s;
+        z-index: 1000;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      }
+      .dlg-copy-flash.show {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+      body.exam-mode .dlg-vi,
+      body.exam-mode .dlg-toggle-vi {
+        display: none !important;
+      }
+      .vocab-highlight {
+        background: #fff;
+        border: 1px dashed #aaa;
+        padding: 10px;
+        margin-top: 12px;
+        font-size: calc(var(--base-size) - 3px);
+      }
+      .vocab-highlight ul {
+        margin: 4px 0;
+        padding-left: 20px;
+      }
+      .dialogue-note {
+        background: #fef5e7;
+        border-left: 4px solid #f0a500;
+        padding: 10px 14px;
+        margin-top: 12px;
+        font-size: calc(var(--base-size) - 2px);
+        white-space: pre-wrap;
+        border-radius: 2px;
+      }
+      .reading-passage {
+        background: #f9f9f9;
+        border: 1px solid #ddd;
+        padding: 16px;
+        white-space: pre-wrap;
+        font-size: calc(var(--base-size) - 1px);
+        margin-bottom: 12px;
+      }
+      .reading-passage-vi {
+        background: #fafafa;
+        border: 1px solid #eee;
+        padding: 12px;
+        white-space: pre-wrap;
+        font-size: calc(var(--base-size) - 3px);
+        color: #555;
+        margin-bottom: 16px;
+        display: none;
+      }
+      .toggle-vi {
+        background: none;
+        border: 1px solid #0366d6;
+        color: #0366d6;
+        padding: 6px 10px;
+        font-size: calc(var(--base-size) - 4px);
+        cursor: pointer;
+        margin-bottom: 12px;
+        border-radius: 3px;
+      }
+      .quiz-item {
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 14px;
+        margin: 12px 0;
+        border-radius: 4px;
+      }
+      .quiz-item .q-text {
+        font-weight: 600;
+        margin-bottom: 4px;
+        font-size: var(--base-size);
+      }
+      .quiz-item .q-hint {
+        color: #888;
+        font-size: calc(var(--base-size) - 4px);
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+      .option-jp {
+        font-size: var(--base-size);
+      }
+      .option-vi {
+        color: #888;
+        font-size: calc(var(--base-size) - 4px);
+        margin-top: 2px;
+        margin-left: 22px;
+        font-style: italic;
+      }
+      body.exam-mode .q-hint,
+      body.exam-mode .option-vi,
+      body.exam-mode .reading-passage-vi,
+      body.exam-mode .toggle-vi {
+        display: none !important;
+      }
+      body.lang-vi .explain-jp {
+        display: none;
+      }
+      body.lang-jp .explain-vi {
+        display: none;
+      }
+      body.lang-both .explain-vi,
+      body.lang-both .explain-jp {
+        display: block;
+      }
+      body.lang-both .explain-jp {
+        margin-top: 4px;
+        padding-top: 4px;
+        border-top: 1px dashed #ddd;
+      }
+      .explain-vi,
+      .explain-jp {
+        display: block;
+      }
+      .section-image {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        margin: 14px auto 8px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        background: #fafafa;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+      }
+      .section-image-caption {
+        font-size: calc(var(--base-size) - 4px);
+        color: #777;
+        font-style: italic;
+        margin: 0 auto 16px;
+        max-width: 600px;
+        text-align: center;
+      }
+      .section-intro {
+        padding: 10px 14px;
+        background: #f0f7ff;
+        border-left: 3px solid #0366d6;
+        margin: 8px 0 16px;
+        white-space: pre-wrap;
+        font-size: var(--base-size);
+        color: #2d3a4a;
+        border-radius: 0 4px 4px 0;
+      }
+      .vocab-item-image {
+        float: right;
+        max-width: 220px;
+        width: 35%;
+        height: auto;
+        margin: 0 0 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background: #fafafa;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+      }
+      @media (max-width: 600px) {
+        .vocab-item-image {
+          float: none;
+          display: block;
+          max-width: 100%;
+          width: 100%;
+          margin: 4px 0 10px;
         }
-      };
-      a.addEventListener('timeupdate', onTick);
-      a.play();
-      segmentAudio = a;
-    }
-
-    function speakSequence(texts) {
-      if (!ttsSupported || !texts || !texts.length) return;
-      speechSynthesis.cancel();
-      let i = 0;
-      function next() {
-        if (i >= texts.length) return;
-        const u = new SpeechSynthesisUtterance(texts[i]);
-        u.lang = 'ja-JP';
-        u.rate = ttsRate;
-        if (selectedVoice) u.voice = selectedVoice;
-        u.onend = () => { i++; setTimeout(next, 350); };
-        speechSynthesis.speak(u);
       }
-      next();
-    }
+      .section-audio-wrap {
+        background: #fff8e1;
+        border: 1px solid #f0d878;
+        border-radius: 6px;
+        padding: 10px 14px;
+        margin: 12px 0 16px;
+      }
+      .section-audio-label {
+        font-size: calc(var(--base-size) - 2px);
+        color: #6b5400;
+        margin-bottom: 6px;
+        font-weight: 500;
+      }
+      .section-audio {
+        display: block;
+        width: 100%;
+        max-width: 540px;
+      }
+      .section.has-audio .speak-btn {
+        display: none !important;
+      }
+      .quiz-item label {
+        display: block;
+        padding: 8px 10px;
+        cursor: pointer;
+        border-radius: 3px;
+        margin: 4px 0;
+        font-size: calc(var(--base-size) - 1px);
+      }
+      .quiz-item label:hover {
+        background: #f5f5f5;
+      }
+      .quiz-item.answered label.correct {
+        background: #d4edda;
+      }
+      .quiz-item.answered label.wrong {
+        background: #f8d7da;
+      }
+      .quiz-item.answered input {
+        pointer-events: none;
+      }
+      .audio-q-box {
+        background: #e7f3ff;
+        border: 1px dashed #0366d6;
+        padding: 12px;
+        margin: 10px 0;
+        text-align: center;
+        border-radius: 3px;
+      }
+      .audio-q-box button {
+        background: #0366d6;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: var(--base-size);
+        cursor: pointer;
+        border-radius: 4px;
+        min-height: 44px;
+      }
+      .audio-q-box .hint {
+        font-size: calc(var(--base-size) - 3px);
+        color: #666;
+        margin-top: 6px;
+      }
+      .quiz-item .explanation {
+        background: #fff3cd;
+        border-left: 3px solid #ffc107;
+        padding: 8px 12px;
+        margin-top: 10px;
+        font-size: calc(var(--base-size) - 3px);
+        display: none;
+      }
+      .quiz-item.answered .explanation {
+        display: block;
+      }
+      .quiz-summary {
+        background: #e7f3ff;
+        padding: 16px;
+        border-radius: 4px;
+        margin-top: 20px;
+      }
+      .quiz-summary .score {
+        font-size: calc(var(--base-size) + 8px);
+        font-weight: 600;
+        color: #0366d6;
+      }
+      .tips {
+        background: #fef5e7;
+        border-left: 4px solid #f0a500;
+        padding: 12px 16px;
+        white-space: pre-wrap;
+        font-size: calc(var(--base-size) - 1px);
+      }
+      .complete-btn {
+        background: #0366d6;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        font-size: var(--base-size);
+        cursor: pointer;
+        border-radius: 4px;
+        margin-top: 30px;
+      }
+      .complete-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+      .study-timer {
+        background: #e7f3ff;
+        border: 1px solid #b8daff;
+        padding: 8px 14px;
+        border-radius: 4px;
+        margin: 12px 0;
+        font-size: calc(var(--base-size) - 2px);
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .study-timer .timer-label {
+        color: #555;
+      }
+      #studyTimeDisplay {
+        font-family: monospace;
+        font-weight: 700;
+        font-size: calc(var(--base-size) + 2px);
+        color: #0366d6;
+      }
+      .study-active {
+        color: #28a745;
+        font-size: calc(var(--base-size) - 3px);
+        font-weight: 600;
+      }
+      .study-paused {
+        color: #888;
+        font-size: calc(var(--base-size) - 3px);
+      }
+      .study-user-paused {
+        color: #d9534f;
+        font-size: calc(var(--base-size) - 3px);
+        font-weight: 600;
+      }
+      .study-timer .help {
+        color: #888;
+        font-size: calc(var(--base-size) - 4px);
+        margin-left: auto;
+      }
+      .pause-fab {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        border: 2px solid #28a745;
+        background: #fff;
+        color: #28a745;
+        font-size: 22px;
+        line-height: 1;
+        cursor: pointer;
+        z-index: 200;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        transition: transform 0.15s, background 0.15s, color 0.15s,
+          border-color 0.15s;
+      }
+      .pause-fab::before {
+        content: "⏸";
+        font-size: 22px;
+      }
+      .pause-fab:hover {
+        transform: scale(1.08);
+      }
+      .pause-fab.paused {
+        background: #d9534f;
+        border-color: #d9534f;
+        color: #fff;
+      }
+      .pause-fab.paused::before {
+        content: "🛑";
+      }
+      .pause-fab:focus-visible {
+        outline: 3px solid rgba(3, 102, 214, 0.4);
+        outline-offset: 2px;
+      }
+      .save-pos-fab {
+        position: fixed;
+        right: 18px;
+        bottom: 82px;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        border: 2px solid #0366d6;
+        background: #fff;
+        color: #0366d6;
+        font-size: 22px;
+        line-height: 1;
+        cursor: pointer;
+        z-index: 200;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        transition: transform 0.15s, background 0.15s, color 0.15s;
+      }
+      .save-pos-fab::before {
+        content: "🔖";
+        font-size: 22px;
+      }
+      .save-pos-fab:hover {
+        transform: scale(1.08);
+        background: #f0f7ff;
+      }
+      .save-pos-fab:active {
+        transform: scale(0.96);
+      }
+      .save-pos-fab:focus-visible {
+        outline: 3px solid rgba(3, 102, 214, 0.4);
+        outline-offset: 2px;
+      }
+      @media (max-width: 600px) {
+        .pause-fab {
+          right: 12px;
+          bottom: 12px;
+          width: 48px;
+          height: 48px;
+          font-size: 20px;
+        }
+        .save-pos-fab {
+          right: 12px;
+          bottom: 72px;
+          width: 48px;
+          height: 48px;
+          font-size: 20px;
+        }
+      }
+      .settings-bar {
+        background: #f5f5f5;
+        padding: 10px 14px;
+        border-radius: 4px;
+        margin: 16px 0;
+        font-size: calc(var(--base-size) - 3px);
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .settings-bar select {
+        padding: 4px 6px;
+        font-size: calc(var(--base-size) - 3px);
+        min-height: 32px;
+      }
+      .settings-bar label {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+      }
+      .settings-bar .group-label {
+        font-weight: 600;
+        color: #444;
+      }
+      .speak-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 4px 8px;
+        font-size: calc(var(--base-size) - 2px);
+        opacity: 0.55;
+        vertical-align: middle;
+        min-width: 36px;
+        min-height: 36px;
+      }
+      .speak-btn:hover,
+      .speak-btn:active {
+        opacity: 1;
+      }
+      .play-all-btn {
+        background: #0366d6;
+        color: white;
+        border: none;
+        padding: 8px 14px;
+        cursor: pointer;
+        border-radius: 3px;
+        font-size: calc(var(--base-size) - 3px);
+        margin-bottom: 10px;
+        min-height: 36px;
+      }
+      .play-all-btn:hover {
+        background: #024ea4;
+      }
+      .stop-btn {
+        background: #d9534f;
+        color: white;
+        border: none;
+        padding: 6px 12px;
+        cursor: pointer;
+        border-radius: 3px;
+        font-size: calc(var(--base-size) - 4px);
+        min-height: 32px;
+      }
+      .no-tts {
+        color: #888;
+        font-style: italic;
+      }
+      .complete-status {
+        color: green;
+        font-weight: 600;
+        margin-top: 20px;
+      }
+      .user-bar {
+        margin-bottom: 20px;
+        color: #555;
+        font-size: calc(var(--base-size) - 3px);
+      }
+      .hidden {
+        display: none;
+      }
+      .login-required {
+        background: #fff3cd;
+        padding: 16px;
+        border-radius: 4px;
+      }
 
-    if (ttsSupported) {
-      speechSynthesis.onvoiceschanged = loadVoices;
-      loadVoices();
-      const rateSelect = document.getElementById('ttsRate');
+      /* === Floating TOC (desktop) === */
+      .lesson-toc {
+        position: fixed;
+        right: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 100;
+        background: #fff;
+        border: 1px solid #d0d7de;
+        border-radius: 8px;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        max-height: 80vh;
+        transition: width 0.18s ease;
+        width: 44px;
+      }
+      .lesson-toc.expanded {
+        width: 300px;
+      }
+      .lesson-toc .toc-toggle {
+        background: none;
+        border: none;
+        padding: 10px 12px;
+        cursor: pointer;
+        font-size: 18px;
+        color: #0366d6;
+        flex-shrink: 0;
+        text-align: center;
+        line-height: 1;
+        min-height: 44px;
+      }
+      .lesson-toc .toc-toggle:hover {
+        background: #f0f7ff;
+      }
+      .lesson-toc .toc-toggle .toc-label {
+        display: none;
+        margin-left: 6px;
+        font-size: 13px;
+        font-weight: 600;
+        vertical-align: middle;
+      }
+      .lesson-toc.expanded .toc-toggle {
+        text-align: left;
+        border-bottom: 1px solid #eaecef;
+      }
+      .lesson-toc.expanded .toc-toggle .toc-label {
+        display: inline;
+      }
+      .lesson-toc .toc-list {
+        display: none;
+        max-height: calc(80vh - 50px);
+        overflow-y: auto;
+        padding: 4px 0;
+      }
+      .lesson-toc.expanded .toc-list {
+        display: block;
+      }
+      .lesson-toc .toc-item {
+        display: block;
+        padding: 8px 14px;
+        color: #444;
+        text-decoration: none;
+        font-size: 12.5px;
+        line-height: 1.45;
+        border-left: 3px solid transparent;
+        cursor: pointer;
+      }
+      .lesson-toc .toc-item:hover {
+        background: #f5f7fa;
+        border-left-color: #0366d6;
+        color: #0366d6;
+      }
+
+      @media (max-width: 991px) {
+        .lesson-toc {
+          display: none !important;
+        }
+      }
+
+      /* === Mobile === */
+      @media (max-width: 600px) {
+        body {
+          margin: 12px auto;
+          padding: 0 10px;
+        }
+        .settings-bar {
+          gap: 8px;
+          padding: 8px 10px;
+        }
+        .settings-bar label {
+          font-size: 12px;
+        }
+        .header h1 {
+          font-size: calc(var(--base-size) + 4px);
+        }
+        .section {
+          margin: 24px 0;
+        }
+        .speak-btn {
+          padding: 6px 10px;
+          min-width: 40px;
+          min-height: 40px;
+          font-size: calc(var(--base-size) - 1px);
+        }
+        .quiz-item label {
+          padding: 12px 10px;
+          min-height: 44px;
+          display: flex;
+          align-items: center;
+        }
+        .play-all-btn,
+        .complete-btn {
+          width: 100%;
+          padding: 12px;
+          font-size: calc(var(--base-size) - 1px);
+        }
+        .audio-q-box button {
+          width: 100%;
+        }
+
+        .vocab-jp-row .jp {
+          font-size: calc(var(--base-size) + 4px);
+        }
+
+        .reading-passage {
+          padding: 12px;
+        }
+        .dialogue-body {
+          padding: 12px 8px;
+        }
+        .dialogue-header {
+          padding: 8px 12px;
+        }
+        .dialogue-header .dlg-title {
+          font-size: calc(var(--base-size) - 4px);
+        }
+        .dlg-figure img {
+          max-height: 220px;
+        }
+        .dlg-row {
+          max-width: 90%;
+          gap: 6px;
+        }
+        .dlg-avatar {
+          width: 28px;
+          height: 28px;
+          font-size: 16px;
+        }
+        .dlg-bubble {
+          padding: 9px 12px;
+          border-radius: 12px;
+        }
+        .dlg-jp {
+          font-size: calc(var(--base-size) - 1px);
+        }
+        .dlg-vi {
+          font-size: calc(var(--base-size) - 4px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav"><a href="index.html">← Trang chủ</a></div>
+
+    <div id="loading">Đang tải bài học...</div>
+    <div id="error" class="hidden" style="color: red"></div>
+
+    <div id="loginRequired" class="login-required hidden">
+      <p>
+        ⚠️ Bạn chưa đăng nhập. Có thể xem nội dung nhưng
+        <b>không thể lưu tiến độ</b>.
+        <a href="index.html">Đăng nhập tại đây</a>.
+      </p>
+    </div>
+
+    <div id="lessonContent" class="hidden">
+      <div class="user-bar hidden" id="userBar">
+        👤 <span id="userEmail"></span> |
+        <a href="#" id="logoutBtn">Đăng xuất</a>
+      </div>
+
+      <div class="header">
+        <h1 id="lessonTitle"></h1>
+        <div class="vi" id="lessonTitleVi"></div>
+        <div class="meta" id="lessonMeta"></div>
+      </div>
+
+      <div class="intro" id="lessonIntro"></div>
+
+      <div class="study-timer" id="studyTimer">
+        <span class="timer-label">⏱ Đã học bài này:</span>
+        <span id="studyTimeDisplay">00:00</span>
+        <span id="studyStatus" class="study-active">● Đang học</span>
+        <span class="help"
+          >Tự pause khi tab ẩn / không thao tác 90s · Sync cloud</span
+        >
+      </div>
+
+      <button
+        id="savePosFab"
+        class="save-pos-fab"
+        type="button"
+        title="Lưu vị trí đọc hiện tại"
+      ></button>
+      <button
+        id="pauseToggle"
+        class="pause-fab"
+        type="button"
+        aria-pressed="false"
+        title="Tạm dừng tính giờ (toàn cục)"
+      ></button>
+
+      <div class="settings-bar" id="settingsBar">
+        <span class="group-label">⚙️</span>
+        <label
+          >Font
+          <select id="fontSize">
+            <option value="14">Nhỏ</option>
+            <option value="16" selected>Vừa</option>
+            <option value="18">Lớn</option>
+            <option value="20">Rất lớn</option>
+          </select>
+        </label>
+        <label title="Ẩn hết tiếng Việt trong quiz/reading, sát đề thi thật">
+          <input type="checkbox" id="examMode" /> 🇯🇵 Exam mode
+        </label>
+        <label title="Ngôn ngữ phần giải thích (note/tips/explanation)"
+          >Giải thích
+          <select id="explainLang">
+            <option value="vi">🇻🇳 VN</option>
+            <option value="jp">🇯🇵 JP</option>
+            <option value="both">🌐 Cả hai</option>
+          </select>
+        </label>
+        <span style="color: #ccc">|</span>
+        <span class="group-label">🔊</span>
+        <label
+          >Tốc độ
+          <select id="ttsRate">
+            <option value="0.7">0.7x</option>
+            <option value="0.85">0.85x</option>
+            <option value="0.95" selected>0.95x</option>
+            <option value="1.0">1.0x</option>
+            <option value="1.15">1.15x</option>
+          </select>
+        </label>
+        <label
+          >Giọng
+          <select id="ttsVoice">
+            <option>Đang tải...</option>
+          </select></label
+        >
+        <button id="stopAudioBtn" class="stop-btn">⏹ Dừng</button>
+        <span id="ttsStatus" style="color: #666"></span>
+      </div>
+
+      <nav
+        id="lessonToc"
+        class="lesson-toc hidden"
+        aria-label="Mục lục bài học"
+      >
+        <button
+          type="button"
+          class="toc-toggle"
+          id="tocToggle"
+          title="Mục lục — click để mở/đóng"
+          aria-expanded="false"
+        >
+          📑<span class="toc-label">Mục lục</span>
+        </button>
+        <div class="toc-list" id="tocList"></div>
+      </nav>
+
+      <div id="sectionsContainer"></div>
+
+      <div id="completeArea" class="hidden">
+        <button id="completeBtn" class="complete-btn">
+          ✓ Đánh dấu hoàn thành bài này
+        </button>
+        <div id="completeStatus" class="complete-status hidden"></div>
+      </div>
+    </div>
+
+    <script type="module">
+      import { firebaseConfig } from "./firebase-config.js";
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+      import {
+        getAuth,
+        signOut,
+        onAuthStateChanged,
+      } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+      import {
+        getFirestore,
+        doc,
+        setDoc,
+        getDoc,
+        serverTimestamp,
+      } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+      const db = getFirestore(app);
+
+      const params = new URLSearchParams(location.search);
+      const lessonId = params.get("id");
+
+      const loadingEl = document.getElementById("loading");
+      const errorEl = document.getElementById("error");
+      const lessonContent = document.getElementById("lessonContent");
+      const loginRequired = document.getElementById("loginRequired");
+      const userBar = document.getElementById("userBar");
+      const userEmailEl = document.getElementById("userEmail");
+      const completeArea = document.getElementById("completeArea");
+      const completeBtn = document.getElementById("completeBtn");
+      const completeStatus = document.getElementById("completeStatus");
+
+      let currentUser = null;
+      let currentLesson = null;
+      let quizScores = { correct: 0, total: 0 };
+
+      // ========== Font size (localStorage) ==========
+      const FONT_SIZE_KEY = "bjt-font-size";
+      const VALID_FONT_SIZES = ["14", "16", "18", "20"];
+
+      function applyFontSize(px) {
+        document.documentElement.style.setProperty("--base-size", px + "px");
+      }
+
+      const savedFontSize = localStorage.getItem(FONT_SIZE_KEY);
+      if (savedFontSize && VALID_FONT_SIZES.includes(savedFontSize)) {
+        applyFontSize(savedFontSize);
+        document.getElementById("fontSize").value = savedFontSize;
+      }
+      document.getElementById("fontSize").addEventListener("change", (e) => {
+        applyFontSize(e.target.value);
+        localStorage.setItem(FONT_SIZE_KEY, e.target.value);
+      });
+
+      // ========== Exam mode (hide VN hints) ==========
+      const EXAM_MODE_KEY = "bjt-exam-mode";
+      function applyExamMode(on) {
+        document.body.classList.toggle("exam-mode", on);
+      }
+      const savedExamMode = localStorage.getItem(EXAM_MODE_KEY) === "1";
+      document.getElementById("examMode").checked = savedExamMode;
+      applyExamMode(savedExamMode);
+      document.getElementById("examMode").addEventListener("change", (e) => {
+        applyExamMode(e.target.checked);
+        localStorage.setItem(EXAM_MODE_KEY, e.target.checked ? "1" : "0");
+      });
+
+      // ========== Explanation language (VN / JP / both) ==========
+      const EXPLAIN_LANG_KEY = "bjt-explain-lang";
+      const VALID_LANGS = ["vi", "jp", "both"];
+      function applyExplainLang(lang) {
+        document.body.classList.remove("lang-vi", "lang-jp", "lang-both");
+        document.body.classList.add("lang-" + lang);
+      }
+      const savedLang = VALID_LANGS.includes(
+        localStorage.getItem(EXPLAIN_LANG_KEY)
+      )
+        ? localStorage.getItem(EXPLAIN_LANG_KEY)
+        : "vi";
+      document.getElementById("explainLang").value = savedLang;
+      applyExplainLang(savedLang);
+      document.getElementById("explainLang").addEventListener("change", (e) => {
+        applyExplainLang(e.target.value);
+        localStorage.setItem(EXPLAIN_LANG_KEY, e.target.value);
+      });
+
+      // Helper: bilingual block. If jp missing, fall back to vi in JP mode.
+      function bilingual(vi, jp) {
+        const vi_ = vi || "";
+        const jp_ = jp || vi || "";
+        return `<span class="explain-vi">${vi_}</span><span class="explain-jp">${jp_}</span>`;
+      }
+
+      // ========== TTS ==========
+      const TTS_RATE_KEY = "bjt-tts-rate";
+      const TTS_VOICE_KEY = "bjt-tts-voice-name";
+
+      let ttsRate = 0.95;
+      let selectedVoice = null;
+      let availableVoices = [];
+      const ttsSupported = "speechSynthesis" in window;
+
+      const savedRateStr = localStorage.getItem(TTS_RATE_KEY);
       if (savedRateStr !== null) {
-        rateSelect.value = savedRateStr;
-        if (rateSelect.value === '') {
-          rateSelect.value = '0.95';
-          ttsRate = 0.95;
+        const parsed = parseFloat(savedRateStr);
+        if (!isNaN(parsed)) ttsRate = parsed;
+      }
+      const savedVoiceName = localStorage.getItem(TTS_VOICE_KEY);
+
+      function escAttr(s) {
+        return String(s)
+          .replace(/&/g, "&amp;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#39;")
+          .replace(/</g, "&lt;");
+      }
+
+      function loadVoices() {
+        if (!ttsSupported) return;
+        const all = speechSynthesis.getVoices();
+        availableVoices = all.filter((v) => v.lang.startsWith("ja"));
+        const select = document.getElementById("ttsVoice");
+        const status = document.getElementById("ttsStatus");
+        if (availableVoices.length === 0) {
+          select.innerHTML = "<option>Không có giọng JP</option>";
+          status.textContent = "⚠️ Trình duyệt/OS không có giọng tiếng Nhật.";
+          status.classList.add("no-tts");
+          return;
         }
-      }
-      rateSelect.addEventListener('change', (e) => {
-        ttsRate = parseFloat(e.target.value);
-        localStorage.setItem(TTS_RATE_KEY, e.target.value);
-      });
-      document.getElementById('ttsVoice').addEventListener('change', (e) => {
-        const idx = parseInt(e.target.value);
-        if (!isNaN(idx) && availableVoices[idx]) {
-          selectedVoice = availableVoices[idx];
-          localStorage.setItem(TTS_VOICE_KEY, selectedVoice.name);
+        select.innerHTML = availableVoices
+          .map((v, i) => `<option value="${i}">${v.name} (${v.lang})</option>`)
+          .join("");
+        let initialIdx = 0;
+        if (savedVoiceName) {
+          const foundIdx = availableVoices.findIndex(
+            (v) => v.name === savedVoiceName
+          );
+          if (foundIdx >= 0) initialIdx = foundIdx;
         }
-      });
-      document.getElementById('stopAudioBtn').addEventListener('click', () => speechSynthesis.cancel());
-    } else {
-      const settingsBar = document.getElementById('settingsBar');
-      settingsBar.querySelectorAll('label:not(:first-of-type), #stopAudioBtn, .group-label:nth-of-type(2)').forEach(el => el.style.display = 'none');
-    }
-
-    document.addEventListener('click', (e) => {
-      const btn = e.target.closest('.speak-btn');
-      if (btn && btn.dataset.text) {
-        speak(btn.dataset.text);
+        selectedVoice = availableVoices[initialIdx];
+        select.value = String(initialIdx);
+        status.textContent = "";
       }
-    });
 
-    // ========== Study Timer (smart activity tracking) ==========
-    const TIMES_KEY = 'bjt-times';
-    const DAILY_KEY = 'bjt-daily';
-    const TIMES_META_KEY = 'bjt-times-meta';
-    const IDLE_THRESHOLD_MS = 90 * 1000;
-    const MAX_TICK_DELTA_MS = 5 * 1000;
+      function speak(text) {
+        if (!ttsSupported || !text) return;
+        speechSynthesis.cancel();
+        const utter = new SpeechSynthesisUtterance(text);
+        utter.lang = "ja-JP";
+        utter.rate = ttsRate;
+        if (selectedVoice) utter.voice = selectedVoice;
+        speechSynthesis.speak(utter);
+      }
 
-    function loadJsonObj(key) {
-      try { return JSON.parse(localStorage.getItem(key)) || {}; } catch { return {}; }
-    }
-    function saveJsonObj(key, obj) {
-      try { localStorage.setItem(key, JSON.stringify(obj)); } catch {}
-    }
-    function todayDateKey() {
-      const d = new Date();
-      const pad = (n) => String(n).padStart(2, '0');
-      return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
-    }
-    function formatStudyTime(ms) {
-      const totalSec = Math.floor(ms / 1000);
-      const h = Math.floor(totalSec / 3600);
-      const m = Math.floor((totalSec % 3600) / 60);
-      const s = totalSec % 60;
-      const pad = (n) => String(n).padStart(2, '0');
-      return h > 0 ? `${pad(h)}:${pad(m)}:${pad(s)}` : `${pad(m)}:${pad(s)}`;
-    }
-
-    const lessonTimes = loadJsonObj(TIMES_KEY);
-    const dailyTimes = loadJsonObj(DAILY_KEY);
-    const lessonTimesMeta = loadJsonObj(TIMES_META_KEY);
-    let lastActivityAt = Date.now();
-    let lastTickAt = Date.now();
-    let saveTickCounter = 0;
-    let studyTimerStarted = false;
-    let userPaused = false;
-    let pullPending = false;       // true while initial Firestore pull is in progress
-    let authStateResolved = false; // true once we know whether user is logged in
-
-    // Safety: if auth never resolves (Firebase broken/offline), unblock tick after 10s
-    setTimeout(() => {
-      if (!authStateResolved) { authStateResolved = true; pullPending = false; }
-    }, 10000);
-
-    function persistStudyTime() {
-      saveJsonObj(TIMES_KEY, lessonTimes);
-      saveJsonObj(DAILY_KEY, dailyTimes);
-      saveJsonObj(TIMES_META_KEY, lessonTimesMeta);
-    }
-
-    function renderStudyTime(isActive) {
-      const timeEl = document.getElementById('studyTimeDisplay');
-      const statusEl = document.getElementById('studyStatus');
-      if (!timeEl) return;
-      timeEl.textContent = formatStudyTime(lessonTimes[lessonId] || 0);
-      if (statusEl) {
-        if (pullPending || !authStateResolved) {
-          statusEl.textContent = '⟳ Đang đồng bộ...';
-          statusEl.className = 'study-paused';
-        } else if (userPaused) {
-          statusEl.textContent = '🛑 Tạm dừng (tự bạn)';
-          statusEl.className = 'study-user-paused';
-        } else if (document.hidden) {
-          statusEl.textContent = '◌ Tab ẩn (pause)';
-          statusEl.className = 'study-paused';
-        } else if (isActive) {
-          statusEl.textContent = '● Đang học';
-          statusEl.className = 'study-active';
-        } else {
-          statusEl.textContent = '◌ Không thao tác (pause)';
-          statusEl.className = 'study-paused';
+      let segmentAudio = null;
+      function playSegment(src, start, end) {
+        if (segmentAudio) {
+          segmentAudio.pause();
+          segmentAudio = null;
         }
+        const a = new Audio(src);
+        a.currentTime = start;
+        const onTick = () => {
+          if (a.currentTime >= end) {
+            a.pause();
+            a.removeEventListener("timeupdate", onTick);
+          }
+        };
+        a.addEventListener("timeupdate", onTick);
+        a.play();
+        segmentAudio = a;
       }
-    }
 
-    // Firestore sync (throttled to save free-tier quota)
-    const FIRESTORE_SYNC_INTERVAL_MS = 2 * 60 * 1000;
-    let lastFirestoreSyncAt = 0;
-    let firestoreSyncInFlight = false;
-    let pulledFromFirestore = false;
-
-    async function syncStudyTimeToFirestore(force = false) {
-      if (!currentUser || !lessonId || firestoreSyncInFlight) return;
-      if (!force && Date.now() - lastFirestoreSyncAt < FIRESTORE_SYNC_INTERVAL_MS) return;
-      firestoreSyncInFlight = true;
-      lastFirestoreSyncAt = Date.now();
-      try {
-        const totalMs = lessonTimes[lessonId] || 0;
-        const today = todayDateKey();
-        const dailyMs = (dailyTimes[today] && dailyTimes[today][lessonId]) || 0;
-        const localUpdatedAt = (lessonTimesMeta[lessonId] && lessonTimesMeta[lessonId].localUpdatedAt) || 0;
-        const totalsRef = doc(db, 'users', currentUser.uid, 'study-totals', lessonId);
-        const dailyRef = doc(db, 'users', currentUser.uid, 'study-daily', `${today}_${lessonId}`);
-        await Promise.all([
-          setDoc(totalsRef, { lessonId, totalMs, localUpdatedAt, updatedAt: serverTimestamp() }),
-          setDoc(dailyRef, { lessonId, date: today, activeMs: dailyMs, updatedAt: serverTimestamp() })
-        ]);
-      } catch (err) {
-        console.warn('Firestore sync failed:', err);
-      } finally {
-        firestoreSyncInFlight = false;
+      function speakSequence(texts) {
+        if (!ttsSupported || !texts || !texts.length) return;
+        speechSynthesis.cancel();
+        let i = 0;
+        function next() {
+          if (i >= texts.length) return;
+          const u = new SpeechSynthesisUtterance(texts[i]);
+          u.lang = "ja-JP";
+          u.rate = ttsRate;
+          if (selectedVoice) u.voice = selectedVoice;
+          u.onend = () => {
+            i++;
+            setTimeout(next, 350);
+          };
+          speechSynthesis.speak(u);
+        }
+        next();
       }
-    }
 
-    async function pullStudyTimeFromFirestore() {
-      if (!currentUser || !lessonId || pulledFromFirestore) return;
-      pulledFromFirestore = true;
-      pullPending = true;
-      try {
-        const today = todayDateKey();
-        const totalsRef = doc(db, 'users', currentUser.uid, 'study-totals', lessonId);
-        const dailyRef = doc(db, 'users', currentUser.uid, 'study-daily', `${today}_${lessonId}`);
-        const [totalsSnap, dailySnap] = await Promise.all([getDoc(totalsRef), getDoc(dailyRef)]);
-        if (totalsSnap.exists()) {
-          const data = totalsSnap.data();
-          const remoteTotal = data.totalMs || 0;
-          const remoteTs = data.localUpdatedAt || 0;
-          const localTs = (lessonTimesMeta[lessonId] && lessonTimesMeta[lessonId].localUpdatedAt) || 0;
-          if (remoteTs > 0 && remoteTs > localTs) {
-            // Remote was modified more recently (e.g. edited on another device) — trust remote
-            lessonTimes[lessonId] = remoteTotal;
-            lessonTimesMeta[lessonId] = { localUpdatedAt: remoteTs };
-          } else {
-            // Legacy data or local is newer — fall back to max-merge so offline accumulation isn't lost
-            lessonTimes[lessonId] = Math.max(lessonTimes[lessonId] || 0, remoteTotal);
+      if (ttsSupported) {
+        speechSynthesis.onvoiceschanged = loadVoices;
+        loadVoices();
+        const rateSelect = document.getElementById("ttsRate");
+        if (savedRateStr !== null) {
+          rateSelect.value = savedRateStr;
+          if (rateSelect.value === "") {
+            rateSelect.value = "0.95";
+            ttsRate = 0.95;
           }
         }
-        if (dailySnap.exists()) {
-          const remoteDaily = dailySnap.data().activeMs || 0;
-          if (!dailyTimes[today]) dailyTimes[today] = {};
-          dailyTimes[today][lessonId] = Math.max(dailyTimes[today][lessonId] || 0, remoteDaily);
+        rateSelect.addEventListener("change", (e) => {
+          ttsRate = parseFloat(e.target.value);
+          localStorage.setItem(TTS_RATE_KEY, e.target.value);
+        });
+        document.getElementById("ttsVoice").addEventListener("change", (e) => {
+          const idx = parseInt(e.target.value);
+          if (!isNaN(idx) && availableVoices[idx]) {
+            selectedVoice = availableVoices[idx];
+            localStorage.setItem(TTS_VOICE_KEY, selectedVoice.name);
+          }
+        });
+        document
+          .getElementById("stopAudioBtn")
+          .addEventListener("click", () => speechSynthesis.cancel());
+      } else {
+        const settingsBar = document.getElementById("settingsBar");
+        settingsBar
+          .querySelectorAll(
+            "label:not(:first-of-type), #stopAudioBtn, .group-label:nth-of-type(2)"
+          )
+          .forEach((el) => (el.style.display = "none"));
+      }
+
+      document.addEventListener("click", (e) => {
+        const btn = e.target.closest(".speak-btn");
+        if (btn && btn.dataset.text) {
+          speak(btn.dataset.text);
         }
-        persistStudyTime();
-        renderStudyTime(!document.hidden);
-        // Push merged value back so local additions sync up
-        syncStudyTimeToFirestore(true);
-      } catch (err) {
-        console.warn('Firestore pull failed:', err);
-      } finally {
-        pullPending = false;
+      });
+
+      // ========== Study Timer (smart activity tracking) ==========
+      const TIMES_KEY = "bjt-times";
+      const DAILY_KEY = "bjt-daily";
+      const TIMES_META_KEY = "bjt-times-meta";
+      const PAUSE_KEY = "bjt-pause-tracking"; // global pause flag (shared across all lessons)
+      const IDLE_THRESHOLD_MS = 90 * 1000;
+      const MAX_TICK_DELTA_MS = 5 * 1000;
+
+      function loadJsonObj(key) {
+        try {
+          return JSON.parse(localStorage.getItem(key)) || {};
+        } catch {
+          return {};
+        }
       }
-    }
-
-    function studyTick() {
-      const now = Date.now();
-      const idleFor = now - lastActivityAt;
-      const delta = now - lastTickAt;
-      lastTickAt = now;
-
-      const tabVisible = !document.hidden;
-      const notIdle = idleFor < IDLE_THRESHOLD_MS;
-      const sane = delta < MAX_TICK_DELTA_MS;
-      const isActive = tabVisible && notIdle && sane && !userPaused;
-      // Gate accumulation until initial Firestore pull resolves so cross-device edits aren't clobbered
-      const canAccumulate = isActive && authStateResolved && !pullPending;
-
-      if (canAccumulate && lessonId) {
-        lessonTimes[lessonId] = (lessonTimes[lessonId] || 0) + delta;
-        lessonTimesMeta[lessonId] = { localUpdatedAt: Date.now() };
-        const today = todayDateKey();
-        if (!dailyTimes[today]) dailyTimes[today] = {};
-        dailyTimes[today][lessonId] = (dailyTimes[today][lessonId] || 0) + delta;
+      function saveJsonObj(key, obj) {
+        try {
+          localStorage.setItem(key, JSON.stringify(obj));
+        } catch {}
+      }
+      function todayDateKey() {
+        const d = new Date();
+        const pad = (n) => String(n).padStart(2, "0");
+        return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(
+          d.getDate()
+        )}`;
+      }
+      function formatStudyTime(ms) {
+        const totalSec = Math.floor(ms / 1000);
+        const h = Math.floor(totalSec / 3600);
+        const m = Math.floor((totalSec % 3600) / 60);
+        const s = totalSec % 60;
+        const pad = (n) => String(n).padStart(2, "0");
+        return h > 0 ? `${pad(h)}:${pad(m)}:${pad(s)}` : `${pad(m)}:${pad(s)}`;
       }
 
-      saveTickCounter++;
-      if (saveTickCounter % 10 === 0) persistStudyTime();
-      if (isActive) syncStudyTimeToFirestore(); // throttled to every 30s
+      const lessonTimes = loadJsonObj(TIMES_KEY);
+      const dailyTimes = loadJsonObj(DAILY_KEY);
+      const lessonTimesMeta = loadJsonObj(TIMES_META_KEY);
+      let lastActivityAt = Date.now();
+      let lastTickAt = Date.now();
+      let saveTickCounter = 0;
+      let studyTimerStarted = false;
+      let userPaused = localStorage.getItem(PAUSE_KEY) === "1"; // global, restored from localStorage; Firebase pull may override below
+      let prefsPulled = false; // true after global preferences (pauseTracking) pulled from Firestore
+      let pullPending = false; // true while initial Firestore pull is in progress
+      let authStateResolved = false; // true once we know whether user is logged in
 
-      renderStudyTime(tabVisible && notIdle);
-    }
+      // Safety: if auth never resolves (Firebase broken/offline), unblock tick after 10s
+      setTimeout(() => {
+        if (!authStateResolved) {
+          authStateResolved = true;
+          pullPending = false;
+        }
+      }, 10000);
 
-    function startStudyTimer() {
-      if (studyTimerStarted || !lessonId) return;
-      studyTimerStarted = true;
+      function persistStudyTime() {
+        saveJsonObj(TIMES_KEY, lessonTimes);
+        saveJsonObj(DAILY_KEY, dailyTimes);
+        saveJsonObj(TIMES_META_KEY, lessonTimesMeta);
+      }
 
-      const pauseKey = `bjt-pause-${lessonId}`;
-      userPaused = localStorage.getItem(pauseKey) === '1';
-      const pauseCheckbox = document.getElementById('pauseTracking');
-      if (pauseCheckbox) {
-        pauseCheckbox.checked = userPaused;
-        pauseCheckbox.addEventListener('change', (e) => {
-          userPaused = e.target.checked;
-          localStorage.setItem(pauseKey, userPaused ? '1' : '0');
-          lastTickAt = Date.now();
-          renderStudyTime(!document.hidden && (Date.now() - lastActivityAt < IDLE_THRESHOLD_MS));
+      function renderStudyTime(isActive) {
+        const timeEl = document.getElementById("studyTimeDisplay");
+        const statusEl = document.getElementById("studyStatus");
+        if (!timeEl) return;
+        timeEl.textContent = formatStudyTime(lessonTimes[lessonId] || 0);
+        if (statusEl) {
+          if (pullPending || !authStateResolved) {
+            statusEl.textContent = "⟳ Đang đồng bộ...";
+            statusEl.className = "study-paused";
+          } else if (userPaused) {
+            statusEl.textContent = "🛑 Tạm dừng (tự bạn)";
+            statusEl.className = "study-user-paused";
+          } else if (document.hidden) {
+            statusEl.textContent = "◌ Tab ẩn (pause)";
+            statusEl.className = "study-paused";
+          } else if (isActive) {
+            statusEl.textContent = "● Đang học";
+            statusEl.className = "study-active";
+          } else {
+            statusEl.textContent = "◌ Không thao tác (pause)";
+            statusEl.className = "study-paused";
+          }
+        }
+      }
+
+      // Firestore sync (throttled to save free-tier quota)
+      const FIRESTORE_SYNC_INTERVAL_MS = 3 * 60 * 1000;
+      let lastFirestoreSyncAt = 0;
+      let firestoreSyncInFlight = false;
+      let pulledFromFirestore = false;
+
+      async function syncStudyTimeToFirestore(force = false) {
+        if (!currentUser || !lessonId || firestoreSyncInFlight) return;
+        if (
+          !force &&
+          Date.now() - lastFirestoreSyncAt < FIRESTORE_SYNC_INTERVAL_MS
+        )
+          return;
+        firestoreSyncInFlight = true;
+        lastFirestoreSyncAt = Date.now();
+        try {
+          const totalMs = lessonTimes[lessonId] || 0;
+          const today = todayDateKey();
+          const dailyMs =
+            (dailyTimes[today] && dailyTimes[today][lessonId]) || 0;
+          const localUpdatedAt =
+            (lessonTimesMeta[lessonId] &&
+              lessonTimesMeta[lessonId].localUpdatedAt) ||
+            0;
+          const totalsRef = doc(
+            db,
+            "users",
+            currentUser.uid,
+            "study-totals",
+            lessonId
+          );
+          const dailyRef = doc(
+            db,
+            "users",
+            currentUser.uid,
+            "study-daily",
+            `${today}_${lessonId}`
+          );
+          await Promise.all([
+            setDoc(totalsRef, {
+              lessonId,
+              totalMs,
+              localUpdatedAt,
+              updatedAt: serverTimestamp(),
+            }),
+            setDoc(dailyRef, {
+              lessonId,
+              date: today,
+              activeMs: dailyMs,
+              updatedAt: serverTimestamp(),
+            }),
+          ]);
+        } catch (err) {
+          console.warn("Firestore sync failed:", err);
+        } finally {
+          firestoreSyncInFlight = false;
+        }
+      }
+
+      function updatePauseFab() {
+        const fab = document.getElementById("pauseToggle");
+        if (!fab) return;
+        fab.classList.toggle("paused", userPaused);
+        fab.setAttribute("aria-pressed", userPaused ? "true" : "false");
+        fab.title = userPaused
+          ? "Đang tạm dừng — nhấn để tiếp tục"
+          : "Tạm dừng tính giờ (toàn cục)";
+      }
+
+      // Global user preferences (currently: pauseTracking). Stored at users/{uid}/settings/preferences
+      // — applies to ALL lessons, so toggling pause on L01 also pauses L02, L03... and persists cross-device.
+      async function pullUserPreferences() {
+        if (!currentUser || prefsPulled) return;
+        prefsPulled = true;
+        try {
+          const ref = doc(
+            db,
+            "users",
+            currentUser.uid,
+            "settings",
+            "preferences"
+          );
+          const snap = await getDoc(ref);
+          if (snap.exists() && typeof snap.data().pauseTracking === "boolean") {
+            userPaused = snap.data().pauseTracking;
+            localStorage.setItem(PAUSE_KEY, userPaused ? "1" : "0");
+            updatePauseFab();
+            renderStudyTime(
+              !document.hidden &&
+                Date.now() - lastActivityAt < IDLE_THRESHOLD_MS
+            );
+          }
+        } catch (err) {
+          console.warn("Preferences pull failed:", err);
+        }
+      }
+
+      async function pushUserPreferences() {
+        if (!currentUser) return;
+        try {
+          const ref = doc(
+            db,
+            "users",
+            currentUser.uid,
+            "settings",
+            "preferences"
+          );
+          await setDoc(
+            ref,
+            { pauseTracking: userPaused, updatedAt: serverTimestamp() },
+            { merge: true }
+          );
+        } catch (err) {
+          console.warn("Preferences push failed:", err);
+        }
+      }
+
+      async function pullStudyTimeFromFirestore() {
+        if (!currentUser || !lessonId || pulledFromFirestore) return;
+        pulledFromFirestore = true;
+        pullPending = true;
+        try {
+          const today = todayDateKey();
+          const totalsRef = doc(
+            db,
+            "users",
+            currentUser.uid,
+            "study-totals",
+            lessonId
+          );
+          const dailyRef = doc(
+            db,
+            "users",
+            currentUser.uid,
+            "study-daily",
+            `${today}_${lessonId}`
+          );
+          const [totalsSnap, dailySnap] = await Promise.all([
+            getDoc(totalsRef),
+            getDoc(dailyRef),
+          ]);
+          if (totalsSnap.exists()) {
+            const data = totalsSnap.data();
+            const remoteTotal = data.totalMs || 0;
+            const remoteTs = data.localUpdatedAt || 0;
+            const localTs =
+              (lessonTimesMeta[lessonId] &&
+                lessonTimesMeta[lessonId].localUpdatedAt) ||
+              0;
+            if (remoteTs > 0 && remoteTs > localTs) {
+              // Remote was modified more recently (e.g. edited on another device) — trust remote
+              lessonTimes[lessonId] = remoteTotal;
+              lessonTimesMeta[lessonId] = { localUpdatedAt: remoteTs };
+            } else {
+              // Legacy data or local is newer — fall back to max-merge so offline accumulation isn't lost
+              lessonTimes[lessonId] = Math.max(
+                lessonTimes[lessonId] || 0,
+                remoteTotal
+              );
+            }
+          }
+          if (dailySnap.exists()) {
+            const remoteDaily = dailySnap.data().activeMs || 0;
+            if (!dailyTimes[today]) dailyTimes[today] = {};
+            dailyTimes[today][lessonId] = Math.max(
+              dailyTimes[today][lessonId] || 0,
+              remoteDaily
+            );
+          }
+          persistStudyTime();
+          renderStudyTime(!document.hidden);
+          // Push merged value back so local additions sync up
+          syncStudyTimeToFirestore(true);
+        } catch (err) {
+          console.warn("Firestore pull failed:", err);
+        } finally {
+          pullPending = false;
+        }
+      }
+
+      // ========== Reading position sync ==========
+      // Manual save: user clicks bookmark FAB to save current scrollY.
+      // Restore: auto on lesson load if user logged in and a saved position exists.
+      let lessonRendered = false;
+      let readingPosRestored = false;
+
+      async function saveReadingPosition() {
+        if (!currentUser) {
+          showCopyFlash("⚠️ Cần đăng nhập để lưu");
+          return;
+        }
+        if (!lessonId || !lessonRendered) return;
+        try {
+          const ref = doc(
+            db,
+            "users",
+            currentUser.uid,
+            "reading-position",
+            lessonId
+          );
+          await setDoc(ref, {
+            lessonId,
+            scrollY: Math.round(window.scrollY),
+            updatedAt: serverTimestamp(),
+          });
+          showCopyFlash("🔖 Đã lưu vị trí");
+        } catch (err) {
+          console.warn("Reading position save failed:", err);
+          showCopyFlash("⚠️ Lưu vị trí thất bại");
+        }
+      }
+
+      async function restoreReadingPosition() {
+        if (!currentUser || !lessonId || !lessonRendered || readingPosRestored)
+          return;
+        readingPosRestored = true;
+        try {
+          const ref = doc(
+            db,
+            "users",
+            currentUser.uid,
+            "reading-position",
+            lessonId
+          );
+          const snap = await getDoc(ref);
+          if (!snap.exists()) return;
+          const data = snap.data();
+          const y = data.scrollY;
+          if (typeof y !== "number" || y <= 0) return;
+          setTimeout(
+            () => window.scrollTo({ top: y, behavior: "smooth" }),
+            300
+          );
+        } catch (err) {
+          console.warn("Reading position restore failed:", err);
+        }
+      }
+
+      function studyTick() {
+        const now = Date.now();
+        const idleFor = now - lastActivityAt;
+        const delta = now - lastTickAt;
+        lastTickAt = now;
+
+        const tabVisible = !document.hidden;
+        const notIdle = idleFor < IDLE_THRESHOLD_MS;
+        const sane = delta < MAX_TICK_DELTA_MS;
+        const isActive = tabVisible && notIdle && sane && !userPaused;
+        // Gate accumulation until initial Firestore pull resolves so cross-device edits aren't clobbered
+        const canAccumulate = isActive && authStateResolved && !pullPending;
+
+        if (canAccumulate && lessonId) {
+          lessonTimes[lessonId] = (lessonTimes[lessonId] || 0) + delta;
+          lessonTimesMeta[lessonId] = { localUpdatedAt: Date.now() };
+          const today = todayDateKey();
+          if (!dailyTimes[today]) dailyTimes[today] = {};
+          dailyTimes[today][lessonId] =
+            (dailyTimes[today][lessonId] || 0) + delta;
+        }
+
+        saveTickCounter++;
+        if (saveTickCounter % 10 === 0) persistStudyTime();
+        if (isActive) syncStudyTimeToFirestore(); // throttled to every 3 min
+
+        renderStudyTime(tabVisible && notIdle);
+      }
+
+      function startStudyTimer() {
+        if (studyTimerStarted || !lessonId) return;
+        studyTimerStarted = true;
+
+        // userPaused already initialized from global localStorage (PAUSE_KEY) at top of script.
+        // Firebase pull in pullUserPreferences() may override it once auth resolves.
+        updatePauseFab();
+        const pauseFab = document.getElementById("pauseToggle");
+        if (pauseFab) {
+          pauseFab.addEventListener("click", () => {
+            userPaused = !userPaused;
+            localStorage.setItem(PAUSE_KEY, userPaused ? "1" : "0");
+            updatePauseFab();
+            pushUserPreferences();
+            lastTickAt = Date.now();
+            renderStudyTime(
+              !document.hidden &&
+                Date.now() - lastActivityAt < IDLE_THRESHOLD_MS
+            );
+          });
+        }
+
+        const events = [
+          "mousemove",
+          "mousedown",
+          "click",
+          "keydown",
+          "scroll",
+          "touchstart",
+        ];
+        events.forEach((ev) => {
+          window.addEventListener(
+            ev,
+            () => {
+              lastActivityAt = Date.now();
+            },
+            { passive: true }
+          );
+        });
+
+        document.addEventListener("visibilitychange", () => {
+          if (document.hidden) {
+            persistStudyTime();
+            syncStudyTimeToFirestore(true);
+          } else {
+            lastActivityAt = Date.now();
+            lastTickAt = Date.now();
+          }
+        });
+
+        const flushOnExit = () => {
+          persistStudyTime();
+          syncStudyTimeToFirestore(true);
+        };
+        window.addEventListener("beforeunload", flushOnExit);
+        window.addEventListener("pagehide", flushOnExit);
+
+        lastActivityAt = Date.now();
+        lastTickAt = Date.now();
+        setInterval(studyTick, 1000);
+        renderStudyTime(true);
+      }
+
+      // ========== Lesson rendering ==========
+      if (!lessonId) {
+        loadingEl.classList.add("hidden");
+        errorEl.textContent = "Thiếu lesson ID. Quay lại trang chủ.";
+        errorEl.classList.remove("hidden");
+      } else {
+        startStudyTimer();
+        loadLesson(lessonId);
+      }
+
+      const savePosFab = document.getElementById("savePosFab");
+      if (savePosFab) {
+        savePosFab.addEventListener("click", saveReadingPosition);
+      }
+
+      async function loadLesson(id) {
+        try {
+          const res = await fetch(`lessons/${id}.json`, { cache: "no-store" });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          currentLesson = await res.json();
+          renderLesson(currentLesson);
+          loadingEl.classList.add("hidden");
+          lessonContent.classList.remove("hidden");
+        } catch (err) {
+          loadingEl.classList.add("hidden");
+          errorEl.textContent = `Không tải được bài học "${id}": ${err.message}`;
+          errorEl.classList.remove("hidden");
+        }
+      }
+
+      function shuffleQuestionOptions(q) {
+        if (!q.options || q.options.length < 2) return;
+        const items = q.options.map((opt, i) => ({ opt, orig: i }));
+        for (let i = items.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [items[i], items[j]] = [items[j], items[i]];
+        }
+        q.options = items.map((x) => x.opt);
+        q.answer = items.findIndex((x) => x.orig === q.answer);
+      }
+
+      function shuffleLessonOptions(lesson) {
+        lesson.sections.forEach((section) => {
+          if (
+            (section.type === "quiz" || section.type === "reading") &&
+            section.questions
+          ) {
+            section.questions.forEach(shuffleQuestionOptions);
+          }
         });
       }
 
-      const events = ['mousemove', 'mousedown', 'click', 'keydown', 'scroll', 'touchstart'];
-      events.forEach(ev => {
-        window.addEventListener(ev, () => { lastActivityAt = Date.now(); }, { passive: true });
-      });
+      function renderLesson(lesson) {
+        document.title = `BJT - ${lesson.title}`;
+        document.getElementById("lessonTitle").textContent = lesson.title;
+        document.getElementById("lessonTitleVi").textContent = lesson.titleVi;
+        document.getElementById(
+          "lessonMeta"
+        ).textContent = `${lesson.phase} · ${lesson.estimatedMinutes} phút · ${lesson.level}`;
+        document.getElementById("lessonIntro").innerHTML = bilingual(
+          lesson.intro,
+          lesson.intro_jp
+        );
 
-      document.addEventListener('visibilitychange', () => {
-        if (document.hidden) {
-          persistStudyTime();
-          syncStudyTimeToFirestore(true);
-        } else {
-          lastActivityAt = Date.now();
-          lastTickAt = Date.now();
-        }
-      });
+        shuffleLessonOptions(lesson);
 
-      const flushOnExit = () => {
-        persistStudyTime();
-        syncStudyTimeToFirestore(true);
+        const container = document.getElementById("sectionsContainer");
+        container.innerHTML = "";
+        lessonRendered = false;
+        lesson.sections.forEach((section, idx) => {
+          const el = renderSection(section, idx);
+          container.appendChild(el);
+        });
+
+        buildTocMenu(lesson);
+        completeArea.classList.remove("hidden");
+        lessonRendered = true;
+        restoreReadingPosition();
+      }
+
+      // Group consecutive sections by macro type so the TOC shows only top-level
+      // book divisions (vd L02: できますか / 敬語で言ってみましょう / 練習しましょう / Tổng kết).
+      const TOC_MACRO = {
+        dialogue: { label: "💬 Hội thoại", priority: 1 },
+        vocab: { label: "📖 Học mẫu", priority: 2 },
+        grammar: { label: "📚 Học mẫu", priority: 2 },
+        reading: { label: "📰 Đọc hiểu", priority: 3 },
+        quiz: { label: "✏️ Luyện tập", priority: 4 },
+        tips: { label: "💡 Ghi chú", priority: 5 },
       };
-      window.addEventListener('beforeunload', flushOnExit);
-      window.addEventListener('pagehide', flushOnExit);
 
-      lastActivityAt = Date.now();
-      lastTickAt = Date.now();
-      setInterval(studyTick, 1000);
-      renderStudyTime(true);
-    }
-
-    // ========== Lesson rendering ==========
-    if (!lessonId) {
-      loadingEl.classList.add('hidden');
-      errorEl.textContent = 'Thiếu lesson ID. Quay lại trang chủ.';
-      errorEl.classList.remove('hidden');
-    } else {
-      startStudyTimer();
-      loadLesson(lessonId);
-    }
-
-    async function loadLesson(id) {
-      try {
-        const res = await fetch(`lessons/${id}.json`, { cache: 'no-store' });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        currentLesson = await res.json();
-        renderLesson(currentLesson);
-        loadingEl.classList.add('hidden');
-        lessonContent.classList.remove('hidden');
-      } catch (err) {
-        loadingEl.classList.add('hidden');
-        errorEl.textContent = `Không tải được bài học "${id}": ${err.message}`;
-        errorEl.classList.remove('hidden');
+      function shortenSectionTitle(t) {
+        return (t || "").replace(/\s*\((?:trang|Track)[^)]*\)\s*$/i, "").trim();
       }
-    }
 
-    function shuffleQuestionOptions(q) {
-      if (!q.options || q.options.length < 2) return;
-      const items = q.options.map((opt, i) => ({ opt, orig: i }));
-      for (let i = items.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [items[i], items[j]] = [items[j], items[i]];
+      function buildTocMenu(lesson) {
+        const toc = document.getElementById("lessonToc");
+        const list = document.getElementById("tocList");
+        if (!toc || !list) return;
+
+        const groups = [];
+        let cur = null;
+        lesson.sections.forEach((section, idx) => {
+          const macro = TOC_MACRO[section.type] || {
+            label: section.title,
+            priority: 99,
+          };
+          if (cur && cur.priority === macro.priority) {
+            cur.count++;
+          } else {
+            cur = {
+              label: macro.label,
+              priority: macro.priority,
+              startIdx: idx,
+              count: 1,
+            };
+            groups.push(cur);
+          }
+        });
+
+        list.innerHTML = "";
+        groups.forEach((g) => {
+          const item = document.createElement("a");
+          item.href = `#section-${g.startIdx}`;
+          item.className = "toc-item";
+          // 1 section → dùng title gốc (rút gọn); nhiều section cùng loại → macro label + count
+          item.textContent =
+            g.count === 1
+              ? shortenSectionTitle(lesson.sections[g.startIdx].title)
+              : `${g.label} (${g.count} mục)`;
+          item.addEventListener("click", (e) => {
+            e.preventDefault();
+            const target = document.getElementById(`section-${g.startIdx}`);
+            if (target)
+              target.scrollIntoView({ behavior: "smooth", block: "start" });
+            collapseToc();
+          });
+          list.appendChild(item);
+        });
+        toc.classList.remove("hidden");
       }
-      q.options = items.map(x => x.opt);
-      q.answer = items.findIndex(x => x.orig === q.answer);
-    }
 
-    function shuffleLessonOptions(lesson) {
-      lesson.sections.forEach(section => {
-        if ((section.type === 'quiz' || section.type === 'reading') && section.questions) {
-          section.questions.forEach(shuffleQuestionOptions);
-        }
+      function expandToc() {
+        const toc = document.getElementById("lessonToc");
+        const btn = document.getElementById("tocToggle");
+        toc.classList.add("expanded");
+        if (btn) btn.setAttribute("aria-expanded", "true");
+      }
+      function collapseToc() {
+        const toc = document.getElementById("lessonToc");
+        const btn = document.getElementById("tocToggle");
+        toc.classList.remove("expanded");
+        if (btn) btn.setAttribute("aria-expanded", "false");
+      }
+      document.getElementById("tocToggle").addEventListener("click", (e) => {
+        e.stopPropagation();
+        const toc = document.getElementById("lessonToc");
+        if (toc.classList.contains("expanded")) collapseToc();
+        else expandToc();
       });
-    }
-
-    function renderLesson(lesson) {
-      document.title = `BJT - ${lesson.title}`;
-      document.getElementById('lessonTitle').textContent = lesson.title;
-      document.getElementById('lessonTitleVi').textContent = lesson.titleVi;
-      document.getElementById('lessonMeta').textContent = `${lesson.phase} · ${lesson.estimatedMinutes} phút · ${lesson.level}`;
-      document.getElementById('lessonIntro').innerHTML = bilingual(lesson.intro, lesson.intro_jp);
-
-      shuffleLessonOptions(lesson);
-
-      const container = document.getElementById('sectionsContainer');
-      container.innerHTML = '';
-      lesson.sections.forEach((section, idx) => {
-        const el = renderSection(section, idx);
-        container.appendChild(el);
+      document.addEventListener("click", (e) => {
+        const toc = document.getElementById("lessonToc");
+        if (!toc.contains(e.target) && toc.classList.contains("expanded"))
+          collapseToc();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") collapseToc();
       });
 
-      completeArea.classList.remove('hidden');
-    }
+      function renderSection(section, idx) {
+        const div = document.createElement("div");
+        div.className = "section";
+        div.id = `section-${idx}`;
+        const h2 = document.createElement("h2");
+        h2.textContent = section.title;
+        div.appendChild(h2);
 
-    function renderSection(section, idx) {
-      const div = document.createElement('div');
-      div.className = 'section';
-      const h2 = document.createElement('h2');
-      h2.textContent = section.title;
-      div.appendChild(h2);
-
-      if (section.image) {
-        const img = document.createElement('img');
-        img.src = section.image;
-        img.alt = section.imageAlt || section.title;
-        img.className = 'section-image';
-        img.loading = 'lazy';
-        div.appendChild(img);
-        if (section.imageCaption) {
-          const cap = document.createElement('div');
-          cap.className = 'section-image-caption';
-          cap.textContent = section.imageCaption;
-          div.appendChild(cap);
+        if (section.image && section.type !== "dialogue") {
+          const img = document.createElement("img");
+          img.src = section.image;
+          img.alt = section.imageAlt || section.title;
+          img.className = "section-image";
+          img.loading = "lazy";
+          div.appendChild(img);
+          if (section.imageCaption) {
+            const cap = document.createElement("div");
+            cap.className = "section-image-caption";
+            cap.textContent = section.imageCaption;
+            div.appendChild(cap);
+          }
         }
+
+        if (section.intro || section.intro_jp) {
+          const introDiv = document.createElement("div");
+          introDiv.className = "section-intro";
+          introDiv.innerHTML = bilingual(section.intro, section.intro_jp);
+          div.appendChild(introDiv);
+        }
+
+        if (section.audio) {
+          // Nếu đã chia nhỏ audio thành segment cho từng câu (audioStart/audioEnd),
+          // không render player tổng nữa — user click trực tiếp từng câu để play segment.
+          const hasSegments =
+            Array.isArray(section.questions) &&
+            section.questions.some(
+              (q) => q.audioStart != null && q.audioEnd != null
+            );
+          if (!hasSegments) {
+            const audioWrap = document.createElement("div");
+            audioWrap.className = "section-audio-wrap";
+            const label = section.audioLabel || "Audio";
+            audioWrap.innerHTML = `<div class="section-audio-label">🎧 ${label}</div><audio controls preload="metadata" src="${section.audio}" class="section-audio"></audio>`;
+            div.appendChild(audioWrap);
+          }
+          div.classList.add("has-audio");
+        }
+
+        switch (section.type) {
+          case "vocab":
+            div.appendChild(renderVocab(section));
+            break;
+          case "grammar":
+            div.appendChild(renderGrammar(section));
+            break;
+          case "dialogue":
+            div.appendChild(renderDialogue(section));
+            break;
+          case "reading":
+            div.appendChild(renderReading(section, idx));
+            break;
+          case "quiz":
+            div.appendChild(renderQuiz(section, idx));
+            break;
+          case "tips":
+            div.appendChild(renderTips(section));
+            break;
+        }
+        return div;
       }
 
-      if (section.intro || section.intro_jp) {
-        const introDiv = document.createElement('div');
-        introDiv.className = 'section-intro';
-        introDiv.innerHTML = bilingual(section.intro, section.intro_jp);
-        div.appendChild(introDiv);
-      }
-
-      if (section.audio) {
-        const audioWrap = document.createElement('div');
-        audioWrap.className = 'section-audio-wrap';
-        const label = section.audioLabel || 'Audio';
-        audioWrap.innerHTML = `<div class="section-audio-label">🎧 ${label}</div><audio controls preload="metadata" src="${section.audio}" class="section-audio"></audio>`;
-        div.appendChild(audioWrap);
-        div.classList.add('has-audio');
-      }
-
-      switch (section.type) {
-        case 'vocab': div.appendChild(renderVocab(section)); break;
-        case 'grammar': div.appendChild(renderGrammar(section)); break;
-        case 'dialogue': div.appendChild(renderDialogue(section)); break;
-        case 'reading': div.appendChild(renderReading(section, idx)); break;
-        case 'quiz': div.appendChild(renderQuiz(section, idx)); break;
-        case 'tips': div.appendChild(renderTips(section)); break;
-      }
-      return div;
-    }
-
-    function renderVocab(section) {
-      const wrap = document.createElement('div');
-      wrap.className = 'vocab';
-      section.items.forEach(item => {
-        const card = document.createElement('div');
-        card.className = 'vocab-card';
-        const hasSegment = item.audio && item.audioStart != null && item.audioEnd != null;
-        const jpHtml = hasSegment
-          ? `<span class="jp jp-clickable" title="Nghe đoạn audio sách">${item.jp} <span class="seg-icon">🎧</span></span>`
-          : `${item.jp} <button class="speak-btn" data-text="${escAttr(item.jp)}" title="Nghe">🔊</button>`;
-        card.innerHTML = `
+      function renderVocab(section) {
+        const wrap = document.createElement("div");
+        wrap.className = "vocab";
+        section.items.forEach((item) => {
+          const card = document.createElement("div");
+          card.className = "vocab-card";
+          const hasSegment =
+            item.audio && item.audioStart != null && item.audioEnd != null;
+          const jpHtml = hasSegment
+            ? `<span class="jp jp-clickable" title="Nghe đoạn audio sách">${item.jp} <span class="seg-icon">🎧</span></span>`
+            : `${item.jp} <button class="speak-btn" data-text="${escAttr(
+                item.jp
+              )}" title="Nghe">🔊</button>`;
+          card.innerHTML = `
           <div class="vocab-jp-row">
             <div class="jp">${jpHtml}</div>
-            <div class="kana">${item.kana || ''}</div>
+            <div class="kana">${item.kana || ""}</div>
           </div>
           <div class="vocab-meaning">
-            ${item.image ? `<img src="${item.image}" alt="${escAttr(item.jp)}" class="vocab-item-image" loading="lazy">` : ''}
+            ${
+              item.image
+                ? `<img src="${item.image}" alt="${escAttr(
+                    item.jp
+                  )}" class="vocab-item-image" loading="lazy">`
+                : ""
+            }
             <div><b>${item.vi}</b></div>
-            ${(item.note || item.note_jp) ? `<div class="note">${bilingual(item.note, item.note_jp)}</div>` : ''}
-            ${item.exampleJp ? `<div class="example"><b>例:</b> ${item.exampleJp} <button class="speak-btn" data-text="${escAttr(item.exampleJp)}" title="Nghe ví dụ">🔊</button><br><i>${item.exampleVi || ''}</i></div>` : ''}
+            ${
+              item.note || item.note_jp
+                ? `<div class="note">${bilingual(
+                    item.note,
+                    item.note_jp
+                  )}</div>`
+                : ""
+            }
+            ${
+              item.exampleJp
+                ? `<div class="example"><b>例:</b> ${
+                    item.exampleJp
+                  } <button class="speak-btn" data-text="${escAttr(
+                    item.exampleJp
+                  )}" title="Nghe ví dụ">🔊</button><br><i>${
+                    item.exampleVi || ""
+                  }</i></div>`
+                : ""
+            }
           </div>`;
-        if (hasSegment) {
-          card.querySelector('.jp-clickable').addEventListener('click', () => {
-            playSegment(item.audio, item.audioStart, item.audioEnd);
-          });
-        }
-        wrap.appendChild(card);
-      });
-      return wrap;
-    }
+          if (hasSegment) {
+            card
+              .querySelector(".jp-clickable")
+              .addEventListener("click", () => {
+                playSegment(item.audio, item.audioStart, item.audioEnd);
+              });
+          }
+          wrap.appendChild(card);
+        });
+        return wrap;
+      }
 
-    function renderGrammar(section) {
-      const wrap = document.createElement('div');
-      section.items.forEach(item => {
-        const div = document.createElement('div');
-        div.className = 'grammar-item';
-        const examplesHtml = (item.examples || []).map(e =>
-          `<li><b>${e.jp}</b> <button class="speak-btn" data-text="${escAttr(e.jp)}" title="Nghe">🔊</button><br><span style="color:#666;font-size:0.85em;">${e.vi}</span></li>`
-        ).join('');
-        const warningHtml = (item.warning || item.warning_jp) ? `<div class="warning">${bilingual(item.warning, item.warning_jp)}</div>` : '';
-        div.innerHTML = `
+      function renderGrammar(section) {
+        const wrap = document.createElement("div");
+        section.items.forEach((item) => {
+          const div = document.createElement("div");
+          div.className = "grammar-item";
+          const examplesHtml = (item.examples || [])
+            .map(
+              (e) =>
+                `<li><b>${
+                  e.jp
+                }</b> <button class="speak-btn" data-text="${escAttr(
+                  e.jp
+                )}" title="Nghe">🔊</button><br><span style="color:#666;font-size:0.85em;">${
+                  e.vi
+                }</span></li>`
+            )
+            .join("");
+          const warningHtml =
+            item.warning || item.warning_jp
+              ? `<div class="warning">${bilingual(
+                  item.warning,
+                  item.warning_jp
+                )}</div>`
+              : "";
+          div.innerHTML = `
           <div class="pattern">${item.pattern}</div>
-          <div class="pattern-vi explain-vi">${item.patternVi || ''}</div>
-          <div class="explanation">${bilingual(item.explanation, item.explanation_jp)}</div>
+          <div class="pattern-vi explain-vi">${item.patternVi || ""}</div>
+          <div class="explanation">${bilingual(
+            item.explanation,
+            item.explanation_jp
+          )}</div>
           ${warningHtml}
           <ul>${examplesHtml}</ul>`;
-        wrap.appendChild(div);
-      });
-      return wrap;
-    }
+          wrap.appendChild(div);
+        });
+        return wrap;
+      }
 
-    function renderDialogue(section) {
-      const div = document.createElement('div');
-      div.className = 'dialogue';
-      const linesHtml = section.lines.map(line =>
-        `<div class="dialogue-line">
-          <button class="speak-btn" data-text="${escAttr(line.jp)}" title="Nghe">🔊</button>
-          <span class="speaker">${line.speaker}:</span>
-          <span class="jp">${line.jp}</span>
-          <div class="vi">→ ${line.vi}</div>
-        </div>`).join('');
-      const highlightHtml = section.vocabHighlight ?
-        `<div class="vocab-highlight">
+      function showCopyFlash(msg) {
+        let el = document.getElementById("dlgCopyFlash");
+        if (!el) {
+          el = document.createElement("div");
+          el.id = "dlgCopyFlash";
+          el.className = "dlg-copy-flash";
+          document.body.appendChild(el);
+        }
+        el.textContent = msg;
+        el.classList.add("show");
+        clearTimeout(el._t);
+        el._t = setTimeout(() => el.classList.remove("show"), 1400);
+      }
+
+      async function copyJp(text) {
+        try {
+          if (navigator.clipboard && window.isSecureContext) {
+            await navigator.clipboard.writeText(text);
+          } else {
+            const ta = document.createElement("textarea");
+            ta.value = text;
+            ta.style.position = "fixed";
+            ta.style.opacity = "0";
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand("copy");
+            document.body.removeChild(ta);
+          }
+          showCopyFlash("✓ Đã copy");
+        } catch (err) {
+          showCopyFlash("⚠️ Copy thất bại");
+        }
+      }
+
+      function renderDialogue(section) {
+        const div = document.createElement("div");
+        div.className = "dialogue";
+        const linesHtml = section.lines
+          .map((line, idx) => {
+            const speaker = line.speaker || "";
+            const isMain = /アレックス|alex/i.test(speaker);
+            const isNarrator =
+              speaker === "—" || speaker === "-" || speaker === "";
+            const isWarning = /^✗|間違い/.test(speaker);
+            const side = isWarning
+              ? "left warning"
+              : isNarrator
+              ? "narrator"
+              : isMain
+              ? "right"
+              : "left";
+            const avatar = isWarning
+              ? "⚠️"
+              : isNarrator
+              ? "📖"
+              : isMain
+              ? '<img src="images/common/alex.jpg" alt="Alex" class="dlg-avatar-img" loading="lazy">'
+              : speaker.includes("妻")
+              ? "👩"
+              : speaker.includes("部長") ||
+                speaker.includes("課長") ||
+                speaker.includes("社長")
+              ? "👨‍💼"
+              : speaker.includes("取引") || speaker.includes("電話")
+              ? "☎️"
+              : "👤";
+            return `<div class="dlg-row ${side}">
+          <div class="dlg-avatar">${avatar}</div>
+          <div class="dlg-bubble-wrap">
+            <div class="dlg-speaker">${speaker}</div>
+            <div class="dlg-bubble">
+              <div class="dlg-jp" data-copy="${escAttr(line.jp)}">${
+              line.jp
+            }</div>
+              <div class="dlg-vi">${line.vi}</div>
+            </div>
+          </div>
+        </div>`;
+          })
+          .join("");
+        const figureHtml = section.image
+          ? `
+        <figure class="dlg-figure">
+          <a href="${section.image}" target="_blank" rel="noopener">
+            <img src="${section.image}" alt="${escAttr(
+              section.imageAlt || section.title || ""
+            )}" loading="lazy">
+          </a>
+          ${
+            section.imageCaption
+              ? `<figcaption>${section.imageCaption}</figcaption>`
+              : ""
+          }
+        </figure>`
+          : "";
+        const highlightHtml = section.vocabHighlight
+          ? `<div class="vocab-highlight">
           <b>📝 Cụm trọng tâm:</b>
-          <ul>${section.vocabHighlight.map(v => `<li>${v}</li>`).join('')}</ul>
-        </div>` : '';
-      const noteHtml = (section.note || section.note_jp) ? `<div class="dialogue-note">${bilingual(section.note, section.note_jp)}</div>` : '';
-      div.innerHTML = `
-        <div class="scene">📍 ${section.scene}</div>
-        <button class="play-all-btn" data-playall="dialogue">▶ Nghe toàn bộ hội thoại</button>
-        ${linesHtml}
-        ${highlightHtml}
-        ${noteHtml}`;
-      div.querySelector('[data-playall]').addEventListener('click', () => {
-        speakSequence(section.lines.map(l => l.jp));
-      });
-      return div;
-    }
+          <ul>${section.vocabHighlight
+            .map((v) => `<li>${v}</li>`)
+            .join("")}</ul>
+        </div>`
+          : "";
+        const noteHtml =
+          section.note || section.note_jp
+            ? `<div class="dialogue-note">${bilingual(
+                section.note,
+                section.note_jp
+              )}</div>`
+            : "";
+        div.innerHTML = `
+        <div class="dialogue-header">
+          <div class="dlg-dots"><span></span><span></span><span></span></div>
+          <div class="dlg-title">💬 会話 — Hội thoại</div>
+          <div style="width:42px"></div>
+        </div>
+        <div class="dialogue-body">
+          <div class="scene">📍 ${section.scene}</div>
+          ${figureHtml}
+          <div class="dialogue-toolbar">
+            <button class="dlg-toggle-vi" type="button">📖 Hiện bản dịch</button>
+          </div>
+          ${linesHtml}
+          ${highlightHtml}
+          ${noteHtml}
+        </div>`;
+        const toggleBtn = div.querySelector(".dlg-toggle-vi");
+        toggleBtn.addEventListener("click", () => {
+          const on = div.classList.toggle("show-all-vi");
+          toggleBtn.classList.toggle("active", on);
+          toggleBtn.textContent = on ? "📖 Ẩn bản dịch" : "📖 Hiện bản dịch";
+        });
+        div.querySelectorAll(".dlg-jp[data-copy]").forEach((el) => {
+          el.addEventListener("click", () => {
+            copyJp(el.getAttribute("data-copy"));
+            el.closest(".dlg-bubble").classList.toggle("show-vi");
+          });
+        });
+        return div;
+      }
 
-    function renderReading(section, sectionIdx) {
-      const wrap = document.createElement('div');
-      const toggleId = `toggle-${sectionIdx}`;
-      const viId = `vi-${sectionIdx}`;
-      wrap.innerHTML = `
+      function renderReading(section, sectionIdx) {
+        const wrap = document.createElement("div");
+        const toggleId = `toggle-${sectionIdx}`;
+        const viId = `vi-${sectionIdx}`;
+        wrap.innerHTML = `
         <button class="play-all-btn" data-playread="${sectionIdx}">▶ Nghe đoạn văn</button>
         <div class="reading-passage">${section.passage}</div>
         <button class="toggle-vi" id="${toggleId}">📖 Hiện/ẩn bản dịch tiếng Việt</button>
         <div class="reading-passage-vi" id="${viId}">${section.passageVi}</div>`;
-      const quizDiv = document.createElement('div');
-      section.questions.forEach((q, qIdx) => {
-        quizDiv.appendChild(renderQuestion(q, `r${sectionIdx}-${qIdx}`));
-      });
-      wrap.appendChild(quizDiv);
-      wrap.querySelector('[data-playread]').addEventListener('click', () => {
-        speak(section.passage);
-      });
-      setTimeout(() => {
-        document.getElementById(toggleId).addEventListener('click', () => {
-          const el = document.getElementById(viId);
-          el.style.display = el.style.display === 'block' ? 'none' : 'block';
+        const quizDiv = document.createElement("div");
+        section.questions.forEach((q, qIdx) => {
+          quizDiv.appendChild(
+            renderQuestion(q, `r${sectionIdx}-${qIdx}`, section.audio)
+          );
         });
-      }, 0);
-      return wrap;
-    }
+        wrap.appendChild(quizDiv);
+        wrap.querySelector("[data-playread]").addEventListener("click", () => {
+          speak(section.passage);
+        });
+        setTimeout(() => {
+          document.getElementById(toggleId).addEventListener("click", () => {
+            const el = document.getElementById(viId);
+            el.style.display = el.style.display === "block" ? "none" : "block";
+          });
+        }, 0);
+        return wrap;
+      }
 
-    function renderQuiz(section, sectionIdx) {
-      const wrap = document.createElement('div');
-      section.questions.forEach((q, qIdx) => {
-        wrap.appendChild(renderQuestion(q, `q${sectionIdx}-${qIdx}`));
-      });
-      const summary = document.createElement('div');
-      summary.className = 'quiz-summary hidden';
-      summary.id = `summary-${sectionIdx}`;
-      wrap.appendChild(summary);
-      return wrap;
-    }
+      function renderQuiz(section, sectionIdx) {
+        const wrap = document.createElement("div");
+        section.questions.forEach((q, qIdx) => {
+          wrap.appendChild(
+            renderQuestion(q, `q${sectionIdx}-${qIdx}`, section.audio)
+          );
+        });
+        const summary = document.createElement("div");
+        summary.className = "quiz-summary hidden";
+        summary.id = `summary-${sectionIdx}`;
+        wrap.appendChild(summary);
+        return wrap;
+      }
 
-    function renderQuestion(q, id) {
-      const div = document.createElement('div');
-      div.className = 'quiz-item';
-      div.dataset.questionId = id;
-      const optionsHtml = q.options.map((opt, i) => {
-        const o = typeof opt === 'string' ? { jp: opt } : opt;
-        const viHtml = o.vi ? `<div class="option-vi">${o.vi}</div>` : '';
-        return `<label data-idx="${i}">
+      function renderQuestion(q, id, sectionAudio) {
+        const div = document.createElement("div");
+        div.className = "quiz-item";
+        div.dataset.questionId = id;
+        const optionsHtml = q.options
+          .map((opt, i) => {
+            const o = typeof opt === "string" ? { jp: opt } : opt;
+            const viHtml = o.vi ? `<div class="option-vi">${o.vi}</div>` : "";
+            return `<label data-idx="${i}">
           <input type="radio" name="${id}" value="${i}">
           <span class="option-jp">${o.jp}</span>
           ${viHtml}
         </label>`;
-      }).join('');
-      const audioBoxHtml = (q.audioQuestion && q.audioJp) ? `
+          })
+          .join("");
+        const audioBoxHtml =
+          q.audioQuestion && q.audioJp
+            ? `
         <div class="audio-q-box">
           <button class="audio-q-btn">🔊 Nghe đoạn audio</button>
           <div class="hint">Có thể bấm nhiều lần. Chọn đáp án sau khi nghe xong.</div>
-        </div>` : '';
-      const qHintHtml = q.qVi ? `<div class="q-hint">↳ ${q.qVi}</div>` : '';
-      div.innerHTML = `
-        <div class="q-text">${q.q}</div>
+        </div>`
+            : "";
+        const qHintHtml = q.qVi ? `<div class="q-hint">↳ ${q.qVi}</div>` : "";
+        const hasSegment =
+          sectionAudio && q.audioStart != null && q.audioEnd != null;
+        const qTextHtml = hasSegment
+          ? `<div class="q-text jp-clickable" title="Nghe đoạn audio sách (${q.audioStart}s ~ ${q.audioEnd}s)">${q.q} <span class="seg-icon">🎧</span></div>`
+          : `<div class="q-text">${q.q}</div>`;
+        div.innerHTML = `
+        ${qTextHtml}
         ${qHintHtml}
         ${audioBoxHtml}
         <div class="options">${optionsHtml}</div>
-        <div class="explanation"><b>Giải thích:</b> ${bilingual(q.explanation, q.explanation_jp)}</div>`;
-      if (q.audioQuestion && q.audioJp) {
-        div.querySelector('.audio-q-btn').addEventListener('click', () => speak(q.audioJp));
-      }
-      div.addEventListener('change', (e) => {
-        if (div.classList.contains('answered')) return;
-        const picked = parseInt(e.target.value);
-        div.classList.add('answered');
-        div.querySelectorAll('label').forEach((label, i) => {
-          if (i === q.answer) label.classList.add('correct');
-          else if (i === picked) label.classList.add('wrong');
+        <div class="explanation"><b>Giải thích:</b> ${bilingual(
+          q.explanation,
+          q.explanation_jp
+        )}</div>`;
+        if (hasSegment) {
+          div
+            .querySelector(".q-text.jp-clickable")
+            .addEventListener("click", () => {
+              playSegment(sectionAudio, q.audioStart, q.audioEnd);
+            });
+        }
+        if (q.audioQuestion && q.audioJp) {
+          div
+            .querySelector(".audio-q-btn")
+            .addEventListener("click", () => speak(q.audioJp));
+        }
+        div.addEventListener("change", (e) => {
+          if (div.classList.contains("answered")) return;
+          const picked = parseInt(e.target.value);
+          div.classList.add("answered");
+          div.querySelectorAll("label").forEach((label, i) => {
+            if (i === q.answer) label.classList.add("correct");
+            else if (i === picked) label.classList.add("wrong");
+          });
+          quizScores.total++;
+          if (picked === q.answer) quizScores.correct++;
+          updateScoreDisplay();
         });
-        quizScores.total++;
-        if (picked === q.answer) quizScores.correct++;
-        updateScoreDisplay();
-      });
-      return div;
-    }
+        return div;
+      }
 
-    function renderTips(section) {
-      const div = document.createElement('div');
-      div.className = 'tips';
-      div.innerHTML = bilingual(section.content, section.content_jp);
-      return div;
-    }
+      function renderTips(section) {
+        const div = document.createElement("div");
+        div.className = "tips";
+        div.innerHTML = bilingual(section.content, section.content_jp);
+        return div;
+      }
 
-    function updateScoreDisplay() {
-      let totalAvailable = 0;
-      currentLesson.sections.forEach(s => {
-        if (s.type === 'quiz') totalAvailable += s.questions.length;
-        if (s.type === 'reading') totalAvailable += s.questions.length;
-      });
-      const summary = document.querySelector('.quiz-summary');
-      if (summary && quizScores.total === totalAvailable) {
-        const pct = Math.round((quizScores.correct / totalAvailable) * 100);
-        summary.innerHTML = `
+      function updateScoreDisplay() {
+        let totalAvailable = 0;
+        currentLesson.sections.forEach((s) => {
+          if (s.type === "quiz") totalAvailable += s.questions.length;
+          if (s.type === "reading") totalAvailable += s.questions.length;
+        });
+        const summary = document.querySelector(".quiz-summary");
+        if (summary && quizScores.total === totalAvailable) {
+          const pct = Math.round((quizScores.correct / totalAvailable) * 100);
+          summary.innerHTML = `
           <div>Hoàn thành tất cả câu hỏi!</div>
           <div class="score">${quizScores.correct}/${totalAvailable} (${pct}%)</div>`;
-        summary.classList.remove('hidden');
+          summary.classList.remove("hidden");
+        }
       }
-    }
 
-    document.getElementById('logoutBtn').addEventListener('click', (e) => {
-      e.preventDefault();
-      signOut(auth);
-    });
+      document.getElementById("logoutBtn").addEventListener("click", (e) => {
+        e.preventDefault();
+        signOut(auth);
+      });
 
-    completeBtn.addEventListener('click', async () => {
-      if (!currentUser) {
-        alert('Cần đăng nhập để lưu tiến độ.');
-        return;
-      }
-      completeBtn.disabled = true;
-      try {
-        await setDoc(doc(db, 'users', currentUser.uid, 'progress', lessonId), {
-          lessonId,
-          completedAt: serverTimestamp(),
-          quizCorrect: quizScores.correct,
-          quizTotal: quizScores.total
-        });
-        completeStatus.textContent = `✓ Đã lưu! ${quizScores.total > 0 ? `Score: ${quizScores.correct}/${quizScores.total}` : ''}`;
-        completeStatus.classList.remove('hidden');
-      } catch (err) {
-        alert('Lưu thất bại: ' + err.message);
-        completeBtn.disabled = false;
-      }
-    });
-
-    onAuthStateChanged(auth, async (user) => {
-      currentUser = user;
-      authStateResolved = true;
-      if (user) {
-        userBar.classList.remove('hidden');
-        loginRequired.classList.add('hidden');
-        userEmailEl.textContent = user.email;
-        pullPending = true;  // gate ticks until pull completes
-        pullStudyTimeFromFirestore();
+      completeBtn.addEventListener("click", async () => {
+        if (!currentUser) {
+          alert("Cần đăng nhập để lưu tiến độ.");
+          return;
+        }
+        completeBtn.disabled = true;
         try {
-          const snap = await getDoc(doc(db, 'users', user.uid, 'progress', lessonId));
-          if (snap.exists()) {
-            completeStatus.textContent = `✓ Bài này đã hoàn thành trước đó.`;
-            completeStatus.classList.remove('hidden');
-          }
-        } catch {}
-      } else {
-        userBar.classList.add('hidden');
-        loginRequired.classList.remove('hidden');
-      }
-    });
-  </script>
-</body>
+          await setDoc(
+            doc(db, "users", currentUser.uid, "progress", lessonId),
+            {
+              lessonId,
+              completedAt: serverTimestamp(),
+              quizCorrect: quizScores.correct,
+              quizTotal: quizScores.total,
+            }
+          );
+          completeStatus.textContent = `✓ Đã lưu! ${
+            quizScores.total > 0
+              ? `Score: ${quizScores.correct}/${quizScores.total}`
+              : ""
+          }`;
+          completeStatus.classList.remove("hidden");
+        } catch (err) {
+          alert("Lưu thất bại: " + err.message);
+          completeBtn.disabled = false;
+        }
+      });
+
+      onAuthStateChanged(auth, async (user) => {
+        currentUser = user;
+        authStateResolved = true;
+        if (user) {
+          userBar.classList.remove("hidden");
+          loginRequired.classList.add("hidden");
+          userEmailEl.textContent = user.email;
+          pullPending = true; // gate ticks until pull completes
+          pullStudyTimeFromFirestore();
+          pullUserPreferences();
+          restoreReadingPosition();
+          try {
+            const snap = await getDoc(
+              doc(db, "users", user.uid, "progress", lessonId)
+            );
+            if (snap.exists()) {
+              completeStatus.textContent = `✓ Bài này đã hoàn thành trước đó.`;
+              completeStatus.classList.remove("hidden");
+            }
+          } catch {}
+        } else {
+          userBar.classList.add("hidden");
+          loginRequired.classList.remove("hidden");
+        }
+      });
+    </script>
+  </body>
 </html>

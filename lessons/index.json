@@ -53,21 +53,23 @@
     {
       "id": "L02",
       "order": 2,
-      "title": "訪問する",
-      "titleVi": "Thăm khách hàng / Tới thăm nhà",
+      "title": "1課 訪問する",
+      "titleVi": "Bài 1 — Thăm khách / Tới nhà cấp trên",
       "phase": 2,
       "chapter": "第2章 - 1",
       "page": 22,
       "topics": [
-        "訪問のときの特別な言い方 (ごめんください / お邪魔します)",
-        "「お/ご〜ください」 — sonkeigo pattern",
-        "「つまらないものですが…」 — cụm khiêm nhường khi tặng quà",
-        "「お/ご〜になります」 — sonkeigo pattern",
-        "尊敬語の特別な形 (召し上がります / なさいます)",
-        "かんたん尊敬語 — れる/られる形 (読まれます / 出られます)"
+        "できますか? — Bối cảnh: Alex tới nhà 金子部長 (lần đầu, mắc lỗi vui)",
+        "① 訪問のときの特別な言い方 (ごめんください / お邪魔します / 失礼します)",
+        "② 「お/ご〜ください」 — sonkeigo pattern (nhóm 1,2: お~Vます~ください; nhóm 3: ご~漢字~ください)",
+        "③ 「つまらないものですが…」 — cụm khiêm nhường khi tặng quà",
+        "④ 「お/ご〜になります」 — sonkeigo chuẩn",
+        "⑤ 尊敬語の特別な形 (召し上がる / なさる / ご覧になる)",
+        "⑥ かんたん尊敬語 — れる/られる (cùng dạng passive, không có ~てください)",
+        "5 bộ 練習 từ sách (p.25-26): Track 1-3 → 1-7"
       ],
-      "estimatedMinutes": 35,
-      "status": "todo"
+      "estimatedMinutes": 45,
+      "status": "ready"
     },
     {
       "id": "L03",

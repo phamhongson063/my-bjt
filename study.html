@@ -452,9 +452,14 @@
       }
       stats.totals[lessonId] = newMs;
 
+      // Stamp local meta — lets other devices know this is a fresh edit, not stale cache
+      const editTs = Date.now();
       const localTotals = loadJsonObj('bjt-times');
       localTotals[lessonId] = newMs;
       saveJsonObj('bjt-times', localTotals);
+      const localMeta = loadJsonObj('bjt-times-meta');
+      localMeta[lessonId] = { localUpdatedAt: editTs };
+      saveJsonObj('bjt-times-meta', localMeta);
       const localDaily = loadJsonObj('bjt-daily');
       affectedDates.forEach(date => {
         if (localDaily[date] && localDaily[date][lessonId] != null) {
@@ -466,7 +471,7 @@
       if (currentUser) {
         try {
           const totalsRef = doc(db, 'users', currentUser.uid, 'study-totals', lessonId);
-          await setDoc(totalsRef, { lessonId, totalMs: newMs, updatedAt: serverTimestamp() });
+          await setDoc(totalsRef, { lessonId, totalMs: newMs, localUpdatedAt: editTs, updatedAt: serverTimestamp() });
           await Promise.all(affectedDates.map(date => {
             const dailyRef = doc(db, 'users', currentUser.uid, 'study-daily', `${date}_${lessonId}`);
             return setDoc(dailyRef, { lessonId, date, activeMs: stats.daily[date][lessonId], updatedAt: serverTimestamp() });

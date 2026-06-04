@@ -406,6 +406,7 @@
     // ========== Study Timer (smart activity tracking) ==========
     const TIMES_KEY = 'bjt-times';
     const DAILY_KEY = 'bjt-daily';
+    const TIMES_META_KEY = 'bjt-times-meta';
     const IDLE_THRESHOLD_MS = 90 * 1000;
     const MAX_TICK_DELTA_MS = 5 * 1000;
 
@@ -431,15 +432,24 @@
 
     const lessonTimes = loadJsonObj(TIMES_KEY);
     const dailyTimes = loadJsonObj(DAILY_KEY);
+    const lessonTimesMeta = loadJsonObj(TIMES_META_KEY);
     let lastActivityAt = Date.now();
     let lastTickAt = Date.now();
     let saveTickCounter = 0;
     let studyTimerStarted = false;
     let userPaused = false;
+    let pullPending = false;       // true while initial Firestore pull is in progress
+    let authStateResolved = false; // true once we know whether user is logged in
+
+    // Safety: if auth never resolves (Firebase broken/offline), unblock tick after 10s
+    setTimeout(() => {
+      if (!authStateResolved) { authStateResolved = true; pullPending = false; }
+    }, 10000);
 
     function persistStudyTime() {
       saveJsonObj(TIMES_KEY, lessonTimes);
       saveJsonObj(DAILY_KEY, dailyTimes);
+      saveJsonObj(TIMES_META_KEY, lessonTimesMeta);
     }
 
     function renderStudyTime(isActive) {
@@ -448,7 +458,10 @@
       if (!timeEl) return;
       timeEl.textContent = formatStudyTime(lessonTimes[lessonId] || 0);
       if (statusEl) {
-        if (userPaused) {
+        if (pullPending || !authStateResolved) {
+          statusEl.textContent = '⟳ Đang đồng bộ...';
+          statusEl.className = 'study-paused';
+        } else if (userPaused) {
           statusEl.textContent = '🛑 Tạm dừng (tự bạn)';
           statusEl.className = 'study-user-paused';
         } else if (document.hidden) {
@@ -479,10 +492,11 @@
         const totalMs = lessonTimes[lessonId] || 0;
         const today = todayDateKey();
         const dailyMs = (dailyTimes[today] && dailyTimes[today][lessonId]) || 0;
+        const localUpdatedAt = (lessonTimesMeta[lessonId] && lessonTimesMeta[lessonId].localUpdatedAt) || 0;
         const totalsRef = doc(db, 'users', currentUser.uid, 'study-totals', lessonId);
         const dailyRef = doc(db, 'users', currentUser.uid, 'study-daily', `${today}_${lessonId}`);
         await Promise.all([
-          setDoc(totalsRef, { lessonId, totalMs, updatedAt: serverTimestamp() }),
+          setDoc(totalsRef, { lessonId, totalMs, localUpdatedAt, updatedAt: serverTimestamp() }),
           setDoc(dailyRef, { lessonId, date: today, activeMs: dailyMs, updatedAt: serverTimestamp() })
         ]);
       } catch (err) {
@@ -495,14 +509,25 @@
     async function pullStudyTimeFromFirestore() {
       if (!currentUser || !lessonId || pulledFromFirestore) return;
       pulledFromFirestore = true;
+      pullPending = true;
       try {
         const today = todayDateKey();
         const totalsRef = doc(db, 'users', currentUser.uid, 'study-totals', lessonId);
         const dailyRef = doc(db, 'users', currentUser.uid, 'study-daily', `${today}_${lessonId}`);
         const [totalsSnap, dailySnap] = await Promise.all([getDoc(totalsRef), getDoc(dailyRef)]);
         if (totalsSnap.exists()) {
-          const remoteTotal = totalsSnap.data().totalMs || 0;
-          lessonTimes[lessonId] = Math.max(lessonTimes[lessonId] || 0, remoteTotal);
+          const data = totalsSnap.data();
+          const remoteTotal = data.totalMs || 0;
+          const remoteTs = data.localUpdatedAt || 0;
+          const localTs = (lessonTimesMeta[lessonId] && lessonTimesMeta[lessonId].localUpdatedAt) || 0;
+          if (remoteTs > 0 && remoteTs > localTs) {
+            // Remote was modified more recently (e.g. edited on another device) — trust remote
+            lessonTimes[lessonId] = remoteTotal;
+            lessonTimesMeta[lessonId] = { localUpdatedAt: remoteTs };
+          } else {
+            // Legacy data or local is newer — fall back to max-merge so offline accumulation isn't lost
+            lessonTimes[lessonId] = Math.max(lessonTimes[lessonId] || 0, remoteTotal);
+          }
         }
         if (dailySnap.exists()) {
           const remoteDaily = dailySnap.data().activeMs || 0;
@@ -515,6 +540,8 @@
         syncStudyTimeToFirestore(true);
       } catch (err) {
         console.warn('Firestore pull failed:', err);
+      } finally {
+        pullPending = false;
       }
     }
 
@@ -528,9 +555,12 @@
       const notIdle = idleFor < IDLE_THRESHOLD_MS;
       const sane = delta < MAX_TICK_DELTA_MS;
       const isActive = tabVisible && notIdle && sane && !userPaused;
+      // Gate accumulation until initial Firestore pull resolves so cross-device edits aren't clobbered
+      const canAccumulate = isActive && authStateResolved && !pullPending;
 
-      if (isActive && lessonId) {
+      if (canAccumulate && lessonId) {
         lessonTimes[lessonId] = (lessonTimes[lessonId] || 0) + delta;
+        lessonTimesMeta[lessonId] = { localUpdatedAt: Date.now() };
         const today = todayDateKey();
         if (!dailyTimes[today]) dailyTimes[today] = {};
         dailyTimes[today][lessonId] = (dailyTimes[today][lessonId] || 0) + delta;
@@ -911,10 +941,12 @@
 
     onAuthStateChanged(auth, async (user) => {
       currentUser = user;
+      authStateResolved = true;
       if (user) {
         userBar.classList.remove('hidden');
         loginRequired.classList.add('hidden');
         userEmailEl.textContent = user.email;
+        pullPending = true;  // gate ticks until pull completes
         pullStudyTimeFromFirestore();
         try {
           const snap = await getDoc(doc(db, 'users', user.uid, 'progress', lessonId));

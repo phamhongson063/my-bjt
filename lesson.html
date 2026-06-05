@@ -1385,25 +1385,11 @@
       });
 
       // ========== Study Timer (smart activity tracking) ==========
-      const TIMES_KEY = "bjt-times";
-      const DAILY_KEY = "bjt-daily";
-      const TIMES_META_KEY = "bjt-times-meta";
-      const PAUSE_KEY = "bjt-pause-tracking"; // global pause flag (shared across all lessons)
-      const IDLE_THRESHOLD_MS = 90 * 1000;
+      // State lives in RAM + Firestore only — no localStorage cache.
+      // Tracking is OFF by default; user toggles via the FAB, state syncs across devices.
+      const IDLE_THRESHOLD_MS = 60 * 1000;
       const MAX_TICK_DELTA_MS = 5 * 1000;
 
-      function loadJsonObj(key) {
-        try {
-          return JSON.parse(localStorage.getItem(key)) || {};
-        } catch {
-          return {};
-        }
-      }
-      function saveJsonObj(key, obj) {
-        try {
-          localStorage.setItem(key, JSON.stringify(obj));
-        } catch {}
-      }
       function todayDateKey() {
         const d = new Date();
         const pad = (n) => String(n).padStart(2, "0");
@@ -1420,14 +1406,13 @@
         return h > 0 ? `${pad(h)}:${pad(m)}:${pad(s)}` : `${pad(m)}:${pad(s)}`;
       }
 
-      const lessonTimes = loadJsonObj(TIMES_KEY);
-      const dailyTimes = loadJsonObj(DAILY_KEY);
-      const lessonTimesMeta = loadJsonObj(TIMES_META_KEY);
+      const lessonTimes = {};
+      const dailyTimes = {};
+      const lessonTimesMeta = {};
       let lastActivityAt = Date.now();
       let lastTickAt = Date.now();
-      let saveTickCounter = 0;
       let studyTimerStarted = false;
-      let userPaused = localStorage.getItem(PAUSE_KEY) === "1"; // global, restored from localStorage; Firebase pull may override below
+      let userPaused = true; // default OFF — pullUserPreferences may flip to ON if user previously enabled
       let prefsPulled = false; // true after global preferences (pauseTracking) pulled from Firestore
       let pullPending = false; // true while initial Firestore pull is in progress
       let authStateResolved = false; // true once we know whether user is logged in
@@ -1439,12 +1424,6 @@
           pullPending = false;
         }
       }, 10000);
-
-      function persistStudyTime() {
-        saveJsonObj(TIMES_KEY, lessonTimes);
-        saveJsonObj(DAILY_KEY, dailyTimes);
-        saveJsonObj(TIMES_META_KEY, lessonTimesMeta);
-      }
 
       function renderStudyTime(isActive) {
         const timeEl = document.getElementById("studyTimeDisplay");
@@ -1556,13 +1535,13 @@
           const snap = await getDoc(ref);
           if (snap.exists() && typeof snap.data().pauseTracking === "boolean") {
             userPaused = snap.data().pauseTracking;
-            localStorage.setItem(PAUSE_KEY, userPaused ? "1" : "0");
-            updatePauseFab();
-            renderStudyTime(
-              !document.hidden &&
-                Date.now() - lastActivityAt < IDLE_THRESHOLD_MS
-            );
           }
+          // else: no remote pref yet — keep default (userPaused = true / OFF)
+          updatePauseFab();
+          renderStudyTime(
+            !document.hidden &&
+              Date.now() - lastActivityAt < IDLE_THRESHOLD_MS
+          );
         } catch (err) {
           console.warn("Preferences pull failed:", err);
         }
@@ -1614,36 +1593,17 @@
           ]);
           if (totalsSnap.exists()) {
             const data = totalsSnap.data();
-            const remoteTotal = data.totalMs || 0;
-            const remoteTs = data.localUpdatedAt || 0;
-            const localTs =
-              (lessonTimesMeta[lessonId] &&
-                lessonTimesMeta[lessonId].localUpdatedAt) ||
-              0;
-            if (remoteTs > 0 && remoteTs > localTs) {
-              // Remote was modified more recently (e.g. edited on another device) — trust remote
-              lessonTimes[lessonId] = remoteTotal;
-              lessonTimesMeta[lessonId] = { localUpdatedAt: remoteTs };
-            } else {
-              // Legacy data or local is newer — fall back to max-merge so offline accumulation isn't lost
-              lessonTimes[lessonId] = Math.max(
-                lessonTimes[lessonId] || 0,
-                remoteTotal
-              );
-            }
+            lessonTimes[lessonId] = data.totalMs || 0;
+            lessonTimesMeta[lessonId] = {
+              localUpdatedAt: data.localUpdatedAt || 0,
+            };
           }
           if (dailySnap.exists()) {
             const remoteDaily = dailySnap.data().activeMs || 0;
             if (!dailyTimes[today]) dailyTimes[today] = {};
-            dailyTimes[today][lessonId] = Math.max(
-              dailyTimes[today][lessonId] || 0,
-              remoteDaily
-            );
+            dailyTimes[today][lessonId] = remoteDaily;
           }
-          persistStudyTime();
           renderStudyTime(!document.hidden);
-          // Push merged value back so local additions sync up
-          syncStudyTimeToFirestore(true);
         } catch (err) {
           console.warn("Firestore pull failed:", err);
         } finally {
@@ -1731,8 +1691,6 @@
             (dailyTimes[today][lessonId] || 0) + delta;
         }
 
-        saveTickCounter++;
-        if (saveTickCounter % 10 === 0) persistStudyTime();
         if (isActive) syncStudyTimeToFirestore(); // throttled to every 3 min
 
         renderStudyTime(tabVisible && notIdle);
@@ -1742,14 +1700,12 @@
         if (studyTimerStarted || !lessonId) return;
         studyTimerStarted = true;
 
-        // userPaused already initialized from global localStorage (PAUSE_KEY) at top of script.
-        // Firebase pull in pullUserPreferences() may override it once auth resolves.
+        // userPaused starts OFF (true); pullUserPreferences() may flip it to ON.
         updatePauseFab();
         const pauseFab = document.getElementById("pauseToggle");
         if (pauseFab) {
           pauseFab.addEventListener("click", () => {
             userPaused = !userPaused;
-            localStorage.setItem(PAUSE_KEY, userPaused ? "1" : "0");
             updatePauseFab();
             pushUserPreferences();
             lastTickAt = Date.now();
@@ -1778,22 +1734,29 @@
           );
         });
 
+        // Flush time + force-OFF whenever the tab becomes hidden or unloads.
+        // User must re-enable tracking manually when they return.
+        const autoOff = () => {
+          syncStudyTimeToFirestore(true);
+          if (!userPaused) {
+            userPaused = true;
+            updatePauseFab();
+            pushUserPreferences();
+          }
+        };
+
         document.addEventListener("visibilitychange", () => {
           if (document.hidden) {
-            persistStudyTime();
-            syncStudyTimeToFirestore(true);
+            autoOff();
           } else {
             lastActivityAt = Date.now();
             lastTickAt = Date.now();
+            renderStudyTime(true);
           }
         });
 
-        const flushOnExit = () => {
-          persistStudyTime();
-          syncStudyTimeToFirestore(true);
-        };
-        window.addEventListener("beforeunload", flushOnExit);
-        window.addEventListener("pagehide", flushOnExit);
+        window.addEventListener("beforeunload", autoOff);
+        window.addEventListener("pagehide", autoOff);
 
         lastActivityAt = Date.now();
         lastTickAt = Date.now();

@@ -197,12 +197,6 @@
     const db = getFirestore(app);
 
     // ========== Helpers ==========
-    function loadJsonObj(key) {
-      try { return JSON.parse(localStorage.getItem(key)) || {}; } catch { return {}; }
-    }
-    function saveJsonObj(key, obj) {
-      try { localStorage.setItem(key, JSON.stringify(obj)); } catch {}
-    }
     function todayDateKey() {
       const d = new Date();
       const pad = (n) => String(n).padStart(2, '0');
@@ -262,14 +256,11 @@
     }
 
     async function loadStats() {
-      // Local cache (always available)
-      const localTotals = loadJsonObj('bjt-times');
-      const localDaily = loadJsonObj('bjt-daily');
-      stats = { totals: { ...localTotals }, daily: { ...localDaily }, completed: new Set() };
+      stats = { totals: {}, daily: {}, completed: new Set() };
 
       if (!currentUser) return stats;
 
-      // Pull Firestore data
+      // Pull Firestore data — no localStorage cache
       try {
         const [totalsSnap, dailySnap, progressSnap] = await Promise.all([
           getDocs(collection(db, 'users', currentUser.uid, 'study-totals')),
@@ -278,17 +269,12 @@
         ]);
         totalsSnap.forEach(d => {
           const data = d.data();
-          const remoteMs = data.totalMs || 0;
-          stats.totals[d.id] = Math.max(stats.totals[d.id] || 0, remoteMs);
+          stats.totals[d.id] = data.totalMs || 0;
         });
         dailySnap.forEach(d => {
           const data = d.data();
           if (!stats.daily[data.date]) stats.daily[data.date] = {};
-          const remoteMs = data.activeMs || 0;
-          stats.daily[data.date][data.lessonId] = Math.max(
-            stats.daily[data.date][data.lessonId] || 0,
-            remoteMs
-          );
+          stats.daily[data.date][data.lessonId] = data.activeMs || 0;
         });
         progressSnap.forEach(d => stats.completed.add(d.id));
       } catch (err) {
@@ -452,21 +438,8 @@
       }
       stats.totals[lessonId] = newMs;
 
-      // Stamp local meta — lets other devices know this is a fresh edit, not stale cache
+      // Stamp updatedAt so lesson page knows this is a fresh edit, not stale data
       const editTs = Date.now();
-      const localTotals = loadJsonObj('bjt-times');
-      localTotals[lessonId] = newMs;
-      saveJsonObj('bjt-times', localTotals);
-      const localMeta = loadJsonObj('bjt-times-meta');
-      localMeta[lessonId] = { localUpdatedAt: editTs };
-      saveJsonObj('bjt-times-meta', localMeta);
-      const localDaily = loadJsonObj('bjt-daily');
-      affectedDates.forEach(date => {
-        if (localDaily[date] && localDaily[date][lessonId] != null) {
-          localDaily[date][lessonId] = stats.daily[date][lessonId];
-        }
-      });
-      saveJsonObj('bjt-daily', localDaily);
 
       if (currentUser) {
         try {

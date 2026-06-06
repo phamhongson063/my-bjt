@@ -5,6 +5,7 @@ import { initAudio } from "./audio.js";
 import { getPlugin } from "../plugins/registry.js";
 import { initSettings } from "../features/settings.js";
 import { initToc, buildTocMenu } from "../features/toc.js";
+import { initScrollTop } from "../features/scroll-top.js";
 import { initProgress, progressOnAuth } from "../features/progress.js";
 import {
   initStudyTracker,
@@ -60,6 +61,7 @@ export class LessonApp {
     initSettings();
     initAudio();
     initToc();
+    initScrollTop();
     initProgress(this);
     initStudyTracker(this);
 

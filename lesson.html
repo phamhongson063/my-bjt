@@ -226,6 +226,29 @@
         font-style: italic;
         margin-top: 6px;
       }
+      /* Hội thoại có ảnh: khung message trái 75%, ảnh nằm NGOÀI khung — phải 25% (sticky) */
+      .dlg-outer {
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+      }
+      .dlg-outer .dialogue {
+        flex: 1 1 0;
+        min-width: 0;
+      }
+      .dlg-aside {
+        flex: 0 0 25%;
+        max-width: 25%;
+        position: sticky;
+        top: 12px;
+      }
+      .dlg-aside .dlg-figure {
+        margin: 0;
+      }
+      .dlg-aside .dlg-figure img {
+        width: 100%;
+        max-height: none;
+      }
       .dialogue-toolbar {
         display: flex;
         justify-content: flex-end;
@@ -1218,6 +1241,243 @@
       .rp-hint-vi {
         color: #666;
       }
+      /* Hội thoại mẫu (会話例) — collapsible, mở ra để đối chiếu */
+      .rp-model {
+        margin-top: 12px;
+        border: 1px solid #cfe3d4;
+        border-radius: 6px;
+        background: #f3faf4;
+        overflow: hidden;
+      }
+      .rp-model > summary {
+        cursor: pointer;
+        list-style: none;
+        padding: 8px 12px;
+        font-size: calc(var(--base-size) - 1px);
+        font-weight: 600;
+        color: #1a7f37;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        user-select: none;
+      }
+      .rp-model > summary::-webkit-details-marker {
+        display: none;
+      }
+      .rp-model > summary::before {
+        content: "▸";
+        color: #1a7f37;
+        transition: transform 0.15s;
+      }
+      .rp-model[open] > summary::before {
+        transform: rotate(90deg);
+      }
+      .rp-model[open] > summary {
+        border-bottom: 1px solid #cfe3d4;
+      }
+      .rp-ml-summary-label {
+        flex: 1;
+      }
+      .rp-ml-track {
+        font-size: calc(var(--base-size) - 4px);
+        font-weight: 600;
+        color: #1a7f37;
+        background: #dff3e3;
+        border-radius: 999px;
+        padding: 2px 8px;
+        flex: none;
+      }
+      .rp-model-body {
+        padding: 10px 12px 12px;
+      }
+      .rp-ml-intro {
+        font-size: calc(var(--base-size) - 3px);
+        color: #555;
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+      .rp-ml-legend {
+        font-size: calc(var(--base-size) - 4px);
+        color: #555;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 4px;
+      }
+      .rp-ml-row {
+        display: flex;
+        gap: 8px;
+        padding: 6px 0;
+        border-top: 1px dashed #dce8de;
+      }
+      .rp-ml-row:first-of-type {
+        border-top: none;
+      }
+      .rp-ml-sp {
+        font-weight: 700;
+        color: #fff;
+        border-radius: 4px;
+        width: 22px;
+        height: 22px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(var(--base-size) - 4px);
+        flex: none;
+      }
+      .rp-ml-a {
+        background: #0366d6;
+      }
+      .rp-ml-b {
+        background: #e8590c;
+      }
+      .rp-ml-text {
+        flex: 1;
+        min-width: 0;
+      }
+      .rp-ml-jp {
+        font-size: calc(var(--base-size) + 1px);
+        line-height: 1.7;
+      }
+      .rp-ml-vi {
+        font-size: calc(var(--base-size) - 2px);
+        color: #555;
+        margin-top: 2px;
+      }
+      .rp-ml-note {
+        font-size: calc(var(--base-size) - 3px);
+        color: #1a7f37;
+        background: #eaf6ec;
+        border-radius: 4px;
+        padding: 4px 8px;
+        margin-top: 5px;
+        line-height: 1.55;
+      }
+      .rp-ml-ref {
+        font-size: calc(var(--base-size) - 1px);
+        line-height: 1.7;
+      }
+      .rp-ml-audio {
+        background: #fff8e1;
+        border: 1px solid #f0d878;
+        border-radius: 6px;
+        padding: 9px 12px;
+        margin-bottom: 12px;
+      }
+      .rp-ml-audio-label {
+        font-size: calc(var(--base-size) - 3px);
+        color: #6b5400;
+        margin-bottom: 6px;
+        font-weight: 600;
+      }
+      /* ----- 敬語動詞の表 (verb table) ----- */
+      .vtable {
+        border: 1px solid #e0e6ed;
+        border-radius: 8px;
+        overflow: hidden;
+        background: #fff;
+      }
+      .vt-row {
+        display: grid;
+        grid-template-columns: 0.85fr 1.25fr 1.25fr;
+      }
+      .vt-row + .vt-row {
+        border-top: 1px solid #eef1f4;
+      }
+      .vt-head {
+        font-weight: 700;
+      }
+      .vt-c {
+        padding: 9px 12px;
+        border-left: 1px solid #eef1f4;
+        line-height: 1.75;
+        font-size: var(--base-size);
+        min-width: 0;
+        word-break: break-word;
+      }
+      .vt-c:first-child {
+        border-left: none;
+      }
+      .vt-plain {
+        font-weight: 600;
+        color: #1a2c40;
+        background: #fafcfe;
+      }
+      .vt-plain-vi {
+        font-weight: 400;
+        font-size: calc(var(--base-size) - 4px);
+        color: #0366d6;
+        margin-top: 2px;
+      }
+      .vt-son {
+        background: #f6faff;
+      }
+      .vt-ken {
+        background: #fffaf4;
+      }
+      .vt-head .vt-plain {
+        background: #eef3f8;
+        color: #2c3e50;
+      }
+      .vt-head .vt-son {
+        background: #e7f0fb;
+        color: #0b5cab;
+      }
+      .vt-head .vt-ken {
+        background: #fdf0e3;
+        color: #9a3412;
+      }
+      .vt-empty {
+        color: #c7ccd3;
+      }
+      .vt-slash {
+        color: #aab2bd;
+        padding: 0 1px;
+      }
+      .vtable ruby rt {
+        font-size: 0.6em;
+        color: #8a97a5;
+        font-weight: 400;
+      }
+      .vt-note {
+        margin-top: 10px;
+        background: #f3f6f9;
+        border-left: 4px solid #aab8c5;
+        border-radius: 4px;
+        padding: 8px 12px;
+        font-size: calc(var(--base-size) - 3px);
+        line-height: 1.6;
+        color: #44525f;
+      }
+      @media (max-width: 640px) {
+        .vt-head {
+          display: none;
+        }
+        .vt-row {
+          grid-template-columns: 1fr;
+          border-top: 2px solid #e0e6ed;
+        }
+        .vtable .vt-row:first-of-type {
+          border-top: none;
+        }
+        .vt-c {
+          border-left: none;
+          border-top: 1px dashed #eef1f4;
+          padding: 6px 12px;
+        }
+        .vt-c:first-child {
+          border-top: none;
+        }
+        .vt-c::before {
+          content: attr(data-label);
+          display: block;
+          font-size: calc(var(--base-size) - 6px);
+          font-weight: 700;
+          color: #99a3ad;
+          margin-bottom: 1px;
+        }
+      }
       .rp-answer-ref {
         background: #e7f3ff;
         border: 1px solid #b8daff;
@@ -1600,6 +1860,23 @@
         .dlg-figure img {
           max-height: 220px;
         }
+        /* Màn hẹp: xếp dọc, ảnh lên trên, full width */
+        .dlg-outer {
+          flex-direction: column;
+          gap: 0;
+        }
+        .dlg-aside {
+          flex: none;
+          max-width: 100%;
+          align-self: stretch;
+          position: static;
+          order: -1;
+          margin-bottom: 12px;
+        }
+        .dlg-aside .dlg-figure img {
+          width: auto;
+          max-height: 220px;
+        }
         .dlg-row {
           max-width: 90%;
           gap: 6px;
@@ -1860,6 +2137,18 @@
           .replace(/"/g, "&quot;")
           .replace(/'/g, "&#39;")
           .replace(/</g, "&lt;");
+      }
+
+      // Furigana: "{漢字|かな}" → <ruby>漢字<rt>かな</rt></ruby>. Phần text khác giữ nguyên.
+      function furi(s) {
+        return String(s == null ? "" : s)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(
+            /\{([^|{}]+)\|([^|{}]+)\}/g,
+            "<ruby>$1<rt>$2</rt></ruby>"
+          );
       }
 
       function loadVoices() {
@@ -2443,6 +2732,7 @@
         dialogue: { label: "💬 Hội thoại", priority: 1 },
         vocab: { label: "📖 Học mẫu", priority: 2 },
         grammar: { label: "📚 Học mẫu", priority: 2 },
+        verbtable: { label: "📖 Tra cứu", priority: 2 },
         reading: { label: "📰 Đọc hiểu", priority: 3 },
         quiz: { label: "✏️ Luyện tập", priority: 4 },
         roleplay: { label: "🎭 Đóng vai", priority: 5 },
@@ -2582,9 +2872,31 @@
           case "grammar":
             div.appendChild(renderGrammar(section));
             break;
-          case "dialogue":
-            div.appendChild(renderDialogue(section));
+          case "dialogue": {
+            const card = renderDialogue(section);
+            if (section.image) {
+              // Ảnh nằm NGOÀI khung message: thẻ trái 75% + ảnh phải 25% (sticky).
+              const outer = document.createElement("div");
+              outer.className = "dlg-outer";
+              const aside = document.createElement("aside");
+              aside.className = "dlg-aside";
+              aside.innerHTML = buildDlgFigure(section);
+              outer.appendChild(card);
+              outer.appendChild(aside);
+              div.appendChild(outer);
+            } else {
+              div.appendChild(card);
+            }
+            // Cụm trọng tâm + ghi chú: NGOÀI khung message, full width bên dưới.
+            const extra = buildDlgExtra(section);
+            if (extra) {
+              const extraEl = document.createElement("div");
+              extraEl.className = "dlg-extra";
+              extraEl.innerHTML = extra;
+              div.appendChild(extraEl);
+            }
             break;
+          }
           case "reading":
             div.appendChild(renderReading(section, idx));
             break;
@@ -2599,6 +2911,9 @@
             break;
           case "exercise":
             div.appendChild(renderExercise(section));
+            break;
+          case "verbtable":
+            div.appendChild(renderVerbTable(section));
             break;
         }
         return div;
@@ -2735,6 +3050,44 @@
         }
       }
 
+      // Ảnh minh hoạ của hội thoại — đặt NGOÀI khung message (cột phải 25%).
+      function buildDlgFigure(section) {
+        if (!section.image) return "";
+        return `
+        <figure class="dlg-figure">
+          <a href="${section.image}" target="_blank" rel="noopener">
+            <img src="${section.image}" alt="${escAttr(
+          section.imageAlt || section.title || ""
+        )}" loading="lazy">
+          </a>
+          ${
+            section.imageCaption
+              ? `<figcaption>${section.imageCaption}</figcaption>`
+              : ""
+          }
+        </figure>`;
+      }
+
+      // Cụm trọng tâm + ghi chú của hội thoại — đặt NGOÀI khung message (full width bên dưới).
+      function buildDlgExtra(section) {
+        const highlight = section.vocabHighlight
+          ? `<div class="vocab-highlight">
+          <b>📝 Cụm trọng tâm:</b>
+          <ul>${section.vocabHighlight
+            .map((v) => `<li>${v}</li>`)
+            .join("")}</ul>
+        </div>`
+          : "";
+        const note =
+          section.note || section.note_jp
+            ? `<div class="dialogue-note">${bilingual(
+                section.note,
+                section.note_jp
+              )}</div>`
+            : "";
+        return highlight + note;
+      }
+
       function renderDialogue(section) {
         const div = document.createElement("div");
         div.className = "dialogue";
@@ -2781,36 +3134,6 @@
         </div>`;
           })
           .join("");
-        const figureHtml = section.image
-          ? `
-        <figure class="dlg-figure">
-          <a href="${section.image}" target="_blank" rel="noopener">
-            <img src="${section.image}" alt="${escAttr(
-              section.imageAlt || section.title || ""
-            )}" loading="lazy">
-          </a>
-          ${
-            section.imageCaption
-              ? `<figcaption>${section.imageCaption}</figcaption>`
-              : ""
-          }
-        </figure>`
-          : "";
-        const highlightHtml = section.vocabHighlight
-          ? `<div class="vocab-highlight">
-          <b>📝 Cụm trọng tâm:</b>
-          <ul>${section.vocabHighlight
-            .map((v) => `<li>${v}</li>`)
-            .join("")}</ul>
-        </div>`
-          : "";
-        const noteHtml =
-          section.note || section.note_jp
-            ? `<div class="dialogue-note">${bilingual(
-                section.note,
-                section.note_jp
-              )}</div>`
-            : "";
         div.innerHTML = `
         <div class="dialogue-header">
           <div class="dlg-dots"><span></span><span></span><span></span></div>
@@ -2819,13 +3142,10 @@
         </div>
         <div class="dialogue-body">
           <div class="scene">📍 ${section.scene}</div>
-          ${figureHtml}
           <div class="dialogue-toolbar">
             <button class="dlg-toggle-vi" type="button">📖 Hiện bản dịch</button>
           </div>
           ${linesHtml}
-          ${highlightHtml}
-          ${noteHtml}
         </div>`;
         const toggleBtn = div.querySelector(".dlg-toggle-vi");
         toggleBtn.addEventListener("click", () => {
@@ -2956,6 +3276,56 @@
         return div;
       }
 
+      // 敬語動詞の表 — bảng tra 3 cột (普通形 / 尊敬語 / 謙譲語). Ô trống → "—".
+      function renderVerbTable(section) {
+        const wrap = document.createElement("div");
+        wrap.className = "vtable-wrap";
+        const col = section.columns || {};
+        const cP = col.plain || "普通形";
+        const cS = col.sonkeigo || "尊敬語";
+        const cK = col.kenjougo || "謙譲語";
+        const cell = (v) =>
+          v && String(v).trim()
+            ? furi(v).replace(/／/g, '<span class="vt-slash">／</span>')
+            : '<span class="vt-empty">—</span>';
+        const rows = (section.rows || [])
+          .map((r) => {
+            const plainVi = r.plainVi
+              ? `<div class="vt-plain-vi explain-vi">${r.plainVi}</div>`
+              : "";
+            return `<div class="vt-row">
+            <div class="vt-c vt-plain" data-label="${escAttr(cP)}">
+              <div class="vt-plain-jp">${furi(r.plain)}</div>${plainVi}
+            </div>
+            <div class="vt-c vt-son" data-label="${escAttr(
+              cS
+            )}">${cell(r.sonkeigo)}</div>
+            <div class="vt-c vt-ken" data-label="${escAttr(
+              cK
+            )}">${cell(r.kenjougo)}</div>
+          </div>`;
+          })
+          .join("");
+        const note =
+          section.note || section.note_jp
+            ? `<div class="vt-note">${bilingual(
+                section.note,
+                section.note_jp
+              )}</div>`
+            : "";
+        wrap.innerHTML = `
+        <div class="vtable">
+          <div class="vt-row vt-head">
+            <div class="vt-c vt-plain">${cP}</div>
+            <div class="vt-c vt-son">${cS}</div>
+            <div class="vt-c vt-ken">${cK}</div>
+          </div>
+          ${rows}
+        </div>
+        ${note}`;
+        return wrap;
+      }
+
       // やってみましょう — đóng vai. Mỗi tình huống (scenario) có 2 thẻ vai A/B.
       // Câu tiếng Nhật trong thẻ luôn hiện (đó là "đề bài"); bản dịch VI theo lang toggle.
       function renderRoleplay(section) {
@@ -3012,6 +3382,75 @@
           </div>`
               : "";
 
+          // Hội thoại mẫu (会話例). Ẩn trong <details> để học viên tự nói trước,
+          // rồi mở ra đối chiếu. Lines = hội thoại in sách; refSection = trỏ tới mục khác.
+          let model = "";
+          if (sc.model) {
+            const m = sc.model;
+            const chip = (side) =>
+              `<span class="rp-ml-sp rp-ml-${(side || "a").toLowerCase()}">${
+                side || ""
+              }</span>`;
+            let body = "";
+            if (m.lines && m.lines.length) {
+              const legend = (sc.roles || []).length
+                ? `<div class="rp-ml-legend explain-vi">${(sc.roles || [])
+                    .map(
+                      (r) => `${chip(r.side)} ${r.who_vi || r.who_jp || ""}`
+                    )
+                    .join(" &nbsp;·&nbsp; ")}</div>`
+                : "";
+              const rows = m.lines
+                .map((ln) => {
+                  // Không gắn 🔊 TTS từng dòng — đã có bản ghi gốc ở trên.
+                  const vi = ln.vi
+                    ? `<div class="rp-ml-vi explain-vi">${ln.vi}</div>`
+                    : "";
+                  const note = ln.note_vi
+                    ? `<div class="rp-ml-note explain-vi">↳ ${ln.note_vi}</div>`
+                    : "";
+                  return `<div class="rp-ml-row">
+                  ${chip(ln.sp)}
+                  <div class="rp-ml-text">
+                    <div class="rp-ml-jp">${ln.jp || ""}</div>
+                    ${vi}
+                    ${note}
+                  </div>
+                </div>`;
+                })
+                .join("");
+              body = legend + rows;
+            } else if (m.refSection_vi || m.refSection_jp) {
+              body = `<div class="rp-ml-ref">${bilingual(
+                m.refSection_vi,
+                m.refSection_jp
+              )}</div>`;
+            }
+            const intro =
+              m.intro_vi || m.intro_jp
+                ? `<div class="rp-ml-intro">${bilingual(
+                    m.intro_vi,
+                    m.intro_jp
+                  )}</div>`
+                : "";
+            // Bản ghi gốc trong sách (mp3). Có audio → ẩn nút 🔊 TTS từng dòng (xem CSS .rp-model.has-audio).
+            const audioPlayer = m.audio
+              ? `<div class="rp-ml-audio">
+              <div class="rp-ml-audio-label">🎧 Bản ghi gốc trong sách${
+                m.track ? " — Track " + m.track : ""
+              }</div>
+              <audio controls preload="none" src="${m.audio}" class="section-audio"></audio>
+            </div>`
+              : "";
+            const track = m.track
+              ? `<span class="rp-ml-track">🎧 Track ${m.track}</span>`
+              : "";
+            model = `<details class="rp-model${m.audio ? " has-audio" : ""}">
+            <summary><span class="rp-ml-summary-label">📖 Xem hội thoại mẫu (会話例)</span>${track}</summary>
+            <div class="rp-model-body">${intro}${audioPlayer}${body}</div>
+          </details>`;
+          }
+
           const sceneEl = document.createElement("div");
           sceneEl.className = "rp-scenario";
           sceneEl.innerHTML = `
@@ -3025,7 +3464,8 @@
             }
           </div>
           <div class="rp-cards">${cards}</div>
-          ${hints}`;
+          ${hints}
+          ${model}`;
           wrap.appendChild(sceneEl);
         });
 

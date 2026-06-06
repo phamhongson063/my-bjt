@@ -229,8 +229,8 @@
     {
       "type": "vocab",
       "title": "⚠️ ⑤ 尊敬語の特別な形 — Dạng đặc biệt của sonkeigo (trang 24)",
-      "intro": "Một số động từ rất thông dụng có DẠNG SONKEIGO RIÊNG — KHÔNG ghép theo mẫu お～になります. Bắt buộc dùng dạng đặc biệt này.\n\nSách chỉ liệt kê 3 ví dụ ở trang 24; bảng tra đầy đủ ở trang 176 (付録 敬語動詞の表).",
-      "intro_jp": "よく使う動詞には、「お～になります」を使わないで、特別な形(尊敬語の特別な形)があります。 → p.176 付録 敬語動詞の表",
+      "intro": "Một số động từ rất thông dụng có DẠNG SONKEIGO RIÊNG — KHÔNG ghép theo mẫu お～になります. Bắt buộc dùng dạng đặc biệt này.\n\nSách nêu 3 ví dụ cốt lõi ở trang 24 (bên dưới); bảng tra ĐẦY ĐỦ 敬語動詞の表 (trang 176) nằm ngay sau mục này ⬇️.",
+      "intro_jp": "よく使う動詞には、「お～になります」を使わないで、特別な形(尊敬語の特別な形)があります。全体は下の「敬語動詞の表」(p.176) で確認できます。",
       "items": [
         {
           "jp": "召し上がります",
@@ -260,6 +260,153 @@
           "exampleVi": "Xem / nhìn (thường) → Xem / nhìn (sonkeigo đặc biệt)"
         }
       ]
+    },
+    {
+      "type": "verbtable",
+      "title": "📖 敬語動詞の表 — Bảng tra đầy đủ động từ kính ngữ (trang 176)",
+      "intro": "Bảng tra (付録 trang 176) của TẤT CẢ động từ kính ngữ thường gặp: cột 尊敬語 (tôn kính — nói về hành động của ĐỐI PHƯƠNG, đây là trọng tâm Bài 1) và cột 謙譲語 (khiêm nhường — nói về hành động của MÌNH, sẽ học kỹ ở L03). Nhiều dạng là bất quy tắc (召し上がる, 伺う, 拝見する…), phải thuộc lòng. Bấm nút ngôn ngữ để hiện/ẩn nghĩa tiếng Việt.",
+      "intro_jp": "付録「敬語動詞の表」(p.176)。よく使う動詞の尊敬語(相手の動作)と謙譲語(自分の動作)の一覧です。",
+      "columns": {
+        "plain": "普通形",
+        "sonkeigo": "尊敬語",
+        "kenjougo": "謙譲語"
+      },
+      "rows": [
+        {
+          "plain": "{行|い}きます",
+          "plainVi": "đi",
+          "sonkeigo": "いらっしゃいます／おいでになります",
+          "kenjougo": "まいります／（{相手|あいて}の{家|いえ}や{会社|かいしゃ}へ）{伺|うかが}います"
+        },
+        {
+          "plain": "{来|き}ます",
+          "plainVi": "đến",
+          "sonkeigo": "いらっしゃいます／おいでになります",
+          "kenjougo": "まいります"
+        },
+        {
+          "plain": "います",
+          "plainVi": "có / ở (người, động vật)",
+          "sonkeigo": "いらっしゃいます／おいでになります",
+          "kenjougo": "おります"
+        },
+        {
+          "plain": "{言|い}います",
+          "plainVi": "nói",
+          "sonkeigo": "おっしゃいます",
+          "kenjougo": "（アレックス・スミスと）{申|もう}します／（{意見|いけん}を）{申|もう}し{上|あ}げます"
+        },
+        {
+          "plain": "{見|み}ます",
+          "plainVi": "xem, nhìn",
+          "sonkeigo": "ご{覧|らん}になります",
+          "kenjougo": "{拝見|はいけん}します"
+        },
+        {
+          "plain": "{食|た}べます／{飲|の}みます",
+          "plainVi": "ăn / uống",
+          "sonkeigo": "{召|め}し{上|あ}がります",
+          "kenjougo": "いただきます"
+        },
+        {
+          "plain": "{知|し}っています",
+          "plainVi": "biết",
+          "sonkeigo": "ご{存|ぞん}じです",
+          "kenjougo": "（{今日|きょう}{会議|かいぎ}があることを）{存|ぞん}じております／{知|し}っております／（{金子|かねこ}{部長|ぶちょう}を）{存|ぞん}じ{上|あ}げております"
+        },
+        {
+          "plain": "{思|おも}います",
+          "plainVi": "nghĩ",
+          "sonkeigo": "お{思|おも}いになります",
+          "kenjougo": "{存|ぞん}じます"
+        },
+        {
+          "plain": "します",
+          "plainVi": "làm",
+          "sonkeigo": "なさいます",
+          "kenjougo": "いたします"
+        },
+        {
+          "plain": "くれます",
+          "plainVi": "(người khác) cho mình",
+          "sonkeigo": "くださいます",
+          "kenjougo": ""
+        },
+        {
+          "plain": "あげます",
+          "plainVi": "cho (người khác)",
+          "sonkeigo": "",
+          "kenjougo": "さしあげます"
+        },
+        {
+          "plain": "もらいます",
+          "plainVi": "nhận",
+          "sonkeigo": "",
+          "kenjougo": "いただきます"
+        },
+        {
+          "plain": "{会|あ}います",
+          "plainVi": "gặp",
+          "sonkeigo": "お{会|あ}いになります",
+          "kenjougo": "お{会|あ}いします／お{目|め}にかかります"
+        },
+        {
+          "plain": "{聞|き}きます",
+          "plainVi": "hỏi / nghe",
+          "sonkeigo": "お{聞|き}きになります",
+          "kenjougo": "お{聞|き}きします／{伺|うかが}います"
+        },
+        {
+          "plain": "あります",
+          "plainVi": "có (vật), tồn tại",
+          "sonkeigo": "おありになります／あります",
+          "kenjougo": "ございます"
+        },
+        {
+          "plain": "{寝|ね}ます",
+          "plainVi": "ngủ",
+          "sonkeigo": "お{休|やす}みになります",
+          "kenjougo": ""
+        },
+        {
+          "plain": "{着|き}ます",
+          "plainVi": "mặc",
+          "sonkeigo": "お{召|め}しになります",
+          "kenjougo": ""
+        },
+        {
+          "plain": "{住|す}んでいます",
+          "plainVi": "đang sống / cư trú",
+          "sonkeigo": "お{住|す}まいです",
+          "kenjougo": ""
+        },
+        {
+          "plain": "{持|も}ちます／{持|も}っていきます／{持|も}ってきます",
+          "plainVi": "cầm, mang / mang đi / mang đến",
+          "sonkeigo": "お{持|も}ちになります",
+          "kenjougo": "お{持|も}ちします"
+        },
+        {
+          "plain": "{死|し}にました",
+          "plainVi": "đã mất, qua đời",
+          "sonkeigo": "お{亡|な}くなりになりました",
+          "kenjougo": ""
+        },
+        {
+          "plain": "〜です",
+          "plainVi": "là ~ (copula)",
+          "sonkeigo": "〜でいらっしゃいます",
+          "kenjougo": "〜でございます"
+        },
+        {
+          "plain": "〜ています",
+          "plainVi": "đang ~ (tiếp diễn)",
+          "sonkeigo": "〜ていらっしゃいます",
+          "kenjougo": "〜ております"
+        }
+      ],
+      "note": "📌 Phần cuối trang 176 chính là các mẫu đã/đang học trong bài, không tách riêng: 文型 「お〜になります」→ mục ④, 「お〜ください」→ mục ②, 「お〜します」 (謙譲語) → để dành L03; かんたん尊敬語 (Ⅰ/Ⅱ/Ⅲ với れる/られる) → mục ⑥ ngay dưới. Ô trống (—) = động từ không có dạng riêng cho cột đó (dùng cách khác hoặc giữ nguyên).",
+      "note_jp": "p.176 下の「文型」(お〜になります=④/お〜ください=②/お〜します=L03)と「かんたん尊敬語」(⑥)は本課の各項目と同じです。「—」は特別な形なし。"
     },
     {
       "type": "grammar",
@@ -1238,6 +1385,7 @@
     {
       "type": "dialogue",
       "title": "✅ これでOK! — Phiên bản đúng cách (Track 1-8, trang 27)",
+      "image": "images/L02/27_1.png",
       "audio": "asset/audio/Track1-08.mp3",
       "audioLabel": "Track 1-8 — これでOK! 訪問する (phiên bản chuẩn)",
       "scene": "アレックスさんは、上司の金子部長のうちへ行きます。今度は敬語を正しく使います。\n(Alex tới nhà sếp 金子部長. Lần này Alex dùng kính ngữ đúng cách. So sánh với phiên bản sai ở trang 22.)",
@@ -1692,8 +1840,8 @@
     {
       "type": "roleplay",
       "title": "🎭 やってみましょう — Luyện đóng vai (trang 31)",
-      "intro": "Hoạt động NÓI theo cặp. Mỗi người cầm một ロールカード (thẻ vai) rồi hội thoại bằng kính ngữ hợp với vai của mình.\nTự học một mình? Hãy đọc cả hai thẻ rồi tự dựng hội thoại cho từng vai; bấm 🔊 để nghe đề bài đọc lên.\n👉 Thẻ vai trong sách: vai A ở trang 168, vai B ở trang 172. Hội thoại mẫu (会話例) ở trang 187.",
-      "intro_jp": "ペアで話す練習です。ロールカードを持って、自分の役で敬語の会話をしましょう。\nロールカード:A=p.168 / B=p.172、会話例:p.187。",
+      "intro": "Hoạt động NÓI theo cặp. Mỗi người cầm một ロールカード (thẻ vai) rồi hội thoại bằng kính ngữ hợp với vai của mình.\nTự học một mình? Hãy đọc cả hai thẻ rồi tự dựng hội thoại cho từng vai; bấm 🔊 để nghe đề bài đọc lên.\n👉 Thẻ vai trong sách: vai A ở trang 168, vai B ở trang 172. Hội thoại mẫu (会話例) đã có sẵn ngay dưới mỗi tình huống — tự nói trước rồi mở ra đối chiếu.",
+      "intro_jp": "ペアで話す練習です。ロールカードを持って、自分の役で敬語の会話をしましょう。\nロールカード:A=p.168 / B=p.172。会話例は各場面の下にあります。",
       "scenarios": [
         {
           "label": "①",
@@ -1731,7 +1879,60 @@
               "jp": "ありがとうございます。恐れ入ります。",
               "vi": "(chủ nhà) nhận quà & cảm ơn"
             }
-          ]
+          ],
+          "model": {
+            "track": "1-10",
+            "audio": "asset/audio/Track1-10.mp3",
+            "intro_vi": "Hội thoại mẫu in trong sách (trang 187). Hãy tự dựng & nói trước theo thẻ vai, rồi mới mở ra đối chiếu.",
+            "intro_jp": "本の会話例（p.187）です。先に自分で話してから、答え合わせに開いてください。",
+            "lines": [
+              {
+                "sp": "A",
+                "jp": "ごめんください。",
+                "vi": "Cho hỏi có ai ở nhà không ạ.",
+                "note_vi": "Cụm cố định gọi ở cửa — đã học ở mục ① 訪問のときの特別な言い方."
+              },
+              {
+                "sp": "B",
+                "jp": "はーい。ああ、アレックスさん。どうも。",
+                "vi": "Vâaâng~. À, anh Alex. Chào anh."
+              },
+              {
+                "sp": "A",
+                "jp": "こんにちは。あの、これ、国の母が送ってくれたお菓子なんです。どうぞ。",
+                "vi": "Chào chị. À, cái này là bánh kẹo mẹ tôi ở quê gửi sang đấy ạ. Mời chị."
+              },
+              {
+                "sp": "B",
+                "jp": "あ、ごていねいに恐れ入ります。よかったらお茶を飲んでいかない？ お上がりください。",
+                "vi": "Ồ, anh chu đáo quá, thật ngại quá. Nếu được thì vào uống chén trà đã nhé? Mời anh vào nhà.",
+                "note_vi": "「お上がりください」= mẫu 「お〜ください」 (mục ②) — mời vào nhà. Người hàng xóm trộn giọng thân (飲んでいかない？) với kính ngữ → rất tự nhiên đời thường."
+              },
+              {
+                "sp": "A",
+                "jp": "いいえ、ここで失礼いたします。",
+                "vi": "Dạ thôi, tôi xin phép về ở đây ạ (không vào đâu ạ).",
+                "note_vi": "「失礼いたします」= bản khiêm nhường của 失礼します (する→いたす). Khớp đúng thẻ vai A: đưa quà ở cửa rồi về ngay."
+              },
+              {
+                "sp": "B",
+                "jp": "そうですか。いつもすみませんね。",
+                "vi": "Vậy à. Lúc nào cũng làm phiền anh, ngại quá."
+              },
+              {
+                "sp": "A",
+                "jp": "いえいえ、皆さんで召し上がってください。",
+                "vi": "Dạ không có gì đâu ạ, cả nhà mình dùng nhé ạ.",
+                "note_vi": "「召し上がる」= dạng tôn kính đặc biệt của 食べる/飲む (mục ⑤)."
+              },
+              {
+                "sp": "B",
+                "jp": "遠慮なくいただきます。",
+                "vi": "Vậy tôi xin nhận, không khách sáo nữa ạ.",
+                "note_vi": "「いただく」= khiêm nhường của もらう/食べる — câu đáp lại khi được mời/được tặng."
+              }
+            ]
+          }
         },
         {
           "label": "②",
@@ -1776,11 +1977,17 @@
               "jp": "そろそろ失礼いたします。",
               "vi": "(cấp dưới) xin phép ra về"
             }
-          ]
+          ],
+          "model": {
+            "track": "1-8",
+            "audio": "asset/audio/Track1-08.mp3",
+            "refSection_vi": "Hội thoại mẫu của tình huống ② sách không in riêng — sách ghi “※②の会話の例は「これでOK!」を見てください”. Đó chính là đoạn Alex tới nhà 金子部長 ở mục ✅ これでOK! (trang 27) phía trên: có mời vào nhà, mời ngồi, mời ăn uống bằng kính ngữ. Hãy cuộn lên xem lại đoạn đó làm hội thoại mẫu.",
+            "refSection_jp": "②の会話例は、本に「※②の会話の例は『これでOK!』を見てください」とあります。上の ✅ これでOK!（p.27）と同じ会話です。"
+          }
         }
       ],
-      "answerRef": "📖 Hội thoại mẫu (会話例) của bài này nằm ở trang 187. Các nút 🔊 ở phần 会話 / 学習 phía trên giúp bạn nghe lại cách phát âm các mẫu kính ngữ.",
-      "answerRef_jp": "会話例は本の p.187 にあります。"
+      "answerRef": "📖 Hội thoại mẫu (会話例, trang 187) đã được nhúng ngay dưới mỗi tình huống — bấm “📖 Xem hội thoại mẫu” để đối chiếu sau khi đã tự nói. Tình huống ② dùng chung hội thoại mẫu với mục ✅ これでOK! (trang 27).",
+      "answerRef_jp": "会話例（p.187）は各場面の下にあります。②は p.27 の「これでOK!」と同じです。"
     },
     {
       "type": "vocab",
@@ -1883,8 +2090,8 @@
     {
       "type": "tips",
       "title": "📚 Đáp án + Bước tiếp theo",
-      "content": "📖 Tham chiếu trong sách:\n• Đáp án các bài 練習 → trang 186.\n• Bảng đầy đủ 尊敬語/謙譲語 đặc biệt → trang 176 (付録).\n\n🎯 Tổng kết Bài 1 (1課):\n• Cụm cố định khi tới thăm: ごめんください / お邪魔します / 失礼します.\n• 「お/ご～ください」 — yêu cầu/mời kính ngữ (nhóm 1,2: お~Vます~ください; nhóm 3: ご~漢字~ください).\n• 「つまらないものですが…」 — khiêm nhường khi tặng quà.\n• 「お/ご～になります」 — sonkeigo chuẩn cho hành động đối phương (lưu ý: KHÔNG dùng khi có dạng đặc biệt).\n• 3 dạng đặc biệt cốt lõi: 食べる→召し上がる, する→なさる, 見る→ご覧になる.\n• かんたん尊敬語 (れる/られる) — sonkeigo nhẹ, cùng dạng với passive (phân biệt qua ngữ cảnh), KHÔNG có ～てください.\n\n→ Bài tiếp theo: L03 「簡単にあいさつする」 (trang 32). Học mẫu KENJOUGO 「お/ご～します」 — cặp đối xứng với 「お/ご～になります」 hôm nay.",
-      "content_jp": "📖 本の参照:\n• 練習の答え → p.186\n• 尊敬語・謙譲語の特別な形の表 → p.176 付録\n\n🎯 1課のまとめ:\n• 訪問のあいさつ(ごめんください / お邪魔します / 失礼します)\n• 「お/ご～ください」(尊敬語の文型)\n• 「つまらないものですが…」\n• 「お/ご～になります」(尊敬語の文型、特別な形があるときは使わない)\n• 尊敬語の特別な形(召し上がる・なさる・ご覧になる)\n• かんたん尊敬語(れる/られる、受身と同じ形、「～てください」の形なし)\n\n→ 次は 2課「簡単にあいさつする」(p.32)。「お/ご～します」(謙譲語の文型)を学ぶ。"
+      "content": "📖 Tham chiếu trong sách:\n• Đáp án các bài 練習 → trang 186.\n• Bảng đầy đủ 尊敬語/謙譲語 đặc biệt → đã nhúng ở mục 📖 敬語動詞の表 (sau mục ⑤, trang 176).\n\n🎯 Tổng kết Bài 1 (1課):\n• Cụm cố định khi tới thăm: ごめんください / お邪魔します / 失礼します.\n• 「お/ご～ください」 — yêu cầu/mời kính ngữ (nhóm 1,2: お~Vます~ください; nhóm 3: ご~漢字~ください).\n• 「つまらないものですが…」 — khiêm nhường khi tặng quà.\n• 「お/ご～になります」 — sonkeigo chuẩn cho hành động đối phương (lưu ý: KHÔNG dùng khi có dạng đặc biệt).\n• 3 dạng đặc biệt cốt lõi: 食べる→召し上がる, する→なさる, 見る→ご覧になる.\n• かんたん尊敬語 (れる/られる) — sonkeigo nhẹ, cùng dạng với passive (phân biệt qua ngữ cảnh), KHÔNG có ～てください.\n\n→ Bài tiếp theo: L03 「簡単にあいさつする」 (trang 32). Học mẫu KENJOUGO 「お/ご～します」 — cặp đối xứng với 「お/ご～になります」 hôm nay.",
+      "content_jp": "📖 本の参照:\n• 練習の答え → p.186\n• 尊敬語・謙譲語の特別な形の表 → 上の「敬語動詞の表」(p.176)\n\n🎯 1課のまとめ:\n• 訪問のあいさつ(ごめんください / お邪魔します / 失礼します)\n• 「お/ご～ください」(尊敬語の文型)\n• 「つまらないものですが…」\n• 「お/ご～になります」(尊敬語の文型、特別な形があるときは使わない)\n• 尊敬語の特別な形(召し上がる・なさる・ご覧になる)\n• かんたん尊敬語(れる/られる、受身と同じ形、「～てください」の形なし)\n\n→ 次は 2課「簡単にあいさつする」(p.32)。「お/ご～します」(謙譲語の文型)を学ぶ。"
     }
   ]
 }

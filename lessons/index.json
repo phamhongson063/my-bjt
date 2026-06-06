@@ -74,7 +74,7 @@
     {
       "id": "L03",
       "order": 3,
-      "title": "簡単にあいさつする",
+      "title": "2課 簡単にあいさつする",
       "titleVi": "Chào hỏi ngắn gọn (vào/ra văn phòng, đi/về)",
       "phase": 2,
       "chapter": "第2章 - 2",
@@ -86,7 +86,7 @@
         "尊敬語と謙譲語のポイント — phân biệt nguy hiểm"
       ],
       "estimatedMinutes": 35,
-      "status": "todo"
+      "status": "ready"
     },
     {
       "id": "L04",

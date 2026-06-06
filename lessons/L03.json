@@ -1,0 +1,757 @@
+{
+  "id": "L03",
+  "order": 3,
+  "title": "2課 簡単にあいさつする",
+  "titleVi": "Bài 2 — Chào hỏi ngắn gọn (vào/ra văn phòng, đi/về)",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 35,
+  "intro": "Bài 2 (2課) của Chương 2. Cùng cảnh buổi sáng ở công ty: Alex chào 金子部長 nhưng lại hỏi thẳng 「疲れていますか」, khuyên sếp 「もっと早く帰ったほうがいいですよ」, rồi đề nghị giúp bằng 「手伝ってあげましょうか / 印刷してあげましょうか」. Dùng 「〜てあげる」 với cấp trên nghe như ban ơn, thất lễ — nên 部長 từ chối, Alex không giúp được.\n\nQua bài này bạn học:\n• Các câu chào hay dùng, so sánh ですます／敬語スタイル ↔ 友達スタイル (お先に失礼します, お疲れ様です, お気をつけて...).\n• 「お/ご〜します」 — văn mẫu KHIÊM NHƯỜNG (kenjougo), nói về hành động của CHÍNH MÌNH (đối lập với 「お/ご〜になります」 — sonkeigo, hành động của đối phương — học ở Bài 1).\n• 謙譲語の特別な形: 拝見します, お目にかかります, 参ります, 差し上げます, いただきます.\n• Bảng tổng kết phân biệt 尊敬語 (hành động đối phương) ↔ 謙譲語 (hành động của mình).",
+  "intro_jp": "第2章 2課。朝、会社でアレックスさんが金子部長にあいさつする場面です。「お疲れですか」ではなく「疲れていますか」と直接聞いたり、「もっと早く帰ったほうがいいですよ」と上司にアドバイスしたり、「手伝ってあげましょうか」と〜てあげるを使ったりして、失礼になってしまいます。\n学習項目:\n• よく使われるあいさつ (お先に失礼します・お疲れ様です・お気をつけて など)\n• 「お/ご〜します」(謙譲語の文型)\n• 謙譲語の特別な形 (拝見します・お目にかかります・参ります・差し上げます・いただきます)\n• 尊敬語と謙譲語のポイント",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — 朝のあいさつ: Alex và 金子部長 (trang 32)",
+      "image": "images/L03/32_1.jpg",
+      "imageAlt": "Minh hoạ trang 32 — buổi sáng, Alex gặp 金子部長 mệt mỏi ở thang máy và đề nghị giúp đỡ một cách vụng về.",
+      "imageCaption": "Minh hoạ trang 32 — Alex chào 金子部長 vào buổi sáng ở công ty.",
+      "scene": "朝、会社や学校で人と会ったとき、どんなあいさつをしますか。\n(Buổi sáng khi gặp người ở công ty/trường, bạn chào thế nào? Cảnh: Alex gặp sếp 金子部長 trông mệt mỏi vào buổi sáng.)",
+      "lines": [
+        {
+          "speaker": "金子部長",
+          "jp": "おはよう。",
+          "vi": "Chào (buổi sáng). (部長 chào cấp dưới kiểu thân mật 「おはよう」)"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "あ、おはようございます。部長、疲れていますか。昨日は何時に帰りましたか。",
+          "vi": "À, em chào sếp ạ. Sếp ơi, sếp mệt à? Hôm qua sếp về lúc mấy giờ ạ? (⚠️ Hỏi thẳng 「疲れていますか」 nghe sỗ sàng; 「帰りました」 mới là thể ます thường, chưa phải sonkeigo 「お帰りになりました」)"
+        },
+        {
+          "speaker": "金子部長",
+          "jp": "え? あ、終電だったよ。今日の加藤さんとの打ち合わせが、昨日、急に決まったんだって。だから資料を準備しないとならなかったんだ。",
+          "vi": "Hả? À, tàu cuối đấy. Buổi họp với anh Kato hôm nay tự nhiên bị chốt vào hôm qua, nên (tôi) phải chuẩn bị tài liệu."
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "大変ですね。疲れますから、もっと早く帰ったほうがいいですよ。",
+          "vi": "Vất vả nhỉ. Mệt lắm đấy, sếp nên về sớm hơn thì hơn ạ. (⚠️ Khuyên cấp trên bằng 「〜たほうがいいですよ」 nghe vượt phận, bề trên)"
+        },
+        {
+          "speaker": "金子部長",
+          "jp": "うん。",
+          "vi": "Ừ."
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "部長は忙しいですから、私が手伝ってあげましょうか。資料を印刷してあげましょうか。",
+          "vi": "Sếp bận mà, để em giúp cho nhé? Em in tài liệu giúp cho nhé? (⚠️ 「〜てあげましょうか」 với cấp trên nghe như ban ơn → thất lễ. Phải dùng 謙譲語: 「お手伝いしましょうか」「印刷いたしましょうか」 — học ở mục ②)"
+        },
+        {
+          "speaker": "金子部長",
+          "jp": "いや、いいよ。大丈夫だ。",
+          "vi": "Thôi, khỏi. Không sao đâu."
+        },
+        {
+          "speaker": "—",
+          "jp": "アレックスさんは、金子部長を手伝うことができませんでした。",
+          "vi": "Rốt cuộc Alex đã không giúp được 金子部長. (Vì cách đề nghị 「〜てあげましょうか」 nghe thất lễ nên sếp từ chối.)"
+        }
+      ],
+      "vocabHighlight": [
+        "「〜てあげましょうか」 với cấp trên = nghe ban ơn, thất lễ → dùng 「お/ご〜します(しましょうか)」: お手伝いしましょうか / 印刷いたしましょうか (mục ②, 練習②).",
+        "「疲れていますか」 → hỏi thẳng quá; tự nhiên hơn: 「お疲れのようですね」「大変でしたね」.",
+        "「昨日は何時に帰りましたか」 → sonkeigo: 「何時にお帰りになりましたか」 (mẫu お〜になります của Bài 1).",
+        "「もっと早く帰ったほうがいいですよ」 → khuyên/nhắc cấp trên dễ thành vượt phận.",
+        "Sáng được 部長 nói 「おはよう」, ĐỪNG buột miệng đáp 「おはよう」 → phải đáp 「おはようございます」 (mục ①)."
+      ],
+      "note": "Cảnh huống này dẫn vào trọng tâm Bài 2: cách CHÀO đúng style (mục ①) và mẫu KHIÊM NHƯỜNG 「お/ご〜します」 để nói về hành động của mình / đề nghị giúp đỡ (mục ②) — thay cho 「〜てあげる」 mà Alex đã dùng sai.",
+      "note_jp": "この課では、アレックスさんがうまく言えなかった「あいさつ」(①) と、自分の動作を言う「お/ご〜します」(②) を勉強します。上司に「〜てあげましょうか」は使わず、「お手伝いしましょうか」と言います。"
+    },
+    {
+      "type": "verbtable",
+      "title": "🗣️ ① よく使われるあいさつ — Các câu chào hay dùng (trang 33)",
+      "intro": "Cùng một tình huống, đổi theo đối tượng: cột trái = ですます／敬語スタイル (với cấp trên, khách, người chưa thân); cột phải = 友達スタイル (với bạn bè, người thân thiết). 「A」 và 「B」 là hai lượt nói qua lại; 「／」 là các cách nói thay thế cùng nghĩa.",
+      "intro_jp": "場面ごとに、ていねいな言い方(ですます／敬語スタイル)と友達スタイルを比べましょう。A・Bは会話のやりとり、「／」は言いかえです。",
+      "columns": {
+        "plain": "場面",
+        "sonkeigo": "ですます／敬語スタイル",
+        "kenjougo": "友達スタイル"
+      },
+      "rows": [
+        {
+          "plain": "朝",
+          "plainVi": "Buổi sáng (chào)",
+          "sonkeigo": "おはようございます。",
+          "kenjougo": "おはよう。"
+        },
+        {
+          "plain": "{会社|かいしゃ}から{帰|かえ}るとき",
+          "plainVi": "Khi rời công ty về",
+          "sonkeigo": "A：それでは、お{先|さき}に{失礼|しつれい}します。／失礼いたします。　B：お{疲|つか}れ{様|さま}です。",
+          "kenjougo": "A：じゃ、お先に！　B：お疲れ様。"
+        },
+        {
+          "plain": "お{礼|れい}",
+          "plainVi": "Cảm ơn / đáp lại cảm ơn",
+          "sonkeigo": "A：ありがとうございます。　B：こちらこそ。／いいえ。／どういたしまして。",
+          "kenjougo": "A：ありがとう。　B：ううん。／{大丈夫|だいじょうぶ}だよ。"
+        },
+        {
+          "plain": "{天気|てんき}",
+          "plainVi": "Bắt chuyện về thời tiết",
+          "sonkeigo": "A：いいお天気ですね。／{暑|あつ}いですね。／（{雨|あめ}が）よく{降|ふ}りますね。　B：そうですね。",
+          "kenjougo": "A：いい天気だね。／暑いね。／よく降るね。　B：そうだね。"
+        },
+        {
+          "plain": "{別|わか}れるとき",
+          "plainVi": "Khi chia tay / ra về",
+          "sonkeigo": "A：失礼します。／失礼いたします。　B：お{気|き}をつけて。／それではまた（{明日|あした}お{目|め}にかかります）。",
+          "kenjougo": "A：じゃあね。　B：気をつけてね。／じゃ、また（明日）。"
+        }
+      ],
+      "note": "⚠️ Khi người trên (部長, 先生...) chào bạn 「おはよう」, ĐỪNG bị cuốn theo mà đáp lại 「おはよう」 — hãy đáp 「おはようございます」.",
+      "note_jp": "目上の人に「おはよう」と言われて、つられて「おはよう」と言わないようにしましょう。"
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ② 「お/ご〜します」 — Kenjougo: nói về hành động của MÌNH (trang 34)",
+      "items": [
+        {
+          "pattern": "お + [Vます形] + します  (Iグループ・IIグループ動詞)",
+          "patternVi": "Mẫu KHIÊM NHƯỜNG (謙譲語). Dùng khi nói về hành động của CHÍNH MÌNH hướng tới người trên (đối lập với 「お〜になります」 = hành động của đối phương). Dùng với động từ NHÓM 1 và NHÓM 2.",
+          "explanation": "謙譲語の文型。 Hạ thấp hành động của mình để tỏ kính trọng với người nhận. Ví dụ sách: cầm hành lý giúp sếp → 「お持ちします」.",
+          "explanation_jp": "謙譲語の文型。 Iグループ・IIグループの動詞 → お[Vます]します。",
+          "examples": [
+            {
+              "jp": "〈荷物が多くて困っている社長を見て〉(私が社長の荷物を) お持ちします。",
+              "vi": "〈Thấy giám đốc nhiều hành lý, lúng túng〉 (Để em) xách hành lý giúp giám đốc ạ."
+            },
+            {
+              "jp": "重そうですね。お持ちしましょうか。",
+              "vi": "Trông nặng nhỉ. Để em cầm giúp nhé ạ? (「お〜しましょうか」 = đề nghị giúp đỡ lịch sự)"
+            }
+          ],
+          "warning": "上司に向かって「〜てあげます」は使えません。 — KHÔNG dùng 「〜てあげます」 với cấp trên (nghe ban ơn, kẻ cả). Đây chính là lỗi Alex mắc ở trang 32 (「手伝ってあげましょうか」). Hãy dùng 「お手伝いしましょうか」.",
+          "warning_jp": "上司に向かって「〜てあげます」は使えません。 p.32のアレックスさんの間違い (「手伝ってあげましょうか」) → 「お手伝いしましょうか」。"
+        },
+        {
+          "pattern": "ご + [漢字のことば] + します  (IIIグループ動詞 = する動詞)",
+          "patternVi": "Với động từ NHÓM 3 (động từ する gốc Hán: 説明する, 案内する, 連絡する, 紹介する…): dùng ご thay cho お.",
+          "explanation": "IIIグループの動詞 (漢語サ変動詞) → ご[漢字のことば]します。 Ví dụ sách: giải thích cho thầy chưa biết dùng máy tính → 「ご説明します」.",
+          "explanation_jp": "IIIグループの動詞 → ご[漢字のことば]します。",
+          "examples": [
+            {
+              "jp": "〈新しいパソコンの使い方がわからない先生に〉(私が) ご説明します。",
+              "vi": "〈Với thầy chưa biết dùng máy tính mới〉 (Để em) giải thích cho thầy ạ."
+            }
+          ],
+          "warning": "謙譲語を使えば、誰が動作をするかわかるので、「私が」は省略されることが多いです。 — Khi đã dùng kenjougo thì rõ là MÌNH làm, nên 「私が」 thường được lược bỏ.",
+          "warning_jp": "謙譲語を使えば、誰が動作をするかわかるので、「私が」は省略されることが多いです。"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "⚠️ ③ 謙譲語の特別な形 — Dạng đặc biệt của kenjougo (trang 34)",
+      "image": "images/L03/34_1.jpg",
+      "imageAlt": "Minh hoạ trang 34 — tình cờ gặp thầy giáo trước ga, dùng 「お目にかかります」.",
+      "imageCaption": "「駅前で偶然先生にお目にかかりました」 — tình cờ gặp thầy ở trước ga.",
+      "intro": "Một số động từ thông dụng có DẠNG KENJOUGO RIÊNG — KHÔNG ghép theo mẫu 「お〜します」. Sách (trang 34) nêu 2 ví dụ chính (bên dưới); bảng tra ĐẦY ĐỦ 敬語動詞の表 (trang 176) đặt ngay sau mục này ⬇️.\n\nVí dụ sách:\n・〈取引先の人に〉(私が) メールを拝見しました。 — (Tôi) đã đọc email ạ. (見る → 拝見する)\n・駅前で偶然先生にお目にかかりました。 — Tôi tình cờ gặp thầy ở trước ga. (会う → お目にかかる)",
+      "intro_jp": "よく使う動詞には、「お〜します」を使わないで、特別な形(謙譲語の特別な形)があります。本(p.34)の例:「メールを拝見しました」「先生にお目にかかりました」。全体は下の「敬語動詞の表」(p.176) で確認できます。",
+      "items": [
+        {
+          "jp": "拝見します",
+          "kana": "はいけんします",
+          "vi": "Xem / đọc (kenjougo đặc biệt của 見る)",
+          "note": "Dùng khi MÌNH xem/đọc thứ của người trên (mail, tài liệu, ảnh...). ✗ Không nói 「お見します」.",
+          "note_jp": "見ます → 拝見します。 〈取引先の人に〉メールを拝見しました。",
+          "exampleJp": "メールを拝見しました。",
+          "exampleVi": "(Tôi) đã đọc email ạ."
+        },
+        {
+          "jp": "お目にかかります",
+          "kana": "おめにかかります",
+          "vi": "Gặp (kenjougo đặc biệt của 会う)",
+          "note": "Dùng khi MÌNH gặp người trên. ✗ Không nói 「お会いになります」 (đó là sonkeigo — hành động của đối phương).",
+          "note_jp": "会います → お目にかかります。 駅前で偶然先生にお目にかかりました。",
+          "exampleJp": "駅前で偶然先生にお目にかかりました。",
+          "exampleVi": "Tôi tình cờ gặp thầy ở trước ga."
+        },
+        {
+          "jp": "参ります",
+          "kana": "まいります",
+          "vi": "Đi / đến (kenjougo đặc biệt của 行く・来る)",
+          "note": "Dùng khi MÌNH đi/đến. ✗ Không nói 「お行きします / お来します」. (Nếu đến NHÀ/CÔNG TY của người trên thì dùng 伺います.)",
+          "note_jp": "行きます・来ます → 参ります。",
+          "exampleJp": "明日もこちらに参ります。",
+          "exampleVi": "Ngày mai tôi cũng sẽ đến đây ạ."
+        },
+        {
+          "jp": "差し上げます",
+          "kana": "さしあげます",
+          "vi": "Biếu / tặng (kenjougo đặc biệt của あげる)",
+          "note": "Dùng khi MÌNH cho/tặng người trên. ✗ Không nói 「おあげします」.",
+          "note_jp": "あげます → 差し上げます。",
+          "exampleJp": "先生に国のおみやげを差し上げます。",
+          "exampleVi": "Tôi biếu thầy quà quê (của nước tôi) ạ."
+        },
+        {
+          "jp": "いただきます",
+          "kana": "いただきます",
+          "vi": "Nhận / ăn / uống (kenjougo đặc biệt của もらう・食べる・飲む)",
+          "note": "Dùng khi MÌNH nhận từ người trên. ✗ Không nói 「おもらいします」.",
+          "note_jp": "もらいます → いただきます。",
+          "exampleJp": "先生からペンをいただきました。",
+          "exampleVi": "Tôi đã được thầy cho cây bút."
+        }
+      ]
+    },
+    {
+      "type": "verbtable",
+      "title": "📖 敬語動詞の表 — Bảng tra đầy đủ động từ kính ngữ (trang 176)",
+      "intro": "Bảng tra (付録 trang 176) của TẤT CẢ động từ kính ngữ thường gặp. Trọng tâm Bài 2 là cột 謙譲語 (khiêm nhường — nói về hành động của MÌNH); cột 尊敬語 (tôn kính — hành động của ĐỐI PHƯƠNG) đã học ở Bài 1. Nhiều dạng là bất quy tắc (拝見する, 伺う, 申す, 差し上げる…), phải thuộc lòng. Bấm nút ngôn ngữ để hiện/ẩn nghĩa tiếng Việt.",
+      "intro_jp": "付録「敬語動詞の表」(p.176)。よく使う動詞の尊敬語(相手の動作)と謙譲語(自分の動作)の一覧です。2課では謙譲語(自分の動作)が中心です。",
+      "columns": {
+        "plain": "普通形",
+        "sonkeigo": "尊敬語",
+        "kenjougo": "謙譲語"
+      },
+      "rows": [
+        {
+          "plain": "{行|い}きます",
+          "plainVi": "đi",
+          "sonkeigo": "いらっしゃいます／おいでになります",
+          "kenjougo": "まいります／（{相手|あいて}の{家|いえ}や{会社|かいしゃ}へ）{伺|うかが}います"
+        },
+        {
+          "plain": "{来|き}ます",
+          "plainVi": "đến",
+          "sonkeigo": "いらっしゃいます／おいでになります",
+          "kenjougo": "まいります"
+        },
+        {
+          "plain": "います",
+          "plainVi": "có / ở (người, động vật)",
+          "sonkeigo": "いらっしゃいます／おいでになります",
+          "kenjougo": "おります"
+        },
+        {
+          "plain": "{言|い}います",
+          "plainVi": "nói",
+          "sonkeigo": "おっしゃいます",
+          "kenjougo": "（アレックス・スミスと）{申|もう}します／（{意見|いけん}を）{申|もう}し{上|あ}げます"
+        },
+        {
+          "plain": "{見|み}ます",
+          "plainVi": "xem, nhìn",
+          "sonkeigo": "ご{覧|らん}になります",
+          "kenjougo": "{拝見|はいけん}します"
+        },
+        {
+          "plain": "{食|た}べます／{飲|の}みます",
+          "plainVi": "ăn / uống",
+          "sonkeigo": "{召|め}し{上|あ}がります",
+          "kenjougo": "いただきます"
+        },
+        {
+          "plain": "{知|し}っています",
+          "plainVi": "biết",
+          "sonkeigo": "ご{存|ぞん}じです",
+          "kenjougo": "（{今日|きょう}{会議|かいぎ}があることを）{存|ぞん}じております／{知|し}っております／（{金子|かねこ}{部長|ぶちょう}を）{存|ぞん}じ{上|あ}げております"
+        },
+        {
+          "plain": "{思|おも}います",
+          "plainVi": "nghĩ",
+          "sonkeigo": "お{思|おも}いになります",
+          "kenjougo": "{存|ぞん}じます"
+        },
+        {
+          "plain": "します",
+          "plainVi": "làm",
+          "sonkeigo": "なさいます",
+          "kenjougo": "いたします"
+        },
+        {
+          "plain": "くれます",
+          "plainVi": "(người khác) cho mình",
+          "sonkeigo": "くださいます",
+          "kenjougo": ""
+        },
+        {
+          "plain": "あげます",
+          "plainVi": "cho (người khác)",
+          "sonkeigo": "",
+          "kenjougo": "さしあげます"
+        },
+        {
+          "plain": "もらいます",
+          "plainVi": "nhận",
+          "sonkeigo": "",
+          "kenjougo": "いただきます"
+        },
+        {
+          "plain": "{会|あ}います",
+          "plainVi": "gặp",
+          "sonkeigo": "お{会|あ}いになります",
+          "kenjougo": "お{会|あ}いします／お{目|め}にかかります"
+        },
+        {
+          "plain": "{聞|き}きます",
+          "plainVi": "hỏi / nghe",
+          "sonkeigo": "お{聞|き}きになります",
+          "kenjougo": "お{聞|き}きします／{伺|うかが}います"
+        },
+        {
+          "plain": "あります",
+          "plainVi": "có (vật), tồn tại",
+          "sonkeigo": "おありになります／あります",
+          "kenjougo": "ございます"
+        },
+        {
+          "plain": "{寝|ね}ます",
+          "plainVi": "ngủ",
+          "sonkeigo": "お{休|やす}みになります",
+          "kenjougo": ""
+        },
+        {
+          "plain": "{着|き}ます",
+          "plainVi": "mặc",
+          "sonkeigo": "お{召|め}しになります",
+          "kenjougo": ""
+        },
+        {
+          "plain": "{住|す}んでいます",
+          "plainVi": "đang sống / cư trú",
+          "sonkeigo": "お{住|す}まいです",
+          "kenjougo": ""
+        },
+        {
+          "plain": "{持|も}ちます／{持|も}っていきます／{持|も}ってきます",
+          "plainVi": "cầm, mang / mang đi / mang đến",
+          "sonkeigo": "お{持|も}ちになります",
+          "kenjougo": "お{持|も}ちします"
+        },
+        {
+          "plain": "{死|し}にました",
+          "plainVi": "đã mất, qua đời",
+          "sonkeigo": "お{亡|な}くなりになりました",
+          "kenjougo": ""
+        },
+        {
+          "plain": "〜です",
+          "plainVi": "là ~ (copula)",
+          "sonkeigo": "〜でいらっしゃいます",
+          "kenjougo": "〜でございます"
+        },
+        {
+          "plain": "〜ています",
+          "plainVi": "đang ~ (tiếp diễn)",
+          "sonkeigo": "〜ていらっしゃいます",
+          "kenjougo": "〜ております"
+        }
+      ],
+      "note": "Cột 謙譲語 là trọng tâm Bài 2. Ô trống (—) = động từ không có dạng riêng cho cột đó. 「お会いします／お目にかかります」 và 「お聞きします／伺います」 vừa có dạng theo mẫu 「お〜します」 vừa có dạng đặc biệt.",
+      "note_jp": "2課は謙譲語の列が中心です。「—」は特別な形なし。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 ④ 尊敬語と謙譲語のポイント — So sánh tổng kết (trang 34)",
+      "intro": "Tổng kết phân biệt 尊敬語 ↔ 謙譲語: NÂNG đối phương lên (sonkeigo) vs HẠ mình xuống (kenjougo). Đây là bảng chốt lại Bài 1 (sonkeigo) + Bài 2 (kenjougo).",
+      "intro_jp": "尊敬語(相手の動作を高める)と謙譲語(自分の動作を低める)のまとめです。",
+      "columns": {
+        "plain": "ポイント",
+        "sonkeigo": "尊敬語 (相手の動作)",
+        "kenjougo": "謙譲語 (自分の動作)"
+      },
+      "rows": [
+        {
+          "plain": "{文型|ぶんけい}",
+          "plainVi": "Văn mẫu",
+          "sonkeigo": "お[Vます]になります／ご[N]になります／お[Vます]ください／ご[N]ください",
+          "kenjougo": "お[Vます]します／ご[N]します"
+        },
+        {
+          "plain": "かんたん{尊敬語|そんけいご}",
+          "plainVi": "Sonkeigo gọn (れる/られる)",
+          "sonkeigo": "Ⅰ {書|か}きます → 書かれます／Ⅱ {教|おし}えます → 教えられます／Ⅲ します → されます　{来|き}ます → 来られます",
+          "kenjougo": ""
+        },
+        {
+          "plain": "{特別|とくべつ}な{形|かたち}",
+          "plainVi": "Dạng đặc biệt",
+          "sonkeigo": "{召|め}し{上|あ}がります、ご{覧|らん}になります　など",
+          "kenjougo": "いただきます、{拝見|はいけん}します　など"
+        }
+      ],
+      "note": "謙譲語 KHÔNG có dạng 「かんたん」 (れる/られる) — れる/られる chỉ dùng cho sonkeigo. Khi nói về hành động của mình, dùng 「お/ご〜します」 hoặc dạng đặc biệt.",
+      "note_jp": "謙譲語に「かんたん」(れる/られる)の形はありません。"
+    },
+    {
+      "type": "quiz",
+      "title": "✏️ 練習① 謙譲語で言ってみましょう (Track 1-11, trang 35)",
+      "audio": "asset/audio/Track1-11.mp3",
+      "audioLabel": "Track 1-11 — 練習① 謙譲語で言ってみましょう",
+      "questions": [
+        {
+          "q": "例) 手伝います ⇒ ?  (mẫu 「お〜します」)",
+          "qVi": "Mẫu) 手伝います → kenjougo 「お〜します」?",
+          "options": [
+            {
+              "jp": "お手伝いします",
+              "vi": "Để tôi giúp ạ"
+            },
+            {
+              "jp": "ご手伝いします",
+              "vi": "(SAI — 手伝う là nhóm 1, dùng お chứ không ご)"
+            },
+            {
+              "jp": "手伝われます",
+              "vi": "(SAI — đây là sonkeigo, dùng cho hành động của đối phương)"
+            },
+            {
+              "jp": "手伝ってあげます",
+              "vi": "(SAI — 〜てあげる với cấp trên nghe ban ơn, thất lễ)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "Mẫu sách (trang 35): 「手伝います ⇒ お手伝いします」. 手伝う = nhóm 1 → お + 手伝い(Vます) + します.",
+          "explanation_jp": "本(p.35)の例:「手伝います ⇒ お手伝いします」。 Iグループ → 「お+Vます+します」。"
+        },
+        {
+          "q": "例) 先生からペンをもらいました ⇒ ?",
+          "qVi": "Mẫu) 先生からペンをもらいました → kenjougo (dạng đặc biệt)?",
+          "options": [
+            {
+              "jp": "先生からペンをいただきました",
+              "vi": "Tôi đã được thầy cho cây bút"
+            },
+            {
+              "jp": "先生からペンをくださいました",
+              "vi": "(SAI — くださる là sonkeigo, chủ thể là thầy CHO; ở đây chủ thể là tôi NHẬN)"
+            },
+            {
+              "jp": "先生からペンをおもらいしました",
+              "vi": "(SAI — もらう có dạng đặc biệt là いただく, không ghép お〜します)"
+            },
+            {
+              "jp": "先生からペンをもらわれました",
+              "vi": "(SAI)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "Mẫu sách (trang 35): 「もらいました ⇒ いただきました」. もらう có dạng kenjougo đặc biệt là いただく.",
+          "explanation_jp": "本(p.35)の例:「もらいました ⇒ いただきました」。 もらう → いただく(謙譲語の特別な形)。"
+        },
+        {
+          "q": "1) 社長のかばんを持ちます ⇒ ?",
+          "qVi": "1) 社長のかばんを持ちます → kenjougo?",
+          "options": [
+            {
+              "jp": "社長のかばんをお持ちします",
+              "vi": "Để tôi xách cặp giúp giám đốc ạ"
+            },
+            {
+              "jp": "社長のかばんをお持ちになります",
+              "vi": "(SAI — đó là sonkeigo; hành động xách là của TÔI nên phải kenjougo)"
+            },
+            {
+              "jp": "社長のかばんをご持ちします",
+              "vi": "(SAI — 持つ là nhóm 1, dùng お)"
+            },
+            {
+              "jp": "社長のかばんを持たれます",
+              "vi": "(SAI — sonkeigo)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "持つ = nhóm 1 → お持ちします. Hành động của MÌNH (xách giúp giám đốc) → kenjougo.",
+          "explanation_jp": "持つ = Iグループ → 「お持ちします」(自分の動作 = 謙譲語)。"
+        },
+        {
+          "q": "2) 明日もここに来ます ⇒ ?  (gợi ý sách: ここ → こちら, dùng dạng đặc biệt)",
+          "qVi": "2) 明日もここに来ます → kenjougo (sách gợi ý đổi ここ → こちら, dùng dạng đặc biệt)?",
+          "options": [
+            {
+              "jp": "明日もこちらに参ります",
+              "vi": "Ngày mai tôi cũng sẽ đến đây ạ"
+            },
+            {
+              "jp": "明日もこちらにいらっしゃいます",
+              "vi": "(SAI — いらっしゃる là sonkeigo của 来る; hành động đến là của TÔI)"
+            },
+            {
+              "jp": "明日もここにお来します",
+              "vi": "(SAI — 来る có dạng đặc biệt 参る, không ghép お〜します)"
+            },
+            {
+              "jp": "明日もこちらに来られます",
+              "vi": "(SAI — sonkeigo れる)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "来る có dạng kenjougo đặc biệt là 参る → 参ります. Sách gợi ý đổi 「ここ」 → 「こちら」 (改まった言い方 — cách nói trang trọng).",
+          "explanation_jp": "来る → 参る(謙譲語の特別な形)。「ここ」を「こちら」に変える(改まった言い方)。"
+        },
+        {
+          "q": "3) 使い方について説明します ⇒ ?",
+          "qVi": "3) 使い方について説明します → kenjougo?",
+          "options": [
+            {
+              "jp": "使い方についてご説明します",
+              "vi": "Để tôi giải thích cách dùng ạ"
+            },
+            {
+              "jp": "使い方についてお説明します",
+              "vi": "(SAI — 説明する là する動詞, dùng ご chứ không お)"
+            },
+            {
+              "jp": "使い方についてご説明になります",
+              "vi": "(SAI — đó là sonkeigo; hành động giải thích là của TÔI)"
+            },
+            {
+              "jp": "使い方について説明されます",
+              "vi": "(SAI — sonkeigo)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "説明する = nhóm 3 (する動詞) → ご + 説明 + します = ご説明します.",
+          "explanation_jp": "説明する = IIIグループ → 「ご説明します」。"
+        },
+        {
+          "q": "4) 先生に国のおみやげをあげます ⇒ ?  (dạng đặc biệt)",
+          "qVi": "4) 先生に国のおみやげをあげます → kenjougo (dạng đặc biệt)?",
+          "options": [
+            {
+              "jp": "先生に国のおみやげを差し上げます",
+              "vi": "Tôi biếu thầy quà quê ạ"
+            },
+            {
+              "jp": "先生に国のおみやげをいただきます",
+              "vi": "(SAI — いただく là NHẬN; ở đây là TÔI CHO/biếu)"
+            },
+            {
+              "jp": "先生に国のおみやげをおあげします",
+              "vi": "(SAI — あげる có dạng đặc biệt 差し上げる)"
+            },
+            {
+              "jp": "先生に国のおみやげをくださいます",
+              "vi": "(SAI — くださる là sonkeigo, chủ thể CHO là người trên)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "あげる có dạng kenjougo đặc biệt là 差し上げる → 差し上げます (biếu người trên).",
+          "explanation_jp": "あげる → 差し上げる(謙譲語の特別な形)。"
+        },
+        {
+          "q": "5) 先生に会いました ⇒ ?  (dạng đặc biệt)",
+          "qVi": "5) 先生に会いました → kenjougo (dạng đặc biệt)?",
+          "options": [
+            {
+              "jp": "先生にお目にかかりました",
+              "vi": "Tôi đã gặp thầy ạ"
+            },
+            {
+              "jp": "先生にお会いになりました",
+              "vi": "(SAI — đó là sonkeigo; người gặp là TÔI)"
+            },
+            {
+              "jp": "先生に会われました",
+              "vi": "(SAI — sonkeigo)"
+            },
+            {
+              "jp": "先生に拝見しました",
+              "vi": "(SAI — 拝見 là kenjougo của 見る, không phải 会う)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "会う có dạng kenjougo đặc biệt là お目にかかる → お目にかかりました.",
+          "explanation_jp": "会う → お目にかかる(謙譲語の特別な形)。"
+        },
+        {
+          "q": "6) 田中さんに会って、新しい契約について話しました ⇒ ?  (dạng đặc biệt)",
+          "qVi": "6) 田中さんに会って、新しい契約について話しました → kenjougo (dạng đặc biệt)?",
+          "options": [
+            {
+              "jp": "田中さんにお目にかかって、新しい契約についてお話ししました",
+              "vi": "Tôi đã gặp anh Tanaka và trao đổi về hợp đồng mới ạ"
+            },
+            {
+              "jp": "田中さんにお会いになって、新しい契約についてお話しになりました",
+              "vi": "(SAI — sonkeigo; chủ thể là TÔI)"
+            },
+            {
+              "jp": "田中さんに会われて、新しい契約について話されました",
+              "vi": "(SAI — sonkeigo)"
+            },
+            {
+              "jp": "田中さんにお目にかかって、新しい契約についてお話しになりました",
+              "vi": "(SAI — 話す bị chia sang sonkeigo お話しになる)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "会う → お目にかかる; 話す → お話しする (お〜します). Cả hai hành động đều của MÌNH → kenjougo.",
+          "explanation_jp": "会う → お目にかかる、話す → お話しする。 どちらも自分の動作 = 謙譲語。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "✏️ 練習② 困っている人に声をかける — お〜しましょうか (Track 1-12, trang 35)",
+      "audio": "asset/audio/Track1-12.mp3",
+      "audioLabel": "Track 1-12 — 練習② 困っている人を見て、謙譲語で声をかけてみましょう",
+      "questions": [
+        {
+          "q": "例) 〈荷物が多くて大変そうな人に〉持ちます ⇒ ?",
+          "qVi": "Mẫu) 〈với người nhiều hành lý trông vất vả〉持ちます → ngỏ lời giúp?",
+          "options": [
+            {
+              "jp": "あのー、よろしかったら、お持ちしましょうか。",
+              "vi": "Dạ, nếu được thì để tôi cầm giúp nhé ạ?"
+            },
+            {
+              "jp": "あのー、よろしかったら、持ってあげましょうか。",
+              "vi": "(SAI — 〜てあげる nghe ban ơn)"
+            },
+            {
+              "jp": "あのー、よろしかったら、お持ちになりましょうか。",
+              "vi": "(SAI — sonkeigo)"
+            },
+            {
+              "jp": "あのー、よろしかったら、ご持ちしましょうか。",
+              "vi": "(SAI — 持つ nhóm 1 dùng お)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "Mẫu sách (trang 35): 「お持ちしましょうか」. 「お〜しましょうか」 = đề nghị giúp đỡ lịch sự (kenjougo).",
+          "explanation_jp": "本(p.35)の例:「あのー、よろしかったら、お持ちしましょうか」。"
+        },
+        {
+          "q": "1) 〈忙しそうな人に〉手伝います ⇒ あのー、よろしかったら、?",
+          "qVi": "1) 〈với người trông bận rộn〉手伝います → ?",
+          "options": [
+            {
+              "jp": "お手伝いしましょうか。",
+              "vi": "để tôi giúp một tay nhé ạ?"
+            },
+            {
+              "jp": "手伝ってあげましょうか。",
+              "vi": "(SAI — 〜てあげる thất lễ, đúng lỗi Alex ở trang 32)"
+            },
+            {
+              "jp": "お手伝いになりましょうか。",
+              "vi": "(SAI — sonkeigo)"
+            },
+            {
+              "jp": "ご手伝いしましょうか。",
+              "vi": "(SAI — dùng お)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "手伝う = nhóm 1 → お手伝いしましょうか. So sánh với lỗi 「手伝ってあげましょうか」 của Alex (trang 32).",
+          "explanation_jp": "手伝う → お手伝いしましょうか。 p.32の「手伝ってあげましょうか」は失礼。"
+        },
+        {
+          "q": "2) 〈コピーの使い方がわからない人に〉説明します ⇒ あのー、よろしかったら、使い方を?",
+          "qVi": "2) 〈với người không biết dùng máy photo〉説明します → 使い方を ?",
+          "options": [
+            {
+              "jp": "ご説明しましょうか。",
+              "vi": "để tôi giải thích cách dùng nhé ạ?"
+            },
+            {
+              "jp": "お説明しましょうか。",
+              "vi": "(SAI — する動詞 dùng ご)"
+            },
+            {
+              "jp": "説明してあげましょうか。",
+              "vi": "(SAI — 〜てあげる)"
+            },
+            {
+              "jp": "ご説明になりましょうか。",
+              "vi": "(SAI — sonkeigo)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "説明する = nhóm 3 → ご説明しましょうか.",
+          "explanation_jp": "説明する = IIIグループ → ご説明しましょうか。"
+        },
+        {
+          "q": "3) 〈かさがなくて困っている人に〉貸します ⇒ あのー、よろしかったら、私のを?",
+          "qVi": "3) 〈với người không có ô đang lúng túng〉貸します → 私のを ?",
+          "options": [
+            {
+              "jp": "お貸ししましょうか。",
+              "vi": "để tôi cho mượn (ô của tôi) nhé ạ?"
+            },
+            {
+              "jp": "貸してあげましょうか。",
+              "vi": "(SAI — 〜てあげる)"
+            },
+            {
+              "jp": "お貸りしましょうか。",
+              "vi": "(SAI — đó là 借りる = mượn; ở đây là 貸す = cho mượn)"
+            },
+            {
+              "jp": "お貸しになりましょうか。",
+              "vi": "(SAI — sonkeigo)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "貸す = nhóm 1 → お貸しします → お貸ししましょうか. (Lưu ý phân biệt 貸す cho mượn ↔ 借りる mượn.)",
+          "explanation_jp": "貸す → お貸しします → お貸ししましょうか。"
+        },
+        {
+          "q": "4) 〈駅までの行き方がわからない人に〉行き方を教えます ⇒ あのー、よろしかったら、?",
+          "qVi": "4) 〈với người không biết đường ra ga〉行き方を教えます → ?",
+          "options": [
+            {
+              "jp": "行き方をお教えしましょうか。",
+              "vi": "để tôi chỉ đường (ra ga) cho nhé ạ?"
+            },
+            {
+              "jp": "行き方を教えてあげましょうか。",
+              "vi": "(SAI — 〜てあげる)"
+            },
+            {
+              "jp": "行き方をご教えしましょうか。",
+              "vi": "(SAI — 教える nhóm 2, dùng お)"
+            },
+            {
+              "jp": "行き方をお教えになりましょうか。",
+              "vi": "(SAI — sonkeigo)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "教える = nhóm 2 → お教えします → お教えしましょうか.",
+          "explanation_jp": "教える = IIグループ → お教えします → お教えしましょうか。"
+        },
+        {
+          "q": "5) 〈パーティーのあと、雨が降り出して、玄関で困っている人に〉車で送ります ⇒ あのー、よろしかったら、?",
+          "qVi": "5) 〈sau tiệc, trời đổ mưa, người đang lúng túng ở cửa〉車で送ります → ?",
+          "options": [
+            {
+              "jp": "車でお送りしましょうか。",
+              "vi": "để tôi đưa về bằng xe nhé ạ?"
+            },
+            {
+              "jp": "車で送ってあげましょうか。",
+              "vi": "(SAI — 〜てあげる)"
+            },
+            {
+              "jp": "車でご送りしましょうか。",
+              "vi": "(SAI — 送る nhóm 1, dùng お)"
+            },
+            {
+              "jp": "車でお送りになりましょうか。",
+              "vi": "(SAI — sonkeigo)"
+            }
+          ],
+          "answer": 0,
+          "explanation": "送る = nhóm 1 → お送りします → お送りしましょうか.",
+          "explanation_jp": "送る → お送りします → お送りしましょうか。"
+        }
+      ]
+    }
+  ]
+}

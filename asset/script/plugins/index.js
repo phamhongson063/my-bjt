@@ -1,0 +1,20 @@
+import { register } from "./registry.js";
+import { TipsPlugin } from "./tips.js";
+import { GrammarPlugin } from "./grammar.js";
+import { VocabPlugin } from "./vocab.js";
+import { VerbTablePlugin } from "./verbtable.js";
+import { DialoguePlugin } from "./dialogue.js";
+import { RoleplayPlugin } from "./roleplay.js";
+import { QuizPlugin } from "./quiz.js";
+import { ReadingPlugin } from "./reading.js";
+import { ExercisePlugin } from "./exercise.js";
+
+register(TipsPlugin);
+register(GrammarPlugin);
+register(VocabPlugin);
+register(VerbTablePlugin);
+register(DialoguePlugin);
+register(RoleplayPlugin);
+register(QuizPlugin);
+register(ReadingPlugin);
+register(ExercisePlugin);

@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <title>BJT - Bài học</title>
     <style>
       :root {
@@ -670,6 +673,59 @@
         color: #555;
         font-style: italic;
       }
+      .ex-explain-btn {
+        display: inline-block;
+        margin-top: 8px;
+        background: #fff;
+        border: 1px solid #b9a4e0;
+        color: #6b46c1;
+        padding: 5px 12px;
+        font-size: calc(var(--base-size) - 3px);
+        font-family: inherit;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .ex-explain-btn:hover {
+        background: #f6f1fc;
+      }
+      /* ----- Speaking drill (敬語 / 友達 style) ----- */
+      .ex-speak-base {
+        font-weight: 600;
+      }
+      .ex-play-btn {
+        border: 1px solid #cdd5dd;
+        background: #fff;
+        border-radius: 5px;
+        padding: 1px 8px;
+        font-size: calc(var(--base-size) - 2px);
+        cursor: pointer;
+        margin-left: 4px;
+        vertical-align: middle;
+        line-height: 1.6;
+      }
+      .ex-play-btn:hover {
+        background: #f0f7ff;
+        border-color: #0366d6;
+      }
+      .ex-style-row {
+        align-items: baseline;
+      }
+      .ex-style-label {
+        flex: 0 0 auto;
+        padding: 3px 11px;
+        border-radius: 12px;
+        font-size: calc(var(--base-size) - 4px);
+        font-weight: 700;
+        white-space: nowrap;
+      }
+      .ex-style-keigo {
+        background: #e7f0fb;
+        color: #1c5fb0;
+      }
+      .ex-style-casual {
+        background: #eaf6ec;
+        color: #2e8b50;
+      }
       .ex-sub-wrap {
         margin-top: 10px;
         display: flex;
@@ -712,6 +768,191 @@
         color: #888;
         border-color: #ccc;
         cursor: default;
+      }
+      /* ----- Multiple-choice options (clickable a/b/c) ----- */
+      .ex-choices {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .ex-opt {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-align: left;
+        width: 100%;
+        background: #fff;
+        border: 1.5px solid #d6dde6;
+        border-radius: 8px;
+        padding: 9px 12px;
+        font-size: var(--base-size);
+        font-family: inherit;
+        line-height: 1.5;
+        color: #1a2c40;
+        cursor: pointer;
+        transition: border-color 0.12s, background 0.12s;
+      }
+      .ex-opt:hover:not([disabled]) {
+        border-color: #0366d6;
+        background: #f6faff;
+      }
+      .ex-opt-badge {
+        flex: 0 0 auto;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: #eef2f7;
+        color: #5a6b7b;
+        font-weight: 700;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .ex-opt-text {
+        flex: 1;
+        min-width: 0;
+      }
+      .ex-opt-mark {
+        margin-left: auto;
+        font-weight: 700;
+        font-size: calc(var(--base-size) - 1px);
+      }
+      .ex-opt-correct {
+        border-color: #2e9e5b;
+        background: #e8f7ee;
+      }
+      .ex-opt-correct .ex-opt-badge {
+        background: #2e9e5b;
+        color: #fff;
+      }
+      .ex-opt-wrong {
+        border-color: #d2433b;
+        background: #fdeceb;
+      }
+      .ex-opt-wrong .ex-opt-badge {
+        background: #d2433b;
+        color: #fff;
+      }
+      .ex-opt[disabled] {
+        cursor: default;
+      }
+      /* ----- Transform hint chip (verb → answer) ----- */
+      .ex-base {
+        flex: 0 0 auto;
+        background: #eef2f7;
+        border: 1px solid #d6dde6;
+        border-radius: 6px;
+        padding: 6px 10px;
+        font-size: calc(var(--base-size) - 1px);
+        color: #2a3b4d;
+        font-weight: 600;
+      }
+      .ex-arrow {
+        flex: 0 0 auto;
+        color: #8a97a5;
+        font-weight: 700;
+      }
+      /* ----- Compact table layout (verb-form drills) ----- */
+      .ex-table {
+        background: #fff;
+        border: 1px solid #e0e6ed;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-top: 4px;
+      }
+      .ex-trow {
+        padding: 8px 14px;
+        border-top: 1px solid #eef1f4;
+      }
+      .ex-trow:first-child {
+        border-top: none;
+      }
+      .ex-trow:nth-child(even) {
+        background: #fafcfe;
+      }
+      .ex-tmain {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .ex-tnum {
+        flex: 0 0 auto;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        background: #eef2f7;
+        color: #5a6b7b;
+        font-weight: 700;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .ex-tplain {
+        flex: 0 0 210px;
+        font-weight: 600;
+        color: #1a2c40;
+        font-size: var(--base-size);
+      }
+      .ex-trow .ex-input {
+        flex: 1 1 150px;
+        min-width: 120px;
+        max-width: none;
+      }
+      .ex-trow .ex-check-btn {
+        flex: 0 0 auto;
+      }
+      .ex-trow .ex-feedback,
+      .ex-trow .ex-explain-btn,
+      .ex-trow .ex-answer {
+        margin-left: 36px;
+      }
+      .ex-texample {
+        font-weight: 700;
+        color: #2e9e5b;
+        font-size: var(--base-size);
+      }
+      .ex-trow-example {
+        background: #f3faf5 !important;
+      }
+      .ex-tnote {
+        margin-left: 36px;
+        margin-top: 3px;
+        font-size: calc(var(--base-size) - 4px);
+        color: #5a7a64;
+        font-style: italic;
+      }
+      @media (max-width: 520px) {
+        .ex-tplain {
+          flex-basis: 100%;
+        }
+        .ex-trow .ex-feedback,
+        .ex-trow .ex-explain-btn,
+        .ex-trow .ex-answer,
+        .ex-tnote {
+          margin-left: 0;
+        }
+      }
+      /* ----- Image lightbox (click figure to zoom) ----- */
+      .ex-lightbox {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.82);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        padding: 20px;
+        cursor: zoom-out;
+      }
+      .ex-lightbox img {
+        max-width: 96vw;
+        max-height: 92vh;
+        border-radius: 8px;
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
       }
       .section-intro {
         padding: 10px 14px;
@@ -835,6 +1076,154 @@
         padding: 12px 16px;
         white-space: pre-wrap;
         font-size: calc(var(--base-size) - 1px);
+      }
+      /* ===== Roleplay (やってみましょう) ===== */
+      .roleplay {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+      }
+      .rp-scenario {
+        border: 1px solid #e3e3e3;
+        border-radius: 8px;
+        background: #fafafa;
+        padding: 12px 14px 14px;
+      }
+      .rp-scene-head {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+      .rp-badge {
+        background: #0366d6;
+        color: #fff;
+        font-weight: 700;
+        border-radius: 999px;
+        min-width: 26px;
+        height: 26px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 8px;
+        font-size: calc(var(--base-size) - 2px);
+        flex: none;
+      }
+      .rp-scene-title {
+        font-weight: 600;
+        font-size: calc(var(--base-size) + 1px);
+      }
+      .rp-scene-title-vi {
+        color: #555;
+        font-size: calc(var(--base-size) - 2px);
+      }
+      .rp-cards {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .rp-card {
+        flex: 1 1 280px;
+        min-width: 0;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        overflow: hidden;
+        background: #fff;
+      }
+      .rp-card-a {
+        border-top: 3px solid #0366d6;
+      }
+      .rp-card-b {
+        border-top: 3px solid #e8590c;
+      }
+      .rp-card-head {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 7px 12px;
+        background: #f5f5f5;
+        border-bottom: 1px solid #eee;
+      }
+      .rp-side {
+        font-weight: 700;
+        color: #fff;
+        border-radius: 4px;
+        width: 22px;
+        height: 22px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(var(--base-size) - 3px);
+        flex: none;
+      }
+      .rp-card-a .rp-side {
+        background: #0366d6;
+      }
+      .rp-card-b .rp-side {
+        background: #e8590c;
+      }
+      .rp-who {
+        font-weight: 600;
+        flex: 1;
+        min-width: 0;
+      }
+      .rp-ref {
+        font-size: calc(var(--base-size) - 5px);
+        color: #888;
+        flex: none;
+      }
+      .rp-card-body {
+        padding: 10px 12px;
+      }
+      .rp-who-vi {
+        font-size: calc(var(--base-size) - 3px);
+        color: #0366d6;
+        margin-bottom: 6px;
+      }
+      .rp-jp {
+        font-size: calc(var(--base-size) + 1px);
+        line-height: 1.75;
+      }
+      .rp-vi {
+        font-size: calc(var(--base-size) - 2px);
+        color: #555;
+        margin-top: 6px;
+        font-style: italic;
+      }
+      .rp-hints {
+        margin-top: 12px;
+        background: #fef5e7;
+        border-left: 4px solid #f0a500;
+        padding: 8px 12px;
+        border-radius: 4px;
+      }
+      .rp-hints-label {
+        font-size: calc(var(--base-size) - 2px);
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+      .rp-hints ul {
+        margin: 0;
+        padding-left: 18px;
+      }
+      .rp-hints li {
+        margin: 4px 0;
+        font-size: calc(var(--base-size) - 2px);
+        line-height: 1.6;
+      }
+      .rp-hint-jp {
+        font-weight: 500;
+      }
+      .rp-hint-vi {
+        color: #666;
+      }
+      .rp-answer-ref {
+        background: #e7f3ff;
+        border: 1px solid #b8daff;
+        border-radius: 6px;
+        padding: 10px 12px;
+        font-size: calc(var(--base-size) - 2px);
       }
       .complete-btn {
         background: #0366d6;
@@ -2056,6 +2445,7 @@
         grammar: { label: "📚 Học mẫu", priority: 2 },
         reading: { label: "📰 Đọc hiểu", priority: 3 },
         quiz: { label: "✏️ Luyện tập", priority: 4 },
+        roleplay: { label: "🎭 Đóng vai", priority: 5 },
         tips: { label: "💡 Ghi chú", priority: 5 },
       };
 
@@ -2203,6 +2593,9 @@
             break;
           case "tips":
             div.appendChild(renderTips(section));
+            break;
+          case "roleplay":
+            div.appendChild(renderRoleplay(section));
             break;
           case "exercise":
             div.appendChild(renderExercise(section));
@@ -2563,9 +2956,152 @@
         return div;
       }
 
+      // やってみましょう — đóng vai. Mỗi tình huống (scenario) có 2 thẻ vai A/B.
+      // Câu tiếng Nhật trong thẻ luôn hiện (đó là "đề bài"); bản dịch VI theo lang toggle.
+      function renderRoleplay(section) {
+        const wrap = document.createElement("div");
+        wrap.className = "roleplay";
+
+        (section.scenarios || []).forEach((sc) => {
+          const cards = (sc.roles || [])
+            .map((r) => {
+              const sideCls = r.side === "B" ? "rp-card-b" : "rp-card-a";
+              const speak = r.jp
+                ? `<button class="speak-btn" data-text="${escAttr(
+                    r.jp
+                  )}" title="Nghe đề bài">🔊</button>`
+                : "";
+              return `
+            <div class="rp-card ${sideCls}">
+              <div class="rp-card-head">
+                <span class="rp-side">${r.side || ""}</span>
+                <span class="rp-who">${r.who_jp || ""}</span>
+                <span class="rp-ref">${r.ref || ""}</span>
+              </div>
+              <div class="rp-card-body">
+                ${
+                  r.who_vi
+                    ? `<div class="rp-who-vi explain-vi">🧑‍🤝‍🧑 ${r.who_vi}</div>`
+                    : ""
+                }
+                <div class="rp-jp">${r.jp || ""} ${speak}</div>
+                ${r.vi ? `<div class="rp-vi explain-vi">${r.vi}</div>` : ""}
+              </div>
+            </div>`;
+            })
+            .join("");
+
+          const hints =
+            sc.hints && sc.hints.length
+              ? `<div class="rp-hints">
+            <div class="rp-hints-label">💡 Gợi ý — dùng lại mẫu đã học trong bài (không phải đáp án sách):</div>
+            <ul>${sc.hints
+              .map(
+                (h) =>
+                  `<li><span class="rp-hint-jp">${
+                    h.jp
+                  }</span> <button class="speak-btn" data-text="${escAttr(
+                    h.jp
+                  )}" title="Nghe">🔊</button>${
+                    h.vi
+                      ? `<span class="rp-hint-vi explain-vi"> — ${h.vi}</span>`
+                      : ""
+                  }</li>`
+              )
+              .join("")}</ul>
+          </div>`
+              : "";
+
+          const sceneEl = document.createElement("div");
+          sceneEl.className = "rp-scenario";
+          sceneEl.innerHTML = `
+          <div class="rp-scene-head">
+            <span class="rp-badge">${sc.label || ""}</span>
+            <span class="rp-scene-title">${sc.title_jp || ""}</span>
+            ${
+              sc.title_vi
+                ? `<span class="rp-scene-title-vi explain-vi">— ${sc.title_vi}</span>`
+                : ""
+            }
+          </div>
+          <div class="rp-cards">${cards}</div>
+          ${hints}`;
+          wrap.appendChild(sceneEl);
+        });
+
+        if (section.answerRef || section.answerRef_jp) {
+          const ans = document.createElement("div");
+          ans.className = "rp-answer-ref";
+          ans.innerHTML = bilingual(section.answerRef, section.answerRef_jp);
+          wrap.appendChild(ans);
+        }
+        return wrap;
+      }
+
+      let exSectionSeq = 0;
       function renderExercise(section) {
         const wrap = document.createElement("div");
         wrap.className = "exercise-wrap";
+        // Unique base id per rendered section → no cross-section id collisions
+        const uid = "ex" + exSectionSeq++;
+
+        const nl2br = (s) => (s || "").replace(/\n/g, "<br>");
+        const letter = (idx) => String.fromCharCode(97 + idx); // 0→a, 1→b…
+
+        // Reveal block: a "Xem giải thích" button (hidden until the item is
+        // attempted) that uncovers the đáp án + giải thích on demand.
+        // opts: { visible } show the reveal button from the start (no 確認 gate);
+        //       { revealed } answer shown immediately, no button (worked example);
+        //       { label } custom button text.
+        const answerBlock = (answerText, answerVi, opts = {}) => {
+          const btn = opts.revealed
+            ? ""
+            : `<button type="button" class="ex-explain-btn${
+                opts.visible ? "" : " hidden"
+              }">${opts.label || "💡 Xem giải thích"}</button>`;
+          return `
+          ${btn}
+          <div class="ex-answer${opts.revealed ? "" : " hidden"}">
+            <span class="ex-answer-label">✅ Đáp án:</span> <b>${answerText}</b>
+            ${
+              answerVi
+                ? `<br><span class="ex-answer-vi explain-vi">${answerVi}</span>`
+                : ""
+            }
+          </div>`;
+        };
+
+        // Clickable a/b/c options. correctIdx marks the right one.
+        const choicesBlock = (options, correctIdx) => `
+          <div class="ex-choices">
+            ${options
+              .map(
+                (opt, oi) => `
+              <button type="button" class="ex-opt" data-correct="${
+                oi === correctIdx ? "1" : "0"
+              }">
+                <span class="ex-opt-badge">${letter(oi)}</span>
+                <span class="ex-opt-text">${opt}</span>
+                <span class="ex-opt-mark"></span>
+              </button>`
+              )
+              .join("")}
+          </div>`;
+
+        // Text-input row (transform / free answer). base = verb hint to convert.
+        const inputBlock = (answer, base) => `
+          <div class="ex-input-row">
+            ${
+              base
+                ? `<span class="ex-base">${base}</span><span class="ex-arrow">→</span>`
+                : ""
+            }
+            <input type="text" class="ex-input" placeholder="答え…" autocomplete="off" autocorrect="off" spellcheck="false">
+            <button type="button" class="ex-check-btn" data-answer="${escAttr(
+              answer
+            )}">確認</button>
+          </div>
+          <div class="ex-feedback hidden"></div>`;
 
         // Instruction box
         const instrDiv = document.createElement("div");
@@ -2585,7 +3121,52 @@
         }
 
         // Items
-        section.items.forEach((item, i) => {
+        // Compact two-column "table" layout for verb-form drills (trang 28)
+        const tableMode = section.layout === "table";
+        const tableWrap = tableMode ? document.createElement("div") : null;
+        if (tableWrap) tableWrap.className = "ex-table";
+        // Speaking drill: listen → say keigo → say casual, reveal to self-check
+        const speakMode = section.style === "speak";
+        const STYLE_CLASS = { 敬語: "ex-style-keigo", 友達: "ex-style-casual" };
+
+        section.items.forEach((item) => {
+          if (tableMode) {
+            const trow = document.createElement("div");
+            const plain = item.plain || item.context || "";
+            if (item.num == null) {
+              // Worked example: answer is given, no input needed
+              trow.className = "ex-trow ex-trow-example";
+              trow.innerHTML = `
+                <div class="ex-tmain">
+                  <span class="ex-tnum">※</span>
+                  <span class="ex-tplain">${plain}</span>
+                  <span class="ex-arrow">→</span>
+                  <span class="ex-texample">${item.answer}</span>
+                </div>
+                ${
+                  item.answer_vi
+                    ? `<div class="ex-tnote explain-vi">${item.answer_vi}</div>`
+                    : ""
+                }`;
+            } else {
+              trow.className = "ex-trow";
+              trow.innerHTML = `
+                <div class="ex-tmain">
+                  <span class="ex-tnum">${item.num}</span>
+                  <span class="ex-tplain">${plain}</span>
+                  <span class="ex-arrow">→</span>
+                  <input type="text" class="ex-input" placeholder="ひらがなで…" autocomplete="off" autocorrect="off" spellcheck="false">
+                  <button type="button" class="ex-check-btn" data-answer="${escAttr(
+                    item.answer
+                  )}">確認</button>
+                </div>
+                <div class="ex-feedback hidden"></div>
+                ${answerBlock(item.answer, item.answer_vi)}`;
+            }
+            tableWrap.appendChild(trow);
+            return;
+          }
+
           const row = document.createElement("div");
           row.className = "exercise-row";
 
@@ -2595,13 +3176,55 @@
               ? `<span class="ex-num">${item.num}.</span>`
               : `<span class="ex-num ex-num-fixed">—</span>`;
 
-          // If item has subAnswers (multi-part: question 2, 7)
+          const contextViHtml = item.context_vi
+            ? `<div class="ex-context-vi explain-vi">${nl2br(
+                item.context_vi
+              )}</div>`
+            : "";
+
+          if (speakMode) {
+            // ----- Speaking drill (敬語 / 友達 style, reveal-only) -----
+            const playBtn =
+              section.audio && item.audioStart != null
+                ? `<button type="button" class="ex-play-btn" data-start="${item.audioStart}" data-end="${item.audioEnd}" title="Nghe câu này">🎧</button>`
+                : "";
+            const subRowsHtml = item.subAnswers
+              .map((sub) => {
+                const opts = item.example
+                  ? { revealed: true }
+                  : { visible: true, label: "👂 Hiện đáp án" };
+                return `
+                <div class="exercise-sub-row ex-style-row">
+                  <span class="ex-style-label ${
+                    STYLE_CLASS[sub.num] || ""
+                  }">${sub.num}</span>
+                  <div class="ex-sub-body">
+                    ${answerBlock(sub.answer, sub.answer_vi, opts)}
+                  </div>
+                </div>`;
+              })
+              .join("");
+            row.innerHTML = `
+              <div class="ex-question">
+                ${numLabel}
+                <div class="ex-body">
+                  <div class="ex-context ex-speak-base">${nl2br(
+                    item.context
+                  )} ${playBtn}</div>
+                  ${contextViHtml}
+                  <div class="ex-sub-wrap">${subRowsHtml}</div>
+                </div>
+              </div>`;
+            wrap.appendChild(row);
+            return;
+          }
+
           if (item.subAnswers) {
-            // Render context with blank slots
-            const contextHtml = (item.context || "").replace(/\n/g, "<br>");
+            // ----- Multi-part item (dialogue with ①②③④) -----
+            const contextHtml = nl2br(item.context);
             const imageHtml = item.image
               ? `<figure class="ex-figure">
-                  <img src="${item.image}" alt="${
+                  <img src="${item.image}" class="ex-zoomable" alt="${
                   item.imageAlt || ""
                 }" loading="lazy">
                   ${
@@ -2624,14 +3247,7 @@
                 <div class="${bodyClass}">
                   ${contentWrapOpen}
                   <div class="ex-context">${contextHtml}</div>
-                  ${
-                    item.context_vi
-                      ? `<div class="ex-context-vi">${item.context_vi.replace(
-                          /\n/g,
-                          "<br>"
-                        )}</div>`
-                      : ""
-                  }
+                  ${contextViHtml}
                   ${contentWrapClose}
                   ${imageHtml}
                 </div>
@@ -2639,69 +3255,62 @@
 
             const subWrap = document.createElement("div");
             subWrap.className = "ex-sub-wrap";
-
             item.subAnswers.forEach((sub) => {
               const subRow = document.createElement("div");
               subRow.className = "exercise-sub-row";
-              const inputId = `ex-${i}-sub-${sub.num}`;
+              const answerText =
+                sub.options != null ? sub.options[sub.answerIndex] : sub.answer;
+              const interaction =
+                sub.options != null
+                  ? choicesBlock(sub.options, sub.answerIndex)
+                  : inputBlock(sub.answer, sub.base);
               subRow.innerHTML = `
                 <div class="ex-sub-label">${sub.num}</div>
                 <div class="ex-sub-body">
-                  <div class="ex-input-row">
-                    <input type="text" class="ex-input" id="${inputId}" placeholder="答え…" autocomplete="off" autocorrect="off" spellcheck="false">
-                    <button class="ex-check-btn" data-input="${inputId}" data-answer="${escAttr(
-                sub.answer
-              )}">確認</button>
-                  </div>
-                  <div class="ex-feedback hidden" id="fb-${inputId}"></div>
-                  <div class="ex-answer hidden" id="ans-${inputId}">
-                    <span class="ex-answer-label">✅ Đáp án:</span> <b>${
-                      sub.answer
-                    }</b><br>
-                    <span class="ex-answer-vi">${sub.answer_vi || ""}</span>
-                  </div>
+                  ${interaction}
+                  ${answerBlock(answerText, sub.answer_vi)}
                 </div>`;
               subWrap.appendChild(subRow);
             });
             row.appendChild(subWrap);
-          } else {
-            // Simple single-answer item
-            const contextHtml = (item.context || item.plain || "").replace(
-              /\n/g,
-              "<br>"
-            );
-            const inputId = `ex-input-${i}`;
+          } else if (item.options) {
+            // ----- Single multiple-choice item -----
             row.innerHTML = `
               <div class="ex-question">
                 ${numLabel}
                 <div class="ex-body">
-                  <div class="ex-context">${contextHtml}</div>
-                  ${
-                    item.context_vi
-                      ? `<div class="ex-context-vi">${item.context_vi.replace(
-                          /\n/g,
-                          "<br>"
-                        )}</div>`
-                      : ""
-                  }
-                  <div class="ex-input-row">
-                    <input type="text" class="ex-input" id="${inputId}" placeholder="答え…" autocomplete="off" autocorrect="off" spellcheck="false">
-                    <button class="ex-check-btn" data-input="${inputId}" data-answer="${escAttr(
-              item.answer
-            )}">確認</button>
-                  </div>
-                  <div class="ex-feedback hidden" id="fb-${inputId}"></div>
-                  <div class="ex-answer hidden" id="ans-${inputId}">
-                    <span class="ex-answer-label">✅ Đáp án:</span> <b>${
-                      item.answer
-                    }</b><br>
-                    <span class="ex-answer-vi">${item.answer_vi || ""}</span>
-                  </div>
+                  <div class="ex-context">${nl2br(item.context)}</div>
+                  ${contextViHtml}
+                  ${choicesBlock(item.options, item.answerIndex)}
+                  ${answerBlock(
+                    item.options[item.answerIndex],
+                    item.answer_vi
+                  )}
+                </div>
+              </div>`;
+          } else {
+            // ----- Single text-input item (transform / fill-in) -----
+            row.innerHTML = `
+              <div class="ex-question">
+                ${numLabel}
+                <div class="ex-body">
+                  <div class="ex-context">${nl2br(
+                    item.context || item.plain
+                  )}</div>
+                  ${contextViHtml}
+                  ${inputBlock(item.answer, item.base)}
+                  ${answerBlock(item.answer, item.answer_vi)}
                 </div>
               </div>`;
           }
 
           wrap.appendChild(row);
+        });
+        if (tableWrap) wrap.appendChild(tableWrap);
+
+        // Give each text input a unique id (label/focus), no global lookups
+        wrap.querySelectorAll(".ex-input").forEach((input, k) => {
+          input.id = `${uid}-in${k}`;
         });
 
         // "Show all answers" button
@@ -2712,57 +3321,149 @@
           wrap
             .querySelectorAll(".ex-answer")
             .forEach((el) => el.classList.remove("hidden"));
+          // Explanations are all shown now → hide the per-item reveal buttons
+          wrap
+            .querySelectorAll(".ex-explain-btn")
+            .forEach((el) => el.classList.add("hidden"));
+          // Highlight the correct option in every choice group
+          wrap.querySelectorAll(".ex-choices").forEach((group) => {
+            const corr = group.querySelector('.ex-opt[data-correct="1"]');
+            if (corr && !corr.classList.contains("ex-opt-wrong")) {
+              corr.classList.add("ex-opt-correct");
+              const m = corr.querySelector(".ex-opt-mark");
+              if (m) m.textContent = "◯";
+            }
+          });
           showAllBtn.textContent = "✅ Đang hiện đáp án";
           showAllBtn.disabled = true;
         });
         wrap.appendChild(showAllBtn);
 
-        // Wire check buttons
+        // ----- Wire clickable options -----
+        wrap.querySelectorAll(".ex-opt").forEach((opt) => {
+          opt.addEventListener("click", () => {
+            const group = opt.closest(".ex-choices");
+            const body = opt.closest(".ex-sub-body, .ex-body");
+            const ans = body.querySelector(".ex-answer");
+            const explainBtn = body.querySelector(".ex-explain-btn");
+            group.querySelectorAll(".ex-opt").forEach((o) => {
+              o.classList.remove("ex-opt-correct", "ex-opt-wrong");
+              o.querySelector(".ex-opt-mark").textContent = "";
+            });
+            if (opt.dataset.correct === "1") {
+              opt.classList.add("ex-opt-correct");
+              opt.querySelector(".ex-opt-mark").textContent = "◯ Đúng!";
+            } else {
+              opt.classList.add("ex-opt-wrong");
+              opt.querySelector(".ex-opt-mark").textContent = "✗";
+              const corr = group.querySelector('.ex-opt[data-correct="1"]');
+              corr.classList.add("ex-opt-correct");
+              corr.querySelector(".ex-opt-mark").textContent = "◯";
+            }
+            // Offer the explanation on demand (don't auto-reveal it)
+            if (explainBtn && ans.classList.contains("hidden")) {
+              explainBtn.classList.remove("hidden");
+            }
+          });
+        });
+
+        // ----- Wire text-input check buttons (robust: resolve via closest) -----
         wrap.querySelectorAll(".ex-check-btn").forEach((btn) => {
           btn.addEventListener("click", () => {
-            const inputId = btn.dataset.input;
             const correct = btn.dataset.answer;
-            const input = document.getElementById(inputId);
-            const fb = document.getElementById("fb-" + inputId);
-            const ans = document.getElementById("ans-" + inputId);
+            const body = btn.closest(".ex-sub-body, .ex-body, .ex-trow");
+            const input = body.querySelector(".ex-input");
+            const fb = body.querySelector(".ex-feedback");
+            const ans = body.querySelector(".ex-answer");
             const userVal = (input.value || "").trim();
 
-            // Normalize: strip spaces, lowercase for comparison
             const norm = (s) => s.replace(/\s/g, "").toLowerCase();
-            // Accept if any slash-separated variant matches
             const variants = correct.split(/[／/]/).map((v) => norm(v.trim()));
             const ok = userVal !== "" && variants.includes(norm(userVal));
 
+            const explainBtn = body.querySelector(".ex-explain-btn");
             fb.classList.remove("hidden", "ex-ok", "ex-ng");
             if (userVal === "") {
-              fb.textContent = "⚠️ Nhập câu trả lời rồi bấm xác nhận.";
+              fb.textContent = "⚠️ Nhập câu trả lời rồi bấm 確認.";
               fb.classList.add("ex-ng");
-            } else if (ok) {
+              return; // chưa trả lời → chưa mở nút giải thích
+            }
+            if (ok) {
               fb.textContent = "✅ Chính xác!";
               fb.classList.add("ex-ok");
-              ans.classList.remove("hidden");
             } else {
-              fb.textContent = "❌ Chưa đúng, thử lại hoặc xem đáp án.";
+              fb.textContent = "❌ Chưa đúng, thử lại hoặc xem giải thích.";
               fb.classList.add("ex-ng");
-              ans.classList.remove("hidden");
+            }
+            // Offer the explanation on demand (don't auto-reveal it)
+            if (explainBtn && ans.classList.contains("hidden")) {
+              explainBtn.classList.remove("hidden");
             }
           });
         });
 
-        // Enter key support
+        // Enter inside an input must NOT auto-check — only 確認 grades the answer.
+        // We still swallow Enter so the form doesn't do anything unexpected.
         wrap.querySelectorAll(".ex-input").forEach((input) => {
           input.addEventListener("keydown", (e) => {
-            if (e.key === "Enter") {
-              const btn = input
-                .closest(".ex-input-row")
-                ?.querySelector(".ex-check-btn");
-              if (btn) btn.click();
-            }
+            if (e.key === "Enter") e.preventDefault();
           });
         });
+
+        // ----- Wire "Xem giải thích" reveal buttons -----
+        wrap.querySelectorAll(".ex-explain-btn").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const ans = btn
+              .closest(".ex-sub-body, .ex-body, .ex-trow")
+              .querySelector(".ex-answer");
+            if (ans) ans.classList.remove("hidden");
+            btn.classList.add("hidden");
+          });
+        });
+
+        // ----- Wire per-item audio segment buttons (speaking drill) -----
+        if (section.audio) {
+          wrap.querySelectorAll(".ex-play-btn").forEach((btn) => {
+            btn.addEventListener("click", () => {
+              playSegment(
+                section.audio,
+                Number(btn.dataset.start),
+                Number(btn.dataset.end)
+              );
+            });
+          });
+        }
 
         return wrap;
       }
+
+      // One global lightbox for any zoomable image (.ex-zoomable)
+      function wireImageLightbox() {
+        if (window.__exLightboxWired) return;
+        window.__exLightboxWired = true;
+        document.addEventListener("click", (e) => {
+          const img = e.target.closest(".ex-zoomable");
+          if (!img) return;
+          const box = document.createElement("div");
+          box.className = "ex-lightbox";
+          const big = document.createElement("img");
+          big.src = img.src;
+          big.alt = img.alt || "";
+          box.appendChild(big);
+          box.addEventListener("click", () => box.remove());
+          document.addEventListener(
+            "keydown",
+            function esc(ev) {
+              if (ev.key === "Escape") {
+                box.remove();
+                document.removeEventListener("keydown", esc);
+              }
+            }
+          );
+          document.body.appendChild(box);
+        });
+      }
+      wireImageLightbox();
 
       function updateScoreDisplay() {
         let totalAvailable = 0;

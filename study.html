@@ -14,30 +14,47 @@
     .user-bar { margin-bottom: 20px; color: #555; font-size: 14px; }
     .hidden { display: none; }
     .login-hint { background: #fff3cd; border-left: 4px solid #ffc107; padding: 10px 14px; font-size: 13px; margin: 12px 0; border-radius: 3px; }
+    .repair-notice { background: #e6f4ea; border: 1px solid #b7dfc3; color: #1a7f37; padding: 10px 14px; font-size: 13px; margin: 12px 0; border-radius: 8px; }
 
     /* Stats cards */
-    .stat-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 20px 0; }
-    .stat-card { background: #f5f5f5; padding: 16px 14px; border-radius: 8px; text-align: center; }
-    .stat-card .label { color: #666; font-size: 13px; }
-    .stat-card .value { font-size: 26px; font-weight: 700; color: #0366d6; margin-top: 6px; font-family: monospace; }
-    .stat-card .sub { color: #888; font-size: 11px; margin-top: 2px; }
+    .stat-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 20px 0; }
+    .stat-card { background: #fff; padding: 18px 16px; border-radius: 10px; text-align: center; border: 1px solid #eaecef; box-shadow: 0 1px 3px rgba(0,0,0,0.05); position: relative; overflow: hidden; }
+    .stat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--accent, #0366d6); }
+    .stat-card.c-total { --accent: #0366d6; }
+    .stat-card.c-today { --accent: #28a745; }
+    .stat-card.c-streak { --accent: #ff7a18; }
+    .stat-card .label { color: #57606a; font-size: 13px; font-weight: 600; }
+    .stat-card .value { font-size: 28px; font-weight: 800; color: var(--accent, #0366d6); margin-top: 8px; font-family: ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: -0.5px; }
+    .stat-card .sub { color: #8b949e; font-size: 11px; margin-top: 4px; }
 
     /* Chart */
-    .chart-section { background: #fafafa; border: 1px solid #eee; padding: 16px; border-radius: 8px; margin: 16px 0; }
-    .chart-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px; }
+    .chart-section { background: #fff; border: 1px solid #eaecef; padding: 18px 18px 14px; border-radius: 10px; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .chart-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; flex-wrap: wrap; gap: 8px; }
     .chart-header h2 { margin: 0; border: none; padding: 0; font-size: 16px; }
-    .range-toggle { display: flex; gap: 4px; }
-    .range-toggle button { padding: 4px 10px; border: 1px solid #ddd; background: white; cursor: pointer; font-size: 13px; border-radius: 3px; }
-    .range-toggle button.active { background: #0366d6; color: white; border-color: #0366d6; }
-    .chart { display: flex; gap: 2px; height: 140px; align-items: flex-end; padding: 0 2px; }
-    .bar { flex: 1; min-width: 3px; background: #0366d6; min-height: 2px; border-radius: 2px 2px 0 0; cursor: pointer; transition: background 0.15s; position: relative; }
-    .bar:hover { background: #024ea4; }
-    .bar.empty { background: #e8e8e8; opacity: 0.5; }
-    .bar.today { background: #ffc107; }
-    .bar.today:hover { background: #d39e00; }
-    .chart-labels { display: flex; gap: 2px; padding: 4px 2px 0; font-size: 10px; color: #888; }
+    .range-toggle { display: inline-flex; gap: 2px; background: #f1f3f5; padding: 3px; border-radius: 9px; }
+    .range-toggle button { padding: 5px 12px; border: none; background: transparent; cursor: pointer; font-size: 13px; border-radius: 6px; color: #57606a; font-weight: 600; transition: background 0.15s, color 0.15s, box-shadow 0.15s; }
+    .range-toggle button:hover { color: #0366d6; }
+    .range-toggle button.active { background: #fff; color: #0366d6; box-shadow: 0 1px 2px rgba(0,0,0,0.15); }
+    .chart-body { display: flex; gap: 8px; align-items: flex-start; }
+    .chart-yaxis { position: relative; width: 36px; height: 180px; flex: none; }
+    .chart-yaxis span { position: absolute; right: 2px; transform: translateY(50%); font-size: 11px; color: #9aa0a6; line-height: 1; white-space: nowrap; }
+    .chart-main { flex: 1; min-width: 0; }
+    .chart-plot { position: relative; height: 180px; }
+    .chart-grid { position: absolute; inset: 0; pointer-events: none; }
+    .chart-grid .grid-line { position: absolute; left: 0; right: 0; height: 0; border-top: 1px dashed #edeff2; }
+    .chart-grid .grid-line.baseline { border-top: 1px solid #d0d7de; }
+    .chart { position: absolute; inset: 0; display: flex; gap: 3px; align-items: flex-end; }
+    .bar { flex: 1; min-width: 3px; background: linear-gradient(180deg, #5aa7ff 0%, #0366d6 100%); border-radius: 3px 3px 0 0; cursor: pointer; transition: filter 0.15s; }
+    .bar:hover { filter: brightness(1.12); }
+    .bar.empty { background: #e7eaee; }
+    .bar.today { background: linear-gradient(180deg, #ffd24d 0%, #f0a500 100%); }
+    .chart-labels { display: flex; gap: 3px; padding: 8px 0 0; font-size: 10px; color: #8b949e; }
     .chart-labels span { flex: 1; text-align: center; overflow: hidden; white-space: nowrap; }
-    .chart-empty { text-align: center; color: #888; padding: 40px 0; font-style: italic; }
+    .chart-empty { text-align: center; color: #888; font-style: italic; }
+    .chart-tooltip { position: fixed; z-index: 50; background: #2d333b; color: #fff; padding: 6px 10px; border-radius: 6px; font-size: 12px; pointer-events: none; opacity: 0; transition: opacity 0.12s; white-space: nowrap; box-shadow: 0 4px 12px rgba(0,0,0,0.25); transform: translate(-50%, -100%); }
+    .chart-tooltip.show { opacity: 1; }
+    .chart-tooltip .tt-date { color: #adbac7; font-size: 11px; margin-bottom: 1px; }
+    .chart-tooltip .tt-val { font-weight: 700; font-size: 13px; }
 
     /* Lesson breakdown table */
     .lesson-stats { width: 100%; border-collapse: collapse; margin: 12px 0; }
@@ -75,7 +92,9 @@
       body { margin: 12px auto; padding: 0 10px; }
       .stat-cards { grid-template-columns: 1fr 1fr; gap: 8px; }
       .stat-card .value { font-size: 22px; }
-      .chart { height: 110px; }
+      .chart-plot, .chart-yaxis { height: 140px; }
+      .chart-yaxis { width: 30px; }
+      .chart-yaxis span { font-size: 10px; }
       .chart-labels { font-size: 9px; }
       .lesson-stats { font-size: 12px; }
       .lesson-stats th, .lesson-stats td { padding: 6px 4px; }
@@ -103,22 +122,24 @@
     </div>
 
     <div class="stat-cards">
-      <div class="stat-card">
+      <div class="stat-card c-total">
         <div class="label">Tổng giờ học</div>
         <div class="value" id="totalTime">0h</div>
         <div class="sub" id="totalSub">tất cả các bài</div>
       </div>
-      <div class="stat-card">
+      <div class="stat-card c-today">
         <div class="label">Hôm nay</div>
         <div class="value" id="todayTime">0m</div>
         <div class="sub" id="todaySub">&nbsp;</div>
       </div>
-      <div class="stat-card">
+      <div class="stat-card c-streak">
         <div class="label">🔥 Streak</div>
         <div class="value" id="streak">0</div>
         <div class="sub">ngày liên tiếp</div>
       </div>
     </div>
+
+    <div class="repair-notice hidden" id="repairNotice"></div>
 
     <div class="chart-section">
       <div class="chart-header">
@@ -129,9 +150,18 @@
           <button data-days="90">90 ngày</button>
         </div>
       </div>
-      <div class="chart" id="chart"></div>
-      <div class="chart-labels" id="chartLabels"></div>
+      <div class="chart-body">
+        <div class="chart-yaxis" id="chartYAxis"></div>
+        <div class="chart-main">
+          <div class="chart-plot">
+            <div class="chart-grid" id="chartGrid"></div>
+            <div class="chart" id="chart"></div>
+          </div>
+          <div class="chart-labels" id="chartLabels"></div>
+        </div>
+      </div>
     </div>
+    <div class="chart-tooltip" id="chartTooltip"></div>
 
     <h2>📚 Theo bài</h2>
     <table class="lesson-stats">
@@ -240,6 +270,27 @@
     function sumValues(obj) {
       return Object.values(obj || {}).reduce((a, b) => a + (b || 0), 0);
     }
+    function formatAxisTick(min) {
+      if (min === 0) return '0';
+      if (min < 60) return min + 'm';
+      const h = Math.floor(min / 60);
+      const m = min % 60;
+      return m === 0 ? h + 'h' : `${h}h${m}`;
+    }
+    function niceAxis(maxMin) {
+      const steps = [5, 10, 15, 20, 30, 45, 60, 90, 120, 180, 240, 300, 360, 480, 600, 720, 900, 1200];
+      if (maxMin <= 0) maxMin = 1;
+      const rough = maxMin / 4;
+      const step = steps.find(s => s >= rough) || Math.ceil(rough / 600) * 600;
+      const axisMax = Math.ceil(maxMin / step) * step;
+      const ticks = [];
+      for (let v = 0; v <= axisMax + 0.0001; v += step) ticks.push(v);
+      return { axisMax, ticks };
+    }
+    function formatTooltipDate(d) {
+      const wd = ['CN', 'Th 2', 'Th 3', 'Th 4', 'Th 5', 'Th 6', 'Th 7'][d.getDay()];
+      return `${wd}, ${d.getDate()}/${d.getMonth() + 1}`;
+    }
 
     // ========== State ==========
     let currentUser = null;
@@ -283,6 +334,46 @@
       return stats;
     }
 
+    async function reconcileTotalsFromDaily() {
+      if (!currentUser) return 0;
+      const dailyByLesson = {};
+      for (const date of Object.keys(stats.daily)) {
+        const day = stats.daily[date];
+        for (const lessonId of Object.keys(day)) {
+          dailyByLesson[lessonId] = (dailyByLesson[lessonId] || 0) + (day[lessonId] || 0);
+        }
+      }
+      const now = Date.now();
+      let recoveredMs = 0;
+      const writes = [];
+      for (const lessonId of Object.keys(dailyByLesson)) {
+        const current = stats.totals[lessonId] || 0;
+        const fromDaily = dailyByLesson[lessonId];
+        if (fromDaily > current) {
+          recoveredMs += fromDaily - current;
+          stats.totals[lessonId] = fromDaily;
+          const ref = doc(db, 'users', currentUser.uid, 'study-totals', lessonId);
+          writes.push(setDoc(ref, { lessonId, totalMs: fromDaily, localUpdatedAt: now, updatedAt: serverTimestamp() }, { merge: true }));
+        }
+      }
+      if (writes.length) {
+        try { await Promise.all(writes); }
+        catch (err) { console.warn('Reconcile writeback failed:', err); }
+      }
+      return recoveredMs;
+    }
+
+    function showRepairNotice(ms) {
+      const el = document.getElementById('repairNotice');
+      if (!el) return;
+      if (ms > 0) {
+        el.textContent = `♻️ Đã khôi phục thêm ${formatHM(ms)} vào tổng giờ học (tính lại từ lịch sử theo ngày).`;
+        el.classList.remove('hidden');
+      } else {
+        el.classList.add('hidden');
+      }
+    }
+
     // ========== Streak calc ==========
     function calculateStreak(daily) {
       let streak = 0;
@@ -324,8 +415,12 @@
     function renderChart() {
       const chartEl = document.getElementById('chart');
       const labelsEl = document.getElementById('chartLabels');
+      const yAxisEl = document.getElementById('chartYAxis');
+      const gridEl = document.getElementById('chartGrid');
       chartEl.innerHTML = '';
       labelsEl.innerHTML = '';
+      yAxisEl.innerHTML = '';
+      gridEl.innerHTML = '';
 
       const today = new Date();
       today.setHours(0, 0, 0, 0);
@@ -338,33 +433,45 @@
         data.push({ date: key, ms, isToday: i === 0, dateObj: new Date(d) });
       }
 
-      const maxMs = Math.max(...data.map(d => d.ms), 1);
       const hasAnyData = data.some(d => d.ms > 0);
-
       if (!hasAnyData) {
-        chartEl.innerHTML = '<div class="chart-empty" style="flex:1;">Chưa có dữ liệu — học vài bài để thấy biểu đồ!</div>';
+        chartEl.innerHTML = '<div class="chart-empty" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">Chưa có dữ liệu — học vài bài để thấy biểu đồ!</div>';
         return;
       }
+
+      const maxMs = Math.max(...data.map(d => d.ms), 1);
+      const { axisMax, ticks } = niceAxis(Math.ceil(maxMs / 60000));
+      const axisMaxMs = axisMax * 60000;
+
+      ticks.forEach(v => {
+        const pct = (v / axisMax) * 100;
+        const line = document.createElement('div');
+        line.className = v === 0 ? 'grid-line baseline' : 'grid-line';
+        line.style.bottom = pct + '%';
+        gridEl.appendChild(line);
+
+        const lab = document.createElement('span');
+        lab.textContent = formatAxisTick(v);
+        lab.style.bottom = pct + '%';
+        yAxisEl.appendChild(lab);
+      });
 
       data.forEach(d => {
         const bar = document.createElement('div');
         bar.className = 'bar';
         if (d.ms === 0) bar.classList.add('empty');
         if (d.isToday) bar.classList.add('today');
-        bar.style.height = Math.max((d.ms / maxMs) * 100, d.ms > 0 ? 5 : 2) + '%';
-        bar.title = `${d.date}\n${formatHM(d.ms)}`;
+        bar.style.height = d.ms > 0 ? Math.max((d.ms / axisMaxMs) * 100, 2) + '%' : '2px';
+        bar.dataset.label = formatTooltipDate(d.dateObj);
+        bar.dataset.val = formatHM(d.ms);
         chartEl.appendChild(bar);
       });
 
-      // Labels: show ~5-7 markers depending on range
       const labelStep = currentRangeDays <= 7 ? 1 : Math.ceil(currentRangeDays / 6);
       data.forEach((d, i) => {
         const span = document.createElement('span');
         if (i % labelStep === 0 || i === data.length - 1) {
-          const dd = d.dateObj;
-          const month = dd.getMonth() + 1;
-          const day = dd.getDate();
-          span.textContent = `${month}/${day}`;
+          span.textContent = `${d.dateObj.getDate()}/${d.dateObj.getMonth() + 1}`;
         }
         labelsEl.appendChild(span);
       });
@@ -379,15 +486,7 @@
       }
       // Build rows from curriculum (preserves order). Show all lessons; "no-time" class for unstarted.
       const lessons = curriculum.lessons;
-      // Sort: ones with time first (by time desc), then unstarted by order
-      const sorted = lessons.slice().sort((a, b) => {
-        const ta = stats.totals[a.id] || 0;
-        const tb = stats.totals[b.id] || 0;
-        if (ta === 0 && tb === 0) return a.order - b.order;
-        if (ta === 0) return 1;
-        if (tb === 0) return -1;
-        return tb - ta;
-      });
+      const sorted = lessons.slice().sort((a, b) => a.order - b.order);
       sorted.forEach(lesson => {
         const ms = stats.totals[lesson.id] || 0;
         const done = stats.completed.has(lesson.id);
@@ -481,6 +580,8 @@
 
     async function refreshAllStats() {
       await Promise.all([loadCurriculum(), loadStats()]);
+      const recoveredMs = await reconcileTotalsFromDaily();
+      showRepairNotice(recoveredMs);
       renderOverview();
       renderChart();
       renderLessonBreakdown();
@@ -495,6 +596,19 @@
         renderChart();
       });
     });
+
+    const chartTooltip = document.getElementById('chartTooltip');
+    const chartArea = document.getElementById('chart');
+    chartArea.addEventListener('mousemove', (e) => {
+      const bar = e.target.closest('.bar');
+      if (!bar || bar.dataset.val == null) { chartTooltip.classList.remove('show'); return; }
+      const rect = bar.getBoundingClientRect();
+      chartTooltip.innerHTML = `<div class="tt-date">${bar.dataset.label}</div><div class="tt-val">${bar.dataset.val}</div>`;
+      chartTooltip.style.left = (rect.left + rect.width / 2) + 'px';
+      chartTooltip.style.top = (rect.top - 8) + 'px';
+      chartTooltip.classList.add('show');
+    });
+    chartArea.addEventListener('mouseleave', () => chartTooltip.classList.remove('show'));
 
     // ========== Manual timer (existing) ==========
     const STORAGE_KEY = 'bjt-history';

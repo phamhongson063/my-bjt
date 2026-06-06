@@ -25,6 +25,7 @@ let authStateResolved = false;
 let lastFirestoreSyncAt = 0;
 let firestoreSyncInFlight = false;
 let pulledFromFirestore = false;
+let studyDataReady = false;
 let readingPosRestored = false;
 
 function todayDateKey() {
@@ -69,6 +70,7 @@ function renderStudyTime(isActive) {
 
 async function syncStudyTimeToFirestore(force = false) {
   if (!app.currentUser || !app.lessonId || firestoreSyncInFlight) return;
+  if (!studyDataReady) return;
   if (!force && Date.now() - lastFirestoreSyncAt < FIRESTORE_SYNC_INTERVAL_MS)
     return;
   firestoreSyncInFlight = true;
@@ -207,8 +209,10 @@ async function pullStudyTimeFromFirestore() {
       if (!dailyTimes[today]) dailyTimes[today] = {};
       dailyTimes[today][app.lessonId] = remoteDaily;
     }
+    studyDataReady = true;
     renderStudyTime(!document.hidden);
   } catch (err) {
+    pulledFromFirestore = false;
     console.warn("Firestore pull failed:", err);
   } finally {
     pullPending = false;

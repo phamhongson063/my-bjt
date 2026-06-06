@@ -1639,8 +1639,8 @@
             },
             {
               "num": "④",
-              "answer": "つまらないものですが……",
-              "answer_vi": "つまらないものですが…… — câu cố định khiêm nhường khi tặng quà (xem mục ③)."
+              "answer": "つまらないものですが。",
+              "answer_vi": "つまらないものですが。— câu cố định khiêm nhường khi tặng quà (xem mục ③)."
             }
           ]
         },
@@ -1742,7 +1742,7 @@
         },
         {
           "num": "1",
-          "context": "日本語を毎日勉強しますか。",
+          "context": "日本語は毎日勉強しますか。",
           "context_vi": "Bạn có học tiếng Nhật mỗi ngày không?",
           "audioStart": 14,
           "audioEnd": 30,

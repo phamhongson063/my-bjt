@@ -396,6 +396,8 @@
         {
           "q": "例) 手伝います ⇒ ?  (mẫu 「お〜します」)",
           "qVi": "Mẫu) 手伝います → kenjougo 「お〜します」?",
+          "audioStart": 8,
+          "audioEnd": 16,
           "options": [
             {
               "jp": "お手伝いします",
@@ -421,6 +423,8 @@
         {
           "q": "例) 先生からペンをもらいました ⇒ ?",
           "qVi": "Mẫu) 先生からペンをもらいました → kenjougo (dạng đặc biệt)?",
+          "audioStart": 16,
+          "audioEnd": 26,
           "options": [
             {
               "jp": "先生からペンをいただきました",
@@ -446,6 +450,8 @@
         {
           "q": "1) 社長のかばんを持ちます ⇒ ?",
           "qVi": "1) 社長のかばんを持ちます → kenjougo?",
+          "audioStart": 26,
+          "audioEnd": 36,
           "options": [
             {
               "jp": "社長のかばんをお持ちします",
@@ -471,6 +477,8 @@
         {
           "q": "2) 明日もここに来ます ⇒ ?  (gợi ý sách: ここ → こちら, dùng dạng đặc biệt)",
           "qVi": "2) 明日もここに来ます → kenjougo (sách gợi ý đổi ここ → こちら, dùng dạng đặc biệt)?",
+          "audioStart": 36,
+          "audioEnd": 44,
           "options": [
             {
               "jp": "明日もこちらに参ります",
@@ -496,6 +504,8 @@
         {
           "q": "3) 使い方について説明します ⇒ ?",
           "qVi": "3) 使い方について説明します → kenjougo?",
+          "audioStart": 44,
+          "audioEnd": 55,
           "options": [
             {
               "jp": "使い方についてご説明します",
@@ -521,6 +531,8 @@
         {
           "q": "4) 先生に国のおみやげをあげます ⇒ ?  (dạng đặc biệt)",
           "qVi": "4) 先生に国のおみやげをあげます → kenjougo (dạng đặc biệt)?",
+          "audioStart": 55,
+          "audioEnd": 67,
           "options": [
             {
               "jp": "先生に国のおみやげを差し上げます",
@@ -546,6 +558,8 @@
         {
           "q": "5) 先生に会いました ⇒ ?  (dạng đặc biệt)",
           "qVi": "5) 先生に会いました → kenjougo (dạng đặc biệt)?",
+          "audioStart": 67,
+          "audioEnd": 76,
           "options": [
             {
               "jp": "先生にお目にかかりました",
@@ -571,6 +585,8 @@
         {
           "q": "6) 田中さんに会って、新しい契約について話しました ⇒ ?  (dạng đặc biệt)",
           "qVi": "6) 田中さんに会って、新しい契約について話しました → kenjougo (dạng đặc biệt)?",
+          "audioStart": 76,
+          "audioEnd": 92,
           "options": [
             {
               "jp": "田中さんにお目にかかって、新しい契約についてお話ししました",
@@ -752,6 +768,624 @@
           "explanation_jp": "送る → お送りします → お送りしましょうか。"
         }
       ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — Phiên bản đúng cách (Track 1-13, trang 36)",
+      "image": "images/L03/36_1.jpg",
+      "imageAlt": "Minh hoạ trang 36 — buổi sáng ở thang máy, Alex chào 金子部長 và đề nghị giúp đỡ đúng cách bằng kính ngữ.",
+      "imageCaption": "Minh hoạ trang 36 — lần này Alex chào hỏi & đề nghị giúp 金子部長 đúng kính ngữ.",
+      "audio": "asset/audio/Track1-13.mp3",
+      "audioLabel": "Track 1-13 — これでOK! 簡単にあいさつする (phiên bản chuẩn)",
+      "scene": "朝、会社で。今度はアレックスさんが正しい敬語であいさつして、しっかり話します。\n(Buổi sáng ở công ty. Lần này Alex chào hỏi đúng kính ngữ và nói chuyện trôi chảy. Hãy so sánh với phiên bản できますか? ở trang 32.)",
+      "lines": [
+        {
+          "speaker": "金子部長",
+          "jp": "おはよう。",
+          "vi": "Chào (buổi sáng)."
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "あ、おはようございます……部長、お疲れですね。昨日は何時にお帰りになりましたか。",
+          "vi": "À, em chào sếp ạ… Sếp trông mệt nhỉ ạ. Hôm qua sếp về lúc mấy giờ ạ? (✅ お疲れですね = sonkeigo của 「疲れていますね」; お帰りになりました = mẫu お〜になります — khác với trang 32 「疲れていますか／帰りましたか」)"
+        },
+        {
+          "speaker": "金子部長",
+          "jp": "え? あ、終電だったよ。今日の加藤さんとの打ち合わせが、昨日急に決まったんだって。だから資料を準備しないとならなかったんだ。",
+          "vi": "Hả? À, tàu cuối đấy. Buổi họp với anh Kato hôm nay tự nhiên bị chốt vào hôm qua, nên (tôi) phải chuẩn bị tài liệu."
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "大変ですね……あのー、よろしかったらお手伝いします。資料をまとめて印刷いたしましょうか。",
+          "vi": "Vất vả nhỉ ạ… Dạ, nếu được thì để em giúp ạ. Em in gộp tài liệu lại giúp sếp nhé ạ? (✅ お手伝いします / 印刷いたしましょうか = kenjougo 「お〜します」「いたす」 — thay cho lỗi 「手伝ってあげましょうか／印刷してあげましょうか」 ở trang 32)"
+        },
+        {
+          "speaker": "金子部長",
+          "jp": "あ、じゃあ、あとで資料を渡すから、よろしく。",
+          "vi": "À, vậy lát nữa tôi đưa tài liệu, nhờ cậu nhé."
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "はい!",
+          "vi": "Vâng ạ!"
+        },
+        {
+          "speaker": "金子部長",
+          "jp": "ありがとう。助かるよ。",
+          "vi": "Cảm ơn nhé. Đỡ cho tôi quá. (Lần này lời đề nghị giúp đỡ lịch sự nên sếp vui vẻ nhận — khác trang 32 bị từ chối.)"
+        },
+        {
+          "speaker": "—",
+          "jp": "アレックスさんは、金子部長にあいさつをして、しっかり話すことができました。",
+          "vi": "Alex đã chào hỏi 金子部長 và nói chuyện trôi chảy. (So với trang 32: nhờ dùng kính ngữ đúng, lần này Alex giúp được sếp.)"
+        }
+      ],
+      "vocabHighlight": [
+        "お疲れですね = sonkeigo của 「疲れていますね」 (trang 32 Alex hỏi thẳng 「疲れていますか」 → sỗ).",
+        "お帰りになりました = mẫu お〜になります (sonkeigo, hành động của sếp) — sửa cho 「帰りました」 ở trang 32.",
+        "お手伝いします / 印刷いたしましょうか = kenjougo 「お〜します」「いたす」 (mục ②) — thay cho 「〜てあげましょうか」 thất lễ ở trang 32.",
+        "よろしかったら = câu đệm lịch sự khi ngỏ lời giúp đỡ.",
+        "助かるよ = (sếp) \"đỡ cho tôi quá\" — đề nghị đúng cách nên được chấp nhận."
+      ],
+      "note": "Sách (trang 36) kết bằng: 「アレックスさんは、金子部長にあいさつをして、しっかり話すことができました。」\n\nSo với trang 32 (できますか?):\n• 疲れていますか → お疲れですね ✅\n• 何時に帰りましたか → 何時にお帰りになりましたか ✅\n• 手伝ってあげましょうか／印刷してあげましょうか → お手伝いします／印刷いたしましょうか ✅\n\n* 友達スタイルでは、人から聞いた話を他の人に話すとき「〜って」を使います。VD: 今日のパーティー、あの人、来ないって。(＝来ないそうです)",
+      "note_jp": "「アレックスさんは、金子部長にあいさつをして、しっかり話すことができました。」\np.32の間違い→p.36の正しい使い方:\n• 疲れていますか → お疲れですね\n• 帰りましたか → お帰りになりましたか\n• 〜てあげましょうか → お手伝いします／印刷いたしましょうか\n* 友達スタイルでは、人から聞いた話を他の人に話すとき「〜って」を使う。例:今日のパーティー、あの人、来ないって。(＝来ないそうです)"
+    },
+    {
+      "type": "exercise",
+      "layout": "table",
+      "title": "✏️ チェックしましょう ① — 謙譲語をひらがなで書きましょう (trang 37)",
+      "page": 37,
+      "instruction": "謙譲語をひらがなで書きましょう。",
+      "instruction_vi": "Viết dạng 謙譲語 (khiêm nhường ngữ) của các động từ sau bằng hiragana. Ô trả lời chấp nhận mọi biến thể ngăn bằng ／. Đáp án đầy đủ → trang 187.",
+      "note": "* 〜です: khi nói về CHÍNH MÌNH, đổi 「です」→「でございます」 dùng như khiêm nhường ngữ. VD: 東洋映画のスミスでございます。(Tôi là Smith ở hãng phim Đông Dương ạ.)  Đáp án đầy đủ → trang 187.",
+      "items": [
+        {
+          "num": 1,
+          "plain": "行きます・来ます",
+          "answer": "まいります／うかがいます",
+          "answer_vi": "まいります (cả 行く/来る); うかがいます khi đến NHÀ/CÔNG TY của người trên."
+        },
+        {
+          "num": 2,
+          "plain": "います",
+          "answer": "おります",
+          "answer_vi": "おります — kenjougo của いる."
+        },
+        {
+          "num": 3,
+          "plain": "言います（「アレックス・スミスと」／「意見を」）",
+          "answer": "もうします／もうしあげます",
+          "answer_vi": "（アレックス・スミスと）申します ／ （意見を）申し上げます."
+        },
+        {
+          "num": 4,
+          "plain": "見ます",
+          "answer": "はいけんします",
+          "answer_vi": "拝見します — kenjougo đặc biệt của 見る."
+        },
+        {
+          "num": 5,
+          "plain": "飲みます・食べます",
+          "answer": "いただきます",
+          "answer_vi": "いただきます — kenjougo của 飲む/食べる (và もらう)."
+        },
+        {
+          "num": 6,
+          "plain": "知っています（「今日会議があることを」／「金子部長を」）",
+          "answer": "ぞんじております／しっております／ぞんじあげております",
+          "answer_vi": "（việc〜）存じております／知っております ; （người: 金子部長を）存じ上げております."
+        },
+        {
+          "num": 7,
+          "plain": "〜と思います（「〜と」）",
+          "answer": "ぞんじます",
+          "answer_vi": "（〜と）存じます — kenjougo của 思う."
+        },
+        {
+          "num": 8,
+          "plain": "します",
+          "answer": "いたします",
+          "answer_vi": "いたします — kenjougo của する."
+        },
+        {
+          "num": 9,
+          "plain": "あげます",
+          "answer": "さしあげます",
+          "answer_vi": "差し上げます — kenjougo của あげる (biếu người trên)."
+        },
+        {
+          "num": 10,
+          "plain": "もらいます",
+          "answer": "いただきます",
+          "answer_vi": "いただきます — kenjougo của もらう."
+        },
+        {
+          "num": 11,
+          "plain": "会います（gợi ý sách: おあいします／…）",
+          "answer": "おあいします／おめにかかります",
+          "answer_vi": "お会いします (mẫu お〜します) ／ お目にかかります (dạng đặc biệt)."
+        },
+        {
+          "num": 12,
+          "plain": "聞きます（gợi ý sách: おききします／…）",
+          "answer": "おききします／うかがいます",
+          "answer_vi": "お聞きします (mẫu お〜します) ／ 伺います (dạng đặc biệt)."
+        },
+        {
+          "num": 13,
+          "plain": "あります",
+          "answer": "ございます",
+          "answer_vi": "ございます — kenjougo của ある."
+        },
+        {
+          "num": 14,
+          "plain": "持ちます",
+          "answer": "おもちします",
+          "answer_vi": "お持ちします — mẫu お〜します (持つ nhóm 1)."
+        },
+        {
+          "num": 15,
+          "plain": "〜です *",
+          "answer": "でございます",
+          "answer_vi": "〜でございます — dạng khiêm nhường của 〜です khi nói về mình (xem ghi chú *)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう ② — メールの文を敬語にしましょう (trang 38)",
+      "page": 38,
+      "instruction": "メールの文を敬語にしましょう。",
+      "instruction_vi": "Đổi các câu trong email sau sang kính ngữ. Lưu ý: hành động của MÌNH → 謙譲語 (お〜します…); hành động của ĐỐI PHƯƠNG / lời nhờ → 尊敬語 (お〜ください, dạng đặc biệt). Đáp án đầy đủ → trang 188.",
+      "note": "Đáp án theo trang 188. Ô trả lời chấp nhận thêm biến thể chuẩn (ngăn bằng ／). Lưu ý ②: sách dùng かんたん尊敬語 「到着される」 (hành động của khách).",
+      "items": [
+        {
+          "num": "メール",
+          "context": "来週の東京へのご出張のことですが、空港までお迎えに【①】ので、【②】時間を【③】。\n空港で資料を【④】ので、車の中で【⑤】。\nご昼食のあと、会議の場所まで【⑥】。\nどうぞよろしく【⑦】。",
+          "context_vi": "Về chuyến công tác Tokyo tuần tới của anh: tôi sẽ ra sân bay đón anh【①(行きます)】, nên xin anh【③(知らせてください)】cho biết giờ【②(到着する)】.\nỞ sân bay tôi sẽ đưa tài liệu【④(渡します)】, mời anh xem【⑤(見てください)】trong xe.\nSau bữa trưa, tôi sẽ đưa anh đến địa điểm họp【⑥(送ります)】.\nRất mong được anh giúp đỡ【⑦(お願いします)】.",
+          "subAnswers": [
+            {
+              "num": "①",
+              "base": "行きます",
+              "answer": "まいります／参ります",
+              "answer_vi": "Mình đi đón → 謙譲語. Sách (p.188): お迎えにまいります (参ります)."
+            },
+            {
+              "num": "②",
+              "base": "到着する",
+              "answer": "到着される／ご到着になる",
+              "answer_vi": "Khách đến → 尊敬語. Sách (p.188): 到着される (かんたん尊敬語 れる/られる) → 到着される時間."
+            },
+            {
+              "num": "③",
+              "base": "知らせてください",
+              "answer": "お知らせください",
+              "answer_vi": "Nhờ đối phương báo → 尊敬語 「お〜ください」."
+            },
+            {
+              "num": "④",
+              "base": "渡します",
+              "answer": "お渡しします",
+              "answer_vi": "Mình đưa → 謙譲語 「お〜します」."
+            },
+            {
+              "num": "⑤",
+              "base": "見てください",
+              "answer": "ご覧ください",
+              "answer_vi": "Nhờ đối phương xem → 見る dạng đặc biệt → ご覧ください."
+            },
+            {
+              "num": "⑥",
+              "base": "送ります",
+              "answer": "お送りします",
+              "answer_vi": "Mình tiễn/đưa đi → 謙譲語 「お〜します」."
+            },
+            {
+              "num": "⑦",
+              "base": "お願いします",
+              "answer": "お願いいたします／お願い申し上げます",
+              "answer_vi": "Mình nhờ vả → 謙譲語. Sách (p.188): お願いいたします."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう ③ — 正しいものを選びましょう (trang 38)",
+      "page": 38,
+      "instruction": "正しいものを選びましょう。",
+      "instruction_vi": "Chọn dạng đúng trong ngoặc. Mẹo: 「私から／私が」 = hành động của MÌNH → 謙譲語; ngỏ lời giúp đỡ → 謙譲語 「お〜しましょうか」; hành động của đối phương → 尊敬語. Đáp án → trang 188.",
+      "note": "Phương án (a/b/c) lấy đúng từ sách (trang 38). Đáp án khớp trang 188: 1)b 2)a 3)b 4)c 5)b.",
+      "items": [
+        {
+          "num": "1",
+          "mode": "choice",
+          "context": "新しいパソコンの使い方について、私から【　？　】。",
+          "context_vi": "Về cách dùng máy tính mới, để tôi【…】.",
+          "options": ["説明なさいます", "ご説明いたします", "ご説明になります"],
+          "answerIndex": 1,
+          "answer_vi": "「私から」= mình làm → 謙譲語 ご説明いたします. (a なさる, c ご〜になる đều là 尊敬語 — dùng cho đối phương.)"
+        },
+        {
+          "num": "2",
+          "mode": "choice",
+          "context": "お送りくださったメールは、私が【　？　】。",
+          "context_vi": "Email anh/chị đã gửi, tôi đã【…】.",
+          "options": ["拝見しました", "ご覧になりました", "お読みになりました"],
+          "answerIndex": 0,
+          "answer_vi": "「私が」= mình xem → 謙譲語 拝見しました. (b ご覧になる / c お読みになる là 尊敬語.)"
+        },
+        {
+          "num": "3",
+          "mode": "choice",
+          "context": "駅の前で先生に【　？　】。",
+          "context_vi": "Tôi đã【…】thầy ở trước ga.",
+          "options": ["お会いになりました", "お会いしました", "会われました"],
+          "answerIndex": 1,
+          "answer_vi": "Mình gặp thầy → 謙譲語 お会いしました (hoặc お目にかかりました). (a お会いになる / c 会われる là 尊敬語.)"
+        },
+        {
+          "num": "4",
+          "mode": "choice",
+          "context": "忙しそうですね。【　？　】。",
+          "context_vi": "Trông anh/chị bận nhỉ. Để tôi【…】nhé?",
+          "options": [
+            "お手伝ってましょうか",
+            "お手伝いになりましょうか",
+            "お手伝いしましょうか"
+          ],
+          "answerIndex": 2,
+          "answer_vi": "Ngỏ lời giúp → 謙譲語 お手伝いしましょうか. (a sai ngữ pháp; b お手伝いになる là 尊敬語.)"
+        },
+        {
+          "num": "5",
+          "mode": "choice",
+          "context": "〈あなたの国の有名な観光地で、写真を撮ろうとしている日本人を見て〉\n【　？　】。",
+          "context_vi": "〈Ở một điểm du lịch nổi tiếng nước bạn, thấy một người Nhật đang định chụp ảnh〉 Để tôi【…】nhé?",
+          "options": [
+            "お撮ってしますか",
+            "お撮りしましょうか",
+            "お撮りになりましょうか"
+          ],
+          "answerIndex": 1,
+          "answer_vi": "Ngỏ lời chụp giúp → 謙譲語 お撮りしましょうか. (a sai ngữ pháp; c お撮りになる là 尊敬語.)"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "style": "speak",
+      "title": "🗣️ スタイルを変えてみましょう (Track 1-14, trang 39)",
+      "page": 39,
+      "audio": "asset/audio/Track1-14.mp3",
+      "audioLabel": "Track 1-14 — スタイルを変えてみましょう",
+      "instruction": "音声を聞いて、はじめに敬語スタイルで言ってください。その次に友達スタイルで言ってください。全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Nghe audio rồi NÓI lại mỗi câu theo 2 kiểu: (1) 敬語スタイル — thể kính ngữ, (2) 友達スタイル — thể bạn bè. Nghe hết một lượt rồi mới bắt đầu luyện nói. Bấm 🎧 nghe lại từng câu, bấm \"Hiện đáp án\" để tự kiểm tra.",
+      "note": "Đáp án 敬語/友達 dưới đây theo trang 188 (Track 1-14).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "手伝いましょうか。",
+          "context_vi": "Để tôi giúp nhé? (thể ます)",
+          "audioStart": 0,
+          "audioEnd": 13,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "お手伝いしましょうか。",
+              "answer_vi": "手伝う → お手伝いします → お手伝いしましょうか (謙譲語)."
+            },
+            {
+              "num": "友達",
+              "answer": "手伝おうか。",
+              "answer_vi": "Thể ý chí 手伝おう ＋ か."
+            }
+          ]
+        },
+        {
+          "num": "1",
+          "context": "かさを貸しましょうか。",
+          "context_vi": "Để tôi cho mượn ô nhé?",
+          "audioStart": 13,
+          "audioEnd": 25,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "かさをお貸ししましょうか。",
+              "answer_vi": "貸す → お貸しします → お貸ししましょうか."
+            },
+            {
+              "num": "友達",
+              "answer": "かさ、貸そうか。",
+              "answer_vi": "Lược を, thể ý chí 貸そう ＋ か."
+            }
+          ]
+        },
+        {
+          "num": "2",
+          "context": "この書類を翻訳しましょうか。",
+          "context_vi": "Để tôi dịch tài liệu này nhé?",
+          "audioStart": 25,
+          "audioEnd": 40,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "この書類を翻訳いたしましょうか。",
+              "answer_vi": "翻訳する → 翻訳いたす (する → いたす)."
+            },
+            {
+              "num": "友達",
+              "answer": "この書類、翻訳しようか。",
+              "answer_vi": "Lược を, 翻訳しよう ＋ か."
+            }
+          ]
+        },
+        {
+          "num": "3",
+          "context": "スケジュールをメールで送りましょうか。",
+          "context_vi": "Để tôi gửi lịch qua mail nhé?",
+          "audioStart": 40,
+          "audioEnd": 56,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "スケジュールをメールでお送りしましょうか。",
+              "answer_vi": "送る → お送りします → お送りしましょうか."
+            },
+            {
+              "num": "友達",
+              "answer": "スケジュール、メールで送ろうか。",
+              "answer_vi": "Lược を, thể ý chí 送ろう ＋ か."
+            }
+          ]
+        },
+        {
+          "num": "4",
+          "context": "先週、先生のうちに行きました。",
+          "context_vi": "Tuần trước tôi đã đến nhà thầy.",
+          "audioStart": 56,
+          "audioEnd": 72,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "先週、先生のお宅に伺いました。／お邪魔しました。",
+              "answer_vi": "行く (đến nhà người trên) → 伺う (hoặc お邪魔する); うち → お宅 (trang trọng)."
+            },
+            {
+              "num": "友達",
+              "answer": "先週、先生のうちに行った。",
+              "answer_vi": "行きました → 行った (thể た)."
+            }
+          ]
+        },
+        {
+          "num": "5",
+          "context": "昨日、小林先生に会いました。",
+          "context_vi": "Hôm qua tôi đã gặp thầy Kobayashi.",
+          "audioStart": 72,
+          "audioEnd": 95,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "昨日、小林先生にお目にかかりました。",
+              "answer_vi": "会う → お目にかかる (dạng đặc biệt; gợi ý sách 「お目に…」)."
+            },
+            {
+              "num": "友達",
+              "answer": "昨日、小林先生に会った。",
+              "answer_vi": "会いました → 会った (thể た)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎭 やってみましょう — Luyện đóng vai (trang 40)",
+      "intro": "Hoạt động NÓI theo cặp. Mỗi người cầm một ロールカード (thẻ vai) rồi hội thoại bằng kính ngữ hợp với vai của mình.\nTự học một mình? Hãy đọc cả hai thẻ rồi tự dựng hội thoại cho từng vai; bấm 🔊 để nghe đề bài đọc lên.\n👉 Thẻ vai trong sách: vai A (部下) ở trang 168, vai B (上司) ở trang 172.",
+      "intro_jp": "ペアで話す練習です。ロールカードを持って、自分の役で敬語の会話をしましょう。\nロールカード:A(部下)=p.168 / B(上司)=p.172。",
+      "scenarios": [
+        {
+          "label": "🗣️",
+          "title_jp": "話してみましょう",
+          "title_vi": "Chào buổi sáng & đề nghị giúp đỡ cấp trên",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "部下",
+              "who_vi": "Bạn là cấp dưới (thẻ vai trang 168)",
+              "ref": "ロールカード p.168",
+              "jp": "あなたは朝、会社の入口で上司に会いました。簡単にあいさつしてください。今日の天気は雨で強く降っています。あなたは昨日、夜遅くまで会議の発表の準備をしました。明日の会議に上司が出席するか聞いてください。原稿ができたら送ると言ってください。わからないことがあったら相談すると言ってください。",
+              "vi": "Buổi sáng bạn gặp sếp ở lối vào công ty. Hãy chào hỏi đơn giản. Hôm nay trời mưa to. Hôm qua bạn đã thức khuya chuẩn bị bài phát biểu cho cuộc họp. Hãy hỏi xem ngày mai sếp có dự họp không. Hãy nói rằng khi bản thảo (原稿) xong sẽ gửi cho sếp. Nếu có gì chưa rõ thì nói sẽ xin trao đổi/hỏi ý kiến."
+            },
+            {
+              "side": "B",
+              "who_jp": "上司",
+              "who_vi": "Bạn là cấp trên / sếp (thẻ vai trang 172)",
+              "ref": "ロールカード p.172",
+              "jp": "あなたは朝、会社の入口で部下に会いました。簡単にあいさつしてください。会議のことを話してください。部下は明日の会議で発表します。",
+              "vi": "Buổi sáng bạn gặp cấp dưới ở lối vào công ty. Hãy chào hỏi đơn giản. Hãy nói chuyện về cuộc họp. Cấp dưới của bạn sẽ phát biểu ở cuộc họp ngày mai."
+            }
+          ],
+          "hints": [
+            {
+              "jp": "おはようございます。",
+              "vi": "(cấp dưới) đáp lại lời chào của sếp"
+            },
+            {
+              "jp": "お疲れ様です。",
+              "vi": "(cấp dưới) câu chào xã giao buổi sáng"
+            },
+            {
+              "jp": "明日の会議にご出席なさいますか。",
+              "vi": "(cấp dưới) hỏi sếp — 尊敬語"
+            },
+            {
+              "jp": "原稿ができましたら、お送りします。",
+              "vi": "(cấp dưới) khi bản thảo xong sẽ gửi — 謙譲語 お〜します"
+            },
+            {
+              "jp": "わからないことがありましたら、ご相談します。",
+              "vi": "(cấp dưới) xin trao đổi nếu chưa rõ"
+            }
+          ],
+          "model": {
+            "track": "1-15",
+            "audio": "asset/audio/Track1-15.mp3",
+            "intro_vi": "Hội thoại mẫu in trong sách (trang 188). Hãy tự dựng & nói trước theo thẻ vai, rồi mới mở ra đối chiếu.",
+            "intro_jp": "本の会話例（p.188）です。先に自分で話してから、答え合わせに開いてください。",
+            "lines": [
+              {
+                "sp": "A",
+                "jp": "おはようございます。",
+                "vi": "Em chào sếp ạ (buổi sáng)."
+              },
+              {
+                "sp": "B",
+                "jp": "あ、おはよう。",
+                "vi": "À, chào (cậu)."
+              },
+              {
+                "sp": "A",
+                "jp": "すごい雨ですね。よく降りますね。",
+                "vi": "Mưa to quá sếp nhỉ. Mưa suốt nhỉ ạ."
+              },
+              {
+                "sp": "B",
+                "jp": "そうだな。あ、明日、会議があるよね。発表の準備進んでる?",
+                "vi": "Ừ nhỉ. À, mai có họp đúng không. Chuẩn bị bài phát biểu tới đâu rồi?"
+              },
+              {
+                "sp": "A",
+                "jp": "あ、はい。昨日も夜遅くまで準備をしました。",
+                "vi": "Dạ vâng. Hôm qua em cũng chuẩn bị đến tận khuya ạ."
+              },
+              {
+                "sp": "B",
+                "jp": "お、がんばってるね。期待してるよ。",
+                "vi": "Ồ, cố gắng nhỉ. Trông cậy ở cậu đấy."
+              },
+              {
+                "sp": "A",
+                "jp": "ありがとうございます。部長は出席されるんですか。",
+                "vi": "Em cảm ơn ạ. Sếp (trưởng phòng) có dự họp không ạ?",
+                "note_vi": "「出席される」= かんたん尊敬語 (れる/られる) — hỏi về hành động của sếp."
+              },
+              {
+                "sp": "B",
+                "jp": "うん、出席するよ。",
+                "vi": "Ừ, tôi có dự."
+              },
+              {
+                "sp": "A",
+                "jp": "原稿ができたらお送りします。わからないことがあったらご相談に伺います。",
+                "vi": "Bản thảo xong em sẽ gửi sếp ạ. Có gì chưa rõ em sẽ đến xin ý kiến ạ.",
+                "note_vi": "「お送りします」= 謙譲語 お〜します; 「ご相談に伺います」= 伺う (đến xin trao đổi — kenjougo)."
+              },
+              {
+                "sp": "B",
+                "jp": "いいよ。じゃ、またあとで。",
+                "vi": "Được. Vậy lát gặp lại nhé."
+              },
+              {
+                "sp": "A",
+                "jp": "失礼いたします。",
+                "vi": "Em xin phép ạ.",
+                "note_vi": "「失礼いたします」= いたす (khiêm nhường của する)."
+              }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 会話例 (hội thoại mẫu, trang 188 · Track 1-15) đã nhúng ngay dưới — bấm \"📖 Xem hội thoại mẫu\" để đối chiếu sau khi đã tự nói.",
+      "answerRef_jp": "会話例（p.188・Track 1-15）は下にあります。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Tổng hợp từ vựng Bài 2 (trang 40)",
+      "intro": "Bảng từ vựng của cả Bài 2 (2課), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.\nNhiều mục là cặp 「từ trang trọng ＝ từ thường ngày」 — hiểu nghĩa qua từ quen thuộc.",
+      "intro_jp": "2課の語彙タンク(p.40)。出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        {
+          "jp": "終電",
+          "kana": "しゅうでん",
+          "vi": "Chuyến tàu cuối (＝ 一日の最後の電車)",
+          "note": "📖 trang 32 — chuyến tàu cuối cùng trong ngày.",
+          "note_jp": "終電＝一日の最後の電車"
+        },
+        {
+          "jp": "打ち合わせ",
+          "kana": "うちあわせ",
+          "vi": "Buổi họp bàn / trao đổi công việc (meeting)",
+          "note": "📖 trang 32 — meeting / họp bàn trước."
+        },
+        {
+          "jp": "取引先",
+          "kana": "とりひきさき",
+          "vi": "Đối tác / khách hàng (client, customer)",
+          "note": "📖 trang 34 — bên đối tác làm ăn."
+        },
+        {
+          "jp": "契約",
+          "kana": "けいやく",
+          "vi": "Hợp đồng (contract)",
+          "note": "📖 trang 35 — hợp đồng, giao kèo."
+        },
+        {
+          "jp": "お疲れですね",
+          "kana": "おつかれですね",
+          "vi": "\"Anh/chị vất vả rồi nhỉ\" — sonkeigo của 「疲れていますね」",
+          "note": "📖 trang 36 — câu hỏi thăm lịch sự, dùng với người trên thay cho 「疲れていますか」.",
+          "note_jp": "お疲れですね＝「疲れていますね」の尊敬語"
+        },
+        {
+          "jp": "まとめて〜する",
+          "kana": "まとめて〜する",
+          "vi": "Làm (gì đó) gộp một lượt / cùng lúc (to do all at once)",
+          "note": "📖 trang 36 — VD: 資料をまとめて印刷する (in gộp tài liệu lại một lượt)."
+        },
+        {
+          "jp": "助かる",
+          "kana": "たすかる",
+          "vi": "Đỡ quá / giúp ích nhiều (to be of help)",
+          "note": "📖 trang 36 — VD: 助かるよ (đỡ cho tôi quá)."
+        },
+        {
+          "jp": "到着する",
+          "kana": "とうちゃくする",
+          "vi": "Đến nơi (＝ 着く)",
+          "note": "📖 trang 38 — 「到着する」＝「着く」.",
+          "note_jp": "到着する＝着く"
+        },
+        {
+          "jp": "昼食",
+          "kana": "ちゅうしょく",
+          "vi": "Bữa trưa (＝ 昼ご飯)",
+          "note": "📖 trang 38 — 「昼食(ちゅうしょく)」＝「昼ご飯(ひるごはん)」.",
+          "note_jp": "昼食＝昼ご飯"
+        },
+        {
+          "jp": "観光地",
+          "kana": "かんこうち",
+          "vi": "Điểm / khu du lịch (sightseeing spot)",
+          "note": "📖 trang 38 — địa điểm tham quan du lịch (xuất hiện ở チェック③ câu 5).",
+          "image": "images/L03/38_1.jpg"
+        },
+        {
+          "jp": "翻訳する",
+          "kana": "ほんやくする",
+          "vi": "Phiên dịch (viết) / dịch thuật (to translate)",
+          "note": "📖 trang 39 — dịch văn bản (xuất hiện ở スタイルを変えて câu 2)."
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "📚 Đáp án + Bước tiếp theo",
+      "content": "📖 Tham chiếu trong sách:\n• Đáp án 練習①② + チェック① → trang 187.\n• Đáp án チェック②③ + スタイルを変えて + 会話例 (Track 1-15) → trang 188.\n• Thẻ vai: A (部下) → trang 168; B (上司) → trang 172.\n• Bảng đầy đủ 尊敬語/謙譲語 → mục 📖 敬語動詞の表 (trang 176) phía trên.\n\n🎯 Tổng kết Bài 2 (2課):\n• Các câu chào hay dùng + so sánh ですます／敬語スタイル ↔ 友達スタイル.\n• 「お/ご〜します」 — mẫu KHIÊM NHƯỜNG (謙譲語), nói về hành động của MÌNH (đối xứng với 「お/ご〜になります」 = sonkeigo của Bài 1).\n• 謙譲語の特別な形: 拝見します・お目にかかります・参ります・差し上げます・いただきます.\n• 尊敬語 (hành động đối phương) ↔ 謙譲語 (hành động của mình) — chọn đúng theo CHỦ THỂ hành động.\n\n→ Bài tiếp theo: L04 「誘う」 (trang 42) — Mời / rủ rê.",
+      "content_jp": "📖 本の参照:\n• 練習①②・チェック①の答え → p.187\n• チェック②③・スタイルを変えて・会話例(Track 1-15)の答え → p.188\n• ロールカード:A(部下)=p.168 / B(上司)=p.172\n• 敬語動詞の表 → p.176 (上の表)\n\n🎯 2課のまとめ:\n• よく使われるあいさつ(敬語スタイル↔友達スタイル)\n• 「お/ご〜します」(謙譲語の文型、自分の動作)\n• 謙譲語の特別な形(拝見します・お目にかかります・参ります・差し上げます・いただきます)\n• 尊敬語(相手の動作)↔謙譲語(自分の動作)\n\n→ 次は L04「誘う」(p.42)。"
     }
   ]
 }

@@ -221,55 +221,27 @@ async function pullStudyTimeFromFirestore() {
   }
 }
 
-async function saveReadingPosition() {
-  if (!app.currentUser) {
-    showCopyFlash("⚠️ Cần đăng nhập để lưu");
-    return;
-  }
+function readingPosKey() {
+  return `bjt-reading-pos:${app.lessonKey}`;
+}
+
+function saveReadingPosition() {
   if (!app.lessonId || !app.lessonRendered) return;
   try {
-    const ref = doc(
-      app.db,
-      "users",
-      app.currentUser.uid,
-      "reading-position",
-      app.lessonKey
-    );
-    await setDoc(ref, {
-      bookId: app.bookId,
-      lessonId: app.lessonId,
-      scrollY: Math.round(window.scrollY),
-      updatedAt: serverTimestamp(),
-    });
-    showCopyFlash("🔖 Đã lưu vị trí");
+    localStorage.setItem(readingPosKey(), String(Math.round(window.scrollY)));
+    showCopyFlash("🔖 Đã lưu vị trí (máy này)");
   } catch (err) {
     console.warn("Reading position save failed:", err);
     showCopyFlash("⚠️ Lưu vị trí thất bại");
   }
 }
 
-export async function restoreReadingPosition() {
-  if (
-    !app.currentUser ||
-    !app.lessonId ||
-    !app.lessonRendered ||
-    readingPosRestored
-  )
-    return;
+export function restoreReadingPosition() {
+  if (!app.lessonId || !app.lessonRendered || readingPosRestored) return;
   readingPosRestored = true;
   try {
-    const ref = doc(
-      app.db,
-      "users",
-      app.currentUser.uid,
-      "reading-position",
-      app.lessonKey
-    );
-    const snap = await getDoc(ref);
-    if (!snap.exists()) return;
-    const data = snap.data();
-    const y = data.scrollY;
-    if (typeof y !== "number" || y <= 0) return;
+    const y = parseInt(localStorage.getItem(readingPosKey()) || "", 10);
+    if (!Number.isFinite(y) || y <= 0) return;
     setTimeout(() => window.scrollTo({ top: y, behavior: "smooth" }), 300);
   } catch (err) {
     console.warn("Reading position restore failed:", err);

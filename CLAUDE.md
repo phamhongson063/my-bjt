@@ -10,6 +10,7 @@ Hướng dẫn cho Claude Code. Áp dụng cho mọi session.
 ## Cách làm việc
 - KHÔNG tự chạy preview / dev server để verify — user tự test.
 - Làm xong chỉ cần báo "đã đối ứng xong" kèm tóm tắt ngắn thay đổi & file đụng tới.
+- KHÔNG cắt ảnh minh hoạ `images/L{NN}/` và KHÔNG tô màu — **user tự làm**. Trong JSON chỉ trỏ đúng path chuẩn (`images/L{NN}/{trang}_{n}.{jpg|png}`) để user bỏ ảnh vào. Vẫn được crop scan `C2/` để **ĐỌC** chữ nhỏ khi soạn bài.
 
 ## UI
 - Nút / điều khiển dùng ICON-ONLY (kèm `title` + `aria-label` cho a11y), KHÔNG thêm label chữ.
@@ -128,6 +129,7 @@ Avatar suy từ `speaker`: chứa `アレックス/alex` → nhân vật chính 
   }]}
 ```
 Options **tự xáo trộn khi render** → `answer` là index theo thứ tự bạn viết (renderer tự map lại). Biến thể TTS: `audioQuestion: true` + `audioJp` → nút "Nghe đoạn audio".
+**例 (rei) phải ghi rõ ra**: bài có 例 → 例 là **câu hỏi đầu tiên** của quiz (`"q": "例) … ⇒ ?"` + `options` + `answer` + `explanation` trỏ đáp án mẫu, như L02/L03). **KHÔNG** nhét 例 vào `intro`. (Với `exercise` thì 例 là item `"num": "例", "example": true`.)
 
 **reading** — đoạn văn + câu hỏi (question giống quiz).
 ```json

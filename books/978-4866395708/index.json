@@ -91,7 +91,7 @@
     {
       "id": "L04",
       "order": 4,
-      "title": "誘う",
+      "title": "3課 誘う",
       "titleVi": "Mời / Rủ rê (đi ăn, dự sự kiện)",
       "phase": 2,
       "chapter": "第2章 - 3",
@@ -104,7 +104,7 @@
         "「〜ております」 — humble continuous"
       ],
       "estimatedMinutes": 30,
-      "status": "todo"
+      "status": "ready"
     },
     {
       "id": "L05",

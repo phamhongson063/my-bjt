@@ -1,6 +1,7 @@
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 
 import { bilingual } from "./utils.js";
+import { DEFAULT_BOOK_ID, lessonKey } from "./books.js";
 import { initAudio } from "./audio.js";
 import { getPlugin } from "../plugins/registry.js";
 import { initSettings } from "../features/settings.js";
@@ -39,7 +40,10 @@ export class LessonApp {
   constructor({ auth, db }) {
     this.auth = auth;
     this.db = db;
-    this.lessonId = new URLSearchParams(location.search).get("id");
+    const params = new URLSearchParams(location.search);
+    this.lessonId = params.get("id");
+    this.bookId = params.get("book") || DEFAULT_BOOK_ID;
+    this.lessonKey = lessonKey(this.bookId, this.lessonId);
 
     this.currentUser = null;
     this.currentLesson = null;
@@ -58,6 +62,7 @@ export class LessonApp {
   }
 
   boot() {
+    this.updateNav();
     initSettings();
     initAudio();
     initToc();
@@ -76,9 +81,17 @@ export class LessonApp {
     onAuthStateChanged(this.auth, (user) => this.handleAuth(user));
   }
 
+  updateNav() {
+    const nav = document.querySelector(".nav");
+    if (!nav) return;
+    nav.innerHTML = `<a href="book.html?book=${this.bookId}">← Mục lục sách</a> · <a href="index.html">📚 Thư viện</a>`;
+  }
+
   async loadLesson(id) {
     try {
-      const res = await fetch(`lessons/${id}.json`, { cache: "no-store" });
+      const res = await fetch(`books/${this.bookId}/${id}.json`, {
+        cache: "no-store",
+      });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       this.currentLesson = await res.json();
       this.renderLesson(this.currentLesson);

@@ -1,0 +1,14 @@
+{
+  "books": [
+    {
+      "id": "978-4866395708",
+      "isbn": "978-4866395708",
+      "title": "新にほんご敬語トレーニング",
+      "titleVi": "Luyện kính ngữ tiếng Nhật — bản mới (音声DL版)",
+      "author": "金子広幸 (Kaneko Hiroyuki)",
+      "publisher": "アスク出版",
+      "cover": "asset/library/978-4866395708.jpg",
+      "tagline": "敬語 cho BJT · 初級修了 → N3"
+    }
+  ]
+}

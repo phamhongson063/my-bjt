@@ -3,76 +3,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BJT 学習</title>
+  <title>BJT 学習 — Thư viện</title>
   <style>
-    body { font-family: sans-serif; max-width: 960px; margin: 32px auto; padding: 0 16px; color: #222; line-height: 1.55; }
-    h1 { font-size: 24px; }
-    h2 { font-size: 18px; margin-top: 30px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
-    a { color: #0366d6; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    button { padding: 10px 16px; cursor: pointer; font-size: 14px; min-height: 40px; }
-    .user-bar { margin-bottom: 20px; color: #555; font-size: 14px; }
+    :root {
+      --ink: #2f2a24;
+      --muted: #8a8275;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; color: var(--ink); min-height: 100vh;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #fbf9f5 0%, #f4f0e8 100%);
+    }
+    .wrap { max-width: 1040px; margin: 0 auto; padding: 30px 20px 70px; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; cursor: pointer; }
     .hidden { display: none; }
-    .quick-menu { display: flex; gap: 12px; margin: 16px 0; flex-wrap: wrap; }
-    .quick-menu a { display: inline-block; padding: 12px 18px; background: #f5f5f5; border: 1px solid #ddd; border-radius: 4px; font-size: 15px; min-height: 44px; box-sizing: border-box; }
-    .quick-menu a:hover { background: #e7f3ff; text-decoration: none; }
-    .phase { margin-bottom: 24px; }
-    .phase-name { font-weight: 600; color: #0366d6; margin-bottom: 4px; }
-    .phase-desc { color: #666; font-size: 13px; margin-bottom: 10px; }
-    .lesson-list { list-style: none; padding: 0; margin: 0; }
-    .lesson-list li { padding: 10px; border-bottom: 1px solid #eee; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-    .lesson-list li:hover { background: #fafafa; }
-    .lesson-info { flex: 1; min-width: 0; }
-    .lesson-info .order { color: #888; font-size: 13px; margin-right: 6px; }
-    .lesson-info .title { font-weight: 500; }
-    .lesson-info .vi { color: #666; font-size: 13px; margin-left: 6px; }
-    .lesson-info .time { color: #999; font-size: 12px; margin-left: 6px; }
-    .badge { font-size: 12px; padding: 2px 8px; border-radius: 10px; white-space: nowrap; }
-    .badge-done { background: #d4edda; color: #155724; }
-    .badge-ready { background: #cce5ff; color: #004085; }
-    .badge-todo { background: #f0f0f0; color: #888; }
-    .lesson-list .todo { color: #888; cursor: not-allowed; }
-    .lesson-list .todo:hover { background: transparent; }
+
+    .top-bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .brand { display: flex; align-items: baseline; gap: 10px; }
+    .brand h1 { font-size: 26px; margin: 0; font-family: "Hiragino Mincho ProN", Georgia, serif; font-weight: 600; letter-spacing: 0.5px; }
+    .brand .jp { font-size: 13px; color: var(--muted); font-family: "Hiragino Mincho ProN", serif; }
+    .top-actions { display: flex; gap: 10px; align-items: center; }
+    .icon-link { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.07); font-size: 17px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+    .icon-link:hover { box-shadow: 0 2px 6px rgba(0,0,0,0.12); }
+    .user-bar { color: var(--muted); font-size: 13px; }
+    .user-bar a { color: #0366d6; }
+    .login-btn { padding: 9px 16px; background: #2f2a24; color: #fbf8f2; border: none; border-radius: 10px; font-size: 13px; box-shadow: 0 2px 5px rgba(0,0,0,0.15); }
+    .login-btn:hover { background: #46402f; }
+    .tagline { color: var(--muted); font-size: 13.5px; margin: 8px 0 30px; }
+
+    #loading, #error { color: var(--muted); padding: 28px 2px; }
+
+    .bookshelf {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 172px);
+      justify-content: start;
+      row-gap: 26px;
+    }
+    .slot { display: flex; flex-direction: column; }
+
+    .cover-box {
+      position: relative; height: 212px;
+      display: flex; align-items: flex-end; justify-content: center;
+      padding: 0 20px;
+    }
+    .cover-box::after {
+      content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 11px;
+      background: linear-gradient(to bottom, #e8cfa6 0%, #d8b886 48%, #bd9760 49%, #a9824c 100%);
+      box-shadow:
+        0 16px 22px -12px rgba(95,65,25,0.55),
+        0 1px 1px rgba(0,0,0,0.10),
+        inset 0 1px 0 rgba(255,255,255,0.55);
+      z-index: 0;
+    }
+    .cover, .cover-ghost {
+      position: relative; z-index: 1; align-self: flex-end;
+      width: 130px; max-width: 100%;
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+    }
+    .cover {
+      height: auto; max-height: 195px; border-radius: 1px 4px 4px 1px;
+      box-shadow:
+        0 15px 20px -11px rgba(40,28,12,0.55),
+        inset 4px 0 7px -3px rgba(0,0,0,0.24),
+        inset -2px 0 4px -2px rgba(255,255,255,0.16);
+    }
+    .cover-box:hover .cover { transform: translateY(-11px); box-shadow: 0 26px 30px -14px rgba(40,28,12,0.5); }
+    .cover-link { display: block; }
+
+    .cover-ghost {
+      height: 186px; border-radius: 1px 4px 4px 1px;
+      border: 1.5px dashed rgba(120,100,70,0.4);
+      background: repeating-linear-gradient(45deg, rgba(255,255,255,0.25), rgba(255,255,255,0.25) 7px, rgba(180,160,130,0.10) 7px, rgba(180,160,130,0.10) 14px);
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(120,100,70,0.6); font-size: 12px; text-align: center; line-height: 1.4;
+    }
+
+    .caption { padding: 15px 8px 0; text-align: center; }
+    .caption .title { font-size: 14.5px; font-weight: 600; line-height: 1.35; font-family: "Hiragino Mincho ProN", Georgia, serif; }
+    .caption .title-vi { font-size: 12px; color: var(--muted); margin-top: 4px; }
+    .caption .author { font-size: 11px; color: var(--muted); margin-top: 5px; opacity: 0.85; }
+    .caption .meta { font-size: 11px; color: var(--muted); margin-top: 7px; }
+    .progress-wrap { margin: 9px auto 0; max-width: 140px; }
+    .progress-track { height: 6px; background: rgba(0,0,0,0.08); border-radius: 4px; overflow: hidden; }
+    .progress-fill { height: 100%; width: 0; background: linear-gradient(90deg, #2f8f46, #54c46e); transition: width 0.4s; }
+    .progress-label { font-size: 10.5px; color: #2f8f46; font-weight: 600; margin-top: 4px; }
+
+    .slot.ghost .caption { color: var(--muted); opacity: 0.7; font-size: 11px; }
 
     @media (max-width: 600px) {
-      body { margin: 12px auto; padding: 0 10px; }
-      h1 { font-size: 20px; }
-      .lesson-list li { flex-wrap: wrap; padding: 12px 8px; }
-      .lesson-info .vi { display: block; margin-left: 0; margin-top: 2px; }
-      .lesson-info .time { display: inline; }
-      .quick-menu { flex-direction: column; }
-      .quick-menu a { text-align: center; }
+      .wrap { padding: 20px 14px 50px; }
+      .brand h1 { font-size: 21px; }
+      .brand .jp { display: none; }
+      .bookshelf { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+      .cover-box { height: 176px; padding: 0 14px; }
+      .cover { max-height: 158px; }
+      .cover, .cover-ghost { width: 108px; }
+      .cover-ghost { height: 150px; }
     }
   </style>
 </head>
 <body>
-  <h1>BJT 学習</h1>
-
-  <div id="loading">Đang tải...</div>
-
-  <div id="loginView" class="hidden">
-    <p>Đăng nhập để lưu tiến độ học và đồng bộ qua nhiều thiết bị.</p>
-    <button id="loginBtn">Đăng nhập với Google</button>
-    <p style="font-size:13px;color:#666;margin-top:12px;">Bạn cũng có thể xem nội dung bài học mà không cần đăng nhập (nhưng sẽ không lưu được tiến độ).</p>
-    <p><a href="#" id="browseAnonBtn">→ Xem bài học không cần đăng nhập</a></p>
-  </div>
-
-  <div id="appView" class="hidden">
-    <div class="user-bar" id="userBar">
-      👤 <span id="userEmail"></span> | <a href="#" id="logoutBtn">Đăng xuất</a>
+  <div class="wrap">
+    <div class="top-bar">
+      <div class="brand">
+        <h1>📚 Thư viện</h1>
+        <span class="jp">わたしの本棚</span>
+      </div>
+      <div class="top-actions">
+        <a class="icon-link" href="study.html" title="Thống kê giờ học" aria-label="Thống kê giờ học">⏱️</a>
+        <span class="user-bar hidden" id="userBar">👤 <span id="userEmail"></span> · <a href="#" id="logoutBtn">Đăng xuất</a></span>
+        <button class="login-btn hidden" id="loginBtn" title="Đăng nhập để lưu tiến độ">Đăng nhập với Google</button>
+      </div>
     </div>
+    <div class="tagline">Chọn một cuốn sách trên kệ để bắt đầu học.</div>
 
-    <div class="quick-menu">
-      <a href="study.html">⏱️ Đo thời gian học</a>
-    </div>
-
-    <h2>📚 Lộ trình học</h2>
-    <div id="curriculumMeta" style="font-size:13px;color:#666;margin-bottom:16px;"></div>
-    <div id="curriculum"></div>
+    <div id="loading">Đang xếp sách lên kệ…</div>
+    <div id="error" class="hidden" style="color:#b00;"></div>
+    <div class="bookshelf hidden" id="shelf"></div>
   </div>
 
   <script type="module">
     import { firebaseConfig } from './firebase-config.js';
+    import { bookIdOfDoc } from './asset/script/core/books.js';
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
     import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
     import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
@@ -83,125 +137,127 @@
     const provider = new GoogleAuthProvider();
 
     const loadingEl = document.getElementById('loading');
-    const loginView = document.getElementById('loginView');
-    const appView = document.getElementById('appView');
-    const userEmailEl = document.getElementById('userEmail');
+    const errorEl = document.getElementById('error');
+    const shelfEl = document.getElementById('shelf');
     const userBar = document.getElementById('userBar');
+    const userEmailEl = document.getElementById('userEmail');
+    const loginBtn = document.getElementById('loginBtn');
 
-    let curriculum = null;
-    let completedLessons = new Set();
-    let anonymousMode = false;
+    let books = [];
+    const bookStats = {};
+    let doneByBook = {};
 
-    document.getElementById('loginBtn').addEventListener('click', async () => {
-      try {
-        await signInWithPopup(auth, provider);
-      } catch (err) {
-        alert('Đăng nhập thất bại: ' + err.message);
-      }
+    loginBtn.addEventListener('click', async () => {
+      try { await signInWithPopup(auth, provider); }
+      catch (err) { alert('Đăng nhập thất bại: ' + err.message); }
     });
-
-    document.getElementById('browseAnonBtn').addEventListener('click', (e) => {
-      e.preventDefault();
-      anonymousMode = true;
-      showAppView(null);
-    });
-
     document.getElementById('logoutBtn').addEventListener('click', (e) => {
       e.preventDefault();
-      anonymousMode = false;
       signOut(auth);
     });
 
-    async function loadCurriculum() {
-      const res = await fetch('lessons/index.json');
-      curriculum = await res.json();
+    async function loadLibrary() {
+      const res = await fetch('library.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      books = (await res.json()).books || [];
     }
 
-    async function loadProgress(uid) {
+    async function loadBookStats() {
+      await Promise.all(books.map(async (b) => {
+        try {
+          const res = await fetch(`books/${b.id}/index.json`, { cache: 'no-store' });
+          const data = await res.json();
+          bookStats[b.id] = {
+            total: data.totalLessons ?? (data.lessons || []).length,
+            ready: (data.lessons || []).filter(l => l.status === 'ready').length,
+          };
+        } catch {
+          bookStats[b.id] = { total: 0, ready: 0 };
+        }
+      }));
+    }
+
+    async function loadDone(uid) {
+      doneByBook = {};
       try {
         const snap = await getDocs(collection(db, 'users', uid, 'progress'));
-        completedLessons = new Set(snap.docs.map(d => d.id));
-      } catch {
-        completedLessons = new Set();
-      }
+        snap.forEach(d => {
+          const bid = bookIdOfDoc(d.id, d.data());
+          doneByBook[bid] = (doneByBook[bid] || 0) + 1;
+        });
+      } catch {}
     }
 
-    function renderCurriculum() {
-      const container = document.getElementById('curriculum');
-      const meta = document.getElementById('curriculumMeta');
-      const totalReady = curriculum.lessons.filter(l => l.status === 'ready').length;
-      const done = curriculum.lessons.filter(l => completedLessons.has(l.id)).length;
-      meta.textContent = `Mục tiêu: ${curriculum.target} · Xuất phát: ${curriculum.startLevel} · ${curriculum.totalLessons} bài · ${totalReady} bài có sẵn · ${done} bài đã xong`;
-
-      container.innerHTML = '';
-      curriculum.phases.forEach((phase, phaseIdx) => {
-        const phaseDiv = document.createElement('div');
-        phaseDiv.className = 'phase';
-        const lessonsHtml = phase.lessons.map(lessonId => {
-          const lesson = curriculum.lessons.find(l => l.id === lessonId);
-          if (!lesson) return '';
-          const isDone = completedLessons.has(lesson.id);
-          const isReady = lesson.status === 'ready';
-          let badge;
-          if (isDone) badge = `<span class="badge badge-done">✓ Xong</span>`;
-          else if (isReady) badge = `<span class="badge badge-ready">Sẵn sàng</span>`;
-          else badge = `<span class="badge badge-todo">Sắp ra</span>`;
-
-          const link = isReady ? `lesson.html?id=${lesson.id}` : '#';
-          const cls = isReady ? '' : 'todo';
-          return `
-            <li class="${cls}">
-              <div class="lesson-info">
-                <span class="order">#${lesson.order}</span>
-                ${isReady ? `<a href="${link}"><span class="title">${lesson.title}</span></a>` : `<span class="title">${lesson.title}</span>`}
-                <span class="vi">— ${lesson.titleVi}</span>
-                <span class="time">(${lesson.estimatedMinutes}p)</span>
-              </div>
-              ${badge}
-            </li>`;
-        }).join('');
-        phaseDiv.innerHTML = `
-          <div class="phase-name">${phase.name}</div>
-          <div class="phase-desc">${phase.description}</div>
-          <ul class="lesson-list">${lessonsHtml}</ul>`;
-        container.appendChild(phaseDiv);
-      });
+    function bookSlot(b, loggedIn) {
+      const st = bookStats[b.id] || { total: 0, ready: 0 };
+      const total = st.total || 0;
+      const done = Math.min(doneByBook[b.id] || 0, total || Infinity);
+      const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+      const cover = b.cover
+        ? `<img class="cover" src="${b.cover}" alt="${b.title || ''}" loading="lazy">`
+        : `<div class="cover-ghost">📖</div>`;
+      const progress = (loggedIn && total > 0)
+        ? `<div class="progress-wrap">
+             <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
+             <div class="progress-label">✓ ${done}/${total} bài</div>
+           </div>`
+        : '';
+      const slot = document.createElement('div');
+      slot.className = 'slot';
+      slot.innerHTML = `
+        <a class="cover-link" href="book.html?book=${b.id}"><div class="cover-box">${cover}</div></a>
+        <a href="book.html?book=${b.id}"><div class="caption">
+          <div class="title">${b.title || b.id}</div>
+          ${b.titleVi ? `<div class="title-vi">${b.titleVi}</div>` : ''}
+          ${b.author ? `<div class="author">${b.author}</div>` : ''}
+          <div class="meta">${total} bài · ${st.ready} sẵn sàng</div>
+          ${progress}
+        </div></a>`;
+      return slot;
     }
 
-    async function showAppView(user) {
-      loadingEl.classList.add('hidden');
-      loginView.classList.add('hidden');
-      appView.classList.remove('hidden');
+    function ghostSlot() {
+      const slot = document.createElement('div');
+      slot.className = 'slot ghost';
+      slot.innerHTML = `
+        <div class="cover-box"><div class="cover-ghost">Sắp<br>thêm</div></div>
+        <div class="caption">— trống —</div>`;
+      return slot;
+    }
 
-      if (user) {
-        userBar.classList.remove('hidden');
-        userEmailEl.textContent = user.email;
-        await loadProgress(user.uid);
-      } else {
-        userBar.classList.add('hidden');
-        completedLessons = new Set();
-      }
-      renderCurriculum();
+    function renderShelf(loggedIn) {
+      shelfEl.innerHTML = '';
+      books.forEach(b => shelfEl.appendChild(bookSlot(b, loggedIn)));
+      const ghosts = Math.max(0, 4 - books.length);
+      for (let i = 0; i < ghosts; i++) shelfEl.appendChild(ghostSlot());
     }
 
     (async () => {
       try {
-        await loadCurriculum();
+        await loadLibrary();
+        await loadBookStats();
       } catch (err) {
-        loadingEl.textContent = 'Không tải được curriculum: ' + err.message;
+        loadingEl.classList.add('hidden');
+        errorEl.textContent = 'Không tải được thư viện: ' + err.message;
+        errorEl.classList.remove('hidden');
         return;
       }
+      loadingEl.classList.add('hidden');
+      shelfEl.classList.remove('hidden');
+      renderShelf(false);
 
-      onAuthStateChanged(auth, (user) => {
+      onAuthStateChanged(auth, async (user) => {
         if (user) {
-          anonymousMode = false;
-          showAppView(user);
-        } else if (anonymousMode) {
-          showAppView(null);
+          userBar.classList.remove('hidden');
+          loginBtn.classList.add('hidden');
+          userEmailEl.textContent = user.email;
+          await loadDone(user.uid);
+          renderShelf(true);
         } else {
-          loadingEl.classList.add('hidden');
-          appView.classList.add('hidden');
-          loginView.classList.remove('hidden');
+          userBar.classList.add('hidden');
+          loginBtn.classList.remove('hidden');
+          doneByBook = {};
+          renderShelf(false);
         }
       });
     })();

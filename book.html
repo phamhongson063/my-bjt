@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BJT 学習</title>
+  <style>
+    body { font-family: sans-serif; max-width: 960px; margin: 32px auto; padding: 0 16px; color: #222; line-height: 1.55; }
+    h1 { font-size: 24px; margin: 0; }
+    h2 { font-size: 18px; margin-top: 30px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .nav { margin-bottom: 20px; }
+    .user-bar { margin-bottom: 20px; color: #555; font-size: 14px; }
+    .hidden { display: none; }
+    .login-hint { background: #fff3cd; border-left: 4px solid #ffc107; padding: 10px 14px; font-size: 13px; margin: 12px 0; border-radius: 3px; }
+    .quick-menu { display: flex; gap: 12px; margin: 16px 0; flex-wrap: wrap; }
+    .quick-menu a { display: inline-flex; align-items: center; gap: 6px; padding: 12px 18px; background: #f5f5f5; border: 1px solid #ddd; border-radius: 4px; font-size: 15px; min-height: 44px; box-sizing: border-box; }
+    .quick-menu a:hover { background: #e7f3ff; text-decoration: none; }
+
+    .book-head { display: flex; gap: 16px; align-items: flex-start; }
+    .book-head img { width: 76px; height: auto; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.2); flex: none; }
+    .book-head .vi { color: #666; font-size: 14px; margin-top: 4px; }
+
+    .phase { margin-bottom: 24px; }
+    .phase-name { font-weight: 600; color: #0366d6; margin-bottom: 4px; }
+    .phase-desc { color: #666; font-size: 13px; margin-bottom: 10px; }
+    .lesson-list { list-style: none; padding: 0; margin: 0; }
+    .lesson-list li { padding: 10px; border-bottom: 1px solid #eee; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+    .lesson-list li:hover { background: #fafafa; }
+    .lesson-info { flex: 1; min-width: 0; }
+    .lesson-info .order { color: #888; font-size: 13px; margin-right: 6px; }
+    .lesson-info .title { font-weight: 500; }
+    .lesson-info .vi { color: #666; font-size: 13px; margin-left: 6px; }
+    .lesson-info .time { color: #999; font-size: 12px; margin-left: 6px; }
+    .badge { font-size: 12px; padding: 2px 8px; border-radius: 10px; white-space: nowrap; }
+    .badge-done { background: #d4edda; color: #155724; }
+    .badge-ready { background: #cce5ff; color: #004085; }
+    .badge-todo { background: #f0f0f0; color: #888; }
+    .lesson-list .todo { color: #888; cursor: not-allowed; }
+    .lesson-list .todo:hover { background: transparent; }
+
+    @media (max-width: 600px) {
+      body { margin: 12px auto; padding: 0 10px; }
+      h1 { font-size: 20px; }
+      .book-head img { width: 56px; }
+      .lesson-list li { flex-wrap: wrap; padding: 12px 8px; }
+      .lesson-info .vi { display: block; margin-left: 0; margin-top: 2px; }
+      .lesson-info .time { display: inline; }
+      .quick-menu { flex-direction: column; }
+      .quick-menu a { justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav"><a href="index.html">← 📚 Thư viện</a></div>
+
+  <div id="loading">Đang tải...</div>
+  <div id="error" class="hidden" style="color:red;"></div>
+
+  <div id="appView" class="hidden">
+    <div class="user-bar hidden" id="userBar">
+      👤 <span id="userEmail"></span> | <a href="#" id="logoutBtn">Đăng xuất</a>
+    </div>
+    <div class="login-hint hidden" id="loginHint">
+      ⚠️ Chưa đăng nhập — <a href="index.html">đăng nhập ở Thư viện</a> để lưu &amp; đồng bộ tiến độ.
+    </div>
+
+    <div class="book-head">
+      <img id="bookCover" alt="" />
+      <div>
+        <h1 id="bookTitle"></h1>
+        <div class="vi" id="bookTitleVi"></div>
+      </div>
+    </div>
+
+    <div class="quick-menu">
+      <a href="study.html" title="Đo thời gian học" aria-label="Đo thời gian học">⏱️ Thống kê giờ học</a>
+    </div>
+
+    <div id="curriculumMeta" style="font-size:13px;color:#666;margin-bottom:16px;"></div>
+    <div id="curriculum"></div>
+  </div>
+
+  <script type="module">
+    import { firebaseConfig } from './firebase-config.js';
+    import { lessonKey, DEFAULT_BOOK_ID } from './asset/script/core/books.js';
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getAuth, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+    import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+
+    const bookId = new URLSearchParams(location.search).get('book') || DEFAULT_BOOK_ID;
+
+    const loadingEl = document.getElementById('loading');
+    const errorEl = document.getElementById('error');
+    const appView = document.getElementById('appView');
+    const userBar = document.getElementById('userBar');
+    const userEmailEl = document.getElementById('userEmail');
+    const loginHint = document.getElementById('loginHint');
+
+    let bookMeta = null;
+    let curriculum = null;
+    let completedKeys = new Set();
+
+    async function loadBookMeta() {
+      try {
+        const res = await fetch('library.json');
+        const lib = await res.json();
+        bookMeta = (lib.books || []).find(b => b.id === bookId) || null;
+      } catch { bookMeta = null; }
+    }
+
+    async function loadCurriculum() {
+      const res = await fetch(`books/${bookId}/index.json`, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      curriculum = await res.json();
+    }
+
+    async function loadProgress(uid) {
+      try {
+        const snap = await getDocs(collection(db, 'users', uid, 'progress'));
+        completedKeys = new Set(snap.docs.map(d => d.id));
+      } catch {
+        completedKeys = new Set();
+      }
+    }
+
+    function renderHead() {
+      document.getElementById('bookTitle').textContent =
+        (bookMeta && bookMeta.title) || curriculum.source?.title || bookId;
+      document.getElementById('bookTitleVi').textContent =
+        (bookMeta && bookMeta.titleVi) || '';
+      const cover = document.getElementById('bookCover');
+      if (bookMeta && bookMeta.cover) {
+        cover.src = bookMeta.cover;
+        cover.alt = bookMeta.title || '';
+      } else {
+        cover.classList.add('hidden');
+      }
+      document.title = `${(bookMeta && bookMeta.title) || 'BJT'} 学習`;
+    }
+
+    function renderCurriculum() {
+      const container = document.getElementById('curriculum');
+      const meta = document.getElementById('curriculumMeta');
+      const totalReady = curriculum.lessons.filter(l => l.status === 'ready').length;
+      const done = curriculum.lessons.filter(l => completedKeys.has(lessonKey(bookId, l.id))).length;
+      meta.textContent = `Mục tiêu: ${curriculum.target} · Xuất phát: ${curriculum.startLevel} · ${curriculum.totalLessons} bài · ${totalReady} bài có sẵn · ${done} bài đã xong`;
+
+      container.innerHTML = '';
+      curriculum.phases.forEach((phase) => {
+        const phaseDiv = document.createElement('div');
+        phaseDiv.className = 'phase';
+        const lessonsHtml = phase.lessons.map(lessonId => {
+          const lesson = curriculum.lessons.find(l => l.id === lessonId);
+          if (!lesson) return '';
+          const isDone = completedKeys.has(lessonKey(bookId, lesson.id));
+          const isReady = lesson.status === 'ready';
+          let badge;
+          if (isDone) badge = `<span class="badge badge-done">✓ Xong</span>`;
+          else if (isReady) badge = `<span class="badge badge-ready">Sẵn sàng</span>`;
+          else badge = `<span class="badge badge-todo">Sắp ra</span>`;
+
+          const link = isReady ? `lesson.html?book=${bookId}&id=${lesson.id}` : '#';
+          const cls = isReady ? '' : 'todo';
+          return `
+            <li class="${cls}">
+              <div class="lesson-info">
+                <span class="order">#${lesson.order}</span>
+                ${isReady ? `<a href="${link}"><span class="title">${lesson.title}</span></a>` : `<span class="title">${lesson.title}</span>`}
+                <span class="vi">— ${lesson.titleVi}</span>
+                <span class="time">(${lesson.estimatedMinutes}p)</span>
+              </div>
+              ${badge}
+            </li>`;
+        }).join('');
+        phaseDiv.innerHTML = `
+          <div class="phase-name">${phase.name}</div>
+          <div class="phase-desc">${phase.description}</div>
+          <ul class="lesson-list">${lessonsHtml}</ul>`;
+        container.appendChild(phaseDiv);
+      });
+    }
+
+    document.getElementById('logoutBtn').addEventListener('click', (e) => {
+      e.preventDefault();
+      signOut(auth);
+    });
+
+    (async () => {
+      try {
+        await Promise.all([loadBookMeta(), loadCurriculum()]);
+      } catch (err) {
+        loadingEl.classList.add('hidden');
+        errorEl.textContent = `Không tải được sách "${bookId}": ${err.message}`;
+        errorEl.classList.remove('hidden');
+        return;
+      }
+      renderHead();
+      loadingEl.classList.add('hidden');
+      appView.classList.remove('hidden');
+      renderCurriculum();
+
+      onAuthStateChanged(auth, async (user) => {
+        if (user) {
+          userBar.classList.remove('hidden');
+          loginHint.classList.add('hidden');
+          userEmailEl.textContent = user.email;
+          await loadProgress(user.uid);
+        } else {
+          userBar.classList.add('hidden');
+          loginHint.classList.remove('hidden');
+          completedKeys = new Set();
+        }
+        renderCurriculum();
+      });
+    })();
+  </script>
+</body>
+</html>

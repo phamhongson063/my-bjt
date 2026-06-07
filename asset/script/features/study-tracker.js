@@ -89,23 +89,25 @@ async function syncStudyTimeToFirestore(force = false) {
       "users",
       app.currentUser.uid,
       "study-totals",
-      app.lessonId
+      app.lessonKey
     );
     const dailyRef = doc(
       app.db,
       "users",
       app.currentUser.uid,
       "study-daily",
-      `${today}_${app.lessonId}`
+      `${today}_${app.lessonKey}`
     );
     await Promise.all([
       setDoc(totalsRef, {
+        bookId: app.bookId,
         lessonId: app.lessonId,
         totalMs,
         localUpdatedAt,
         updatedAt: serverTimestamp(),
       }),
       setDoc(dailyRef, {
+        bookId: app.bookId,
         lessonId: app.lessonId,
         date: today,
         activeMs: dailyMs,
@@ -184,14 +186,14 @@ async function pullStudyTimeFromFirestore() {
       "users",
       app.currentUser.uid,
       "study-totals",
-      app.lessonId
+      app.lessonKey
     );
     const dailyRef = doc(
       app.db,
       "users",
       app.currentUser.uid,
       "study-daily",
-      `${today}_${app.lessonId}`
+      `${today}_${app.lessonKey}`
     );
     const [totalsSnap, dailySnap] = await Promise.all([
       getDoc(totalsRef),
@@ -231,9 +233,10 @@ async function saveReadingPosition() {
       "users",
       app.currentUser.uid,
       "reading-position",
-      app.lessonId
+      app.lessonKey
     );
     await setDoc(ref, {
+      bookId: app.bookId,
       lessonId: app.lessonId,
       scrollY: Math.round(window.scrollY),
       updatedAt: serverTimestamp(),
@@ -260,7 +263,7 @@ export async function restoreReadingPosition() {
       "users",
       app.currentUser.uid,
       "reading-position",
-      app.lessonId
+      app.lessonKey
     );
     const snap = await getDoc(ref);
     if (!snap.exists()) return;

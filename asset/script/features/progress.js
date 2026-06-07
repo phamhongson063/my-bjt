@@ -24,8 +24,9 @@ export function initProgress(appRef) {
     app.completeBtn.disabled = true;
     try {
       await setDoc(
-        doc(app.db, "users", app.currentUser.uid, "progress", app.lessonId),
+        doc(app.db, "users", app.currentUser.uid, "progress", app.lessonKey),
         {
+          bookId: app.bookId,
           lessonId: app.lessonId,
           completedAt: serverTimestamp(),
           quizCorrect: app.quizScores.correct,
@@ -49,7 +50,7 @@ export async function progressOnAuth(user) {
   if (!user) return;
   try {
     const snap = await getDoc(
-      doc(app.db, "users", user.uid, "progress", app.lessonId)
+      doc(app.db, "users", user.uid, "progress", app.lessonKey)
     );
     if (snap.exists()) {
       app.completeStatus.textContent = `✓ Bài này đã hoàn thành trước đó.`;

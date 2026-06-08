@@ -6,7 +6,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 import { showCopyFlash } from "../core/utils.js";
 
-const IDLE_THRESHOLD_MS = 60 * 1000;
+const IDLE_THRESHOLD_MS = 120 * 1000;
 const MAX_TICK_DELTA_MS = 5 * 1000;
 const FIRESTORE_SYNC_INTERVAL_MS = 3 * 60 * 1000;
 
@@ -78,8 +78,7 @@ async function syncStudyTimeToFirestore(force = false) {
   try {
     const totalMs = lessonTimes[app.lessonId] || 0;
     const today = todayDateKey();
-    const dailyMs =
-      (dailyTimes[today] && dailyTimes[today][app.lessonId]) || 0;
+    const dailyMs = (dailyTimes[today] && dailyTimes[today][app.lessonId]) || 0;
     const localUpdatedAt =
       (lessonTimesMeta[app.lessonId] &&
         lessonTimesMeta[app.lessonId].localUpdatedAt) ||

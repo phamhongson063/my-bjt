@@ -194,6 +194,46 @@ body {
   margin-top: 6px;
   border-left: 3px solid #ccc;
 }
+.vocab-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+.vocab-fc-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #cfd8e3;
+  padding: 4px 9px;
+  font-size: var(--fs-lg1);
+  line-height: 1;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.vocab-fc-toggle:hover,
+.vocab-fc-toggle[aria-pressed="true"] {
+  background: var(--c-primary-bg);
+  border-color: var(--c-primary);
+  color: var(--c-primary);
+}
+.vocab-block.flashcard-on .vocab-card {
+  cursor: pointer;
+}
+.vocab-block.flashcard-on .vocab-meaning {
+  display: none;
+}
+.vocab-block.flashcard-on .vocab-card.revealed .vocab-meaning {
+  display: block;
+}
+.vocab-block.flashcard-on .vocab-card:not(.revealed) {
+  border-style: dashed;
+  border-color: var(--c-primary);
+}
+.vocab-block.flashcard-on .vocab-card:not(.revealed) .vocab-jp-row {
+  background: #fff;
+  border-bottom: none;
+}
 
 /* ── JP clickable ── */
 .jp-clickable {

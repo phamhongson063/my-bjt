@@ -6,6 +6,14 @@ export class VocabPlugin extends SectionPlugin {
   static type = "vocab";
 
   render(section) {
+    const block = document.createElement("div");
+    block.className = "vocab-block";
+
+    const controls = document.createElement("div");
+    controls.className = "vocab-controls";
+    controls.innerHTML = `<button type="button" class="vocab-fc-toggle" aria-pressed="false" aria-label="Chế độ lật thẻ: ẩn nghĩa để tự kiểm tra" title="Lật thẻ — ẩn nghĩa, bấm từng thẻ để xem">🎴</button>`;
+    block.appendChild(controls);
+
     const wrap = document.createElement("div");
     wrap.className = "vocab";
     section.items.forEach((item) => {
@@ -57,8 +65,25 @@ export class VocabPlugin extends SectionPlugin {
           playSegment(item.audio, item.audioStart, item.audioEnd);
         });
       }
+      card.addEventListener("click", (e) => {
+        if (!block.classList.contains("flashcard-on")) return;
+        if (e.target.closest("button, .jp-clickable")) return;
+        card.classList.toggle("revealed");
+      });
       wrap.appendChild(card);
     });
-    return wrap;
+    block.appendChild(wrap);
+
+    const toggle = controls.querySelector(".vocab-fc-toggle");
+    toggle.addEventListener("click", () => {
+      const on = block.classList.toggle("flashcard-on");
+      toggle.setAttribute("aria-pressed", on ? "true" : "false");
+      if (!on)
+        wrap
+          .querySelectorAll(".vocab-card.revealed")
+          .forEach((c) => c.classList.remove("revealed"));
+    });
+
+    return block;
   }
 }

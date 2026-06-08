@@ -34,37 +34,37 @@ function todayDateKey() {
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 }
 
-function formatStudyTime(ms) {
-  const totalSec = Math.floor(ms / 1000);
-  const h = Math.floor(totalSec / 3600);
-  const m = Math.floor((totalSec % 3600) / 60);
-  const s = totalSec % 60;
+function formatClockTime(ms) {
+  const totalMin = Math.floor(ms / 60000);
+  const h = Math.floor(totalMin / 60);
+  const m = totalMin % 60;
   const pad = (n) => String(n).padStart(2, "0");
-  return h > 0 ? `${pad(h)}:${pad(m)}:${pad(s)}` : `${pad(m)}:${pad(s)}`;
+  return `${pad(h)}:${pad(m)}`;
 }
 
 function renderStudyTime(isActive) {
-  const timeEl = document.getElementById("studyTimeDisplay");
-  const statusEl = document.getElementById("studyStatus");
+  const timeEl = document.getElementById("studyClockTime");
+  const dotEl = document.getElementById("studyClockDot");
   if (!timeEl) return;
-  timeEl.textContent = formatStudyTime(lessonTimes[app.lessonId] || 0);
-  if (statusEl) {
+  timeEl.textContent = formatClockTime(lessonTimes[app.lessonId] || 0);
+  if (dotEl) {
+    let label;
+    let counting = false;
     if (pullPending || !authStateResolved) {
-      statusEl.textContent = "⟳ Đang đồng bộ...";
-      statusEl.className = "study-paused";
+      label = "⟳ Đang đồng bộ...";
     } else if (userPaused) {
-      statusEl.textContent = "🛑 Tạm dừng (tự bạn)";
-      statusEl.className = "study-user-paused";
+      label = "🛑 Tạm dừng (tự bạn)";
     } else if (document.hidden) {
-      statusEl.textContent = "◌ Tab ẩn (pause)";
-      statusEl.className = "study-paused";
+      label = "◌ Tab ẩn (pause)";
     } else if (isActive) {
-      statusEl.textContent = "● Đang học";
-      statusEl.className = "study-active";
+      label = "● Đang học";
+      counting = true;
     } else {
-      statusEl.textContent = "◌ Không thao tác (pause)";
-      statusEl.className = "study-paused";
+      label = "◌ Không thao tác (pause)";
     }
+    dotEl.classList.toggle("active", counting);
+    dotEl.title = label;
+    dotEl.setAttribute("aria-label", label);
   }
 }
 

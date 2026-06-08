@@ -1603,46 +1603,42 @@ body.exam-mode .ex-context-vi {
   cursor: not-allowed;
 }
 
-/* ── Study timer ── */
-.study-timer {
-  background: #e7f3ff;
-  border: 1px solid #b8daff;
-  padding: 8px 14px;
-  border-radius: 4px;
-  margin: 12px 0;
-  font-size: var(--fs-sm2);
+/* ── Study clock (fixed top-right) ── */
+.study-clock {
+  position: fixed;
+  top: 12px;
+  right: 18px;
+  z-index: 150;
   display: flex;
-  gap: 12px;
   align-items: center;
-  flex-wrap: wrap;
-}
-.study-timer .timer-label {
-  color: var(--c-muted);
-}
-#studyTimeDisplay {
+  gap: 7px;
+  background: #fff;
+  border: 1px solid var(--c-border);
+  border-radius: 20px;
+  padding: 6px 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
   font-family: monospace;
   font-weight: 700;
-  font-size: var(--fs-lg2);
+  font-size: var(--fs-sm1);
   color: var(--c-primary);
 }
-.study-active {
-  color: var(--c-success);
-  font-size: var(--fs-sm3);
-  font-weight: 600;
+.study-clock-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--c-danger);
+  flex-shrink: 0;
 }
-.study-paused {
-  color: var(--c-subtle);
-  font-size: var(--fs-sm3);
+.study-clock-dot.active {
+  background: var(--c-success);
 }
-.study-user-paused {
-  color: var(--c-danger);
-  font-size: var(--fs-sm3);
-  font-weight: 600;
-}
-.study-timer .help {
-  color: var(--c-subtle);
-  font-size: var(--fs-sm4);
-  margin-left: auto;
+@media (max-width: 600px) {
+  .study-clock {
+    top: 8px;
+    right: 12px;
+    padding: 5px 10px;
+    font-size: var(--fs-sm2);
+  }
 }
 
 /* ── FAB buttons ──

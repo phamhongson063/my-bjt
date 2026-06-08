@@ -6,8 +6,8 @@
   "level": "初級修了 → N3",
   "phase": "第2章: 場面別敬語トレーニング",
   "estimatedMinutes": 30,
-  "intro": "Bài 3 (3課) của Chương 2. Tình huống: công ty Alex sắp tổ chức 送別会 (tiệc chia tay) cho một đồng nghiệp sắp chuyển công tác ra nước ngoài, vào Chủ nhật TUẦN SAU NỮA (再来週). Alex muốn MỜI 金子部長 cùng dự. Ở phiên bản đầu (できますか?), Alex mời quá thẳng và áp đặt: 「部長、ちょっと。」「ひまですか。」「部長も来たいですか。」「ご遠慮なさらないでください。」 → 部長 hơi phật ý, chỉ ậm ừ 「考えておくよ」.\n\nQua bài học cách MỜI cấp trên đúng mực:\n• ① 声をかける — mở lời / xin phép nói (ちょっとよろしいでしょうか).\n• ② 予定を聞く — hỏi lịch khéo (何かご予定がありますか / ご都合はいかがでしょうか) thay vì 「ひまですか」.\n• ③ 誘う — các mẫu mời theo độ mạnh - nhẹ (来ていただきたいんですが / ご出席いただけないかと思いまして / いらっしゃいませんか / いかがでしょうか / いかがかと思いまして). Kèm lưu ý: 「来ていただきたいんですが」 dùng khi mời MẠNH; 「〜まして」 = thể て của 「〜ます」 (＝「〜ので」, KHÔNG dùng khi viết).\n• ④ 「ご遠慮なく」「お/ご〜なく」＝「〜ないでください」 (ご心配なく / お気遣いなく / おかまいなく) — không dùng được với mọi động từ.\n• ⑤ 「〜ております」＝「〜ています」 thể khiêm nhường (お待ちしております / 楽しみにしております / 研究しております).",
-  "intro_jp": "第2章 3課。アレックスさんの会社で、海外に転勤する同僚のために再来週の日曜日に送別会をすることになりました。アレックスさんは金子部長を誘います。できますか?の場面では、「部長、ちょっと。」「ひまですか。」「部長も来たいですか。」「ご遠慮なさらないでください。」など、誘い方が直接的で押しつけがましく、部長は少し怒ってしまいます。\n学習項目:\n• ① 声をかける(ちょっとよろしいでしょうか)\n• ② 予定を聞く(何かご予定がありますか/ご都合はいかがでしょうか)\n• ③ 誘う(来ていただきたいんですが/ご出席いただけないかと思いまして/いらっしゃいませんか/いかがでしょうか/いかがかと思いまして)\n• ④「ご遠慮なく」「お/ご〜なく」＝「〜ないでください」\n• ⑤「〜ております」＝「〜ています」の謙譲語",
+  "intro": "Bài 3 (3課) — Chương 2. Tình huống: công ty Alex tổ chức 送別会 (tiệc chia tay) cho đồng nghiệp sắp chuyển công tác ra nước ngoài, vào Chủ nhật TUẦN SAU NỮA (再来週). Alex muốn MỜI 金子部長 cùng dự.\nỞ bản 「できますか?」, Alex mời quá thẳng & áp đặt (「ひまですか」「来たいですか」「ご遠慮なさらないでください」) nên 部長 phật ý, chỉ ậm ừ 「考えておくよ」. Bài này học cách MỜI cấp trên đúng mực.\n\n🎯 Mục tiêu — 5 điểm chữa lỗi:\n① 声をかける — mở lời (ちょっとよろしいでしょうか).\n② 予定を聞く — hỏi lịch khéo (何かご予定がありますか / ご都合はいかがでしょうか), KHÔNG 「ひまですか」.\n③ 誘う — mời theo độ mạnh (mạnh: 〜ていただきたいんですが… ↔ nhẹ: いらっしゃいませんか / いかがでしょうか / いかがかと思いまして…).\n④ 「お/ご〜なく」＝「〜ないでください」 (ご遠慮なく / お気遣いなく / おかまいなく).\n⑤ 「〜ております」＝「〜ています」 thể khiêm nhường (お待ちしております / 楽しみにしております).",
+  "intro_jp": "第2章 3課。アレックスさんの会社で、海外に転勤する同僚のために再来週の日曜日に送別会をすることになり、金子部長を誘います。\n「できますか?」では「ひまですか」「来たいですか」「ご遠慮なさらないでください」など直接的で押しつけがましく、部長を怒らせてしまいます。この課で目上の人を上手に誘う言い方を学びます。\n\n🎯 学習項目:\n① 声をかける(ちょっとよろしいでしょうか)\n② 予定を聞く(何かご予定がありますか/ご都合はいかがでしょうか)\n③ 誘う(〜ていただきたいんですが… ↔ いらっしゃいませんか/いかがでしょうか/いかがかと思いまして…)\n④「お/ご〜なく」＝「〜ないでください」\n⑤「〜ております」＝「〜ています」の謙譲語",
   "sections": [
     {
       "type": "dialogue",
@@ -192,6 +192,51 @@
       ]
     },
     {
+      "type": "verbtable",
+      "title": "📊 ③ 誘う — Bảng độ mạnh các mẫu mời (tổng hợp)",
+      "intro": "Bảng TỔNG HỢP gom 5 mẫu ở mục ③ phía trên để dễ so sánh (không phải mục riêng trong sách). Mời tha thiết → dùng mẫu MẠNH; muốn để đối phương dễ từ chối → dùng mẫu NHẸ. Mẫu có 「〜まして」「〜んですが…」 chỉ dùng khi NÓI.",
+      "intro_jp": "上の③の5つの言い方をまとめた表です(本にある項目ではありません)。強く誘うときは強い表現、相手が断りやすいようにするときは弱い表現を使います。「〜まして」「〜んですが…」は話すときだけ。",
+      "columns": {
+        "plain": "Mẫu mời",
+        "sonkeigo": "強さ / Độ mạnh",
+        "kenjougo": "Dùng khi · Sắc thái"
+      },
+      "rows": [
+        {
+          "plain": "〜ていただきたいんですが……",
+          "plainVi": "rất mong (anh) …",
+          "sonkeigo": "★★★ mạnh nhất",
+          "kenjougo": "Chỉ NÓI · mời tha thiết, thực sự muốn rủ bằng được"
+        },
+        {
+          "plain": "ご〜いただけないかと思いまして……",
+          "plainVi": "không biết (anh) có thể … được không",
+          "sonkeigo": "★★★ mạnh",
+          "kenjougo": "Chỉ NÓI · mời tha thiết, hạ mình (thể bỏ lửng)"
+        },
+        {
+          "plain": "いらっしゃいませんか",
+          "plainVi": "(anh) … cùng chứ? (sonkeigo của 来ませんか)",
+          "sonkeigo": "★★ vừa",
+          "kenjougo": "Nói · Viết — mời lịch sự, rõ ràng"
+        },
+        {
+          "plain": "いかがでしょうか",
+          "plainVi": "(anh) thấy thế nào ạ?",
+          "sonkeigo": "★ nhẹ",
+          "kenjougo": "Nói · Viết — mời nhẹ, để dễ từ chối"
+        },
+        {
+          "plain": "いかがかと思いまして……",
+          "plainVi": "không biết (anh) có muốn…",
+          "sonkeigo": "★ nhẹ nhất",
+          "kenjougo": "Chỉ NÓI · mời nhẹ nhất, bỏ lửng khiêm tốn"
+        }
+      ],
+      "note": "Thường ghép 「よろしかったら / よろしければ / もしご都合がよろしければ」 ở đầu cho mềm. 「〜まして」 = thể て của 「〜ます」 (＝「〜ので」); 「〜んですが…」 bỏ lửng → cả hai KHÔNG dùng khi viết mail.",
+      "note_jp": "「よろしかったら/よろしければ/もしご都合がよろしければ」を前につけると、やわらかくなります。「〜まして」「〜んですが…」は書きことばでは使いません。"
+    },
+    {
       "type": "grammar",
       "title": "🙅 ④ 「ご遠慮なく」 — 「お/ご〜なく」＝「〜ないでください」 (trang 43)",
       "page": 43,
@@ -215,6 +260,45 @@
           "warning_jp": "すべての動詞には使えないので注意！「お書きなく」✗「お話しなく」✗。（「ご心配なくてね」✗ も不可。）"
         }
       ]
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 ④ 「お/ご〜なく」 — Thẻ cụm cố định (tổng hợp)",
+      "intro": "Bảng TỔNG HỢP 4 cụm 「お/ご〜なく」 hay dùng, gom lại cho dễ tra (không phải mục riêng trong sách). Tất cả ＝「〜ないでください」 nhưng gọn & lịch sự hơn.",
+      "intro_jp": "よく使う「お/ご〜なく」4つをまとめた表です(本にある項目ではありません)。すべて「〜ないでください」の意味で、短くていねいです。",
+      "columns": {
+        "plain": "Cụm",
+        "sonkeigo": "＝「〜ないでください」",
+        "kenjougo": "Dùng khi"
+      },
+      "rows": [
+        {
+          "plain": "ご心配なく",
+          "plainVi": "đừng lo",
+          "sonkeigo": "＝ご心配しないでください",
+          "kenjougo": "Trấn an khi đối phương lo lắng cho mình"
+        },
+        {
+          "plain": "ご遠慮なく",
+          "plainVi": "đừng ngại / cứ tự nhiên",
+          "sonkeigo": "＝遠慮しないでください",
+          "kenjougo": "Mời đối phương cứ thoải mái (ăn, dùng, tham gia…)"
+        },
+        {
+          "plain": "お気遣いなく",
+          "plainVi": "đừng bận tâm",
+          "sonkeigo": "＝気遣わないでください",
+          "kenjougo": "Khi đối phương định mua / chuẩn bị / lo giúp"
+        },
+        {
+          "plain": "おかまいなく",
+          "plainVi": "đừng bày vẽ tiếp đãi",
+          "sonkeigo": "＝かまわないでください",
+          "kenjougo": "Khi đối phương định tiếp đãi mình"
+        }
+      ],
+      "note": "⚠️ KHÔNG ghép tùy ý với mọi động từ: 「お書きなく」✗「お話しなく」✗. Cũng KHÔNG thêm 〜てね: 「ご心配なくてね」✗. Chỉ dùng các cụm cố định ở trên.",
+      "note_jp": "⚠️ すべての動詞には使えません:「お書きなく」✗「お話しなく」✗。「ご心配なくてね」✗ も不可。上の決まった表現だけで使います。"
     },
     {
       "type": "grammar",
@@ -661,6 +745,447 @@
       ],
       "note": "So sánh トラブル → OK:\n• 部長、ちょっと。 → 部長、ちょっとよろしいでしょうか。 ✅ ①\n• ひまですか。 → 何かご予定がありますか。 ✅ ②\n• 部長も来たいですか。 → 部長もご一緒にいかがかと思いまして……。 ✅ ③\n• ご遠慮なさらないでください。(ép) → お気遣いなく。 ✅ ④\n• 楽しみにしています。／返事をよろしくお願いします。 → 楽しみにしております。 ✅ ⑤\n\nNhờ mời đúng mực, lần này 部長 vui vẻ nhận lời 「おお、いいね！行きたいな。」.",
       "note_jp": "p.42の間違い→p.45の正しい誘い方:\n• 部長、ちょっと。 → 部長、ちょっとよろしいでしょうか。①\n• ひまですか。 → 何かご予定がありますか。②\n• 部長も来たいですか。 → 部長もご一緒にいかがかと思いまして……。③\n• ご遠慮なさらないでください。 → お気遣いなく。④\n• 楽しみにしています。 → 楽しみにしております。⑤\n上手に誘えたので、部長は「おお、いいね！行きたいな」と気持ちよく受けてくれました。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh トラブル → これでOK (p.42 ↔ p.45)",
+      "intro": "Bảng TỔNG HỢP đối chiếu bản mời CHƯA khéo (p.42 「できますか?」) ↔ bản ĐÚNG (p.45 「これでOK!」), map theo 5 điểm ①〜⑤. Gom từ 2 hội thoại phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.42「できますか?」の直接的な誘い方と、p.45「これでOK!」の上手な誘い方を①〜⑤で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "Điểm",
+        "sonkeigo": "✗ p.42 (chưa khéo)",
+        "kenjougo": "✓ p.45 (これでOK)"
+      },
+      "rows": [
+        {
+          "plain": "① 声をかける",
+          "plainVi": "mở lời",
+          "sonkeigo": "部長、ちょっと。",
+          "kenjougo": "部長、ちょっとよろしいでしょうか。"
+        },
+        {
+          "plain": "② 予定を聞く",
+          "plainVi": "hỏi lịch",
+          "sonkeigo": "ひまですか。／忙しいですか。",
+          "kenjougo": "何かご予定がありますか。"
+        },
+        {
+          "plain": "③ 誘う",
+          "plainVi": "mời",
+          "sonkeigo": "部長も来たいですか。",
+          "kenjougo": "部長もご一緒にいかがかと思いまして……。"
+        },
+        {
+          "plain": "④ お/ご〜なく",
+          "plainVi": "đừng ép",
+          "sonkeigo": "ご遠慮なさらないでください。",
+          "kenjougo": "お気遣いなく。"
+        },
+        {
+          "plain": "⑤ 〜ております",
+          "plainVi": "câu kết",
+          "sonkeigo": "楽しみにしています。／返事をよろしくお願いします。",
+          "kenjougo": "楽しみにしております。"
+        }
+      ],
+      "note": "Ngoài ra: 「〜から」→「〜ので」, 「連絡します」→「ご連絡します」 cho trang trọng. Nhờ mời đúng mực, lần này 部長 vui vẻ nhận lời 「おお、いいね！行きたいな」.",
+      "note_jp": "ほかに「〜から」→「〜ので」、「連絡します」→「ご連絡します」。上手に誘えたので、部長は「おお、いいね！行きたいな」と気持ちよく受けてくれました。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — 正しいものを選びましょう (trang 46)",
+      "page": 46,
+      "instruction": "正しいものを選びましょう。",
+      "instruction_vi": "Chọn phương án đúng trong ngoặc. Ôn lại: ① 「〜ていただけませんか」 (nhờ lịch sự); ② 「ご遠慮なく」; ③ mời nhẹ bỏ lửng; ④ 「お待ちしております」 (謙譲); ⑤ 「いかがでしょうか」. Đáp án → trang 189.",
+      "note": "Phương án (a/b/c) lấy đúng từ sách (trang 46). Đáp án khớp trang 189: 1)b 2)a 3)a 4)a 5)a.",
+      "items": [
+        {
+          "num": "1",
+          "mode": "choice",
+          "context": "A：私の結婚式に出席して【　？　】。\nB：え、本当ですか。ぜひ。",
+          "context_vi": "A: Anh/chị đến dự lễ cưới của tôi【…】được không ạ? — B: Ơ, thật sao? Rất sẵn lòng.",
+          "options": [
+            "いただきませんか",
+            "いただけませんか",
+            "いただいてませんか"
+          ],
+          "answerIndex": 1,
+          "answer_vi": "「出席していただけませんか」= nhờ lịch sự (thể khả năng いただける). a いただきませんか / c いただいてませんか sai ngữ pháp."
+        },
+        {
+          "num": "2",
+          "mode": "choice",
+          "context": "A：山田さんたちに飲み会に誘われたんですが、一緒に行きませんか。\nB：え、私も行ってもいいんでしょうか。\nA：もちろん、どうぞ【　？　】。",
+          "context_vi": "A: Tôi được nhóm anh Yamada rủ đi nhậu, đi cùng không? — B: Ơ, tôi đi cùng cũng được sao? — A: Tất nhiên, cứ tự nhiên【…】.",
+          "options": [
+            "ごえんりょなく",
+            "おえんりょなく",
+            "おきづかいなく"
+          ],
+          "answerIndex": 0,
+          "answer_vi": "「どうぞご遠慮なく」= 'đừng ngại'. 遠慮 đi với ご (ごえんりょ) nên b おえんりょ sai; c おきづかいなく (đừng bận tâm) không hợp ngữ cảnh 'mời cứ tham gia'."
+        },
+        {
+          "num": "3",
+          "mode": "choice",
+          "context": "よろしかったら、土曜日のパーティーに【　？　】。",
+          "context_vi": "Nếu tiện, (mời) đến bữa tiệc thứ Bảy【…】.",
+          "options": [
+            "おいでいただきたいと思いまして",
+            "おいでなさいませんかと思いまして",
+            "おいでいただけませんかと思って"
+          ],
+          "answerIndex": 0,
+          "answer_vi": "「おいでいただきたいと思いまして」= mời tha thiết, bỏ lửng khiêm tốn (おいで = sonkeigo của 来る/行く/いる). b おいでなさいませんか＋と思いまして lủng củng; c 思って kém trang trọng hơn 思いまして."
+        },
+        {
+          "num": "4",
+          "mode": "choice",
+          "context": "社長、それでは午後2時に空港で【　？　】。",
+          "context_vi": "Thưa giám đốc, vậy 2 giờ chiều tôi【…】ở sân bay ạ.",
+          "options": [
+            "お待ちしております",
+            "お待っております",
+            "お待ちになっています"
+          ],
+          "answerIndex": 0,
+          "answer_vi": "「お待ちしております」= 待つ → お待ちする (謙譲語) → お待ちしております (⑤ 〜ております). b お待っております sai cách chia; c お待ちになっています là 尊敬語 (dùng cho người trên, không cho mình)."
+        },
+        {
+          "num": "5",
+          "mode": "choice",
+          "context": "来週の先生のご都合は【　？　】。",
+          "context_vi": "Lịch của thầy/cô tuần sau【…】ạ?",
+          "options": [
+            "いかがでしょうか",
+            "いかがにしますか",
+            "どういらっしゃいますか"
+          ],
+          "answerIndex": 0,
+          "answer_vi": "「ご都合はいかがでしょうか」= hỏi lịch khéo (②). b いかがにしますか sai; c どういらっしゃいますか không hợp (いらっしゃる là sonkeigo của いる/行く/来る, không dùng hỏi 都合)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "style": "speak",
+      "title": "🗣️ スタイルを変えてみましょう (Track 1-20, trang 46)",
+      "page": 46,
+      "audio": "asset/audio/Track1-20.mp3",
+      "audioLabel": "Track 1-20 — スタイルを変えてみましょう",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Nghe audio rồi NÓI lại mỗi câu (lời rủ thẳng) theo 2 kiểu mời: (1) 敬語スタイル — mời kính ngữ 「よろしかったら〜もいかがかと思いまして……。〜いらっしゃいませんか」; (2) 友達スタイル — rủ thân mật 「よかったら〜もどう? 〜ない?」. Nghe hết một lượt rồi mới luyện. Bấm 🎧 nghe lại từng câu. Lưu ý: 〜から → 〜ので / 〜なので cho trang trọng. Đáp án → trang 189.",
+      "note": "Đáp án 敬語/友達 dưới đây theo trang 189 (Track 1-20).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "田中さんも来てください。",
+          "context_vi": "Anh Tanaka cũng đến nhé. (lời rủ thẳng)",
+          "audioStart": 0,
+          "audioEnd": 20,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "よろしかったら田中さんもいかがかと思いまして……。いらっしゃいませんか。",
+              "answer_vi": "Mời kính ngữ, bỏ lửng khiêm tốn + 「いらっしゃいませんか」 (sonkeigo của 来ませんか)."
+            },
+            {
+              "num": "友達",
+              "answer": "よかったら田中さんもどう? 来ない?",
+              "answer_vi": "Rủ thân mật: 「どう?」+ thể phủ định rủ 「来ない?」."
+            }
+          ]
+        },
+        {
+          "num": "1",
+          "context": "展覧会、田中さんも見に来てください。",
+          "context_vi": "Triển lãm ấy, anh Tanaka cũng đến xem nhé.",
+          "audioStart": 20,
+          "audioEnd": 42,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "展覧会、よろしかったら田中さんもいかがかと思いまして……。見にいらっしゃいませんか。",
+              "answer_vi": "「見に来ませんか」→「見にいらっしゃいませんか」."
+            },
+            {
+              "num": "友達",
+              "answer": "展覧会、よかったら田中さんもどう? 見に来ない?",
+              "answer_vi": "Rủ thân mật 「見に来ない?」."
+            }
+          ]
+        },
+        {
+          "num": "2",
+          "context": "コンサートのチケットが2枚あるから、田中さんも一緒に行ってください。",
+          "context_vi": "Có 2 vé hòa nhạc nên anh Tanaka đi cùng nhé.",
+          "audioStart": 42,
+          "audioEnd": 69,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "コンサートのチケットが2枚ありますので、よろしかったら田中さんも一緒にいかがかと思いまして……。いらっしゃいませんか。",
+              "answer_vi": "「〜から」→「〜ありますので」 (lịch sự) + mời kính ngữ."
+            },
+            {
+              "num": "友達",
+              "answer": "コンサートのチケットが2枚あるから、よかったら田中さんもどう? 行かない?",
+              "answer_vi": "Giữ 「〜から」, rủ thân mật 「行かない?」."
+            }
+          ]
+        },
+        {
+          "num": "3",
+          "context": "この研究会はとてもおもしろそうだから、田中さんも一緒に参加してください。",
+          "context_vi": "Buổi nghiên cứu này có vẻ rất thú vị nên anh Tanaka cùng tham gia nhé.",
+          "audioStart": 69,
+          "audioEnd": 95,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "この研究会はとてもおもしろそうなので、よろしかったら田中さんも一緒にいかがかと思いまして……。参加なさいませんか。",
+              "answer_vi": "「〜だから」→「〜なので」 + 「参加なさいませんか」 (なさる = sonkeigo của する)."
+            },
+            {
+              "num": "友達",
+              "answer": "この研究会はとてもおもしろそうだから、よかったら田中さんも一緒にどう? 参加しない?",
+              "answer_vi": "Giữ 「〜だから」, rủ thân mật 「参加しない?」."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎭 やってみましょう ① — 話してみましょう (trang 47)",
+      "page": 47,
+      "intro": "Hoạt động NÓI theo cặp. Tình huống: bạn (du học sinh) muốn MỜI thầy/cô tới 歓迎会 (tiệc chào mừng) cho một người bạn từ nước bạn sắp sang Nhật. Mỗi người cầm một ロールカード rồi hội thoại bằng kính ngữ.\nTự học một mình? Đọc cả hai thẻ rồi tự dựng hội thoại cho từng vai; bấm 🔊 để nghe đề bài.\n👉 Thẻ vai trong sách: vai A (học sinh) trang 168, vai B (thầy/cô) trang 172.",
+      "intro_jp": "ペアで話す練習です。あなた(留学生)は、国から来る友達のための歓迎会に先生を誘います。ロールカードを持って、自分の役で敬語の会話をしましょう。\nロールカード:A(学生)=p.168 / B(先生)=p.172。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう",
+          "title_vi": "Mời thầy/cô dự tiệc chào mừng bạn",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "日本語学校の学生",
+              "who_vi": "Bạn là học sinh trường tiếng Nhật (thẻ vai trang 168)",
+              "ref": "ロールカード p.168",
+              "jp": "あなたは日本語学校の学生です。再来週、国から友達が来るので、歓迎会をしようと思っています。先生を誘ってください。先生の予定を聞いてからパーティーの日を決めます。",
+              "vi": "Bạn là học sinh trường tiếng Nhật. Tuần sau nữa có người bạn từ nước bạn sang, nên bạn định tổ chức tiệc chào mừng (歓迎会). Hãy MỜI thầy/cô. Hỏi lịch của thầy/cô rồi mới quyết định ngày tổ chức."
+            },
+            {
+              "side": "B",
+              "who_jp": "日本語学校の先生",
+              "who_vi": "Bạn là thầy/cô trường tiếng Nhật (thẻ vai trang 172)",
+              "ref": "ロールカード p.172",
+              "jp": "あなたは日本語学校の先生です。学生があなたを誘います。再来週の金曜日の夜6時からひまです。飲み物などを買っていくと言ってください。",
+              "vi": "Bạn là thầy/cô trường tiếng Nhật. Học sinh sẽ mời bạn. Bạn rảnh từ 6 giờ tối thứ Sáu tuần sau nữa. Hãy nói rằng bạn sẽ mua đồ uống mang đến."
+            }
+          ],
+          "hints": [
+            {
+              "jp": "先生、ちょっとよろしいでしょうか。",
+              "vi": "(học sinh) mở lời — ① 声をかける"
+            },
+            {
+              "jp": "再来週、何かご予定がありますか。",
+              "vi": "(học sinh) hỏi lịch — ② 予定を聞く"
+            },
+            {
+              "jp": "よろしかったら、先生もいかがかと思いまして……。",
+              "vi": "(học sinh) mời nhẹ, bỏ lửng — ③ 誘う"
+            },
+            {
+              "jp": "お気遣いなく。",
+              "vi": "(học sinh) khi thầy/cô đề nghị mua đồ — ④ お/ご〜なく"
+            },
+            {
+              "jp": "楽しみにしております。",
+              "vi": "(học sinh) câu kết — ⑤ 〜ております"
+            }
+          ],
+          "model": {
+            "track": "1-21",
+            "audio": "asset/audio/Track1-21.mp3",
+            "intro_vi": "Hội thoại mẫu in trong sách (trang 189). Hãy tự dựng & nói trước theo thẻ vai, rồi mới mở ra đối chiếu.",
+            "intro_jp": "本の会話例（p.189）です。先に自分で話してから、答え合わせに開いてください。",
+            "lines": [
+              {
+                "sp": "A",
+                "jp": "木村先生、ちょっとよろしいでしょうか。",
+                "vi": "Thầy Kimura, em xin phép một chút được không ạ?",
+                "note_vi": "① 声をかける — xin phép mở lời."
+              },
+              {
+                "sp": "B",
+                "jp": "ああ、ユンさん。何ですか?",
+                "vi": "À, Yun đấy à. Có việc gì thế?"
+              },
+              {
+                "sp": "A",
+                "jp": "実は再来週、国から友人が来日するので、うちで歓迎会をしようと思っているんです。",
+                "vi": "Thật ra tuần sau nữa có người bạn từ nước em sang Nhật, nên em định tổ chức tiệc chào mừng ở nhà ạ."
+              },
+              {
+                "sp": "B",
+                "jp": "へえ、そうなんですか。",
+                "vi": "Ồ, vậy à."
+              },
+              {
+                "sp": "A",
+                "jp": "それで、よろしかったら、先生もいかがかと思いまして。いらっしゃいませんか。",
+                "vi": "Thế nên, nếu thầy tiện, không biết thầy có muốn… Thầy đến cùng không ạ?",
+                "note_vi": "③ 誘う — mời nhẹ, bỏ lửng + 「いらっしゃいませんか」 (sonkeigo của 来ませんか)."
+              },
+              {
+                "sp": "B",
+                "jp": "私が行ってもよければ、ぜひ! いつですか。",
+                "vi": "Nếu tôi đến mà tiện thì nhất định rồi! Khi nào thế?"
+              },
+              {
+                "sp": "A",
+                "jp": "先生のスケジュールを伺ってから、決めたいんですが。",
+                "vi": "Em muốn hỏi lịch của thầy rồi mới quyết định ạ.",
+                "note_vi": "「伺う」= kenjougo (hỏi/nghe — hạ mình)."
+              },
+              {
+                "sp": "B",
+                "jp": "わかりました。じゃあ、金曜日の6時はどうですか。何か飲み物を買っていきますよ。",
+                "vi": "Được rồi. Vậy thứ Sáu 6 giờ thì sao? Tôi sẽ mua ít đồ uống mang đến."
+              },
+              {
+                "sp": "A",
+                "jp": "いえいえ、お気遣いなく。金曜日ですね。それではお待ちしております。",
+                "vi": "Dạ không không, thầy đừng bận tâm ạ. Thứ Sáu nhé ạ. Vậy em xin đợi thầy ạ.",
+                "note_vi": "④ お気遣いなく + ⑤ お待ちしております."
+              },
+              {
+                "sp": "B",
+                "jp": "楽しみにしています。",
+                "vi": "Tôi rất mong đấy."
+              }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 会話例 (hội thoại mẫu, trang 189 · Track 1-21) đã nhúng ngay dưới — bấm \"📖 Xem hội thoại mẫu\" để đối chiếu sau khi đã tự nói.",
+      "answerRef_jp": "会話例（p.189・Track 1-21）は下にあります。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "exercise",
+      "title": "✉️ やってみましょう ② — メールを書いてみましょう (trang 47)",
+      "page": 47,
+      "instruction": "木村先生を歓迎会に誘うメールを書いてみましょう。①〜③に入る文を考えてください。",
+      "instruction_vi": "Viết mail mời 木村先生 dự tiệc chào mừng. Điền 3 câu vào ô trống ①②③ theo gợi ý. ⚠️ Lưu ý: 「来ていただきたいんですが…」「ご出席いただけないかと思いまして…」 là văn NÓI, KHÔNG dùng khi VIẾT mail (書きことばでは使いません). Đáp án mẫu → trang 189.",
+      "note": "メール本文:\n木村先生\nこんにちは。ユンです。\n今日は、お誘いしたいことがあってメールをいたします。\n実は、再来週、国から友人が来日することになったので、私のうちで歓迎会をしようと思っています。\n①＿＿＿＿＿＿＿＿＿＿。（先生を誘う）\n②＿＿＿＿＿＿＿＿＿＿。（先生の予定を聞く）\n③＿＿＿＿＿＿＿＿＿＿。（返事を待っていると伝える）\nユン",
+      "items": [
+        {
+          "num": "①",
+          "context": "①（先生を誘う）",
+          "context_vi": "① Mời thầy (lời mời)",
+          "answer": "よろしければ、先生もいらっしゃいませんか。",
+          "answer_vi": "Đáp án sách (p.189): 「よろしければ、先生もいらっしゃいませんか」 hoặc 「先生にも来ていただきたいと思っています」 (văn viết — KHÔNG dùng 「〜んですが…」 bỏ lửng)."
+        },
+        {
+          "num": "②",
+          "context": "②（先生の予定を聞く）",
+          "context_vi": "② Hỏi lịch của thầy",
+          "answer": "先生のご都合はいかがでしょうか。",
+          "answer_vi": "Đáp án sách (p.189): 「先生のご都合はいかがでしょうか」."
+        },
+        {
+          "num": "③",
+          "context": "③（返事を待っていると伝える）",
+          "context_vi": "③ Báo rằng đang chờ hồi âm",
+          "answer": "お返事をお待ちしております。",
+          "answer_vi": "Đáp án sách (p.189): 「お返事をお待ちしております」 (⑤ 〜ております)."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Tổng hợp từ vựng Bài 3 (trang 48)",
+      "page": 48,
+      "intro": "Bảng từ vựng của cả Bài 3 (3課), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.\nNhiều mục là cặp 「từ trang trọng ＝ từ thường ngày」 — hiểu nghĩa qua từ quen thuộc.",
+      "intro_jp": "3課の語彙タンク(p.48)。出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        {
+          "jp": "海外",
+          "kana": "かいがい",
+          "vi": "Nước ngoài (＝〈đối với Nhật〉外国)",
+          "note": "📖 trang 42 — 海外＝(日本にとっての)外国."
+        },
+        {
+          "jp": "転勤する",
+          "kana": "てんきんする",
+          "vi": "Chuyển công tác (điều chuyển nơi làm)",
+          "note": "📖 trang 42 — to transfer."
+        },
+        {
+          "jp": "気遣う",
+          "kana": "きづかう",
+          "vi": "Bận tâm, lo lắng cho (to bother / trouble with)",
+          "note": "📖 trang 43 — 「お気遣いなく」= xin đừng bận tâm."
+        },
+        {
+          "jp": "かまう",
+          "kana": "かまう",
+          "vi": "Để ý, bận lòng (to mind)",
+          "note": "📖 trang 43 — 「おかまいなく」= xin đừng để ý / lo cho tôi."
+        },
+        {
+          "jp": "当日",
+          "kana": "とうじつ",
+          "vi": "Ngày hôm đó (＝その日)",
+          "note": "📖 trang 43 — chính ngày diễn ra sự việc."
+        },
+        {
+          "jp": "楽しみにする",
+          "kana": "たのしみにする",
+          "vi": "Mong chờ, trông đợi (to look forward to)",
+          "note": "📖 trang 43 — 「楽しみにしております」 (謙譲)."
+        },
+        {
+          "jp": "参加する",
+          "kana": "さんかする",
+          "vi": "Tham gia (to join / participate)",
+          "note": "📖 trang 44."
+        },
+        {
+          "jp": "実は",
+          "kana": "じつは",
+          "vi": "Thật ra, kỳ thực (in fact / actually)",
+          "note": "📖 trang 47 — đệm trước khi vào nội dung chính."
+        },
+        {
+          "jp": "友人",
+          "kana": "ゆうじん",
+          "vi": "Bạn (＝友達, trang trọng hơn)",
+          "note": "📖 trang 47 — 友人＝友達."
+        },
+        {
+          "jp": "来日する",
+          "kana": "らいにちする",
+          "vi": "Đến Nhật (＝日本に来る)",
+          "note": "📖 trang 47 — 来日する＝日本に来る."
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "💬 コラム — お時間ございますか (trang 49)",
+      "page": 49,
+      "content": "Một mẩu chuyện về kính ngữ:\n「ございます」 vốn là KHIÊM NHƯỜNG ngữ (謙譲語) — dùng để hạ mình. Vì thế, xét theo lý, dùng nó để hỏi THỜI GIAN của người trên 「お時間ございますか」 (Anh/chị có thời gian không ạ?) là hơi lệch chuẩn. Thế nhưng ngày càng nhiều người dùng kiểu này.\nTác giả đã làm một khảo sát nhỏ: hỏi 160 người bản ngữ tiếng Nhật rằng “Bạn nghĩ sao về việc hỏi người trên 『お時間ございますか』?”. Kết quả: bất kể giới tính hay độ tuổi, HƠN MỘT NỬA trả lời “không thấy gợn / không phản cảm” (抵抗がない).\nCó lẽ ngày nay ý nghĩa khiêm nhường ngữ của 「ございます」 không còn được mấy ai để tâm nữa.",
+      "content_jp": "「ございます」は謙譲語です。でも、この「ございます」を使って、相手に対して「お時間ございますか」と聞く人が増えています。これについて簡単な調査をしてみました。日本語が母語の160人に「目上の人に『お時間ございますか』と聞くことについてどう思いますか」と質問したら、性別・年代に関係なく、半数以上が「抵抗がない」と答えました。\n今、「ございます」の謙譲語の意味はあまり意識されていないのかもしれません。"
+    },
+    {
+      "type": "tips",
+      "title": "📚 Đáp án + Bước tiếp theo",
+      "content": "📖 Tham chiếu trong sách:\n• Đáp án 練習①②③ (Track 1-16〜1-18) → trang 188.\n• Đáp án チェック + スタイルを変えて (Track 1-20) + 会話例 (Track 1-21) → trang 189.\n• Thẻ vai: A (học sinh) → trang 168; B (thầy/cô) → trang 172.\n\n🎯 Tổng kết Bài 3 (3課 誘う):\n• ① 声をかける — mở lời 「ちょっとよろしいでしょうか」.\n• ② 予定を聞く — hỏi lịch khéo 「何かご予定がありますか」「ご都合はいかがでしょうか」 (KHÔNG 「ひまですか」).\n• ③ 誘う — mời theo độ mạnh: 「〜ていただきたいんですが…」 (mạnh) ↔ 「いらっしゃいませんか」「いかがでしょうか」「いかがかと思いまして…」 (nhẹ).\n• ④ 「お/ご〜なく」＝「〜ないでください」: ご遠慮なく / お気遣いなく / おかまいなく (chỉ vài cụm cố định).\n• ⑤ 「〜ております」＝「〜ています」 thể khiêm nhường: お待ちしております / 楽しみにしております.\n• Văn NÓI ↔ văn VIẾT: 「〜まして」「来ていただきたいんですが…」 KHÔNG dùng khi viết mail.\n\n→ Bài tiếp theo: L05 「お願いする」 (trang 50) — Nhờ vả / yêu cầu.",
+      "content_jp": "📖 本の参照:\n• 練習①②③(Track 1-16〜1-18)の答え → p.188\n• チェック・スタイルを変えて(Track 1-20)・会話例(Track 1-21)の答え → p.189\n• ロールカード:A(学生)=p.168 / B(先生)=p.172\n\n🎯 3課「誘う」のまとめ:\n• ① 声をかける(ちょっとよろしいでしょうか)\n• ② 予定を聞く(何かご予定がありますか/ご都合はいかがでしょうか)\n• ③ 誘う(〜ていただきたいんですが… ↔ いらっしゃいませんか/いかがでしょうか/いかがかと思いまして…)\n• ④「お/ご〜なく」＝「〜ないでください」(ご遠慮なく/お気遣いなく/おかまいなく)\n• ⑤「〜ております」＝「〜ています」の謙譲語(お待ちしております/楽しみにしております)\n• 話しことば↔書きことば:「〜まして」「来ていただきたいんですが…」は書くとき使わない\n\n→ 次は L05「お願いする」(p.50)。"
     }
   ]
 }

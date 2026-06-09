@@ -1,0 +1,894 @@
+{
+  "id": "L05",
+  "order": 5,
+  "title": "4課 お願いする",
+  "titleVi": "Bài 4 — Nhờ vả / Yêu cầu (với khách hàng, cấp trên)",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 40,
+  "intro": "Bài 4 (4課) — Chương 2. Tình huống: Alex tới chỗ 山田さん của hãng phim châu Á (取引先 — khách hàng) để bàn về trailer (予告編) bộ phim mới.\nỞ bản 「できますか?」, Alex nhờ vả quá thẳng & suồng sã (「ちょっといいですか」「見たいんで」「送ってくれませんか」), lại đòi một lúc quá nhiều thứ (DVD + bản dịch tiếng Nhật + tiếng Anh…) mà không có câu đệm, nên 山田さん phật ý 「ちょ、ちょっと、待ってください！」. Bài này học cách NHỜ người trên / khách hàng đúng mực.\n\n🎯 Mục tiêu — 5 điểm:\n① 呼びかける — mở lời xin phép trước khi nhờ (ちょっとよろしいでしょうか).\n② 「(実は)〜のですが」 — câu đệm/dẫn nhập nêu hoàn cảnh trước khi nói yêu cầu.\n③ 「〜いただけませんか」 — mẫu nhờ lịch sự (nhóm 1·2: 〜ていただけませんか／お〜いただけませんか; nhóm 3: 〜ていただけませんか／ご〜いただけませんか). 「お/ご〜」 lịch sự hơn 「〜て」.\n④ 続けてお願いを言う — nói tiếp/nhắc lại yêu cầu khiêm tốn (〜ていただけないかと思いまして… / 〜ていただけるとありがたいんですが…).\n⑤ ていねいさを変えるには — đổi 「呼びかけのことば」 và 「文末の表現」 để chỉnh độ trang trọng (友達 → ですます → 敬語).",
+  "intro_jp": "第2章 4課。アレックスさんは取引先のアジア映画の山田さんのところに来て、新しい映画の予告編について話します。\n「できますか?」では「ちょっといいですか」「見たいんで」「送ってくれませんか」と直接的・くだけた言い方で、しかもDVD・日本語訳・英語…と一度にたくさん頼んでしまい、山田さんを怒らせます。この課で、目上の人や取引先に上手に「お願いする」言い方を学びます。\n\n🎯 学習項目:\n① 呼びかける(ちょっとよろしいでしょうか)\n②「(実は)〜のですが」前置きを言う\n③「〜いただけませんか」お願いを言う(Ⅰ・Ⅱグループ:〜ていただけませんか／お〜いただけませんか、Ⅲグループ:〜ていただけませんか／ご〜いただけませんか)\n④ 続けてお願いを言う(〜ていただけないかと思いまして…／〜ていただけるとありがたいんですが…)\n⑤ ていねいさを変えるには(「呼びかけのことば」と「文末の表現」を変える)",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — Alex nhờ 山田さん (取引先) về trailer phim (trang 50)",
+      "page": 50,
+      "image": "images/L05/50_1.jpg",
+      "imageAlt": "Minh hoạ trang 50 — Alex ngồi đối diện 山田さん ở bàn họp, hào hứng nói liền một tràng (bong bóng 翻訳・字幕・DVD), 山田さん giơ tay ngăn lại tỏ vẻ khó chịu.",
+      "imageCaption": "Minh hoạ trang 50 — Alex nhờ quá nhiều thứ cùng lúc, cách nói lại suồng sã nên 山田さん phật ý.",
+      "scene": "アレックスさんは、今日は取引先のアジア映画の山田さんのところに来て、新しい映画の予告編について話しています。\n(Hôm nay Alex tới chỗ 山田さん của hãng phim châu Á — một khách hàng (取引先) — để bàn về trailer (予告編) của bộ phim mới. Đây là cách nhờ CHƯA đúng — để ý các chỗ suồng sã / đòi hỏi dồn dập.)",
+      "lines": [
+        {
+          "speaker": "山田",
+          "jp": "初めまして。山田です。",
+          "vi": "Rất hân hạnh. Tôi là Yamada."
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "どうぞよろしくお願いいたします。",
+          "vi": "Rất mong được anh/chị giúp đỡ ạ."
+        },
+        {
+          "speaker": "山田",
+          "jp": "えー……以上が映画の説明なんですが、いかがでしょうか。日本ムービーさんで扱っていただけませんか。",
+          "vi": "À… trên đây là phần giới thiệu phim, anh thấy thế nào ạ? Bên Japan Movie (công ty của Alex) nhận phân phối giúp được không ạ?"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "いいと思います。あのー、ちょっといいですか。僕の会社でみんなで見たいんで、この韓国映画の予告編のDVDを送ってくれませんか。でも、韓国語の字幕しかありませんから、日本語の翻訳があるともっと便利ですね。えーと、それから英語の……。",
+          "vi": "Tôi thấy ổn ạ. À, cho hỏi chút. Bên công ty tôi muốn xem chung, nên gửi cho cái DVD trailer phim Hàn này được không? Mà nó chỉ có phụ đề tiếng Hàn thôi, nên có bản dịch tiếng Nhật thì tiện hơn nhỉ. À mà, rồi cả tiếng Anh nữa… (⚠️ 「ちょっといいですか」 suồng → 「ちょっとよろしいでしょうか」 ①; 「見たいんで」 縮約 → 「見たいので」; 「送ってくれませんか」 → 「お送りいただけませんか」 ③; đòi DVD + dịch Nhật + Anh dồn một lúc không đệm → cần 「(実は)〜のですが」 ② + 「〜ていただけないかと思いまして」 ④; 「〜から」 → 「〜ので/ありませんので」)"
+        },
+        {
+          "speaker": "山田",
+          "jp": "ちょ、ちょっと、待ってください！",
+          "vi": "Kh-khoan, khoan đã nào!"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "あ……すみません。",
+          "vi": "À… em xin lỗi ạ."
+        },
+        {
+          "speaker": "—",
+          "jp": "初めての商談でしたが、相手の山田さんは怒ってしまったようです。",
+          "vi": "Đây là buổi thương lượng (商談) đầu tiên, nhưng có vẻ 山田さん — phía đối tác — đã phật ý. (Vì Alex nhờ dồn dập và nói suồng sã.)"
+        }
+      ],
+      "vocabHighlight": [
+        "「ちょっといいですか」 suồng → 「ちょっとよろしいでしょうか」 (① 呼びかける)",
+        "đòi DVD + bản dịch + tiếng Anh dồn một lúc, không đệm → cần câu dẫn 「(実は)〜のですが」 (② 前置き)",
+        "「送ってくれませんか」 → 「お送りいただけませんか」 (③ 〜いただけませんか)",
+        "nói tiếp yêu cầu thì khiêm tốn: 「〜ていただけないかと思いまして…」 (④ 続けてお願い)",
+        "「見たいんで」 縮約 → 「見たいので」; 「〜から」 → 「〜ので / ありませんので」 cho trang trọng."
+      ],
+      "note": "Cảnh huống dẫn vào trọng tâm Bài 4: cách NHỜ người trên / khách hàng đúng mực. Lỗi của Alex: (1) mở lời suồng 「ちょっといいですか」; (2) đòi nhiều thứ một lúc mà không có câu đệm; (3) dùng 「送ってくれませんか」 thay vì mẫu khiêm nhường. 5 mục ①〜⑤ bên dưới chữa từng chỗ; bản chuẩn xem ở 「これでOK!」 (trang 54).",
+      "note_jp": "この課では、目上の人や取引先に上手に「お願いする」言い方を勉強します。アレックスさんは「ちょっといいですか」とくだけて声をかけ、前置きもなくDVD・日本語訳・英語と一度に頼み、「送ってくれませんか」と直接的に言って山田さんを怒らせてしまいました。①〜⑤で直し方を学び、正しい会話は「これでOK!」(p.54)で確認します。"
+    },
+    {
+      "type": "grammar",
+      "title": "🗣️ ① 呼びかける — Mở lời / xin phép trước khi nhờ (trang 51)",
+      "page": 51,
+      "items": [
+        {
+          "pattern": "(呼びかけ) ＋ ちょっとよろしいでしょうか。／ お忙しいでしょうか。／ お時間いただいてもよろしいでしょうか。",
+          "patternVi": "Câu mở lời / xin phép một chút trước khi vào việc nhờ vả (thay vì 「ちょっといいですか」 suồng).",
+          "explanation": "Trước khi nhờ, mở lời xin phép một câu cho lịch sự. 「よろしいでしょうか」 lịch sự hơn 「いいですか」.",
+          "explanation_jp": "お願いをする前に、ひと言声をかけます。「よろしいでしょうか」は「いいですか」よりていねいです。",
+          "examples": [
+            {
+              "jp": "あの、ちょっとよろしいでしょうか。",
+              "vi": "Dạ, em xin phép một chút được không ạ?"
+            },
+            {
+              "jp": "今、お忙しいでしょうか。",
+              "vi": "Bây giờ anh/chị có bận không ạ?"
+            },
+            {
+              "jp": "お時間いただいてもよろしいでしょうか。",
+              "vi": "Anh/chị cho em xin chút thời gian được không ạ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "📝 ② 「(実は)〜のですが」 — Câu đệm / dẫn nhập trước khi nhờ (trang 51)",
+      "page": 51,
+      "items": [
+        {
+          "pattern": "（実は）〜のですが…。／ 〜たいのですが…。",
+          "patternVi": "Câu đệm nêu hoàn cảnh / ý định trước khi nói yêu cầu chính, để không quá đột ngột.",
+          "explanation": "Trước khi nói thẳng việc cần nhờ, đặt một câu 'dẫn' nêu bối cảnh hoặc ý định bằng 「〜のですが」. Câu nghe mềm hơn, đối phương dễ đón nhận.",
+          "explanation_jp": "本題を言う前に、「〜のですが」で状況や事情を前置きします。やわらかくなります。",
+          "examples": [
+            {
+              "jp": "持ち帰って、わが社の者と検討したいのですが…。",
+              "vi": "Em muốn mang về bàn với người bên công ty em ạ… (rồi mới vào yêu cầu)"
+            },
+            {
+              "jp": "実は、使い方がよくわからないのですが……。",
+              "vi": "Thật ra, em chưa rõ cách dùng lắm ạ… (dẫn vào việc nhờ chỉ giúp)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🙏 ③ 「〜いただけませんか」 — Nói lời nhờ lịch sự (trang 51)",
+      "page": 51,
+      "intro": "Mẫu nhờ vả lịch sự, là thể khiêm nhường của 「〜てもらえませんか」. 💡 「お/ご〜いただけませんか」 lịch sự hơn 「〜ていただけませんか」. Chia mẫu theo nhóm động từ:",
+      "intro_jp": "ていねいなお願いの言い方で、「〜てもらえませんか」の謙譲表現です。💡「お/ご〜いただけませんか」は「〜ていただけませんか」よりていねいです。動詞のグループで形が変わります。",
+      "items": [
+        {
+          "pattern": "Ⅰ・Ⅱグループの動詞 → ［Vて］いただけませんか ／ お［Vます］いただけませんか",
+          "patternVi": "Động từ nhóm 1·2: thể て ＋ いただけませんか, hoặc お ＋ thể ます ＋ いただけませんか (lịch sự hơn).",
+          "explanation": "Với động từ nhóm 1 và 2. Hai cách: 「〜ていただけませんか」 hoặc 「お〜いただけませんか」 (lịch sự hơn).",
+          "explanation_jp": "Ⅰ・Ⅱグループの動詞に使います。「〜ていただけませんか」または「お〜いただけませんか」(よりていねい)。",
+          "examples": [
+            {
+              "jp": "日本語の翻訳をつけていただけませんか。",
+              "vi": "Anh/chị thêm bản dịch tiếng Nhật giúp được không ạ?"
+            },
+            {
+              "jp": "この予告編のDVDを1枚お送りいただけませんか。",
+              "vi": "Anh/chị gửi cho (em) 1 chiếc DVD trailer này được không ạ? (お送り〜 lịch sự hơn 送って〜)"
+            }
+          ]
+        },
+        {
+          "pattern": "Ⅲグループの動詞 → ［Vて］いただけませんか ／ ご［漢字のことば］いただけませんか",
+          "patternVi": "Động từ nhóm 3 (〜する): thể て ＋ いただけませんか, hoặc ご ＋ [danh từ Hán] ＋ いただけませんか.",
+          "explanation": "Với động từ nhóm 3 (danh từ ＋ する). Hai cách: 「〜していただけませんか」 hoặc 「ご[từ Hán]いただけませんか」.",
+          "explanation_jp": "Ⅲグループの動詞(する動詞)に使います。「〜していただけませんか」または「ご〜いただけませんか」。",
+          "examples": [
+            {
+              "jp": "田中さんに連絡していただけませんか。",
+              "vi": "Anh/chị liên lạc với anh Tanaka giúp được không ạ?"
+            },
+            {
+              "jp": "新製品についてご紹介いただけませんか。",
+              "vi": "Anh/chị giới thiệu về sản phẩm mới giúp được không ạ? (ご紹介〜 lịch sự hơn 紹介して〜)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🔁 ④ 続けてお願いを言う — Nói tiếp / nhắc lại yêu cầu (trang 51)",
+      "page": 51,
+      "items": [
+        {
+          "pattern": "〜ていただけないかと思いまして…。／ 〜ていただけるとありがたいんですが…。",
+          "patternVi": "Cách nói tiếp / nhắc lại yêu cầu một cách khiêm tốn, bỏ lửng cho mềm.",
+          "explanation": "Sau khi đã nhờ, nói thêm hoặc nhắc lại yêu cầu thật nhẹ nhàng. 💡 「思いまして」 mang sắc thái 「お願いを受けてくれますか」 (không biết anh/chị có nhận lời giúp không ạ).",
+          "explanation_jp": "💡「思いまして」のあとには「お願いを受けてくれますか」のニュアンスがあります。",
+          "examples": [
+            {
+              "jp": "日本語訳をつけていただけないかと思いまして…。",
+              "vi": "(Em nghĩ) không biết anh/chị có thể thêm bản dịch tiếng Nhật giúp được không ạ…"
+            },
+            {
+              "jp": "日本語訳をつけていただけるとありがたいんですが…。",
+              "vi": "Nếu anh/chị thêm bản dịch tiếng Nhật giúp thì em rất biết ơn ạ…"
+            }
+          ],
+          "warning": "「〜まして」「〜んですが…」 bỏ lửng là văn NÓI — KHÔNG dùng khi VIẾT mail.",
+          "warning_jp": "「〜まして」「〜んですが…」と最後を言い切らない言い方は話しことば。書くときは使いません。"
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "🎚️ ⑤ ていねいさを変えるには — Chỉnh độ trang trọng (trang 51)",
+      "page": 51,
+      "content": "Trong tiếng Nhật, tùy ĐỐI PHƯƠNG và TÌNH HUỐNG, ta đổi 「呼びかけのことば」 (cách mở lời) và 「文末の表現」 (cách kết câu) để thay đổi độ trang trọng.\nHai bảng dưới đây xếp các cụm theo 3 phong cách: 友達スタイル (thân mật) → ですますスタイル (lịch sự thường) → 敬語スタイル (kính ngữ). Chọn cụm cho đúng phong cách bạn cần.",
+      "content_jp": "日本語では、相手やシチュエーションによって、「呼びかけのことば」や「文末の表現」を変えて、ていねいさを変えます。\n下の2つの表は、各表現を「友達スタイル → ですますスタイル → 敬語スタイル」で整理したものです。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 ⑤ 呼びかけのことば — Cụm mở lời theo phong cách (trang 52)",
+      "page": 52,
+      "intro": "Bảng số hoá từ ma trận ○/× 「呼びかけのことば」 trang 52. Cột giữa liệt kê các phong cách mà cụm đó DÙNG ĐƯỢC (○); phong cách không có nghĩa là × (không hợp).",
+      "intro_jp": "p.52「呼びかけのことば」の○×表を数値化したものです。中央の列は使える(○)スタイルです。",
+      "columns": {
+        "plain": "呼びかけのことば",
+        "sonkeigo": "使えるスタイル (○)",
+        "kenjougo": "Sắc thái / Ghi chú"
+      },
+      "rows": [
+        {
+          "plain": "ねえ、／あのね、",
+          "plainVi": "này, / này này,",
+          "sonkeigo": "友達",
+          "kenjougo": "Chỉ với bạn bè (rất thân mật)"
+        },
+        {
+          "plain": "あのー、",
+          "plainVi": "à, / ờ thì,",
+          "sonkeigo": "友達／ですます／敬語",
+          "kenjougo": "Dùng được mọi phong cách (an toàn nhất)"
+        },
+        {
+          "plain": "悪いんだけど、／悪いけど、",
+          "plainVi": "ngại quá nhưng, / phiền cái là,",
+          "sonkeigo": "友達／ですます",
+          "kenjougo": "Thân mật → lịch sự thường; KHÔNG dùng kính ngữ"
+        },
+        {
+          "plain": "よかったら、",
+          "plainVi": "nếu được thì,",
+          "sonkeigo": "友達／ですます",
+          "kenjougo": "Thân mật → lịch sự thường; bản kính ngữ là 「よろしかったら」"
+        },
+        {
+          "plain": "すみませんが、",
+          "plainVi": "xin lỗi nhưng,",
+          "sonkeigo": "ですます／敬語",
+          "kenjougo": "Lịch sự thường → kính ngữ"
+        },
+        {
+          "plain": "よろしかったら、",
+          "plainVi": "nếu (anh/chị thấy) tiện,",
+          "sonkeigo": "ですます／敬語",
+          "kenjougo": "Lịch sự thường → kính ngữ"
+        },
+        {
+          "plain": "申し訳ありませんが、／恐縮ですが、／恐れ入りますが、",
+          "plainVi": "thành thật xin lỗi nhưng, / thật ngại quá nhưng,",
+          "sonkeigo": "敬語",
+          "kenjougo": "Chỉ kính ngữ (trang trọng nhất)"
+        }
+      ],
+      "note": "Đi từ trên xuống độ trang trọng tăng dần. 「あのー、」 dùng được cả ba phong cách. Mời tha thiết/trang trọng thì chọn cụm hàng dưới.",
+      "note_jp": "上から下へていねいさが上がります。「あのー、」はどのスタイルでも使えます。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 ⑤ 文末の表現 — Cách kết câu nhờ vả theo phong cách (trang 52)",
+      "page": 52,
+      "intro": "Bảng số hoá từ ma trận ○/× 「文末の表現」 trang 52, xếp theo độ trang trọng TĂNG DẦN từ trên xuống. Cột giữa = phong cách dùng được (○).",
+      "intro_jp": "p.52「文末の表現」の○×表を数値化したものです。上から下へていねいさが上がります。中央は使える(○)スタイル。",
+      "columns": {
+        "plain": "文末の表現",
+        "sonkeigo": "使えるスタイル (○)",
+        "kenjougo": "Độ trang trọng / Ghi chú"
+      },
+      "rows": [
+        {
+          "plain": "〜て（よ／ね）。",
+          "plainVi": "… nhé / … đi.",
+          "sonkeigo": "友達",
+          "kenjougo": "Thân mật nhất"
+        },
+        {
+          "plain": "〜てくれない?",
+          "plainVi": "… giúp (tớ) không?",
+          "sonkeigo": "友達",
+          "kenjougo": "Thân mật"
+        },
+        {
+          "plain": "〜てくれませんか。",
+          "plainVi": "… giúp được không?",
+          "sonkeigo": "ですます",
+          "kenjougo": "Lịch sự thường"
+        },
+        {
+          "plain": "〜てもらえませんか。",
+          "plainVi": "… giúp được không ạ?",
+          "sonkeigo": "ですます",
+          "kenjougo": "Lịch sự thường"
+        },
+        {
+          "plain": "〜いただけませんか。",
+          "plainVi": "… giúp được không ạ? (khiêm nhường)",
+          "sonkeigo": "ですます／敬語",
+          "kenjougo": "Lịch sự thường → kính ngữ"
+        },
+        {
+          "plain": "〜いただけませんでしょうか。",
+          "plainVi": "… giúp được không ạ? (lịch sự hơn)",
+          "sonkeigo": "ですます／敬語",
+          "kenjougo": "Lịch sự thường → kính ngữ"
+        },
+        {
+          "plain": "〜いただきたいんですが……。",
+          "plainVi": "em mong (anh/chị) … ạ…",
+          "sonkeigo": "ですます／敬語",
+          "kenjougo": "Lịch sự thường → kính ngữ"
+        },
+        {
+          "plain": "〜いただけないかと思いまして……。",
+          "plainVi": "không biết (anh/chị) có thể … được không…",
+          "sonkeigo": "敬語",
+          "kenjougo": "Chỉ kính ngữ (rất khiêm tốn)"
+        },
+        {
+          "plain": "〜いただけるとありがたいんですが……。",
+          "plainVi": "nếu (anh/chị) … thì em rất biết ơn…",
+          "sonkeigo": "敬語",
+          "kenjougo": "Chỉ kính ngữ (trang trọng / hạ mình nhất)"
+        }
+      ],
+      "note": "⚠️ Lưu ý: 「〜てください」 nghe nghiêng về SẮC THÁI MỆNH LỆNH / CHỈ THỊ hơn là nhờ vả, nên khi nhờ người trên hãy dùng các mẫu 「〜いただけませんか」 trở lên. 「〜まして」「〜んですが…」 bỏ lửng chỉ dùng khi NÓI, không dùng khi viết.",
+      "note_jp": "⚠️「〜てください」はお願いより「指示のニュアンス」があるので注意しましょう。「〜まして」「〜んですが…」は話しことば(書くときは使いません)。"
+    },
+    {
+      "type": "quiz",
+      "title": "✏️ 練習① 「すみませんが、〜ていただけませんか」 (Track 1-22, trang 53)",
+      "page": 53,
+      "audio": "asset/audio/Track1-22.mp3",
+      "audioLabel": "Track 1-22 — 練習① 「すみませんが、〜ていただけませんか」を使って言ってみましょう",
+      "intro": "全部最後まで聞いてから、言う練習を始めてください。 (Nghe hết cả đoạn rồi mới luyện nói.) Điểm luyện: 「すみませんが、＋ 動詞て ＋ いただけませんか」. Đáp án sách: trang 189.",
+      "intro_jp": "全部最後まで聞いてから、言う練習を始めてください。「すみませんが、〜ていただけませんか」。 答えは p.189。",
+      "questions": [
+        {
+          "q": "例) ちょっと説明します ⇒ ?",
+          "qVi": "Mẫu) 「ちょっと説明します」 → 「すみませんが、〜ていただけませんか」?",
+          "options": [
+            { "jp": "すみませんが、ちょっと説明していただけませんか。", "vi": "Xin lỗi, anh/chị giải thích một chút giúp được không ạ?" },
+            { "jp": "すみませんが、ちょっと説明してくれませんか。", "vi": "(くれる — chưa lên 敬語)" },
+            { "jp": "すみませんが、ちょっと説明してもらえませんか。", "vi": "(もらえる — mới ở mức ですます)" },
+            { "jp": "すみませんが、ちょっとご説明していただけませんか。", "vi": "(ghép sai — đúng phải 「ご説明いただけませんか」)" }
+          ],
+          "answer": 0,
+          "explanation": "Mẫu sách (p.53): すみませんが、ちょっと説明していただけませんか。 もらえませんか → いただけませんか (khiêm nhường).",
+          "explanation_jp": "本(p.53)の例:「すみませんが、ちょっと説明していただけませんか」。もらえる→いただける。"
+        },
+        {
+          "q": "1) もう一度ゆっくりおっしゃいます ⇒ ?",
+          "qVi": "1) 「もう一度ゆっくりおっしゃいます」 → 「すみませんが、〜ていただけませんか」? (おっしゃる = sonkeigo của 言う)",
+          "options": [
+            { "jp": "すみませんが、もう一度ゆっくりおっしゃっていただけませんか。", "vi": "Xin lỗi, anh/chị nói lại chậm một lần nữa giúp được không ạ?" },
+            { "jp": "すみませんが、もう一度ゆっくり言っていただけませんか。", "vi": "(言う thường — đề yêu cầu giữ おっしゃる)" },
+            { "jp": "すみませんが、もう一度ゆっくりおっしゃってくれませんか。", "vi": "(くれる — chưa lên 敬語)" },
+            { "jp": "すみませんが、もう一度ゆっくりおっしゃられていただけませんか。", "vi": "(おっしゃられる — thừa kính ngữ)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.189): すみませんが、もう一度ゆっくりおっしゃっていただけませんか。",
+          "explanation_jp": "本(p.189):「すみませんが、もう一度ゆっくりおっしゃっていただけませんか」。"
+        },
+        {
+          "q": "2) 使い方を教えます ⇒ ?",
+          "qVi": "2) 「使い方を教えます」 → 「すみませんが、〜ていただけませんか」?",
+          "options": [
+            { "jp": "すみませんが、使い方を教えていただけませんか。", "vi": "Xin lỗi, anh/chị chỉ cách dùng giúp được không ạ?" },
+            { "jp": "すみませんが、使い方を教えてくれませんか。", "vi": "(くれる — chưa lên 敬語)" },
+            { "jp": "すみませんが、使い方を教えてもらえませんか。", "vi": "(もらえる — mới ở mức ですます)" },
+            { "jp": "すみませんが、使い方をお教えになっていただけませんか。", "vi": "(お〜になる là sonkeigo — không ghép với いただく như vậy)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.189): すみませんが、使い方を教えていただけませんか。",
+          "explanation_jp": "本(p.189):「すみませんが、使い方を教えていただけませんか」。"
+        },
+        {
+          "q": "3) 明日もう一度いらっしゃいます ⇒ ?",
+          "qVi": "3) 「明日もう一度いらっしゃいます」 → 「すみませんが、〜ていただけませんか」? (いらっしゃる = sonkeigo của 来る)",
+          "options": [
+            { "jp": "すみませんが、明日もう一度いらっしゃっていただけませんか。", "vi": "Xin lỗi, ngày mai anh/chị quá bộ tới một lần nữa giúp được không ạ?" },
+            { "jp": "すみませんが、明日もう一度いらっしゃってくれませんか。", "vi": "(くれる — chưa lên 敬語)" },
+            { "jp": "すみませんが、明日もう一度いらっしゃってもらえませんか。", "vi": "(もらえる — mới ở mức ですます)" },
+            { "jp": "すみませんが、明日もう一度いらっしゃられていただけませんか。", "vi": "(thừa kính ngữ)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.189): すみませんが、明日もう一度いらっしゃっていただけませんか。",
+          "explanation_jp": "本(p.189):「すみませんが、明日もう一度いらっしゃっていただけませんか」。"
+        },
+        {
+          "q": "4) 一つ送ります ⇒ ?",
+          "qVi": "4) 「一つ送ります」 → 「すみませんが、〜ていただけませんか」?",
+          "options": [
+            { "jp": "すみませんが、一つ送っていただけませんか。", "vi": "Xin lỗi, anh/chị gửi cho (em) một cái giúp được không ạ?" },
+            { "jp": "すみませんが、一つ送ってくれませんか。", "vi": "(くれる — chưa lên 敬語)" },
+            { "jp": "すみませんが、一つ送ってもらえませんか。", "vi": "(もらえる — mới ở mức ですます)" },
+            { "jp": "すみませんが、一つお送りになっていただけませんか。", "vi": "(お送りになる là sonkeigo — không ghép với いただく)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.189): すみませんが、一つ送っていただけませんか。",
+          "explanation_jp": "本(p.189):「すみませんが、一つ送っていただけませんか」。"
+        },
+        {
+          "q": "5) コピーをとります ⇒ ?",
+          "qVi": "5) 「コピーをとります」 → 「すみませんが、〜ていただけませんか」?",
+          "options": [
+            { "jp": "すみませんが、コピーをとっていただけませんか。", "vi": "Xin lỗi, anh/chị photo giúp được không ạ?" },
+            { "jp": "すみませんが、コピーをとってくれませんか。", "vi": "(くれる — chưa lên 敬語)" },
+            { "jp": "すみませんが、コピーをとってもらえませんか。", "vi": "(もらえる — mới ở mức ですます)" },
+            { "jp": "すみませんが、コピーをおとりになっていただけませんか。", "vi": "(おとりになる là sonkeigo — không ghép với いただく)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.189): すみませんが、コピーをとっていただけませんか。",
+          "explanation_jp": "本(p.189):「すみませんが、コピーをとっていただけませんか」。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "✏️ 練習② 「大変申し訳ないんですが、〜ていただけるとありがたいんですが……」 (Track 1-23, trang 53)",
+      "page": 53,
+      "audio": "asset/audio/Track1-23.mp3",
+      "audioLabel": "Track 1-23 — 練習② 「大変申し訳ないんですが、〜ていただけるとありがたいんですが……」を使って言ってみましょう",
+      "intro": "Dùng khi nhờ việc THỰC SỰ khó mở lời, một cách lịch sự (本当に頼みにくいことを、ていねいにお願いするとき). Đáp án sách: trang 189–190.",
+      "intro_jp": "本当に頼みにくいことを、ていねいにお願いするときに使います。 答えは p.189〜190。",
+      "questions": [
+        {
+          "q": "例) 英語の翻訳をつけます ⇒ ?",
+          "qVi": "Mẫu) 「英語の翻訳をつけます」 → 「大変申し訳ないんですが、〜ていただけるとありがたいんですが……」?",
+          "options": [
+            { "jp": "大変申し訳ないんですが、英語の翻訳をつけていただけるとありがたいんですが……。", "vi": "Thành thật xin lỗi, nhưng nếu anh/chị thêm bản dịch tiếng Anh giúp thì em rất biết ơn ạ…" },
+            { "jp": "大変申し訳ないんですが、英語の翻訳をつけてもらえるとありがたいんですが……。", "vi": "(もらえる — chưa nâng いただける)" },
+            { "jp": "大変申し訳ないんですが、英語の翻訳をつけてくれるとありがたいんですが……。", "vi": "(くれる — chưa lên 敬語)" },
+            { "jp": "大変申し訳ないんですが、英語の翻訳をつけていただけるとうれしいです。", "vi": "(lệch mẫu — mất 「ありがたいんですが…」)" }
+          ],
+          "answer": 0,
+          "explanation": "Mẫu sách (p.53): 大変申し訳ないんですが、英語の翻訳をつけていただけるとありがたいんですが……。",
+          "explanation_jp": "本(p.53)の例:「大変申し訳ないんですが、英語の翻訳をつけていただけるとありがたいんですが……」。"
+        },
+        {
+          "q": "1) もう一度初めから説明します ⇒ ?",
+          "qVi": "1) 「もう一度初めから説明します」 → mẫu 「大変申し訳ないんですが、〜ていただけるとありがたいんですが……」?",
+          "options": [
+            { "jp": "大変申し訳ないんですが、もう一度初めから説明していただけるとありがたいんですが……。", "vi": "Thành thật xin lỗi, nhưng nếu anh/chị giải thích lại từ đầu một lần nữa thì em rất biết ơn ạ…" },
+            { "jp": "大変申し訳ないんですが、もう一度初めから説明してもらえるとありがたいんですが……。", "vi": "(もらえる — chưa nâng いただける)" },
+            { "jp": "大変申し訳ないんですが、もう一度初めから説明してくれるとありがたいんですが……。", "vi": "(くれる — chưa lên 敬語)" },
+            { "jp": "大変申し訳ないんですが、もう一度初めからご説明していただけるとありがたいんですが……。", "vi": "(ghép sai — đúng phải 「ご説明いただける」)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.189): 大変申し訳ないんですが、もう一度初めから説明していただけるとありがたいんですが……。",
+          "explanation_jp": "本(p.189):「大変申し訳ないんですが、もう一度初めから説明していただけるとありがたいんですが……」。"
+        },
+        {
+          "q": "2) 1時間くらいここで待ちます （→ ほど） ⇒ ?",
+          "qVi": "2) 「1時間くらいここで待ちます」 → mẫu này (くらい→ほど, ここ→こちら cho trang trọng)?",
+          "options": [
+            { "jp": "大変申し訳ないんですが、1時間ほどこちらで待っていただけるとありがたいんですが……。", "vi": "Thành thật xin lỗi, nhưng nếu anh/chị đợi ở đây khoảng 1 tiếng thì em rất biết ơn ạ…" },
+            { "jp": "大変申し訳ないんですが、1時間くらいここで待っていただけるとありがたいんですが……。", "vi": "(chưa đổi くらい→ほど, ここ→こちら)" },
+            { "jp": "大変申し訳ないんですが、1時間ほどこちらで待ってもらえるとありがたいんですが……。", "vi": "(もらえる — chưa nâng いただける)" },
+            { "jp": "大変申し訳ないんですが、1時間ほどこちらでお待ちになっていただけるとありがたいんですが……。", "vi": "(お待ちになる là sonkeigo — không ghép với いただく)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.189): 大変申し訳ないんですが、1時間ほどこちらで待っていただけるとありがたいんですが……。 くらい→ほど, ここ→こちら (trang trọng hơn).",
+          "explanation_jp": "本(p.189):「大変申し訳ないんですが、1時間ほどこちらで待っていただけるとありがたいんですが……」。くらい→ほど、ここ→こちら。"
+        },
+        {
+          "q": "3) 直接書類を届けます ⇒ ?",
+          "qVi": "3) 「直接書類を届けます」 → mẫu 「大変申し訳ないんですが、〜ていただけるとありがたいんですが……」?",
+          "options": [
+            { "jp": "大変申し訳ないんですが、直接書類を届けていただけるとありがたいんですが……。", "vi": "Thành thật xin lỗi, nhưng nếu anh/chị giao trực tiếp giấy tờ thì em rất biết ơn ạ…" },
+            { "jp": "大変申し訳ないんですが、直接書類を届けてもらえるとありがたいんですが……。", "vi": "(もらえる — chưa nâng いただける)" },
+            { "jp": "大変申し訳ないんですが、直接書類を届けてくれるとありがたいんですが……。", "vi": "(くれる — chưa lên 敬語)" },
+            { "jp": "大変申し訳ないんですが、直接書類をお届けになっていただけるとありがたいんですが……。", "vi": "(お届けになる là sonkeigo — không ghép với いただく)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.189): 大変申し訳ないんですが、直接書類を届けていただけるとありがたいんですが……。",
+          "explanation_jp": "本(p.189):「大変申し訳ないんですが、直接書類を届けていただけるとありがたいんですが……」。"
+        },
+        {
+          "q": "4) 商品のサンプルを準備します ⇒ ?",
+          "qVi": "4) 「商品のサンプルを準備します」 → mẫu 「大変申し訳ないんですが、〜ていただけるとありがたいんですが……」?",
+          "options": [
+            { "jp": "大変申し訳ないんですが、商品のサンプルを準備していただけるとありがたいんですが……。", "vi": "Thành thật xin lỗi, nhưng nếu anh/chị chuẩn bị mẫu sản phẩm thì em rất biết ơn ạ…" },
+            { "jp": "大変申し訳ないんですが、商品のサンプルを準備してもらえるとありがたいんですが……。", "vi": "(もらえる — chưa nâng いただける)" },
+            { "jp": "大変申し訳ないんですが、商品のサンプルを準備してくれるとありがたいんですが……。", "vi": "(くれる — chưa lên 敬語)" },
+            { "jp": "大変申し訳ないんですが、商品のサンプルをご準備していただけるとありがたいんですが……。", "vi": "(ghép sai — đúng phải 「ご準備いただける」)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.189): 大変申し訳ないんですが、商品のサンプルを準備していただけるとありがたいんですが……。",
+          "explanation_jp": "本(p.189):「大変申し訳ないんですが、商品のサンプルを準備していただけるとありがたいんですが……」。"
+        },
+        {
+          "q": "5) スライドができるパソコンを用意します ⇒ ?",
+          "qVi": "5) 「スライドができるパソコンを用意します」 → mẫu 「大変申し訳ないんですが、〜ていただけるとありがたいんですが……」?",
+          "options": [
+            { "jp": "大変申し訳ないんですが、スライドができるパソコンを用意していただけるとありがたいんですが……。", "vi": "Thành thật xin lỗi, nhưng nếu anh/chị chuẩn bị giúp máy tính trình chiếu được slide thì em rất biết ơn ạ…" },
+            { "jp": "大変申し訳ないんですが、スライドができるパソコンを用意してもらえるとありがたいんですが……。", "vi": "(もらえる — chưa nâng いただける)" },
+            { "jp": "大変申し訳ないんですが、スライドができるパソコンを用意してくれるとありがたいんですが……。", "vi": "(くれる — chưa lên 敬語)" },
+            { "jp": "大変申し訳ないんですが、スライドができるパソコンをご用意していただけるとありがたいんですが……。", "vi": "(ghép sai — đúng phải 「ご用意いただける」)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.190): 大変申し訳ないんですが、スライドができるパソコンを用意していただけるとありがたいんですが……。",
+          "explanation_jp": "本(p.190):「大変申し訳ないんですが、スライドができるパソコンを用意していただけるとありがたいんですが……」。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "✏️ 練習③ 「あのー、〜てもよろしいでしょうか」 (Track 1-24, trang 53)",
+      "page": 53,
+      "audio": "asset/audio/Track1-24.mp3",
+      "audioLabel": "Track 1-24 — 練習③ 「あのー、〜てもよろしいでしょうか」を使って言ってみましょう",
+      "intro": "Đây là xin PHÉP làm việc của CHÍNH MÌNH (〜てもいいですか → 〜てもよろしいでしょうか), khác với 練習①② là nhờ NGƯỜI KHÁC làm. Đáp án sách: trang 190.",
+      "intro_jp": "自分がする動作の許可を求める言い方(〜てもいいですか→〜てもよろしいでしょうか)。①②は相手にお願いする言い方でした。 答えは p.190。",
+      "questions": [
+        {
+          "q": "例) ちょっとお願いします ⇒ ?",
+          "qVi": "Mẫu) 「ちょっとお願いします」 → 「あのー、〜てもよろしいでしょうか」?",
+          "options": [
+            { "jp": "あのー、ちょっとお願いしてもよろしいでしょうか。", "vi": "À, em nhờ một chút có được không ạ?" },
+            { "jp": "あのー、ちょっとお願いしてもいいですか。", "vi": "(いいですか — chưa nâng よろしいでしょうか)" },
+            { "jp": "あのー、ちょっとお願いしてよろしいでしょうか。", "vi": "(thiếu 「も」)" },
+            { "jp": "あのー、ちょっとお願いさせてもよろしいでしょうか。", "vi": "(させて — thừa, sai cấu trúc)" }
+          ],
+          "answer": 0,
+          "explanation": "Mẫu sách (p.53): あのー、ちょっとお願いしてもよろしいでしょうか。 〜てもいいですか → 〜てもよろしいでしょうか (xin phép lịch sự).",
+          "explanation_jp": "本(p.53)の例:「あのー、ちょっとお願いしてもよろしいでしょうか」。〜てもいいですか→〜てもよろしいでしょうか。"
+        },
+        {
+          "q": "1) ここに座ります ⇒ ?",
+          "qVi": "1) 「ここに座ります」 → 「あのー、〜てもよろしいでしょうか」?",
+          "options": [
+            { "jp": "あのー、ここに座ってもよろしいでしょうか。", "vi": "À, em ngồi đây có được không ạ?" },
+            { "jp": "あのー、ここに座ってもいいですか。", "vi": "(いいですか — chưa nâng よろしいでしょうか)" },
+            { "jp": "あのー、ここにお座りになってもよろしいでしょうか。", "vi": "(お座りになる là sonkeigo — dùng cho người trên, không dùng cho việc của MÌNH)" },
+            { "jp": "あのー、ここに座らせてもよろしいでしょうか。", "vi": "(座らせて — sai cấu trúc)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.190): あのー、ここに座ってもよろしいでしょうか。",
+          "explanation_jp": "本(p.190):「あのー、ここに座ってもよろしいでしょうか」。"
+        },
+        {
+          "q": "2) 今話します ⇒ ?",
+          "qVi": "2) 「今話します」 → 「あのー、〜てもよろしいでしょうか」?",
+          "options": [
+            { "jp": "あのー、今話してもよろしいでしょうか。", "vi": "À, bây giờ em nói (chuyện) có được không ạ?" },
+            { "jp": "あのー、今話してもいいですか。", "vi": "(いいですか — chưa nâng よろしいでしょうか)" },
+            { "jp": "あのー、今お話しになってもよろしいでしょうか。", "vi": "(お話しになる là sonkeigo — không dùng cho việc của MÌNH)" },
+            { "jp": "あのー、今話してよろしいでしょうか。", "vi": "(thiếu 「も」)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.190): あのー、今話してもよろしいでしょうか。 (Sách chấp nhận cả 「今お話ししてもよろしいでしょうか」 — khiêm nhường お〜する.)",
+          "explanation_jp": "本(p.190):「あのー、今話して／お話ししてもよろしいでしょうか」。"
+        },
+        {
+          "q": "3) この仕事を明日にします ⇒ ?",
+          "qVi": "3) 「この仕事を明日にします」 → 「あのー、〜てもよろしいでしょうか」? (明日 đọc là あす)",
+          "options": [
+            { "jp": "あのー、この仕事を明日にしてもよろしいでしょうか。", "vi": "À, công việc này để sang mai (あす) có được không ạ?" },
+            { "jp": "あのー、この仕事を明日にしてもいいですか。", "vi": "(いいですか — chưa nâng よろしいでしょうか)" },
+            { "jp": "あのー、この仕事を明日になさってもよろしいでしょうか。", "vi": "(なさる là sonkeigo — không dùng cho việc của MÌNH)" },
+            { "jp": "あのー、この仕事を明日にしてよろしいでしょうか。", "vi": "(thiếu 「も」)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.190): あのー、この仕事を明日（あす）にしてもよろしいでしょうか。 明日 ở đây đọc là 「あす」.",
+          "explanation_jp": "本(p.190):「あのー、この仕事を明日(あす)にしてもよろしいでしょうか」。「明日」は「あす」と読みます。"
+        },
+        {
+          "q": "4) 明日そちらに伺います ⇒ ?",
+          "qVi": "4) 「明日そちらに伺います」 → 「あのー、〜てもよろしいでしょうか」? (伺う = kenjougo của 行く/訪ねる)",
+          "options": [
+            { "jp": "あのー、明日そちらに伺ってもよろしいでしょうか。", "vi": "À, ngày mai em tới chỗ anh/chị có được không ạ?" },
+            { "jp": "あのー、明日そちらに伺ってもいいですか。", "vi": "(いいですか — chưa nâng よろしいでしょうか)" },
+            { "jp": "あのー、明日そちらにお伺いになってもよろしいでしょうか。", "vi": "(お〜になる là sonkeigo — không dùng cho việc của MÌNH)" },
+            { "jp": "あのー、明日そちらに伺わせてもよろしいでしょうか。", "vi": "(伺わせて — sai cấu trúc)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.190): あのー、明日そちらに伺ってもよろしいでしょうか。 伺う đã là kenjougo (hạ mình) nên giữ nguyên.",
+          "explanation_jp": "本(p.190):「あのー、明日そちらに伺ってもよろしいでしょうか」。「伺う」は謙譲語。"
+        },
+        {
+          "q": "5) 今ご相談します ⇒ ?",
+          "qVi": "5) 「今ご相談します」 → 「あのー、〜てもよろしいでしょうか」?",
+          "options": [
+            { "jp": "あのー、今ご相談してもよろしいでしょうか。", "vi": "À, bây giờ em xin trao đổi (với anh/chị) có được không ạ?" },
+            { "jp": "あのー、今ご相談してもいいですか。", "vi": "(いいですか — chưa nâng よろしいでしょうか)" },
+            { "jp": "あのー、今相談してもよろしいでしょうか。", "vi": "(bỏ ご — kém lịch sự)" },
+            { "jp": "あのー、今ご相談させてもよろしいでしょうか。", "vi": "(させて — thừa, sai cấu trúc)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.190): あのー、今ご相談してもよろしいでしょうか。",
+          "explanation_jp": "本(p.190):「あのー、今ご相談してもよろしいでしょうか」。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — Phiên bản nhờ đúng cách (Track 1-25, trang 54)",
+      "page": 54,
+      "image": "images/L05/54_1.jpg",
+      "imageAlt": "Minh hoạ trang 54 — Alex và 山田さん ngồi ở bàn họp trò chuyện ôn hoà, cả hai cùng mỉm cười, 山田さん gật đầu nhận lời.",
+      "imageCaption": "Minh hoạ trang 54 — lần này Alex nhờ từng việc một, có câu đệm và dùng mẫu khiêm nhường, 山田さん vui vẻ nhận lời.",
+      "audio": "asset/audio/Track1-25.mp3",
+      "audioLabel": "Track 1-25 — これでOK! お願いする (phiên bản chuẩn)",
+      "scene": "もう一度、同じ場面。今度はアレックスさんが上手にお願いをします。\n(Vẫn tình huống đó. Lần này Alex nhờ vả một cách khéo léo. Hãy so sánh với phiên bản できますか? ở trang 50.)",
+      "lines": [
+        {
+          "speaker": "山田",
+          "jp": "えー……以上が映画の説明なんですが、いかがでしょうか。日本ムービーさんで扱っていただけませんか。",
+          "vi": "À… trên đây là phần giới thiệu phim, anh thấy thế nào ạ? Bên Japan Movie nhận phân phối giúp được không ạ?"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "はい。それでは、さっそく検討いたします。んー……ちょっとよろしいでしょうか。",
+          "vi": "Vâng. Vậy thì em sẽ xem xét ngay ạ. Ờm… em xin phép một chút được không ạ? (✅ 「ちょっとよろしいでしょうか」 — mục ①, thay 「ちょっといいですか」)"
+        },
+        {
+          "speaker": "山田",
+          "jp": "はい。何でしょうか。",
+          "vi": "Vâng. Có việc gì thế ạ?"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "えー、わが社の者と検討したいのですが、この予告編のDVDを1枚お送りいただけませんか。",
+          "vi": "À, em muốn bàn với người bên công ty em, nên anh/chị gửi cho 1 chiếc DVD trailer này được không ạ? (✅ câu đệm 「〜したいのですが」 — mục ② + 「お送りいただけませんか」 — mục ③)"
+        },
+        {
+          "speaker": "山田",
+          "jp": "はい。1枚でよろしいでしょうか。",
+          "vi": "Vâng. 1 chiếc là được phải không ạ?"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "ええ。それから恐縮ですが、この韓国の映画には、韓国語の字幕しかありませんので、日本語の翻訳をつけていただけないかと思いまして……。",
+          "vi": "Vâng ạ. Rồi, thật ngại quá nhưng phim Hàn này chỉ có phụ đề tiếng Hàn thôi, nên không biết anh/chị có thể thêm bản dịch tiếng Nhật giúp được không ạ… (✅ 「恐縮ですが」 mở lời + 「〜ので」 + 「〜ていただけないかと思いまして…」 — mục ④, nhờ tiếp khiêm tốn)"
+        },
+        {
+          "speaker": "山田",
+          "jp": "あ、はい。承知いたしました。",
+          "vi": "À, vâng. Em hiểu rồi ạ. (= nhận lời)"
+        },
+        {
+          "speaker": "—",
+          "jp": "アレックスさんは山田さんに、ていねいにお願いをすることができました。",
+          "vi": "Alex đã nhờ 山田さん một cách lịch sự. (Khác trang 50: lần này nhờ từng việc một, có đệm, nên 山田さん vui vẻ nhận lời.)"
+        }
+      ],
+      "vocabHighlight": [
+        "ちょっとよろしいでしょうか。 = xin phép mở lời (① 呼びかける) — thay 「ちょっといいですか」",
+        "わが社の者と検討したいのですが、… = câu đệm nêu lý do (② 前置き) — trước khi vào yêu cầu",
+        "DVDを1枚お送りいただけませんか。 = nhờ lịch sự (③ 〜いただけませんか) — thay 「送ってくれませんか」",
+        "恐縮ですが、…つけていただけないかと思いまして……。 = nhờ tiếp khiêm tốn (④ 続けてお願い) — thay việc đòi dồn dập",
+        "韓国語の字幕しかありませんので = 「〜から」 → 「〜ので」 cho trang trọng"
+      ],
+      "note": "So sánh トラブル → OK:\n• ちょっといいですか。 → ちょっとよろしいでしょうか。 ✅ ①\n• (đòi luôn, không đệm) → わが社の者と検討したいのですが、… ✅ ②\n• 送ってくれませんか。 → お送りいただけませんか。 ✅ ③\n• それから英語の……(đòi dồn) → それから恐縮ですが、…つけていただけないかと思いまして……。 ✅ ④\n• 〜から → 〜ので; 見たいんで → きちんとした言い方\n\nKhác trang 50: Alex nhờ TỪNG việc một, có câu đệm, mẫu khiêm nhường → 山田さん nhận lời 「承知いたしました」.",
+      "note_jp": "p.50の間違い→p.54の正しいお願いの仕方:\n• ちょっといいですか。 → ちょっとよろしいでしょうか。①\n• (前置きなし) → わが社の者と検討したいのですが、…②\n• 送ってくれませんか。 → お送りいただけませんか。③\n• それから英語の…… → それから恐縮ですが、…つけていただけないかと思いまして……。④\n• 〜から → 〜ので\n一つずつ、前置きをつけて、ていねいにお願いできたので、山田さんは「承知いたしました」と気持ちよく受けてくれました。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh トラブル → これでOK (p.50 ↔ p.54)",
+      "intro": "Bảng TỔNG HỢP đối chiếu bản nhờ CHƯA khéo (p.50 「できますか?」) ↔ bản ĐÚNG (p.54 「これでOK!」), map theo các mục ①〜④. Gom từ 2 hội thoại phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.50「できますか?」とp.54「これでOK!」を①〜④で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "Điểm",
+        "sonkeigo": "✗ p.50 (chưa khéo)",
+        "kenjougo": "✓ p.54 (これでOK)"
+      },
+      "rows": [
+        {
+          "plain": "① 呼びかける",
+          "plainVi": "mở lời",
+          "sonkeigo": "ちょっといいですか。",
+          "kenjougo": "ちょっとよろしいでしょうか。"
+        },
+        {
+          "plain": "② 前置き",
+          "plainVi": "câu đệm",
+          "sonkeigo": "(đòi luôn, không đệm)",
+          "kenjougo": "わが社の者と検討したいのですが、…"
+        },
+        {
+          "plain": "③ お願い",
+          "plainVi": "lời nhờ",
+          "sonkeigo": "送ってくれませんか。",
+          "kenjougo": "お送りいただけませんか。"
+        },
+        {
+          "plain": "④ 続けてお願い",
+          "plainVi": "nhờ tiếp",
+          "sonkeigo": "それから英語の……（đòi dồn）",
+          "kenjougo": "恐縮ですが、…つけていただけないかと思いまして……。"
+        },
+        {
+          "plain": "その他",
+          "plainVi": "khác",
+          "sonkeigo": "見たいんで／〜から",
+          "kenjougo": "見たいので／〜ので・ありませんので"
+        }
+      ],
+      "note": "Mấu chốt: nhờ TỪNG việc một, có câu đệm dẫn nhập, và dùng mẫu khiêm nhường 「お/ご〜いただけませんか」. Nhờ đúng cách, lần này 山田さん nhận lời 「承知いたしました」.",
+      "note_jp": "ポイント:一つずつ・前置きをつけて・謙譲の「お/ご〜いただけませんか」で頼む。上手に頼めたので、山田さんは「承知いたしました」と受けてくれました。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — 目上の人 vs 友達 (trang 55)",
+      "page": 55,
+      "instruction": "＿＿には適当なことばを入れ、【　】では正しいものを選びましょう。",
+      "instruction_vi": "Điền cụm thích hợp vào chỗ ＿＿ (①) và chọn phương án đúng trong 【　】 (②③). Tình huống 1) nhờ NGƯỜI TRÊN → 敬語/lịch sự; tình huống 2) nhờ BẠN → 友達/thân mật. Đáp án → trang 190.",
+      "note": "Đáp án sách (p.190): 1) ①よろしいでしょうか ②b(実は) ③a(いただけませんか) / 2) ①ねえ、今ちょっといい(?) ②c(悪いけど) ③貸してくれない(?)／見せてくれない(?)。",
+      "items": [
+        {
+          "num": "1",
+          "context": "（目上の人にお願いする）\nA：あのー、今【①】。\nB：いいですよ。何ですか。\nA：【②】昨日、日本人の友達のご両親から食べ物を送ってもらったんですが、食べ方がわからないんですよ。食べ方の説明を一緒に読んで【③】。\nB：ええ、いいですよ。",
+          "context_vi": "(Nhờ NGƯỜI TRÊN) A: À, bây giờ 【①…】? — B: Được chứ. Có việc gì? — A:【②】hôm qua tôi được bố mẹ của một người bạn Nhật gửi cho ít đồ ăn, mà tôi không biết cách ăn. Anh/chị đọc cùng phần hướng dẫn cách ăn giúp 【③】? — B: Vâng, được thôi.",
+          "subAnswers": [
+            { "num": "①", "answer": "よろしいでしょうか", "answer_vi": "Mở lời lịch sự với người trên: 「あのー、今よろしいでしょうか」 (① 呼びかける)." },
+            { "num": "②", "options": ["それは", "実は", "実には"], "answerIndex": 1, "answer_vi": "b 実は — đệm 'thật ra…' trước khi vào việc (② 前置き)." },
+            { "num": "③", "options": ["いただけませんか", "いただきませんか", "いただいていませんか"], "answerIndex": 0, "answer_vi": "a いただけませんか — nhờ lịch sự (③). b/c sai ngữ pháp." }
+          ]
+        },
+        {
+          "num": "2",
+          "context": "（あなたは授業のプリントを忘れました。クラスの友達に頼みます）\nA：【①】?\nB：いいよ。何?\nA：【②】、昨日の授業のプリント、【③】?\nB：うん、いいよ。はい、これ。どうぞ。",
+          "context_vi": "(Bạn quên tờ in bài học, nhờ BẠN cùng lớp) A:【①…】? — B: Ừ. Gì thế? — A:【②】, tờ in bài hôm qua ấy, 【③…】? — B: Ừ, được. Đây, của cậu đây.",
+          "subAnswers": [
+            { "num": "①", "answer": "ねえ、今ちょっといい（?）", "answer_vi": "Mở lời thân mật với bạn: 「ねえ、今ちょっといい?」 — KHÔNG dùng 敬語 với bạn." },
+            { "num": "②", "options": ["すみませんが", "よろしかったら", "悪いけど"], "answerIndex": 2, "answer_vi": "c 悪いけど — đệm thân mật 'ngại quá nhưng…' (友達スタイル)." },
+            { "num": "③", "answer": "貸してくれない（?）／見せてくれない（?）", "answer_vi": "Nhờ kiểu bạn bè: 「貸してくれない?」 / 「見せてくれない?」 (友達 文末)." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "style": "speak",
+      "title": "🗣️ スタイルを変えてみましょう (Track 1-26, trang 55)",
+      "page": 55,
+      "audio": "asset/audio/Track1-26.mp3",
+      "audioLabel": "Track 1-26 — スタイルを変えてみましょう",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Nghe audio rồi NÓI lại mỗi việc cần nhờ theo 3 phong cách: (1) 敬語 「申し訳ないんですが、〜ていただけませんか」; (2) ですます 「すみませんが、〜てもらえませんか」; (3) 友達 「悪いけど、〜てもらえない?」. Nghe hết một lượt rồi mới luyện. Bấm 🎧 nghe lại từng câu. Đáp án → trang 190.",
+      "note": "3 mức trang trọng giảm dần: 敬語 ＞ ですます ＞ 友達. Đáp án theo trang 190 (Track 1-26).",
+      "items": [
+        {
+          "num": "例", "example": true,
+          "context": "会議の記録を見せる",
+          "context_vi": "cho (tôi) xem biên bản cuộc họp",
+          "audioStart": 0, "audioEnd": 25,
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ないんですが、会議の記録を見せていただけませんか。", "answer_vi": "Kính ngữ: 申し訳ないんですが ＋ 〜ていただけませんか." },
+            { "num": "ですます", "answer": "すみませんが、会議の記録を見せてもらえませんか。", "answer_vi": "Lịch sự thường: すみませんが ＋ 〜てもらえませんか." },
+            { "num": "友達", "answer": "悪いけど、会議の記録を見せてもらえない?", "answer_vi": "Thân mật: 悪いけど ＋ 〜てもらえない?" }
+          ]
+        },
+        {
+          "num": "1", "context": "書類をチェックする", "context_vi": "kiểm tra giấy tờ", "audioStart": 25, "audioEnd": 47,
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ないんですが、書類をチェックしていただけませんか。", "answer_vi": "" },
+            { "num": "ですます", "answer": "すみませんが、書類をチェックしてもらえませんか。", "answer_vi": "" },
+            { "num": "友達", "answer": "悪いけど、書類をチェックしてもらえない?", "answer_vi": "" }
+          ]
+        },
+        {
+          "num": "2", "context": "翻訳を手伝う", "context_vi": "giúp dịch", "audioStart": 47, "audioEnd": 68,
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ないんですが、翻訳を手伝っていただけませんか。", "answer_vi": "" },
+            { "num": "ですます", "answer": "すみませんが、翻訳を手伝ってもらえませんか。", "answer_vi": "" },
+            { "num": "友達", "answer": "悪いけど、翻訳を手伝ってもらえない?", "answer_vi": "" }
+          ]
+        },
+        {
+          "num": "3", "context": "スライドを操作する", "context_vi": "điều khiển slide", "audioStart": 68, "audioEnd": 90,
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ないんですが、スライドを操作していただけませんか。", "answer_vi": "" },
+            { "num": "ですます", "answer": "すみませんが、スライドを操作してもらえませんか。", "answer_vi": "" },
+            { "num": "友達", "answer": "悪いけど、スライドを操作してもらえない?", "answer_vi": "" }
+          ]
+        },
+        {
+          "num": "4", "context": "仕事の担当をかわる", "context_vi": "đổi người phụ trách công việc (làm thay)", "audioStart": 90, "audioEnd": 113,
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ないんですが、仕事の担当をかわっていただけませんか。", "answer_vi": "" },
+            { "num": "ですます", "answer": "すみませんが、仕事の担当をかわってもらえませんか。", "answer_vi": "" },
+            { "num": "友達", "answer": "悪いけど、仕事の担当をかわってもらえない?", "answer_vi": "" }
+          ]
+        },
+        {
+          "num": "5", "context": "仕事の進め方について相談に乗る", "context_vi": "tư vấn về cách tiến hành công việc", "audioStart": 113, "audioEnd": 141,
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ないんですが、仕事の進め方について相談に乗っていただけませんか。", "answer_vi": "" },
+            { "num": "ですます", "answer": "すみませんが、仕事の進め方について相談に乗ってもらえませんか。", "answer_vi": "" },
+            { "num": "友達", "answer": "悪いけど、仕事の進め方について相談に乗ってもらえない?", "answer_vi": "" }
+          ]
+        },
+        {
+          "num": "6", "context": "会議の終わりの時間を早くする", "context_vi": "dời sớm giờ kết thúc cuộc họp", "audioStart": 141, "audioEnd": 168,
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ないんですが、会議の終わりの時間を早くしていただけませんか。", "answer_vi": "" },
+            { "num": "ですます", "answer": "すみませんが、会議の終わりの時間を早くしてもらえませんか。", "answer_vi": "" },
+            { "num": "友達", "answer": "悪いけど、会議の終わりの時間を早くしてもらえない?", "answer_vi": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎭 やってみましょう ① — 話してみましょう (trang 56)",
+      "page": 56,
+      "intro": "Hoạt động NÓI theo cặp. Tình huống: bạn muốn NHỜ thầy/cô viết 推薦状 (thư giới thiệu) để vào cao học (大学院). Mỗi người cầm một ロールカード rồi hội thoại bằng kính ngữ.\nTự học một mình? Đọc cả hai thẻ rồi tự dựng hội thoại cho từng vai; bấm 🔊 để nghe đề bài.\n👉 Thẻ vai trong sách: A (sinh viên) trang 168, B (giảng viên) trang 172.",
+      "intro_jp": "ペアで話す練習です。大学院に入るために、先生に推薦状をお願いします。ロールカードを持って、敬語で会話しましょう。\nロールカード:A(大学生)=p.168 / B(大学の先生)=p.172。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう",
+          "title_vi": "Nhờ thầy/cô viết thư giới thiệu vào cao học",
+          "roles": [
+            { "side": "A", "who_jp": "大学生", "who_vi": "Bạn là sinh viên (thẻ vai trang 168)", "ref": "ロールカード p.168", "jp": "あなたは大学院に入るために、先生に推薦状をお願いしたいです。先生に上手にお願いしてください。", "vi": "Bạn muốn vào cao học nên cần nhờ thầy/cô viết thư giới thiệu (推薦状). Hãy nhờ thầy/cô một cách khéo léo." },
+            { "side": "B", "who_jp": "大学の先生", "who_vi": "Bạn là giảng viên đại học (thẻ vai trang 172)", "ref": "ロールカード p.172", "jp": "あなたは大学の先生です。学生が推薦状をお願いします。引き受けてください。", "vi": "Bạn là giảng viên đại học. Sinh viên sẽ nhờ viết thư giới thiệu. Hãy nhận lời." }
+          ],
+          "hints": [
+            { "jp": "先生、ちょっとよろしいでしょうか。", "vi": "(sinh viên) mở lời — ① 呼びかける" },
+            { "jp": "実は、〜のですが…。", "vi": "(sinh viên) câu đệm nêu lý do — ② 前置き" },
+            { "jp": "推薦状をお書きいただけないかと思いまして…。", "vi": "(sinh viên) nhờ khiêm tốn — ③④" }
+          ],
+          "model": {
+            "track": "1-27",
+            "audio": "asset/audio/Track1-27.mp3",
+            "intro_vi": "Hội thoại mẫu in trong sách (trang 190). Hãy tự dựng & nói trước theo thẻ vai, rồi mới mở ra đối chiếu.",
+            "intro_jp": "本の会話例（p.190）です。先に自分で話してから、答え合わせに開いてください。",
+            "lines": [
+              { "sp": "A", "jp": "斎藤先生、おはようございます。", "vi": "Em chào thầy Saito ạ." },
+              { "sp": "B", "jp": "あ、おはよう。", "vi": "À, chào em." },
+              { "sp": "A", "jp": "ちょっとよろしいでしょうか。", "vi": "Em xin phép một chút được không ạ?", "note_vi": "① 呼びかける" },
+              { "sp": "B", "jp": "うん、どうしたの?", "vi": "Ừ, có chuyện gì thế?" },
+              { "sp": "A", "jp": "いろいろ考えたんですが、来年の4月から大学院に行くことにしまして。", "vi": "Em đã suy nghĩ nhiều, và quyết định từ tháng 4 năm sau sẽ học cao học ạ.", "note_vi": "「〜しまして」＝ thể て của します (văn nói, bỏ lửng cho mềm)." },
+              { "sp": "B", "jp": "あ、そう。", "vi": "À, vậy à." },
+              { "sp": "A", "jp": "実は手続きで出身大学の先生の推薦状が必要なのですが、お書きいただけないかと思いまして。", "vi": "Thật ra trong thủ tục cần có thư giới thiệu của thầy/cô ở trường em từng học, nên không biết thầy có thể viết giúp em được không ạ…", "note_vi": "② 実は〜のですが + ④ お書きいただけないかと思いまして." },
+              { "sp": "B", "jp": "わかりました。書きましょう。", "vi": "Được rồi. Để thầy viết cho." },
+              { "sp": "A", "jp": "ありがとうございます。用紙はこちらです。", "vi": "Em cảm ơn thầy ạ. Tờ mẫu đây ạ." },
+              { "sp": "B", "jp": "いつまで?", "vi": "Đến khi nào?" },
+              { "sp": "A", "jp": "恐縮ですが、来週の金曜日までにお書きいただけるとありがたいんですが、提出が翌々週なので。", "vi": "Thật ngại quá ạ, nếu thầy viết giúp trước thứ Sáu tuần sau thì em rất biết ơn, vì hạn nộp là tuần sau nữa ạ.", "note_vi": "④ お書きいただけるとありがたいんですが + 「〜ので」." },
+              { "sp": "B", "jp": "わかりました。", "vi": "Được rồi." },
+              { "sp": "A", "jp": "よろしくお願いいたします。", "vi": "Em nhờ thầy ạ." }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 会話例 (hội thoại mẫu, trang 190 · Track 1-27) đã nhúng ngay dưới — bấm \"📖 Xem hội thoại mẫu\" để đối chiếu sau khi đã tự nói.",
+      "answerRef_jp": "会話例（p.190・Track 1-27）は下にあります。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "exercise",
+      "title": "✉️ やってみましょう ② — メールを書いてみましょう (trang 56–57)",
+      "page": 56,
+      "instruction": "斎藤先生に推薦状をお願いするメールを書いてみましょう。①〜④に入る文を考えてください。",
+      "instruction_vi": "Viết mail nhờ 斎藤先生 viết thư giới thiệu. Điền 4 chỗ ①〜④ theo gợi ý (◀). ⚠️ Đây là VIẾT mail → KHÔNG bỏ lửng 「〜んですが…」「〜まして」; dùng 「お〜いただけないでしょうか」. Đáp án mẫu → trang 190–191.",
+      "note": "メール本文:\n斎藤先生\n桜の美しいころとなりました。お元気でいらっしゃいますか。39期卒業生のアレックス・スミスです。（季節のあいさつ）\n本日は、お願いがございましてメールいたします。\n日本で5年間、会社に勤務してまいりましたが、このたび、平成大学大学院文化学研究科に進学することを考え、準備を始めました。（お願いする理由）\n出身大学の教師の推薦状が必要なのですが、\n①＿＿＿＿。（お願いを書く）\nすっかりご無沙汰してしまいましたので、来週先生の研究室にごあいさつに伺いたいと思っております。\n大変恐縮ですが、先生の②（ご都合がいい→）＿＿＿＿時間を③（知らせる→）＿＿＿＿。\nお返事を④＿＿＿＿。（返事を待っていると伝える）\nよろしくお願い申し上げます。（最後のあいさつ）\nアレックス・スミス",
+      "items": [
+        { "num": "①", "context": "①（お願いを書く）", "context_vi": "① Viết lời nhờ (nhờ thầy viết thư giới thiệu)", "answer": "お書きいただけないでしょうか", "answer_vi": "Đáp án sách (p.190): 「（推薦状を）お書きいただけないでしょうか」. Văn VIẾT → dùng 「お〜いただけないでしょうか」, KHÔNG bỏ lửng 「〜かと思いまして…」." },
+        { "num": "②", "context": "②（ご都合がいい →）", "context_vi": "② (ご都合がいい → đổi sang dạng lịch sự, bổ nghĩa cho 「時間」)", "answer": "ご都合がよろしい", "answer_vi": "Đáp án sách (p.191): 「先生のご都合がよろしい時間を…」. いい → よろしい (kính ngữ), bổ nghĩa cho 「時間」." },
+        { "num": "③", "context": "③（知らせる →）", "context_vi": "③ (知らせる → đổi sang nhờ lịch sự khi viết)", "answer": "お知らせいただけるとありがたく存じます", "answer_vi": "Đáp án sách (p.191): 「…時間をお知らせいただけるとありがたく存じます」. 知らせる → お知らせいただく; 「ありがたく存じます」 = dạng siêu khiêm nhường của 「ありがたいです」 (存じる ＝ kenjougo của 思う)." },
+        { "num": "④", "context": "④（お返事を ＿ — 返事を待っていると伝える）", "context_vi": "④ Báo rằng đang chờ hồi âm", "answer": "お待ちしております", "answer_vi": "Đáp án sách (p.191): 「お返事をお待ちしております」 (〜ております, học ở Bài 3)." }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Tổng hợp từ vựng Bài 4 (trang 57)",
+      "page": 57,
+      "intro": "Bảng từ vựng của cả Bài 4 (4課), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.\nNhiều mục là cặp 「từ trang trọng ＝ từ thường ngày」 — hiểu nghĩa qua từ quen thuộc.",
+      "intro_jp": "4課の語彙タンク(p.57)。出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        { "jp": "商談", "kana": "しょうだん", "vi": "Thương lượng kinh doanh (business negotiation)", "note": "📖 trang 50." },
+        { "jp": "扱う", "kana": "あつかう", "vi": "Xử lý, phụ trách, phân phối (to handle / deal with)", "note": "📖 trang 50." },
+        { "jp": "字幕", "kana": "じまく", "vi": "Phụ đề (subtitles)", "note": "📖 trang 50." },
+        { "jp": "翻訳", "kana": "ほんやく", "vi": "Bản dịch / phiên dịch (translation)", "note": "📖 trang 50." },
+        { "jp": "実は", "kana": "じつは", "vi": "Thật ra, kỳ thực (in fact / actually)", "note": "📖 trang 51 — đệm trước khi vào nội dung chính (② 前置き)." },
+        { "jp": "わが社", "kana": "わがしゃ", "vi": "Công ty chúng tôi (＝私たちの会社)", "note": "📖 trang 51." },
+        { "jp": "者", "kana": "もの", "vi": "Người (cùng nhóm/công ty với mình) (＝自分と同じグループの人)", "note": "📖 trang 51 — khiêm nhường khi nói về người bên mình." },
+        { "jp": "検討する", "kana": "けんとうする", "vi": "Xem xét, cân nhắc (＝考える)", "note": "📖 trang 51." },
+        { "jp": "日本語訳", "kana": "にほんごやく", "vi": "Bản dịch tiếng Nhật (Japanese translation)", "note": "📖 trang 51." },
+        { "jp": "恐縮ですが／恐れ入りますが", "kana": "きょうしゅくですが／おそれいりますが", "vi": "Thật ngại quá nhưng… (＝すみませんが, trang trọng hơn)", "note": "📖 trang 52 — câu mở lời kính ngữ." },
+        { "jp": "コピーをとる", "kana": "コピーをとる", "vi": "Photo, sao chép (to make a copy)", "note": "📖 trang 53." },
+        { "jp": "直接", "kana": "ちょくせつ", "vi": "Trực tiếp (directly)", "note": "📖 trang 53." },
+        { "jp": "商品", "kana": "しょうひん", "vi": "Sản phẩm, hàng hoá (product / merchandise)", "note": "📖 trang 53." },
+        { "jp": "スライド", "kana": "スライド", "vi": "Slide (trình chiếu)", "note": "📖 trang 53." },
+        { "jp": "さっそく", "kana": "さっそく", "vi": "Ngay lập tức (＝すぐに)", "note": "📖 trang 54." },
+        { "jp": "承知する", "kana": "しょうちする", "vi": "Hiểu rõ / nhận lời (＝わかる, khiêm nhường)", "note": "📖 trang 54 — 「承知いたしました」= em đã rõ / nhận lời ạ." },
+        { "jp": "目上", "kana": "めうえ", "vi": "Người trên (cấp trên / người lớn tuổi) (superior)", "note": "📖 trang 55 — ↔ 目下." },
+        { "jp": "記録", "kana": "きろく", "vi": "Biên bản, ghi chép (record / document)", "note": "📖 trang 55." },
+        { "jp": "操作する", "kana": "そうさする", "vi": "Điều khiển, vận hành (to control / operate)", "note": "📖 trang 56." },
+        { "jp": "（仕事の）担当", "kana": "たんとう", "vi": "Người phụ trách (công việc) (responsibility for work)", "note": "📖 trang 56." },
+        { "jp": "勤務する", "kana": "きんむする", "vi": "Làm việc, công tác (to work)", "note": "📖 trang 56." },
+        { "jp": "進学する", "kana": "しんがくする", "vi": "Học lên (lên cao học / cấp trên) (to advance academically)", "note": "📖 trang 56." },
+        { "jp": "出身大学", "kana": "しゅっしんだいがく", "vi": "Trường đại học đã tốt nghiệp (＝卒業した大学)", "note": "📖 trang 56." },
+        { "jp": "ご無沙汰する", "kana": "ごぶさたする", "vi": "Lâu rồi không liên lạc / hỏi thăm (to neglect to keep in touch)", "note": "📖 trang 57 — 「ご無沙汰しております」 chào khi lâu không gặp." }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "📚 Tổng kết Bài 4 + Bước tiếp theo",
+      "content": "🎯 Tổng kết Bài 4 (4課 お願いする):\n• ① 呼びかける — mở lời xin phép 「ちょっとよろしいでしょうか」「お時間いただいてもよろしいでしょうか」.\n• ② 「(実は)〜のですが」 — câu đệm nêu hoàn cảnh/ý định trước khi nói yêu cầu.\n• ③ 「〜いただけませんか」 — nhờ lịch sự (khiêm nhường của もらえませんか). Nhóm 1·2: 〜ていただけませんか／お〜いただけませんか; nhóm 3: 〜ていただけませんか／ご〜いただけませんか. 「お/ご〜」 lịch sự hơn.\n• ④ 続けてお願いを言う — nhờ tiếp khiêm tốn: 〜ていただけないかと思いまして… / 〜ていただけるとありがたいんですが…\n• ⑤ ていねいさを変えるには — đổi 呼びかけのことば + 文末の表現 theo 友達 → ですます → 敬語.\n• ⚠️ 「〜てください」 nghiêng nghĩa MỆNH LỆNH; văn NÓI 「〜まして」「〜んですが…」 KHÔNG dùng khi viết mail.\n\n📖 Tham chiếu trong sách:\n• Đáp án 練習①②③ (Track 1-22〜1-24) → trang 189–190.\n• Đáp án チェック + スタイルを変えて (Track 1-26) + 会話例 (Track 1-27) → trang 190.\n• Thẻ vai: A (sinh viên) → trang 168; B (giảng viên) → trang 172.\n• Đáp án mail (やってみましょう②, ①〜④) → trang 190–191.\n\n→ Bài tiếp theo: L06 「断る」 (trang 58) — Từ chối.",
+      "content_jp": "🎯 4課「お願いする」のまとめ:\n• ① 呼びかける(ちょっとよろしいでしょうか)\n•②「(実は)〜のですが」前置きを言う\n• ③「〜いただけませんか」(Ⅰ・Ⅱ:〜ていただけませんか／お〜いただけませんか、Ⅲ:〜ていただけませんか／ご〜いただけませんか。「お/ご〜」がていねい)\n• ④ 続けてお願いを言う(〜ていただけないかと思いまして…／〜ていただけるとありがたいんですが…)\n• ⑤ ていねいさを変えるには(「呼びかけのことば」「文末の表現」を友達→ですます→敬語で変える)\n• ⚠️「〜てください」は指示のニュアンス。「〜まして」「〜んですが…」は書きことばでは使わない。\n\n📖 本の参照:\n• 練習①②③(Track 1-22〜1-24)の答え → p.189〜190\n• チェック・スタイルを変えて(Track 1-26)・会話例(Track 1-27)の答え → p.190\n• ロールカード:A(大学生)=p.168 / B(大学の先生)=p.172\n• メール(やってみましょう②①〜④)の答え → p.190〜191\n\n→ 次は L06「断る」(p.58)。"
+    }
+  ]
+}

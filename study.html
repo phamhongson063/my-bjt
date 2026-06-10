@@ -275,6 +275,265 @@
         font-size: 13px;
       }
 
+      /* Daily lessons (7 days) */
+      .daily-section {
+        background: #fff;
+        border: 1px solid #eaecef;
+        padding: 18px 18px 16px;
+        border-radius: 10px;
+        margin: 16px 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+      .daily-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-bottom: 4px;
+      }
+      .daily-section h2 {
+        margin: 0;
+        border: none;
+        padding: 0;
+        font-size: 16px;
+      }
+      .daily-controls {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .week-nav {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .week-nav button {
+        width: 30px;
+        height: 30px;
+        min-height: 30px;
+        padding: 0;
+        border: 1px solid #d0d7de;
+        background: #fff;
+        border-radius: 7px;
+        font-size: 18px;
+        line-height: 1;
+        color: #0366d6;
+        cursor: pointer;
+        transition: background 0.15s, border-color 0.15s, color 0.15s;
+      }
+      .week-nav button:hover:not(:disabled) {
+        background: #0366d6;
+        border-color: #0366d6;
+        color: #fff;
+      }
+      .week-nav button:disabled {
+        color: #c2c8cf;
+        cursor: not-allowed;
+        opacity: 0.6;
+      }
+      .week-range {
+        font-size: 13px;
+        font-weight: 600;
+        color: #444;
+        min-width: 96px;
+        text-align: center;
+      }
+      .daily-hint {
+        color: #8b949e;
+        font-size: 12px;
+        margin-bottom: 14px;
+      }
+      .day-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 5px 0;
+      }
+      .day-label {
+        flex: none;
+        width: 58px;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.15;
+      }
+      .day-dow {
+        font-size: 11px;
+        color: #8b949e;
+        font-weight: 600;
+      }
+      .day-date {
+        font-size: 13px;
+        color: #444;
+        font-weight: 600;
+      }
+      .day-row.is-today .day-date {
+        color: #f0a500;
+      }
+      .day-row.is-today .day-dow {
+        color: #f0a500;
+      }
+      .day-track {
+        flex: 1;
+        min-width: 0;
+        display: flex;
+        height: 20px;
+        background: #f1f3f5;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      .day-seg {
+        height: 100%;
+        min-width: 3px;
+        transition: filter 0.12s;
+        cursor: pointer;
+      }
+      .day-seg:hover {
+        filter: brightness(1.12);
+      }
+      .day-empty {
+        margin: auto;
+        font-size: 11px;
+        color: #c2c8cf;
+        font-style: italic;
+      }
+      .day-total {
+        flex: none;
+        width: 56px;
+        text-align: right;
+        font-size: 12px;
+        font-family: ui-monospace, "SF Mono", Menlo, monospace;
+        color: #57606a;
+      }
+      .daily-legend {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 14px;
+        margin-top: 16px;
+        padding-top: 12px;
+        border-top: 1px dashed #eaecef;
+      }
+      .legend-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 12px;
+        color: #444;
+      }
+      .legend-swatch {
+        width: 12px;
+        height: 12px;
+        border-radius: 3px;
+        flex: none;
+      }
+      .legend-empty {
+        font-size: 12px;
+        color: #8b949e;
+        font-style: italic;
+      }
+      .legend-group {
+        width: 100%;
+      }
+      .legend-group + .legend-group {
+        margin-top: 12px;
+      }
+      .legend-group-title {
+        font-size: 12px;
+        font-weight: 700;
+        color: #444;
+        margin-bottom: 6px;
+      }
+      .legend-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 14px;
+      }
+
+      /* Page subtitle */
+      .page-sub {
+        color: #777;
+        font-size: 13px;
+        margin: -10px 0 14px;
+      }
+
+      /* Per-book breakdown */
+      .book-section {
+        background: #fff;
+        border: 1px solid #eaecef;
+        padding: 18px 18px 8px;
+        border-radius: 10px;
+        margin: 16px 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+      .book-section h2 {
+        margin: 0 0 6px;
+        border: none;
+        padding: 0;
+        font-size: 16px;
+      }
+      .book-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 12px 0;
+        border-top: 1px solid #f1f3f5;
+      }
+      .book-row:first-child {
+        border-top: none;
+      }
+      .book-cover {
+        width: 42px;
+        height: 58px;
+        object-fit: cover;
+        border-radius: 4px;
+        flex: none;
+        background: #f1f3f5;
+        border: 1px solid #eaecef;
+      }
+      .book-info {
+        flex: 1;
+        min-width: 0;
+      }
+      .book-tag {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 700;
+        color: #0366d6;
+        background: #eef3fb;
+        border-radius: 4px;
+        padding: 1px 6px;
+        margin-right: 6px;
+      }
+      .book-title {
+        font-weight: 600;
+        font-size: 14px;
+      }
+      .book-titlevi {
+        color: #888;
+        font-size: 12px;
+      }
+      .book-prog {
+        height: 6px;
+        background: #f1f3f5;
+        border-radius: 3px;
+        margin-top: 7px;
+        overflow: hidden;
+      }
+      .book-prog-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #5aa7ff, #0366d6);
+        border-radius: 3px;
+      }
+      .book-meta {
+        display: flex;
+        gap: 14px;
+        margin-top: 6px;
+        font-size: 12px;
+        color: #57606a;
+        flex-wrap: wrap;
+      }
+
       /* Lesson breakdown table */
       .lesson-stats {
         width: 100%;
@@ -454,6 +713,15 @@
         .lesson-stats td {
           padding: 6px 4px;
         }
+        .day-label {
+          width: 46px;
+        }
+        .day-date {
+          font-size: 12px;
+        }
+        .day-total {
+          width: 46px;
+        }
         .controls {
           gap: 6px;
         }
@@ -474,8 +742,9 @@
     </style>
   </head>
   <body>
-    <div class="nav"><a href="index.html">← Trang chủ</a></div>
+    <div class="nav"><a href="index.html">← Thư viện</a></div>
     <h1>📊 Thống kê giờ học</h1>
+    <p class="page-sub">Tổng hợp toàn bộ thư viện — tất cả các cuốn sách.</p>
 
     <div id="loading">Đang tải...</div>
 
@@ -510,6 +779,11 @@
 
       <div class="repair-notice hidden" id="repairNotice"></div>
 
+      <div class="book-section">
+        <h2>📚 Theo cuốn sách</h2>
+        <div id="bookBreakdown"></div>
+      </div>
+
       <div class="chart-section">
         <div class="chart-header">
           <h2>📅 Giờ học theo ngày</h2>
@@ -531,6 +805,26 @@
         </div>
       </div>
       <div class="chart-tooltip" id="chartTooltip"></div>
+
+      <div class="daily-section">
+        <div class="daily-header">
+          <h2 id="dailyTitle">🗓️ Bài đã học theo tuần</h2>
+          <div class="daily-controls">
+            <div class="range-toggle" id="dailyModeToggle">
+              <button data-mode="week" class="active">Tuần</button>
+              <button data-mode="month">Tháng</button>
+            </div>
+            <div class="week-nav">
+              <button id="dailyPrev" title="Trước" aria-label="Trước">‹</button>
+              <span class="week-range" id="dailyRange"></span>
+              <button id="dailyNext" title="Sau" aria-label="Sau">›</button>
+            </div>
+          </div>
+        </div>
+        <div class="daily-hint"></div>
+        <div id="dailyLessons"></div>
+        <div class="daily-legend" id="dailyLegend"></div>
+      </div>
 
       <h2>📚 Theo bài</h2>
       <table class="lesson-stats">
@@ -696,7 +990,7 @@
         return { axisMax, ticks };
       }
       function formatTooltipDate(d) {
-        const wd = ["CN", "Th 2", "Th 3", "Th 4", "Th 5", "Th 6", "Th 7"][
+        const wd = ["CN", "thứ 2", "thứ 3", "thứ 4", "thứ 5", "thứ 6", "thứ 7"][
           d.getDay()
         ];
         return `${wd}, ${d.getDate()}/${d.getMonth() + 1}`;
@@ -707,6 +1001,64 @@
       let books = [];
       let stats = { totals: {}, daily: {}, completed: new Set(), keyMeta: {} };
       let currentRangeDays = 30;
+      let lessonIndex = new Map();
+      let bookMeta = new Map();
+      let dailyMode = "week";
+      let dailyOffset = 0;
+
+      function escapeHtml(s) {
+        return String(s).replace(
+          /[&<>"']/g,
+          (c) =>
+            ({
+              "&": "&amp;",
+              "<": "&lt;",
+              ">": "&gt;",
+              '"': "&quot;",
+              "'": "&#39;",
+            }[c])
+        );
+      }
+      function buildLessonIndex() {
+        lessonIndex = new Map();
+        bookMeta = new Map();
+        let i = 0;
+        books.forEach((b, bi) => {
+          bookMeta.set(b.id, {
+            num: bi + 1,
+            title: b.title || b.id,
+            titleVi: b.titleVi || "",
+          });
+          (b.lessons || [])
+            .slice()
+            .sort((a, b) => a.order - b.order)
+            .forEach((l) => {
+              lessonIndex.set(lessonKey(b.id, l.id), {
+                idx: i++,
+                title: l.title,
+                titleVi: l.titleVi,
+                order: l.order,
+                bookId: b.id,
+                lessonId: l.id,
+              });
+            });
+        });
+      }
+      function bookNumOf(key) {
+        const bid = lessonIndex.get(key)?.bookId;
+        return bookMeta.get(bid)?.num;
+      }
+      function lessonColorByKey(key) {
+        const info = lessonIndex.get(key);
+        const idx = info ? info.idx : lessonIndex.size + 1;
+        const hue = (idx * 137.508) % 360;
+        return `hsl(${hue.toFixed(0)} 68% 52%)`;
+      }
+      function lessonLabel(key) {
+        const info = lessonIndex.get(key);
+        if (!info) return key;
+        return info.title ? `${info.lessonId} ${info.title}` : info.lessonId;
+      }
 
       // ========== Stats data loading ==========
       async function loadBooks() {
@@ -877,9 +1229,56 @@
         const lessonsWithTime = Object.keys(stats.totals).filter(
           (k) => stats.totals[k] > 0
         ).length;
-        document.getElementById(
-          "totalSub"
-        ).textContent = `${lessonsWithTime} bài đã đụng`;
+        document.getElementById("totalSub").textContent =
+          books.length > 1
+            ? `${lessonsWithTime} bài · ${books.length} cuốn`
+            : `${lessonsWithTime} bài đã đụng`;
+      }
+
+      function renderBookBreakdown() {
+        const wrap = document.getElementById("bookBreakdown");
+        wrap.innerHTML = "";
+        if (!books.length) {
+          wrap.innerHTML =
+            '<div style="color:#888;font-size:13px;">Đang tải...</div>';
+          return;
+        }
+        const multi = books.length > 1;
+        books.forEach((book, bi) => {
+          const lessons = book.lessons || [];
+          let ms = 0,
+            done = 0,
+            started = 0;
+          lessons.forEach((l) => {
+            const key = lessonKey(book.id, l.id);
+            const t = stats.totals[key] || 0;
+            ms += t;
+            if (t > 0) started++;
+            if (stats.completed.has(key)) done++;
+          });
+          const total = lessons.length;
+          const pct = total ? Math.round((done / total) * 100) : 0;
+          const tag = multi ? `<span class="book-tag">📘${bi + 1}</span>` : "";
+          const row = document.createElement("div");
+          row.className = "book-row";
+          row.innerHTML = `
+          <img class="book-cover" src="${escapeHtml(
+            book.cover || ""
+          )}" alt="" onerror="this.style.visibility='hidden'">
+          <div class="book-info">
+            <div class="book-title">${tag}${escapeHtml(
+            book.title || book.id
+          )}</div>
+            <div class="book-titlevi">${escapeHtml(book.titleVi || "")}</div>
+            <div class="book-prog"><div class="book-prog-fill" style="width:${pct}%"></div></div>
+            <div class="book-meta">
+              <span>⏱️ ${formatHM(ms)}</span>
+              <span>✓ ${done}/${total} bài xong</span>
+              <span>📖 ${started} bài đã đụng</span>
+            </div>
+          </div>`;
+          wrap.appendChild(row);
+        });
       }
 
       function renderChart() {
@@ -949,6 +1348,147 @@
             }`;
           }
           labelsEl.appendChild(span);
+        });
+      }
+
+      function renderDailyLessons() {
+        const wrap = document.getElementById("dailyLessons");
+        const legendEl = document.getElementById("dailyLegend");
+        wrap.innerHTML = "";
+        legendEl.innerHTML = "";
+        buildLessonIndex();
+        const multi = books.length > 1;
+
+        const dows = ["CN", "thứ 2", "thứ 3", "thứ 4", "thứ 5", "thứ 6", "thứ 7"];
+        const todayKey = todayDateKey();
+        const fmt = (dt) => `${dt.getDate()}/${dt.getMonth() + 1}`;
+        const mkDay = (d) => ({
+          dateObj: d,
+          isToday: dateKeyOf(d) === todayKey,
+          lessons: stats.daily[dateKeyOf(d)] || {},
+        });
+
+        const windowDays = dailyMode === "month" ? 30 : 7;
+        const end = new Date();
+        end.setHours(0, 0, 0, 0);
+        end.setDate(end.getDate() - dailyOffset * windowDays);
+        const days = [];
+        for (let i = windowDays - 1; i >= 0; i--) {
+          const d = new Date(end);
+          d.setDate(d.getDate() - i);
+          days.push(mkDay(d));
+        }
+        const rangeLabel = `${fmt(days[0].dateObj)} – ${fmt(
+          days[days.length - 1].dateObj
+        )}`;
+        days.reverse();
+
+        document.getElementById("dailyTitle").textContent =
+          dailyMode === "month"
+            ? "🗓️ Bài đã học theo tháng"
+            : "🗓️ Bài đã học theo tuần";
+        document.getElementById("dailyRange").textContent = rangeLabel;
+        document.getElementById("dailyNext").disabled = dailyOffset <= 0;
+
+        let maxTotal = 1;
+        days.forEach((day) => {
+          const t = sumValues(day.lessons);
+          if (t > maxTotal) maxTotal = t;
+        });
+
+        const seen = new Set();
+        days.forEach((day) => {
+          const total = sumValues(day.lessons);
+          const entries = Object.keys(day.lessons)
+            .filter((k) => day.lessons[k] > 0)
+            .sort((a, b) => {
+              const oa = lessonIndex.get(a)?.order ?? 999;
+              const ob = lessonIndex.get(b)?.order ?? 999;
+              return oa - ob;
+            });
+
+          let segs = "";
+          entries.forEach((k) => {
+            seen.add(k);
+            const ms = day.lessons[k];
+            const w = (ms / maxTotal) * 100;
+            const label = multi
+              ? `📘${bookNumOf(k) ?? "?"} ${lessonLabel(k)}`
+              : lessonLabel(k);
+            const val = formatHM(ms);
+            const dateLbl = formatTooltipDate(day.dateObj);
+            segs += `<div class="day-seg" style="width:${w}%;background:${lessonColorByKey(
+              k
+            )}" data-date="${escapeHtml(dateLbl)}" data-label="${escapeHtml(
+              label
+            )}" data-val="${val}" title="${escapeHtml(
+              `${dateLbl} · ${label}: ${val}`
+            )}"></div>`;
+          });
+
+          const row = document.createElement("div");
+          row.className = "day-row" + (day.isToday ? " is-today" : "");
+          row.innerHTML = `
+          <div class="day-label">
+            <span class="day-dow">${dows[day.dateObj.getDay()]}</span>
+            <span class="day-date">${day.dateObj.getDate()}/${
+            day.dateObj.getMonth() + 1
+          }</span>
+          </div>
+          <div class="day-track">${
+            segs || '<span class="day-empty">—</span>'
+          }</div>
+          <div class="day-total">${total > 0 ? formatHM(total) : ""}</div>`;
+          wrap.appendChild(row);
+        });
+
+        if (!seen.size) {
+          legendEl.innerHTML =
+            '<span class="legend-empty">Chưa có bài nào trong 7 ngày qua.</span>';
+          return;
+        }
+        const byOrder = (a, b) =>
+          (lessonIndex.get(a)?.order ?? 999) -
+          (lessonIndex.get(b)?.order ?? 999);
+        const makeChip = (k) => {
+          const item = document.createElement("span");
+          item.className = "legend-item";
+          const sw = document.createElement("span");
+          sw.className = "legend-swatch";
+          sw.style.background = lessonColorByKey(k);
+          const txt = document.createElement("span");
+          txt.textContent = lessonLabel(k);
+          item.appendChild(sw);
+          item.appendChild(txt);
+          return item;
+        };
+
+        if (!multi) {
+          [...seen].sort(byOrder).forEach((k) => legendEl.appendChild(makeChip(k)));
+          return;
+        }
+        const byBook = new Map();
+        [...seen].forEach((k) => {
+          const bid = lessonIndex.get(k)?.bookId || "?";
+          if (!byBook.has(bid)) byBook.set(bid, []);
+          byBook.get(bid).push(k);
+        });
+        books.forEach((b) => {
+          const ks = byBook.get(b.id);
+          if (!ks || !ks.length) return;
+          const grp = document.createElement("div");
+          grp.className = "legend-group";
+          const h = document.createElement("div");
+          h.className = "legend-group-title";
+          h.textContent = `📘${bookMeta.get(b.id)?.num ?? "?"} ${
+            b.title || b.id
+          }`;
+          const chips = document.createElement("div");
+          chips.className = "legend-chips";
+          ks.sort(byOrder).forEach((k) => chips.appendChild(makeChip(k)));
+          grp.appendChild(h);
+          grp.appendChild(chips);
+          legendEl.appendChild(grp);
         });
       }
 
@@ -1111,7 +1651,9 @@
             const ok = await updateLessonTime(key, newMin * 60000);
             if (ok) {
               renderOverview();
+              renderBookBreakdown();
               renderChart();
+              renderDailyLessons();
               renderLessonBreakdown();
             }
           }
@@ -1123,7 +1665,9 @@
         const recoveredMs = await reconcileTotalsFromDaily();
         showRepairNotice(recoveredMs);
         renderOverview();
+        renderBookBreakdown();
         renderChart();
+        renderDailyLessons();
         renderLessonBreakdown();
       }
 
@@ -1156,6 +1700,47 @@
       chartArea.addEventListener("mouseleave", () =>
         chartTooltip.classList.remove("show")
       );
+
+      const dailyArea = document.getElementById("dailyLessons");
+      dailyArea.addEventListener("mousemove", (e) => {
+        const seg = e.target.closest(".day-seg");
+        if (!seg) {
+          chartTooltip.classList.remove("show");
+          return;
+        }
+        const rect = seg.getBoundingClientRect();
+        chartTooltip.innerHTML = `<div class="tt-date">${seg.dataset.date} · ${seg.dataset.label}</div><div class="tt-val">${seg.dataset.val}</div>`;
+        chartTooltip.style.left = rect.left + rect.width / 2 + "px";
+        chartTooltip.style.top = rect.top - 8 + "px";
+        chartTooltip.classList.add("show");
+      });
+      dailyArea.addEventListener("mouseleave", () =>
+        chartTooltip.classList.remove("show")
+      );
+
+      document.getElementById("dailyPrev").addEventListener("click", () => {
+        dailyOffset++;
+        renderDailyLessons();
+      });
+      document.getElementById("dailyNext").addEventListener("click", () => {
+        if (dailyOffset > 0) {
+          dailyOffset--;
+          renderDailyLessons();
+        }
+      });
+      document
+        .getElementById("dailyModeToggle")
+        .addEventListener("click", (e) => {
+          const btn = e.target.closest("button");
+          if (!btn) return;
+          document
+            .querySelectorAll("#dailyModeToggle button")
+            .forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          dailyMode = btn.dataset.mode;
+          dailyOffset = 0;
+          renderDailyLessons();
+        });
 
       // ========== Manual timer (existing) ==========
       const STORAGE_KEY = "bjt-history";

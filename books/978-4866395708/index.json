@@ -17,7 +17,26 @@
     {
       "name": "第2章: 場面別敬語トレーニング",
       "description": "18 bài luyện kính ngữ theo tình huống thật: thăm khách, mời, nhờ, từ chối, xin lỗi, điện thoại, mail, phỏng vấn, MC...",
-      "lessons": ["L02", "L03", "L04", "L05", "L06", "L07", "L08", "L09", "L10", "L11", "L12", "L13", "L14", "L15", "L16", "L17", "L18", "L19"]
+      "lessons": [
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19"
+      ]
     },
     {
       "name": "第3章: だんだん敬語をとる",
@@ -53,7 +72,7 @@
     {
       "id": "L02",
       "order": 2,
-      "title": "1課 訪問する",
+      "title": "訪問する",
       "titleVi": "Bài 1 — Thăm khách / Tới nhà cấp trên",
       "phase": 2,
       "chapter": "第2章 - 1",
@@ -74,7 +93,7 @@
     {
       "id": "L03",
       "order": 3,
-      "title": "2課 簡単にあいさつする",
+      "title": "簡単にあいさつする",
       "titleVi": "Chào hỏi ngắn gọn (vào/ra văn phòng, đi/về)",
       "phase": 2,
       "chapter": "第2章 - 2",
@@ -91,7 +110,7 @@
     {
       "id": "L04",
       "order": 4,
-      "title": "3課 誘う",
+      "title": "誘う",
       "titleVi": "Mời / Rủ rê (đi ăn, dự sự kiện)",
       "phase": 2,
       "chapter": "第2章 - 3",
@@ -141,7 +160,7 @@
         "いい関係を続けることを伝える — giữ quan hệ tốt sau khi từ chối"
       ],
       "estimatedMinutes": 30,
-      "status": "todo"
+      "status": "ready"
     },
     {
       "id": "L07",

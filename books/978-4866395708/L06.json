@@ -1,0 +1,637 @@
+{
+  "id": "L06",
+  "order": 6,
+  "title": "5課 断る",
+  "titleVi": "Bài 5 — Từ chối (lời nhờ / lời mời của cấp trên)",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 30,
+  "intro": "Bài 5 (5課) — Chương 2. Tình huống: 金子部長 (sếp — vốn nói chuyện kiểu thân mật 友達スタイル với Alex) yêu cầu Alex giữ trống lịch để dự cuộc họp kinh doanh đột xuất (臨時の営業会議) chiều thứ Ba tuần sau.\nỞ bản 「できますか?」, Alex từ chối quá cụt và mơ hồ: 「その日は忙しいんです」「山田さんに会うんです」 — không giải thích rõ, không xin lỗi / không giữ quan hệ đúng mực, nên 金子部長 không hiểu vì sao Alex không dự họp được. Bài này học cách TỪ CHỐI (断る) khéo léo.\n\n🎯 Mục tiêu — 4 điểm:\n① 「〜はちょっと……」 — từ chối mềm, bỏ lửng để đối phương tự hiểu.\n② 断る — nêu lý do rồi từ chối. Điểm ngữ pháp chính: 「〜まして」 (thể て của 〜ます) / 「〜でして」 (thể て của 〜です); và あります → ございます / 〜ている → 〜ております khi trang trọng.\n③ 謝る — xin lỗi kèm theo (お役に立てなくて申し訳ありません / せっかくお誘いくださいましたのに…).\n④ いい関係を続けることを伝える — giữ quan hệ tốt: 「また今度／次の機会にお誘いください」.",
+  "intro_jp": "第2章 5課。金子部長が、来週の火曜日の臨時の営業会議に出られるよう、アレックスさんに時間をあけておくよう頼みます。\n「できますか?」では、アレックスさんは「その日は忙しいんです」「山田さんに会うんです」と短く、はっきりしない断り方をして理由もよく説明せず、金子部長は「どうして会議に出られないのか」わかりませんでした。この課で、上手に「断る」言い方を学びます。\n\n🎯 学習項目:\n①「〜はちょっと……」やわらかく断る\n② 断る(理由を言う。「〜まして」=「〜ます」のて形、「〜でして」=「〜です」のて形。あります→ございます、〜ている→〜ております)\n③ 謝る(お役に立てなくて申し訳ありません／せっかくお誘いくださいましたのに…)\n④ いい関係を続けることを伝える(また今度／次の機会にお誘いください)",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — Alex từ chối họp một cách vụng về (trang 58)",
+      "page": 58,
+      "image": "images/L06/58_1.jpg",
+      "imageAlt": "Minh hoạ trang 58 — 金子部長 ngồi ở bàn chỉ tay nói, Alex đứng cạnh gãi đầu lúng túng, vẻ mặt khó xử.",
+      "imageCaption": "Minh hoạ trang 58 — Alex từ chối cụt lủn, lý do mơ hồ nên 金子部長 không hiểu vì sao Alex không dự họp được.",
+      "scene": "金子部長がアレックスさんと来週の仕事のスケジュールについて話しています。\n(金子部長 đang nói với Alex về lịch làm việc tuần sau. Đây là cách từ chối CHƯA đúng — để ý chỗ Alex nói quá cụt, lý do mơ hồ, không xin lỗi đủ.)",
+      "lines": [
+        { "speaker": "金子部長", "jp": "アレックスくん。", "vi": "Alex này." },
+        { "speaker": "アレックス", "jp": "はい。", "vi": "Dạ." },
+        { "speaker": "金子部長", "jp": "来週の火曜日の4時から臨時の営業会議になったんだ。時間、あけておいてくれる?", "vi": "Thứ Ba tuần sau có cuộc họp kinh doanh đột xuất từ 4 giờ. Cậu giữ trống thời gian đó nhé?" },
+        { "speaker": "アレックス", "jp": "えーと、うーんと。", "vi": "Ờ thì… ưmm…" },
+        { "speaker": "金子部長", "jp": "どうした?", "vi": "Sao thế?" },
+        { "speaker": "アレックス", "jp": "すみません、その日は忙しいんです。", "vi": "Em xin lỗi, hôm đó em bận ạ. (⚠️ 「忙しいんです」 — lý do quá mơ hồ, lại nói thẳng 「その日は」 không làm mềm bằng 「ちょっと……」 ①)" },
+        { "speaker": "金子部長", "jp": "でも、会議だよ?", "vi": "Nhưng mà họp hành đấy?" },
+        { "speaker": "アレックス", "jp": "山田さんに会うんです。", "vi": "Em phải gặp anh Yamada ạ. (⚠️ nói trống không — 山田さん nào, việc gì? Không giải thích → ② thiếu lý do cụ thể)" },
+        { "speaker": "金子部長", "jp": "え? どこの山田さん?", "vi": "Hả? Yamada nào cơ?" },
+        { "speaker": "アレックス", "jp": "アジア映画の山田さんです。すみません。", "vi": "Anh Yamada bên hãng phim châu Á ạ. Em xin lỗi. (⚠️ vẫn chưa nói rõ là việc gì quan trọng đến đâu)" },
+        { "speaker": "金子部長", "jp": "あ……そう。わかった。", "vi": "À… vậy à. Thôi được." },
+        { "speaker": "—", "jp": "金子部長は、アレックスさんがどうして会議に出られないのか、はっきりわかりませんでした。", "vi": "金子部長 vẫn không hiểu rõ vì sao Alex không thể dự họp. (Vì Alex từ chối cụt, lý do mơ hồ, không xin lỗi / không đề nghị điều chỉnh lịch.)" }
+      ],
+      "vocabHighlight": [
+        "「その日は忙しいんです」 nói thẳng + lý do mơ hồ → làm mềm 「その時間はちょっと……」 (① 〜はちょっと)",
+        "「山田さんに会うんです」 trống không → nêu lý do cụ thể + khiêm nhường 「お目にかかることになっておりまして…やっと予約が取れたんです」 (②)",
+        "thiếu lời xin lỗi đúng mực → 「申し訳ありません」 (③ 謝る)",
+        "không đề nghị giữ quan hệ / phối hợp → để sếp 「スケジュールを調整しよう」 thì cần giải thích rõ (④)"
+      ],
+      "note": "Cảnh huống dẫn vào Bài 5: cách TỪ CHỐI người trên đúng mực. Lỗi của Alex: (1) từ chối quá thẳng & cụt 「その日は忙しいんです」; (2) lý do mơ hồ 「山田さんに会うんです」 không giải thích; (3) xin lỗi qua loa; (4) không phối hợp tìm hướng giải quyết. 4 mục ①〜④ bên dưới chữa từng chỗ; bản chuẩn xem ở 「これでOK!」 (trang 61).",
+      "note_jp": "この課では、目上の人の頼みや誘いを上手に「断る」言い方を勉強します。アレックスさんは「その日は忙しいんです」と短くはっきり断り、「山田さんに会うんです」と理由もよく説明せず、しっかり謝らなかったので、金子部長は「どうして会議に出られないのか」わかりませんでした。①〜④で直し方を学び、正しい会話は「これでOK!」(p.61)で確認します。"
+    },
+    {
+      "type": "grammar",
+      "title": "🫧 ① 「〜はちょっと……」 — Từ chối mềm, bỏ lửng (trang 59)",
+      "page": 59,
+      "items": [
+        {
+          "pattern": "（すみません、）〜はちょっと……。",
+          "patternVi": "Trước hết từ chối nhẹ nhàng: nói 「〜はちょっと……」 rồi bỏ lửng để đối phương tự hiểu là khó.",
+          "explanation": "Bước đầu, từ chối mềm. Cho đối phương thấy vẻ khó xử của mình và truyền đạt rằng việc đó có vẻ không làm được — KHÔNG nói thẳng 「だめ／行けません」. Câu thường bỏ lửng ở 「ちょっと……」.",
+          "explanation_jp": "まず、やわらかく断ります。相手にその様子を見せて、無理そうなことを伝えます。「だめ／行けません」と言い切らず、「ちょっと……」で止めることが多いです。",
+          "examples": [
+            { "jp": "A：手伝っていただけませんか? ／ B：すみません、今はちょっと……。", "vi": "A: Anh/chị giúp (em) được không ạ? / B: Em xin lỗi, bây giờ thì hơi… (khó ạ)." },
+            { "jp": "A：これから一緒に食事はどう? ／ B：あー、すみません。今夜はちょっと……。", "vi": "A: Giờ đi ăn cùng nhau nhé? / B: À… em xin lỗi. Tối nay thì hơi… (bất tiện ạ)." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🙅 ② 断る — Nêu lý do rồi từ chối 「〜まして／〜でして……」 (trang 59)",
+      "page": 59,
+      "intro": "Điểm ngữ pháp chính của bài: khi nêu lý do từ chối một cách trang trọng, ta để câu lý do ở thể て rồi bỏ lửng. 「〜まして」 = thể て của 「〜ます」; 「〜でして」 = thể て của 「〜です」. Khi trang trọng: あります → ございます, 〜ている → 〜ております.",
+      "intro_jp": "この課の中心の文型です。断る理由をていねいに言うとき、理由をて形にして言いさします。「〜まして」=「〜ます」のて形、「〜でして」=「〜です」のて形。改まると、あります→ございます、〜ている→〜ております。",
+      "items": [
+        {
+          "pattern": "〈何かをお願いされたとき〉 すみません、今はちょっと。＋（理由）〜んです。",
+          "patternVi": "Khi bị nhờ việc: từ chối mềm trước, rồi nêu lý do cụ thể. Khi từ chối, nhiều khi KHÔNG nói hết câu đến cùng.",
+          "explanation": "Khi từ chối lời nhờ, làm mềm rồi nêu lý do. Người Nhật nhiều khi để câu lửng, không nói hết, vẫn đủ hiểu.",
+          "explanation_jp": "お願いを断るときは、やわらかく言ってから理由を言います。断るときは、最後まではっきり言わないこともあります。",
+          "examples": [
+            { "jp": "A：あ、コピー手伝ってくれないかな。 ／ B：今、ロビーでお客様が待っていらっしゃるので……。", "vi": "A: À, photo giúp tớ chút được không? / B: Bây giờ có khách đang đợi ở sảnh ạ… (nên hơi khó)." },
+            { "jp": "A：翻訳を手伝ってくれない? ／ B：すみません、今はちょっと。10時までにこの書類を送らなければならないんです。", "vi": "A: Giúp tớ dịch chút không? / B: Xin lỗi, bây giờ hơi… (khó). Em phải gửi tập tài liệu này trước 10 giờ ạ." }
+          ]
+        },
+        {
+          "pattern": "〈誘われたとき〉 残念ながら〜。（理由）〜まして……。／〜でして……。",
+          "patternVi": "Khi được mời: 「〜まして……」 (て-form của ます) / 「〜でして……」 (て-form của です) để nêu lý do trang trọng rồi bỏ lửng.",
+          "explanation": "Khi được mời mà phải từ chối, nêu lý do bằng thể て trang trọng rồi bỏ lửng: 「ありまして……」「苦手でして……」. 💡 「〜まして」 từ 「〜ます」; 「〜でして」 từ 「〜です」.",
+          "explanation_jp": "誘われて断るときは、理由をていねいなて形で言いさします。「ありまして……」「苦手でして……」。💡「〜まして」は「〜ます」、「〜でして」は「〜です」から。",
+          "examples": [
+            { "jp": "残念ながら今回は伺えないんです。今夜は友人と会う約束がありまして……。", "vi": "Tiếc là lần này em không tới được ạ. Tối nay em có hẹn gặp bạn… (ありまして = ありますのて形)" },
+            { "jp": "すみません。お酒はちょっと苦手でして……。", "vi": "Em xin lỗi. Em hơi không hợp với rượu bia… (苦手でして = 苦手ですのて形)" }
+          ],
+          "warning": "「〜まして」「〜でして……」 bỏ lửng là văn NÓI — KHÔNG dùng khi VIẾT mail (xem mục メール trang 64).",
+          "warning_jp": "「〜まして」「〜でして……」と言いさす言い方は話しことば。書くときは使いません(p.64 メール参照)。"
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🙇 ③ 謝る — Xin lỗi kèm theo khi từ chối (trang 59)",
+      "page": 59,
+      "items": [
+        {
+          "pattern": "〈お願いされたとき〉 お役に立てなくて、申し訳ありません。 ／ 〈誘われたとき〉 せっかくお誘いくださいましたのに……（すみません）。",
+          "patternVi": "Câu xin lỗi đi kèm khi từ chối, tuỳ là bị NHỜ hay được MỜI.",
+          "explanation": "Sau khi từ chối, thêm một câu xin lỗi. Khi bị nhờ: 「お役に立てなくて、申し訳ありません」 (không giúp được gì, xin lỗi). Khi được mời: 「せっかくお誘いくださいましたのに……」 (anh/chị đã có nhã ý mời mà…).",
+          "explanation_jp": "断ったあとに、ひと言謝ります。お願いされたとき:「お役に立てなくて、申し訳ありません」。誘われたとき:「せっかくお誘いくださいましたのに……」。",
+          "examples": [
+            { "jp": "お役に立てなくて、申し訳ありません。", "vi": "Em không giúp được gì, thành thật xin lỗi ạ." },
+            { "jp": "せっかくお誘いくださいましたのに……。", "vi": "Anh/chị đã có nhã ý mời em mà… (em lại không đi được)." }
+          ],
+          "warning": "💡 Khi được MỜI, có thể mở đầu bằng lời cảm ơn 「ありがとうございます」 trước rồi mới từ chối.",
+          "warning_jp": "💡 誘われたときは、最初に「ありがとうございます」とお礼を言ってもいいです。"
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🤝 ④ いい関係を続けることを伝える — Giữ quan hệ tốt sau khi từ chối (trang 59)",
+      "page": 59,
+      "items": [
+        {
+          "pattern": "〈誘われたとき〉 今回は伺えないんですが、また今度／次回／次の機会にお誘いください。／ご一緒させてください。",
+          "patternVi": "Sau khi từ chối lời mời, nói thêm để giữ quan hệ: 'lần sau lại rủ em nhé / cho em đi cùng nhé'.",
+          "explanation": "Để đối phương biết quan hệ vẫn tốt đẹp, kết bằng câu mong được mời lần sau: 「また今度お誘いください」「次の機会にご一緒させてください」.",
+          "explanation_jp": "いい関係が続くことを伝えるため、次の機会を願うひと言で締めます。「また今度お誘いください」「次の機会にご一緒させてください」。",
+          "examples": [
+            { "jp": "今回は伺えないんですが、また今度お誘いください。", "vi": "Lần này em không tới được, nhưng lần sau anh/chị lại rủ em nhé ạ." },
+            { "jp": "次の機会に、ぜひご一緒させてください。", "vi": "Dịp sau nhất định cho em được đi cùng ạ. (ご一緒させてください = khiêm nhường của 一緒にさせてもらう)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "✏️ 練習① 「〜はちょっと……」 を使って断る (Track 1-28, trang 60)",
+      "page": 60,
+      "audio": "asset/audio/Track1-28.mp3",
+      "audioLabel": "Track 1-28 — 練習① 「〜はちょっと……」を使って断ってみましょう",
+      "intro": "全部最後まで聞いてから、言う練習を始めてください。 (Nghe hết cả đoạn rồi mới luyện nói.) Điểm luyện: từ chối mềm 「すみません。〜はちょっと……」 (bỏ lửng). Đáp án sách: trang 191.",
+      "intro_jp": "全部最後まで聞いてから、言う練習を始めてください。「〜はちょっと……」を使って断ってみましょう。 答えは p.191。",
+      "questions": [
+        {
+          "q": "例) 日曜日は時間がありますか。 ⇒ ?",
+          "qVi": "Mẫu) 「日曜日は時間がありますか」 → từ chối mềm bằng 「〜はちょっと……」?",
+          "options": [
+            { "jp": "すみません。日曜日はちょっと……。", "vi": "Em xin lỗi. Chủ nhật thì hơi… (khó ạ)." },
+            { "jp": "いいえ、日曜日は時間がありません。", "vi": "(言い切る — quá thẳng, không làm mềm)" },
+            { "jp": "日曜日はだめです。", "vi": "(cụt lủn, thiếu lịch sự)" }
+          ],
+          "answer": 0,
+          "explanation": "Mẫu sách (p.60): 「すみません。日曜日はちょっと……。」 — bỏ lửng 「ちょっと……」 để đối phương tự hiểu, không nói thẳng 「だめ／ありません」.",
+          "explanation_jp": "本(p.60)の例:「すみません。日曜日はちょっと……」。"
+        },
+        {
+          "q": "1) 今度のゴルフ、22日はどうですか。 ⇒ ?",
+          "qVi": "1) 「今度のゴルフ、22日はどうですか」 → 「〜はちょっと……」?",
+          "options": [
+            { "jp": "すみません。22日はちょっと……。", "vi": "Em xin lỗi. Ngày 22 thì hơi… (khó ạ)." },
+            { "jp": "すみません。22日は行けません。", "vi": "(言い切る — quá thẳng)" },
+            { "jp": "22日はだめです。", "vi": "(cụt lủn)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「すみません。22日はちょっと……。」",
+          "explanation_jp": "本(p.191):「すみません。22日はちょっと……」。"
+        },
+        {
+          "q": "2) 次回の食事会、来月の15日はどうですか。 ⇒ ?",
+          "qVi": "2) 「次回の食事会、来月の15日はどうですか」 → 「〜はちょっと……」?",
+          "options": [
+            { "jp": "すみません。来月の15日はちょっと……。", "vi": "Em xin lỗi. Ngày 15 tháng sau thì hơi… (khó ạ)." },
+            { "jp": "すみません。来月の15日は行けません。", "vi": "(言い切る — quá thẳng)" },
+            { "jp": "来月の15日は無理です。", "vi": "(cụt lủn)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「すみません。来月の15日はちょっと……。」",
+          "explanation_jp": "本(p.191):「すみません。来月の15日はちょっと……」。"
+        },
+        {
+          "q": "3) コーヒーはいかがですか。 ⇒ ?",
+          "qVi": "3) 「コーヒーはいかがですか」 → 「〜はちょっと……」?",
+          "options": [
+            { "jp": "すみません。コーヒーはちょっと……。", "vi": "Em xin lỗi. Cà phê thì em hơi… (xin phép ạ)." },
+            { "jp": "いいえ、コーヒーは飲みません。", "vi": "(言い切る — quá thẳng)" },
+            { "jp": "コーヒーはだめです。", "vi": "(cụt lủn)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「すみません。コーヒーはちょっと……。」",
+          "explanation_jp": "本(p.191):「すみません。コーヒーはちょっと……」。"
+        },
+        {
+          "q": "4) お酒、飲まれますか。 ⇒ ?",
+          "qVi": "4) 「お酒、飲まれますか」 → 「〜はちょっと……」? (飲まれる = sonkeigo của 飲む)",
+          "options": [
+            { "jp": "すみません。お酒はちょっと……。", "vi": "Em xin lỗi. Rượu bia thì em hơi… (xin phép ạ)." },
+            { "jp": "いいえ、お酒は飲みません。", "vi": "(言い切る — quá thẳng)" },
+            { "jp": "お酒はだめです。", "vi": "(cụt lủn)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「すみません。お酒はちょっと……。」",
+          "explanation_jp": "本(p.191):「すみません。お酒はちょっと……」。"
+        },
+        {
+          "q": "5) ボクシングのチケットがあるんですが……。 ⇒ ?",
+          "qVi": "5) 「ボクシングのチケットがあるんですが……」 → 「〜はちょっと……」?",
+          "options": [
+            { "jp": "すみません。ボクシングはちょっと……。", "vi": "Em xin lỗi. Quyền anh thì em hơi… (xin phép ạ)." },
+            { "jp": "いいえ、ボクシングは見ません。", "vi": "(言い切る — quá thẳng)" },
+            { "jp": "ボクシングはだめです。", "vi": "(cụt lủn)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「すみません。ボクシングはちょっと……。」",
+          "explanation_jp": "本(p.191):「すみません。ボクシングはちょっと……」。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "✏️ 練習② 「大変申し訳ないんですが、〜まして／でして……」 (Track 1-29, trang 60)",
+      "page": 60,
+      "audio": "asset/audio/Track1-29.mp3",
+      "audioLabel": "Track 1-29 — 練習② 「大変申し訳ないんですが、〜は〜まして／でして……」を使ってていねいに断ってみましょう",
+      "intro": "Từ chối lịch sự bằng cách nêu lý do trang trọng rồi bỏ lửng. Điểm luyện: ある → ございます (→ ございまして), 〜ている → 〜ております (→ ておりまして), 〜だ → でして. Đáp án sách: trang 191.",
+      "intro_jp": "「大変申し訳ないんですが、〜は〜まして／でして……」を使ってていねいに断ってみましょう。ある→ございます、〜ている→〜ております、〜だ→でして。 答えは p.191。",
+      "questions": [
+        {
+          "q": "例) その日は先約がある ⇒ ?",
+          "qVi": "Mẫu) 「その日は先約がある」 → 「大変申し訳ないんですが、〜まして……」?",
+          "options": [
+            { "jp": "大変申し訳ないんですが、その日は先約がございまして……。", "vi": "Thành thật xin lỗi, nhưng hôm đó em đã có hẹn trước rồi ạ… (ある → ございます → ございまして)" },
+            { "jp": "大変申し訳ないんですが、その日は先約がありまして……。", "vi": "(chưa nâng ある → ございます)" },
+            { "jp": "大変申し訳ないんですが、その日は先約があるんです。", "vi": "(言い切る — mất sắc thái bỏ lửng 「〜まして……」)" }
+          ],
+          "answer": 0,
+          "explanation": "Mẫu sách (p.60): 「大変申し訳ないんですが、その日は先約がございまして……。」 ある → ございます (改まった), rồi ます → まして.",
+          "explanation_jp": "本(p.60)の例:「大変申し訳ないんですが、その日は先約がございまして……」。ある→ございます→ございまして。"
+        },
+        {
+          "q": "1) その日の夕方、友人の結婚式がある ⇒ ?",
+          "qVi": "1) 「その日の夕方、友人の結婚式がある」 → mẫu này?",
+          "options": [
+            { "jp": "大変申し訳ないんですが、その日の夕方、友人の結婚式がございまして……。", "vi": "Thành thật xin lỗi, nhưng chiều hôm đó em có đám cưới của bạn ạ…" },
+            { "jp": "大変申し訳ないんですが、その日の夕方、友人の結婚式がありまして……。", "vi": "(chưa nâng ある → ございます)" },
+            { "jp": "大変申し訳ないんですが、その日の夕方、友人の結婚式があるんです。", "vi": "(言い切る — mất 「〜まして……」)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「大変申し訳ないんですが、その日の夕方、友人の結婚式がございまして……。」",
+          "explanation_jp": "本(p.191):「大変申し訳ないんですが、その日の夕方、友人の結婚式がございまして……」。"
+        },
+        {
+          "q": "2) その日の午後、3時から会議がある ⇒ ?",
+          "qVi": "2) 「その日の午後、3時から会議がある」 → mẫu này?",
+          "options": [
+            { "jp": "大変申し訳ないんですが、その日の午後、3時から会議がございまして……。", "vi": "Thành thật xin lỗi, nhưng chiều hôm đó em có cuộc họp từ 3 giờ ạ…" },
+            { "jp": "大変申し訳ないんですが、その日の午後、3時から会議がありまして……。", "vi": "(chưa nâng ある → ございます)" },
+            { "jp": "大変申し訳ないんですが、その日の午後、3時から会議があるので無理です。", "vi": "(言い切る — quá thẳng)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「大変申し訳ないんですが、その日の午後、3時から会議がございまして……。」",
+          "explanation_jp": "本(p.191):「大変申し訳ないんですが、その日の午後、3時から会議がございまして……」。"
+        },
+        {
+          "q": "3) 翌日にプレゼンテーションがあって、その準備をしている ⇒ ?",
+          "qVi": "3) 「翌日にプレゼンテーションがあって、その準備をしている」 → mẫu này? (している → しております)",
+          "options": [
+            { "jp": "大変申し訳ないんですが、翌日にプレゼンテーションがございまして、その準備をしておりまして……。", "vi": "Thành thật xin lỗi, nhưng hôm sau em có buổi thuyết trình, đang chuẩn bị cho nó ạ… (ある→ございます, している→しております)" },
+            { "jp": "大変申し訳ないんですが、翌日にプレゼンテーションがありまして、その準備をしていまして……。", "vi": "(chưa nâng ある→ございます, している→しております)" },
+            { "jp": "大変申し訳ないんですが、翌日にプレゼンテーションがあって、準備をしているんです。", "vi": "(言い切る — quá thẳng)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「大変申し訳ないんですが、翌日にプレゼンテーションがございまして、その準備をしておりまして……。」 〜ている → 〜ております (humble, học ở Bài 3) → しておりまして.",
+          "explanation_jp": "本(p.191):「大変申し訳ないんですが、翌日にプレゼンテーションがございまして、その準備をしておりまして……」。〜ている→〜ております。"
+        },
+        {
+          "q": "4) その日の午前中は新幹線で移動中だ ⇒ ?",
+          "qVi": "4) 「その日の午前中は新幹線で移動中だ」 → mẫu này? (〜だ → でして)",
+          "options": [
+            { "jp": "大変申し訳ないんですが、その日の午前中は新幹線で移動中でして……。", "vi": "Thành thật xin lỗi, nhưng sáng hôm đó em đang di chuyển trên shinkansen ạ… (〜だ → でして)" },
+            { "jp": "大変申し訳ないんですが、その日の午前中は新幹線で移動中がございまして……。", "vi": "(sai — 「移動中だ」 là 〜だ, dùng 「でして」 chứ không phải 「ございまして」)" },
+            { "jp": "大変申し訳ないんですが、その日の午前中は新幹線で移動中なんです。", "vi": "(言い切る — mất 「でして……」)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「大変申し訳ないんですが、その日の午前中は新幹線で移動中でして……。」 〜だ → でして (「〜です」のて形).",
+          "explanation_jp": "本(p.191):「大変申し訳ないんですが、その日の午前中は新幹線で移動中でして……」。〜だ→でして。"
+        },
+        {
+          "q": "5) その前の週からロサンゼルスに出張中だ ⇒ ?",
+          "qVi": "5) 「その前の週からロサンゼルスに出張中だ」 → mẫu này? (〜だ → でして)",
+          "options": [
+            { "jp": "大変申し訳ないんですが、その前の週からロサンゼルスに出張中でして……。", "vi": "Thành thật xin lỗi, nhưng từ tuần trước đó em đang công tác ở Los Angeles ạ… (〜だ → でして)" },
+            { "jp": "大変申し訳ないんですが、その前の週からロサンゼルスに出張中がございまして……。", "vi": "(sai — 「出張中だ」 dùng 「でして」, không phải 「ございまして」)" },
+            { "jp": "大変申し訳ないんですが、その前の週からロサンゼルスに出張中なので無理です。", "vi": "(言い切る — quá thẳng)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「大変申し訳ないんですが、その前の週からロサンゼルスに出張中でして……。」",
+          "explanation_jp": "本(p.191):「大変申し訳ないんですが、その前の週からロサンゼルスに出張中でして……」。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "✏️ 練習③ 「〜はちょっと苦手でして……」 を使って断る (Track 1-30, trang 60)",
+      "page": 60,
+      "audio": "asset/audio/Track1-30.mp3",
+      "audioLabel": "Track 1-30 — 練習③ 「〜はちょっと苦手でして……」を使って断ってみましょう",
+      "intro": "Từ chối lời mời một cách nhẹ nhàng bằng cách viện cớ 「苦手」 (không hợp / không giỏi): 「すみません。〜はちょっと苦手でして……」. Đáp án sách: trang 191.",
+      "intro_jp": "「〜はちょっと苦手でして……」を使って断ってみましょう。「すみません。〜はちょっと苦手でして……」。 答えは p.191。",
+      "questions": [
+        {
+          "q": "例) お酒、ご一緒にいかがですか。 ⇒ ?",
+          "qVi": "Mẫu) 「お酒、ご一緒にいかがですか」 → 「〜はちょっと苦手でして……」?",
+          "options": [
+            { "jp": "すみません。お酒はちょっと苦手でして……。", "vi": "Em xin lỗi. Rượu bia thì em hơi không hợp ạ… (苦手だ → 苦手でして)" },
+            { "jp": "すみません。お酒はちょっと苦手です。", "vi": "(言い切る — mất sắc thái bỏ lửng 「でして……」)" },
+            { "jp": "すみません。お酒は飲めません。", "vi": "(cụt — nói thẳng 'không uống được')" }
+          ],
+          "answer": 0,
+          "explanation": "Mẫu sách (p.60): 「すみません。お酒はちょっと苦手でして……。」 苦手だ → 苦手でして (「です」のて形) + bỏ lửng. Viện 「苦手」 để từ chối nhẹ.",
+          "explanation_jp": "本(p.60)の例:「すみません。お酒はちょっと苦手でして……」。苦手だ→苦手でして。"
+        },
+        {
+          "q": "1) クラシックのコンサート、一緒にいかがですか。 ⇒ ?",
+          "qVi": "1) 「クラシックのコンサート、一緒にいかがですか」 → 「〜はちょっと苦手でして……」?",
+          "options": [
+            { "jp": "すみません。クラシックはちょっと苦手でして……。", "vi": "Em xin lỗi. Nhạc cổ điển thì em hơi không hợp ạ…" },
+            { "jp": "すみません。クラシックはちょっと苦手です。", "vi": "(言い切る — mất 「でして……」)" },
+            { "jp": "クラシックは好きじゃありません。", "vi": "(quá thẳng / bất lịch sự)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「すみません。クラシックはちょっと苦手でして……。」",
+          "explanation_jp": "本(p.191):「すみません。クラシックはちょっと苦手でして……」。"
+        },
+        {
+          "q": "2) おすし、一緒に食べに行きませんか。 ⇒ ?",
+          "qVi": "2) 「おすし、一緒に食べに行きませんか」 → 「〜はちょっと苦手でして……」?",
+          "options": [
+            { "jp": "すみません。おすしはちょっと苦手でして……。", "vi": "Em xin lỗi. Sushi thì em hơi không hợp ạ…" },
+            { "jp": "すみません。おすしはちょっと苦手です。", "vi": "(言い切る — mất 「でして……」)" },
+            { "jp": "おすしは食べられません。", "vi": "(cụt — nói thẳng)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「すみません。おすしはちょっと苦手でして……。」",
+          "explanation_jp": "本(p.191):「すみません。おすしはちょっと苦手でして……」。"
+        },
+        {
+          "q": "3) 今夜、ロックコンサートに行きませんか。 ⇒ ?",
+          "qVi": "3) 「今夜、ロックコンサートに行きませんか」 → 「〜はちょっと苦手でして……」?",
+          "options": [
+            { "jp": "すみません。ロックはちょっと苦手でして……。", "vi": "Em xin lỗi. Nhạc rock thì em hơi không hợp ạ…" },
+            { "jp": "すみません。ロックはちょっと苦手です。", "vi": "(言い切る — mất 「でして……」)" },
+            { "jp": "ロックは聞きません。", "vi": "(cụt — quá thẳng)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「すみません。ロックはちょっと苦手でして……。」",
+          "explanation_jp": "本(p.191):「すみません。ロックはちょっと苦手でして……」。"
+        },
+        {
+          "q": "4) 週末、ゴルフ、一緒にどう? ⇒ ?",
+          "qVi": "4) 「週末、ゴルフ、一緒にどう?」 → 「〜はちょっと苦手でして……」?",
+          "options": [
+            { "jp": "すみません。ゴルフはちょっと苦手でして……。", "vi": "Em xin lỗi. Golf thì em hơi không giỏi ạ…" },
+            { "jp": "すみません。ゴルフはちょっと苦手です。", "vi": "(言い切る — mất 「でして……」)" },
+            { "jp": "ゴルフはできません。", "vi": "(cụt — quá thẳng)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「すみません。ゴルフはちょっと苦手でして……。」",
+          "explanation_jp": "本(p.191):「すみません。ゴルフはちょっと苦手でして……」。"
+        },
+        {
+          "q": "5) これから一杯飲みに行かない? ⇒ ?",
+          "qVi": "5) 「これから一杯飲みに行かない?」 → 「〜はちょっと苦手でして……」?",
+          "options": [
+            { "jp": "すみません。お酒はちょっと苦手でして……。", "vi": "Em xin lỗi. Rượu bia thì em hơi không hợp ạ…" },
+            { "jp": "すみません。お酒はちょっと苦手です。", "vi": "(言い切る — mất 「でして……」)" },
+            { "jp": "お酒は飲みたくありません。", "vi": "(quá thẳng / bất lịch sự)" }
+          ],
+          "answer": 0,
+          "explanation": "Đáp án sách (p.191): 「すみません。お酒はちょっと苦手でして……。」",
+          "explanation_jp": "本(p.191):「すみません。お酒はちょっと苦手でして……」。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — Phiên bản từ chối đúng cách (Track 1-31, trang 61)",
+      "page": 61,
+      "image": "images/L06/61_1.jpg",
+      "imageAlt": "Minh hoạ trang 61 — 金子部長 và Alex trao đổi ôn hoà ở bàn làm việc, có bong bóng hình anh Yamada; cả hai hiểu nhau, sếp gật đầu.",
+      "imageCaption": "Minh hoạ trang 61 — lần này Alex giải thích rõ lý do, xin lỗi đúng mực, nên 金子部長 hiểu và đề nghị 「スケジュールを調整しよう」.",
+      "audio": "asset/audio/Track1-31.mp3",
+      "audioLabel": "Track 1-31 — これでOK! 断る (phiên bản chuẩn)",
+      "scene": "もう一度、同じ場面。今度はアレックスさんが上手に断ります。\n(Vẫn tình huống đó. Lần này Alex từ chối một cách khéo léo. Hãy so sánh với phiên bản できますか? ở trang 58.)",
+      "lines": [
+        { "speaker": "金子部長", "jp": "アレックスくん。", "vi": "Alex này." },
+        { "speaker": "アレックス", "jp": "はい。", "vi": "Dạ." },
+        { "speaker": "金子部長", "jp": "来週の火曜日の4時から臨時の営業会議になったんだ。時間、あけておいてくれる?", "vi": "Thứ Ba tuần sau có cuộc họp kinh doanh đột xuất từ 4 giờ. Cậu giữ trống thời gian đó nhé?" },
+        { "speaker": "アレックス", "jp": "あ、火曜日ですか。その時間はちょっと……。", "vi": "À, thứ Ba ạ. Khung giờ đó thì hơi… (khó ạ). (✅ làm mềm 「その時間はちょっと……」 — mục ①, thay vì 「忙しいんです」)" },
+        { "speaker": "金子部長", "jp": "あ、だめ?", "vi": "Ơ, không được à?" },
+        { "speaker": "アレックス", "jp": "ええ。アジア映画の山田さんにお目にかかることになっておりまして。来月の新作映画のプロモーションの打ち合わせなんですが、やっと予約が取れたんです。", "vi": "Vâng ạ. Em có hẹn gặp anh Yamada bên hãng phim châu Á. Là buổi bàn về quảng bá phim mới ra tháng sau, mãi em mới đặt được lịch ạ. (✅ giải thích lý do cụ thể + khiêm nhường: お目にかかる + 〜ております — mục ②)" },
+        { "speaker": "金子部長", "jp": "あ、そうか。今度の会議の議題は、アレックスくんにも関係があるから、スケジュールを調整しよう。", "vi": "À, ra vậy. Chủ đề cuộc họp lần này cũng liên quan đến cậu đấy, nên để mình điều chỉnh lịch vậy." },
+        { "speaker": "アレックス", "jp": "申し訳ありません。よろしくお願いします。お忙しい山田さんにやっとお時間を取っていただいたので……そちらの予定も動かせないんです。", "vi": "Em xin lỗi ạ. Em nhờ anh ạ. Anh Yamada bận rộn vậy mà mãi mới thu xếp được thời gian cho em… nên lịch bên đó em cũng không dời được ạ. (✅ 申し訳ありません — mục ③ xin lỗi + giải thích thêm để phối hợp — mục ④)" },
+        { "speaker": "金子部長", "jp": "うん。わかった。また連絡する。", "vi": "Ừ. Mình hiểu rồi. Sẽ liên lạc lại sau." },
+        { "speaker": "アレックス", "jp": "お願いします。", "vi": "Em nhờ anh ạ." },
+        { "speaker": "—", "jp": "アレックスさんは、火曜日の会議に出られないことを上手に伝えることができました。", "vi": "Alex đã truyền đạt khéo léo việc mình không dự được cuộc họp thứ Ba. (Khác trang 58: lần này có làm mềm, giải thích rõ, xin lỗi → sếp đề nghị điều chỉnh lịch.)" }
+      ],
+      "vocabHighlight": [
+        "その時間はちょっと……。 = làm mềm (① 〜はちょっと) — thay 「その日は忙しいんです」",
+        "山田さんにお目にかかることになっておりまして。 = lý do cụ thể + khiêm nhường (② 断る・理由) — お目にかかる ＝ kenjougo của 会う",
+        "やっと予約が取れたんです。 = bổ sung để lý do thuyết phục (②)",
+        "申し訳ありません。 = xin lỗi đúng mực (③ 謝る)",
+        "お忙しい山田さんにやっとお時間を取っていただいたので… = giải thích thêm để phối hợp (④)"
+      ],
+      "note": "So sánh トラブル → OK:\n• その日は忙しいんです。(cụt + mơ hồ) → その時間はちょっと……。 ✅ ①\n• 山田さんに会うんです。(trống không) → アジア映画の山田さんにお目にかかることになっておりまして…やっと予約が取れたんです。 ✅ ②\n• (xin lỗi qua loa) → 申し訳ありません。 ✅ ③\n• (không phối hợp) → お忙しい山田さんにやっとお時間を取っていただいたので… ✅ ④\n\nKhác trang 58: Alex giải thích rõ lý do, xin lỗi đúng mực → 金子部長 hiểu và chủ động 「スケジュールを調整しよう」.",
+      "note_jp": "p.58の間違い→p.61の上手な断り方:\n• その日は忙しいんです。→ その時間はちょっと……。①\n• 山田さんに会うんです。→ アジア映画の山田さんにお目にかかることになっておりまして…やっと予約が取れたんです。②\n• (謝りが弱い) → 申し訳ありません。③\n• お忙しい山田さんにやっとお時間を取っていただいたので… ④\nきちんと理由を説明し、謝ったので、金子部長は「スケジュールを調整しよう」と言ってくれました。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh トラブル → これでOK (p.58 ↔ p.61)",
+      "intro": "Bảng TỔNG HỢP đối chiếu bản từ chối CHƯA khéo (p.58 「できますか?」) ↔ bản ĐÚNG (p.61 「これでOK!」), map theo các mục ①〜④. Gom từ 2 hội thoại phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.58「できますか?」とp.61「これでOK!」を①〜④で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "Điểm",
+        "sonkeigo": "✗ p.58 (chưa khéo)",
+        "kenjougo": "✓ p.61 (これでOK)"
+      },
+      "rows": [
+        { "plain": "① やわらかく断る", "plainVi": "làm mềm", "sonkeigo": "その日は忙しいんです。", "kenjougo": "その時間はちょっと……。" },
+        { "plain": "② 理由を言う", "plainVi": "nêu lý do", "sonkeigo": "山田さんに会うんです。(mơ hồ)", "kenjougo": "山田さんにお目にかかることになっておりまして…やっと予約が取れたんです。" },
+        { "plain": "③ 謝る", "plainVi": "xin lỗi", "sonkeigo": "(qua loa)", "kenjougo": "申し訳ありません。" },
+        { "plain": "④ 関係を続ける／協力", "plainVi": "giữ quan hệ / phối hợp", "sonkeigo": "(không có)", "kenjougo": "お忙しい山田さんにやっとお時間を取っていただいたので…" }
+      ],
+      "note": "Mấu chốt: làm mềm trước, GIẢI THÍCH lý do cụ thể (kèm khiêm nhường お目にかかる / 〜ております), xin lỗi đúng mực, rồi phối hợp tìm hướng. Nhờ vậy 金子部長 chủ động 「スケジュールを調整しよう」.",
+      "note_jp": "ポイント:やわらかく断り、理由をきちんと説明し(お目にかかる／〜ております)、しっかり謝り、協力する。だから金子部長は「スケジュールを調整しよう」と言ってくれました。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — 上司 vs 友達 の断り方 (trang 62)",
+      "page": 62,
+      "instruction": "＿＿には適当なことばを入れ、【　】では正しいものを選びましょう。",
+      "instruction_vi": "Điền cụm thích hợp vào chỗ ＿＿ và chọn phương án đúng trong 【　】. 1) là từ chối lời mời của SẾP (部長) → lịch sự; 2) là từ chối lời rủ của BẠN → văn thường (友達スタイル). Đáp án → trang 191.",
+      "note": "Đáp án sách (p.191): 1) ①申し訳ありません／申し訳ないんです ②お酒はちょっと…… ③ございまして…… ④誘ってください／お誘いください ／ 2) ①今度の日曜日はちょっと…… ②a(あってね)。",
+      "items": [
+        {
+          "num": "1",
+          "context": "〈上司の誘いを断るとき〉\nA：これから一杯飲みに行くけど、アレックスさんもどう?\nB：あ、部長、【①】が、【②】。\nA：お酒はだめなの? 久しぶりだからいいじゃない。\nB：明日は営業会議で大切なプレゼンが【③】。早く帰って準備をしないと……。\nA：そうか。残念だな。\nB：また今度【④】。\nA：わかった。じゃ、また今度。",
+          "context_vi": "〈Từ chối lời mời của SẾP〉 A: Giờ đi làm vài ly, Alex đi cùng không? — B: À, sếp ơi, 【①…】, nhưng mà 【②…】. — A: Cậu không uống được rượu à? Lâu rồi mới gặp, đi đi mà. — B: Mai em có buổi thuyết trình quan trọng ở cuộc họp kinh doanh 【③…】. Em phải về sớm chuẩn bị… — A: Vậy à. Tiếc nhỉ. — B: Lần sau 【④…】. — A: Được. Vậy hẹn lần sau.",
+          "subAnswers": [
+            { "num": "①", "answer": "申し訳ありません／申し訳ないんです", "answer_vi": "Mở đầu xin lỗi khi từ chối lời mời của sếp (③ 謝る)." },
+            { "num": "②", "answer": "お酒はちょっと……", "answer_vi": "Từ chối mềm 「〜はちょっと……」 bỏ lửng (① )." },
+            { "num": "③", "answer": "ございまして……", "answer_vi": "プレゼンがある → ある → ございます → ございまして (nêu lý do trang trọng, ②)." },
+            { "num": "④", "answer": "誘ってください／お誘いください", "answer_vi": "Giữ quan hệ: 「また今度誘ってください／お誘いください」 (④)." }
+          ]
+        },
+        {
+          "num": "2",
+          "context": "〈友達の誘いを断るとき〉\nA：ねえ、よかったら、今度の日曜日、一緒に美術館に行かない?\nB：美術館はすごく好きだけど、【①】。\nA：え? だめなの?\nB：うん。その日は日曜日だけど仕事が【② a.あってね　b.ございましてね　c.ありましてね】。\nA：あ、そう。じゃあ、もし他の日がひまになったら、メールしてよ。\nB：わかった。",
+          "context_vi": "〈Từ chối lời rủ của BẠN〉 A: Này, nếu được thì chủ nhật tới đi bảo tàng mỹ thuật cùng không? — B: Bảo tàng thì tớ rất thích, nhưng mà 【①…】. — A: Ơ? Không được à? — B: Ừ. Hôm đó là chủ nhật nhưng tớ có việc 【②…】. — A: À, vậy à. Thế hôm nào rảnh thì mail cho tớ nhé. — B: Ừ, được.",
+          "subAnswers": [
+            { "num": "①", "answer": "今度の日曜日はちょっと……", "answer_vi": "Từ chối mềm 「〜はちょっと……」 — với bạn vẫn dùng được (①)." },
+            { "num": "②", "options": ["a. あってね", "b. ございましてね", "c. ありましてね"], "answerIndex": 0, "answer_vi": "a あってね — với BẠN dùng văn thường (友達スタイル). 「ございまして／ありまして」 là 改まった, dùng với người trên, không hợp khi nói với bạn." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "style": "speak",
+      "title": "🗣️ スタイルを変えてみましょう — 敬語 ↔ 友達 (Track 1-32, trang 62–63)",
+      "page": 62,
+      "audio": "asset/audio/Track1-32.mp3",
+      "audioLabel": "Track 1-32 — スタイルを変えてみましょう",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Từ câu gốc (ですます), hãy NÓI lại theo 2 phong cách: (1) 敬語 — lịch sự cao (ございまして／〜ております／伺える＋申し訳ありません); (2) 友達 — thân mật (〜んだ・あんまり＋ごめん). Nghe hết một lượt rồi mới luyện. Bấm 🎧 nghe lại từng câu. Đáp án → trang 191.",
+      "note": "敬語 dùng từ khiêm nhường + nâng cấp (伺える, 通っております, ございまして); 友達 dùng văn thường + ごめん. Đáp án theo trang 191 (Track 1-32).",
+      "items": [
+        {
+          "num": "例", "example": true,
+          "context": "その日は時間がなくて行けないんです。",
+          "context_vi": "(câu gốc ですます) Hôm đó em không có thời gian nên không đi được ạ.",
+          "audioStart": 0, "audioEnd": 18,
+          "subAnswers": [
+            { "num": "敬語", "answer": "その日は時間がなくて伺えませんで……。", "answer_vi": "行けない → 伺えない (khiêm nhường của 行ける), bỏ lửng 「〜ませんで……」." },
+            { "num": "友達", "answer": "その日は時間がなくて行けなくて……。", "answer_vi": "Văn thường, bỏ lửng 「行けなくて……」." }
+          ]
+        },
+        {
+          "num": "1",
+          "context": "日曜日には会議があってパーティーに行けないんです。すみません。",
+          "context_vi": "Chủ nhật có cuộc họp nên em không đi tiệc được ạ. Em xin lỗi.",
+          "audioStart": 18, "audioEnd": 42,
+          "subAnswers": [
+            { "num": "敬語", "answer": "日曜日には会議がございまして、パーティーに伺えないんです。申し訳ありません。", "answer_vi": "ある→ございます (→ございまして), 行けない→伺えない, すみません→申し訳ありません." },
+            { "num": "友達", "answer": "日曜日には会議があって、パーティーに行けないんだ。ごめん。", "answer_vi": "Văn thường: 〜んだ + ごめん." }
+          ]
+        },
+        {
+          "num": "2",
+          "context": "日曜日は英語の学校に通っていて、あまり時間がないんです。すみません。",
+          "context_vi": "Chủ nhật em đi học ở trường tiếng Anh nên không có mấy thời gian ạ. Em xin lỗi.",
+          "audioStart": 42, "audioEnd": 69,
+          "subAnswers": [
+            { "num": "敬語", "answer": "日曜日は英語の学校に通っておりまして、あまり時間がないんです。申し訳ございません。", "answer_vi": "通っている→通っております (→通っておりまして), すみません→申し訳ございません." },
+            { "num": "友達", "answer": "日曜日は英語の学校に通っていて、あんまり時間がないんだ。ごめん。", "answer_vi": "Văn thường: あまり→あんまり, 〜んだ + ごめん." }
+          ]
+        },
+        {
+          "num": "3",
+          "context": "今回は行けないんですが、また今度誘ってください。",
+          "context_vi": "Lần này em không đi được, nhưng lần sau lại rủ em nhé ạ.",
+          "audioStart": 69, "audioEnd": 92,
+          "subAnswers": [
+            { "num": "敬語", "answer": "今回は伺えないんですが、また今度お誘いください。", "answer_vi": "行けない→伺えない, 誘ってください→お誘いください (giữ quan hệ, ④)." },
+            { "num": "友達", "answer": "今回は行けないんだけど、また今度誘ってね。", "answer_vi": "Văn thường: 〜んだけど, 誘ってね." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎭 やってみましょう ①② — 話してみましょう (trang 63)",
+      "page": 63,
+      "intro": "Hoạt động NÓI theo cặp: một người là 部下 (A), một người là 上司 (B). Mỗi người cầm một ロールカード rồi hội thoại bằng kính ngữ, luyện cách TỪ CHỐI khéo.\nTự học một mình? Đọc cả hai thẻ rồi tự dựng hội thoại cho từng vai; bấm 🔊 để nghe đề bài, rồi mở 「📖 Xem hội thoại mẫu」 (会話の例, Track 1-33) để đối chiếu.\n👉 Thẻ vai: A 部下 ① trang 168 / ② trang 169; B 上司 ①② đều trang 173.",
+      "intro_jp": "ペアで話す練習です。A=部下、B=上司。ロールカードを持って、敬語で「断る」会話をしましょう。\nロールカード:A(部下)=①p.168／②p.169、B(上司)=①②p.173。会話の例(Track 1-33)で確認できます。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう ① — 会議の出席を断る",
+          "title_vi": "Từ chối dự cuộc họp (vì đi công tác Osaka)",
+          "roles": [
+            { "side": "A", "who_jp": "部下", "who_vi": "Bạn là cấp dưới (thẻ vai trang 168)", "ref": "ロールカード p.168", "jp": "あなたは来週の月曜日から水曜日まで大阪に出張です。部長に火曜日の営業会議に出るよう指示をされたら、ていねいに断って、予定を調整してもらってください。", "vi": "Bạn đi công tác Osaka từ thứ Hai đến thứ Tư tuần sau. Khi sếp (部長) yêu cầu dự cuộc họp kinh doanh thứ Ba, hãy từ chối lịch sự và nhờ điều chỉnh lịch." },
+            { "side": "B", "who_jp": "上司（部長）", "who_vi": "Bạn là sếp — 部長 (thẻ vai trang 173)", "ref": "ロールカード p.173", "jp": "部下に、来週火曜日の営業会議に出席するように伝えてください。部下が忙しかったら、予定を調整してください。", "vi": "Hãy bảo cấp dưới dự cuộc họp kinh doanh thứ Ba tuần sau. Nếu cấp dưới bận, hãy điều chỉnh lịch." }
+          ],
+          "hints": [
+            { "jp": "部長、申し訳ないんですが、火曜日はちょっと……。", "vi": "(部下) làm mềm + xin lỗi — ①③" },
+            { "jp": "来週は〜に出張しておりまして……。", "vi": "(部下) nêu lý do trang trọng — ② 〜ております・まして" },
+            { "jp": "（上司）わかった。予定を調整しよう。", "vi": "(上司) đồng ý điều chỉnh lịch" }
+          ],
+          "model": {
+            "track": "1-33",
+            "audio": "asset/audio/Track1-33.mp3",
+            "intro_vi": "Hội thoại mẫu in trong sách (trang 191–192, Track 1-33). Hãy tự dựng & nói trước theo thẻ vai, rồi mới mở ra đối chiếu.",
+            "intro_jp": "本の会話例(p.191〜192・Track 1-33)です。先に自分で話してから、答え合わせに開いてください。",
+            "lines": [
+              { "sp": "B", "jp": "アレックスくん。", "vi": "Alex này." },
+              { "sp": "A", "jp": "はい。", "vi": "Dạ." },
+              { "sp": "B", "jp": "来週の火曜日の会議なんだけど、君も出席していろいろ報告してくれよ。", "vi": "Cuộc họp thứ Ba tuần sau ấy, cậu cũng dự rồi báo cáo các thứ nhé." },
+              { "sp": "A", "jp": "部長、申し訳ないんですが、火曜日はちょっと……。", "vi": "Sếp ơi, em xin lỗi, nhưng thứ Ba thì hơi… (khó ạ).", "note_vi": "① làm mềm + ③ xin lỗi" },
+              { "sp": "B", "jp": "どうした?", "vi": "Sao thế?" },
+              { "sp": "A", "jp": "来週は月曜日から水曜日まで大阪に出張しておりまして……。取材のアポが取れたんです。", "vi": "Tuần sau từ thứ Hai đến thứ Tư em đi công tác Osaka ạ… Em đã hẹn được lịch phỏng vấn rồi ạ.", "note_vi": "② lý do trang trọng: 出張しております → しておりまして" },
+              { "sp": "B", "jp": "あ、そう。いつ帰ってくるの?", "vi": "À vậy à. Khi nào cậu về?" },
+              { "sp": "A", "jp": "東京には水曜日の午後に帰ってまいります。", "vi": "Em sẽ về Tokyo vào chiều thứ Tư ạ. (帰ってまいります = khiêm nhường của 帰ってきます)" },
+              { "sp": "B", "jp": "わかった。予定を調整しよう。", "vi": "Hiểu rồi. Để mình điều chỉnh lịch vậy." },
+              { "sp": "A", "jp": "すみません。お願いいたします。", "vi": "Em xin lỗi ạ. Em nhờ sếp ạ." }
+            ]
+          }
+        },
+        {
+          "label": "②",
+          "title_jp": "話してみましょう ② — 飲みの誘いを断る",
+          "title_vi": "Từ chối lời rủ đi nhậu (vì mai có thuyết trình)",
+          "roles": [
+            { "side": "A", "who_jp": "部下", "who_vi": "Bạn là cấp dưới (thẻ vai trang 169)", "ref": "ロールカード p.169", "jp": "仕事が終わったあと、課長が、ビールを飲みに行こうとあなたを誘います。しかし、明日は会議でプレゼンをしなければなりません。ていねいに断ってください。", "vi": "Sau giờ làm, 課長 (trưởng phòng) rủ bạn đi uống bia. Nhưng mai bạn phải thuyết trình ở cuộc họp. Hãy từ chối lịch sự." },
+            { "side": "B", "who_jp": "上司（課長）", "who_vi": "Bạn là sếp — 課長 (thẻ vai trang 173)", "ref": "ロールカード p.173", "jp": "仕事が終わったので、部下をビールを飲みに誘ってください。", "vi": "Vừa xong việc, hãy rủ cấp dưới đi uống bia." }
+          ],
+          "hints": [
+            { "jp": "課長、申し訳ないんですが、今日はちょっと……。", "vi": "(部下) làm mềm + xin lỗi — ①③" },
+            { "jp": "明日の会議でプレゼンをしなければなりませんので。", "vi": "(部下) nêu lý do — ②" },
+            { "jp": "また今度誘ってください。", "vi": "(部下) giữ quan hệ — ④" }
+          ],
+          "model": {
+            "track": "1-33",
+            "audio": "asset/audio/Track1-33.mp3",
+            "intro_vi": "Hội thoại mẫu in trong sách (trang 192, Track 1-33, phần ②). Tự nói trước rồi mở đối chiếu.",
+            "intro_jp": "本の会話例(p.192・Track 1-33 ②)です。先に自分で話してから確認しましょう。",
+            "lines": [
+              { "sp": "B", "jp": "アレックスくん。", "vi": "Alex này." },
+              { "sp": "A", "jp": "はい。", "vi": "Dạ." },
+              { "sp": "B", "jp": "今日は早く終わったから、ビール飲みに行かない? 新橋の駅の前にいいお店があるんだ。", "vi": "Hôm nay xong sớm, đi uống bia không? Trước ga Shinbashi có quán ngon lắm." },
+              { "sp": "A", "jp": "ビールですか……飲みたいですけど……課長、申し訳ないんですが、今日はちょっと……。", "vi": "Bia ạ… Em cũng muốn đi lắm… nhưng trưởng phòng ơi, em xin lỗi, hôm nay thì hơi… (khó ạ).", "note_vi": "① làm mềm + ③ xin lỗi" },
+              { "sp": "B", "jp": "だめ?", "vi": "Không được à?" },
+              { "sp": "A", "jp": "ええ。明日の会議でプレゼンをしなければなりませんので。", "vi": "Vâng ạ. Vì mai em phải thuyết trình ở cuộc họp ạ.", "note_vi": "② lý do (〜ので)" },
+              { "sp": "B", "jp": "そうか。残念。", "vi": "Vậy à. Tiếc nhỉ." },
+              { "sp": "A", "jp": "また今度誘ってください。", "vi": "Lần sau anh lại rủ em nhé ạ.", "note_vi": "④ giữ quan hệ" }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 会話の例 (hội thoại mẫu, trang 191–192 · Track 1-33) đã nhúng ngay dưới mỗi tình huống — bấm \"📖 Xem hội thoại mẫu\" để đối chiếu sau khi đã tự nói.",
+      "answerRef_jp": "会話の例(p.191〜192・Track 1-33)は各シナリオの下にあります。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "exercise",
+      "title": "✉️ やってみましょう ③ — メールを書いてみましょう (trang 63–64)",
+      "page": 63,
+      "instruction": "金子部長からメールが来ました。4日は、国から両親が来るので、成田空港まで迎えに行きます。ていねいにメールで断ってください。①〜③に入る文を考えてください。",
+      "instruction_vi": "金子部長 gửi mail rủ cả phòng kinh doanh đi onsen ngày Chủ nhật 4. Nhưng ngày 4 bố mẹ bạn từ nước nhà sang, bạn phải ra sân bay Narita đón. Hãy viết mail từ chối lịch sự — điền 3 chỗ ①〜③. ⚠️ Đây là VIẾT mail → phải viết HẾT câu, KHÔNG bỏ lửng 「〜でして……」「伺えませんで」. Đáp án mẫu → trang 191–192.",
+      "note": "📨 Mail của sếp (金子部長): 「来月4日の日曜日ですが、時間があったら、営業部のみんなで温泉に行こうと考えています。都合はどうですか。知らせてください。」\n*いつもは友達スタイルで話す上司も、メールだと少していねいに書きます。\n\n📝 本文 (điền ①〜③):\n金子部長\nお疲れ様です。アレックスです。\nお誘いくださいましてありがとうございます。\n残念ながら、その日は①＿＿＿＿。 ◀その日の予定を言う\n申し訳ありませんが、②＿＿＿＿。 ◀行けないとはっきり伝える\nせっかくのお誘いなのにすみません。\n③＿＿＿＿。 ◀次のチャンスに誘ってほしいと伝える\nアレックス\n\n⚠️ メールなどで断るときは、最後まではっきり書きましょう。\n〈話すとき〉行く予定でございまして……。 → 〈書くとき〉行く予定でございまして、残念ですが伺えません。\n✗「行く予定でございまして……。」 ✗「伺えませんで。」は書きことばでは使いません。",
+      "items": [
+        { "num": "①", "context": "残念ながら、その日は①＿＿（その日の予定を言う）", "context_vi": "① Nêu lịch của hôm đó (lý do)", "answer": "国の両親が来日することになっておりまして、成田空港まで迎えに行く予定でございます", "answer_vi": "Đáp án sách (p.191–192): 「国の両親が来日することになっておりまして、成田空港まで迎えに行く予定でございます」. Văn VIẾT → viết HẾT câu (予定でございます), KHÔNG bỏ lửng 「〜でして……」." },
+        { "num": "②", "context": "申し訳ありませんが、②＿＿（行けないとはっきり伝える）", "context_vi": "② Nói rõ là không đi được", "answer": "伺えません／参加できません", "answer_vi": "Đáp án sách (p.192): 「伺えません」/「参加できません」. Văn viết phải nói rõ, KHÔNG 「伺えませんで」 (đó là văn nói)." },
+        { "num": "③", "context": "③＿＿（次のチャンスに誘ってほしいと伝える）", "context_vi": "③ Mong được rủ vào dịp sau (giữ quan hệ)", "answer": "また今度お誘いください", "answer_vi": "Đáp án sách (p.192): 「また今度お誘いください」 (④ giữ quan hệ tốt)." }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Tổng hợp từ vựng Bài 5 (trang 65)",
+      "page": 65,
+      "intro": "Bảng từ vựng của cả Bài 5 (5課), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.\nNhiều mục là cặp 「từ trang trọng ＝ từ thường ngày」 — hiểu nghĩa qua từ quen thuộc.",
+      "intro_jp": "5課の語彙タンク(p.65)。出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        { "jp": "臨時", "kana": "りんじ", "vi": "Đột xuất, tạm thời (impromptu / unscheduled)", "note": "📖 trang 58 — 「臨時の営業会議」 họp đột xuất." },
+        { "jp": "営業会議", "kana": "えいぎょうかいぎ", "vi": "Cuộc họp kinh doanh (sales meeting)", "note": "📖 trang 58." },
+        { "jp": "翻訳", "kana": "ほんやく", "vi": "Bản dịch / phiên dịch (translation)", "note": "📖 trang 59." },
+        { "jp": "残念ながら", "kana": "ざんねんながら", "vi": "Tiếc là… (unfortunately)", "note": "📖 trang 59 — mở câu từ chối." },
+        { "jp": "友人", "kana": "ゆうじん", "vi": "Bạn (＝友達, trang trọng hơn)", "note": "📖 trang 59." },
+        { "jp": "苦手", "kana": "にがて", "vi": "Không giỏi / không hợp / ngại (weak / not good at)", "note": "📖 trang 59 — 「〜は苦手でして……」 viện cớ để từ chối nhẹ." },
+        { "jp": "せっかく〜のに", "kana": "せっかく〜のに", "vi": "Dù đã cất công / có nhã ý… mà (even though you've gone to the trouble to…)", "note": "📖 trang 59 — 「せっかくお誘いくださいましたのに……」." },
+        { "jp": "ご一緒する", "kana": "ごいっしょする", "vi": "Đi / làm cùng (kenjougo của 「一緒に何かをする」)", "note": "📖 trang 59 — 「ご一緒させてください」 cho em đi cùng." },
+        { "jp": "ゴルフ", "kana": "ゴルフ", "vi": "Golf", "note": "📖 trang 60." },
+        { "jp": "ボクシング", "kana": "ボクシング", "vi": "Quyền anh (boxing)", "note": "📖 trang 60." },
+        { "jp": "先約がある", "kana": "せんやくがある", "vi": "Có hẹn trước (to have a prior engagement)", "note": "📖 trang 60." },
+        { "jp": "移動中", "kana": "いどうちゅう", "vi": "Đang di chuyển / trên đường (in transit)", "note": "📖 trang 60." },
+        { "jp": "ロサンゼルス", "kana": "ロサンゼルス", "vi": "Los Angeles", "note": "📖 trang 60." },
+        { "jp": "クラシック", "kana": "クラシック", "vi": "Nhạc cổ điển (classical music)", "note": "📖 trang 60." },
+        { "jp": "ロック", "kana": "ロック", "vi": "Nhạc rock (rock music)", "note": "📖 trang 60." },
+        { "jp": "一杯飲みに行く", "kana": "いっぱいのみにいく", "vi": "Đi làm vài ly (to go have a drink)", "note": "📖 trang 60." },
+        { "jp": "新作", "kana": "しんさく", "vi": "Tác phẩm mới (new work / piece)", "note": "📖 trang 61 — 「新作映画」 phim mới." },
+        { "jp": "プロモーション", "kana": "プロモーション", "vi": "Quảng bá (promotion)", "note": "📖 trang 61." },
+        { "jp": "打ち合わせ", "kana": "うちあわせ", "vi": "Buổi bàn bạc / trao đổi công việc (meeting)", "note": "📖 trang 61." },
+        { "jp": "議題", "kana": "ぎだい", "vi": "Chủ đề (cuộc họp) (topic)", "note": "📖 trang 61." },
+        { "jp": "調整する", "kana": "ちょうせいする", "vi": "Điều chỉnh, thu xếp (to adjust)", "note": "📖 trang 61 — 「スケジュールを調整する」." },
+        { "jp": "予定を動かす", "kana": "よていをうごかす", "vi": "Dời / đổi lịch (to alter plans / a schedule)", "note": "📖 trang 61." },
+        { "jp": "プレゼン", "kana": "プレゼン", "vi": "Thuyết trình (presentation)", "note": "📖 trang 62 — rút gọn của プレゼンテーション." },
+        { "jp": "温泉", "kana": "おんせん", "vi": "Suối nước nóng (hot spring)", "note": "📖 trang 63." }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "📚 Tổng kết Bài 5 + Bước tiếp theo",
+      "content": "🎯 Tổng kết Bài 5 (5課 断る):\n• ① 「〜はちょっと……」 — từ chối mềm, bỏ lửng để đối phương tự hiểu (không nói thẳng 「だめ／行けません」).\n• ② 断る — nêu lý do rồi từ chối. Ngữ pháp chính: 「〜まして」 (thể て của 〜ます) / 「〜でして」 (thể て của 〜です); khi trang trọng あります → ございます, 〜ている → 〜ております.\n• ③ 謝る — xin lỗi kèm theo: bị nhờ 「お役に立てなくて申し訳ありません」; được mời 「せっかくお誘いくださいましたのに……」 (có thể mở đầu bằng 「ありがとうございます」).\n• ④ いい関係を続けることを伝える — giữ quan hệ: 「また今度／次の機会にお誘いください」「ご一緒させてください」.\n• ⚠️ 「〜まして」「〜でして……」 bỏ lửng chỉ dùng khi NÓI. Khi VIẾT mail phải viết HẾT câu (vd 「行く予定でございまして、残念ですが伺えません」).\n\n📖 Tham chiếu trong sách:\n• Đáp án 練習①②③ (Track 1-28〜1-30) + チェック + スタイルを変えて (Track 1-32) + 会話の例 (Track 1-33) → trang 191–192.\n• Thẻ vai: A 部下 → ① trang 168 / ② trang 169; B 上司 → ①② trang 173.\n• Đáp án mail (やってみましょう③, ①〜③) → trang 191–192.\n\n→ Bài tiếp theo: L07 「申し出る」 (trang 66) — Đề nghị giúp đỡ / Xin phép làm.",
+      "content_jp": "🎯 5課「断る」のまとめ:\n• ①「〜はちょっと……」やわらかく断る(「だめ／行けません」と言い切らない)。\n• ② 断る(理由を言う)。中心文型:「〜まして」=「〜ます」のて形、「〜でして」=「〜です」のて形。改まると、あります→ございます、〜ている→〜ております。\n• ③ 謝る(お願いされたとき:お役に立てなくて申し訳ありません/誘われたとき:せっかくお誘いくださいましたのに……。最初に「ありがとうございます」でもよい)。\n• ④ いい関係を続けることを伝える(また今度/次の機会にお誘いください/ご一緒させてください)。\n• ⚠️「〜まして」「〜でして……」と言いさすのは話しことば。メールでは最後まではっきり書く(例:行く予定でございまして、残念ですが伺えません)。\n\n📖 本の参照:\n• 練習①②③(Track 1-28〜1-30)・チェック・スタイルを変えて(Track 1-32)・会話の例(Track 1-33)の答え → p.191〜192\n• ロールカード:A(部下)=①p.168／②p.169、B(上司)=①②p.173\n• メール(やってみましょう③①〜③)の答え → p.191〜192\n\n→ 次は L07「申し出る」(p.66)。"
+    }
+  ]
+}

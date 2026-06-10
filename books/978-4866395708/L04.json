@@ -1,7 +1,7 @@
 {
   "id": "L04",
   "order": 4,
-  "title": "3課 誘う",
+  "title": "誘う",
   "titleVi": "Bài 3 — Mời / Rủ cấp trên (dự tiệc, sự kiện)",
   "level": "初級修了 → N3",
   "phase": "第2章: 場面別敬語トレーニング",
@@ -817,11 +817,7 @@
           "mode": "choice",
           "context": "A：山田さんたちに飲み会に誘われたんですが、一緒に行きませんか。\nB：え、私も行ってもいいんでしょうか。\nA：もちろん、どうぞ【　？　】。",
           "context_vi": "A: Tôi được nhóm anh Yamada rủ đi nhậu, đi cùng không? — B: Ơ, tôi đi cùng cũng được sao? — A: Tất nhiên, cứ tự nhiên【…】.",
-          "options": [
-            "ごえんりょなく",
-            "おえんりょなく",
-            "おきづかいなく"
-          ],
+          "options": ["ごえんりょなく", "おえんりょなく", "おきづかいなく"],
           "answerIndex": 0,
           "answer_vi": "「どうぞご遠慮なく」= 'đừng ngại'. 遠慮 đi với ご (ごえんりょ) nên b おえんりょ sai; c おきづかいなく (đừng bận tâm) không hợp ngữ cảnh 'mời cứ tham gia'."
         },

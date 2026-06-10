@@ -312,6 +312,14 @@
       .lesson-stats tr.no-time {
         opacity: 0.5;
       }
+      .lesson-stats a.lesson-link {
+        color: #0366d6;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .lesson-stats a.lesson-link:hover {
+        text-decoration: underline;
+      }
       .edit-time-btn {
         background: #f0f4ff;
         border: 1px solid #b8daff;
@@ -981,9 +989,15 @@
               ms > 0
                 ? '<button class="edit-time-btn" title="Giảm giờ học (lỡ tab chạy quá lâu)">✎　</button>'
                 : "";
+            const isReady = lesson.status === "ready";
+            const titleHtml = isReady
+              ? `<a class="lesson-link" href="lesson.html?book=${encodeURIComponent(
+                  book.id
+                )}&id=${encodeURIComponent(lesson.id)}">${lesson.title}</a>`
+              : lesson.title;
             tr.innerHTML = `
             <td class="order">#${lesson.order}</td>
-            <td>${lesson.title}<br><span style="color:#888;font-size:12px;">${
+            <td>${titleHtml}<br><span style="color:#888;font-size:12px;">${
               lesson.titleVi
             }</span></td>
             <td class="time-col">${ms > 0 ? formatHM(ms) : "—"}</td>

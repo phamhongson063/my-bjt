@@ -450,6 +450,104 @@
         gap: 8px 14px;
       }
 
+      /* Lesson share bars (7d / 30d) */
+      .share-section {
+        background: #fff;
+        border: 1px solid #eaecef;
+        padding: 18px;
+        border-radius: 10px;
+        margin: 16px 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+      .share-section h2 {
+        margin: 0;
+        border: none;
+        padding: 0;
+        font-size: 16px;
+      }
+      .share-block {
+        margin-top: 16px;
+      }
+      .share-block + .share-block {
+        margin-top: 20px;
+      }
+      .share-row-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-size: 13px;
+        font-weight: 600;
+        color: #444;
+        margin-bottom: 6px;
+      }
+      .share-total {
+        font-family: ui-monospace, "SF Mono", Menlo, monospace;
+        font-weight: 400;
+        color: #57606a;
+      }
+      .treemap {
+        position: relative;
+        width: 100%;
+        height: 180px;
+        background: #f1f3f5;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .tm-tile {
+        position: absolute;
+        box-sizing: border-box;
+        border: 2px solid #fff;
+        border-radius: 3px;
+        overflow: hidden;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: filter 0.12s;
+      }
+      .tm-tile:hover {
+        filter: brightness(1.1);
+      }
+      .tm-label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        font-size: 11px;
+        line-height: 1.2;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+        padding: 2px;
+        pointer-events: none;
+      }
+      .tm-label b {
+        font-size: 12px;
+        font-weight: 700;
+      }
+      .tm-name {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 1px 0;
+        max-width: 100%;
+        overflow: hidden;
+        opacity: 0.95;
+      }
+      .tm-empty {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        color: #9aa0a6;
+        font-style: italic;
+      }
+      .share-block .daily-legend {
+        margin-top: 10px;
+        padding-top: 10px;
+      }
+
       /* Page subtitle */
       .page-sub {
         color: #777;
@@ -697,6 +795,9 @@
         .chart-yaxis {
           height: 140px;
         }
+        .treemap {
+          height: 150px;
+        }
         .chart-yaxis {
           width: 30px;
         }
@@ -805,6 +906,30 @@
         </div>
       </div>
       <div class="chart-tooltip" id="chartTooltip"></div>
+
+      <div class="share-section">
+        <div class="daily-header">
+          <h2>🧩 Tỷ lệ bài học theo thời lượng</h2>
+          <div class="range-toggle" id="shareRangeToggle">
+            <button data-days="7" class="active">7 ngày</button>
+            <button data-days="30">30 ngày</button>
+          </div>
+        </div>
+        <div class="daily-hint">
+          Mỗi ô lớn = 100% giờ học trong kỳ; diện tích mỗi khối con là phần
+          trăm thời lượng của một bài.
+        </div>
+        <div id="shareBars">
+          <div class="share-block">
+            <div class="share-row-head">
+              <span id="shareRangeLabel">7 ngày qua</span>
+              <span class="share-total" id="shareTotal"></span>
+            </div>
+            <div class="treemap" id="shareBar"></div>
+            <div class="daily-legend" id="shareLegend"></div>
+          </div>
+        </div>
+      </div>
 
       <div class="daily-section">
         <div class="daily-header">
@@ -1001,6 +1126,7 @@
       let books = [];
       let stats = { totals: {}, daily: {}, completed: new Set(), keyMeta: {} };
       let currentRangeDays = 30;
+      let shareRangeDays = 7;
       let lessonIndex = new Map();
       let bookMeta = new Map();
       let dailyMode = "week";
@@ -1492,6 +1618,181 @@
         });
       }
 
+      function aggregatePeriod(days) {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const byKey = {};
+        for (let i = 0; i < days; i++) {
+          const d = new Date(today);
+          d.setDate(d.getDate() - i);
+          const day = stats.daily[dateKeyOf(d)] || {};
+          for (const k of Object.keys(day)) {
+            if (day[k] > 0) byKey[k] = (byKey[k] || 0) + day[k];
+          }
+        }
+        return byKey;
+      }
+
+      function fmtPct(pct) {
+        return pct >= 9.95 ? Math.round(pct) + "%" : pct.toFixed(1) + "%";
+      }
+
+      function squarify(items, W, H) {
+        const out = [];
+        const total = items.reduce((s, it) => s + it.value, 0);
+        if (total <= 0 || W <= 0 || H <= 0) return out;
+        const scale = (W * H) / total;
+        const data = items.map((it) => ({ key: it.key, area: it.value * scale }));
+
+        let x = 0,
+          y = 0,
+          w = W,
+          h = H;
+        let row = [];
+
+        const worst = (rw, side) => {
+          let sum = 0,
+            mx = -Infinity,
+            mn = Infinity;
+          for (const r of rw) {
+            sum += r.area;
+            if (r.area > mx) mx = r.area;
+            if (r.area < mn) mn = r.area;
+          }
+          const s2 = sum * sum,
+            side2 = side * side;
+          return Math.max((side2 * mx) / s2, s2 / (side2 * mn));
+        };
+
+        const flush = () => {
+          const rowArea = row.reduce((s, r) => s + r.area, 0);
+          if (w >= h) {
+            const rw = rowArea / h;
+            let cy = y;
+            for (const r of row) {
+              const ih = r.area / rw;
+              out.push({ key: r.key, x, y: cy, w: rw, h: ih });
+              cy += ih;
+            }
+            x += rw;
+            w -= rw;
+          } else {
+            const rh = rowArea / w;
+            let cx = x;
+            for (const r of row) {
+              const iw = r.area / rh;
+              out.push({ key: r.key, x: cx, y, w: iw, h: rh });
+              cx += iw;
+            }
+            y += rh;
+            h -= rh;
+          }
+          row = [];
+        };
+
+        for (let i = 0; i < data.length; ) {
+          const item = data[i];
+          if (row.length === 0) {
+            row.push(item);
+            i++;
+            continue;
+          }
+          const side = Math.min(w, h);
+          if (worst(row.concat(item), side) <= worst(row, side)) {
+            row.push(item);
+            i++;
+          } else {
+            flush();
+          }
+        }
+        if (row.length) flush();
+        return out;
+      }
+
+      function renderOneShareBar(days, barId, legendId, totalId) {
+        const barEl = document.getElementById(barId);
+        const legendEl = document.getElementById(legendId);
+        const totalEl = document.getElementById(totalId);
+        barEl.innerHTML = "";
+        legendEl.innerHTML = "";
+        const multi = books.length > 1;
+        const byKey = aggregatePeriod(days);
+        const total = sumValues(byKey);
+        totalEl.textContent = total > 0 ? formatHM(total) : "";
+        if (total <= 0) {
+          barEl.innerHTML = `<span class="tm-empty">Chưa có dữ liệu trong ${days} ngày qua.</span>`;
+          return;
+        }
+        const keys = Object.keys(byKey).sort((a, b) => byKey[b] - byKey[a]);
+        const labelOf = (k) =>
+          multi ? `📘${bookNumOf(k) ?? "?"} ${lessonLabel(k)}` : lessonLabel(k);
+        const shortOf = (k) => lessonIndex.get(k)?.lessonId || k;
+
+        const pxW = barEl.clientWidth || 600;
+        const pxH = barEl.clientHeight || 180;
+        const rects = squarify(
+          keys.map((k) => ({ key: k, value: byKey[k] })),
+          pxW,
+          pxH
+        );
+        rects.forEach((r) => {
+          const k = r.key;
+          const ms = byKey[k];
+          const pct = (ms / total) * 100;
+          const pctStr = fmtPct(pct);
+          const label = labelOf(k);
+          const tile = document.createElement("div");
+          tile.className = "tm-tile";
+          tile.style.left = (r.x / pxW) * 100 + "%";
+          tile.style.top = (r.y / pxH) * 100 + "%";
+          tile.style.width = (r.w / pxW) * 100 + "%";
+          tile.style.height = (r.h / pxH) * 100 + "%";
+          tile.style.background = lessonColorByKey(k);
+          tile.dataset.date = `${days} ngày · ${pctStr}`;
+          tile.dataset.label = label;
+          tile.dataset.val = formatHM(ms);
+          tile.title = `${label}: ${pctStr} (${formatHM(ms)})`;
+          const name = lessonIndex.get(k)?.title || "";
+          let inner = "";
+          if (r.w >= 96 && r.h >= 48 && name) {
+            inner = `<b>${escapeHtml(
+              shortOf(k)
+            )}</b><span class="tm-name">${escapeHtml(name)}</span>${pctStr}`;
+          } else if (r.w >= 44 && r.h >= 30) {
+            inner = `<b>${escapeHtml(shortOf(k))}</b>${pctStr}`;
+          }
+          if (inner) tile.innerHTML = `<span class="tm-label">${inner}</span>`;
+          barEl.appendChild(tile);
+        });
+
+        keys.forEach((k) => {
+          const pct = (byKey[k] / total) * 100;
+          const item = document.createElement("span");
+          item.className = "legend-item";
+          const sw = document.createElement("span");
+          sw.className = "legend-swatch";
+          sw.style.background = lessonColorByKey(k);
+          const txt = document.createElement("span");
+          txt.textContent = `${labelOf(k)} — ${fmtPct(pct)}`;
+          item.appendChild(sw);
+          item.appendChild(txt);
+          legendEl.appendChild(item);
+        });
+      }
+
+      function renderShareBars() {
+        buildLessonIndex();
+        document.getElementById(
+          "shareRangeLabel"
+        ).textContent = `${shareRangeDays} ngày qua`;
+        renderOneShareBar(
+          shareRangeDays,
+          "shareBar",
+          "shareLegend",
+          "shareTotal"
+        );
+      }
+
       function renderLessonBreakdown() {
         const tbody = document.getElementById("lessonStatsBody");
         tbody.innerHTML = "";
@@ -1654,6 +1955,7 @@
               renderBookBreakdown();
               renderChart();
               renderDailyLessons();
+              renderShareBars();
               renderLessonBreakdown();
             }
           }
@@ -1668,20 +1970,36 @@
         renderBookBreakdown();
         renderChart();
         renderDailyLessons();
+        renderShareBars();
         renderLessonBreakdown();
       }
 
       // ========== Range toggle ==========
-      document.querySelectorAll(".range-toggle button").forEach((btn) => {
-        btn.addEventListener("click", () => {
+      document
+        .querySelectorAll(".chart-header .range-toggle button")
+        .forEach((btn) => {
+          btn.addEventListener("click", () => {
+            document
+              .querySelectorAll(".chart-header .range-toggle button")
+              .forEach((b) => b.classList.remove("active"));
+            btn.classList.add("active");
+            currentRangeDays = parseInt(btn.dataset.days, 10);
+            renderChart();
+          });
+        });
+
+      document
+        .getElementById("shareRangeToggle")
+        .addEventListener("click", (e) => {
+          const btn = e.target.closest("button");
+          if (!btn) return;
           document
-            .querySelectorAll(".range-toggle button")
+            .querySelectorAll("#shareRangeToggle button")
             .forEach((b) => b.classList.remove("active"));
           btn.classList.add("active");
-          currentRangeDays = parseInt(btn.dataset.days, 10);
-          renderChart();
+          shareRangeDays = parseInt(btn.dataset.days, 10);
+          renderShareBars();
         });
-      });
 
       const chartTooltip = document.getElementById("chartTooltip");
       const chartArea = document.getElementById("chart");
@@ -1715,6 +2033,23 @@
         chartTooltip.classList.add("show");
       });
       dailyArea.addEventListener("mouseleave", () =>
+        chartTooltip.classList.remove("show")
+      );
+
+      const shareArea = document.getElementById("shareBars");
+      shareArea.addEventListener("mousemove", (e) => {
+        const seg = e.target.closest(".tm-tile");
+        if (!seg) {
+          chartTooltip.classList.remove("show");
+          return;
+        }
+        const rect = seg.getBoundingClientRect();
+        chartTooltip.innerHTML = `<div class="tt-date">${seg.dataset.date} · ${seg.dataset.label}</div><div class="tt-val">${seg.dataset.val}</div>`;
+        chartTooltip.style.left = rect.left + rect.width / 2 + "px";
+        chartTooltip.style.top = rect.top - 8 + "px";
+        chartTooltip.classList.add("show");
+      });
+      shareArea.addEventListener("mouseleave", () =>
         chartTooltip.classList.remove("show")
       );
 

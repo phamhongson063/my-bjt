@@ -194,43 +194,54 @@
     {
       "type": "verbtable",
       "title": "📊 ③ 誘う — Bảng độ mạnh các mẫu mời (tổng hợp)",
-      "intro": "Bảng TỔNG HỢP gom 5 mẫu ở mục ③ phía trên để dễ so sánh (không phải mục riêng trong sách). Mời tha thiết → dùng mẫu MẠNH; muốn để đối phương dễ từ chối → dùng mẫu NHẸ. Mẫu có 「〜まして」「〜んですが…」 chỉ dùng khi NÓI.",
-      "intro_jp": "上の③の5つの言い方をまとめた表です(本にある項目ではありません)。強く誘うときは強い表現、相手が断りやすいようにするときは弱い表現を使います。「〜まして」「〜んですが…」は話すときだけ。",
+      "intro": "Bảng TỔNG HỢP gom 5 mẫu ở mục ③ phía trên để dễ so sánh (không phải mục riêng trong sách). Mời tha thiết → dùng mẫu MẠNH; muốn để đối phương dễ từ chối → dùng mẫu NHẸ. Mẫu có 「〜まして」「〜んですが…」 chỉ dùng khi NÓI.\n💡 Cột 「例文 / Ví dụ」 là câu MINH HOẠ tạo theo mẫu (bối cảnh mời 部長 dự 送別会), không trích nguyên văn sách.",
+      "intro_jp": "上の③の5つの言い方をまとめた表です(本にある項目ではありません)。強く誘うときは強い表現、相手が断りやすいようにするときは弱い表現を使います。「〜まして」「〜んですが…」は話すときだけ。\n💡「例文」の欄は型に合わせて作った例(部長を送別会に誘う場面)で、本文そのままではありません。",
       "columns": {
         "plain": "Mẫu mời",
         "sonkeigo": "強さ / Độ mạnh",
-        "kenjougo": "Dùng khi · Sắc thái"
+        "kenjougo": "Dùng khi · Sắc thái",
+        "example": "例文 / Ví dụ"
       },
       "rows": [
         {
           "plain": "〜ていただきたいんですが……",
           "plainVi": "rất mong (anh) …",
           "sonkeigo": "★★★ mạnh nhất",
-          "kenjougo": "Chỉ NÓI · mời tha thiết, thực sự muốn rủ bằng được"
+          "kenjougo": "Chỉ NÓI · mời tha thiết, thực sự muốn rủ bằng được",
+          "example": "部長にもぜひ送別会に参加していただきたいんですが……。",
+          "exampleVi": "Em rất mong sếp cũng tham gia buổi tiệc chia tay ạ…"
         },
         {
           "plain": "ご〜いただけないかと思いまして……",
           "plainVi": "không biết (anh) có thể … được không",
           "sonkeigo": "★★★ mạnh",
-          "kenjougo": "Chỉ NÓI · mời tha thiết, hạ mình (thể bỏ lửng)"
+          "kenjougo": "Chỉ NÓI · mời tha thiết, hạ mình (thể bỏ lửng)",
+          "example": "部長にもご出席いただけないかと思いまして……。",
+          "exampleVi": "Em (đang nghĩ) không biết sếp có thể tham dự được không ạ…"
         },
         {
           "plain": "いらっしゃいませんか",
           "plainVi": "(anh) … cùng chứ? (sonkeigo của 来ませんか)",
           "sonkeigo": "★★ vừa",
-          "kenjougo": "Nói · Viết — mời lịch sự, rõ ràng"
+          "kenjougo": "Nói · Viết — mời lịch sự, rõ ràng",
+          "example": "よろしかったら、部長もパーティーにいらっしゃいませんか。",
+          "exampleVi": "Nếu tiện, sếp cũng tới dự tiệc chứ ạ?"
         },
         {
           "plain": "いかがでしょうか",
           "plainVi": "(anh) thấy thế nào ạ?",
           "sonkeigo": "★ nhẹ",
-          "kenjougo": "Nói · Viết — mời nhẹ, để dễ từ chối"
+          "kenjougo": "Nói · Viết — mời nhẹ, để dễ từ chối",
+          "example": "よろしければ、部長もご一緒にいかがでしょうか。",
+          "exampleVi": "Nếu được, sếp cùng tham gia thấy thế nào ạ?"
         },
         {
           "plain": "いかがかと思いまして……",
           "plainVi": "không biết (anh) có muốn…",
           "sonkeigo": "★ nhẹ nhất",
-          "kenjougo": "Chỉ NÓI · mời nhẹ nhất, bỏ lửng khiêm tốn"
+          "kenjougo": "Chỉ NÓI · mời nhẹ nhất, bỏ lửng khiêm tốn",
+          "example": "もしご都合がよろしければ、部長もいかがかと思いまして……。",
+          "exampleVi": "Nếu sếp tiện lịch, (em nghĩ) không biết sếp có muốn cùng… ạ"
         }
       ],
       "note": "Thường ghép 「よろしかったら / よろしければ / もしご都合がよろしければ」 ở đầu cho mềm. 「〜まして」 = thể て của 「〜ます」 (＝「〜ので」); 「〜んですが…」 bỏ lửng → cả hai KHÔNG dùng khi viết mail.",

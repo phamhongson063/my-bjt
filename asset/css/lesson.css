@@ -1549,6 +1549,9 @@ body.exam-mode .ex-context-vi {
   display: grid;
   grid-template-columns: 0.85fr 1.25fr 1.25fr;
 }
+.vtable.vt-4col .vt-row {
+  grid-template-columns: 0.9fr 0.5fr 1.05fr 1.5fr;
+}
 .vt-row + .vt-row {
   border-top: 1px solid #eef1f4;
 }
@@ -1583,6 +1586,15 @@ body.exam-mode .ex-context-vi {
 .vt-ken {
   background: #fffaf4;
 }
+.vt-ex {
+  background: #f5fbf6;
+}
+.vt-ex-vi {
+  font-weight: 400;
+  font-size: var(--fs-sm4);
+  color: var(--c-primary);
+  margin-top: 2px;
+}
 .vt-head .vt-plain {
   background: #eef3f8;
   color: #2c3e50;
@@ -1594,6 +1606,10 @@ body.exam-mode .ex-context-vi {
 .vt-head .vt-ken {
   background: #fdf0e3;
   color: #9a3412;
+}
+.vt-head .vt-ex {
+  background: #e6f5ea;
+  color: #1b7a3d;
 }
 .vt-empty {
   color: #c7ccd3;
@@ -1622,7 +1638,8 @@ body.exam-mode .ex-context-vi {
   .vt-head {
     display: none;
   }
-  .vt-row {
+  .vt-row,
+  .vtable.vt-4col .vt-row {
     grid-template-columns: 1fr;
     border-top: 2px solid #e0e6ed;
   }
@@ -1690,6 +1707,8 @@ body.exam-mode .ex-context-vi {
   font-weight: 700;
   font-size: var(--fs-sm1);
   color: var(--c-primary);
+  text-decoration: none;
+  cursor: pointer;
 }
 .study-clock-dot {
   width: 10px;

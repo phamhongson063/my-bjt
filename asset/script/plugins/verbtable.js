@@ -11,10 +11,20 @@ export class VerbTablePlugin extends SectionPlugin {
     const cP = col.plain || "普通形";
     const cS = col.sonkeigo || "尊敬語";
     const cK = col.kenjougo || "謙譲語";
+    const hasEx = !!(col.example || (section.rows || []).some((r) => r.example));
+    const cE = col.example || "例文";
     const cell = (v) =>
       v && String(v).trim()
         ? furi(v).replace(/／/g, '<span class="vt-slash">／</span>')
         : '<span class="vt-empty">—</span>';
+    const exCell = (r) => {
+      const vi = r.exampleVi
+        ? `<div class="vt-ex-vi explain-vi">${r.exampleVi}</div>`
+        : "";
+      return `<div class="vt-c vt-ex" data-label="${escAttr(cE)}">${cell(
+        r.example
+      )}${vi}</div>`;
+    };
     const rows = (section.rows || [])
       .map((r) => {
         const plainVi = r.plainVi
@@ -30,6 +40,7 @@ export class VerbTablePlugin extends SectionPlugin {
             <div class="vt-c vt-ken" data-label="${escAttr(cK)}">${cell(
           r.kenjougo
         )}</div>
+            ${hasEx ? exCell(r) : ""}
           </div>`;
       })
       .join("");
@@ -38,11 +49,12 @@ export class VerbTablePlugin extends SectionPlugin {
         ? `<div class="vt-note">${bilingual(section.note, section.note_jp)}</div>`
         : "";
     wrap.innerHTML = `
-        <div class="vtable">
+        <div class="vtable${hasEx ? " vt-4col" : ""}">
           <div class="vt-row vt-head">
             <div class="vt-c vt-plain">${cP}</div>
             <div class="vt-c vt-son">${cS}</div>
             <div class="vt-c vt-ken">${cK}</div>
+            ${hasEx ? `<div class="vt-c vt-ex">${cE}</div>` : ""}
           </div>
           ${rows}
         </div>

@@ -1,0 +1,614 @@
+{
+  "id": "L09",
+  "order": 9,
+  "title": "8課 意見を言う",
+  "titleVi": "Bài 8 — Phát biểu ý kiến (đồng ý / phản đối / đề xuất)",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 40,
+  "intro": "Bài 8 (8課) — Chương 2. Tình huống: Sáng nay Alex dự một cuộc họp (会議). 田中課長 (trưởng nhóm Tanaka) đề xuất tổ chức buổi ký tặng (サイン会) của diễn viên 中村一郎 để quảng bá phim.\nỞ bản 「できますか?」, Alex phản đối ĐÚNG nội dung nhưng SAI cách: chặn thẳng 「あまりよくないと思います」, nêu lý do cụt lủn 「予算があまりありませんから」, đẩy ý mình kiểu áp đặt 「そのほうがいいですよ」, rồi lại tự thủ thế 「私の意見なんですけど……」. Kết quả: ý kiến của Alex KHÔNG được chọn (cuộc họp vẫn quyết làm サイン会).\nBài này học cách 意見を言う (nói ra ý kiến) sao cho vừa rõ lập trường vừa lịch sự — để người khác chịu lắng nghe.\n\n🎯 Mục tiêu — 6 điểm (trang 79–80):\n① 意見を募る — hỏi xin ý kiến (これについてはどう思われますか／皆さんのご意見は？).\n② 賛成か反対かを一言で言う — nói lập trường ngắn gọn (いいと思います／うーん／それはちょっと…／いいと思いません).\n③ 意見を言い始める — câu mở đầu xin phép nói (ちょっと、よろしいでしょうか).\n④ 自分の意見を言う — trình bày ý kiến: やさしく主張 「〜のではないでしょうか」／提案 「〜たらどうかと思います(が…)」／まとめ 「それよりも〜たほうがいいと思います」. 💡 「〜と思いますが…」 lịch sự hơn 「〜けど」.\n⑤ 意見を受ける — tiếp nhận ý kiến người khác rồi mới nói tiếp (〜はいいことだと思いますが／それもそうですが). ⚠️ 「よ」 dùng với kính ngữ dễ thành kém lễ phép.\n⑥ 意見の理由を言う — nêu lý do (というのは、〜し、〜ので……).",
+  "intro_jp": "第2章 8課。今朝、アレックスさんは会議に参加しています。田中課長が、映画に出ている中村一郎のサイン会をして宣伝してはどうかと提案しました。\n「できますか?」では、アレックスさんは内容は正しいのに言い方が悪く、「あまりよくないと思います」と頭から否定し、「予算があまりありませんから」とぶっきらぼうに理由を言い、「そのほうがいいですよ」と押しつけました。結果、アレックスさんの意見は採用されませんでした(サイン会に決定)。\nこの課で、上手に「意見を言う」言い方を学びます。\n\n🎯 学習項目:\n① 意見を募る(これについてはどう思われますか/皆さんのご意見は?)\n② 賛成か反対かを一言で言う(いいと思います/うーん/それはちょっと…/いいと思いません)\n③ 意見を言い始める(ちょっと、よろしいでしょうか)\n④ 自分の意見を言う(やさしく主張「〜のではないでしょうか」/提案「〜たらどうかと思います(が…)」/まとめ「それよりも〜たほうがいいと思います」)\n⑤ 意見を受ける(〜はいいことだと思いますが/それもそうですが)\n⑥ 意見の理由を言う(というのは、〜し、〜ので……)",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — Alex phản đối quá thẳng, ý kiến không được chọn (trang 78)",
+      "page": 78,
+      "image": "images/L09/78_1.jpg",
+      "imageAlt": "Minh hoạ trang 78 — Trong phòng họp, Alex (giữa) giơ tay phát biểu với bong bóng dấu ¥ bị gạch chéo (ý: không có ngân sách); 田中課長 và một đồng nghiệp hai bên nhíu mày khó chịu.",
+      "imageCaption": "Minh hoạ trang 78 — Alex phản đối thẳng thừng khiến cả phòng khó chịu; ý kiến của anh không được tiếp nhận.",
+      "scene": "今朝は、アレックスさんは会議に参加しています。\n(Sáng nay Alex đang dự một cuộc họp. Đây là cách phát biểu ý kiến CHƯA đúng — để ý chỗ Alex chặn thẳng 「あまりよくないと思います」, nêu lý do cụt lủn, và áp ý mình 「そのほうがいいですよ」.)",
+      "lines": [
+        { "speaker": "田中課長", "jp": "さて、宣伝の方法なんですけど、私は、映画に出ている中村一郎のサイン会をしたらどうかと思っているんですよ。彼は……", "vi": "Nào, về cách quảng bá thì, tôi đang nghĩ hay là ta tổ chức buổi ký tặng của Nakamura Ichiro — diễn viên trong phim ấy. Cậu ấy thì…" },
+        { "speaker": "アレックス", "jp": "あまりよくないと思います。", "vi": "Em thấy không hay lắm. (⚠️ chặn thẳng, phủ định ngay từ đầu — thiếu đệm)" },
+        { "speaker": "田中課長", "jp": "え？……中村一郎はとても人気があるから、来てもらったら宣伝効果があると思うんだけど。皆さん、これについてはどう思われますか。", "vi": "Hả?… Nakamura Ichiro rất nổi tiếng mà, mời được cậu ấy đến thì sẽ có hiệu quả quảng bá đấy chứ. Mọi người thấy chuyện này thế nào? (← ① 意見を募る)" },
+        { "speaker": "アレックス", "jp": "予算があまりありませんから。", "vi": "Vì ngân sách không có mấy ạ. (⚠️ lý do cụt lủn, kết bằng 〜から bỏ lửng — cộc lốc)" },
+        { "speaker": "田中課長", "jp": "な、何？ じゃあどうするの？", "vi": "G-gì cơ? Vậy thì làm thế nào?" },
+        { "speaker": "アレックス", "jp": "マスコミの人に集まってもらって映画の紹介を見せるんです。そのほうがいいですよ。", "vi": "Mời giới truyền thông tới rồi cho họ xem phần giới thiệu phim ạ. Cách đó tốt hơn đấy. (⚠️ 「そのほうがいいですよ」 — áp đặt, 「よ」 nghe kẻ cả)" },
+        { "speaker": "田中課長", "jp": "……そうかな。映画の説明だけだと、人は来てくれないし、あまり効果がないと思うけど？", "vi": "…Thế à. Chỉ giới thiệu phim thôi thì người ta đâu chịu đến, mà tôi thấy cũng chẳng mấy hiệu quả?" },
+        { "speaker": "アレックス", "jp": "私の意見なんですけど……。", "vi": "Thì đó là ý kiến của em mà… (⚠️ tự thủ thế, không thuyết phục thêm)" },
+        { "speaker": "田中課長", "jp": "あ、そう……。", "vi": "À, vậy à… (← câu chuyện chìm xuống, ý kiến Alex bị bỏ qua)" },
+        { "speaker": "—", "jp": "会議では、中村一郎のサイン会をすることになりました。", "vi": "Tại cuộc họp, kết quả là quyết định tổ chức buổi ký tặng của Nakamura Ichiro. (Ý kiến của Alex đã không được tiếp nhận.)" }
+      ],
+      "vocabHighlight": [
+        "「あまりよくないと思います」 (chặn thẳng) → đệm + 「〜のではないでしょうか」 (④ やさしく主張)",
+        "「予算があまりありませんから」 (cụt) → nêu lý do mềm 「というのは、〜し、〜ので……」 (⑥)",
+        "「そのほうがいいですよ」 (áp đặt, よ kẻ cả) → 「〜たらどうかと思います」 (④ 提案)",
+        "trước khi nói nên xin phép: 「課長、よろしいでしょうか」 (③ 意見を言い始める)"
+      ],
+      "note": "Cảnh huống dẫn vào Bài 8: cách 意見を言う (phát biểu ý kiến) sao cho rõ mà vẫn lịch sự. Nội dung Alex nói KHÔNG sai (ngân sách ít, nên nhắm vào truyền thông) nhưng CÁCH nói hỏng: (1) chặn thẳng không đệm; (2) lý do cộc lốc; (3) áp đặt ý mình 「〜よ」; (4) không tiếp nhận ý đối phương, chỉ thủ thế. 6 mục ①〜⑥ bên dưới dạy từng bước; bản chuẩn xem ở 「これでOK!」 (trang 82).",
+      "note_jp": "この課では、上手に「意見を言う」言い方を勉強します。アレックスさんの内容は正しいのに、(1)頭から否定し、(2)理由がぶっきらぼうで、(3)「〜よ」と押しつけ、(4)相手の意見を受けずに守りに入ったため、意見が採用されませんでした。①〜⑥で直し方を学び、正しい会話は「これでOK!」(p.82)で確認します。"
+    },
+    {
+      "type": "grammar",
+      "title": "🙋 ① 意見を募る — Hỏi xin ý kiến mọi người (trang 79)",
+      "page": 79,
+      "items": [
+        {
+          "pattern": "これについてはどう思われますか。／この点についてはいかがですか。／皆さんのご意見は？／何かご意見はありますか？",
+          "patternVi": "Cụm mời/gom ý kiến từ người khác. 思われますか = sonkeigo của 思いますか (dạng れる).",
+          "explanation": "Khi muốn xin ý kiến của người khác (nhất là khi chủ trì họp), dùng các cụm trên. 「どう思われますか」 lịch sự hơn 「どう思いますか」 (れる = sonkeigo); 「いかがですか」 lịch sự hơn 「どうですか」.",
+          "explanation_jp": "他の人の意見を聞きたいとき(特に会議の進行役)に使います。「どう思われますか」は「どう思いますか」より、「いかがですか」は「どうですか」よりていねいです。",
+          "examples": [
+            { "jp": "これについてはどう思われますか。", "vi": "Mọi người thấy chuyện này thế nào ạ?" },
+            { "jp": "この点についてはいかがですか。", "vi": "Còn về điểm này thì sao ạ?" },
+            { "jp": "皆さんのご意見は？／何かご意見はありますか？", "vi": "Ý kiến của mọi người thế nào ạ? / Có ý kiến gì không ạ?" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "👍 ② 賛成か反対かを一言で言う — Nói lập trường ngắn gọn (trang 79)",
+      "page": 79,
+      "items": [
+        {
+          "pattern": "〈賛成〉 いいと思います。 ／ 〈やんわり反対〉 うーん。／それはちょっと……。／どうでしょうか……。 ／ 〈はっきり反対〉 いいと思いません。",
+          "patternVi": "Đáp lập trường bằng một câu trước khi giải thích: tán thành / phản đối nhẹ / phản đối rõ.",
+          "explanation": "Trước khi trình bày dài, hãy thể hiện lập trường bằng một câu. Tán thành: 「いいと思います」. Phản đối kiểu Nhật thường nói VÒNG: 「うーん」「それはちょっと……」「どうでしょうか……」 (bỏ lửng để giữ hoà khí). Phản đối thẳng: 「いいと思いません」 — chỉ dùng khi thật sự cần.",
+          "explanation_jp": "長く話す前に、まず一言で立場を示します。賛成は「いいと思います」。反対は「うーん」「それはちょっと……」「どうでしょうか……」のようにやわらかく言うのがふつうです。「いいと思いません」とはっきり言うのは強い言い方です。",
+          "examples": [
+            { "jp": "いいと思います。", "vi": "Em thấy hay đấy ạ. (tán thành)" },
+            { "jp": "うーん。／それはちょっと……。／どうでしょうか……。", "vi": "Ưmm… / Cái đó thì hơi… / Không biết có ổn không nhỉ… (phản đối nhẹ, bỏ lửng)" },
+            { "jp": "いいと思いません。", "vi": "Em thấy không hay ạ. (phản đối rõ — sắc thái mạnh)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "✋ ③ 意見を言い始める — Câu mở đầu xin phép nói (trang 79)",
+      "page": 79,
+      "items": [
+        {
+          "pattern": "ちょっと、よろしいでしょうか。",
+          "patternVi": "Câu xin phép trước khi chen vào phát biểu — tránh chặn ngang đột ngột.",
+          "explanation": "Đừng phủ định/phát biểu ngay (như Alex ở p.78). Hãy xin phép một câu để dọn đường: 「ちょっと、よろしいでしょうか」 hoặc gọi tên chức danh trước 「課長、よろしいでしょうか」. Tạo cảm giác tôn trọng người đang nói.",
+          "explanation_jp": "いきなり否定したり話し始めたりせず(p.78のアレックスさんのように)、まず一言ことわります。「ちょっと、よろしいでしょうか」「課長、よろしいでしょうか」と切り出すと、相手を立てた感じになります。",
+          "examples": [
+            { "jp": "ちょっと、よろしいでしょうか。", "vi": "Em xin phép có ý kiến một chút được không ạ?" },
+            { "jp": "課長、よろしいでしょうか。", "vi": "Trưởng nhóm, em xin phép có chút ý kiến được không ạ? (← bản これでOK p.82)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "💭 ④ 自分の意見を言う — Trình bày ý kiến: chủ trương nhẹ / đề xuất / chốt (trang 79–80)",
+      "page": 79,
+      "intro": "Mục lớn nhất — 3 cách trình bày ý kiến (chủ trương nhẹ nhàng / đề xuất cụ thể / chốt & nhấn mạnh) + mẹo dùng 「〜と思いますが」.",
+      "intro_jp": "一番大事な項目 — 意見の言い方3つ(やさしく主張する/提案する/意見をまとめる)+「〜と思いますが」のコツ。",
+      "items": [
+        {
+          "pattern": "〈やさしく主張する〉 [V]／[いA] のではないでしょうか。 ／ [N]／[なA] なのではないでしょうか。",
+          "patternVi": "Chủ trương NHẸ — nói ý kiến chung chung, mềm mại bằng 「〜のではないでしょうか」 (chẳng phải là… hay sao?).",
+          "explanation": "Cách nói ý kiến phổ biến nhất: gói ý vào 「〜のではないでしょうか」 thay vì khẳng định thẳng — vừa rõ vừa khiêm tốn, để ngỏ cho đối phương. Danh từ / なadj thêm な: 「[N/なA] なのではないでしょうか」.",
+          "explanation_jp": "意見を言うときの一般的な言い方。「〜のではないでしょうか」で包むと、断定せずやわらかく主張できます。名詞・な形容詞は「〜なのではないでしょうか」。",
+          "examples": [
+            { "jp": "予算がもっとかかってしまうのではないでしょうか。", "vi": "(Làm vậy) chẳng phải sẽ tốn thêm ngân sách hay sao ạ?" },
+            { "jp": "時間が足りなくて、無理なのではないでしょうか。", "vi": "Thời gian không đủ, e là khó khả thi ạ. (無理 → 無理なのでは…)" }
+          ]
+        },
+        {
+          "pattern": "〈提案する〉 [V た] らどうかと思います（が……）。 ／ [N] がいいかと思います（が……）。",
+          "patternVi": "ĐỀ XUẤT cụ thể hơn — nói rõ mình muốn làm gì, vẫn để ngỏ bằng 「（が……）」.",
+          "explanation": "Khi muốn nói ý mình cụ thể hơn (không chỉ phản đối), dùng 「〜たらどうかと思います」 (hay là làm… thì sao) hoặc 「[N]がいいかと思います」. Thêm 「（が……）」 ở cuối để bỏ lửng cho lịch sự, nhường đối phương.",
+          "explanation_jp": "もっと具体的に自分の意見を言うとき。「〜たらどうかと思います」「[N]がいいかと思います」を使います。最後に「(が……)」をつけると、ていねいで相手に譲った感じになります。",
+          "examples": [
+            { "jp": "時間がかかるので、1か月前から準備したらどうかと思いますが。", "vi": "Vì sẽ mất thời gian, hay là ta chuẩn bị từ 1 tháng trước thì sao ạ?" },
+            { "jp": "結婚のお祝いには、二人が長く使えるコーヒーカップなどがいいかと思います。", "vi": "Quà mừng cưới thì em nghĩ những thứ hai người dùng được lâu như tách cà phê là hợp ạ." }
+          ]
+        },
+        {
+          "pattern": "〈意見をまとめる〉 それよりも [V た] ほうがいいと思います。",
+          "patternVi": "CHỐT lại — gom ý và nhấn mạnh ở cuối: thay vì thế, làm… thì hơn.",
+          "explanation": "Cuối cùng, gom ý lại và nhấn mạnh bằng 「それよりも〜たほうがいいと思います」 (so với cái đó, làm… thì hơn) — vừa phủ nhận nhẹ phương án kia, vừa đề xuất phương án mình.",
+          "explanation_jp": "最後に意見をまとめて強調するとき。「それよりも〜たほうがいいと思います」で、別の案をやんわり否定しつつ自分の案を出します。",
+          "examples": [
+            { "jp": "それよりも、もっと簡単に準備できる発表に変えたほうがいいと思います。", "vi": "Thay vì vậy, em nghĩ nên đổi sang hình thức phát biểu dễ chuẩn bị hơn thì tốt hơn ạ." }
+          ]
+        },
+        {
+          "pattern": "💡 〜と思いますが……。 ／ 〜と思いますけど。",
+          "patternVi": "Mẹo: thêm 「〜と思いますが…」/「〜けど」 cuối câu ＝ 'tôi nghĩ vậy, còn anh thì sao?'. 「が……」 lịch sự hơn 「けど」.",
+          "explanation": "Thêm 「と思いますが……」 hoặc 「〜けど」 vào cuối ý kiến mang nghĩa 「私はこう思いますが、あなたはどうですか」 (tôi nghĩ thế, còn anh?). Lưu ý: 「が……」 lịch sự hơn 「けど」.",
+          "explanation_jp": "意見の終わりに「と思いますが……」や「〜けど」をつけると「私はこう思いますが、あなたはどうですか」という意味になります。ただし、「けど」より「が……」のほうがよりていねいです。",
+          "examples": [
+            { "jp": "こちらのほうがおすすめなんですが…。", "vi": "Em nghĩ cái này đáng dùng hơn ạ… (が… để ngỏ, lịch sự)" },
+            { "jp": "私はこっちのほうがいいと思いますけど。", "vi": "Em thì thấy bên này tốt hơn… (けど — thân mật hơn が…)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🤝 ⑤ 意見を受ける — Tiếp nhận ý kiến người khác rồi mới nói tiếp (trang 80)",
+      "page": 80,
+      "items": [
+        {
+          "pattern": "〜はいいことだと思いますが、…… ／ それもそうですが、……",
+          "patternVi": "Trước khi phản biện, hãy CÔNG NHẬN ý đối phương một câu — rồi mới nêu ý mình. Tránh phủ định trực diện.",
+          "explanation": "Người Nhật ít khi phản đối thẳng. Hãy đỡ ý đối phương trước 「〜はいいことだと思いますが」 (điều đó cũng tốt, nhưng…) / 「それもそうですが」 (đúng là vậy thật, nhưng…), rồi mới đưa ý mình. ⚠️ Thêm 「よ」 vào cuối ý kiến tuy nhấn mạnh nhưng dùng với KÍNH NGỮ dễ thành kém lịch sự (nghe kẻ cả).",
+          "explanation_jp": "日本では正面から反対しないのがふつうです。「〜はいいことだと思いますが」「それもそうですが」と相手の意見を一度受けてから、自分の意見を言います。⚠️「よ」をつけると意見は強調されますが、敬語スタイルで使うとていねいではない感じになることがあります。",
+          "warning": "⚠️ 「よ」 + 敬語 → dễ nghe áp đặt / kẻ cả (như Alex 「そのほうがいいですよ」 ở p.78). Với cấp trên, hạn chế 「よ」.",
+          "warning_jp": "⚠️「よ」を敬語スタイルで使うと、押しつけがましく聞こえることがあります(p.78「そのほうがいいですよ」)。目上には控えめに。",
+          "examples": [
+            { "jp": "A：やっぱり安いホテルがいいですよね。お金も節約できますし。", "vi": "A: Đúng là khách sạn rẻ vẫn hơn nhỉ. Lại còn tiết kiệm được tiền." },
+            { "jp": "B：安いのはいいことだと思いますが、今回は海外旅行なので、少し高くても安全なホテルのほうがいいと思いますよ。", "vi": "B: Rẻ thì cũng tốt đấy ạ, nhưng lần này là đi nước ngoài nên em nghĩ đắt hơn một chút mà an toàn thì hơn. (đỡ ý A trước → nêu ý mình)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "📣 ⑥ 意見の理由を言う — Nêu lý do cho ý kiến (trang 80)",
+      "page": 80,
+      "items": [
+        {
+          "pattern": "〜のではないでしょうか。 というのは、〜し、〜ので……。",
+          "patternVi": "Sau khi nêu ý kiến, giải thích lý do bằng 「というのは、〜し、〜ので……」 — xâu chuỗi nhiều lý do bằng 〜し.",
+          "explanation": "Đừng để lý do cụt lủn (như Alex 「予算がありませんから」). Sau ý kiến, mở 「というのは…」 (là vì…) rồi liệt kê lý do nối bằng 「〜し」 và kết bằng 「〜ので……」 (bỏ lửng). Nghe mềm và thuyết phục hơn nhiều.",
+          "explanation_jp": "理由をぶっきらぼうに言わず(アレックスさんの「予算がありませんから」のように)、意見のあとに「というのは…」で切り出し、「〜し」で理由を並べ、「〜ので……」で結びます。やわらかく説得力が出ます。",
+          "examples": [
+            { "jp": "忘年会は中華料理がいいのではないでしょうか。というのは、人数が急に増えても大丈夫ですし、若い人はたくさん食べたいという人も多いですし、料理の数も多くて、人気がありますので……。", "vi": "Tiệc cuối năm em nghĩ món Trung là hợp ạ. Là bởi vì, dù số người tăng đột ngột cũng không sao, lại có nhiều bạn trẻ muốn ăn nhiều, món lại đa dạng và được ưa chuộng nữa ạ… (というのは + 〜し、〜し + 〜ので……)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習① 言いたいことを組み立てて、意見を言ってみましょう (Track 1-47, trang 80–81)",
+      "page": 80,
+      "audio": "asset/audio/Track1-47.mp3",
+      "audioLabel": "Track 1-47 — 練習①",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。言いたいことを組み立てて、意見を言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Từ 3 ý cho sẵn ([ý tán thành]・[điểm chưa ổn]・[đề xuất]), hãy GHÉP thành một câu ý kiến hoàn chỉnh theo mẫu: 「〜のはいいことだと思いますが、〜のではないでしょうか。それよりも〜たほうがいいと思いますが、いかがでしょうか。」 (⑤ đỡ ý + ④ chủ trương nhẹ + ④ chốt). Đáp án → trang 194.",
+      "note": "Mẫu: [A]のはいいことだと思いますが、[B]のではないでしょうか。それよりも[C]たほうがいいと思いますが、いかがでしょうか。 Đáp án theo trang 194 (Track 1-47).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "お年寄りがスポーツをする・運動しすぎると体によくない・無理のない運動を毎日続ける",
+          "context_vi": "(3 ý) người già chơi thể thao ・ vận động quá sức thì hại sức khỏe ・ duy trì vận động vừa sức mỗi ngày",
+          "answer": "お年寄りがスポーツをするのはいいことだと思いますが、運動しすぎると体によくないのではないでしょうか。それよりも無理のない運動を毎日続けたほうがいいと思いますが、いかがでしょうか。",
+          "answer_vi": "[A]のはいいことだと思いますが、[B]のではないでしょうか。それよりも[C]たほうがいいと思いますが、いかがでしょうか。"
+        },
+        {
+          "num": "1",
+          "context": "楽しくお酒を飲む・お酒が苦手な人のことも考えたほうがいい・料理を楽しむパーティーにする",
+          "context_vi": "(3 ý) uống rượu vui vẻ ・ nên nghĩ cho cả người không uống được ・ chuyển thành tiệc thưởng thức món ăn",
+          "answer": "楽しくお酒を飲むのはいいことだと思いますが、お酒が苦手な人のことも考えたほうがいいのではないでしょうか。それよりも、料理を楽しむパーティーにしたほうがいいと思いますが、いかがでしょうか。",
+          "answer_vi": "うのはいいことだと思いますが、〜たほうがいいのではないでしょうか。それよりも〜にしたほうが…。"
+        },
+        {
+          "num": "2",
+          "context": "早く製品を届ける・この忙しいスケジュールだとしっかりチェックできない・少し遅れても、質のいい製品をお届けする",
+          "context_vi": "(3 ý) giao sản phẩm sớm ・ lịch gấp thế này thì không kiểm tra kỹ được ・ trễ chút nhưng giao sản phẩm chất lượng",
+          "answer": "早く製品を届けるのはいいことだと思いますが、この忙しいスケジュールだとしっかりチェックできないのではないでしょうか。それよりも、少し遅れても、質のいい製品をお届けしたほうがいいと思いますが、いかがでしょうか。",
+          "answer_vi": "届ける → お届けする (khiêm nhường); ...チェックできないのでは…。それよりも〜お届けしたほうが…。"
+        },
+        {
+          "num": "3",
+          "context": "日本語を自分一人で勉強する・練習する相手がいないのはよくない・たまには外でいろいろな人と日本語を使って話をする",
+          "context_vi": "(3 ý) tự học tiếng Nhật một mình ・ không có người luyện cùng thì không tốt ・ thỉnh thoảng ra ngoài dùng tiếng Nhật nói chuyện với nhiều người",
+          "answer": "日本語を自分一人で勉強するのはいいことだと思いますが、練習する相手がいないのはよくないのではないでしょうか。それよりも、たまには外でいろいろな人と日本語を使って話をしたほうがいいと思いますが、いかがでしょうか。",
+          "answer_vi": "...いないのはよくないのではないでしょうか。それよりも〜話をしたほうが…。"
+        },
+        {
+          "num": "4",
+          "context": "仕事熱心だ・働きすぎて体を壊したら意味がない・土日は休みをしっかり取る",
+          "context_vi": "(3 ý) chăm chỉ làm việc ・ làm quá sức mà đổ bệnh thì vô nghĩa ・ cuối tuần nghỉ ngơi đầy đủ",
+          "answer": "仕事熱心なのはいいことだと思いますが、働きすぎて体を壊したら意味がないのではないでしょうか。それよりも、土日は休みをしっかり取ったほうがいいと思いますが、いかがでしょうか。",
+          "answer_vi": "仕事熱心だ → 仕事熱心なのは… (なadj thêm な); ...意味がないのでは…。それよりも〜取ったほうが…。"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習② 「〜たらどうかと思います（が…）／〜がいいかと思います（が…）」 (Track 1-48, trang 81)",
+      "page": 81,
+      "audio": "asset/audio/Track1-48.mp3",
+      "audioLabel": "Track 1-48 — 練習②",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。「〜たらどうかと思います（が……）／〜がいいかと思います（が……）」を使って言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Đổi cue thành câu ĐỀ XUẤT (④): hành động (Vする) → 「〜たらどうかと思いますが……」; danh từ/lựa chọn (Nだ) → 「〜がいいかと思いますが……」. Đáp án → trang 194.",
+      "note": "Vする → Vたらどうかと思いますが…; Nだ → Nがいいかと思いますが…。Đáp án theo trang 194 (Track 1-48).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "パンフレットを配る",
+          "context_vi": "(cue) phát tờ rơi",
+          "answer": "パンフレットを配ったらどうかと思いますが……。",
+          "answer_vi": "配る → 配ったらどうかと思いますが…。"
+        },
+        {
+          "num": "例",
+          "example": true,
+          "context": "結婚のお祝いは食器だ",
+          "context_vi": "(cue) quà mừng cưới là bộ chén đĩa",
+          "answer": "結婚のお祝いは食器がいいかと思いますが……。",
+          "answer_vi": "食器だ → 食器がいいかと思いますが…。"
+        },
+        {
+          "num": "1",
+          "context": "会議の時間を短くする",
+          "context_vi": "(cue) rút ngắn thời gian họp",
+          "answer": "会議の時間を短くしたらどうかと思いますが……。",
+          "answer_vi": "短くする → 短くしたらどうかと思いますが…。"
+        },
+        {
+          "num": "2",
+          "context": "スケジュールを延ばす",
+          "context_vi": "(cue) dời/giãn lịch ra",
+          "answer": "スケジュールを延ばしたらどうかと思いますが……。",
+          "answer_vi": "延ばす → 延ばしたらどうかと思いますが…。"
+        },
+        {
+          "num": "3",
+          "context": "お客さんに入口で記念品を渡す",
+          "context_vi": "(cue) tặng khách quà lưu niệm ở lối vào",
+          "answer": "お客さんに入口で記念品を渡したらどうかと思いますが……。",
+          "answer_vi": "渡す → 渡したらどうかと思いますが…。"
+        },
+        {
+          "num": "4",
+          "context": "おみやげをあげるなら自分の国のお菓子だ",
+          "context_vi": "(cue) nếu tặng quà thì bánh kẹo nước mình",
+          "answer": "おみやげをあげるなら自分の国のお菓子がいいかと思いますが……。",
+          "answer_vi": "お菓子だ → お菓子がいいかと思いますが…。"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習③ 意見を言ってから、理由を言う (Track 1-49, trang 81)",
+      "page": 81,
+      "audio": "asset/audio/Track1-49.mp3",
+      "audioLabel": "Track 1-49 — 練習③",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。意見を言ってから、理由を言う練習をしましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Nêu ý kiến trước (〜のではないでしょうか), rồi giải thích lý do (⑥): 「というのは、〜し、〜ので……」. Đáp án → trang 194.",
+      "note": "[Ý]のではないでしょうか。というのは、[lý do1]し、[lý do2]ので……。 Đáp án theo trang 194 (Track 1-49).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "忘年会は中華料理がいい・人数が急に増えても大丈夫だ・料理の数も多くて、人気がある",
+          "context_vi": "(ý + 2 lý do) tiệc cuối năm món Trung là hợp ・ số người tăng đột ngột cũng ổn ・ món đa dạng, được ưa chuộng",
+          "answer": "忘年会は中華料理がいいのではないでしょうか。というのは、人数が急に増えても大丈夫ですし、料理の数も多くて、人気がありますので……。",
+          "answer_vi": "[Ý]のではないでしょうか。というのは、〜ですし、〜ので……。"
+        },
+        {
+          "num": "1",
+          "context": "契約は少し延ばしたほうがいい・まだ予算がはっきりしない・生産のスケジュールも心配だ",
+          "context_vi": "(ý + 2 lý do) nên dời hợp đồng lại một chút ・ ngân sách còn chưa rõ ・ lịch sản xuất cũng đáng lo",
+          "answer": "契約は少し延ばしたほうがいいのではないでしょうか。というのは、まだ予算がはっきりしませんし、生産のスケジュールも心配ですので……。",
+          "answer_vi": "...延ばしたほうがいいのでは…。というのは、はっきりしませんし、心配ですので……。"
+        },
+        {
+          "num": "2",
+          "context": "サンプルは少し多めに準備しておいたほうがいい・何人来るかわからない・会社に持ち帰って検討したいという人がいるかもしれない",
+          "context_vi": "(ý + 2 lý do) nên chuẩn bị dư mẫu một chút ・ chưa biết bao nhiêu người đến ・ có thể có người muốn mang về công ty xem xét",
+          "answer": "サンプルは少し多めに準備しておいたほうがいいのではないでしょうか。というのは、何人来るかわかりませんし、会社に持ち帰って検討したいという人がいるかもしれませんので……。",
+          "answer_vi": "...準備しておいたほうがいいのでは…。というのは、わかりませんし、〜かもしれませんので……。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — Phiên bản phát biểu ý kiến đúng cách, được採用 (Track 1-50, trang 82)",
+      "page": 82,
+      "image": "images/L09/82_1.jpg",
+      "imageAlt": "Minh hoạ trang 82 — Cũng phòng họp đó, Alex (giữa) tự tin trình bày với bong bóng hình clapper phim; 田中課長 và đồng nghiệp gật gù tán thành.",
+      "imageCaption": "Minh hoạ trang 82 — Nhờ trình bày khéo, ý kiến của Alex được cuộc họp tiếp nhận (採用).",
+      "audio": "asset/audio/Track1-50.mp3",
+      "audioLabel": "Track 1-50 — これでOK!",
+      "scene": "Bản ĐÚNG: Alex xin phép trước (③), đỡ ý người khác (⑤), chủ trương nhẹ + đề xuất (④), nêu lý do mềm (⑥) — và ý kiến được採用 (chọn dùng).",
+      "lines": [
+        { "speaker": "田中課長", "jp": "さて、宣伝の方法なんですけど、私は、映画に出ている中村一郎のサイン会をしたらどうかと思っているんですよ。皆さん、これについてはどう思われますか。", "vi": "Nào, về cách quảng bá thì tôi đang nghĩ hay là tổ chức buổi ký tặng của Nakamura Ichiro — diễn viên trong phim. Mọi người thấy thế nào? (① 意見を募る)" },
+        { "speaker": "社員A", "jp": "いいと思います。きっと若い女性がたくさん来てくれますよ。", "vi": "Em thấy hay đấy ạ. Chắc chắn sẽ có nhiều bạn nữ trẻ đến. (② tán thành một câu)" },
+        { "speaker": "アレックス", "jp": "課長、よろしいでしょうか。", "vi": "Trưởng nhóm, em xin phép có ý kiến được không ạ? (③ xin phép trước khi nói)" },
+        { "speaker": "田中課長", "jp": "どうぞ。", "vi": "Mời cậu." },
+        { "speaker": "アレックス", "jp": "俳優を呼ぶことはいい宣伝になると思いますが、予算的に難しいのではないでしょうか。それよりも作品の良さをマスコミに対して宣伝したほうがいいと思うんですが、いかがでしょうか。", "vi": "Mời diễn viên thì cũng là cách quảng bá hay ạ, nhưng e là về ngân sách hơi khó ạ? Thay vì vậy, em nghĩ quảng bá cái hay của tác phẩm tới giới truyền thông thì tốt hơn, không biết ý mọi người thế nào ạ? (⑤ đỡ ý + ④ 〜のではないでしょうか + それよりも + いかがでしょうか)" },
+        { "speaker": "田中課長", "jp": "……そうかな。映画の説明だけだと、人は来てくれないし、あまり効果があがらないと思いますけど。", "vi": "…Thế à. Chỉ giới thiệu phim thôi thì người ta đâu chịu đến, mà tôi thấy cũng chẳng mấy hiệu quả?" },
+        { "speaker": "アレックス", "jp": "それもそうですが、作品の良さを、宣伝力があるマスコミにアピールしたほうが、いろいろな人に興味を持ってもらえるのではないでしょうか。宣伝の予算を使って、パンフレットを配ったらどうかと思います。予算をオーバーしなくても済みますし。", "vi": "Điều đó cũng đúng ạ, nhưng nếu quảng bá cái hay của tác phẩm tới giới truyền thông có sức lan tỏa thì chẳng phải sẽ khiến nhiều người quan tâm hơn sao ạ? Em nghĩ dùng ngân sách quảng bá để phát tờ rơi thì sao ạ. Lại còn không bị vượt ngân sách nữa. (⑤ それもそうですが + ④ 提案 + ⑥ lý do 〜し)" },
+        { "speaker": "社員B", "jp": "確かに、男性にも知ってほしいですね。", "vi": "Đúng thật, cũng muốn cánh đàn ông biết đến nữa nhỉ. (đồng tình)" },
+        { "speaker": "田中課長", "jp": "……そうか。わかった。じゃあ、今回はアレックスさんの意見を採用することにしましょう。", "vi": "…Vậy à. Được rồi. Thế thì lần này ta chọn theo ý của anh Alex nhé. (採用 = chọn dùng ý kiến)" },
+        { "speaker": "アレックス", "jp": "ありがとうございます。", "vi": "Em cảm ơn ạ." },
+        { "speaker": "—", "jp": "アレックスさんは、しっかり意見が言えました。", "vi": "Alex đã phát biểu ý kiến một cách rõ ràng, vững vàng." }
+      ],
+      "vocabHighlight": [
+        "課長、よろしいでしょうか — ③ xin phép trước khi nói",
+        "予算的に難しいのではないでしょうか — ④ chủ trương nhẹ thay vì 「よくないと思います」",
+        "それもそうですが — ⑤ đỡ ý đối phương trước khi phản biện",
+        "パンフレットを配ったらどうかと思います — ④ đề xuất cụ thể",
+        "予算をオーバーしなくても済みますし — ⑥ lý do nối bằng 〜し",
+        "採用する = chọn dùng (ý kiến / phương án)"
+      ],
+      "note": "So với bản 「できますか?」 (p.78): Alex (1) xin phép trước 「課長、よろしいでしょうか」; (2) đỡ ý người khác 「それもそうですが」 thay vì chặn thẳng; (3) chủ trương mềm 「〜のではないでしょうか」 + đề xuất 「〜たらどうかと思います」; (4) nêu lý do mềm bằng 〜し. Cùng một NỘI DUNG (nhắm truyền thông, ít ngân sách) nhưng cách nói khéo → ý kiến được採用. Bảng đối chiếu ở mục kế tiếp.",
+      "note_jp": "p.78「できますか?」と比べて、アレックスさんは(1)「課長、よろしいでしょうか」とことわり、(2)「それもそうですが」と相手を受け、(3)「〜のではないでしょうか」「〜たらどうかと思います」とやわらかく主張・提案し、(4)「〜し」で理由を言いました。内容は同じでも言い方を変えたので、意見が採用されました。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh できますか → これでOK (p.78 ↔ p.82)",
+      "intro": "Bảng TỔNG HỢP đối chiếu cách phát biểu CHƯA khéo (p.78 「できますか?」) ↔ cách ĐÚNG (p.82 「これでOK!」), map theo các mục ③〜⑥. Cùng nội dung, khác cách nói → khác kết quả. Gom từ 2 hội thoại phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.78「できますか?」とp.82「これでOK!」を③〜⑥で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "Điểm",
+        "sonkeigo": "✗ p.78 (chưa khéo)",
+        "kenjougo": "✓ p.82 (これでOK)"
+      },
+      "rows": [
+        {
+          "plain": "③ 言い始める",
+          "plainVi": "mở đầu / xin phép",
+          "sonkeigo": "(なし) いきなり「あまりよくないと思います」",
+          "kenjougo": "課長、よろしいでしょうか。"
+        },
+        {
+          "plain": "⑤ 相手を受ける",
+          "plainVi": "đỡ ý đối phương",
+          "sonkeigo": "",
+          "kenjougo": "俳優を呼ぶことはいい宣伝になると思いますが／それもそうですが、"
+        },
+        {
+          "plain": "④ 主張・提案",
+          "plainVi": "chủ trương / đề xuất",
+          "sonkeigo": "そのほうがいいですよ。(押しつけ)",
+          "kenjougo": "予算的に難しいのではないでしょうか。…配ったらどうかと思います。"
+        },
+        {
+          "plain": "⑥ 理由を言う",
+          "plainVi": "nêu lý do",
+          "sonkeigo": "予算があまりありませんから。(ぶっきらぼう)",
+          "kenjougo": "予算をオーバーしなくても済みますし。"
+        },
+        {
+          "plain": "結果",
+          "plainVi": "kết quả",
+          "sonkeigo": "意見が採用されず(サイン会に決定)。",
+          "kenjougo": "アレックスさんの意見が採用された。"
+        }
+      ],
+      "note": "Khác biệt cốt lõi: KHÔNG đổi nội dung — chỉ đổi CÁCH nói. Xin phép (③), đỡ ý người khác (⑤), chủ trương/đề xuất mềm (④), lý do nối 〜し (⑥) → người nghe chịu tiếp nhận.",
+      "note_jp": "ポイント:内容は変えず言い方だけを変える。③ことわる、⑤相手を受ける、④やわらかく主張・提案、⑥「〜し」で理由 → 相手が受け入れてくれる。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — 意見表現の正しい形 (trang 83)",
+      "page": 83,
+      "instruction": "正しいものを選びましょう。",
+      "instruction_vi": "Chọn phương án đúng trong mỗi 【　】. Đây là hội thoại bàn về địa điểm du lịch/onsen của cả nhóm. Đáp án → trang 195.",
+      "note": "Đáp án sách (p.195): ① b 行ったらどうか ② a よろしいでしょうか ③ b いいと思います ④ a のではないでしょうか ⑤ c 選んだほうがいい.",
+      "items": [
+        {
+          "num": "1",
+          "context": "A：今度の旅行は去年と同じで、温泉に【①】と思っているんですが……。どこの温泉がいいでしょうか。\nB：ちょっと【②】？ みんなで温泉に行くのは【③】が、いい機会なので、みんなで何かしたほうがいい【④】と思いますが。\n例えば、若い社員が多いので、スキーやスノーボードができるところを【⑤】と思いますが、いかがでしょうか。",
+          "context_vi": "A đề xuất đi onsen như năm ngoái và hỏi ý; B xin phép nêu ý kiến, đề xuất thêm hoạt động khác (trượt tuyết) vì nhiều nhân viên trẻ.",
+          "subAnswers": [
+            { "num": "①", "options": ["行けばどうか", "行ったらどうか", "行くならどうか"], "answerIndex": 1, "answer_vi": "行ったらどうか — 「〜たらどうか」 = hay là làm… thì sao (④ 提案)." },
+            { "num": "②", "options": ["よろしいでしょうか", "よろしいのでしょうか", "よろしいです"], "answerIndex": 0, "answer_vi": "よろしいでしょうか — 「ちょっとよろしいでしょうか」 (③ xin phép nói)." },
+            { "num": "③", "options": ["いいだと思います", "いいと思います", "そうだと思います"], "answerIndex": 1, "answer_vi": "いいと思います — いい (い-adj) KHÔNG thêm だ. 「いいだと思います」 sai." },
+            { "num": "④", "options": ["のではないでしょうか", "のではないでしょう", "ではないでしょうか"], "answerIndex": 0, "answer_vi": "のではないでしょうか — 「〜たほうがいいのではないでしょうか」 (④ chủ trương nhẹ)." },
+            { "num": "⑤", "options": ["選んでほうがいい", "選ばないほうがいい", "選んだほうがいい"], "answerIndex": 2, "answer_vi": "選んだほうがいい — 「Vた + ほうがいい」 (nên chọn). 「選んでほうがいい」 sai dạng." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "style": "speak",
+      "title": "🗣️ スタイルを変えてみましょう — 敬語 ↔ 友達 (Track 1-51, trang 83)",
+      "page": 83,
+      "audio": "asset/audio/Track1-51.mp3",
+      "audioLabel": "Track 1-51 — スタイルを変えてみましょう",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Từ cue (việc muốn đề xuất), hãy NÓI lại theo 2 phong cách: (1) 敬語 — 「〜したらいいと思いますが、いかがでしょうか。」; (2) 友達 — 「〜したらいいと思うけど、どう？」. Nghe hết một lượt rồi mới luyện. Đáp án → trang 195.",
+      "note": "敬語: 〜したらいいと思いますが、いかがでしょうか; 友達: 〜したらいいと思うけど、どう？。 Đổi từ: 3) ので→から (友達); 4) 今日→本日, 明日(あした)→明日(あす) (敬語). Đáp án theo trang 195 (Track 1-51).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "ミーティングは来月の初めにする",
+          "context_vi": "(cue) tổ chức cuộc họp vào đầu tháng sau",
+          "subAnswers": [
+            { "num": "敬語", "answer": "ミーティングは来月の初めにしたらいいと思いますが、いかがでしょうか。", "answer_vi": "〜にする → 〜にしたらいいと思いますが、いかがでしょうか." },
+            { "num": "友達", "answer": "ミーティングは来月の初めにしたらいいと思うけど、どう？", "answer_vi": "〜にしたらいいと思うけど、どう？" }
+          ]
+        },
+        {
+          "num": "1",
+          "context": "新幹線より飛行機を予約する",
+          "context_vi": "(cue) đặt vé máy bay thay vì tàu shinkansen",
+          "audioStart": 23,
+          "subAnswers": [
+            { "num": "敬語", "answer": "新幹線より飛行機を予約したらいいと思いますが、いかがでしょうか。", "answer_vi": "予約する → 予約したらいいと思いますが、いかがでしょうか." },
+            { "num": "友達", "answer": "新幹線より飛行機を予約したらいいと思うけど、どう？", "answer_vi": "予約したらいいと思うけど、どう？" }
+          ]
+        },
+        {
+          "num": "2",
+          "context": "書類はメールで送る",
+          "context_vi": "(cue) gửi tài liệu qua mail",
+          "audioStart": 44,
+          "subAnswers": [
+            { "num": "敬語", "answer": "書類はメールで送ったらいいと思いますが、いかがでしょうか。", "answer_vi": "送る → 送ったらいいと思いますが、いかがでしょうか." },
+            { "num": "友達", "answer": "書類はメールで送ったらいいと思うけど、どう？", "answer_vi": "送ったらいいと思うけど、どう？" }
+          ]
+        },
+        {
+          "num": "3",
+          "context": "温泉があったほうがいいので、ふじホテルにする",
+          "context_vi": "(cue) vì có onsen thì hơn nên chọn khách sạn Fuji (💡 ので → から ở phong cách bạn bè)",
+          "audioStart": 61,
+          "subAnswers": [
+            { "num": "敬語", "answer": "温泉があったほうがいいので、ふじホテルにしたらいいと思いますが、いかがでしょうか。", "answer_vi": "敬語 giữ ので; 〜にしたらいいと思いますが、いかがでしょうか." },
+            { "num": "友達", "answer": "温泉があったほうがいいから、ふじホテルにしたらいいと思うけど、どう？", "answer_vi": "友達: ので → から; 〜にしたらいいと思うけど、どう？" }
+          ]
+        },
+        {
+          "num": "4",
+          "context": "この準備は今日じゃなくて、明日にする",
+          "context_vi": "(cue) việc chuẩn bị này không phải hôm nay mà để mai (💡 敬語: 今日→本日, 明日(あした)→明日(あす))",
+          "audioStart": 83,
+          "subAnswers": [
+            { "num": "敬語", "answer": "この準備は本日ではなくて、明日にしたらいいと思いますが、いかがでしょうか。", "answer_vi": "今日 → 本日; 明日(あす); 〜にしたらいいと思いますが、いかがでしょうか." },
+            { "num": "友達", "answer": "この準備は今日じゃなくて、明日にしたらいいと思うけど、どう？", "answer_vi": "友達: giữ 今日 / 明日(あした); 〜にしたらいいと思うけど、どう？" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎭 やってみましょう ① — 話してみましょう (集合場所を相談する, trang 84)",
+      "page": 84,
+      "intro": "Hoạt động NÓI theo cặp: A và B mỗi người cầm một ロールカード rồi bàn xem nên tập trung ở đâu cho chuyến đi của trường — học sinh nêu ý kiến KHÁC với thầy bằng kính ngữ.\nTự học một mình? Đọc cả hai thẻ rồi tự dựng hội thoại cho từng vai; bấm 🔊 nghe đề bài, rồi mở 「📖 Xem hội thoại mẫu」 (会話の例, Track 1-52) để đối chiếu.\n👉 Thẻ vai: A → trang 170; B → trang 174.",
+      "intro_jp": "ペアで話す練習です。ロールカードを持って、学校の旅行の集合場所を相談します。学生は先生と違う意見を敬語で言います。\nロールカード:A=p.170、B=p.174。会話の例(Track 1-52)で確認できます。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう ① — 旅行の集合場所をどこにするか",
+          "title_vi": "Bàn xem chuyến đi của trường nên tập trung ở đâu (học sinh ↔ thầy giáo)",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "日本語学校の学生",
+              "who_vi": "Bạn là học sinh trường tiếng Nhật (thẻ vai trang 170)",
+              "ref": "ロールカード p.170",
+              "jp": "あなたは日本語学校の学生です。今度学校で旅行に行きますが、どこに集合したらいいか先生と話しています。先生の意見に対して、日本に来たばかりで電車に慣れていない人もいること、学校に集まったほうがいいという反対意見を言ってください。",
+              "vi": "Bạn là học sinh trường tiếng Nhật. Sắp tới trường đi du lịch, bạn đang bàn với thầy/cô xem nên tập trung ở đâu. Trước ý kiến của thầy/cô, hãy nêu ý kiến KHÁC: có những bạn mới sang Nhật chưa quen đi tàu, nên tập trung ở trường thì hơn."
+            },
+            {
+              "side": "B",
+              "who_jp": "日本語学校の先生",
+              "who_vi": "Bạn là giáo viên trường tiếng Nhật (thẻ vai trang 174)",
+              "ref": "ロールカード p.174",
+              "jp": "あなたは日本語学校の先生です。今度学生たちを旅行に連れていきますが、どこに集合したらいいか学生と話しています。新幹線の時間が早いし、みんなにとってわかりやすいので、集合場所は東京駅がいいと思っています。",
+              "vi": "Bạn là giáo viên trường tiếng Nhật. Sắp tới bạn dẫn học sinh đi du lịch, đang bàn với học sinh xem tập trung ở đâu. Vì tàu shinkansen khởi hành sớm, lại dễ tìm cho mọi người, nên bạn nghĩ tập trung ở ga Tokyo là tốt nhất."
+            }
+          ],
+          "hints": [
+            { "jp": "先生、よろしいでしょうか。", "vi": "(A) xin phép nêu ý kiến — ③ 言い始める" },
+            { "jp": "東京駅は確かにわかりやすいと思いますが……。", "vi": "(A) đỡ ý thầy trước — ⑤ 意見を受ける" },
+            { "jp": "日本に来たばかりで電車に慣れていない人もいるのではないでしょうか。", "vi": "(A) chủ trương nhẹ — ④ 〜のではないでしょうか" },
+            { "jp": "それよりも、学校に集まってから行ったほうがいいと思いますが、いかがでしょうか。", "vi": "(A) đề xuất + chốt — ④ それよりも〜たほうが…、いかがでしょうか" }
+          ],
+          "model": {
+            "track": "1-52",
+            "audio": "asset/audio/Track1-52.mp3",
+            "intro_vi": "Hội thoại mẫu in trong sách (trang 195, Track 1-52). Hãy tự dựng & nói trước theo thẻ vai, rồi mới mở ra đối chiếu. (Lưu ý: trong mẫu, B=先生 mở lời và nói thân mật; A=学生 đáp lại bằng kính ngữ.)",
+            "intro_jp": "本の会話例(p.195・Track 1-52)です。先に自分で話してから、答え合わせに開いてください。(B=先生がくだけて話し、A=学生が敬語で答えます。)",
+            "lines": [
+              { "sp": "B", "jp": "今度の京都旅行のことなんだけど、集合する場所をどこにしようかと考えているんだ……新幹線の時間が7時半でしょ？ 東京駅がいいと思うけど、どう？", "vi": "Về chuyến đi Kyoto sắp tới ấy, thầy đang nghĩ nên tập trung ở đâu… Tàu shinkansen 7 rưỡi mà nhỉ? Thầy thấy ga Tokyo là hợp, em thấy sao?", "note_vi": "↳ B (先生) nói thân mật, đưa ý 東京駅" },
+              { "sp": "A", "jp": "そうですね……。日本に来たばかりで、電車に慣れていない人もいるのではないでしょうか。", "vi": "Dạ… Em nghĩ cũng có những bạn mới sang Nhật, chưa quen đi tàu ạ. (chẳng phải vậy sao ạ?)", "note_vi": "↳ ④ chủ trương nhẹ 「〜のではないでしょうか」" },
+              { "sp": "B", "jp": "そう？ でも、東京駅ならみんなわかる駅だし大丈夫じゃない？", "vi": "Vậy à? Nhưng ga Tokyo thì ai cũng biết, chắc ổn mà nhỉ?" },
+              { "sp": "A", "jp": "それはそうですが、7時半の新幹線なら、学校に集まってから東京駅に行っても間に合うと思いますが、いかがでしょうか。", "vi": "Điều đó thì đúng ạ, nhưng nếu là tàu 7 rưỡi thì em nghĩ tập trung ở trường rồi mới ra ga Tokyo vẫn kịp, không biết ý thầy thế nào ạ?", "note_vi": "↳ ⑤ それはそうですが + ④ đề xuất + いかがでしょうか" },
+              { "sp": "B", "jp": "そうだね。わかった。じゃあ、学校で。ありがとう。", "vi": "Cũng phải. Được rồi. Vậy thì tập trung ở trường. Cảm ơn em.", "note_vi": "↳ ý kiến của học sinh được chấp nhận" },
+              { "sp": "A", "jp": "いいえ。", "vi": "Dạ không có gì ạ." }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 会話の例 (hội thoại mẫu, trang 195 · Track 1-52) đã nhúng ngay dưới tình huống — bấm \"📖 Xem hội thoại mẫu\" để đối chiếu sau khi đã tự nói.",
+      "answerRef_jp": "会話の例(p.195・Track 1-52)はシナリオの下にあります。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "exercise",
+      "title": "✉️ やってみましょう ② — メールを書いてみましょう (trang 84–85)",
+      "page": 84,
+      "intro": "Anh 岡田さん (thư ký của bộ trưởng) gửi mail xin ý kiến về món ăn tiếp khách (接待) tháng sau. Vì lần này có người cấp 役員 (cán bộ điều hành) sang Nhật để ký hợp đồng, bên đó định chọn món Pháp ở ふじホテル. Hãy viết mail trả lời nêu ý kiến của bạn theo 3 điểm gợi ý.\n\n📩 Mail nhận được (từ 岡田さん):\n「来月の接待のときの料理についてですが、今回は役員クラスの人が契約のために来日されるので、ふじホテルのフランス料理を考えています。アレックスさんの意見はいかがですか。」\n\n3 điểm để nêu ý kiến (lý do trước → ý kiến sau, kiểu văn viết):\n・席のこと: món Pháp ngồi tách xa nhau, cả nhóm khó trò chuyện.\n・人数のこと: nếu số người chưa chốt thì món Trung (đổi số người vẫn ổn) hợp hơn.\n・アジアの人のこと: khách là người châu Á, có lẽ quen món châu Á hơn.\n\n📝 Khung mail trả lời:\n岡田さま / お疲れ様です。アレックスです。/ メールを拝見しました。/ まず席のことですが、①____。 / ②(人数)____。 / ③(アジアの人)____。 / 中華料理なら、神楽坂に「チーラン」といういいお店があります。/ ご検討ください。/ アレックス\n\n💡 Lưu ý: ① 「お疲れ様です」 KHÔNG dùng trong mail gửi cho người ở công ty KHÁC. ② Văn viết: nêu LÝ DO trước rồi mới nói ý kiến.",
+      "intro_jp": "部長の秘書の岡田さんから、来月の接待の料理について相談のメールが来ました(役員クラスの人が契約のために来日 → ふじホテルのフランス料理を検討中)。3つの観点で意見を書きましょう。\n💡「お疲れ様です」は他の会社の人に送るメールでは使いません。書きことばでは、理由を先に言ってから意見を言います。",
+      "instruction": "このメールについて、意見を書いてください。",
+      "instruction_vi": "Viết câu nêu ý kiến cho từng điểm (①席 / ②人数 / ③アジアの人). Đáp án mẫu → trang 195.",
+      "note": "Đáp án mẫu (p.195): ① フランス料理は一人ひとりの席が離れていて… ② 人数がまだ決まっていないとのことですが… ③ 今度のお客様はアジアからのお客様が多いと伺っておりますので…。",
+      "items": [
+        {
+          "num": "①",
+          "context": "◀席のこと（フランス料理は一人ひとりの席が離れている）",
+          "context_vi": "(điểm 席) món Pháp ngồi tách xa nhau",
+          "answer": "フランス料理は一人ひとりの席が離れていて、みんなで話すことができないのではないでしょうか。",
+          "answer_vi": "...席が離れていて、みんなで話すことができないのではないでしょうか (④ chủ trương nhẹ)."
+        },
+        {
+          "num": "②",
+          "context": "◀人数のこと（人数がまだ決まっていない → 中華料理）",
+          "context_vi": "(điểm 人数) số người chưa chốt → món Trung hợp hơn",
+          "answer": "人数がまだ決まっていないとのことですが、それなら人数が変わっても大丈夫な中華料理がいいと思います。",
+          "answer_vi": "人数がまだ決まっていないとのことですが、それなら〜中華料理がいいと思います."
+        },
+        {
+          "num": "③",
+          "context": "◀アジアの人だということ（お客様はアジアの人 → アジア料理）",
+          "context_vi": "(điểm アジア) khách là người châu Á → quen món châu Á hơn",
+          "answer": "今度のお客様はアジアからのお客様が多いと伺っておりますので、アジアの料理のほうが慣れているのではないでしょうか。",
+          "answer_vi": "...多いと伺っておりますので (伺う = nghe, khiêm nhường)、〜慣れているのではないでしょうか (⑥ lý do trước → ý kiến)."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Tổng hợp từ vựng Bài 8 (trang 85)",
+      "page": 85,
+      "intro": "Bảng từ vựng của cả Bài 8 (8課), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.\nNhiều mục là cặp 「từ ＝ cách giải nghĩa quen thuộc」 — hiểu nghĩa qua từ đã biết.",
+      "intro_jp": "8課の語彙タンク(p.85)。出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        { "jp": "宣伝", "kana": "せんでん", "vi": "Quảng bá / quảng cáo (publicity)", "note": "📖 trang 78." },
+        { "jp": "方法", "kana": "ほうほう", "vi": "Phương pháp / cách thức (method / approach)", "note": "📖 trang 78." },
+        { "jp": "サイン会", "kana": "サインかい", "vi": "Buổi ký tặng (autograph session)", "note": "📖 trang 78." },
+        { "jp": "効果", "kana": "こうか", "vi": "Hiệu quả (effect)", "note": "📖 trang 78 — 「宣伝効果」." },
+        { "jp": "予算", "kana": "よさん", "vi": "Ngân sách (budget)", "note": "📖 trang 78." },
+        { "jp": "マスコミ", "kana": "マスコミ", "vi": "Giới truyền thông / báo đài (the media)", "note": "📖 trang 78." },
+        { "jp": "おすすめする", "kana": "おすすめする", "vi": "Gợi ý / tiến cử (to recommend)", "note": "📖 trang 80." },
+        { "jp": "節約する", "kana": "せつやくする", "vi": "Tiết kiệm (to economize / save)", "note": "📖 trang 80." },
+        { "jp": "海外", "kana": "かいがい", "vi": "Nước ngoài (＝（日本にとっての）外国)", "note": "📖 trang 80." },
+        { "jp": "忘年会", "kana": "ぼうねんかい", "vi": "Tiệc tất niên / cuối năm (end-of-year party)", "note": "📖 trang 80." },
+        { "jp": "中華料理", "kana": "ちゅうかりょうり", "vi": "Món Trung Hoa (＝中国の料理)", "note": "📖 trang 80." },
+        { "jp": "人数", "kana": "にんずう", "vi": "Số người / số lượng người (＝人の数)", "note": "📖 trang 80." },
+        { "jp": "お年寄り", "kana": "おとしより", "vi": "Người già / người lớn tuổi (＝年をとった人)", "note": "📖 trang 81 — 練習①." },
+        { "jp": "無理のない", "kana": "むりのない", "vi": "Vừa sức / không gắng quá (not too hard — lit. 'không bất khả')", "note": "📖 trang 81 — 「無理のない運動」." },
+        { "jp": "苦手", "kana": "にがて", "vi": "Yếu / không giỏi (về cái gì) (weak / not good at)", "note": "📖 trang 81 — 「お酒が苦手な人」." },
+        { "jp": "製品", "kana": "せいひん", "vi": "Sản phẩm / hàng làm ra (product / manufactured good)", "note": "📖 trang 81 — 練習①." },
+        { "jp": "質のいい", "kana": "しつのいい", "vi": "Chất lượng tốt (＝（製品などが）よくできた)", "note": "📖 trang 81 — 「質のいい製品」." },
+        { "jp": "体を壊す", "kana": "からだをこわす", "vi": "Đổ bệnh / suy sụp sức khỏe (＝病気になる)", "note": "📖 trang 81 — 練習①." },
+        { "jp": "配る", "kana": "くばる", "vi": "Phát / phân phát (to distribute / hand out)", "note": "📖 trang 81 — 「パンフレットを配る」 (練習②)." },
+        { "jp": "延ばす", "kana": "のばす", "vi": "Dời lại / kéo dài (to extend / postpone)", "note": "📖 trang 81 — 「スケジュールを延ばす」 (練習②)." },
+        { "jp": "記念品", "kana": "きねんひん", "vi": "Quà lưu niệm (commemorative gift)", "note": "📖 trang 81 — 練習②." },
+        { "jp": "契約", "kana": "けいやく", "vi": "Hợp đồng / việc ký kết (contract)", "note": "📖 trang 81 — 「契約は少し延ばす」 (練習③)." },
+        { "jp": "はっきりしない", "kana": "はっきりしない", "vi": "Chưa rõ ràng (＝まだ決まっていない)", "note": "📖 trang 81 — 「予算がはっきりしない」 (練習③)." },
+        { "jp": "検討する", "kana": "けんとうする", "vi": "Cân nhắc / xem xét (＝考える)", "note": "📖 trang 81 — 「会社に持ち帰って検討したい」 (練習③); 「ご検討ください」 (mail, p.85)." },
+        { "jp": "オーバーする", "kana": "オーバーする", "vi": "Vượt quá (ngân sách…) (to go over / exceed)", "note": "📖 trang 82 — 「予算をオーバーしなくても済む」." },
+        { "jp": "〜なくても済む", "kana": "〜なくてもすむ", "vi": "Không cần… cũng được / vẫn xong (can do even without…)", "note": "📖 trang 82 — 「予算をオーバーしなくても済みますし」." },
+        { "jp": "確かに", "kana": "たしかに", "vi": "Đúng là / quả thực (certainly)", "note": "📖 trang 82 — 社員B「確かに、男性にも知ってほしいですね」." },
+        { "jp": "採用する", "kana": "さいようする", "vi": "Chọn dùng / áp dụng (ý kiến, phương án) / tuyển dụng (to adopt)", "note": "📖 trang 82 — 「意見を採用する」." },
+        { "jp": "温泉", "kana": "おんせん", "vi": "Suối nước nóng / onsen (hot spring)", "note": "📖 trang 83 — チェック / スタイル." },
+        { "jp": "ミーティング", "kana": "ミーティング", "vi": "Cuộc họp (meeting)", "note": "📖 trang 83 — スタイル 例." },
+        { "jp": "接待", "kana": "せったい", "vi": "Tiếp đãi / chiêu đãi khách (business entertainment)", "note": "📖 trang 84 — メール 「来月の接待」." },
+        { "jp": "役員", "kana": "やくいん", "vi": "Cán bộ điều hành / thành viên ban lãnh đạo (executive officer)", "note": "📖 trang 84 — 「役員クラスの人」." }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "📚 Tổng kết Bài 8 + Bước tiếp theo",
+      "content": "🎯 Tổng kết Bài 8 (8課 意見を言う):\n• ① 意見を募る — hỏi xin ý kiến: 「これについてはどう思われますか／この点についてはいかがですか／皆さんのご意見は？」 (思われます = sonkeigo của 思います).\n• ② 賛成か反対かを一言で言う — nói lập trường gọn: tán thành 「いいと思います」; phản đối nhẹ 「うーん／それはちょっと…／どうでしょうか…」; phản đối rõ 「いいと思いません」.\n• ③ 意見を言い始める — xin phép trước: 「ちょっと、よろしいでしょうか／課長、よろしいでしょうか」. ⚠️ đừng chặn thẳng như Alex p.78.\n• ④ 自分の意見を言う — chủ trương nhẹ 「〜のではないでしょうか」; đề xuất 「〜たらどうかと思います(が…)／〜がいいかと思います(が…)」; chốt 「それよりも〜たほうがいいと思います」. 💡 「〜と思いますが…」 lịch sự hơn 「〜けど」.\n• ⑤ 意見を受ける — đỡ ý đối phương trước: 「〜はいいことだと思いますが／それもそうですが」. ⚠️ 「よ」 + kính ngữ dễ nghe áp đặt.\n• ⑥ 意見の理由を言う — nêu lý do mềm: 「というのは、〜し、〜ので……」.\n• 💡 Cốt lõi bài: KHÔNG đổi nội dung — chỉ đổi CÁCH nói thì ý kiến được tiếp nhận (p.78 không được採用 ↔ p.82 được採用).\n\n📖 Tham chiếu trong sách:\n• Đáp án 練習①②③ (Track 1-47/1-48/1-49) → trang 194.\n• Đáp án チェック, スタイル (Track 1-51), メール → trang 195.\n• 会話の例 やってみましょう ① (Track 1-52) → trang 195, đã nhúng trong mục roleplay.\n• ロールカード: A → p.170, B → p.174.\n• 語彙タンク (p.85): 宣伝, マスコミ, 採用する, 接待, 役員, 〜なくても済む…\n\n➡️ Bài tiếp theo: 9課「予約を受ける」 (trang 86) — tiếp nhận đặt chỗ (nhà hàng / khách sạn) bằng kính ngữ.",
+      "content_jp": "🎯 8課「意見を言う」のまとめ:\n• ① 意見を募る:「これについてはどう思われますか/皆さんのご意見は?」。\n• ② 賛成か反対かを一言で言う:賛成「いいと思います」/やんわり反対「うーん/それはちょっと…/どうでしょうか…」/はっきり反対「いいと思いません」。\n• ③ 意見を言い始める:「ちょっと、よろしいでしょうか/課長、よろしいでしょうか」。⚠️ p.78のようにいきなり否定しない。\n• ④ 自分の意見を言う:やさしく主張「〜のではないでしょうか」/提案「〜たらどうかと思います(が…)」/まとめ「それよりも〜たほうがいいと思います」。💡「〜と思いますが…」は「〜けど」よりていねい。\n• ⑤ 意見を受ける:「〜はいいことだと思いますが/それもそうですが」。⚠️「よ」+敬語は押しつけがましい。\n• ⑥ 意見の理由を言う:「というのは、〜し、〜ので……」。\n• 💡 ポイント:内容は変えず、言い方を変えると意見が採用される(p.78採用されず ↔ p.82採用)。\n\n📖 本の参照:練習①②③(Track 1-47〜1-49)→p.194、チェック・スタイル(Track 1-51)・メール→p.195、会話の例(Track 1-52)→p.195、ロールカードA=p.170/B=p.174。\n➡️ 次は9課「予約を受ける」(p.86)。"
+    }
+  ]
+}

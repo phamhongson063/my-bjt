@@ -108,6 +108,35 @@ body {
   margin-bottom: 10px;
 }
 
+/* ── Rich text blocks (formatted intro / section-intro / tips) ── */
+.rt-p {
+  margin: 8px 0;
+}
+.rt-head {
+  font-weight: 600;
+  margin: 14px 0 6px;
+  line-height: 1.45;
+}
+.rt-list {
+  margin: 6px 0;
+  padding: 0;
+  list-style: none;
+}
+.rt-list li {
+  margin: 5px 0;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+  line-height: 1.55;
+}
+.explain-vi > :first-child,
+.explain-jp > :first-child {
+  margin-top: 0;
+}
+.explain-vi > :last-child,
+.explain-jp > :last-child {
+  margin-bottom: 0;
+}
+
 /* ── Warning/tip box shared base (yellow accent) ──
    .tips · .rp-hints · .dialogue-note · .exercise-note   */
 .tips,

@@ -1,0 +1,525 @@
+{
+  "id": "L08",
+  "order": 8,
+  "title": "7課 おわびする",
+  "titleVi": "Bài 7 — Xin lỗi / Tạ lỗi (lỗi của mình)",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 35,
+  "intro": "Bài 7 (7課) — Chương 2. Tình huống: Alex đang chuẩn bị cho buổi 打ち合わせ (họp bàn) buổi chiều thì nhận điện thoại của 加藤さん (đối tác). Hoá ra cuộc hẹn là 11 giờ, nhưng Alex nghe nhầm thành 1 giờ chiều nên không có mặt — mọi người đã chờ.\nỞ bản 「できますか?」, Alex hoảng hốt xin lỗi lung tung 「すみません! ごめんなさい! 申し訳ありません!」, rồi lại NGHE NHẦM tiếp (加藤 nói 11 giờ, Alex đáp 「はい。1時に」) → làm 加藤さん nổi giận. Bài này học cách おわび (xin lỗi / tạ lỗi) đúng mực.\n\n🎯 Mục tiêu — 4 điểm (trang 73):\n① 謝る — xin lỗi đúng tầng bậc (申し訳ありません(でした)／申し訳ございません／大変失礼いたしました／ご迷惑をおかけしました／どうかお許しください). Tránh 「すみません」「ごめんなさい」 vì bị xem là thiếu thành ý.\n② ミスを報告する — báo cáo lỗi đã xảy ra (実は〜てしまったんです／聞き間違えてしまいました).\n③ 反省の気持ちを伝える — thể hiện sự ăn năn SAU khi xin lỗi (二度と〜ないように、注意/確認/徹底いたします／今後は気をつけます).\n④ おわびを言われたら — cách đáp khi NGƯỜI KHÁC xin lỗi mình (nhẹ: お気になさらないでください / nghiêm: こういうことをされると困るんですよ).",
+  "intro_jp": "第2章 7課。アレックスさんは午後の打ち合わせの準備をしているとき、加藤さんから電話がかかってきました。打ち合わせは11時だったのに、アレックスさんは1時だと聞き間違えていて、その場にいませんでした。\n「できますか?」では、アレックスさんは「すみません! ごめんなさい!」とあわてて謝り、さらに時間をまた聞き間違えて、加藤さんを怒らせてしまいました。この課で、上手に「おわびする」言い方を学びます。\n\n🎯 学習項目:\n① 謝る(申し訳ありません/申し訳ございません/大変失礼いたしました/ご迷惑をおかけしました/お許しください)\n② ミスを報告する(実は〜てしまったんです/聞き間違えてしまいました)\n③ 反省の気持ちを伝える(二度と〜ないように、注意/確認/徹底いたします/今後は気をつけます)\n④ おわびを言われたら(軽く答える/厳しく答える)",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — Alex nghe nhầm giờ hẹn, làm 加藤さん nổi giận (trang 72)",
+      "page": 72,
+      "image": "images/L08/72_1.jpg",
+      "imageAlt": "Minh hoạ trang 72 — Alex (bên phải) cầm bút hốt hoảng nhìn cuốn sổ ghi lịch trên bàn, phía trên là bong bóng hình 加藤さん đang tức giận.",
+      "imageCaption": "Minh hoạ trang 72 — Alex nhận ra mình nghe nhầm giờ hẹn 打ち合わせ và đã làm 加藤さん giận.",
+      "scene": "アレックスさんは午後の打ち合わせの準備をしています。\n(Alex đang chuẩn bị cho buổi họp bàn buổi chiều. Đây là cách xin lỗi CHƯA đúng — để ý chỗ Alex xin lỗi kiểu trống 「すみません! ごめんなさい!」 và còn nghe nhầm tiếp.)",
+      "lines": [
+        { "speaker": "アレックス", "jp": "はい。日本ムービー営業部でございます。", "vi": "Vâng, phòng kinh doanh Nihon Movie xin nghe ạ." },
+        { "speaker": "加藤", "jp": "あ、あれ? アレックスさんですよね? ……あのー、11時から打ち合わせのお約束だったと思うのですが……何かありましたか?", "vi": "A, ơ? Là anh Alex đúng không nhỉ? …Ờ thì… tôi nhớ là mình hẹn họp từ 11 giờ mà… có chuyện gì vậy ạ?" },
+        { "speaker": "アレックス", "jp": "え? あ、1時からですよね。", "vi": "Hả? À, từ 1 giờ mà nhỉ. (⚠️ Alex đang nghe/nhớ nhầm 11時 → 1時)" },
+        { "speaker": "加藤", "jp": "11時からと申し上げましたよ。", "vi": "Tôi đã nói rõ là từ 11 giờ mà." },
+        { "speaker": "アレックス", "jp": "すみません! ごめんなさい。……あ、申し訳ありません! ど、どうしよう……。", "vi": "Xin lỗi! Em xin lỗi. …A, em thành thật xin lỗi! L-làm sao bây giờ… (⚠️ 「すみません」「ごめんなさい」 — xin lỗi kiểu trống, thiếu trang trọng; xem mục ① cách tạ lỗi đúng)" },
+        { "speaker": "加藤", "jp": "……みんなでお待ちしてたんですけどね……しかたがないので明日にしましょう。11時でお願いしますよ。", "vi": "…Mọi người đã chờ cả đấy… Thôi đành chịu, để mai vậy. 11 giờ nhé, nhờ anh đấy." },
+        { "speaker": "アレックス", "jp": "はい。1時に。", "vi": "Vâng. 1 giờ ạ. (⚠️ lại nghe nhầm tiếp!)" },
+        { "speaker": "加藤", "jp": "いいえ! 11時です!", "vi": "Không! 11 giờ!" },
+        { "speaker": "—", "jp": "アレックスさんは、加藤さんを怒らせてしまいました。", "vi": "Alex đã khiến cô Kato nổi giận. (Lỗi: xin lỗi kiểu hoảng loạn 「すみません! ごめんなさい!」 thiếu thành ý, lại còn nghe nhầm thêm lần nữa.)" }
+      ],
+      "vocabHighlight": [
+        "「すみません」「ごめんなさい」 (trống, thiếu lễ) → tạ lỗi trang trọng 「申し訳ございません」「大変失礼いたしました」 (①)",
+        "打ち合わせ = buổi họp bàn / trao đổi công việc",
+        "聞き間違える = nghe nhầm (11時 ↔ 1時) → cần BÁO CÁO lỗi này rõ ràng (②) thay vì chỉ hoảng",
+        "Đối tượng là 加藤さん (đối tác/khách) → cần おわび đúng mực + thể hiện ăn năn (③)"
+      ],
+      "note": "Cảnh huống dẫn vào Bài 7: cách おわび (xin lỗi / tạ lỗi) đúng mực khi MÌNH gây lỗi. Lỗi của Alex: (1) xin lỗi kiểu trống, hoảng loạn 「すみません! ごめんなさい!」; (2) không bình tĩnh báo cáo rõ mình nghe nhầm; (3) còn nghe nhầm tiếp. 4 mục ①〜④ bên dưới dạy từng bước; bản chuẩn xem ở 「これでOK!」 (trang 75).",
+      "note_jp": "この課では、上手に「おわびする」言い方を勉強します。アレックスさんは「すみません! ごめんなさい!」とあわてて謝り、さらに時間を聞き間違えて加藤さんを怒らせてしまいました。①〜④で直し方を学び、正しい会話は「これでOK!」(p.75)で確認します。"
+    },
+    {
+      "type": "grammar",
+      "title": "🙇 ① 謝る — Xin lỗi / Tạ lỗi đúng tầng bậc (trang 73)",
+      "page": 73,
+      "items": [
+        {
+          "pattern": "申し訳ありません(でした)。／申し訳ございません(でした)。／大変失礼いたしました。／ご迷惑をおかけしました。／どうかお許しください。",
+          "patternVi": "Bộ cụm tạ lỗi trang trọng — 「申し訳ございません」 lịch sự hơn 「申し訳ありません」; thêm 「でした」 khi lỗi đã xảy ra rồi.",
+          "explanation": "Khi MÌNH gây lỗi với cấp trên / khách / đối tác, dùng các cụm tạ lỗi trang trọng. Mức độ tăng dần: 申し訳ありません → 申し訳ございません → kèm 大変. Có thể nối thêm 「ご迷惑をおかけしました」 (đã làm phiền) và 「どうかお許しください」 (xin hãy thứ lỗi). 💡 「〜ませんで」 ＝ 「〜ないで」 (dạng văn trang trọng).",
+          "explanation_jp": "自分がミスをして、目上の人・お客様・取引先に謝るときは、ていねいな謝罪のことばを使います。「申し訳ありません」→「申し訳ございません」→「大変〜」と気持ちが強くなります。「ご迷惑をおかけしました」「どうかお許しください」を続けることもできます。💡「〜ませんで」＝「〜ないで」。",
+          "warning": "✗ 「すみません」「ごめんなさい」 — với lỗi cần tạ lỗi nghiêm túc, hai cụm này khiến đối phương cảm thấy bạn THIẾU thành ý / chưa đủ lễ phép.",
+          "warning_jp": "✗「すみません」「ごめんなさい」は、ていねいな気持ちが足りないと思われてしまいます。",
+          "examples": [
+            { "jp": "申し訳ありません(でした)。／申し訳ございません(でした)。", "vi": "Tôi thành thật xin lỗi (đã xảy ra)." },
+            { "jp": "大変失礼いたしました。／ご迷惑をおかけしました。／どうかお許しください。", "vi": "Tôi vô cùng thất lễ. / Đã làm phiền quý vị. / Kính mong quý vị thứ lỗi." },
+            { "jp": "いただいたメールにお返事できませんで、大変失礼いたしました。", "vi": "Tôi đã không hồi đáp được email quý vị gửi, thành thật xin lỗi vì sự thất lễ này. (〜ませんで＝〜ないで)" },
+            { "jp": "このたびは、弊社の社員がご迷惑をおかけして、大変申し訳ありませんでした。", "vi": "Lần này, nhân viên công ty chúng tôi đã gây phiền toái cho quý vị, chúng tôi vô cùng xin lỗi. (弊社 = công ty chúng tôi, cách nói khiêm nhường)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "📋 ② ミスを報告する — Báo cáo lỗi đã xảy ra (trang 73)",
+      "page": 73,
+      "items": [
+        {
+          "pattern": "実は、〜てしまったんです。／〜てしまいました。",
+          "patternVi": "Sau khi tạ lỗi, báo cáo rõ chuyện đã xảy ra. 「〜てしまう」 nhấn mạnh việc xảy ra ngoài ý muốn / đáng tiếc.",
+          "explanation": "Đừng chỉ hoảng lên xin lỗi — hãy bình tĩnh BÁO CÁO rõ mình đã sai chỗ nào. Mở đầu bằng 「実は…」 (thật ra là…) rồi nêu sự việc bằng 「〜てしまいました」. 💡 Văn nói rút gọn: 「なくなってしまったんです」→「なくなっちゃったんです」.",
+          "explanation_jp": "あわてて謝るだけでなく、何をどう間違えたかを落ち着いて報告します。「実は…」で切り出し、「〜てしまいました」で事実を伝えます。💡 話しことばでは「なくなっちゃったんです」のように縮めます。",
+          "examples": [
+            { "jp": "実は、お約束の時間に伺えなくなってしまったんです。", "vi": "Thật ra, tôi đã không đến được vào giờ đã hẹn mất rồi ạ. (💡 nói rút: 「なくなっちゃったんです」)" },
+            { "jp": "11日を21日だと聞き間違えてしまいました。", "vi": "Tôi đã nghe nhầm ngày 11 thành ngày 21 mất rồi ạ." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🙏 ③ 反省の気持ちを伝える — Thể hiện sự ăn năn (trang 73)",
+      "page": 73,
+      "items": [
+        {
+          "pattern": "二度とこのようなミスをしないように、注意／確認／徹底 いたします。 ／ 以後／今後は 気をつけます。",
+          "patternVi": "Sau khi xin lỗi, hãy thể hiện thái độ rút kinh nghiệm — cam kết không tái phạm.",
+          "explanation": "💡 謝ったあとに、反省の姿勢を示しましょう — sau khi đã xin lỗi, hãy cho thấy bạn thực sự rút kinh nghiệm. Cam kết không để lỗi lặp lại bằng 「二度とこのようなミスをしないように…いたします」, hoặc gọn hơn 「今後は気をつけます」.",
+          "explanation_jp": "💡 謝ったあとに、反省の姿勢を示しましょう。「二度とこのようなミスをしないように、注意／確認／徹底いたします」「今後は気をつけます」などで、同じ失敗をくり返さない気持ちを伝えます。",
+          "examples": [
+            { "jp": "二度とこのようなミスをしないように、注意いたします。", "vi": "Tôi sẽ chú ý để không bao giờ lặp lại lỗi như thế này nữa. (có thể thay 注意 → 確認 / 徹底)" },
+            { "jp": "以後、十分注意いたします。／今後は気をつけます。", "vi": "Từ nay tôi sẽ hết sức chú ý. / Sau này tôi sẽ cẩn thận. (以後／今後 ＝ これから)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🤲 ④ おわびを言われたら — Khi NGƯỜI KHÁC xin lỗi mình (trang 73)",
+      "page": 73,
+      "items": [
+        {
+          "pattern": "〈軽く答えるとき〉 あ、いえいえ、あまりお気になさらないでください。",
+          "patternVi": "Khi muốn đáp NHẸ NHÀNG, bỏ qua cho đối phương.",
+          "explanation": "Khi đối phương xin lỗi mà bạn muốn cho qua, đáp nhẹ để họ đỡ áy náy. 「お気になさらないでください」 = xin đừng để bụng (sonkeigo của 気にする).",
+          "explanation_jp": "相手のおわびを軽く受けて、気にしなくていいと伝えるときの言い方です。「お気になさらないでください」=「気にしないでください」の尊敬語。",
+          "examples": [
+            { "jp": "あ、いえいえ、あまりお気になさらないでください。", "vi": "À, không không, anh/chị đừng để tâm quá ạ." }
+          ]
+        },
+        {
+          "pattern": "〈厳しく答えるとき〉 こういうことをされると困るんですよ。／これからは気をつけてください。",
+          "patternVi": "Khi cần đáp NGHIÊM KHẮC, nhắc nhở để lần sau không tái diễn.",
+          "explanation": "Khi lỗi gây phiền thật sự, bạn vẫn lịch sự nhưng nói rõ là khó chấp nhận và yêu cầu đối phương cẩn thận về sau.",
+          "explanation_jp": "迷惑が大きいときは、ていねいさを保ちつつ、困っていることをはっきり伝え、今後の注意を求めます。",
+          "examples": [
+            { "jp": "こういうのは困ります。", "vi": "Thế này thì làm tôi khó xử đấy." },
+            { "jp": "こういうことをされると困るんですよ。", "vi": "Bị làm như vậy thì tôi thấy phiền lắm đấy." },
+            { "jp": "これからは気をつけてください。", "vi": "Từ nay anh/chị hãy cẩn thận giúp tôi." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習① ミスをしてしまいました — おわびを言ってみましょう (Track 1-41, trang 74)",
+      "page": 74,
+      "audio": "asset/audio/Track1-41.mp3",
+      "audioLabel": "Track 1-41 — 練習①",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。ミスをしてしまいました。相手におわびを言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Từ gợi ý (việc đã lỡ làm), hãy NÓI thành câu tạ lỗi theo mẫu: 「(お/ご)〜てしまいまして、大変申し訳ございませんでした。」 (chú ý thêm お/ご cho động từ). Đáp án → trang 193.",
+      "note": "Mẫu: cue → 「〜てしまいまして、大変申し訳ございませんでした。」. Động từ nhận お/ご (連絡→ご連絡, 待たせる→お待たせ). Đáp án theo trang 193 (Track 1-41).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "連絡が遅くなった",
+          "context_vi": "(việc đã lỡ) liên lạc bị trễ",
+          "answer": "ご連絡が遅くなってしまいまして、大変申し訳ございませんでした。",
+          "answer_vi": "連絡 → ご連絡 + 〜てしまいまして、大変申し訳ございませんでした。"
+        },
+        {
+          "num": "1",
+          "context": "お待たせした",
+          "context_vi": "(đã) để (đối phương) phải chờ",
+          "answer": "お待たせしてしまいまして、大変申し訳ございませんでした。",
+          "answer_vi": "お待たせする → お待たせしてしまいまして、大変申し訳ございませんでした。"
+        },
+        {
+          "num": "2",
+          "context": "時間を間違えた",
+          "context_vi": "(đã) nhầm giờ",
+          "answer": "時間を間違えてしまいまして、大変申し訳ございませんでした。",
+          "answer_vi": "時間を間違える → 時間を間違えてしまいまして、大変申し訳ございませんでした。"
+        },
+        {
+          "num": "3",
+          "context": "遅い時間に電話した",
+          "context_vi": "(đã) gọi điện vào giờ muộn",
+          "answer": "遅い時間に電話してしまいまして、大変申し訳ございませんでした。",
+          "answer_vi": "電話する → 電話してしまいまして、大変申し訳ございませんでした。"
+        },
+        {
+          "num": "4",
+          "context": "遅い時間までお邪魔した",
+          "context_vi": "(đã) làm phiền/nán lại đến tận giờ muộn",
+          "answer": "遅い時間までお邪魔してしまいまして、大変申し訳ございませんでした。",
+          "answer_vi": "お邪魔する → お邪魔してしまいまして、大変申し訳ございませんでした。"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習② 「お/ご〜くださいましたのに、〜ませんで、失礼いたしました」 (Track 1-42, trang 74)",
+      "page": 74,
+      "audio": "asset/audio/Track1-42.mp3",
+      "audioLabel": "Track 1-42 — 練習②",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。例のように言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Từ câu thân mật 「〜てくれたのに、〜なかった」, hãy NÓI thành câu tạ lỗi trang trọng: 「お/ご〜くださいましたのに、〜ませんで、失礼いたしました。」 (đối phương làm điều tốt → くださいました; việc mình không làm được → khiêm nhường). Đáp án → trang 193.",
+      "note": "Mẫu: 〜てくれた → お/ご〜くださいました; 行けなかった → 伺えませんで; いなかった → おりませんで; うち → 自宅. Đáp án theo trang 193 (Track 1-42).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "準備してくれたのに、行けなかった",
+          "context_vi": "(đối phương) đã chuẩn bị sẵn cho, vậy mà (mình) không đến được",
+          "answer": "ご準備くださいましたのに、伺えませんで、失礼いたしました。",
+          "answer_vi": "準備してくれた → ご準備くださいました; 行けなかった → 伺えませんで."
+        },
+        {
+          "num": "1",
+          "context": "待ってくれたのに、行けなかった",
+          "context_vi": "(đối phương) đã chờ, vậy mà (mình) không đến được",
+          "answer": "お待ちくださいましたのに、伺えませんで、失礼いたしました。",
+          "answer_vi": "待ってくれた → お待ちくださいました; 行けなかった → 伺えませんで."
+        },
+        {
+          "num": "2",
+          "context": "わざわざ連絡してくれたのに、うちにいなかった",
+          "context_vi": "(đối phương) đã cất công liên lạc, vậy mà (mình) lại không có nhà",
+          "answer": "わざわざ連絡してくださいましたのに、自宅におりませんで、失礼いたしました。",
+          "answer_vi": "連絡してくれた → 連絡してくださいました; うち → 自宅; いなかった → おりませんで (khiêm nhường của いない)."
+        },
+        {
+          "num": "3",
+          "context": "せっかく誘ってくれたのに、ご一緒できなかった",
+          "context_vi": "(đối phương) đã có lòng mời, vậy mà (mình) không đi cùng được",
+          "answer": "せっかく誘ってくださいましたのに、ご一緒できませんで、失礼いたしました。",
+          "answer_vi": "誘ってくれた → 誘ってくださいました; ご一緒する = đi cùng (khiêm nhường)."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — Phiên bản tạ lỗi đúng cách (Track 1-43, trang 75)",
+      "page": 75,
+      "image": "images/L08/75_1.jpg",
+      "imageAlt": "Minh hoạ trang 75 — Hôm sau, Alex cúi gập người xin lỗi 加藤さん bên bàn tiếp khách, 加藤さん đứng đối diện với vẻ đã nguôi giận.",
+      "imageCaption": "Minh hoạ trang 75 — Nhờ thái độ lễ phép, Alex được 加藤さん tha thứ.",
+      "audio": "asset/audio/Track1-43.mp3",
+      "audioLabel": "Track 1-43 — これでOK!",
+      "scene": "Bản ĐÚNG: Alex bình tĩnh xin lỗi đúng mực, hôm sau còn đến tận nơi おわび — báo cáo rõ lỗi (②), thể hiện ăn năn (③) và xin thứ lỗi (①).",
+      "lines": [
+        { "speaker": "アレックス", "jp": "はい。日本ムービー営業部でございます。", "vi": "Vâng, phòng kinh doanh Nihon Movie xin nghe ạ." },
+        { "speaker": "加藤", "jp": "あ、あれ? アレックスさんですよね? ……あのー、11時から打ち合わせのお約束だったと思うのですが……何かありましたか?", "vi": "A, ơ? Anh Alex đúng không nhỉ? …Ờ, tôi nhớ mình hẹn họp từ 11 giờ mà… có chuyện gì vậy ạ?" },
+        { "speaker": "アレックス", "jp": "え? ……あ、午後1時からだと思っておりました。", "vi": "Hả? …À, em cứ tưởng là từ 1 giờ chiều ạ. (思っておりました = khiêm nhường của 思っていました)" },
+        { "speaker": "加藤", "jp": "ええ! ……そうなんですか。", "vi": "Ơ! …Vậy à." },
+        { "speaker": "アレックス", "jp": "時間を間違えてしまいまして大変申し訳ございません。", "vi": "Em đã nhầm giờ mất rồi, em vô cùng xin lỗi ạ. (② báo cáo lỗi + ① tạ lỗi đúng mực)" },
+        { "speaker": "加藤", "jp": "……みんなでお待ちしていたんですけどね。でも、しかたがないので明日にしましょう。11時でお願いしますよ。", "vi": "…Mọi người đã chờ cả đấy. Thôi đành chịu, để mai vậy. 11 giờ nhé, nhờ anh." },
+        { "speaker": "アレックス", "jp": "はい。11時にお伺いいたします! 本当に申し訳ありませんでした。", "vi": "Vâng. 11 giờ em sẽ đến ạ! Em thật sự xin lỗi ạ. (お伺いいたします = khiêm nhường của 行きます/来ます)" },
+        { "speaker": "—", "jp": "〈次の日〉", "vi": "〈Hôm sau〉" },
+        { "speaker": "アレックス", "jp": "加藤さん、昨日は申し訳ありませんでした。", "vi": "Cô Kato, chuyện hôm qua em thành thật xin lỗi ạ." },
+        { "speaker": "加藤", "jp": "あ、いえ。まあ、おかけください。", "vi": "À, không sao. Nào, mời anh ngồi. (おかけください = mời ngồi)" },
+        { "speaker": "アレックス", "jp": "実は打ち合わせの時間を伺ったとき、11時を1時だと聞き間違えてしまいました。", "vi": "Thật ra lúc hỏi giờ họp, em đã nghe nhầm 11 giờ thành 1 giờ mất ạ. (② báo cáo rõ lỗi)" },
+        { "speaker": "加藤", "jp": "まあ、そうでしたか。", "vi": "Ồ, ra là vậy à." },
+        { "speaker": "アレックス", "jp": "お忙しい中、お時間を作ってくださいましたのに、時間を間違えてしまいまして申し訳ありませんでした。今後は十分注意いたしますので、お許しください。", "vi": "Cô bận rộn vậy mà còn dành thời gian cho em, thế mà em lại nhầm giờ, em xin lỗi ạ. Từ nay em sẽ hết sức chú ý, kính mong cô thứ lỗi. (③ ăn năn + ① xin thứ lỗi)" },
+        { "speaker": "加藤", "jp": "はい。じゃあ、お仕事の話ですが……", "vi": "Được rồi. Vậy thì, vào chuyện công việc nhé…" },
+        { "speaker": "—", "jp": "ていねいなアレックスさんの態度で、加藤さんは許してくれたようです。", "vi": "Nhờ thái độ lễ phép của Alex, cô Kato dường như đã tha thứ." }
+      ],
+      "vocabHighlight": [
+        "思っておりました — khiêm nhường của 思っていました",
+        "お伺いいたします — khiêm nhường của 行きます/来ます (お伺いする)",
+        "お時間を作ってくださいましたのに — đối phương đã dành thời gian (くださいました) → khung 練習②",
+        "今後は十分注意いたしますので、お許しください — ③ ăn năn + ① xin thứ lỗi"
+      ],
+      "note": "So với bản 「できますか?」 (p.72): Alex (1) bình tĩnh báo cáo rõ mình nhầm giờ thay vì hoảng loạn; (2) tạ lỗi đúng mực 「大変申し訳ございません」; (3) hôm sau đến tận nơi おわび, thể hiện ăn năn 「今後は十分注意いたします」 và xin thứ lỗi 「お許しください」. Bảng đối chiếu ở mục kế tiếp.",
+      "note_jp": "p.72「できますか?」と比べて、アレックスさんは(1)あわてず聞き間違いを報告し、(2)「大変申し訳ございません」とていねいに謝り、(3)次の日に直接おわびに行き、「今後は十分注意いたします」「お許しください」と反省を伝えました。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh トラブル → これでOK (p.72 ↔ p.75)",
+      "intro": "Bảng TỔNG HỢP đối chiếu bản tạ lỗi CHƯA khéo (p.72 「できますか?」) ↔ bản ĐÚNG (p.75 「これでOK!」), map theo các mục ①〜③. Gom từ 2 hội thoại phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.72「できますか?」とp.75「これでOK!」を①〜③で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "Điểm",
+        "sonkeigo": "✗ p.72 (chưa khéo)",
+        "kenjougo": "✓ p.75 (これでOK)"
+      },
+      "rows": [
+        {
+          "plain": "② 状況を伝える",
+          "plainVi": "báo cáo tình huống",
+          "sonkeigo": "え? あ、1時からですよね。",
+          "kenjougo": "え?……あ、午後1時からだと思っておりました。"
+        },
+        {
+          "plain": "① 謝る",
+          "plainVi": "xin lỗi",
+          "sonkeigo": "すみません! ごめんなさい。申し訳ありません!",
+          "kenjougo": "時間を間違えてしまいまして大変申し訳ございません。"
+        },
+        {
+          "plain": "次の対応",
+          "plainVi": "ứng xử tiếp theo",
+          "sonkeigo": "はい。1時に。(また聞き間違い)",
+          "kenjougo": "11時にお伺いいたします! 本当に申し訳ありませんでした。"
+        },
+        {
+          "plain": "② ミスを報告",
+          "plainVi": "báo cáo lỗi (hôm sau)",
+          "sonkeigo": "",
+          "kenjougo": "11時を1時だと聞き間違えてしまいました。"
+        },
+        {
+          "plain": "③ 反省を伝える",
+          "plainVi": "thể hiện ăn năn",
+          "sonkeigo": "",
+          "kenjougo": "今後は十分注意いたしますので、お許しください。"
+        },
+        {
+          "plain": "結果",
+          "plainVi": "kết quả",
+          "sonkeigo": "加藤さんを怒らせてしまった。",
+          "kenjougo": "加藤さんが許してくれた。"
+        }
+      ],
+      "note": "Khác biệt cốt lõi: bình tĩnh BÁO CÁO (②) thay vì hoảng, tạ lỗi đúng mức (①), và thể hiện ĂN NĂN + xin thứ lỗi (③).",
+      "note_jp": "ポイント:あわてず②報告する、①ていねいに謝る、③反省を伝えてお許しを願う。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — おわび表現の正しい形 (trang 76)",
+      "page": 76,
+      "instruction": "【　】の中に正しいことばを入れたり、正しいものを選んだりしましょう。",
+      "instruction_vi": "Điền cụm đúng vào 【　】 hoặc chọn phương án đúng. Đây là hội thoại おわび hôm sau (như p.75). Đáp án → trang 193.",
+      "note": "Đáp án sách (p.193): ① 申し訳あり ② b うかがう ③ a 聞きまちがえて ④ b うかがえ ⑤ ご迷惑 ⑥ b お許し.",
+      "items": [
+        {
+          "num": "1",
+          "context": "A：昨日は【①　　　】ませんでした。\n　実は時間を【②】とき、【③】しまいました。\nB：そうですか。\nA：お約束の時間に【④】ませんで、申し訳ございませんでした。【⑤　　　】をおかけいたしました。【⑥】ください。",
+          "context_vi": "A xin lỗi B về việc nhầm giờ hôm qua, báo cáo đã nghe nhầm, và xin thứ lỗi.",
+          "subAnswers": [
+            { "num": "①", "answer": "申し訳あり", "answer_vi": "昨日は申し訳ありませんでした (① tạ lỗi)." },
+            { "num": "②", "options": ["お聞き", "うかがう", "お聞きになる"], "answerIndex": 1, "answer_vi": "うかがう — 「時間をうかがったとき」 (伺う = hỏi, khiêm nhường). お聞きになる là sonkeigo (sai vế chủ thể)." },
+            { "num": "③", "options": ["聞きまちがえて", "聞いてまちがえて", "聞きとって"], "answerIndex": 0, "answer_vi": "聞きまちがえて — 聞き間違える = nghe nhầm (② báo cáo lỗi)." },
+            { "num": "④", "options": ["うかがい", "うかがえ", "うかがわ"], "answerIndex": 1, "answer_vi": "うかがえ — 「時間に伺えませんで」 (không đến được; 伺える + ません + で)." },
+            { "num": "⑤", "answer": "ご迷惑", "answer_vi": "ご迷惑をおかけいたしました (đã gây phiền toái)." },
+            { "num": "⑥", "options": ["許し", "お許し", "許す"], "answerIndex": 1, "answer_vi": "お許し — 「お許しください」 (① xin thứ lỗi)." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "style": "speak",
+      "title": "🗣️ スタイルを変えてみましょう — 敬語 ↔ 友達 (Track 1-44, trang 76)",
+      "page": 76,
+      "audio": "asset/audio/Track1-44.mp3",
+      "audioLabel": "Track 1-44 — スタイルを変えてみましょう",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Từ câu xin lỗi gốc (「すみません。〜てしまって……。」), hãy NÓI lại theo 2 phong cách: (1) 敬語 — 「申し訳ありません。〜てしまいまして……。」 (thêm お/ご nếu có); (2) 友達 — 「ごめん。〜ちゃって……。」. Nghe hết một lượt rồi mới luyện. Đáp án → trang 193.",
+      "note": "敬語: すみません → 申し訳ありません; 〜てしまって → 〜てしまいまして; danh từ nhận お (名前→お名前, 借りたかさ→お借りしたかさ). 友達: ごめん + 〜ちゃって. Đáp án theo trang 193 (Track 1-44).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "すみません。大事な書類を忘れてしまって……。",
+          "context_vi": "(câu gốc) Xin lỗi. Tôi để quên mất tập tài liệu quan trọng…",
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ありません。大事な書類を忘れてしまいまして……。", "answer_vi": "すみません → 申し訳ありません; 忘れてしまって → 忘れてしまいまして." },
+            { "num": "友達", "answer": "ごめん。大事な書類、忘れちゃって……。", "answer_vi": "ごめん + 忘れちゃって." }
+          ]
+        },
+        {
+          "num": "1",
+          "context": "すみません。時間を間違えてしまって……。",
+          "context_vi": "Xin lỗi. Tôi nhầm giờ mất…",
+          "audioStart": 20,
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ありません。時間を間違えてしまいまして……。", "answer_vi": "間違えてしまって → 間違えてしまいまして." },
+            { "num": "友達", "answer": "ごめん。時間、間違えちゃって……。", "answer_vi": "ごめん + 間違えちゃって." }
+          ]
+        },
+        {
+          "num": "2",
+          "context": "すみません。時間に遅れてしまって……。",
+          "context_vi": "Xin lỗi. Tôi đến trễ mất…",
+          "audioStart": 38,
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ありません。時間に遅れてしまいまして……。", "answer_vi": "遅れてしまって → 遅れてしまいまして." },
+            { "num": "友達", "answer": "ごめん。時間に遅れちゃって……。", "answer_vi": "ごめん + 遅れちゃって." }
+          ]
+        },
+        {
+          "num": "3",
+          "context": "すみません。名前の読み方を間違えてしまって……。",
+          "context_vi": "Xin lỗi. Tôi đọc nhầm cách đọc tên mất… (💡 名前 → お名前)",
+          "audioStart": 55,
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ありません。お名前の読み方を間違えてしまいまして……。", "answer_vi": "名前 → お名前; 間違えてしまって → 間違えてしまいまして." },
+            { "num": "友達", "answer": "ごめん。名前の読み方、間違えちゃって……。", "answer_vi": "ごめん + 間違えちゃって." }
+          ]
+        },
+        {
+          "num": "4",
+          "context": "すみません。借りたかさをなくしてしまって……。",
+          "context_vi": "Xin lỗi. Tôi làm mất cái ô đã mượn rồi…",
+          "audioStart": 74,
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ありません。お借りしたかさをなくしてしまいまして……。", "answer_vi": "借りた → お借りした (khiêm nhường); なくしてしまって → なくしてしまいまして." },
+            { "num": "友達", "answer": "ごめん。借りたかさ、なくしちゃって……。", "answer_vi": "ごめん + なくしちゃって." }
+          ]
+        },
+        {
+          "num": "5",
+          "context": "すみません。カメラを落として壊してしまって……。",
+          "context_vi": "Xin lỗi. Tôi làm rơi máy ảnh và làm hỏng mất…",
+          "audioStart": 93,
+          "subAnswers": [
+            { "num": "敬語", "answer": "申し訳ありません。カメラを落として壊してしまいまして……。", "answer_vi": "壊してしまって → 壊してしまいまして." },
+            { "num": "友達", "answer": "ごめん。カメラ、落として壊しちゃって……。", "answer_vi": "ごめん + 落として壊しちゃって." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎭 やってみましょう ①② — 話してみましょう (trang 77)",
+      "page": 77,
+      "intro": "Hoạt động NÓI theo cặp: A và B mỗi người cầm một ロールカード rồi dựng hội thoại おわび bằng kính ngữ.\nTự học một mình? Đọc cả hai thẻ rồi tự dựng hội thoại cho từng vai; bấm 🔊 nghe đề bài, rồi mở 「📖 Xem hội thoại mẫu」 (会話の例, Track 1-45/1-46) để đối chiếu.\n👉 Thẻ vai: A → trang 169; B → trang 173 (cả ① lẫn ②).",
+      "intro_jp": "ペアで話す練習です。ロールカードを持って、敬語で「おわびする」会話をしましょう。\nロールカード:A=p.169、B=p.173。会話の例(Track 1-45/1-46)で確認できます。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう ① — ベランダの水で下の階に迷惑をかけた",
+          "title_vi": "Tưới cây làm tràn nước xuống ban công nhà tầng dưới → sang xin lỗi",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "マンションの住人 (上の階)",
+              "who_vi": "Bạn là người ở tầng trên (thẻ vai trang 169)",
+              "ref": "ロールカード p.169",
+              "jp": "あなたがうちのベランダで花に水をやっていたら、水がこぼれて、下の部屋の洗濯物がぬれてしまいました。下のうちの玄関に行って、謝ってください。どうして水がこぼれたのかを話して、今後気をつけると言ってください。",
+              "vi": "Khi bạn tưới hoa ở ban công nhà mình, nước bị tràn ra làm ướt đồ phơi của nhà tầng dưới. Hãy sang trước cửa nhà tầng dưới để xin lỗi. Giải thích vì sao nước bị tràn và nói rằng từ nay sẽ cẩn thận."
+            },
+            {
+              "side": "B",
+              "who_jp": "下の階の人",
+              "who_vi": "Bạn là người ở tầng dưới (thẻ vai trang 173)",
+              "ref": "ロールカード p.173",
+              "jp": "あなたが部屋にいたら、急に上の部屋から水がこぼれてきて、ベランダの洗濯物がぬれました。上の人が来たら、話を聞いてください。水だから気にしないでくださいと言ってください。",
+              "vi": "Khi đang ở trong phòng, bỗng có nước từ tầng trên tràn xuống làm ướt đồ phơi ở ban công. Khi người tầng trên sang, hãy nghe họ nói. Rồi bảo họ rằng chỉ là nước thôi, đừng để tâm."
+            }
+          ],
+          "hints": [
+            { "jp": "ごめんください。上の○○ですが。", "vi": "(A) gọi cửa, xưng tên — ごめんください (chào khi đến cửa)" },
+            { "jp": "ベランダで花に水をやっていたら、水をこぼしてしまいまして……。", "vi": "(A) báo cáo sự việc — ② 〜てしまいまして" },
+            { "jp": "今後は気をつけますので。ご迷惑をおかけして申し訳ありませんでした。", "vi": "(A) ③ ăn năn + ① tạ lỗi" },
+            { "jp": "水なら大丈夫ですよ。気にしないでください。", "vi": "(B) đáp nhẹ, bỏ qua — ④ 軽く答えるとき" }
+          ],
+          "model": {
+            "track": "1-45",
+            "audio": "asset/audio/Track1-45.mp3",
+            "intro_vi": "Hội thoại mẫu in trong sách (trang 194, Track 1-45). Hãy tự dựng & nói trước theo thẻ vai, rồi mới mở ra đối chiếu.",
+            "intro_jp": "本の会話例(p.194・Track 1-45)です。先に自分で話してから、答え合わせに開いてください。",
+            "lines": [
+              { "sp": "A", "jp": "ごめんください。上のユンですが。", "vi": "Cho hỏi có ai không ạ. Tôi là Yun ở tầng trên.", "note_vi": "↳ ごめんください = chào khi đến cửa nhà người khác" },
+              { "sp": "B", "jp": "……あ、はい。", "vi": "…À, vâng." },
+              { "sp": "A", "jp": "申し訳ありません。ベランダで花に水をやっていたら、水をこぼしてしまいまして……。下を見たら、洗濯物がぬれていたので、おわびに伺いました。", "vi": "Tôi thành thật xin lỗi. Lúc tưới hoa ở ban công, tôi lỡ làm tràn nước… Nhìn xuống thấy đồ phơi của nhà mình bị ướt nên tôi sang xin lỗi ạ.", "note_vi": "↳ ① tạ lỗi + ② báo cáo sự việc; おわびに伺いました (伺う = đến, khiêm nhường)" },
+              { "sp": "B", "jp": "ああ、そうでしたか……でも、水でしょう?", "vi": "À, ra vậy à… Nhưng mà chỉ là nước thôi mà nhỉ?" },
+              { "sp": "A", "jp": "ええ、水ですけど……。", "vi": "Vâng, là nước thôi ạ, nhưng mà…" },
+              { "sp": "B", "jp": "水なら大丈夫ですよ。気にしないでください。", "vi": "Nước thì không sao đâu. Anh đừng để tâm.", "note_vi": "↳ ④ 軽く答えるとき (đáp nhẹ, bỏ qua)" },
+              { "sp": "A", "jp": "そうですか。今後は気をつけますので。ご迷惑をおかけして申し訳ありませんでした。", "vi": "Vậy ạ. Từ nay tôi sẽ cẩn thận. Đã làm phiền anh, tôi xin lỗi ạ.", "note_vi": "↳ ③ ăn năn + ① tạ lỗi khép lại" }
+            ]
+          }
+        },
+        {
+          "label": "②",
+          "title_jp": "話してみましょう ② — 不良品のおわび (会社対会社)",
+          "title_vi": "Xin lỗi về hàng lỗi (giữa hai công ty, qua điện thoại)",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "A社の社員",
+              "who_vi": "Bạn là nhân viên công ty A (thẻ vai trang 169)",
+              "ref": "ロールカード p.169",
+              "jp": "あなたはA社の社員です。A社で作っている部品が不良品だったと、取引先のB社から電話がかかってきました。B社の人はとても怒っています。ていねいにおわびを言ってください。上司と一緒にこれからすぐにおわびに行くと伝えてください。",
+              "vi": "Bạn là nhân viên công ty A. Công ty đối tác B gọi điện báo rằng linh kiện do công ty A sản xuất bị lỗi. Người bên B rất tức giận. Hãy xin lỗi thật lễ phép, và nói rằng bạn cùng cấp trên sẽ đến tận nơi xin lỗi ngay."
+            },
+            {
+              "side": "B",
+              "who_jp": "B社の社員",
+              "who_vi": "Bạn là nhân viên công ty B (thẻ vai trang 173)",
+              "ref": "ロールカード p.173",
+              "jp": "あなたはB社の社員です。A社から買った部品が不良品だとわかりました。A社に電話をして、怒っていることを伝えてください。説明をしてほしいと伝えて、責任者に来てほしいと言ってください。",
+              "vi": "Bạn là nhân viên công ty B. Bạn phát hiện linh kiện mua từ công ty A bị lỗi. Hãy gọi điện cho công ty A, bày tỏ rằng bạn đang tức giận. Yêu cầu họ giải thích và bảo người chịu trách nhiệm đến gặp."
+            }
+          ],
+          "hints": [
+            { "jp": "実は先週お届けくださった部品なんですが、いくつも不良品がありまして。", "vi": "(B) nêu vấn đề — お届けくださった (đối phương giao hàng)" },
+            { "jp": "それは、まことに申し訳ありません!", "vi": "(A) ① tạ lỗi mạnh — まことに申し訳ありません" },
+            { "jp": "ただちに担当上司に連絡を取りまして、おわびに伺います。", "vi": "(A) cam kết hành động — おわびに伺います" },
+            { "jp": "承知いたしました。", "vi": "(A) nhận lời — khiêm nhường của わかりました" }
+          ],
+          "model": {
+            "track": "1-46",
+            "audio": "asset/audio/Track1-46.mp3",
+            "intro_vi": "Hội thoại mẫu in trong sách (trang 194, Track 1-46). Tự nói trước rồi mở đối chiếu.",
+            "intro_jp": "本の会話例(p.194・Track 1-46)です。先に自分で話してから確認しましょう。",
+            "lines": [
+              { "sp": "A", "jp": "東京機械営業部でございます。", "vi": "Phòng kinh doanh Tokyo Kikai xin nghe ạ." },
+              { "sp": "B", "jp": "大阪自動車の佐々木ですが、実は先週お届けくださった部品なんですが、いくつも不良品がありまして。", "vi": "Tôi là Sasaki bên Osaka Jidosha. Số là về lô linh kiện quý công ty giao tuần trước, có nhiều cái bị lỗi quá." },
+              { "sp": "A", "jp": "え?! それは、まことに申し訳ありません!", "vi": "Dạ?! Việc đó… chúng tôi thành thật xin lỗi!", "note_vi": "↳ ① tạ lỗi mạnh: まことに申し訳ありません" },
+              { "sp": "B", "jp": "お客様から「事故が起きたらどうするんだ」と厳しいことをいただきましてね。今、対応中なんですが。", "vi": "Khách hàng đã trách nặng lời, kiểu 'lỡ xảy ra tai nạn thì tính sao'. Giờ chúng tôi đang phải xử lý đây." },
+              { "sp": "A", "jp": "おわびの申し上げようもございません。ただちに担当上司に連絡を取りまして、おわびに伺います。", "vi": "Chúng tôi không biết phải xin lỗi thế nào cho đủ. Tôi sẽ liên lạc ngay với cấp trên phụ trách, rồi đến tận nơi xin lỗi ạ.", "note_vi": "↳ おわびの申し上げようもございません (cụm tạ lỗi rất nặng) + おわびに伺います" },
+              { "sp": "B", "jp": "至急、事情の説明にいらしてください。とりあえずお待ちしていますので。", "vi": "Hãy đến giải thích sự tình gấp giúp. Tạm thời chúng tôi chờ đấy." },
+              { "sp": "A", "jp": "はい、承知いたしました。本当に、ご迷惑をおかけして申し訳ありません。", "vi": "Vâng, tôi đã rõ ạ. Thật sự đã gây phiền toái cho quý công ty, chúng tôi xin lỗi ạ.", "note_vi": "↳ 承知いたしました (khiêm nhường của わかりました) + ① tạ lỗi khép lại" }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 会話の例 (hội thoại mẫu, trang 194 · Track 1-45 / 1-46) đã nhúng ngay dưới mỗi tình huống — bấm \"📖 Xem hội thoại mẫu\" để đối chiếu sau khi đã tự nói.",
+      "answerRef_jp": "会話の例(p.194・Track 1-45/1-46)は各シナリオの下にあります。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Tổng hợp từ vựng Bài 7 (trang 77)",
+      "page": 77,
+      "intro": "Bảng từ vựng của cả Bài 7 (7課), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.\nNhiều mục là cặp 「từ trang trọng ＝ từ thường ngày」 — hiểu nghĩa qua từ quen thuộc.",
+      "intro_jp": "7課の語彙タンク(p.77)。出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        { "jp": "営業部", "kana": "えいぎょうぶ", "vi": "Phòng kinh doanh (sales department)", "note": "📖 trang 72." },
+        { "jp": "打ち合わせ", "kana": "うちあわせ", "vi": "Buổi họp bàn / trao đổi công việc (meeting)", "note": "📖 trang 72." },
+        { "jp": "許す", "kana": "ゆるす", "vi": "Tha thứ / lượng thứ (to forgive)", "note": "📖 trang 73 — 「お許しください」." },
+        { "jp": "迷惑をかける", "kana": "めいわくをかける", "vi": "Gây phiền toái / làm phiền (to cause someone trouble)", "note": "📖 trang 73 — 「ご迷惑をおかけしました」." },
+        { "jp": "弊社", "kana": "へいしゃ", "vi": "Công ty chúng tôi (＝私たちの会社, cách nói khiêm nhường)", "note": "📖 trang 73." },
+        { "jp": "聞き間違える", "kana": "ききまちがえる", "vi": "Nghe nhầm (to mishear)", "note": "📖 trang 73 — 「11時を1時だと聞き間違えてしまいました」." },
+        { "jp": "確認する", "kana": "かくにんする", "vi": "Xác nhận / kiểm tra lại (to confirm / check)", "note": "📖 trang 73 — 「確認いたします」 (③)." },
+        { "jp": "徹底する", "kana": "てっていする", "vi": "Làm triệt để / quán triệt (to be thorough)", "note": "📖 trang 73 — 「徹底いたします」 (③)." },
+        { "jp": "以後／今後", "kana": "いご／こんご", "vi": "Từ nay / về sau (＝これから)", "note": "📖 trang 73 — 「今後は気をつけます」 (③)." },
+        { "jp": "お邪魔する", "kana": "おじゃまする", "vi": "Làm phiền / ghé thăm chốc lát (to pay a short visit / take up someone's time)", "note": "📖 trang 74 — 「遅い時間までお邪魔した」 (練習①)." },
+        { "jp": "わざわざ", "kana": "わざわざ", "vi": "Cất công / đặc biệt (làm gì đó) (to bother to)", "note": "📖 trang 74 — 「わざわざ連絡してくださいましたのに」 (練習②)." },
+        { "jp": "せっかく", "kana": "せっかく", "vi": "Có lòng / khó khăn lắm mới (to go to the trouble to)", "note": "📖 trang 74 — 「せっかく誘ってくださいましたのに」 (練習②)." },
+        { "jp": "ご一緒する", "kana": "ごいっしょする", "vi": "Cùng làm gì đó (khiêm nhường của 「一緒に何かをする」)", "note": "📖 trang 74 — 「ご一緒できませんで」 (練習②)." },
+        { "jp": "昨日", "kana": "さくじつ", "vi": "Hôm qua (＝昨日(きのう), cách đọc trang trọng)", "note": "📖 trang 75 — 「昨日は申し訳ありませんでした」." },
+        { "jp": "かける", "kana": "かける", "vi": "Ngồi (xuống ghế) (＝(いすに)座る)", "note": "📖 trang 75 — 「おかけください」 (mời ngồi)." },
+        { "jp": "不良品", "kana": "ふりょうひん", "vi": "Hàng lỗi / sản phẩm hỏng (defective product)", "note": "📖 trang 77 — 会話例② (Track 1-46)." }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "📚 Tổng kết Bài 7 + Bước tiếp theo",
+      "content": "🎯 Tổng kết Bài 7 (7課 おわびする):\n• ① 謝る — tạ lỗi đúng tầng bậc: 申し訳ありません(でした) → 申し訳ございません → 大変失礼いたしました / ご迷惑をおかけしました / どうかお許しください. ⚠️ Tránh 「すみません」「ごめんなさい」 khi cần tạ lỗi nghiêm túc (bị xem là thiếu thành ý). 💡 「〜ませんで」＝「〜ないで」.\n• ② ミスを報告する — bình tĩnh báo cáo lỗi: 「実は〜てしまったんです／〜てしまいました」, 「聞き間違えてしまいました」. 💡 nói rút: 「なくなっちゃったんです」.\n• ③ 反省の気持ちを伝える — SAU khi xin lỗi, thể hiện ăn năn: 「二度とこのようなミスをしないように、注意/確認/徹底いたします」「今後は気をつけます」.\n• ④ おわびを言われたら — đáp khi người khác xin lỗi: 軽く 「あまりお気になさらないでください」 / 厳しく 「こういうことをされると困るんですよ」「これからは気をつけてください」.\n• Khung 練習②: đối phương làm điều tốt mà mình lỡ → 「お/ご〜くださいましたのに、〜ませんで、失礼いたしました」 (いない→おりません, うち→自宅).\n\n📖 Tham chiếu trong sách:\n• Đáp án 練習①② (Track 1-41/1-42), チェック, スタイル (Track 1-44) → trang 193.\n• 会話の例 やってみましょう ①② (Track 1-45/1-46) → trang 194, đã nhúng trong mục roleplay.\n• ロールカード: A → p.169, B → p.173.\n• 語彙タンク (p.77): 弊社, 不良品, お邪魔する, ご一緒する, 昨日(さくじつ)…\n\n➡️ Bài tiếp theo: 8課「意見を言う」 (trang 78) — phát biểu ý kiến (đồng ý / phản đối / đề xuất) bằng kính ngữ.",
+      "content_jp": "🎯 7課「おわびする」のまとめ:\n• ① 謝る:申し訳ありません(でした)→申し訳ございません→大変失礼いたしました/ご迷惑をおかけしました/どうかお許しください。⚠️「すみません」「ごめんなさい」は気持ちが足りないと思われる。💡「〜ませんで」＝「〜ないで」。\n• ② ミスを報告する:「実は〜てしまったんです」「聞き間違えてしまいました」。💡 話しことば「なくなっちゃったんです」。\n• ③ 反省の気持ちを伝える:「二度とこのようなミスをしないように、注意/確認/徹底いたします」「今後は気をつけます」。\n• ④ おわびを言われたら:軽く「あまりお気になさらないでください」/厳しく「こういうことをされると困るんですよ」「これからは気をつけてください」。\n• 練習②の型:「お/ご〜くださいましたのに、〜ませんで、失礼いたしました」(いない→おりません、うち→自宅)。\n\n📖 本の参照:練習①②・チェック・スタイル→p.193、会話の例(Track 1-45/1-46)→p.194、ロールカードA=p.169/B=p.173。\n➡️ 次は8課「意見を言う」(p.78)。"
+    }
+  ]
+}

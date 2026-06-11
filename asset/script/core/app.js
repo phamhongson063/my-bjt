@@ -1,6 +1,6 @@
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 
-import { bilingual } from "./utils.js";
+import { bilingual, bilingualRich } from "./utils.js";
 import { DEFAULT_BOOK_ID, lessonKey } from "./books.js";
 import { initAudio } from "./audio.js";
 import { getPlugin } from "../plugins/registry.js";
@@ -111,7 +111,7 @@ export class LessonApp {
     document.getElementById(
       "lessonMeta"
     ).textContent = `${lesson.phase} · ${lesson.estimatedMinutes} phút · ${lesson.level}`;
-    document.getElementById("lessonIntro").innerHTML = bilingual(
+    document.getElementById("lessonIntro").innerHTML = bilingualRich(
       lesson.intro,
       lesson.intro_jp
     );
@@ -158,7 +158,7 @@ export class LessonApp {
     if (section.intro || section.intro_jp) {
       const introDiv = document.createElement("div");
       introDiv.className = "section-intro";
-      introDiv.innerHTML = bilingual(section.intro, section.intro_jp);
+      introDiv.innerHTML = bilingualRich(section.intro, section.intro_jp);
       div.appendChild(introDiv);
     }
 

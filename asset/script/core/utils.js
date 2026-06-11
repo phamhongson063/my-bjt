@@ -4,6 +4,56 @@ export function bilingual(vi, jp) {
   return `<span class="explain-vi">${vi_}</span><span class="explain-jp">${jp_}</span>`;
 }
 
+const RT_ITEM = /^([•·・▪‣]\s?|[①-⑳]\s*)/;
+
+export function richText(s) {
+  const esc = (t) =>
+    String(t)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  const lines = String(s == null ? "" : s).split("\n");
+  let html = "";
+  let inList = false;
+  const closeList = () => {
+    if (inList) {
+      html += "</ul>";
+      inList = false;
+    }
+  };
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line) {
+      closeList();
+      continue;
+    }
+    if (RT_ITEM.test(line)) {
+      if (!inList) {
+        html += '<ul class="rt-list">';
+        inList = true;
+      }
+      html += `<li>${esc(line)}</li>`;
+      continue;
+    }
+    closeList();
+    if (/[:：]\s*$/.test(line) && line.length <= 80) {
+      html += `<div class="rt-head">${esc(line)}</div>`;
+    } else {
+      html += `<p class="rt-p">${esc(line)}</p>`;
+    }
+  }
+  closeList();
+  return html;
+}
+
+export function bilingualRich(vi, jp) {
+  const vi_ = vi || "";
+  const jp_ = jp || vi || "";
+  return `<div class="explain-vi">${richText(vi_)}</div><div class="explain-jp">${richText(
+    jp_
+  )}</div>`;
+}
+
 export function escAttr(s) {
   return String(s)
     .replace(/&/g, "&amp;")

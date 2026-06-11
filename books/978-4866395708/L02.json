@@ -12,7 +12,7 @@
     {
       "type": "dialogue",
       "title": "💬 できますか? — Alex tới nhà 金子部長 (trang 22)",
-      "image": "images/L02/22_1.jpg",
+      "image": "books/978-4866395708/images/22_1.jpg",
       "imageAlt": "Minh hoạ trang 22 — Alex tới nhà sếp 金子部長, gặp 金子の妻 ở cửa và mắc một loạt lỗi keigo vui.",
       "imageCaption": "Minh hoạ trang 22 — cảnh Alex tới nhà 金子部長.",
       "scene": "アレックスさんは、上司の金子部長のうちへ行きます。日本人のうちへ行くのは初めてです。\n(Alex tới nhà sếp 金子部長. Đây là lần đầu Alex tới thăm nhà một người Nhật. Cảnh: cửa nhà sếp → trong phòng khách → ăn uống.)",
@@ -1385,7 +1385,7 @@
     {
       "type": "dialogue",
       "title": "✅ これでOK! — Phiên bản đúng cách (Track 1-8, trang 27)",
-      "image": "images/L02/27_1.png",
+      "image": "books/978-4866395708/images/27_1.png",
       "audio": "asset/audio/Track1-08.mp3",
       "audioLabel": "Track 1-8 — これでOK! 訪問する (phiên bản chuẩn)",
       "scene": "アレックスさんは、上司の金子部長のうちへ行きます。今度は敬語を正しく使います。\n(Alex tới nhà sếp 金子部長. Lần này Alex dùng kính ngữ đúng cách. So sánh với phiên bản sai ở trang 22.)",
@@ -1606,7 +1606,7 @@
         },
         {
           "num": "2",
-          "image": "images/L02/29_1.png",
+          "image": "books/978-4866395708/images/29_1.png",
           "imageAlt": "Minh hoạ trang 29 — bài tập チェックしましょう② câu 2",
           "context": "A:【①】！\nB: あ、アレックスさん、いらっしゃい。はじめまして。金子の妻です。\nA: はじめまして。アレックスです。\n　いつも【②】。\nB: どうぞ【③】。\nA: ありがとうございます。失礼します。\n　あの、【④】。\nB: まあ、ごていねいに恐れ入ります。",
           "context_vi": "A:【① câu gọi ở cửa】!\nB: À, anh Alex, mời vào. Rất hân hạnh. Tôi là vợ anh Kaneko.\nA: Hân hạnh. Tôi là Alex.\n　Anh nhà luôn【②…】.\nB: Mời anh【③ vào nhà】.\nA: Cảm ơn ạ. Xin phép ạ.\n　Dạ,【④ câu tặng quà】.\nB: Ồ, anh chu đáo quá, không dám ạ.",

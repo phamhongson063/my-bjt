@@ -10,7 +10,7 @@ Hướng dẫn cho Claude Code. Áp dụng cho mọi session.
 ## Cách làm việc
 - KHÔNG tự chạy preview / dev server để verify — user tự test.
 - Làm xong chỉ cần báo "đã đối ứng xong" kèm tóm tắt ngắn thay đổi & file đụng tới.
-- KHÔNG cắt ảnh minh hoạ `images/L{NN}/` và KHÔNG tô màu — **user tự làm**. Trong JSON chỉ trỏ đúng path chuẩn (`images/L{NN}/{trang}_{n}.{jpg|png}`) để user bỏ ảnh vào. Vẫn được crop scan `C2/` để **ĐỌC** chữ nhỏ khi soạn bài.
+- KHÔNG cắt ảnh minh hoạ `books/{bookId}/images/` và KHÔNG tô màu — **user tự làm**. Trong JSON chỉ trỏ đúng path chuẩn (`books/{bookId}/images/{trang}_{n}.{jpg|png}`, để THẲNG trong `images/`, KHÔNG thư mục con theo bài) để user bỏ ảnh vào. Vẫn được crop scan `C2/` để **ĐỌC** chữ nhỏ khi soạn bài.
 
 ## UI
 - Nút / điều khiển dùng ICON-ONLY (kèm `title` + `aria-label` cho a11y), KHÔNG thêm label chữ.
@@ -42,8 +42,8 @@ Chuẩn này chốt theo `books/978-4866395708/L02.json` + thư viện render c�
 
 ## Quy trình & asset
 - File: `books/{bookId}/L{NN}.json` (NN 2 chữ số). Đăng ký bài trong `books/{bookId}/index.json` (`id, order, title, titleVi, phase, chapter`). Đăng ký cuốn sách mới trong `library.json` ở gốc.
-- Ảnh: `images/L{NN}/{trang}_{n}.{jpg|png}`. Audio sách: `asset/audio/Track1-{NN}.mp3`.
-- **Đọc nội dung trang sách → luôn lấy ảnh scan trong thư mục `C2/`**, đặt tên `p_<NN>.{jpg|png}` (NN = số trang, vd `C2/p_36.jpg`). Khi cần đọc/đối chiếu 1 trang → mở đúng `C2/p_<NN>`. Gồm cả trang phụ lục: đáp án 答え (cuối sách, ~p.186–188+), ロールカード (A=`p_168`, B=`p_172`), 敬語動詞の表 (`p_176`). Chữ nhỏ/mờ → crop + phóng to (PIL) rồi Read lại cho chính xác, KHÔNG đoán. (Phân biệt: `images/L{NN}/` = ảnh minh hoạ render trong app; `C2/` = ảnh scan nguồn để đọc.)
+- Ảnh: `books/{bookId}/images/{trang}_{n}.{jpg|png}` — tất cả ảnh để THẲNG trong `images/` (không thư mục con theo bài); tên `{trang}_{n}` đã đủ định danh vì số trang là duy nhất trong cuốn. Ảnh chung (vd avatar `alex.jpg`) cũng nằm thẳng đây. Audio sách: `asset/audio/Track1-{NN}.mp3`.
+- **Đọc nội dung trang sách → luôn lấy ảnh scan trong thư mục `C2/`**, đặt tên `p_<NN>.{jpg|png}` (NN = số trang, vd `C2/p_36.jpg`). Khi cần đọc/đối chiếu 1 trang → mở đúng `C2/p_<NN>`. Gồm cả trang phụ lục: đáp án 答え (cuối sách, ~p.186–188+), ロールカード (A=`p_168`, B=`p_172`), 敬語動詞の表 (`p_176`). Chữ nhỏ/mờ → crop + phóng to (PIL) rồi Read lại cho chính xác, KHÔNG đoán. (Phân biệt: `books/{bookId}/images/` = ảnh minh hoạ render trong app; `C2/` = ảnh scan nguồn để đọc.)
 - Bám sách gốc (`新にほんご敬語トレーニング`, info ở `index.json`). **KHÔNG tự bịa** quiz / ví dụ / đáp án — chỉ số hoá đúng nội dung sách.
 - Phụ lục / 付録 / trang tổng kết → **nhúng vào đúng mục liên quan**, KHÔNG dump 1 cục hay tách bài riêng. (L02: bảng `敬語動詞の表` p176 đặt ngay sau mục ⑤; `会話例` p187 đặt dưới từng tình huống roleplay.)
 
@@ -93,7 +93,7 @@ Chuẩn này chốt theo `books/978-4866395708/L02.json` + thư viện render c�
   "jp": "召し上がります", "kana": "めしあがります", "vi": "Ăn/uống (sonkeigo)",
   "note": "...(VI, optional)", "note_jp": "...(JP, optional)",
   "exampleJp": "...", "exampleVi": "...",
-  "image": "images/L02/..(optional)", "audio": "..", "audioStart": 0, "audioEnd": 5
+  "image": "books/978-4866395708/images/22_1.jpg..(optional)", "audio": "..", "audioStart": 0, "audioEnd": 5
 }]}
 ```
 

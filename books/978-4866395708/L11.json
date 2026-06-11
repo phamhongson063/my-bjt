@@ -1,0 +1,608 @@
+{
+  "id": "L11",
+  "order": 11,
+  "title": "10課 サービスの敬語",
+  "titleVi": "Bài 10 — Kính ngữ ngành dịch vụ (nhà hàng / cửa hàng / quầy)",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 35,
+  "intro": "Bài 10 (10課) — Chương 2. Tình huống: Yun (ユン) làm thêm phục vụ ở một nhà hàng. Khách đặt bàn 11時半 (吉田様) tới, gọi món.\nỞ bản 「できますか?」, Yun nói được nhưng CHƯA đủ lịch sự kiểu phục vụ (接客敬語): dẫn chỗ xong bảo 「注文が決まったら、呼んでください」 (cộc), nhận order đáp 「わかりました」, báo món hết bằng 「夜のメニューで、昼はできないんですが」, hỏi đồ uống trống không 「お飲み物は？」 → đúng nghĩa nhưng nghe chưa được mềm mại như nhân viên nhà hàng nên làm.\nBài này học 5 mẫu kính ngữ dịch vụ (接客) — vừa cực lịch sự vừa ngắn gọn để dùng nhanh ngoài quầy.\n\n🎯 Mục tiêu — 5 mẫu (trang 95):\n① お/ご〜になりましたら — dạng 「〜たら」 của 「お/ご〜になります」 (sau khi quý khách…): お決まりになりましたら、お呼びください。\n② お/ご〜くださいませ — 「お/ご〜ください」 + ませ → cực lịch sự, hay gặp ở nhà hàng・ngân hàng・bách hoá: お一人1枚ずつお取りくださいませ。⚠️ Trong cùng 1 câu có khi dùng cả 尊敬語 + 謙譲語: ご質問がおありでしたら、お答えいたします。\n③ 短くした敬語の形 — keigo RÚT GỌN cho gọn lời ngoài quầy: お決まりでしたら（＝お決まりになっていましたら）／整理券をお持ちですか（＝お持ちになっていらっしゃいますか）.\n④ サービスでよく使われる表現 — cụm phục vụ hay dùng: お待たせしました（xin lỗi vì để chờ — kể cả khi không bắt chờ lâu）／かしこまりました（＝わかりました）／お飲み物はいかがいたしましょうか（＝どうしますか）.\n⑤ 「けっこうです」 — 2 sắc thái: はい、けっこうです（＝OKです, đồng ý）↔ もうけっこうです（＝もういりません, từ chối）. ⚠️ Dễ mơ hồ → tránh hỏi cụt 「これでけっこうでしょうか」.",
+  "intro_jp": "第2章 10課。ユンさんはレストランでアルバイト(接客)をしています。11時半に予約した吉田様が来て、注文します。\n「できますか?」では、ユンさんは話せますが、接客敬語としてはまだていねいさが足りません。「注文が決まったら、呼んでください」「わかりました」「昼はできないんですが」「お飲み物は?」のように、意味は通じても店員らしいやわらかい言い方ではありません。\nこの課で、サービス(接客)の敬語5つを学びます。ていねいで、しかも短く言える形です。\n\n🎯 学習項目(p.95):\n① お/ご〜になりましたら(「お/ご〜になります」の「〜たら」の形)\n② お/ご〜くださいませ(レストラン・銀行・デパートなどでの非常にていねいな言い方。⚠️同じ文の中で尊敬語と謙譲語を使うことがある)\n③ 短くした敬語の形(「お決まりでしたら」「整理券をお持ちですか」など)\n④ サービスでよく使われる表現(お待たせしました/かしこまりました/お飲み物はいかがいたしましょうか)\n⑤ 「けっこうです」(＝OKです ↔ ＝もういりません。⚠️意味があいまいになりやすい)",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — Yun phục vụ khách gọi món, nói được nhưng chưa đủ lịch sự kiểu nhà hàng (trang 94)",
+      "page": 94,
+      "image": "books/978-4866395708/images/94_1.jpg",
+      "imageAlt": "Minh hoạ trang 94 — Yun đứng cạnh bàn, một tay cầm sổ ghi order một tay cầm bút, đang nhận order từ ba vị khách ngồi quanh bàn (một người mở thực đơn menu).",
+      "imageCaption": "Minh hoạ trang 94 — Yun phục vụ bàn 3 khách, ghi order nhưng cách nói chưa đạt chuẩn接客敬語.",
+      "scene": "ユンさんがアルバイトをしているレストランに、お客さんが来ました。\n(Có khách tới nhà hàng nơi Yun làm thêm. Đây là cách phục vụ CHƯA đạt — Yun nói đúng nghĩa nhưng cộc, chưa mềm như nhân viên: 「呼んでください」「わかりました」「お飲み物は？」.)",
+      "lines": [
+        { "speaker": "ユン", "jp": "いらっしゃいませ。", "vi": "Kính chào quý khách ạ." },
+        { "speaker": "客", "jp": "11時半に予約した吉田ですが。", "vi": "Tôi là Yoshida, có đặt bàn lúc 11 giờ rưỡi." },
+        { "speaker": "ユン", "jp": "吉田様ですね。こちらへどうぞ……注文が決まったら、呼んでください。", "vi": "Quý khách là ngài Yoshida ạ. Mời đi lối này… Quyết món xong thì gọi tôi nhé. (⚠️ 「決まったら、呼んでください」 cộc, thiếu kính ngữ phục vụ)" },
+        { "speaker": "客", "jp": "はい。", "vi": "Vâng." },
+        { "speaker": "客", "jp": "すみません！注文、お願いします！", "vi": "Em ơi! Cho gọi món!" },
+        { "speaker": "ユン", "jp": "決まりましたか。", "vi": "Quý khách quyết món chưa ạ? (⚠️ 「決まりましたか」 cộc)" },
+        { "speaker": "客", "jp": "Aランチコース1つと、ステーキランチコース2つ、お願いします。", "vi": "Cho 1 set trưa A và 2 set bít tết trưa." },
+        { "speaker": "ユン", "jp": "わかりました。", "vi": "Vâng, được ạ. (⚠️ 「わかりました」 → nên là 「かしこまりました」)" },
+        { "speaker": "客", "jp": "スペシャルスープはありますか。", "vi": "Có súp đặc biệt không?" },
+        { "speaker": "ユン", "jp": "すみません、それは夜のメニューで、昼はできないんですが。ランチには、他のスープがつきます。", "vi": "Xin lỗi, cái đó là thực đơn buổi tối, buổi trưa không làm được ạ. Set trưa có kèm súp khác. (⚠️ 「できないんですが」 nghe phũ)" },
+        { "speaker": "客", "jp": "あ、そうですか。", "vi": "À, vậy à." },
+        { "speaker": "ユン", "jp": "すみません。ご注文はAランチコース1つと、ステーキランチコース2つですね。お飲み物は？", "vi": "Xin lỗi ạ. Quý khách gọi 1 set trưa A và 2 set bít tết trưa đúng không ạ. Đồ uống thì? (⚠️ 「お飲み物は？」 hỏi trống không)" },
+        { "speaker": "客", "jp": "特にいりません。", "vi": "Không cần gì đặc biệt đâu." },
+        { "speaker": "—", "jp": "ユンさんは、お客さんともっとていねいに話したいと思いました。", "vi": "Yun thấy mình nên nói chuyện với khách lịch sự hơn nữa." }
+      ],
+      "vocabHighlight": [
+        "「決まったら、呼んでください」 (cộc) → 「お決まりになりましたら、お呼びくださいませ」 (①②)",
+        "「決まりましたか」 → 「お決まりですか」 (③ keigo rút gọn)",
+        "「わかりました」 → 「かしこまりました」 (④)",
+        "「できないんですが」 → 「申し訳ございません…ただいま準備中でございまして」",
+        "「お飲み物は？」 → 「お飲み物はいかがいたしましょうか」 (④)"
+      ],
+      "note": "Cảnh dẫn vào Bài 10: kính ngữ phục vụ (接客敬語). Yun nói đúng nghĩa nhưng cộc ở 4 chỗ: dẫn chỗ・hỏi quyết món・nhận order・hỏi đồ uống. 5 mẫu ①〜⑤ bên dưới dạy cách mềm hoá; bản chuẩn xem ở 「これでOK!」 (trang 97).",
+      "note_jp": "この課では、サービス(接客)の敬語を勉強します。ユンさんは意味は通じますが、案内・確認・注文・飲み物のところでまだぶっきらぼうです。①〜⑤でていねいな言い方を学び、正しい会話は「これでOK!」(p.97)で確認します。"
+    },
+    {
+      "type": "grammar",
+      "title": "🔔 ① 「お/ご〜になりましたら」 — Sau khi quý khách… (trang 95)",
+      "page": 95,
+      "items": [
+        {
+          "pattern": "お + [Vます] + になりましたら ／ ご + [漢語] + になりましたら",
+          "patternVi": "Dạng 「〜たら」 (sau khi / nếu đã…) của sonkeigo 「お/ご〜になります」. Diễn tả 'sau khi quý khách (làm xong)…'.",
+          "explanation": "Lấy mẫu sonkeigo 「お/ご〜になります」 rồi chia sang thể điều kiện 「〜たら」 → 「お/ご〜になりましたら」: sau khi / một khi quý khách (làm xong)… Hay đi cùng một yêu cầu lịch sự ở vế sau (お呼びください…).",
+          "explanation_jp": "尊敬語「お/ご〜になります」を「〜たら」の形にしたものです。「お/ご〜になりましたら」＝相手が「〜したら/〜し終わったら」。後ろにていねいなお願い(お呼びください など)が続くことが多いです。",
+          "examples": [
+            { "jp": "お決まりになりましたら、お呼びください。", "vi": "Sau khi quý khách quyết món xong thì xin gọi cho tôi ạ." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🙏 ② 「お/ご〜くださいませ」 — Xin quý khách… (cực lịch sự) (trang 95)",
+      "page": 95,
+      "items": [
+        {
+          "pattern": "お + [Vます] + くださいませ ／ ご + [漢語] + くださいませ",
+          "patternVi": "「お/ご〜ください」 + 「ませ」 → mức cực lịch sự, mềm. Hay dùng ở nhà hàng・ngân hàng・bách hoá.",
+          "explanation": "Khi nhờ khách làm gì một cách thật lịch sự, thêm 「ませ」 vào sau 「お/ご〜ください」 → 「お/ご〜くださいませ」. Đây là cách nói thường gặp ở レストラン・銀行・デパート… (môi trường phục vụ).",
+          "explanation_jp": "ていねいにお願いするとき、「お/ご〜ください」に「ませ」をつけて「お/ご〜くださいませ」にします。レストランや銀行、デパートなどでよく使われる言い方です。",
+          "warning": "⚠️ Trong CÙNG MỘT câu, đôi khi dùng cả 尊敬語 (về việc của khách) lẫn 謙譲語 (về việc của mình) — không sai, đó là chuyện bình thường khi phục vụ. VD: ご質問がおありでしたら(尊敬), お答えいたします(謙譲).",
+          "warning_jp": "⚠️ 同じ文の中で、尊敬語(相手のこと)と謙譲語(自分のこと)を一緒に使うことがあるので注意。例:ご質問がおありでしたら(尊敬)、お答えいたします(謙譲)。",
+          "examples": [
+            { "jp": "お一人1枚ずつお取りくださいませ。", "vi": "Xin mỗi quý khách lấy một tờ ạ." },
+            { "jp": "何かありましたら、ご相談くださいませ。", "vi": "Nếu có việc gì xin cứ trao đổi với tôi ạ." },
+            { "jp": "ご質問がおありでしたら、お答えいたします。", "vi": "Nếu quý khách có câu hỏi, tôi xin được giải đáp ạ. (尊敬 おあり + 謙譲 お答えいたします)" },
+            { "jp": "お困りでしたら、お手伝いいたします。", "vi": "Nếu quý khách gặp khó, tôi xin được giúp ạ. (尊敬 お困り + 謙譲 お手伝いいたします)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "✂️ ③ 短くした敬語の形 — Keigo RÚT GỌN cho gọn lời ngoài quầy (trang 95)",
+      "page": 95,
+      "items": [
+        {
+          "pattern": "お/ご〜になっていらっしゃいます → お/ご〜です／お/ご〜の[N]",
+          "patternVi": "Dạng kính ngữ dài (お〜になっていらっしゃる) được RÚT GỌN lại cho gọn, dùng nhanh trong phục vụ. Nghĩa không đổi.",
+          "explanation": "Ngoài quầy cần nói nhanh, nên dạng kính ngữ dài hay được rút gọn: 「お決まりになっていましたら」→「お決まりでしたら」; 「お並びになっている方」→「お並びの方」; 「お持ちになっていらっしゃいますか」→「お持ちですか」. Ý nghĩa và độ lịch sự giữ nguyên, chỉ gọn hơn.",
+          "explanation_jp": "接客では短く言うことが多いので、長い敬語を短くします。「お決まりになっていましたら」→「お決まりでしたら」、「お並びになっている方」→「お並びの方」、「お持ちになっていらっしゃいますか」→「お持ちですか」。意味とていねいさはそのままです。",
+          "examples": [
+            { "jp": "お決まりでしたら、伺います。", "vi": "Nếu quý khách đã quyết món, tôi xin nghe ạ. (＝お決まりになっていましたら)" },
+            { "jp": "ご予約をご希望なら、こちらで承ります。", "vi": "Nếu quý khách muốn đặt chỗ, bên tôi xin tiếp nhận ạ. (＝ご希望になるなら)" },
+            { "jp": "先にお並びの方から順にお入りください。", "vi": "Mời theo thứ tự, quý khách xếp hàng trước vào trước ạ. (＝お並びになっている方)" },
+            { "jp": "整理券をお持ちですか。", "vi": "Quý khách có cầm phiếu số thứ tự không ạ? (＝お持ちになっていらっしゃいますか)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🍽️ ④ サービスでよく使われる表現 — Cụm phục vụ hay dùng (trang 95)",
+      "page": 95,
+      "items": [
+        {
+          "pattern": "お待たせしました。／ かしこまりました。／ お飲み物はいかがいたしましょうか。",
+          "patternVi": "3 cụm 'đóng đinh' trong nghề phục vụ — thuộc lòng để dùng ngay.",
+          "explanation": "「お待たせしました」＝câu xin lỗi vì để quý khách phải chờ; ⚠️ ngay cả khi KHÔNG bắt khách chờ lâu cũng hay nói (như một câu mở lời lịch sự). 「かしこまりました」＝「わかりました」 (đã rõ — dạng phục vụ). 「お飲み物はいかがいたしましょうか」＝「どうしますか」 nhưng cực lịch sự (quý khách dùng đồ uống gì ạ).",
+          "explanation_jp": "「お待たせしました」＝相手を待たせたことを謝ることば。⚠️実際には待たせていなくても使うことが多いです。「かしこまりました」＝「わかりました」。「お飲み物はいかがいたしましょうか」＝「どうしますか」のていねいな言い方。",
+          "examples": [
+            { "jp": "お待たせしました。", "vi": "Xin lỗi đã để quý khách chờ ạ. (kể cả khi không bắt chờ lâu vẫn dùng)" },
+            { "jp": "かしこまりました。", "vi": "Em đã rõ ạ. (＝わかりました)" },
+            { "jp": "お飲み物はいかがいたしましょうか。", "vi": "Quý khách dùng đồ uống gì ạ? (＝どうしますか)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🆗 ⑤ 「けっこうです」 — 2 sắc thái: OK ↔ Thôi đủ rồi (trang 95)",
+      "page": 95,
+      "items": [
+        {
+          "pattern": "（はい、）けっこうです。 ＝ OKです ／ （もう）けっこうです。 ＝ もういりません",
+          "patternVi": "「けっこうです」 có 2 nghĩa ngược nhau tuỳ ngữ cảnh: ĐỒNG Ý (được, ổn) hoặc TỪ CHỐI (thôi, đủ rồi, không cần nữa).",
+          "explanation": "Cùng 「けっこうです」 nhưng: khi xác nhận 'thế này ổn chứ?' → 「はい、けっこうです」＝「OKです」 (đồng ý). Khi được mời thêm → 「（もう）けっこうです」＝「もういりません」 (từ chối khéo). ⚠️ Vì hai nghĩa trái ngược nên câu hỏi cụt 「これでけっこうでしょうか」 dễ gây mơ hồ — nên hỏi rõ hơn (例: ご注文は以上でよろしいでしょうか).",
+          "explanation_jp": "同じ「けっこうです」でも、確認の答えなら「はい、けっこうです」＝「OKです」(承諾)、勧められたときの「(もう)けっこうです」＝「もういりません」(断り)になります。⚠️意味が逆になるので、「これでけっこうでしょうか」のような聞き方はあいまいになりやすいです。",
+          "examples": [
+            { "jp": "A：ご注文は以上でよろしいでしょうか。 B：はい、けっこうです。", "vi": "A: Quý khách gọi vậy là đủ ạ? B: Vâng, vậy được rồi. (＝OKです, đồng ý)" },
+            { "jp": "A：お酒、もう少しいかがですか。 B：いいえ、もうけっこうです。", "vi": "A: Quý khách dùng thêm chút rượu nữa nhé? B: Thôi, tôi đủ rồi ạ. (＝もういりません, từ chối)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習① 「お/ご〜でしたら、〜いたします」 (Track 2-01, trang 96)",
+      "page": 96,
+      "audio": "asset/audio/Track2-01.mp3",
+      "audioLabel": "Track 2-01 — 練習①",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。例のように言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Theo mẫu: 〈trạng thái của KHÁCH〉 → 「お/ご〜でしたら」 (尊敬, vế khách) + 〈việc của MÌNH〉 → 「〜いたします／まいります」 (謙譲, vế mình). Đáp án → trang 197.",
+      "note": "Vế khách dùng 尊敬語 rút gọn (お急ぎでしたら…), vế mình dùng 謙譲語 (お送りいたします・まいります・ご準備いたします). Đáp án theo trang 197 (Track 2-01).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "〈相手が〉困っています ＋ 〈私が〉手伝います",
+          "context_vi": "(cue) khách đang lúng túng + mình giúp",
+          "answer": "お困りでしたら、お手伝いいたします。",
+          "answer_vi": "困っている → お困りでしたら (尊敬); 手伝う → お手伝いいたします (謙譲)."
+        },
+        {
+          "num": "1",
+          "context": "〈相手が〉急いでいます ＋ 〈私が〉すぐに送ります",
+          "context_vi": "(cue) khách đang vội + mình gửi ngay",
+          "answer": "お急ぎでしたら、すぐにお送りいたします。",
+          "answer_vi": "急いでいる → お急ぎでしたら; 送る → お送りいたします."
+        },
+        {
+          "num": "2",
+          "context": "〈相手が〉疲れています ＋ 〈私が〉代理で東洋映画に行きます",
+          "context_vi": "(cue) khách đang mệt + mình đi thay tới Toyo Eiga",
+          "answer": "お疲れでしたら、代理で東洋映画にまいります。",
+          "answer_vi": "疲れている → お疲れでしたら; 行く → まいります (謙譲)."
+        },
+        {
+          "num": "3",
+          "context": "〈相手が〉インターネットの使用を希望しています ＋ 〈私が〉準備します",
+          "context_vi": "(cue) khách muốn dùng internet + mình chuẩn bị",
+          "answer": "インターネットのご使用をご希望なら、ご準備いたします。",
+          "answer_vi": "使用を希望する → ご使用をご希望なら (漢語 → ご); 準備する → ご準備いたします."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習② 短くした敬語を使って言ってみましょう (Track 2-02, trang 96)",
+      "page": 96,
+      "audio": "asset/audio/Track2-02.mp3",
+      "audioLabel": "Track 2-02 — 練習②",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。短くした敬語を使って言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Rút gọn kính ngữ dài: 「〜ていらっしゃる/〜になっていらっしゃる」 → 「お/ご〜の[N]」 hoặc 「お持ちです」. Đáp án → trang 197.",
+      "note": "💡 着ている → お召しになっている → お召しの (着る của 尊敬 là 召す). 持っていらっしゃる → お持ちの. Đáp án theo trang 197 (Track 2-02).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "先生が読んでいらっしゃる本",
+          "context_vi": "(cue) cuốn sách thầy đang đọc",
+          "answer": "先生がお読みの本",
+          "answer_vi": "読んでいらっしゃる → お読みの."
+        },
+        {
+          "num": "1",
+          "context": "先生が使っていらっしゃる辞書",
+          "context_vi": "(cue) cuốn từ điển thầy đang dùng",
+          "answer": "先生がお使いの辞書",
+          "answer_vi": "使っていらっしゃる → お使いの."
+        },
+        {
+          "num": "2",
+          "context": "先生が着ている服",
+          "context_vi": "(cue) bộ đồ thầy đang mặc (💡 着る → 召す)",
+          "answer": "先生がお召しの服",
+          "answer_vi": "着ている → お召しになっている → お召しの."
+        },
+        {
+          "num": "3",
+          "context": "入場券をお持ちになっていらっしゃるお客様からお入りください。",
+          "context_vi": "(cue) quý khách đã cầm vé vào cửa thì mời vào trước",
+          "answer": "入場券をお持ちのお客様からお入りください。",
+          "answer_vi": "お持ちになっていらっしゃる → お持ちの."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習③ 「〜くださいませ」 を使って言ってみましょう (Track 2-03, trang 96)",
+      "page": 96,
+      "audio": "asset/audio/Track2-03.mp3",
+      "audioLabel": "Track 2-03 — 練習③",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。「〜くださいませ」を使って言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Đổi 「〜てください」 sang dạng phục vụ cực lịch sự 「お/ご〜くださいませ」 (②). Đáp án → trang 197.",
+      "note": "💡 1) 少し → 少々; 3) 好きなもの → お好きなもの (改まった). 和語 Vて → お〜くださいませ; 漢語して → ご〜くださいませ. Đáp án theo trang 197 (Track 2-03).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "相談してください。",
+          "context_vi": "(cue) hãy trao đổi/hỏi ý",
+          "answer": "ご相談くださいませ。",
+          "answer_vi": "相談する (漢語) → ご相談くださいませ."
+        },
+        {
+          "num": "1",
+          "context": "少し待ってください。",
+          "context_vi": "(cue) đợi một chút (💡 少し → 少々)",
+          "answer": "少々お待ちくださいませ。",
+          "answer_vi": "少し → 少々; 待つ → お待ちくださいませ."
+        },
+        {
+          "num": "2",
+          "context": "至急連絡してください。",
+          "context_vi": "(cue) liên lạc gấp giúp",
+          "answer": "至急ご連絡くださいませ。",
+          "answer_vi": "連絡する (漢語) → ご連絡くださいませ."
+        },
+        {
+          "num": "3",
+          "context": "好きなものを選んでください。",
+          "context_vi": "(cue) chọn món mình thích (💡 好きな → お好きな)",
+          "answer": "お好きなものをお選びくださいませ。",
+          "answer_vi": "好きなもの → お好きなもの; 選ぶ → お選びくださいませ."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習④ 「いかがいたしましょうか」 を使って言ってみましょう (Track 2-04, trang 96)",
+      "page": 96,
+      "audio": "asset/audio/Track2-04.mp3",
+      "audioLabel": "Track 2-04 — 練習④",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。「いかがいたしましょうか」を使って言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Đổi 「〜はどうしますか」 sang dạng cực lịch sự 「〜はいかがいたしましょうか」 (④). Đáp án → trang 197.",
+      "note": "「どうしますか」 → 「いかがいたしましょうか」 (いかが＝どう, いたす＝謙譲 của する). Đáp án theo trang 197 (Track 2-04).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "来週の会議の資料はどうしますか。",
+          "context_vi": "(cue) tài liệu cuộc họp tuần sau làm thế nào?",
+          "answer": "来週の会議の資料はいかがいたしましょうか。",
+          "answer_vi": "どうしますか → いかがいたしましょうか."
+        },
+        {
+          "num": "1",
+          "context": "出張のスケジュールはどうしますか。",
+          "context_vi": "(cue) lịch công tác làm thế nào?",
+          "answer": "出張のスケジュールはいかがいたしましょうか。",
+          "answer_vi": "どうしますか → いかがいたしましょうか."
+        },
+        {
+          "num": "2",
+          "context": "パーティーのプログラムはどうしますか。",
+          "context_vi": "(cue) chương trình buổi tiệc làm thế nào?",
+          "answer": "パーティーのプログラムはいかがいたしましょうか。",
+          "answer_vi": "どうしますか → いかがいたしましょうか."
+        },
+        {
+          "num": "3",
+          "context": "宴会の料理はどうしますか。",
+          "context_vi": "(cue) món ăn buổi tiệc làm thế nào?",
+          "answer": "宴会の料理はいかがいたしましょうか。",
+          "answer_vi": "どうしますか → いかがいたしましょうか."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — Yun phục vụ bằng kính ngữ dịch vụ trọn vẹn, mềm mại (Track 2-05, trang 97)",
+      "page": 97,
+      "image": "books/978-4866395708/images/97_1.jpg",
+      "imageAlt": "Minh hoạ trang 97 — Cùng cảnh bàn ăn, Yun tươi cười phục vụ, ba vị khách vui vẻ, không khí dễ chịu hơn.",
+      "imageCaption": "Minh hoạ trang 97 — Lần này Yun phục vụ rành mạch, mềm mại bằng kính ngữ dịch vụ.",
+      "audio": "asset/audio/Track2-05.mp3",
+      "audioLabel": "Track 2-05 — これでOK!",
+      "scene": "Bản ĐÚNG: Yun dẫn chỗ 「お決まりになりましたら、お呼びくださいませ」 (①②), nhận order 「かしこまりました」 (④), báo món hết khéo 「申し訳ございません…ただいま準備中でございまして」, xác nhận lại 「ご注文を確認させていただきます」, hỏi đồ uống 「いかがいたしましょうか」 (④), chốt 「承知いたしました。では少々お待ちくださいませ」.",
+      "lines": [
+        { "speaker": "ユン", "jp": "いらっしゃいませ。", "vi": "Kính chào quý khách ạ." },
+        { "speaker": "客", "jp": "11時半に予約した吉田ですが。", "vi": "Tôi là Yoshida, có đặt bàn lúc 11 giờ rưỡi." },
+        { "speaker": "ユン", "jp": "吉田様ですね。こちらへどうぞ。……ご注文がお決まりになりましたら、お呼びくださいませ。", "vi": "Quý khách là ngài Yoshida ạ. Mời đi lối này. …Sau khi quý khách quyết món xong, xin gọi cho tôi ạ. (① お決まりになりましたら + ② お呼びくださいませ)" },
+        { "speaker": "客", "jp": "はい。", "vi": "Vâng." },
+        { "speaker": "客", "jp": "すみません！注文、お願いします！", "vi": "Em ơi! Cho gọi món!" },
+        { "speaker": "ユン", "jp": "お決まりですか。", "vi": "Quý khách đã quyết món chưa ạ? (③ keigo rút gọn của お決まりになっていますか)" },
+        { "speaker": "客", "jp": "はい。Aランチコース1つと、ステーキランチコース2つ、お願いします。", "vi": "Rồi. Cho 1 set trưa A và 2 set bít tết trưa." },
+        { "speaker": "ユン", "jp": "かしこまりました。", "vi": "Em đã rõ ạ. (④ かしこまりました ＝わかりました)" },
+        { "speaker": "客", "jp": "スペシャルスープはありますか。", "vi": "Có súp đặc biệt không?" },
+        { "speaker": "ユン", "jp": "申し訳ございません。それは夜のメニューなので、ただいま準備中でございまして……。ランチには他のスープがついております。", "vi": "Em thành thật xin lỗi ạ. Cái đó là thực đơn buổi tối nên hiện giờ chưa chuẩn bị ạ… Set trưa có kèm súp khác ạ. (申し訳ございません + 準備中でございまして + ついております)" },
+        { "speaker": "客", "jp": "あ、そうですか。わかりました。スープがあるならいいですね。", "vi": "À, vậy à. Hiểu rồi. Có súp là được rồi." },
+        { "speaker": "ユン", "jp": "すみません。ご注文を確認させていただきます。Aランチコース1つと、ステーキランチコース2つですね。", "vi": "Xin phép quý khách ạ. Em xin xác nhận lại đơn gọi. 1 set trưa A và 2 set bít tết trưa, đúng không ạ. (確認させていただきます)" },
+        { "speaker": "客", "jp": "はい。", "vi": "Đúng rồi." },
+        { "speaker": "ユン", "jp": "お飲み物はいかがいたしましょうか。", "vi": "Quý khách dùng đồ uống gì ạ? (④ いかがいたしましょうか)" },
+        { "speaker": "客", "jp": "特にいりません。", "vi": "Không cần gì đặc biệt đâu." },
+        { "speaker": "ユン", "jp": "承知いたしました。では少々お待ちくださいませ。", "vi": "Em đã rõ ạ. Vậy xin quý khách đợi một chút ạ. (承知いたしました + 少々お待ちくださいませ)" },
+        { "speaker": "—", "jp": "ユンさんは、敬語でていねいに話すことができました。", "vi": "Yun đã nói chuyện lịch sự được bằng kính ngữ." }
+      ],
+      "vocabHighlight": [
+        "ご注文がお決まりになりましたら、お呼びくださいませ — ①②",
+        "お決まりですか — ③ keigo rút gọn",
+        "かしこまりました — ④ ＝わかりました",
+        "申し訳ございません…準備中でございまして…ついております — báo món hết một cách khéo",
+        "ご注文を確認させていただきます — xác nhận lại đơn",
+        "お飲み物はいかがいたしましょうか — ④",
+        "承知いたしました。では少々お待ちくださいませ — chốt phục vụ"
+      ],
+      "note": "So với bản 「できますか?」 (p.94): Yun (1) dẫn chỗ bằng ①②; (2) đáp 「かしこまりました」 thay 「わかりました」; (3) báo món hết khéo 「申し訳ございません…準備中でございまして」 thay 「できないんですが」; (4) xác nhận lại đơn; (5) hỏi đồ uống bằng 「いかがいたしましょうか」; (6) chốt 「承知いたしました。では少々お待ちくださいませ」. Bảng đối chiếu ở mục kế tiếp.",
+      "note_jp": "p.94「できますか?」と比べて、ユンさんは(1)①②で案内し、(2)「わかりました」ではなく「かしこまりました」、(3)「できないんですが」ではなく「申し訳ございません…準備中でございまして」、(4)注文を確認し、(5)「いかがいたしましょうか」で飲み物を聞き、(6)「承知いたしました。では少々お待ちくださいませ」で締めました。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh できますか → これでOK (p.94 ↔ p.97)",
+      "intro": "Bảng TỔNG HỢP đối chiếu cách phục vụ CHƯA đạt (p.94 「できますか?」) ↔ cách ĐÚNG (p.97 「これでOK!」), map theo các mẫu ①〜⑤. Gom từ 2 hội thoại phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.94「できますか?」とp.97「これでOK!」を①〜⑤で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "Tình huống",
+        "sonkeigo": "✗ p.94 (できますか)",
+        "kenjougo": "✓ p.97 (これでOK)"
+      },
+      "rows": [
+        {
+          "plain": "席へ案内",
+          "plainVi": "dẫn chỗ / hẹn gọi món",
+          "sonkeigo": "注文が決まったら、呼んでください。",
+          "kenjougo": "ご注文がお決まりになりましたら、お呼びくださいませ。(①②)"
+        },
+        {
+          "plain": "注文を確かめる",
+          "plainVi": "hỏi đã quyết món chưa",
+          "sonkeigo": "決まりましたか。",
+          "kenjougo": "お決まりですか。(③)"
+        },
+        {
+          "plain": "了解する",
+          "plainVi": "nhận order / đồng ý",
+          "sonkeigo": "わかりました。",
+          "kenjougo": "かしこまりました。(④)"
+        },
+        {
+          "plain": "ない物を伝える",
+          "plainVi": "báo món không có",
+          "sonkeigo": "夜のメニューで、昼はできないんですが。",
+          "kenjougo": "申し訳ございません…ただいま準備中でございまして…ついております。"
+        },
+        {
+          "plain": "注文の確認",
+          "plainVi": "xác nhận lại đơn",
+          "sonkeigo": "(確認せず)",
+          "kenjougo": "ご注文を確認させていただきます。"
+        },
+        {
+          "plain": "飲み物を聞く",
+          "plainVi": "hỏi đồ uống",
+          "sonkeigo": "お飲み物は？",
+          "kenjougo": "お飲み物はいかがいたしましょうか。(④)"
+        },
+        {
+          "plain": "締め",
+          "plainVi": "chốt lại",
+          "sonkeigo": "(なし)",
+          "kenjougo": "承知いたしました。では少々お待ちくださいませ。"
+        }
+      ],
+      "note": "Điểm cốt lõi: kính ngữ dịch vụ vừa CỰC LỊCH SỰ (お/ご〜くださいませ・申し訳ございません) vừa NGẮN GỌN dễ nói nhanh (お決まりですか・お持ちですか). Trong một câu có thể dùng cả 尊敬語 + 謙譲語.",
+      "note_jp": "ポイント:接客敬語は、非常にていねいに(お/ご〜くださいませ・申し訳ございません)、しかも短く言える(お決まりですか・お持ちですか)。一文の中に尊敬語と謙譲語が一緒に出ることもある。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — 正しい敬語を選ぶ (trang 98)",
+      "page": 98,
+      "instruction": "正しいものを【　】から選びましょう。",
+      "instruction_vi": "Chọn dạng kính ngữ ĐÚNG trong 【　】. Mẹo: việc của KHÁCH → 尊敬語; việc của MÌNH (phục vụ) → 謙譲語; 漢語 đi với ご (không phải お). Đáp án → trang 197.",
+      "note": "Đáp án (p.197): 1)b 2)a 3)b 4)c 5)c.",
+      "items": [
+        {
+          "num": "1",
+          "context": "ご質問がおありでしたら、【？】。",
+          "context_vi": "Nếu quý khách có câu hỏi, (tôi sẽ) trả lời ạ. → việc của MÌNH → 謙譲語",
+          "options": ["お答えになります", "お答えします", "答えてあげます"],
+          "answerIndex": 1,
+          "answer_vi": "Mình trả lời → 謙譲語 お答えします. (お答えになります＝尊敬, sai vế; 答えてあげます nghe trịch thượng)."
+        },
+        {
+          "num": "2",
+          "context": "お電話くださったら、【？】。",
+          "context_vi": "Nếu quý khách gọi điện, (tôi sẽ) tới ạ. → MÌNH đi → 謙譲語 của 行く/来る",
+          "options": ["まいります", "いらっしゃいます", "いかれます"],
+          "answerIndex": 0,
+          "answer_vi": "Mình tới → 謙譲語 まいります. (いらっしゃいます/いかれます＝尊敬, dùng cho khách → sai vế)."
+        },
+        {
+          "num": "3",
+          "context": "ご連絡くださったら、必要なものを【？】。",
+          "context_vi": "Nếu quý khách liên lạc, (tôi sẽ) chuẩn bị thứ cần thiết ạ. → MÌNH chuẩn bị → 謙譲語",
+          "options": ["準備なさいます", "ご準備いたします", "お準備します"],
+          "answerIndex": 1,
+          "answer_vi": "Mình chuẩn bị → ご準備いたします (漢語→ご). (準備なさいます＝尊敬, sai vế; お準備します sai prefix — 漢語 đi với ご)."
+        },
+        {
+          "num": "4",
+          "context": "【？】申し訳ありませんでした。電車が遅れたものですから。",
+          "context_vi": "(Tôi) đã để quý khách phải chờ, thành thật xin lỗi ạ. Vì tàu bị trễ.",
+          "options": ["お待たせさせて", "お待ちして", "お待たせして"],
+          "answerIndex": 2,
+          "answer_vi": "Để KHÁCH chờ → 待たせる → お待たせして. (お待たせさせて thừa 使役; お待ちして＝mình chờ, sai nghĩa)."
+        },
+        {
+          "num": "5",
+          "context": "A：コーヒーとサンドイッチをお願いします。 B：はい、【？】。",
+          "context_vi": "A: Cho tôi cà phê và sandwich. B: Vâng, em đã rõ ạ.",
+          "options": ["かまりこりました", "かこしまりました", "かしこまりました"],
+          "answerIndex": 2,
+          "answer_vi": "Dạng đúng là かしこまりました (＝わかりました). Hai phương án kia là biến thể sai chính tả."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "style": "speak",
+      "title": "🗣️ スタイルを変えてみましょう — お客さんに（敬語）↔ 友達 (Track 2-06, trang 98)",
+      "page": 98,
+      "image": "books/978-4866395708/images/98_1.jpg",
+      "imageAlt": "Minh hoạ trang 98 — Hai người đàn ông mặc vest ngồi trên tàu điện, một người đang nói điện thoại lấy tay che miệng (đang di chuyển / bận).",
+      "imageCaption": "Minh hoạ trang 98 — Đang trên tàu / di chuyển (移動中) — tình huống bận, phải từ chối hoặc hoãn lịch sự.",
+      "audio": "asset/audio/Track2-06.mp3",
+      "audioLabel": "Track 2-06 — スタイルを変えてみましょう",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Từ câu 「すみませんが、今〜しています」, nói lại 2 phong cách: (1) 敬語 — 「恐縮ですが、ただいま〜中でございまして……／〜しておりまして……」; (2) 友達 — 「ごめん。今、〜してるんだ」. Đáp án → trang 197–198.",
+      "note": "💡 Danh-từ-hoá được (食事・移動・準備) → 「〜中でございまして」; động tác kéo dài (会議をする・出張する) → 「〜しておりまして」. すみませんが → 恐縮ですが (改まった). Đáp án theo trang 197–198 (Track 2-06).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "すみませんが、今準備しています。",
+          "context_vi": "(cue) xin lỗi, giờ tôi đang chuẩn bị",
+          "subAnswers": [
+            { "num": "敬語", "answer": "恐縮ですが、ただいま、準備中でございまして……。", "answer_vi": "準備している → ただいま準備中でございまして." },
+            { "num": "友達", "answer": "ごめん。今、準備してるんだ。", "answer_vi": "〜してるんだ." }
+          ]
+        },
+        {
+          "num": "1",
+          "context": "すみませんが、今食事しています。",
+          "context_vi": "(cue) xin lỗi, giờ tôi đang ăn",
+          "audioStart": 18,
+          "subAnswers": [
+            { "num": "敬語", "answer": "恐縮ですが、ただいま食事中でございまして……。", "answer_vi": "食事している → ただいま食事中でございまして." },
+            { "num": "友達", "answer": "ごめん。今、食事してるんだ。", "answer_vi": "〜してるんだ." }
+          ]
+        },
+        {
+          "num": "2",
+          "context": "すみませんが、4時まで会議をしています。",
+          "context_vi": "(cue) xin lỗi, tôi họp tới 4 giờ",
+          "audioStart": 35,
+          "subAnswers": [
+            { "num": "敬語", "answer": "恐縮ですが、4時まで会議をしておりまして……。", "answer_vi": "会議をしている → 会議をしておりまして (おる＝謙譲 của いる)." },
+            { "num": "友達", "answer": "ごめん。4時まで会議をしてるんだ。", "answer_vi": "〜してるんだ." }
+          ]
+        },
+        {
+          "num": "3",
+          "context": "すみませんが、来週は大阪に出張しています。",
+          "context_vi": "(cue) xin lỗi, tuần sau tôi đi công tác Osaka",
+          "audioStart": 53,
+          "subAnswers": [
+            { "num": "敬語", "answer": "恐縮ですが、来週は大阪に出張しておりまして……。", "answer_vi": "出張している → 出張しておりまして." },
+            { "num": "友達", "answer": "ごめん。来週は大阪に出張するんだ。", "answer_vi": "(việc tương lai) → 出張するんだ." }
+          ]
+        },
+        {
+          "num": "4",
+          "context": "すみませんが、今電車で移動しています。",
+          "context_vi": "(cue) xin lỗi, giờ tôi đang di chuyển trên tàu",
+          "audioStart": 72,
+          "subAnswers": [
+            { "num": "敬語", "answer": "恐縮ですが、ただいま電車で移動中でございまして……。", "answer_vi": "移動している → ただいま移動中でございまして." },
+            { "num": "友達", "answer": "ごめん。今、電車で移動してるんだ。", "answer_vi": "〜してるんだ." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎭 やってみましょう — 日本料理店で接客する（店員 ↔ 客）(trang 99)",
+      "page": 99,
+      "intro": "Hoạt động NÓI theo cặp: một người là NHÂN VIÊN nhà hàng món Nhật (A, role card p.170), một người là KHÁCH tới ăn cùng bạn (B, role card p.174). Vận dụng cả 5 mẫu của bài + cụm phục vụ.\nTự học một mình? Đọc cả hai thẻ rồi tự dựng hội thoại cho từng vai; bấm 🔊 nghe, rồi mở 「📖 Xem hội thoại mẫu」 (会話の例) để đối chiếu.\n👉 Thẻ vai: A → trang 170; B → trang 174.",
+      "intro_jp": "ペアで「日本料理店で接客する」練習です。A=店員(p.170)、B=お客さん(p.174)。この課の①〜⑤と接客表現を使います。\nロールカード:A=p.170、B=p.174。会話の例(Track 2-07)で確認できます。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう — 日本料理店で席を案内し、注文を取る",
+          "title_vi": "Dẫn chỗ và nhận order ở nhà hàng món Nhật (nhân viên ↔ khách đi 2 người)",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "日本料理店の店員",
+              "who_vi": "Bạn là nhân viên nhà hàng món Nhật (thẻ vai trang 170)",
+              "ref": "ロールカード p.170",
+              "jp": "あなたは日本料理店の店員です。お客さんが来たら、たたみの部屋がいいか、いすの席がいいか聞いてください。お客さんが座ったら、食べ物と飲み物の注文を取ってください。",
+              "vi": "Bạn là nhân viên nhà hàng món Nhật. Khi khách tới, hãy hỏi quý khách muốn phòng chiếu tatami hay bàn ghế ngồi. Khi khách ngồi xong, hãy nhận order đồ ăn và đồ uống."
+            },
+            {
+              "side": "B",
+              "who_jp": "お客さん（友達と二人）",
+              "who_vi": "Bạn là khách đi cùng bạn (thẻ vai trang 174)",
+              "ref": "ロールカード p.174",
+              "jp": "あなたは友達と二人で日本料理店に来ました。席を選んで、注文してください。注文はさしみ定食と茶わん蒸しです。",
+              "vi": "Bạn cùng một người bạn (2 người) tới nhà hàng món Nhật. Hãy chọn chỗ ngồi và gọi món. Order là set sashimi (さしみ定食) và trứng hấp chén (茶わん蒸し)."
+            }
+          ],
+          "hints": [
+            { "jp": "いらっしゃいませ。〜様でいらっしゃいますね。お待ちしておりました。", "vi": "(A) đón khách + xác nhận tên" },
+            { "jp": "たたみのお部屋といすの席がございますが、どちらがよろしいでしょうか。", "vi": "(A) hỏi chọn chỗ ngồi — ございます" },
+            { "jp": "お決まりになりましたらお呼びくださいませ。", "vi": "(A) hẹn gọi món — ①②" },
+            { "jp": "かしこまりました。お飲み物はいかがいたしましょうか。", "vi": "(A) nhận order + hỏi đồ uống — ④" },
+            { "jp": "ご注文を確認させていただきます。", "vi": "(A) xác nhận lại đơn" }
+          ],
+          "model": {
+            "track": "2-07",
+            "audio": "asset/audio/Track2-07.mp3",
+            "intro_vi": "Hội thoại mẫu in trong sách (trang 198, Track 2-07). Hãy tự dựng & nói trước theo thẻ vai, rồi mới mở ra đối chiếu. (Khách 山田様 đặt bàn 6 giờ, 2 người → chọn chỗ tatami, gọi さしみ定食 và 茶わん蒸し ×2, thêm bia.)",
+            "intro_jp": "本の会話例(p.198・Track 2-07)です。先に自分で話してから、答え合わせに開いてください。(6時に予約した山田様・2名様。たたみの席にして、さしみ定食と茶わん蒸しを2つ、ビールを注文します。)",
+            "lines": [
+              { "sp": "A", "jp": "いらっしゃいませ。", "vi": "Kính chào quý khách ạ." },
+              { "sp": "B", "jp": "6時に予約した山田ですが。", "vi": "Tôi là Yamada, có đặt bàn lúc 6 giờ." },
+              { "sp": "A", "jp": "山田様でいらっしゃいますね。お待ちしておりました。2名様ですね。", "vi": "Quý khách là ngài Yamada ạ. Em đã chờ quý khách. 2 người đúng không ạ.", "note_vi": "↳ 〜でいらっしゃいます + お待ちしておりました" },
+              { "sp": "B", "jp": "はい。", "vi": "Vâng." },
+              { "sp": "A", "jp": "たたみのお部屋といすの席がございますが、どちらがよろしいでしょうか。", "vi": "Bên em có phòng chiếu tatami và bàn ghế ngồi ạ, quý khách thích loại nào ạ?", "note_vi": "↳ 〜がございます + どちらがよろしいでしょうか" },
+              { "sp": "B", "jp": "たたみの席をお願いします。", "vi": "Cho tôi chỗ ngồi chiếu tatami." },
+              { "sp": "A", "jp": "こちらへどうぞ……お決まりになりましたらお呼びくださいませ。", "vi": "Mời đi lối này… Sau khi quyết món xong xin gọi cho em ạ.", "note_vi": "↳ ①② お決まりになりましたら…お呼びくださいませ" },
+              { "sp": "B", "jp": "あ、注文、お願いします！さしみ定食と茶わん蒸しを2つください。", "vi": "À, cho gọi món! Cho set sashimi và 2 phần trứng hấp chén." },
+              { "sp": "A", "jp": "かしこまりました。茶わん蒸しは少々お時間をいただきますが、お飲み物はいかがいたしましょうか。", "vi": "Em đã rõ ạ. Trứng hấp chén sẽ mất một chút thời gian ạ, còn đồ uống quý khách dùng gì ạ?", "note_vi": "↳ ④ かしこまりました / 少々お時間をいただきます / いかがいたしましょうか" },
+              { "sp": "B", "jp": "あ、じゃあ、ビールを2つ。", "vi": "À, vậy cho 2 bia." },
+              { "sp": "A", "jp": "ご注文を確認させていただきます。", "vi": "Em xin xác nhận lại đơn gọi của quý khách ạ.", "note_vi": "↳ 確認させていただきます" }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 会話の例 (hội thoại mẫu): Track 2-07 (trang 198) — đã nhúng ngay dưới tình huống. Bấm \"📖 Xem hội thoại mẫu\" để đối chiếu sau khi đã tự nói.",
+      "answerRef_jp": "会話の例:Track 2-07(p.198)。シナリオの下にあります。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Tổng hợp từ vựng Bài 10 (trang 99)",
+      "page": 99,
+      "intro": "Bảng từ vựng của cả Bài 10 (10課), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.\nNhiều mục là cặp 「từ ＝ cách giải nghĩa quen thuộc」 — hiểu nghĩa qua từ đã biết.",
+      "intro_jp": "10課の語彙タンク(p.99)。出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        { "jp": "特に", "kana": "とくに", "vi": "Đặc biệt / nhất là (particularly / especially)", "note": "📖 trang 94 — 「特にいりません」." },
+        { "jp": "希望する", "kana": "きぼうする", "vi": "Mong muốn / nguyện vọng (to wish for / desire)", "note": "📖 trang 95 — 「ご希望なら」." },
+        { "jp": "承る", "kana": "うけたまわる", "vi": "Tiếp nhận (đơn đặt / yêu cầu) (＝（注文などを）受ける)", "note": "📖 trang 95 — 「こちらで承ります」." },
+        { "jp": "順に", "kana": "じゅんに", "vi": "Theo thứ tự / lần lượt (in order / in turns)", "note": "📖 trang 95 — 「順にお入りください」." },
+        { "jp": "整理券", "kana": "せいりけん", "vi": "Phiếu số thứ tự (a numbered ticket)", "note": "📖 trang 95 — 「整理券をお持ちですか」." },
+        { "jp": "代理で", "kana": "だいりで", "vi": "Thay mặt / đại diện (in place of)", "note": "📖 trang 96 — 「代理で東洋映画にまいります」 (練習①)." },
+        { "jp": "使用する", "kana": "しようする", "vi": "Sử dụng (＝使う)", "note": "📖 trang 96 — 「ご使用をご希望なら」 (練習①)." },
+        { "jp": "入場券", "kana": "にゅうじょうけん", "vi": "Vé vào cửa (admission ticket)", "note": "📖 trang 96 — 「入場券をお持ちのお客様」 (練習②)." },
+        { "jp": "少々", "kana": "しょうしょう", "vi": "Một chút / chốc lát (＝少し, trang trọng hơn)", "note": "📖 trang 96 — 「少々お待ちくださいませ」 (練習③)." },
+        { "jp": "至急", "kana": "しきゅう", "vi": "Gấp / khẩn (＝すぐに)", "note": "📖 trang 96 — 「至急ご連絡くださいませ」 (練習③)." },
+        { "jp": "プログラム", "kana": "ぷろぐらむ", "vi": "Chương trình / lịch trình (program / schedule)", "note": "📖 trang 96 — 「パーティーのプログラム」 (練習④)." },
+        { "jp": "宴会", "kana": "えんかい", "vi": "Tiệc / yến tiệc (banquet)", "note": "📖 trang 96 — 「宴会の料理」 (練習④)." },
+        { "jp": "ただいま", "kana": "ただいま", "vi": "Hiện giờ / lúc này (＝今, trang trọng)", "note": "📖 trang 97 — 「ただいま準備中でございまして」." },
+        { "jp": "確認する", "kana": "かくにんする", "vi": "Xác nhận (to confirm)", "note": "📖 trang 97 — 「ご注文を確認させていただきます」." },
+        { "jp": "承知する", "kana": "しょうちする", "vi": "Hiểu / đã rõ / nhận lời (＝わかる／知る)", "note": "📖 trang 97 — 「承知いたしました」." },
+        { "jp": "恐縮ですが", "kana": "きょうしゅくですが", "vi": "Thật ngại quá / xin lỗi nhưng… (＝すみませんが, khiêm)", "note": "📖 trang 98 — スタイル." },
+        { "jp": "移動する", "kana": "いどうする", "vi": "Di chuyển / đi lại (to travel / move)", "note": "📖 trang 98 — 「電車で移動中でございまして」 (スタイル)." }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "📚 Tổng kết Bài 10 + Bước tiếp theo",
+      "content": "🎯 Tổng kết Bài 10 (10課 サービスの敬語 — kính ngữ phục vụ):\n• ① お/ご〜になりましたら — 「お/ご〜になります」 ở thể 「〜たら」 (sau khi quý khách…): 「お決まりになりましたら、お呼びください」.\n• ② お/ご〜くださいませ — 「お/ご〜ください」 + 「ませ」 → cực lịch sự, hay gặp ở レストラン・銀行・デパート: 「お一人1枚ずつお取りくださいませ」. ⚠️ Trong 1 câu có thể có cả 尊敬語 + 謙譲語: 「ご質問がおありでしたら、お答えいたします」.\n• ③ 短くした敬語の形 — rút gọn cho gọn lời: 「お決まりでしたら」(＝お決まりになっていましたら)／「お並びの方」(＝お並びになっている方)／「お持ちですか」(＝お持ちになっていらっしゃいますか).\n• ④ サービスでよく使われる表現 — 「お待たせしました」(xin lỗi vì để chờ — kể cả khi không bắt chờ lâu)／「かしこまりました」(＝わかりました)／「お飲み物はいかがいたしましょうか」(＝どうしますか).\n• ⑤ 「けっこうです」 — 2 nghĩa ngược: 「はい、けっこうです」(＝OKです, đồng ý) ↔ 「もうけっこうです」(＝もういりません, từ chối). ⚠️ Dễ mơ hồ → tránh hỏi cụt 「これでけっこうでしょうか」.\n• 💡 Cốt lõi: kính ngữ dịch vụ vừa CỰC LỊCH SỰ vừa NGẮN GỌN dễ nói nhanh. Yun ở p.94 nói đúng nghĩa nhưng cộc; p.97 mềm mại, lịch sự nên trọn vẹn.\n• 🔑 Phân biệt vế người: việc của KHÁCH → 尊敬語 (おあり・お決まり・お持ち); việc của MÌNH → 謙譲語 (お答えいたします・まいります・ご準備いたします). 漢語 đi với ご (ご準備), không phải お.\n• 🔑 Báo bận / hoãn lịch sự: việc danh-từ-hoá được (準備・食事・移動) → 「〜中でございまして」; động tác kéo dài (会議をする・出張する) → 「〜しておりまして」.\n\n📖 Tham chiếu trong sách:\n• Đáp án 練習①〜④ (Track 2-01〜2-04) → trang 197.\n• Đáp án チェック, スタイル (Track 2-06) → trang 197–198. (チェック: 1)b 2)a 3)b 4)c 5)c)\n• 会話の例 やってみましょう: Track 2-07 → trang 198 — đã nhúng trong mục roleplay.\n• ロールカード: A → p.170, B → p.174.\n• 語彙タンク (p.99): 承る, 整理券, 少々, 至急, 確認する, 承知する, 恐縮ですが, 移動する…\n\n➡️ Bài tiếp theo: 11課「相談を受ける」 (trang 100) — tiếp nhận tư vấn / đưa lời khuyên: hỏi nguyện vọng・sở thích, 提案する・勧める, 「ご存知ですか」↔「存じております／存じ上げております」, 「ご〜です」.",
+      "content_jp": "🎯 10課「サービスの敬語」のまとめ:\n• ① お/ご〜になりましたら:「お/ご〜になります」の「〜たら」の形(「お決まりになりましたら、お呼びください」)。\n• ② お/ご〜くださいませ:「お/ご〜ください」＋「ませ」。レストラン・銀行・デパートなどでの非常にていねいな言い方(「お一人1枚ずつお取りくださいませ」)。⚠️一文の中に尊敬語と謙譲語が一緒に出ることがある(「ご質問がおありでしたら、お答えいたします」)。\n• ③ 短くした敬語の形:「お決まりでしたら」「お並びの方」「お持ちですか」。\n• ④ サービスでよく使われる表現:「お待たせしました」(待たせていなくても使う)/「かしこまりました」(＝わかりました)/「お飲み物はいかがいたしましょうか」(＝どうしますか)。\n• ⑤ 「けっこうです」:「はい、けっこうです」＝OKです(承諾) ↔「もうけっこうです」＝もういりません(断り)。⚠️あいまいになりやすい。\n• 💡 ポイント:接客敬語は、非常にていねいに、かつ短く言える(p.94はぶっきらぼう ↔ p.97はていねいで成功)。\n• 🔑 区別:相手のこと→尊敬語(おあり・お決まり・お持ち)、自分のこと→謙譲語(お答えいたします・まいります・ご準備いたします)。漢語は「ご」(ご準備)。\n• 🔑 忙しさを伝える:名詞化できるもの(準備・食事・移動)→「〜中でございまして」、続く動作(会議をする・出張する)→「〜しておりまして」。\n\n📖 本の参照:練習①〜④(Track 2-01〜2-04)→p.197、チェック・スタイル(Track 2-06)→p.197–198(チェック:1)b 2)a 3)b 4)c 5)c)、会話の例(Track 2-07)→p.198、ロールカードA=p.170/B=p.174。\n➡️ 次は11課「相談を受ける」(p.100)。"
+    }
+  ]
+}

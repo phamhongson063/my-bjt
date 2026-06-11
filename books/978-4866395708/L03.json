@@ -12,7 +12,7 @@
     {
       "type": "dialogue",
       "title": "💬 できますか? — 朝のあいさつ: Alex và 金子部長 (trang 32)",
-      "image": "images/L03/32_1.jpg",
+      "image": "books/978-4866395708/images/32_1.jpg",
       "imageAlt": "Minh hoạ trang 32 — buổi sáng, Alex gặp 金子部長 mệt mỏi ở thang máy và đề nghị giúp đỡ một cách vụng về.",
       "imageCaption": "Minh hoạ trang 32 — Alex chào 金子部長 vào buổi sáng ở công ty.",
       "scene": "朝、会社や学校で人と会ったとき、どんなあいさつをしますか。\n(Buổi sáng khi gặp người ở công ty/trường, bạn chào thế nào? Cảnh: Alex gặp sếp 金子部長 trông mệt mỏi vào buổi sáng.)",
@@ -154,7 +154,7 @@
     {
       "type": "vocab",
       "title": "⚠️ ③ 謙譲語の特別な形 — Dạng đặc biệt của kenjougo (trang 34)",
-      "image": "images/L03/34_1.jpg",
+      "image": "books/978-4866395708/images/34_1.jpg",
       "imageAlt": "Minh hoạ trang 34 — tình cờ gặp thầy giáo trước ga, dùng 「お目にかかります」.",
       "imageCaption": "「駅前で偶然先生にお目にかかりました」 — tình cờ gặp thầy ở trước ga.",
       "intro": "Một số động từ thông dụng có DẠNG KENJOUGO RIÊNG — KHÔNG ghép theo mẫu 「お〜します」. Sách (trang 34) nêu 2 ví dụ chính (bên dưới); bảng tra ĐẦY ĐỦ 敬語動詞の表 (trang 176) đặt ngay sau mục này ⬇️.\n\nVí dụ sách:\n・〈取引先の人に〉(私が) メールを拝見しました。 — (Tôi) đã đọc email ạ. (見る → 拝見する)\n・駅前で偶然先生にお目にかかりました。 — Tôi tình cờ gặp thầy ở trước ga. (会う → お目にかかる)",
@@ -784,7 +784,7 @@
     {
       "type": "dialogue",
       "title": "✅ これでOK! — Phiên bản đúng cách (Track 1-13, trang 36)",
-      "image": "images/L03/36_1.jpg",
+      "image": "books/978-4866395708/images/36_1.jpg",
       "imageAlt": "Minh hoạ trang 36 — buổi sáng ở thang máy, Alex chào 金子部長 và đề nghị giúp đỡ đúng cách bằng kính ngữ.",
       "imageCaption": "Minh hoạ trang 36 — lần này Alex chào hỏi & đề nghị giúp 金子部長 đúng kính ngữ.",
       "audio": "asset/audio/Track1-13.mp3",
@@ -1383,7 +1383,7 @@
           "kana": "かんこうち",
           "vi": "Điểm / khu du lịch (sightseeing spot)",
           "note": "📖 trang 38 — địa điểm tham quan du lịch (xuất hiện ở チェック③ câu 5).",
-          "image": "images/L03/38_1.jpg"
+          "image": "books/978-4866395708/images/38_1.jpg"
         },
         {
           "jp": "翻訳する",

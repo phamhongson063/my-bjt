@@ -1,5 +1,8 @@
 import { SectionPlugin } from "./base.js";
 import { bilingual, escAttr, copyJp } from "../core/utils.js";
+import { DEFAULT_BOOK_ID } from "../core/books.js";
+
+const ALEX_AVATAR = `books/${DEFAULT_BOOK_ID}/images/alex.jpg`;
 
 function buildCard(section) {
   const div = document.createElement("div");
@@ -22,7 +25,7 @@ function buildCard(section) {
         : isNarrator
         ? "📖"
         : isMain
-        ? '<img src="images/common/alex.jpg" alt="Alex" class="dlg-avatar-img" loading="lazy">'
+        ? `<img src="${ALEX_AVATAR}" alt="Alex" class="dlg-avatar-img" loading="lazy">`
         : speaker.includes("妻")
         ? "👩"
         : speaker.includes("部長") ||

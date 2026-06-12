@@ -1,0 +1,563 @@
+{
+  "id": "L13",
+  "order": 13,
+  "title": "12課 スピーチをする",
+  "titleVi": "Bài 12 — Phát biểu / Diễn thuyết trước nhiều người",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 40,
+  "intro": "Bài 12 (12課) — Chương 2. Tình huống: công ty Alex có lệ phát biểu ngắn ~3 phút trong buổi họp sáng (朝礼); hôm nay tới lượt Alex nói về 『北斎漫画』 (truyện tranh của hoạ sĩ Hokusai).\nỞ bản 「できますか?」, Alex (1) đọc nguyên văn kiểu văn viết rời rạc 「1760年江戸生まれ。後期の浮世絵師。」 nên cộc, khó nghe; (2) trộn lẫn thể thường (描いた・言われている) với です/ます; (3) hỏi khán giả 「知っていますか」 thay 「ご存じですか」; (4) dùng 「だから」 thay 「ですから」; (5) chép nguyên từ internet (copy-paste) → bị 金子部長 phát hiện, bắt làm lại.\nBài này học cách PHÁT BIỂU / DIỄN THUYẾT trước nhiều người: mở đầu, hỏi tương tác khán giả, diễn giải dễ hiểu (đổi văn viết → ですますスタイル, dùng 受身 + 「〜ております」), và câu kết.\n\n🎯 Mục tiêu — 5 mẫu (trang 109–110):\n① スピーチを始める — câu mở đầu: 「皆様、おはようございます。本日は、〜についてお話しします」.\n② 聞いている人たちに問いかける — hỏi khán giả bằng 敬語スタイル: 「〜をご存じですか」「〜をご覧になったことはありますか」「こちらをご覧ください」.\n③ 説明する — KHÔNG đọc nguyên văn viết; đổi thành câu ですます dễ hiểu, dùng nhiều 受身 và 「〜ております」: 「〜と考えられております」「〜に知られている」. Khi vào nội dung thì dùng ですますスタイル hơn là 敬語スタイル.\n④ スピーチを終える — câu kết: 「以上、〜についてご紹介いたしました。ご清聴ありがとうございます」.\n⑤ スピーチでよく使うことば — 「ですから（＝だから, trang trọng hơn）」「ご存じのように／ご存じの通り」. → thêm cụm trang trọng xem phụ lục p.177 改まった言い方 (L23).",
+  "intro_jp": "第2章 12課。アレックスさんの会社では、朝礼で3分ぐらいのスピーチをしています。今日はアレックスさんの番で、『北斎漫画』について話します。\n「できますか?」では、アレックスさんは(1)書きことばをそのまま棒読みし(「1760年江戸生まれ。後期の浮世絵師。」)、(2)普通体(描いた・言われている)とです・ますを混ぜ、(3)「知っていますか」、(4)「だから」、(5)インターネットからコピーアンドペーストして、金子部長に見抜かれ、やり直しになります。\nこの課で、大勢の前でスピーチをするときの敬語を学びます。始め方・聞き手への問いかけ・わかりやすい説明(書きことば→ですますスタイル、受身＋〜ております)・終わり方です。\n\n🎯 学習項目(p.109–110):\n① スピーチを始める(皆様、おはようございます。本日は、〜についてお話しします)\n② 聞いている人たちに問いかける(敬語スタイルで。〜をご存じですか/ご覧になったことはありますか/こちらをご覧ください)\n③ 説明する(書きことばを棒読みせず、ですますで言い換える。受身と「〜ております」を多用。テーマに入ったら敬語スタイルよりですますスタイル)\n④ スピーチを終える(以上、〜についてご紹介いたしました。ご清聴ありがとうございます)\n⑤ スピーチでよく使うことば(ですから＝だから/ご存じのように・ご存じの通り。→p.177)",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — Alex phát biểu nhưng đọc nguyên văn viết, trộn thể & chép mạng (trang 108)",
+      "page": 108,
+      "image": "books/978-4866395708/images/108_1.jpg",
+      "imageAlt": "Minh hoạ trang 108 — Alex đứng đọc tờ giấy với vẻ lúng túng; phía sau màn hình laptop có người đang nhăn nhó; 金子部長 khoanh tay vẻ không hài lòng; các đồng nghiệp ngồi nghe.",
+      "imageCaption": "Minh hoạ trang 108 — Alex đọc bài phát biểu chép từ mạng, bị 金子部長 phát hiện.",
+      "scene": "アレックスさんの会社では、朝礼で3分ぐらいのスピーチをしています。今日はアレックスさんの番です。\n(Công ty Alex có lệ phát biểu ~3 phút mỗi sáng. Hôm nay tới lượt Alex. Đây là bản CHƯA đạt — Alex đọc nguyên văn viết rời rạc, trộn thể thường với です/ます, và chép từ internet nên bị 金子部長 bắt làm lại.)",
+      "lines": [
+        { "speaker": "アレックス", "jp": "皆さん、おはようございます。今日は、『北斎漫画』について話します。……えーと、皆さんは知っていますか、葛飾北斎。", "vi": "Chào mọi người. Hôm nay tôi sẽ nói về 『Hokusai Manga』. …Ừm, mọi người có biết Katsushika Hokusai không? (⚠️ 「知っていますか」 → nên là 「ご存じですか」)" },
+        { "speaker": "アレックス", "jp": "北斎は『北斎漫画』を描きました。この漫画は、日本のアニメーションの原点と言われている。だから今日のスピーチのテーマにしました。", "vi": "Hokusai đã vẽ 『Hokusai Manga』. Bộ truyện tranh này được cho là khởi nguồn của hoạt hình Nhật. Vì vậy tôi chọn làm chủ đề hôm nay. (⚠️ trộn 「言われている」 thể thường với です/ます; 「だから」 → 「ですから」)" },
+        { "speaker": "アレックス", "jp": "葛飾北斎……1760年江戸生まれ……え、江戸時代、こ？……後期の浮世絵師。か、……化政文化を、だ、代表する一人。あー、代表作に『富嶽三十六景』『北斎漫画』。えーと……", "vi": "Katsushika Hokusai… sinh năm 1760 ở Edo… ờ, thời Edo, hậu…? …hoạ sĩ ukiyo-e hậu kỳ. Một trong những người tiêu biểu cho văn hoá Kasei. À, tác phẩm tiêu biểu có 『Phú Nhạc Tam Thập Lục Cảnh』『Hokusai Manga』. Ừm… (⚠️ đọc nguyên các mẩu văn viết rời rạc → ấp úng, khó hiểu)" },
+        { "speaker": "金子部長", "jp": "んー、よくわからないな。これ、どこで調べたの？", "vi": "Ừmm, khó hiểu quá nhỉ. Cái này cậu tra ở đâu vậy?" },
+        { "speaker": "アレックス", "jp": "インターネットです。日本語ですよ、おわかりになりませんか。", "vi": "Trên internet ạ. Tiếng Nhật đấy ạ, sếp không hiểu sao ạ? (⚠️ 「おわかりになりませんか」 nói với cấp trên kiểu vặn lại → mất lịch sự)" },
+        { "speaker": "金子部長", "jp": "明日、もう一度やり直し。コピーアンドペーストはだめだよ。", "vi": "Mai làm lại một lần nữa. Copy-paste là không được đâu." },
+        { "speaker": "アレックス", "jp": "……はい。", "vi": "…Vâng ạ." },
+        { "speaker": "—", "jp": "アレックスさんは、インターネットからコピーしたことを金子部長に見抜かれてしまいました。", "vi": "Việc Alex chép từ internet đã bị 金子部長 nhìn thấu." }
+      ],
+      "vocabHighlight": [
+        "「知っていますか」 → 「ご存じですか」 (②)",
+        "書きことばを棒読み（1760年江戸生まれ。後期の浮世絵師。）→ ですますで言い換える（1760年に江戸で生まれた…浮世絵師です）(③)",
+        "「日本のアニメーションの原点と言われている」(thể thường) → 「漫画文化の原点だと考えられております」 (③④ 受身・ております)",
+        "「だから」 → 「ですから」 (⑤)",
+        "インターネットからコピペ → 自分のことばで構成"
+      ],
+      "note": "Cảnh dẫn vào Bài 12: PHÁT BIỂU trước nhiều người. Alex sai ở: (1) đọc nguyên văn viết rời rạc → ấp úng; (2) trộn thể thường + です/ます; (3) hỏi 「知っていますか」; (4) 「だから」; (5) chép mạng. 5 mẫu ①〜⑤ bên dưới dạy cách phát biểu mạch lạc; bản chuẩn xem ở 「これでOK!」 (trang 111).",
+      "note_jp": "この課では、スピーチの敬語を勉強します。アレックスさんは(1)書きことばの棒読み、(2)普通体とです・ますの混在、(3)「知っていますか」、(4)「だから」、(5)コピペ、が問題です。①〜⑤でわかりやすいスピーチを学び、正しい例は「これでOK!」(p.111)で確認します。"
+    },
+    {
+      "type": "grammar",
+      "title": "🎙️ ① スピーチを始める — Mở đầu bài phát biểu (trang 109)",
+      "page": 109,
+      "items": [
+        {
+          "pattern": "皆様、おはようございます。本日は、〜についてお話しします。",
+          "patternVi": "Câu mở đầu chuẩn: chào khán giả (皆様) + nêu chủ đề (本日は〜について).",
+          "explanation": "Mở đầu bằng cách chào toàn thể khán giả 「皆様」 (lịch sự hơn 「皆さん」) rồi giới thiệu chủ đề: 「本日は、〜についてお話しします」 (「本日」 = 「今日」 trang trọng).",
+          "explanation_jp": "「皆様」(「皆さん」よりていねい)と呼びかけ、「本日は、〜についてお話しします」とテーマを示して始めます(「本日」＝「今日」の改まった言い方)。",
+          "examples": [
+            { "jp": "皆様、おはようございます。本日は、『北斎漫画』についてお話しします。", "vi": "Kính chào quý vị. Hôm nay tôi xin trình bày về 『Hokusai Manga』." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🙋 ② 聞いている人たちに問いかける — Hỏi tương tác với khán giả (trang 109)",
+      "page": 109,
+      "items": [
+        {
+          "pattern": "〜をご存じですか ／ 〜をご覧になったことはありますか ／ こちらをご覧ください",
+          "patternVi": "Khi nói với khán giả giữa bài, dùng 敬語スタイル: hỏi 「ご存じですか」, 「ご覧になったことはありますか」, mời 「こちらをご覧ください」.",
+          "explanation": "Lúc quay sang hỏi/ kéo khán giả vào bài, hãy nói bằng 敬語スタイル (tôn trọng người nghe): 尊敬語 「ご存じですか」 (có biết không), 「ご覧になったことはありますか」 (đã từng xem chưa), và 「こちらをご覧ください」 (xin mời nhìn vào đây).",
+          "explanation_jp": "スピーチの途中で聴衆に語りかけるときは、敬語スタイルで話します。「ご存じですか」「ご覧になったことはありますか」「こちらをご覧ください」など尊敬語を使います。",
+          "examples": [
+            { "jp": "皆様、葛飾北斎をご存じですか。", "vi": "Thưa quý vị, quý vị có biết Katsushika Hokusai không ạ?" },
+            { "jp": "「北斎漫画」をご覧になったことはありますか。", "vi": "Quý vị đã từng xem 『Hokusai Manga』 chưa ạ?" },
+            { "jp": "こちらをご覧ください。", "vi": "Xin mời quý vị nhìn vào đây." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "📖 ③ 説明する — Diễn giải dễ hiểu (văn viết → ですますスタイル, 受身 + 〜ております) (trang 109)",
+      "page": 109,
+      "items": [
+        {
+          "pattern": "書きことば（棒読み）→ ですますで言い換える ／ 受身 ＋ 〜ております",
+          "patternVi": "ĐỪNG đọc nguyên văn viết. Đổi thành câu ですます dễ nghe; vào nội dung thì dùng ですますスタイル (chứ không phải 敬語スタイル); dùng nhiều thể bị động (受身) và 「〜ております」.",
+          "explanation": "Văn viết dù bằng tiếng Nhật, nếu đọc y nguyên (棒読み) sẽ khó hiểu. Hãy: (a) cho khán giả NHÌN chữ khó hoặc đổi sang từ dễ; (b) khi vào nội dung, dùng 「ですますスタイル」 thay vì 「敬語スタイル」; (c) dùng nhiều 受身 (thể bị động) và kết câu bằng 「〜ております」 để khách quan, trang nhã.",
+          "explanation_jp": "日本語で書かれていても、書きことばをそのまま読むと、わかりにくくなります。難しいことばは文字を見せたり、やさしいことばに言い換えたりしましょう。テーマに入ったら、「敬語スタイル」よりもむしろ「ですますスタイル」を使います。受身もたくさん使い、文末に「〜ております」などを使うこともあります。",
+          "examples": [
+            { "jp": "葛飾北斎。1760年江戸生まれ。江戸時代後期の浮世絵師。 → 葛飾北斎は、1760年に江戸で生まれた、江戸時代の終わりごろの浮世絵師です。", "vi": "(văn viết rời rạc) → (câu ですます liền mạch) Katsushika Hokusai là hoạ sĩ ukiyo-e sinh năm 1760 ở Edo, vào cuối thời Edo." },
+            { "jp": "北斎の「北斎漫画」は、日本の漫画文化の原点だと考えられております。", "vi": "『Hokusai Manga』 của Hokusai được xem là khởi nguồn của văn hoá truyện tranh Nhật Bản. (受身 + ております)" },
+            { "jp": "世界中の人に知られている画家です。", "vi": "Là hoạ sĩ được người khắp thế giới biết đến. (受身 知られている)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🏁 ④ スピーチを終える — Câu kết bài (trang 109)",
+      "page": 109,
+      "items": [
+        {
+          "pattern": "以上、〜についてご紹介いたしました。 ／ ご清聴ありがとうございます。",
+          "patternVi": "Câu kết: 「以上、〜についてご紹介いたしました」 (Trên đây tôi đã giới thiệu về…) + 「ご清聴ありがとうございます」 (Cảm ơn quý vị đã lắng nghe).",
+          "explanation": "Chốt bài bằng 「以上、〜についてご紹介いたしました」 (謙譲語 ご紹介いたしました) rồi cảm ơn khán giả: 「ご清聴ありがとうございます」 (「清聴」 = việc quý vị chú ý lắng nghe).",
+          "explanation_jp": "「以上、〜についてご紹介いたしました」(謙譲語)とまとめ、「ご清聴ありがとうございます」(「清聴」＝聞いてくださること)とお礼を言って終わります。",
+          "examples": [
+            { "jp": "以上、『北斎漫画』についてご紹介いたしました。", "vi": "Trên đây tôi đã giới thiệu về 『Hokusai Manga』 ạ." },
+            { "jp": "ご清聴ありがとうございます。", "vi": "Xin cảm ơn quý vị đã lắng nghe." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🔑 ⑤ スピーチでよく使うことば — Cụm hay dùng khi phát biểu (trang 110)",
+      "page": 110,
+      "items": [
+        {
+          "pattern": "ですから（＝だから） ／ ご存じのように、 ／ ご存じの通り、",
+          "patternVi": "「ですから」 = 「だから」 (bản trang trọng — 'vì vậy / cho nên'). 「ご存じのように／ご存じの通り」 = 'như quý vị đã biết'.",
+          "explanation": "Khi phát biểu, thay 「だから」 bằng 「ですから」 cho trang trọng. Dẫn dắt điều khán giả đã biết bằng 「ご存じのように、」 hoặc 「ご存じの通り、」 (như quý vị đã biết / đúng như quý vị biết).",
+          "explanation_jp": "スピーチでは「だから」を「ですから」に改めます。聞き手が知っていることを示すときは「ご存じのように、」「ご存じの通り、」を使います。",
+          "warning": "📌 Thêm các cách nói trang trọng khác (今日→本日, 約→およそ…) xem phụ lục 「改まった言い方」 trang 177 (sẽ số hoá ở L23).",
+          "warning_jp": "📌 そのほかの改まった言い方は、付録「改まった言い方」(p.177／L23)を参照。",
+          "examples": [
+            { "jp": "ですから、今日のスピーチのテーマにしました。", "vi": "Vì vậy, tôi đã chọn (nó) làm chủ đề bài phát biểu hôm nay." },
+            { "jp": "皆様ご存じのように、葛飾北斎は『富嶽三十六景』で有名です。", "vi": "Như quý vị đã biết, Katsushika Hokusai nổi tiếng với 『Phú Nhạc Tam Thập Lục Cảnh』." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習① 「〜についてお話しします／ご紹介します」 (Track 2-14, trang 110)",
+      "page": 110,
+      "audio": "asset/audio/Track2-14.mp3",
+      "audioLabel": "Track 2-14 — 練習①",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。例のように言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Theo mẫu: 〈chủ đề〉・〈động từ〉 → 「今日は〈chủ đề〉について〜します」. 話す→お話しします (和語); 紹介する/説明する→ご紹介します/ご説明します (漢語→ご). Đáp án → trang 199.",
+      "note": "💡 和語 (話す) → お＋ます＋します; 漢語 (紹介・説明) → ご＋する→します. Đáp án theo trang 199 (Track 2-14).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "日本のアニメ文化・話す",
+          "context_vi": "(cue) văn hoá anime Nhật · nói",
+          "answer": "今日は日本のアニメ文化についてお話しします。",
+          "answer_vi": "話す → お話しします."
+        },
+        {
+          "num": "1",
+          "context": "私の国の料理・話す",
+          "context_vi": "(cue) ẩm thực nước tôi · nói",
+          "answer": "今日は私の国の料理についてお話しします。",
+          "answer_vi": "話す → お話しします."
+        },
+        {
+          "num": "2",
+          "context": "私の国の文化・紹介する",
+          "context_vi": "(cue) văn hoá nước tôi · giới thiệu",
+          "answer": "今日は私の国の文化についてご紹介します。",
+          "answer_vi": "紹介する (漢語) → ご紹介します."
+        },
+        {
+          "num": "3",
+          "context": "日本と私の国の交流の歴史・説明する",
+          "context_vi": "(cue) lịch sử giao lưu giữa Nhật và nước tôi · giải thích",
+          "answer": "今日は日本と私の国の交流の歴史についてご説明します。",
+          "answer_vi": "説明する (漢語) → ご説明します."
+        },
+        {
+          "num": "4",
+          "context": "スライドの上手な作り方・紹介する",
+          "context_vi": "(cue) cách làm slide đẹp · giới thiệu",
+          "answer": "今日はスライドの上手な作り方についてご紹介します。",
+          "answer_vi": "紹介する → ご紹介します."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習② 「〜（ら）れております」 を使って言ってみましょう (Track 2-15, trang 110)",
+      "page": 110,
+      "audio": "asset/audio/Track2-15.mp3",
+      "audioLabel": "Track 2-15 — 練習②",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。「〜（ら）れております」を使って言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Đổi 〈mệnh đề〉・〈động từ〉 thành câu khách quan bằng 受身 + 「〜ております」: 「〈mệnh đề〉だ＋と＋〈động từ受身〉ております」. Đáp án → trang 199.",
+      "note": "💡 考える→考えられて; 言う→言われて; 評価する→評価されて; する→されて. 「だ」 ＋ と ＋ 受身 ＋ ております. Đáp án theo trang 199 (Track 2-15).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "北斎は最も有名な浮世絵の画家だ・考える",
+          "context_vi": "(cue) Hokusai là hoạ sĩ ukiyo-e nổi tiếng nhất · nghĩ/cho rằng",
+          "answer": "北斎は最も有名な浮世絵の画家だと考えられております。",
+          "answer_vi": "考える → 考えられております (受身)."
+        },
+        {
+          "num": "1",
+          "context": "漢字はおよそ2000年前に日本に来た・言う",
+          "context_vi": "(cue) chữ Hán du nhập Nhật khoảng 2000 năm trước · nói",
+          "answer": "漢字はおよそ2000年前に日本に来たと言われております。",
+          "answer_vi": "言う → 言われております."
+        },
+        {
+          "num": "2",
+          "context": "この本の作者は実は女性だった・考える",
+          "context_vi": "(cue) tác giả cuốn này thật ra là nữ · cho rằng",
+          "answer": "この本の作者は実は女性だったと考えられております。",
+          "answer_vi": "考える → 考えられております."
+        },
+        {
+          "num": "3",
+          "context": "この作品は日本の漫画の原点だ・評価する",
+          "context_vi": "(cue) tác phẩm này là khởi nguồn của manga Nhật · đánh giá",
+          "answer": "この作品は日本の漫画の原点だと評価されております。",
+          "answer_vi": "評価する → 評価されております."
+        },
+        {
+          "num": "4",
+          "context": "竹取物語は日本で一番古い物語だ・する",
+          "context_vi": "(cue) Truyện ông lão đốn tre là truyện cổ nhất Nhật Bản · cho là",
+          "answer": "竹取物語は日本で一番古い物語だとされております。",
+          "answer_vi": "する → されております (＝「〜だとされています」 cũng đúng)."
+        },
+        {
+          "num": "5",
+          "context": "高尾山は紅葉が美しい山だ・言う",
+          "context_vi": "(cue) núi Takao là ngọn núi lá đỏ đẹp · nói",
+          "answer": "高尾山は紅葉が美しい山だと言われております。",
+          "answer_vi": "言う → 言われております."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — Alex phát biểu mạch lạc, hỏi khán giả & dùng 受身・ております (Track 2-16, trang 111)",
+      "page": 111,
+      "image": "books/978-4866395708/images/111_1.jpg",
+      "imageAlt": "Minh hoạ trang 111 — Alex tươi cười cầm tấm ảnh giơ lên cho khán giả xem; 金子部長 gật gù hài lòng; đồng nghiệp chăm chú nghe.",
+      "imageCaption": "Minh hoạ trang 111 — Lần này Alex phát biểu rõ ràng, có hỏi khán giả và cho xem ảnh.",
+      "audio": "asset/audio/Track2-16.mp3",
+      "audioLabel": "Track 2-16 — これでOK!",
+      "scene": "Bản ĐÚNG: Alex mở đầu hỏi 「ご存じですか」 (②), giải thích bằng câu ですます dễ hiểu, dẫn 「ご存じのように」 (⑤), cho xem ảnh 「ご覧ください」, dùng 受身・ております 「考えられております・描かれています」 (③), và kết 「ぜひご覧ください。ご清聴ありがとうございました」 (④).",
+      "lines": [
+        { "speaker": "アレックス", "jp": "おはようございます。皆さんは『北斎漫画』をご存じですか。", "vi": "Xin chào quý vị. Quý vị có biết 『Hokusai Manga』 không ạ? (② ご存じですか)" },
+        { "speaker": "アレックス", "jp": "『北斎漫画』というのは、葛飾北斎が描いた漫画のことです。皆さんご存じのように、葛飾北斎は、富士山をたくさん描いた『富嶽三十六景』で有名です。しかし、実は漫画も描いているのです。", "vi": "『Hokusai Manga』 là tập truyện tranh do Katsushika Hokusai vẽ. Như quý vị đã biết, Hokusai nổi tiếng với 『Phú Nhạc Tam Thập Lục Cảnh』 vẽ rất nhiều núi Phú Sĩ. Nhưng thật ra ông cũng vẽ cả manga. (③ giải thích dễ hiểu + ⑤ ご存じのように)" },
+        { "speaker": "アレックス", "jp": "本日は、その『北斎漫画』についてお話しします。どうぞこちらをご覧ください。", "vi": "Hôm nay tôi xin nói về 『Hokusai Manga』 ấy ạ. Xin mời quý vị nhìn vào đây. (① 本日は〜お話しします + ② こちらをご覧ください)" },
+        { "speaker": "アレックス", "jp": "この作品は、日本の漫画文化の原点だと考えられております。漫画の中の人の動きがおもしろく描かれています。", "vi": "Tác phẩm này được xem là khởi nguồn của văn hoá manga Nhật Bản. Chuyển động của nhân vật trong truyện được vẽ rất thú vị. (③ 受身・ております 考えられております・描かれています)" },
+        { "speaker": "アレックス", "jp": "……北斎漫画の本なども出版されていますので、皆さんもご興味がありましたら、ぜひご覧ください。", "vi": "…Các đầu sách về Hokusai Manga cũng đã được xuất bản, nên nếu quý vị có hứng thú thì xin hãy đọc thử ạ. (出版されています + ご興味がありましたら + ご覧ください)" },
+        { "speaker": "アレックス", "jp": "ご清聴ありがとうございました。", "vi": "Xin cảm ơn quý vị đã lắng nghe ạ. (④ kết bài)" },
+        { "speaker": "—", "jp": "アレックスさんは、わかりやすくスピーチをすることができました。", "vi": "Alex đã phát biểu một cách dễ hiểu." }
+      ],
+      "vocabHighlight": [
+        "皆さんは『北斎漫画』をご存じですか — ②",
+        "皆さんご存じのように — ⑤",
+        "本日は〜についてお話しします — ①",
+        "どうぞこちらをご覧ください — ②",
+        "原点だと考えられております／おもしろく描かれています — ③ 受身・ております",
+        "ご興味がありましたら、ぜひご覧ください — mời khán giả",
+        "ご清聴ありがとうございました — ④"
+      ],
+      "note": "So với bản 「できますか?」 (p.108): Alex (1) mở đầu hỏi 「ご存じですか」; (2) giải thích thành câu ですます liền mạch thay vì đọc nguyên văn viết; (3) dẫn 「ご存じのように」; (4) dùng 受身・ております 「考えられております・描かれています」; (5) kết khéo 「ぜひご覧ください。ご清聴ありがとうございました」. Bảng đối chiếu ở mục kế tiếp.",
+      "note_jp": "p.108「できますか?」と比べて、アレックスさんは(1)「ご存じですか」で始め、(2)書きことばの棒読みではなくですますで説明し、(3)「ご存じのように」、(4)受身・ております(考えられております・描かれています)、(5)「ぜひご覧ください。ご清聴ありがとうございました」で締めました。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh できますか → これでOK (p.108 ↔ p.111)",
+      "intro": "Bảng TỔNG HỢP đối chiếu bài phát biểu CHƯA đạt (p.108 「できますか?」) ↔ bản ĐÚNG (p.111 「これでOK!」), map theo các mẫu ①〜⑤. Gom từ 2 đoạn phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.108「できますか?」とp.111「これでOK!」を①〜⑤で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "Phần",
+        "sonkeigo": "✗ p.108 (できますか)",
+        "kenjougo": "✓ p.111 (これでOK)"
+      },
+      "rows": [
+        {
+          "plain": "問いかけ",
+          "plainVi": "mở đầu / hỏi khán giả",
+          "sonkeigo": "皆さんは知っていますか、葛飾北斎。",
+          "kenjougo": "皆さんは『北斎漫画』をご存じですか。(②)"
+        },
+        {
+          "plain": "説明の仕方",
+          "plainVi": "cách diễn giải",
+          "sonkeigo": "1760年江戸生まれ。後期の浮世絵師。(棒読み)",
+          "kenjougo": "〜というのは…のことです／…で有名です。(③ 言い換え)"
+        },
+        {
+          "plain": "評価・受身",
+          "plainVi": "nêu đánh giá khách quan",
+          "sonkeigo": "アニメーションの原点と言われている。(thể thường)",
+          "kenjougo": "漫画文化の原点だと考えられております。(③④ 受身・ております)"
+        },
+        {
+          "plain": "接続・改まり",
+          "plainVi": "từ nối / trang trọng",
+          "sonkeigo": "だから今日のテーマにしました。",
+          "kenjougo": "ですから／本日は〜についてお話しします。(⑤①)"
+        },
+        {
+          "plain": "出どころ",
+          "plainVi": "nguồn nội dung",
+          "sonkeigo": "インターネットからコピペ。",
+          "kenjougo": "自分のことばで構成（出版物の紹介など）。"
+        },
+        {
+          "plain": "終わり方",
+          "plainVi": "kết bài",
+          "sonkeigo": "(途中で部長に止められる)",
+          "kenjougo": "ぜひご覧ください。ご清聴ありがとうございました。(④)"
+        }
+      ],
+      "note": "Điểm cốt lõi: phát biểu = mở đầu + hỏi khán giả (敬語スタイル), nhưng khi vào nội dung thì diễn giải bằng ですますスタイル dễ hiểu, dùng nhiều 受身 + 「〜ております」 cho khách quan, và kết bằng 「ご清聴ありがとうございます」. KHÔNG đọc nguyên văn viết, KHÔNG chép mạng.",
+      "note_jp": "ポイント:スピーチは、始め方・問いかけは敬語スタイル、内容に入ったらですますスタイルでわかりやすく、受身＋「〜ております」で客観的に述べ、「ご清聴ありがとうございます」で締める。書きことばの棒読み・コピペはしない。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — 箱から選んで正しい形に (trang 112)",
+      "page": 112,
+      "instruction": "□の中からことばを選んで、正しい形にしてください。",
+      "instruction_vi": "Chọn từ trong hộp 【紹介します / 知ります / 見ます / 言います】 rồi chia về dạng đúng cho bài phát biểu (尊敬語・受身・謙譲語). 例: 知っています → ご存じです. Đáp án → trang 199.",
+      "note": "Hộp từ: 紹介します・知ります・見ます・言います (「知っています」 là ví dụ 例). Đáp án (p.199): ①ご覧ください ②知られて ③言われて ④ご紹介いたします（／ご紹介します）.",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "皆様、京都を【？】か。",
+          "context_vi": "Thưa quý vị, quý vị có biết Kyoto không ạ?",
+          "base": "知っています",
+          "answer": "ご存じです",
+          "answer_vi": "知っています → ご存じです (尊敬語, đề bài mẫu)."
+        },
+        {
+          "num": "1",
+          "context": "どうぞこの写真を【？】。京都を空から撮った写真です。",
+          "context_vi": "Xin mời quý vị nhìn tấm ảnh này. Đây là ảnh chụp Kyoto từ trên cao.",
+          "base": "見ます",
+          "answer": "ご覧ください",
+          "answer_vi": "見ます → ご覧ください (mời khán giả nhìn — 尊敬語)."
+        },
+        {
+          "num": "2",
+          "context": "こちらは金閣寺の写真です。金閣寺は世界中の人に【？】います。",
+          "context_vi": "Đây là ảnh chùa Vàng (Kinkakuji). Kinkakuji được người khắp thế giới biết đến.",
+          "base": "知ります",
+          "answer": "知られて",
+          "answer_vi": "知ります → 知られて(います) (受身: được biết đến)."
+        },
+        {
+          "num": "3",
+          "context": "今でも、京都には着物や、和食など、伝統的な文化が生きていると【？】います。",
+          "context_vi": "Đến nay, ở Kyoto vẫn còn sống động các văn hoá truyền thống như kimono, washoku… người ta nói vậy.",
+          "base": "言います",
+          "answer": "言われて",
+          "answer_vi": "言います → 言われて(います) (受身: người ta nói)."
+        },
+        {
+          "num": "4",
+          "context": "今日は、いろいろな京都の伝統文化の中から、着物文化について、【？】。",
+          "context_vi": "Hôm nay, trong số nhiều văn hoá truyền thống của Kyoto, tôi xin giới thiệu về văn hoá kimono.",
+          "base": "紹介します",
+          "answer": "ご紹介いたします",
+          "answer_vi": "紹介します → ご紹介いたします (／ご紹介します) (謙譲語, việc của mình)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "🗣️ スタイルを変えてみましょう — 普通体 → スピーチの改まったスタイル (Track 2-17, trang 112)",
+      "page": 112,
+      "audio": "asset/audio/Track2-17.mp3",
+      "audioLabel": "Track 2-17 — スタイルを変えてみましょう",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Đổi câu thể thường (普通体) sang văn phát biểu trang trọng: 知っている→ご存じ; 〜ている(受身)→〜ております; だ→です; 〜と思う→〜と思います; 今日→本日; 紹介したい→ご紹介したい. Đáp án → trang 199.",
+      "note": "💡 例) 知っている → ご存じ; だ → です. 1)2) 作られている/言われている → 〜ております. 3) 今日→本日, 紹介したいと思う → ご紹介したいと思います. Đáp án theo trang 199 (Track 2-17).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "これは日本人なら誰でもよく知っている私の国の料理だ。",
+          "context_vi": "(cue) đây là món của nước tôi mà người Nhật ai cũng biết rõ.",
+          "answer": "これは日本の方なら誰でもよくご存じの私の国の料理です。",
+          "answer_vi": "知っている → ご存じの; 日本人 → 日本の方; だ → です."
+        },
+        {
+          "num": "1",
+          "context": "この料理は、私の国では、お祭りのときに家庭で作られている。",
+          "context_vi": "(cue) món này ở nước tôi được làm tại nhà vào dịp lễ hội.",
+          "audioStart": 19,
+          "answer": "この料理は、私の国では、お祭りのときに家庭で作られております。",
+          "answer_vi": "作られている → 作られております."
+        },
+        {
+          "num": "2",
+          "context": "「この料理を食べると風邪をひかない」と言われている。",
+          "context_vi": "(cue) người ta nói 'ăn món này thì không bị cảm'.",
+          "audioStart": 36,
+          "answer": "「この料理を食べると風邪をひかない」と言われております。",
+          "answer_vi": "言われている → 言われております."
+        },
+        {
+          "num": "3",
+          "context": "今日はこの料理について紹介したいと思う。",
+          "context_vi": "(cue) hôm nay tôi muốn giới thiệu về món này.",
+          "audioStart": 49,
+          "answer": "本日はこの料理についてご紹介したいと思います。",
+          "answer_vi": "今日 → 本日; 紹介したいと思う → ご紹介したいと思います."
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎤 やってみましょう① 話してみましょう — 1分スピーチ（国の有名な人・場所・食べ物）(trang 113)",
+      "page": 113,
+      "intro": "Hoạt động NÓI một mình: chuẩn bị một tấm ảnh và phát biểu 1 phút. Chủ đề: chọn một NGƯỜI / ĐỊA DANH / MÓN ĂN nổi tiếng của nước bạn. Dựng bài theo khung dưới rồi nói, sau đó mở 「📖 Xem bài mẫu」 để đối chiếu.\n\n📝 Khung bài (điền chỗ trống của bạn):\n• 「今日は、『___』について(お話しします)。」 — vào chủ đề\n• 「皆様、『___』を(ご存じですか)。」 — hỏi khán giả\n• 「どうぞこの写真を(ご覧ください)。『___』の写真です。」 — cho xem ảnh\n• (説明…受身＋〜ております) — diễn giải\n• 「今日は、『___』について(ご紹介いたしました)。ご清聴(ありがとうございます)。」 — kết bài",
+      "intro_jp": "写真を準備して、1分間のスピーチをしてください。テーマは、あなたの国の有名な人、場所、食べ物から選んでください。下の型で組み立ててから話し、「📖 スピーチの例」で確認しましょう。\n型:今日は『___』について(お話しします)/皆様『___』を(ご存じですか)/どうぞこの写真を(ご覧ください)/(説明…ております)/今日は『___』について(ご紹介いたしました)。ご清聴(ありがとうございます)。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう — あなたの国の有名な人・場所・食べ物（1分）",
+          "title_vi": "Phát biểu 1 phút về một người / nơi / món ăn nổi tiếng của nước bạn",
+          "roles": [
+            {
+              "side": "あなた",
+              "who_jp": "発表者",
+              "who_vi": "Bạn là người phát biểu",
+              "jp": "写真を準備して、1分間のスピーチをしてください。テーマは、あなたの国の有名な人、場所、食べ物から選んでください。",
+              "vi": "Chuẩn bị một tấm ảnh và phát biểu 1 phút. Chủ đề: chọn một người, địa danh hoặc món ăn nổi tiếng của nước bạn."
+            }
+          ],
+          "hints": [
+            { "jp": "今日は、『___』についてお話しします。", "vi": "vào chủ đề — ①" },
+            { "jp": "皆様、『___』をご存じですか。", "vi": "hỏi khán giả — ②" },
+            { "jp": "どうぞこの写真をご覧ください。", "vi": "cho xem ảnh — ②" },
+            { "jp": "〜だと考えられております／〜と言われております。", "vi": "diễn giải khách quan — ③" },
+            { "jp": "今日は、『___』についてご紹介いたしました。ご清聴ありがとうございます。", "vi": "kết bài — ④" }
+          ],
+          "model": {
+            "track": "2-18",
+            "audio": "asset/audio/Track2-18.mp3",
+            "intro_vi": "Bài mẫu 1 (sách, trang 200, Track 2-18) — chủ đề món lẩu Nhật 「鍋料理」. Hãy tự dựng & nói trước, rồi mở ra đối chiếu.",
+            "intro_jp": "スピーチの例1(p.200・Track 2-18)。テーマは日本の「鍋料理」。先に自分で話してから確認しましょう。",
+            "lines": [
+              { "sp": "🎤", "jp": "今日は、日本の「鍋料理」についてご紹介します。", "vi": "Hôm nay tôi xin giới thiệu về món lẩu (nabe) của Nhật Bản." },
+              { "sp": "🎤", "jp": "皆様、「鍋料理」をご存じですか。どうぞこの写真をご覧ください。日本の鍋料理、有名な店やすきやきの写真です。", "vi": "Thưa quý vị, quý vị có biết món lẩu không ạ? Xin mời nhìn tấm ảnh này. Đây là ảnh món lẩu Nhật, các quán nổi tiếng và món sukiyaki." },
+              { "sp": "🎤", "jp": "皆さんもとても寒いとき、温かい料理をたくさん食べて、温まりたいと思われるでしょう。どこの国にもこのような料理があります。日本では、魚やシーフード、鶏肉、ときには、牛肉や豚肉、そして野菜をたくさん入れて、鍋料理を作ります。場所によって、鍋の作り方が少しずつ違います。", "vi": "Chắc quý vị cũng vậy, khi trời rất lạnh sẽ muốn ăn thật nhiều món nóng cho ấm người. Nước nào cũng có món kiểu như thế. Ở Nhật, người ta cho nhiều cá, hải sản, thịt gà, đôi khi thịt bò, thịt lợn, và rau vào để nấu lẩu. Tuỳ vùng mà cách nấu lẩu hơi khác nhau một chút." },
+              { "sp": "🎤", "jp": "……今日は、日本の「鍋料理」について、ご紹介いたしました。ご清聴ありがとうございます。", "vi": "…Trên đây tôi đã giới thiệu về món lẩu Nhật Bản. Xin cảm ơn quý vị đã lắng nghe." }
+            ]
+          }
+        },
+        {
+          "label": "例2",
+          "title_jp": "スピーチの例2 — 「池袋」（住んでいる町）",
+          "title_vi": "Bài mẫu thứ 2 — về khu Ikebukuro (thị trấn đang sống)",
+          "model": {
+            "track": "2-19",
+            "audio": "asset/audio/Track2-19.mp3",
+            "intro_vi": "Bài mẫu 2 (sách, trang 200, Track 2-19) — chủ đề khu phố mình đang sống 「池袋」 (Ikebukuro).",
+            "intro_jp": "スピーチの例2(p.200・Track 2-19)。テーマは住んでいる町「池袋」。",
+            "lines": [
+              { "sp": "🎤", "jp": "今日は私が住んでいる町、池袋についてお話ししたいと思います。", "vi": "Hôm nay tôi muốn nói về thị trấn nơi tôi đang sống — Ikebukuro." },
+              { "sp": "🎤", "jp": "皆様、池袋へ行ったことはおありですか。池袋で何をなさいましたか。買い物ですか。それともお酒でしょうか。", "vi": "Thưa quý vị, quý vị đã từng đến Ikebukuro chưa ạ? Quý vị đã làm gì ở Ikebukuro? Mua sắm ạ? Hay là đi nhậu ạ?" },
+              { "sp": "🎤", "jp": "こちらの写真をご覧ください。池袋の中心、池袋駅です。池袋駅は一日に270万人もの人に利用されております。これは新宿の次に多くて、世界第2位だそうです。", "vi": "Xin mời nhìn tấm ảnh này. Đây là trung tâm Ikebukuro — ga Ikebukuro. Ga Ikebukuro mỗi ngày được tới 2,7 triệu lượt người sử dụng. Con số này chỉ sau Shinjuku, nghe nói đứng thứ 2 thế giới." },
+              { "sp": "🎤", "jp": "東口にも西口にも大きいデパートがあって、夜までとてもにぎやかです。", "vi": "Cả cửa Đông lẫn cửa Tây đều có trung tâm thương mại lớn, rất nhộn nhịp cho đến tối." },
+              { "sp": "🎤", "jp": "歴史についてご紹介しましょう。駅ができたのは、今から100年以上前の1903年です。", "vi": "Xin giới thiệu đôi chút về lịch sử. Nhà ga được xây dựng vào năm 1903, cách nay hơn 100 năm." },
+              { "sp": "🎤", "jp": "……皆様も、機会があったらぜひ一度池袋にいらっしゃってください。", "vi": "…Nếu có dịp, mong quý vị hãy ghé Ikebukuro một lần ạ." }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 スピーチの例 (bài mẫu): Track 2-18 「鍋料理」, Track 2-19 「池袋」 (trang 200) — đã nhúng trong từng card. Tự nói trước rồi mới mở đối chiếu.",
+      "answerRef_jp": "スピーチの例:Track 2-18「鍋料理」、Track 2-19「池袋」(p.200)。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "roleplay",
+      "title": "🎤 やってみましょう② 話してみましょう — さよならパーティーでお礼のスピーチ (trang 114)",
+      "page": 114,
+      "intro": "Hoạt động NÓI một mình: bạn của bạn tổ chức tiệc chia tay cho bạn. Hãy phát biểu lời CẢM ƠN tại đó. Dựng bài theo khung rồi nói, sau đó mở 「📖 Xem bài mẫu」 để đối chiếu.\n\n📝 Khung bài:\n• 「本日は、お招きいただきありがとうございます。一言ごあいさつを(申し上げます)。」 — cảm ơn\n• (思い出を話す…) — kể kỷ niệm\n• 「私の国は___と言われております。」 — giới thiệu nước mình\n• 「機会がありましたら、一度(いらっしゃってください)。そのときはどうぞ___。」 — mời sang chơi\n• 「本日は本当に、(ありがとうございました)。」 — cảm ơn lần nữa",
+      "intro_jp": "友達があなたのさよならパーティーを開いてくれました。そこでお礼のスピーチをしてください。下の型で組み立ててから話し、「📖 スピーチの例」で確認しましょう。\n型:本日はお招きいただきありがとうございます。一言ごあいさつを(申し上げます)/(思い出)/私の国は___と言われております/機会がありましたら一度(いらっしゃってください)。そのときはどうぞ___/本日は本当に(ありがとうございました)。",
+      "scenarios": [
+        {
+          "label": "②",
+          "title_jp": "話してみましょう — さよならパーティーでお礼のスピーチ",
+          "title_vi": "Phát biểu cảm ơn tại tiệc chia tay",
+          "roles": [
+            {
+              "side": "あなた",
+              "who_jp": "発表者",
+              "who_vi": "Bạn là người phát biểu",
+              "jp": "友達があなたのさよならパーティーを開いてくれました。そこでお礼のスピーチをしてください。",
+              "vi": "Bạn bè tổ chức tiệc chia tay cho bạn. Hãy phát biểu lời cảm ơn tại buổi tiệc đó."
+            }
+          ],
+          "hints": [
+            { "jp": "本日は、お招きいただきありがとうございます。一言ごあいさつを申し上げます。", "vi": "mở đầu cảm ơn" },
+            { "jp": "（思い出を話す）日本の皆様と話すうちに、〜に気づきました。", "vi": "kể kỷ niệm" },
+            { "jp": "私の国は〜と言われております。", "vi": "giới thiệu nước mình" },
+            { "jp": "機会がありましたら、一度いらっしゃってください。", "vi": "mời sang chơi" },
+            { "jp": "本日は本当に、ありがとうございました。", "vi": "cảm ơn lần nữa" }
+          ],
+          "model": {
+            "track": "2-20",
+            "audio": "asset/audio/Track2-20.mp3",
+            "intro_vi": "Bài mẫu (sách, trang 200, Track 2-20) — lời cảm ơn của một người đến từ nước Soleil (ソレイユ). Hãy tự dựng & nói trước, rồi mở ra đối chiếu.",
+            "intro_jp": "スピーチの例(p.200・Track 2-20)。ソレイユから来た人のお礼のスピーチです。先に自分で話してから確認しましょう。",
+            "lines": [
+              { "sp": "🎤", "jp": "本日は、お招きいただきありがとうございます。一言ごあいさつを申し上げます。", "vi": "Cảm ơn quý vị hôm nay đã mời tôi đến. Tôi xin phép có đôi lời." },
+              { "sp": "🎤", "jp": "私の国ソレイユは、日本から遠い国です。初めて日本へ行くことを聞いたとき、日本はどこか遠いアジアの国だというイメージしかございませんでした。でも、来てみると、日本の方々はとても親切で、私の国ソレイユにも興味を持ってくださいました。日本の方々と話すうちに、日本の皆様の気持ちが私の国ととてもよく似ていることに気づきました。日本とソレイユは、人々がまじめで、困っている人に親切な国なのです。私は日本がとても好きになりました。", "vi": "Đất nước Soleil của tôi là một nước xa Nhật Bản. Lần đầu nghe tin sẽ sang Nhật, trong tôi chỉ có hình dung Nhật là một nước châu Á xa xôi nào đó. Nhưng khi đến nơi, người Nhật rất tử tế, lại còn quan tâm cả đến đất nước Soleil của tôi. Trong quá trình trò chuyện với mọi người ở Nhật, tôi nhận ra tấm lòng của người Nhật rất giống với nước tôi. Nhật Bản và Soleil đều là những đất nước mà con người nghiêm túc, tử tế với người đang gặp khó khăn. Tôi đã trở nên rất yêu Nhật Bản." },
+              { "sp": "🎤", "jp": "私の国は、日本と同じように太陽がのぼる国と言われております。", "vi": "Đất nước tôi cũng được gọi là xứ sở mặt trời mọc, giống như Nhật Bản vậy." },
+              { "sp": "🎤", "jp": "機会がありましたら、一度いらっしゃってください。そのときはどうぞソレイユの有名なところをご案内させてください。", "vi": "Nếu có dịp, mong quý vị hãy ghé thăm một lần ạ. Khi đó xin hãy để tôi được dẫn quý vị đi thăm những nơi nổi tiếng của Soleil." },
+              { "sp": "🎤", "jp": "本日は本当に、ありがとうございました。", "vi": "Hôm nay thật sự cảm ơn quý vị rất nhiều ạ." }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 スピーチの例 (bài mẫu): Track 2-20 「お礼のスピーチ（ソレイユ）」 (trang 200) — đã nhúng dưới tình huống. Tự nói trước rồi mới mở đối chiếu.",
+      "answerRef_jp": "スピーチの例:Track 2-20「お礼のスピーチ(ソレイユ)」(p.200)。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Tổng hợp từ vựng Bài 12 (trang 115)",
+      "page": 115,
+      "intro": "Bảng từ vựng của cả Bài 12 (12課), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.",
+      "intro_jp": "12課の語彙タンク(p.115)。出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        { "jp": "描く", "kana": "かく", "vi": "Vẽ / khắc hoạ (to draw / portray)", "note": "📖 trang 108 — 「『北斎漫画』を描きました」." },
+        { "jp": "アニメーション", "kana": "あにめーしょん", "vi": "Hoạt hình / anime (animation)", "note": "📖 trang 108 — 「アニメーションの原点」." },
+        { "jp": "原点", "kana": "げんてん", "vi": "Khởi nguồn / điểm xuất phát (origin)", "note": "📖 trang 108 — 「漫画文化の原点」." },
+        { "jp": "テーマ", "kana": "てーま", "vi": "Chủ đề / đề tài (theme / subject / topic)", "note": "📖 trang 108 — 「スピーチのテーマ」." },
+        { "jp": "江戸", "kana": "えど", "vi": "Edo — tên cũ của Tokyo, thủ đô xưa của Nhật (1603–1868)", "note": "📖 trang 108 — 「1760年江戸生まれ」." },
+        { "jp": "〜時代", "kana": "〜じだい", "vi": "Thời kỳ / thời đại ~ (period / era)", "note": "📖 trang 108 — 「江戸時代後期」." },
+        { "jp": "後期", "kana": "こうき", "vi": "Hậu kỳ / nửa cuối (latter period)", "note": "📖 trang 108 — 「後期の浮世絵師」." },
+        { "jp": "浮世絵師", "kana": "うきよえし", "vi": "Hoạ sĩ tranh ukiyo-e (ukiyo-e artist)", "note": "📖 trang 108 — 「後期の浮世絵師」." },
+        { "jp": "化政文化", "kana": "かせいぶんか", "vi": "Văn hoá thời Kasei — văn hoá thời kỳ Kasei (1804–1830)", "note": "📖 trang 108 — 「化政文化を代表する一人」." },
+        { "jp": "代表する", "kana": "だいひょうする", "vi": "Tiêu biểu cho / đại diện (to represent)", "note": "📖 trang 108 — 「化政文化を代表する」." },
+        { "jp": "代表作", "kana": "だいひょうさく", "vi": "Tác phẩm tiêu biểu (masterpiece)", "note": "📖 trang 108 — 「代表作に『富嶽三十六景』」." },
+        { "jp": "やり直し", "kana": "やりなおし", "vi": "Làm lại / làm lại từ đầu (to do over)", "note": "📖 trang 108 — 「もう一度やり直し」." },
+        { "jp": "コピーアンドペースト", "kana": "こぴーあんどぺーすと", "vi": "Sao chép và dán (copy and paste)", "note": "📖 trang 108 — 「コピーアンドペーストはだめ」." },
+        { "jp": "本日", "kana": "ほんじつ", "vi": "Hôm nay (＝今日, trang trọng)", "note": "📖 trang 109 — 「本日は、〜についてお話しします」." },
+        { "jp": "文化", "kana": "ぶんか", "vi": "Văn hoá (culture)", "note": "📖 trang 109 — 「漫画文化の原点」." },
+        { "jp": "画家", "kana": "がか", "vi": "Hoạ sĩ (painter)", "note": "📖 trang 109 — 「世界中の人に知られている画家」." },
+        { "jp": "ご清聴ありがとうございます", "kana": "ごせいちょうありがとうございます", "vi": "Cảm ơn quý vị đã lắng nghe (Thank you for your attention)", "note": "📖 trang 109 — câu kết bài phát biểu (④)." },
+        { "jp": "交流", "kana": "こうりゅう", "vi": "Giao lưu (interaction)", "note": "📖 trang 110 — 「交流の歴史」 (練習①)." },
+        { "jp": "およそ", "kana": "およそ", "vi": "Khoảng / xấp xỉ (＝約、だいたい)", "note": "📖 trang 110 — 「およそ2000年前」 (練習②)." },
+        { "jp": "作者", "kana": "さくしゃ", "vi": "Tác giả (author)", "note": "📖 trang 110 — 「この本の作者」 (練習②)." },
+        { "jp": "実は", "kana": "じつは", "vi": "Thật ra (in fact / actually)", "note": "📖 trang 110 — 「実は女性だった」 (練習②)." },
+        { "jp": "評価する", "kana": "ひょうかする", "vi": "Đánh giá / nhìn nhận (to evaluate / praise)", "note": "📖 trang 110 — 「原点だと評価する」 (練習②)." },
+        { "jp": "物語", "kana": "ものがたり", "vi": "Câu chuyện / truyện kể (tale / story)", "note": "📖 trang 110 — 「日本で一番古い物語」 (練習②)." },
+        { "jp": "紅葉", "kana": "こうよう", "vi": "Lá đỏ mùa thu (autumn leaves)", "note": "📖 trang 110 — 「紅葉が美しい山」 (練習②)." },
+        { "jp": "出版する", "kana": "しゅっぱんする", "vi": "Xuất bản (to publish)", "note": "📖 trang 111 — 「本なども出版されています」." },
+        { "jp": "興味がある", "kana": "きょうみがある", "vi": "Có hứng thú / quan tâm (to be interested)", "note": "📖 trang 111 — 「ご興味がありましたら」." },
+        { "jp": "西暦", "kana": "せいれき", "vi": "Tây lịch / dương lịch (Western calendar / A.D.)", "note": "📖 trang 112 — 「西暦794年から」 (チェック)." },
+        { "jp": "首都", "kana": "しゅと", "vi": "Thủ đô (capital city)", "note": "📖 trang 112 — 「日本の首都でした」 (チェック)." },
+        { "jp": "和食", "kana": "わしょく", "vi": "Ẩm thực Nhật (＝日本料理)", "note": "📖 trang 112 — 「着物や、和食など」 (チェック)." },
+        { "jp": "伝統的な", "kana": "でんとうてきな", "vi": "Mang tính truyền thống (traditional)", "note": "📖 trang 112 — 「伝統的な文化」 (チェック)." },
+        { "jp": "家庭", "kana": "かてい", "vi": "Gia đình / hộ gia đình (household)", "note": "📖 trang 112 — 「家庭で作られている」 (スタイル)." }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "📚 Tổng kết Bài 12 + Bước tiếp theo",
+      "content": "🎯 Tổng kết Bài 12 (12課 スピーチをする — phát biểu / diễn thuyết):\n• ① スピーチを始める — chào 「皆様」 + nêu chủ đề 「本日は、〜についてお話しします」.\n• ② 聞いている人たちに問いかける — hỏi khán giả bằng 敬語スタイル: 「〜をご存じですか」「ご覧になったことはありますか」「こちらをご覧ください」.\n• ③ 説明する — KHÔNG đọc nguyên văn viết. Đổi sang câu ですます dễ hiểu; vào nội dung dùng ですますスタイル (không phải 敬語スタイル); dùng nhiều 受身 + 「〜ております」: 「考えられております」「知られている」「描かれています」.\n• ④ スピーチを終える — 「以上、〜についてご紹介いたしました。ご清聴ありがとうございます」.\n• ⑤ スピーチでよく使うことば — 「ですから（＝だから）」「ご存じのように／ご存じの通り」. → cụm trang trọng khác ở phụ lục p.177 (L23).\n• 💡 Cốt lõi: mở đầu & hỏi khán giả thì 敬語スタイル, nhưng vào nội dung thì diễn giải ですますスタイル cho dễ nghe, dùng 受身 + 「〜ております」 cho khách quan. Alex ở p.108 đọc văn viết + chép mạng → thất bại; p.111 mạch lạc, có hỏi khán giả & cho xem ảnh → thành công.\n\n📖 Tham chiếu trong sách:\n• Đáp án 練習①〜② (Track 2-14, 2-15) → trang 199.\n• Đáp án チェック, スタイル (Track 2-17) → trang 199. (チェック: ①ご覧ください ②知られて ③言われて ④ご紹介いたします)\n• スピーチの例 やってみましょう①: Track 2-18 「鍋料理」, Track 2-19 「池袋」 → trang 200 — đã nhúng trong roleplay.\n• スピーチの例 やってみましょう②: Track 2-20 「お礼（ソレイユ）」 → trang 200.\n• 語彙タンク (p.115): 浮世絵師, 化政文化, 代表作, 本日, ご清聴ありがとうございます, およそ, 評価する, 西暦, 和食, 伝統的な…\n\n➡️ Bài tiếp theo: 13課「面接を受ける」 (trang 116) — đi phỏng vấn xin việc / nhập học: 「〜でまいりました」「〜でございます」 tự giới thiệu, trả lời 志望動機・自己PR bằng keigo.",
+      "content_jp": "🎯 12課「スピーチをする」のまとめ:\n• ① スピーチを始める:「皆様」と呼びかけ、「本日は、〜についてお話しします」。\n• ② 聞いている人たちに問いかける:敬語スタイルで。「ご存じですか」「ご覧になったことはありますか」「こちらをご覧ください」。\n• ③ 説明する:書きことばを棒読みしない。ですますで言い換え、内容では敬語スタイルよりですますスタイル。受身＋「〜ております」を多用(考えられております/知られている/描かれています)。\n• ④ スピーチを終える:「以上、〜についてご紹介いたしました。ご清聴ありがとうございます」。\n• ⑤ スピーチでよく使うことば:「ですから(＝だから)」「ご存じのように/ご存じの通り」。→改まった言い方はp.177(L23)。\n• 💡 ポイント:始め方・問いかけは敬語スタイル、内容はですますスタイルでわかりやすく、受身＋「〜ております」で客観的に。p.108は棒読み・コピペで失敗、p.111はわかりやすく成功。\n\n📖 本の参照:練習①〜②(Track 2-14・2-15)→p.199、チェック・スタイル(Track 2-17)→p.199(チェック:①ご覧ください ②知られて ③言われて ④ご紹介いたします)、スピーチの例①(Track 2-18「鍋料理」・2-19「池袋」)→p.200、スピーチの例②(Track 2-20「ソレイユ」)→p.200。\n➡️ 次は13課「面接を受ける」(p.116)。"
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "id": "L12",
+  "order": 12,
+  "title": "11課 相談を受ける",
+  "titleVi": "Bài 11 — Tiếp nhận tư vấn / Cho lời khuyên cấp trên",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 35,
+  "intro": "Bài 11 (11課) — Chương 2. Tình huống: Yun (ユン) làm thêm ở một nhà hàng. 店長 (quản lý quán) hỏi xin Yun lời khuyên: anh muốn đi du lịch nước ngoài với vợ nhưng chưa biết đi đâu.\nỞ bản 「できますか?」, Yun cho lời khuyên được nhưng CHƯA hợp kính ngữ khi nói với cấp trên: hỏi thẳng nguyện vọng 「どこへ行きたいですか」, đề xuất bằng 「プーケットとかはいかがですか」 (「とか」 thiếu lịch sự), hỏi 「知ってますか」, rồi dồn ép 「飛行機に乗れないんですか？」 → đúng nghĩa nhưng nghe vô duyên, làm 店長 vẫn lưỡng lự.\nBài này học cách TIẾP NHẬN TƯ VẤN và CHO LỜI KHUYÊN với người trên: hỏi sở thích một cách gián tiếp, đề xuất khéo, dùng 「存じております／存じ上げております」 và 「ご〜です」.\n\n🎯 Mục tiêu — 4 mẫu (trang 101):\n① 希望や好みを聞く — KHÔNG hỏi thẳng 「〜たいですか」 với cấp trên. Thay bằng động từ 尊敬語 「召し上がりますか」 hoặc 「どのような〜がお好きですか」.\n② 提案する・勧める — 「〜なら、…はいかがでしょうか」／「…なさったらいかがでしょうか」. ⚠️ 「とか」 không lịch sự, tránh dùng khi đề xuất với người trên.\n③ 「ご存じですか」 ↔ 「存じております」「存じ上げております」 — đáp 'có biết': vật / sự việc → 「存じております」; con người → 「存じ上げております」.\n④ 「ご〜です」 — 「ご＋漢語＋です」 làm việc như 尊敬語: 「何かご心配ですか」「今日はご病気でご欠席です」「明日の会議、ご出席ですか（＝出席されますか）」.",
+  "intro_jp": "第2章 11課。ユンさんはレストランでアルバイトをしています。店長が、海外旅行のことでユンさんに相談してきました。妻とどこかへ行きたいが、どこがいいかわからない、という相談です。\n「できますか?」では、ユンさんはアドバイスできますが、目上の人への敬語としてはまだ足りません。「どこへ行きたいですか」と直接希望を聞き、「プーケットとかはいかがですか」(「とか」)、「知ってますか」、「飛行機に乗れないんですか？」のように、意味は通じても少しぶしつけで、店長はまだ迷っています。\nこの課で、相談を受け、アドバイスをするときの敬語を学びます。好みを遠回しに聞き、ていねいに勧め、「存じております／存じ上げております」「ご〜です」を使います。\n\n🎯 学習項目(p.101):\n① 希望や好みを聞く(目上の人に「〜たいですか」と直接聞かない。「召し上がりますか」「どのような〜がお好きですか」)\n② 提案する・勧める(「〜なら、…はいかがでしょうか」「…なさったらいかがでしょうか」。⚠️「とか」はあまりていねいではない)\n③ 「ご存じですか」↔「存じております」(物・事柄)/「存じ上げております」(人)\n④ 「ご〜です」(「ご＋漢語＋です」で尊敬語と同じ働き。何かご心配ですか/ご病気でご欠席です/ご出席ですか)",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — Yun cho 店長 lời khuyên du lịch, nói được nhưng chưa hợp kính ngữ với cấp trên (trang 100)",
+      "page": 100,
+      "image": "books/978-4866395708/images/100_1.jpg",
+      "imageAlt": "Minh hoạ trang 100 — 店長 (đầu bếp đội mũ trắng) hoảng hốt, phía trên có bong bóng vẽ chiếc máy bay bị gạch chéo ✗; bên cạnh một người phụ nữ (vợ) đang nói, vẻ băn khoăn.",
+      "imageCaption": "Minh hoạ trang 100 — 店長 sợ đi máy bay đường dài (✗ máy bay), Yun tư vấn nhưng cách hỏi còn vụng.",
+      "scene": "ユンさんはレストランでアルバイトをしています。店長が、ユンさんに質問してきました。\n(Yun làm thêm ở nhà hàng. 店長 hỏi xin Yun lời khuyên về chuyến du lịch nước ngoài với vợ. Đây là cách tư vấn CHƯA đạt — Yun nói đúng nghĩa nhưng hỏi thẳng nguyện vọng cấp trên và dồn ép: 「どこへ行きたいですか」「とか」「知ってますか」「飛行機に乗れないんですか？」.)",
+      "lines": [
+        { "speaker": "店長", "jp": "ユンさん。", "vi": "Yun này." },
+        { "speaker": "ユン", "jp": "はい。", "vi": "Dạ." },
+        { "speaker": "店長", "jp": "あのね、今度、妻とどこか海外に行きたいと思ってるんだけど。", "vi": "À, lần tới tôi định cùng vợ đi nước ngoài đâu đó." },
+        { "speaker": "ユン", "jp": "あ、いいですね。", "vi": "À, hay quá ạ." },
+        { "speaker": "店長", "jp": "どこがいいと思う？", "vi": "Em thấy đi đâu thì hay?" },
+        { "speaker": "ユン", "jp": "うーん、どこへ行きたいですか。", "vi": "Ừm, anh muốn đi đâu ạ? (⚠️ hỏi thẳng nguyện vọng cấp trên 「〜たいですか」 — không hợp kính ngữ)" },
+        { "speaker": "店長", "jp": "それがよくわからなくて。妻は辛い料理とか好きだけど。", "vi": "Cái đó tôi cũng chưa rõ. Vợ tôi thì thích món cay các thứ." },
+        { "speaker": "ユン", "jp": "それなら、プーケットとかはいかがですか。知ってますか。", "vi": "Vậy thì Phuket chẳng hạn thì sao ạ? Anh biết chỗ đó không? (⚠️ 「とか」 thiếu lịch sự; 「知ってますか」 → nên là 「ご存じですか」)" },
+        { "speaker": "店長", "jp": "プーケット？タイだっけ？ちょっと遠いかな。", "vi": "Phuket? Ở Thái à? Hơi xa nhỉ." },
+        { "speaker": "ユン", "jp": "直行便なら6時間くらいですよ。何が心配ですか。", "vi": "Bay thẳng thì chỉ tầm 6 tiếng thôi mà. Anh lo gì vậy? (⚠️ 「何が心配ですか」 hỏi cụt, hơi sỗ)" },
+        { "speaker": "店長", "jp": "……実は、長い時間の飛行機が苦手で……。", "vi": "…Thật ra, tôi sợ đi máy bay đường dài lắm…" },
+        { "speaker": "ユン", "jp": "ええ？海外に行くんですよね……。飛行機に乗れないんですか？", "vi": "Ơ? Anh đi nước ngoài mà… Anh không đi máy bay được á? (⚠️ 「乗れないんですか？」 nghe như chất vấn, dồn ép)" },
+        { "speaker": "店長", "jp": "う、うん……。", "vi": "Ờ, ừ…" },
+        { "speaker": "—", "jp": "店長は、まだ迷っているようです。", "vi": "店長 có vẻ vẫn còn đang lưỡng lự." }
+      ],
+      "vocabHighlight": [
+        "「どこへ行きたいですか」 (hỏi thẳng nguyện vọng) → 「どのようなところがお好きですか」 (①)",
+        "「プーケットとかはいかがですか」 → 「プーケットなどはいかがでしょうか」 (②, bỏ 「とか」)",
+        "「知ってますか」 → 「ご存じですか」 (③)",
+        "「何が心配ですか」 → 「何かご心配ですか」 (④ ご〜です)",
+        "「飛行機に乗れないんですか？」 (chất vấn) → 「飛行機がご心配なら、…はいかがでしょうか」 (đề xuất khéo)"
+      ],
+      "note": "Cảnh dẫn vào Bài 11: TIẾP NHẬN TƯ VẤN của cấp trên. Yun nói đúng nghĩa nhưng (1) hỏi thẳng nguyện vọng 「〜たいですか」; (2) đề xuất bằng 「とか」; (3) hỏi 「知ってますか」; (4) hỏi lo lắng cụt lủn; (5) dồn ép 「乗れないんですか？」. 4 mẫu ①〜④ bên dưới dạy cách hỏi gián tiếp & đề xuất khéo; bản chuẩn xem ở 「これでOK!」 (trang 103).",
+      "note_jp": "この課では、相談を受けるときの敬語を勉強します。ユンさんは意味は通じますが、(1)直接希望を聞き、(2)「とか」で勧め、(3)「知ってますか」、(4)「何が心配ですか」、(5)「乗れないんですか？」とぶしつけです。①〜④でていねいな聞き方・勧め方を学び、正しい会話は「これでOK!」(p.103)で確認します。"
+    },
+    {
+      "type": "grammar",
+      "title": "🍽️ ① 希望や好みを聞く — Hỏi nguyện vọng / sở thích (trang 101)",
+      "page": 101,
+      "items": [
+        {
+          "pattern": "✗ 〜たいですか → ◯ 〜（尊敬動詞）ますか ／ どのような〜がお好きですか",
+          "patternVi": "Với cấp trên, KHÔNG hỏi thẳng 「〜たいですか」. Thay bằng động từ 尊敬語 hoặc 「どのような〜がお好きですか」.",
+          "explanation": "Trong kính ngữ, hiếm khi hỏi trực tiếp nguyện vọng của người trên bằng 「〜たいですか」 (nghe như dò xét, suồng sã). Thay vào đó dùng động từ 尊敬語 (召し上がります…) hoặc hỏi sở thích gián tiếp 「どのような〜がお好きですか」.",
+          "explanation_jp": "敬語では、目上の人に「〜たいですか」と直接希望を聞くことはあまりありません。代わりに尊敬語の動詞(召し上がります など)を使ったり、「どのような〜がお好きですか」と好みを聞いたりします。",
+          "examples": [
+            { "jp": "先生は何を食べたいですか。 → 先生は何を召し上がりますか。", "vi": "Thầy muốn ăn gì ạ? → Thầy sẽ dùng món gì ạ? (尊敬動詞 召し上がります)" },
+            { "jp": "先生はどのようなものがお好きですか。", "vi": "Thầy thích loại nào ạ? (hỏi sở thích gián tiếp)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "💡 ② 提案する・勧める — Đề xuất / Gợi ý (trang 101)",
+      "page": 101,
+      "items": [
+        {
+          "pattern": "〜なら、…はいかがでしょうか ／ …なさったらいかがでしょうか",
+          "patternVi": "Đề xuất lịch sự: nêu điều kiện 「〜なら」 rồi gợi ý bằng 「…はいかがでしょうか」 hoặc 「…なさったらいかがでしょうか」.",
+          "explanation": "Khi gợi ý cho người trên, nêu điều kiện/sở thích của họ bằng 「〜なら」 rồi đề xuất bằng 「…はいかがでしょうか」 (… thì thế nào ạ) hoặc 「…なさったらいかがでしょうか」 (… nếu làm thì thế nào ạ — 「なさる」 là 尊敬語 của 「する」).",
+          "explanation_jp": "目上の人に勧めるときは、相手の好みや条件を「〜なら」で示してから、「…はいかがでしょうか」「…なさったらいかがでしょうか」で提案します(「なさる」は「する」の尊敬語)。",
+          "warning": "⚠️ 「とか」 nghe không trang trọng — tránh dùng khi đề xuất với người trên (例: ✗「プーケットとか」 → ◯「プーケットなど」).",
+          "warning_jp": "⚠️「とか」はあまりていねいではありません。目上の人への提案では避けましょう(✗「プーケットとか」→◯「プーケットなど」)。",
+          "examples": [
+            { "jp": "ビールを召し上がるなら、銀座ホールなどはいかがでしょうか。", "vi": "Nếu anh dùng bia thì quán Ginza Hall chẳng hạn thấy thế nào ạ?" },
+            { "jp": "日本文化体験なら、鎌倉のお寺で座禅をなさったらいかがでしょうか。", "vi": "Nếu là trải nghiệm văn hoá Nhật thì anh thử ngồi thiền (zazen) ở chùa Kamakura xem sao ạ?" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🧠 ③ 「ご存じですか」 ↔ 「存じております」「存じ上げております」 — Hỏi & đáp 'có biết' (trang 101)",
+      "page": 101,
+      "items": [
+        {
+          "pattern": "ご存じですか（尊敬, hỏi）／ 存じております（物・事柄）／ 存じ上げております（人）",
+          "patternVi": "Hỏi 'có biết không' với người trên → 「ご存じですか」 (尊敬語). Tự đáp 'tôi biết' → 「存じております」 (vật/sự việc) hoặc 「存じ上げております」 (con người) — đều là 謙譲語.",
+          "explanation": "「ご存じですか」 = 尊敬語 của 「知っていますか」 (dùng hỏi người trên). Khi MÌNH đáp 'có biết' thì dùng 謙譲語 「存じております」 cho VẬT / SỰ VIỆC, và 「存じ上げております」 cho CON NGƯỜI. Phân biệt theo đối tượng được nói đến.",
+          "explanation_jp": "「ご存じですか」は「知っていますか」の尊敬語(目上の人に聞くとき)。自分が「知っている」と答えるときは謙譲語で、物・事柄には「存じております」、人には「存じ上げております」を使います。対象によって使い分けます。",
+          "examples": [
+            { "jp": "A：来週の食事会ですが、場所はご存じですか。 B：はい、存じております。", "vi": "A: Về buổi liên hoan tuần sau, anh có biết địa điểm không ạ? B: Vâng, tôi có biết ạ. (場所＝sự việc → 存じております)" },
+            { "jp": "A：アスク商事の高橋部長をご存じですか。 B：はい、存じ上げております。", "vi": "A: Anh có biết trưởng phòng Takahashi của Ask Shoji không ạ? B: Vâng, tôi có biết ạ. (高橋部長＝người → 存じ上げております)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🔤 ④ 「ご〜です」 — 「ご＋漢語＋です」 mang nghĩa kính ngữ (trang 101)",
+      "page": 101,
+      "items": [
+        {
+          "pattern": "ご + [漢語のことば] + です",
+          "patternVi": "「ご＋danh từ Hán＋です」 → một cách nói làm việc giống 尊敬語 (dành cho hành động/trạng thái của người trên).",
+          "explanation": "Có cách nói 「ご＋danh từ gốc Hán＋です」 hoạt động như 尊敬語: ngắn gọn mà vẫn lịch sự, dùng cho trạng thái/hành động của người trên. 「ご出席です」 ≈ 「出席されます」.",
+          "explanation_jp": "「ご＋漢字のことば＋です」で、尊敬語と同じ働きをする言い方があります。短くてもていねいで、目上の人の状態・動作に使います。「ご出席です」≒「出席されます」。",
+          "examples": [
+            { "jp": "何かご心配ですか。", "vi": "Anh có điều gì lo lắng ạ?" },
+            { "jp": "今日はご病気でご欠席です。", "vi": "Hôm nay (vị ấy) bị ốm nên vắng mặt ạ." },
+            { "jp": "明日の会議、ご出席ですか。（＝出席されますか）", "vi": "Cuộc họp ngày mai anh có tham dự không ạ? (＝出席されますか)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習① 「お好きですか」 を使って言ってみましょう (Track 2-08, trang 102)",
+      "page": 102,
+      "audio": "asset/audio/Track2-08.mp3",
+      "audioLabel": "Track 2-08 — 練習①",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。「お好きですか」を使って言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Đổi câu hỏi thẳng nguyện vọng 「どんな〜が〜たいですか」 sang hỏi sở thích lịch sự 「どのような〜がお好きですか」 (①). Đáp án → trang 198.",
+      "note": "💡 どんな → どのような; 〜が〜たいですか → 〜がお好きですか. Đáp án theo trang 198 (Track 2-08).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "どんな料理が食べたいですか。",
+          "context_vi": "(cue) muốn ăn món gì?",
+          "answer": "どのような料理がお好きですか。",
+          "answer_vi": "どんな → どのような; 食べたいですか → がお好きですか."
+        },
+        {
+          "num": "1",
+          "context": "どんなところへ行きたいですか。",
+          "context_vi": "(cue) muốn đi nơi nào?",
+          "answer": "どのようなところがお好きですか。",
+          "answer_vi": "行きたいですか → がお好きですか."
+        },
+        {
+          "num": "2",
+          "context": "どんなものを買いたいですか。",
+          "context_vi": "(cue) muốn mua thứ gì?",
+          "answer": "どのようなものがお好きですか。",
+          "answer_vi": "買いたいですか → がお好きですか."
+        },
+        {
+          "num": "3",
+          "context": "どんなスポーツをしたいですか。",
+          "context_vi": "(cue) muốn chơi môn thể thao nào?",
+          "answer": "どのようなスポーツがお好きですか。",
+          "answer_vi": "したいですか → がお好きですか."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習② アドバイスの言い方を練習しましょう (Track 2-09, trang 102)",
+      "page": 102,
+      "audio": "asset/audio/Track2-09.mp3",
+      "audioLabel": "Track 2-09 — 練習②",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。アドバイスの言い方を練習しましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Theo mẫu: 〈hành động của khách〉 → 「お/ご〜になるなら」 (尊敬), 〈gợi ý〉 → 「…はいかがでしょうか」 (②). Đáp án → trang 198.",
+      "note": "💡 買う→お買いになる; 楽しむ→お楽しみになる; 作る→お作りになる; 見る→ご覧になる (尊敬đặc biệt). 3) gợi ý cũng chia kính ngữ: 使う→お使いになっては; 4) 行く→いらっしゃったら. Đáp án theo trang 198 (Track 2-09).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "新しいパソコンを買う・アスク社の製品",
+          "context_vi": "(cue) mua máy tính mới · sản phẩm của Ask",
+          "answer": "新しいパソコンをお買いになるなら、アスク社の製品はいかがでしょうか。",
+          "answer_vi": "買う → お買いになるなら; gợi ý → 〜はいかがでしょうか."
+        },
+        {
+          "num": "1",
+          "context": "ご家族におみやげを買う・このお菓子",
+          "context_vi": "(cue) mua quà cho gia đình · loại bánh này",
+          "answer": "ご家族におみやげをお買いになるなら、このお菓子はいかがでしょうか。",
+          "answer_vi": "買う → お買いになるなら."
+        },
+        {
+          "num": "2",
+          "context": "海と温泉を楽しむ・このホテル",
+          "context_vi": "(cue) tận hưởng biển và suối nước nóng · khách sạn này",
+          "answer": "海と温泉をお楽しみになるなら、このホテルはいかがでしょうか。",
+          "answer_vi": "楽しむ → お楽しみになるなら."
+        },
+        {
+          "num": "3",
+          "context": "パソコンでグラフを作る・このソフトを使う",
+          "context_vi": "(cue) vẽ biểu đồ bằng máy tính · dùng phần mềm này",
+          "answer": "パソコンでグラフをお作りになるなら、このソフトをお使いになってはいかがでしょうか。",
+          "answer_vi": "作る → お作りになるなら; 使う → お使いになっては (gợi ý cũng chia kính ngữ)."
+        },
+        {
+          "num": "4",
+          "context": "夜景を見る・東京スカイツリーへ行く",
+          "context_vi": "(cue) ngắm cảnh đêm · đến Tokyo Skytree",
+          "answer": "夜景をご覧になるなら、東京スカイツリーへいらっしゃったらいかがでしょうか。",
+          "answer_vi": "見る → ご覧になるなら (尊敬đặc biệt); 行く → いらっしゃったら."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習③ 「ご存じですか」「存じております」「存じ上げております」 を練習しましょう (Track 2-10, trang 102)",
+      "page": 102,
+      "audio": "asset/audio/Track2-10.mp3",
+      "audioLabel": "Track 2-10 — 練習③",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。「ご存じですか」「存じております」「存じ上げております」を練習しましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Dựng cặp hỏi–đáp: A 「〜をご存じですか」, B 「はい、存じております／存じ上げております」. ⚠️ vật・sự việc → 存じております; CON NGƯỜI → 存じ上げております. Đáp án → trang 198.",
+      "note": "💡 例) この学校(sự việc)→存じております; 例) 山形先生(người)→存じ上げております. Đáp án theo trang 198 (Track 2-10).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "この学校",
+          "context_vi": "(cue) ngôi trường này — VẬT/SỰ VIỆC",
+          "answer": "A：この学校をご存じですか。 B：はい、存じております。",
+          "answer_vi": "Sự việc → 存じております."
+        },
+        {
+          "num": "例",
+          "example": true,
+          "context": "山形先生",
+          "context_vi": "(cue) thầy Yamagata — CON NGƯỜI",
+          "answer": "A：山形先生をご存じですか。 B：はい、存じ上げております。",
+          "answer_vi": "Con người → 存じ上げております."
+        },
+        {
+          "num": "1",
+          "context": "先生のお宅のご住所",
+          "context_vi": "(cue) địa chỉ nhà của thầy — sự việc",
+          "answer": "A：先生のお宅のご住所をご存じですか。 B：はい、存じております。",
+          "answer_vi": "Địa chỉ (sự việc) → 存じております."
+        },
+        {
+          "num": "2",
+          "context": "先生のお父様",
+          "context_vi": "(cue) thân phụ của thầy — con người",
+          "answer": "A：先生のお父様をご存じですか。 B：はい、存じ上げております。",
+          "answer_vi": "Người → 存じ上げております."
+        },
+        {
+          "num": "3",
+          "context": "先生の研究テーマ",
+          "context_vi": "(cue) đề tài nghiên cứu của thầy — sự việc",
+          "answer": "A：先生の研究テーマをご存じですか。 B：はい、存じております。",
+          "answer_vi": "Đề tài (sự việc) → 存じております."
+        },
+        {
+          "num": "4",
+          "context": "社長のお書きになった本",
+          "context_vi": "(cue) cuốn sách giám đốc viết — VẬT (sách)",
+          "answer": "A：社長のお書きになった本をご存じですか。 B：はい、存じております。",
+          "answer_vi": "Vật (cuốn sách) → 存じております (dù chủ là người, đối tượng 'biết' là cuốn sách)."
+        },
+        {
+          "num": "5",
+          "context": "鈴木社長",
+          "context_vi": "(cue) giám đốc Suzuki — con người",
+          "answer": "A：鈴木社長をご存じですか。 B：はい、存じ上げております。",
+          "answer_vi": "Người → 存じ上げております."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — Yun tiếp nhận tư vấn khéo léo, đề xuất Busan thay vì ép đi xa (Track 2-11, trang 103)",
+      "page": 103,
+      "image": "books/978-4866395708/images/103_1.jpg",
+      "imageAlt": "Minh hoạ trang 103 — Cùng cảnh, lần này 店長 và vợ tươi cười, bong bóng phía trên vẽ chiếc máy bay (không bị gạch chéo) — đã yên tâm.",
+      "imageCaption": "Minh hoạ trang 103 — Yun hiểu nỗi lo của 店長 (sợ bay xa) nên gợi ý Busan gần, cả hai vui vẻ.",
+      "audio": "asset/audio/Track2-11.mp3",
+      "audioLabel": "Track 2-11 — これでOK!",
+      "scene": "Bản ĐÚNG: Yun hỏi sở thích gián tiếp 「どのようなところがお好きですか」 (①), đề xuất bỏ 「とか」 → 「プーケットなどはいかがでしょうか。ご存じですか」 (②③), hỏi lo lắng bằng 「何かご心配ですか」 (④), và khi biết 店長 sợ bay xa thì gợi ý Busan (Hàn Quốc) gần nhà mình thay vì ép đi xa.",
+      "lines": [
+        { "speaker": "店長", "jp": "ユンさん。", "vi": "Yun này." },
+        { "speaker": "ユン", "jp": "はい。", "vi": "Dạ." },
+        { "speaker": "店長", "jp": "あのね、今度、妻とどこか海外に行きたいと思ってるんだけど。", "vi": "À, lần tới tôi định cùng vợ đi nước ngoài đâu đó." },
+        { "speaker": "ユン", "jp": "あ、いいですね。", "vi": "À, hay quá ạ." },
+        { "speaker": "店長", "jp": "どこがいいと思う？", "vi": "Em thấy đi đâu thì hay?" },
+        { "speaker": "ユン", "jp": "うーん、どのようなところがお好きですか。", "vi": "Ừm, anh chị thích những nơi như thế nào ạ? (① hỏi sở thích gián tiếp thay 「行きたいですか」)" },
+        { "speaker": "店長", "jp": "それがよくわからなくて。妻は辛い料理とか好きだけど。", "vi": "Cái đó tôi cũng chưa rõ. Vợ tôi thì thích món cay các thứ." },
+        { "speaker": "ユン", "jp": "それなら、プーケットなどはいかがでしょうか。ご存じですか。", "vi": "Vậy thì Phuket chẳng hạn thấy thế nào ạ? Anh có biết chỗ đó không ạ? (② bỏ 「とか」→「など」; ③ ご存じですか)" },
+        { "speaker": "店長", "jp": "プーケット？タイだっけ？ちょっと遠いかな。", "vi": "Phuket? Ở Thái à? Hơi xa nhỉ." },
+        { "speaker": "ユン", "jp": "直行便なら6時間ぐらいですよ。何かご心配ですか。", "vi": "Bay thẳng thì chỉ tầm 6 tiếng thôi ạ. Anh có điều gì lo lắng ạ? (④ 何か + ご心配です)" },
+        { "speaker": "店長", "jp": "……実は、長い時間の飛行機が苦手で……。", "vi": "…Thật ra, tôi sợ đi máy bay đường dài lắm…" },
+        { "speaker": "ユン", "jp": "……飛行機がご心配なら、韓国へいらっしゃったらいかがでしょうか。私の町、釜山なら、1時間ぐらいですよ。", "vi": "…Nếu anh lo chuyện máy bay thì hay là anh chị sang Hàn Quốc xem sao ạ? Quê em, Busan ấy, bay tầm 1 tiếng thôi ạ. (đề xuất khéo theo nỗi lo của khách)" },
+        { "speaker": "店長", "jp": "うん！いいかもしれない。ありがとう。", "vi": "Ừ! Có khi hay đấy. Cảm ơn em." },
+        { "speaker": "—", "jp": "ユンさんは、上手に店長の相談に乗ることができました。", "vi": "Yun đã tiếp nhận và đáp lại lời tư vấn của 店長 một cách khéo léo." }
+      ],
+      "vocabHighlight": [
+        "どのようなところがお好きですか — ① hỏi sở thích gián tiếp",
+        "プーケットなどはいかがでしょうか — ② bỏ 「とか」",
+        "ご存じですか — ③",
+        "何かご心配ですか — ④ ご〜です",
+        "飛行機がご心配なら、韓国へいらっしゃったらいかがでしょうか — đề xuất khéo theo nỗi lo"
+      ],
+      "note": "So với bản 「できますか?」 (p.100): Yun (1) hỏi sở thích gián tiếp 「お好きですか」 thay 「行きたいですか」; (2) bỏ 「とか」 → 「など」; (3) dùng 「ご存じですか」; (4) hỏi lo lắng bằng 「何かご心配ですか」; (5) thay vì ép đi xa, nắm nỗi lo (sợ bay) và đề xuất Busan gần. Bảng đối chiếu ở mục kế tiếp.",
+      "note_jp": "p.100「できますか?」と比べて、ユンさんは(1)「行きたいですか」ではなく「お好きですか」、(2)「とか」→「など」、(3)「ご存じですか」、(4)「何かご心配ですか」、(5)無理に遠くを勧めず、相手の不安(飛行機が苦手)をくみ取って近い釜山を提案しました。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh できますか → これでOK (p.100 ↔ p.103)",
+      "intro": "Bảng TỔNG HỢP đối chiếu cách tư vấn CHƯA đạt (p.100 「できますか?」) ↔ cách ĐÚNG (p.103 「これでOK!」), map theo các mẫu ①〜④. Gom từ 2 hội thoại phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.100「できますか?」とp.103「これでOK!」を①〜④で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "Tình huống",
+        "sonkeigo": "✗ p.100 (できますか)",
+        "kenjougo": "✓ p.103 (これでOK)"
+      },
+      "rows": [
+        {
+          "plain": "好みを聞く",
+          "plainVi": "hỏi nguyện vọng / sở thích",
+          "sonkeigo": "どこへ行きたいですか。",
+          "kenjougo": "どのようなところがお好きですか。(①)"
+        },
+        {
+          "plain": "提案する",
+          "plainVi": "đề xuất một nơi",
+          "sonkeigo": "プーケットとかはいかがですか。",
+          "kenjougo": "プーケットなどはいかがでしょうか。(②)"
+        },
+        {
+          "plain": "知っているか聞く",
+          "plainVi": "hỏi 'có biết không'",
+          "sonkeigo": "知ってますか。",
+          "kenjougo": "ご存じですか。(③)"
+        },
+        {
+          "plain": "心配を聞く",
+          "plainVi": "hỏi điều lo lắng",
+          "sonkeigo": "何が心配ですか。",
+          "kenjougo": "何かご心配ですか。(④)"
+        },
+        {
+          "plain": "不安に応える",
+          "plainVi": "đáp lại nỗi lo của khách",
+          "sonkeigo": "飛行機に乗れないんですか？",
+          "kenjougo": "飛行機がご心配なら、韓国へいらっしゃったらいかがでしょうか。"
+        }
+      ],
+      "note": "Điểm cốt lõi: tiếp nhận tư vấn KHÔNG hỏi thẳng nguyện vọng người trên, KHÔNG dồn ép — mà hỏi sở thích gián tiếp, đề xuất khéo theo điều kiện của họ, và nắm nỗi lo để gợi ý phương án phù hợp.",
+      "note_jp": "ポイント:相談を受けるときは、目上の人に直接希望を聞かず、ぶしつけに追い詰めず、好みを遠回しに聞き、相手の条件・不安に合わせてていねいに提案する。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — 正しい敬語を選ぶ (trang 104)",
+      "page": 104,
+      "instruction": "正しいものを【　】から選びましょう。",
+      "instruction_vi": "Chọn dạng ĐÚNG trong 【　】. Mẹo: nguyện vọng/hành động của KHÁCH → 尊敬語 (飲まれます・予約されるなら); 提案 dùng 「〜なら」; đáp 'biết người' → 存じ上げております. Đáp án → trang 198.",
+      "note": "Đáp án (p.198): 1)c 2)b 3)b 4)①c ②c.",
+      "items": [
+        {
+          "num": "1",
+          "context": "課長はどのようなお酒を【？】。",
+          "context_vi": "Trưởng phòng (anh ấy) uống loại rượu thế nào ạ? → hỏi gián tiếp, KHÔNG hỏi thẳng 「飲みたいですか」",
+          "options": ["飲みたいですか", "飲まれたいですか", "飲まれますか"],
+          "answerIndex": 2,
+          "answer_vi": "Hỏi gián tiếp bằng 尊敬語 → 飲まれますか. (飲みたいですか hỏi thẳng nguyện vọng cấp trên; 飲まれたいですか sai cấu trúc)."
+        },
+        {
+          "num": "2",
+          "context": "電気製品を安く【？】、秋葉原はいかがでしょうか。",
+          "context_vi": "Nếu anh muốn mua đồ điện giá rẻ thì Akihabara thấy thế nào ạ. → mẫu đề xuất 「〜なら」",
+          "options": ["お買いになったら", "お買いになるなら", "お買いになると"],
+          "answerIndex": 1,
+          "answer_vi": "Đề xuất → お買いになるなら ＋ いかがでしょうか. (〜になったら/〜になると không hợp mẫu gợi ý 「〜なら、…はいかがでしょうか」)."
+        },
+        {
+          "num": "3",
+          "context": "課長、今度の大阪出張のホテルを【？】こちらのホテルはいかがでしょうか。",
+          "context_vi": "Trưởng phòng ơi, về khách sạn cho chuyến công tác Osaka tới, nếu anh định đặt thì khách sạn này thấy thế nào ạ. → 「〜なら」",
+          "options": ["予約されたら", "予約されるなら", "ご予約になると"],
+          "answerIndex": 1,
+          "answer_vi": "Đề xuất → 予約されるなら ＋ いかがでしょうか. (〜されたら/〜になると không khớp mẫu gợi ý)."
+        },
+        {
+          "num": "4",
+          "context": "A：山本先生を【①？】。 B：はい、【②？】。",
+          "context_vi": "A: Anh có biết thầy Yamamoto không ạ? B: Vâng, tôi có biết ạ. (山本先生＝người)",
+          "subAnswers": [
+            { "num": "①", "options": ["ぞんじていますか", "ごぞんじますか", "ごぞんじですか"], "answerIndex": 2, "answer_vi": "Hỏi người trên → ご存じですか (ごぞんじですか). 「ごぞんじます」 không tồn tại." },
+            { "num": "②", "options": ["ぞんじです", "ぞんじあげます", "ぞんじあげております"], "answerIndex": 2, "answer_vi": "Đáp 'biết NGƯỜI' → 存じ上げております (ぞんじあげております)." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "style": "speak",
+      "title": "🗣️ スタイルを変えてみましょう — 丁寧 → 敬語 ↔ 友達 (Track 2-12, trang 104)",
+      "page": 104,
+      "audio": "asset/audio/Track2-12.mp3",
+      "audioLabel": "Track 2-12 — スタイルを変えてみましょう",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Từ câu 丁寧 「〜知っていますか／〜どうですか」, nói lại 2 phong cách: (1) 敬語 — 「ご存じですか／お買いになるなら…いかがでしょうか／いらっしゃるなら…」; (2) 友達 — 「知ってる？／〜どう？」. Đáp án → trang 198–199.",
+      "note": "💡 知っていますか → (敬語)ご存じですか / (友達)知ってる？. 買いたかったら → (敬語)お買いになるなら / 行く → いらっしゃる. Đáp án theo trang 198–199 (Track 2-12).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "先生のお宅を知っていますか。",
+          "context_vi": "(cue) anh có biết nhà thầy không?",
+          "subAnswers": [
+            { "num": "敬語", "answer": "先生のお宅をご存じですか。", "answer_vi": "知っていますか → ご存じですか." },
+            { "num": "友達", "answer": "先生のお宅、知ってる？", "answer_vi": "知っていますか → 知ってる？" }
+          ]
+        },
+        {
+          "num": "1",
+          "context": "田中先生を知っていますか。",
+          "context_vi": "(cue) có biết thầy Tanaka không?",
+          "subAnswers": [
+            { "num": "敬語", "answer": "田中先生をご存じですか。", "answer_vi": "知っていますか → ご存じですか." },
+            { "num": "友達", "answer": "田中先生、知ってる？", "answer_vi": "→ 知ってる？" }
+          ]
+        },
+        {
+          "num": "2",
+          "context": "浅草にはたくさんのお店があるのを知っていますか。",
+          "context_vi": "(cue) có biết ở Asakusa có nhiều cửa hàng không?",
+          "subAnswers": [
+            { "num": "敬語", "answer": "浅草にはたくさんのお店があるのをご存じですか。", "answer_vi": "知っていますか → ご存じですか." },
+            { "num": "友達", "answer": "浅草にはたくさんのお店があるの、知ってる？", "answer_vi": "→ 知ってる？" }
+          ]
+        },
+        {
+          "num": "3",
+          "context": "日本のおみやげを買いたかったら、浅草に行ったらどうですか。",
+          "context_vi": "(cue) nếu muốn mua quà Nhật thì đến Asakusa thế nào?",
+          "subAnswers": [
+            { "num": "敬語", "answer": "日本のおみやげをお買いになるなら、浅草にいらっしゃったらいかがでしょうか。", "answer_vi": "買いたかったら → お買いになるなら; 行ったらどう → いらっしゃったらいかがでしょうか." },
+            { "num": "友達", "answer": "日本のおみやげを買いたかったら、浅草に行ったらどう？", "answer_vi": "→ 行ったらどう？" }
+          ]
+        },
+        {
+          "num": "4",
+          "context": "四国へ行きたいなら、大阪から出るフェリーはどうですか。",
+          "context_vi": "(cue) nếu muốn đi Shikoku thì phà chạy từ Osaka thế nào?",
+          "subAnswers": [
+            { "num": "敬語", "answer": "四国へいらっしゃるなら、大阪から出るフェリーはいかがでしょうか。", "answer_vi": "行きたいなら → いらっしゃるなら; どう → いかがでしょうか." },
+            { "num": "友達", "answer": "四国へ行きたいなら、大阪から出るフェリーはどう？", "answer_vi": "→ どう？" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎭 やってみましょう ① 話してみましょう — 出張先での観光を相談する（部下 ↔ 上司）(trang 105)",
+      "page": 105,
+      "intro": "Hoạt động NÓI theo cặp: một người là CẤP TRÊN (B, role card p.174) sắp đi công tác sang nước của cấp dưới, có một ngày rảnh muốn đi tham quan; một người là CẤP DƯỚI (A, role card p.171) giới thiệu chỗ nên đi. Vận dụng cả 4 mẫu của bài (hỏi sở thích gián tiếp, đề xuất khéo, ご存じですか, ご〜です).\nTự học một mình? Đọc cả hai thẻ rồi tự dựng hội thoại cho từng vai; bấm 🔊 nghe, rồi mở 「📖 Xem hội thoại mẫu」 (会話の例) để đối chiếu.\n👉 Thẻ vai: A (部下) → trang 171; B (上司) → trang 174.",
+      "intro_jp": "ペアで「出張先での観光を相談する」練習です。A=部下(p.171)、B=上司(p.174)。B(上司)は部下の国へ出張し、一日休みに観光したい。A(部下)はおすすめの場所を紹介します。この課の①〜④を使います。\nロールカード:A=p.171、B=p.174。会話の例(Track 2-13)で確認できます。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう — 上司の出張先(部下の国)での観光を相談する",
+          "title_vi": "Tư vấn chỗ tham quan cho cấp trên sắp công tác sang nước của cấp dưới",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "部下",
+              "who_vi": "Bạn là cấp dưới (thẻ vai trang 171)",
+              "ref": "ロールカード p.171",
+              "jp": "あなたの会社の上司が、あなたの国に出張します。一日休みがあるので、観光したいと言っています。おすすめの場所を紹介してください。",
+              "vi": "Cấp trên trong công ty bạn sắp đi công tác sang nước của bạn. Anh ấy có một ngày rảnh và muốn đi tham quan. Hãy giới thiệu cho anh ấy một nơi nên đến."
+            },
+            {
+              "side": "B",
+              "who_jp": "上司",
+              "who_vi": "Bạn là cấp trên (thẻ vai trang 174)",
+              "ref": "ロールカード p.174",
+              "jp": "あなたは出張で、部下の出身国に行きます。一日休みがあるので観光したいです。どこがいいか相談してください。",
+              "vi": "Bạn đi công tác sang nước của cấp dưới. Bạn có một ngày rảnh và muốn đi tham quan. Hãy hỏi xin lời khuyên xem nên đi đâu."
+            }
+          ],
+          "hints": [
+            { "jp": "（A）どのようなところがお好きですか。", "vi": "(A) hỏi sở thích gián tiếp — ①" },
+            { "jp": "（A）〜がお好きなら、…はいかがでしょうか。", "vi": "(A) đề xuất theo sở thích — ②" },
+            { "jp": "（A）…をご覧になるなら、…へいらっしゃったらいかがでしょうか。", "vi": "(A) gợi ý nơi đến — ②" },
+            { "jp": "（A）…をご存じですか。", "vi": "(A) hỏi đã biết chỗ chưa — ③" },
+            { "jp": "（B）一日休みがあるんだけど、どこかいいところはないかな。", "vi": "(B) mở lời nhờ tư vấn" }
+          ],
+          "model": {
+            "track": "2-13",
+            "audio": "asset/audio/Track2-13.mp3",
+            "intro_vi": "Hội thoại mẫu in trong sách (trang 199, Track 2-13). Hãy tự dựng & nói trước theo thẻ vai, rồi mới mở ra đối chiếu. (B=部長 đi công tác Đài Bắc, thích sưu tầm đồ pha trà; A gợi ý đi Oanh Ca 鶯歌 — phố cổ bán đồ pha trà, cách ga Đài Bắc 40 phút tàu.)",
+            "intro_jp": "本の会話例(p.199・Track 2-13)です。先に自分で話してから、答え合わせに開いてください。(B=部長は台北へ出張。お茶の道具を集めている。A=陳さんが、お茶の道具を安く買える古い町「鶯歌(おうか)」を勧めます。)",
+            "lines": [
+              { "sp": "B", "jp": "あ、陳さん！今度出張で、また台北に行くことになったんですよ。", "vi": "À, anh Trần! Lần này tôi lại đi công tác Đài Bắc đấy." },
+              { "sp": "A", "jp": "そうですか。", "vi": "Vậy ạ." },
+              { "sp": "B", "jp": "仕事大変なんだけど、一日休みがあるから、どこかいいところはないかな。", "vi": "Công việc thì vất vả, nhưng có một ngày rảnh, không biết có chỗ nào hay không nhỉ." },
+              { "sp": "A", "jp": "台北は何度もいらっしゃったことがおありですよね。部長はどんなものがお好きですか。", "vi": "Đài Bắc chắc anh đã tới nhiều lần rồi nhỉ. Trưởng phòng thích những thứ như thế nào ạ?", "note_vi": "↳ いらっしゃったことがおあり (尊敬) + どんなものがお好きですか (①)" },
+              { "sp": "B", "jp": "そうね……。最近、お茶の道具を集めているんだけどね。安く買えるところがいいかな。", "vi": "Ừ nhỉ… Dạo này tôi đang sưu tầm đồ pha trà. Có chỗ nào mua được rẻ thì hay." },
+              { "sp": "A", "jp": "お茶の道具をご覧になるなら、鶯歌はいかがでしょうか。", "vi": "Nếu anh muốn ngắm đồ pha trà thì Oanh Ca (鶯歌) thấy thế nào ạ?", "note_vi": "↳ ご覧になるなら…はいかがでしょうか (②)" },
+              { "sp": "B", "jp": "おうか？", "vi": "Oanh Ca à?" },
+              { "sp": "A", "jp": "ええ、台北駅から電車で40分なんですけど、古い町でお茶の道具を売っているお店がいっぱいあるんです。ご存じですか。", "vi": "Vâng, đi tàu từ ga Đài Bắc tầm 40 phút ạ, là một phố cổ có rất nhiều tiệm bán đồ pha trà. Anh có biết chỗ đó không ạ?", "note_vi": "↳ ご存じですか (③)" },
+              { "sp": "B", "jp": "ううん、知らない……鶯歌ね？行ってみる。ありがとう。", "vi": "Không, tôi chưa biết… Oanh Ca à? Để tôi thử đến xem. Cảm ơn anh." }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 会話の例 (hội thoại mẫu): Track 2-13 (trang 199) — đã nhúng ngay dưới tình huống. Bấm \"📖 Xem hội thoại mẫu\" để đối chiếu sau khi đã tự nói.",
+      "answerRef_jp": "会話の例:Track 2-13(p.199)。シナリオの下にあります。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "exercise",
+      "title": "✉️ やってみましょう ② メールを書いてみましょう — Viết email trả lời cấp trên (trang 105)",
+      "page": 105,
+      "intro": "高橋部長 gửi mail nhờ Chen (陳さん) cho lời khuyên: sắp đi công tác Đài Bắc, sẽ tặng quà Nhật cho ông Trương (張さん) bên đối tác — ông Trương từng du học Nhật, rất hiểu Nhật Bản, vậy nên tặng quà gì? Hãy điền 2 chỗ trống trong thư trả lời cho lịch sự.\n\n【Mail đến — 高橋部長】\n陳さん／先ほどはありがとうございました。今度の台北出張では、取引先の広栄商事の張さんと会いますが、そのときに日本のおみやげをお渡ししようと考えています。張さんは日本留学の経験もあって、日本のことはよくご存じだと思いますが、どんなおみやげがいいと思いますか。すみませんが、アドバイスをお願いします。／高橋",
+      "intro_jp": "高橋部長からメールが来ました。ていねいに返事を書いてください。(高橋部長は台北出張で取引先・広栄商事の張さんに日本のおみやげを渡したい。張さんは日本留学の経験があり日本をよくご存じ。何がいいか?) 下の返信の①②を埋めましょう。答え→p.199。",
+      "instruction": "高橋部長からメールが来ました。ていねいに返事を書いてください。",
+      "instruction_vi": "Điền 2 chỗ trống ①② trong thư trả lời sao cho lịch sự (dùng ② đề xuất 「…なったらいかがでしょうか」 và ④/③ 「思われる・存じます」). Đáp án → trang 199.",
+      "note": "💡 ① đề xuất món quà bằng 「お買いになったらいかがでしょうか」; ② lý do, dùng 尊敬語 「思われる」 ＋ 「と存じます」 (謙譲). Đáp án theo trang 199.",
+      "items": [
+        {
+          "num": "メール",
+          "context": "高橋部長／メールを拝見しました。おみやげの件ですが、準備なさるなら、【①　　】。日本に留学していた方なら【②　　】と存じます。ご検討いただければ幸いです。／陳",
+          "context_vi": "Thư trả lời của 陳: 「Thưa trưởng phòng Takahashi, tôi đã đọc mail. Về chuyện quà, nếu anh chuẩn bị thì ①___. Với người từng du học Nhật thì ②___, tôi nghĩ vậy ạ. Mong anh xem xét.」",
+          "subAnswers": [
+            { "num": "①", "answer": "日本人がよく食べている食べ物をお買いになったらいかがでしょうか", "answer_vi": "Gợi ý: nên mua món ăn mà người Nhật hay ăn → đề xuất 「お買いになったらいかがでしょうか」 (尊敬 + đề xuất)." },
+            { "num": "②", "answer": "日本の普通の食べ物が懐かしいと思われる", "answer_vi": "Lý do: (người ấy) sẽ thấy nhớ những món ăn bình thường của Nhật → 「思われる」 (尊敬) ＋ câu thư đã có sẵn 「と存じます」 (謙譲)." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Tổng hợp từ vựng Bài 11 (trang 106)",
+      "page": 106,
+      "intro": "Bảng từ vựng của cả Bài 11 (11課), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.\nNhiều mục là cặp 「từ ＝ cách giải nghĩa quen thuộc」 — hiểu nghĩa qua từ đã biết.",
+      "intro_jp": "11課の語彙タンク(p.106)。出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        { "jp": "海外", "kana": "かいがい", "vi": "Nước ngoài / hải ngoại (＝（日本にとっての）外国)", "note": "📖 trang 100 — 「海外に行きたい」." },
+        { "jp": "プーケット", "kana": "ぷーけっと", "vi": "Phuket (đảo du lịch của Thái Lan)", "note": "📖 trang 100 — 「プーケットなどはいかがでしょうか」." },
+        { "jp": "タイ", "kana": "たい", "vi": "Thái Lan (Thailand)", "note": "📖 trang 100 — 「プーケット？タイだっけ？」." },
+        { "jp": "直行便", "kana": "ちょっこうびん", "vi": "Chuyến bay thẳng (direct flight)", "note": "📖 trang 100 — 「直行便なら6時間ぐらい」." },
+        { "jp": "実は", "kana": "じつは", "vi": "Thật ra / thực ra (in fact / actually)", "note": "📖 trang 100 — 「実は、長い時間の飛行機が苦手で」." },
+        { "jp": "苦手", "kana": "にがて", "vi": "Không giỏi / ngại / sợ (làm gì) (not good at / dislike)", "note": "📖 trang 100 — 「飛行機が苦手で」." },
+        { "jp": "文化体験", "kana": "ぶんかたいけん", "vi": "Trải nghiệm văn hoá (cultural experience)", "note": "📖 trang 101 — 「日本文化体験なら」 (②)." },
+        { "jp": "座禅", "kana": "ざぜん", "vi": "Toạ thiền / ngồi thiền (kiểu thiền Zen) (seated meditation in Zen)", "note": "📖 trang 101 — 「座禅をなさったら」 (②)." },
+        { "jp": "欠席する", "kana": "けっせきする", "vi": "Vắng mặt (to be absent)", "note": "📖 trang 101 — 「ご病気でご欠席です」 (④)." },
+        { "jp": "製品", "kana": "せいひん", "vi": "Sản phẩm (product / manufactured good)", "note": "📖 trang 102 — 「アスク社の製品」 (練習②)." },
+        { "jp": "おみやげ", "kana": "おみやげ", "vi": "Quà / đặc sản (souvenir / gift)", "note": "📖 trang 102 — 「おみやげを買う」 (練習②)." },
+        { "jp": "温泉", "kana": "おんせん", "vi": "Suối nước nóng / onsen (hot spring)", "note": "📖 trang 102 — 「海と温泉を楽しむ」 (練習②)." },
+        { "jp": "グラフ", "kana": "ぐらふ", "vi": "Biểu đồ / đồ thị (graph)", "note": "📖 trang 102 — 「グラフを作る」 (練習②)." },
+        { "jp": "ソフト", "kana": "そふと", "vi": "Phần mềm (software)", "note": "📖 trang 102 — 「このソフトを使う」 (練習②)." },
+        { "jp": "夜景", "kana": "やけい", "vi": "Cảnh đêm (night view)", "note": "📖 trang 102 — 「夜景を見る」 (練習②)." },
+        { "jp": "テーマ", "kana": "てーま", "vi": "Chủ đề / đề tài (theme / subject / topic)", "note": "📖 trang 102 — 「先生の研究テーマ」 (練習③)." },
+        { "jp": "釜山", "kana": "プサン", "vi": "Busan (thành phố cảng của Hàn Quốc)", "note": "📖 trang 103 — 「釜山なら、1時間ぐらい」." },
+        { "jp": "フェリー", "kana": "ふぇりー", "vi": "Phà (ferry)", "note": "📖 trang 104 — 「大阪から出るフェリー」 (スタイル)." },
+        { "jp": "台北", "kana": "タイペイ", "vi": "Đài Bắc (Taipei)", "note": "📖 trang 105 — 「台北出張」 (メール)." },
+        { "jp": "取引先", "kana": "とりひきさき", "vi": "Đối tác / khách hàng làm ăn (client / customer)", "note": "📖 trang 105 — 「取引先の広栄商事の張さん」 (メール)." },
+        { "jp": "〜の件", "kana": "〜のけん", "vi": "Việc / vấn đề về ~ (the matter of ...)", "note": "📖 trang 105 — 「おみやげの件ですが」 (メール)." },
+        { "jp": "ご検討いただければ幸いです", "kana": "ごけんとういただければさいわいです", "vi": "Rất mong anh/chị xem xét cho ạ (I hope you'll consider it)", "note": "📖 trang 105 — cụm kết thư lịch sự." }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "💡 コラム: 猫に敬語? — Có dùng kính ngữ với… con mèo không? (trang 107)",
+      "content": "Khi nói về GIA ĐÌNH của người trên, ta phải dùng kính ngữ. Vậy khi nói về CON VẬT NUÔI trong nhà người ấy thì sao?\nNếu bạn hỏi 「先生のお宅のお猫様はどのような食べ物がお好きですか」 (Quý mèo nhà thầy thích dùng món gì ạ?) thì… chắc chắn thầy sẽ phá lên cười.\n👉 Về cơ bản, KHÔNG dùng kính ngữ với động vật. Hãy nói bình thường: 「先生のお宅の猫はどんな食べ物が好きですか」 (Con mèo nhà thầy thích ăn gì ạ?).\n\n🔑 Ghi nhớ: kính ngữ nâng CON NGƯỜI được tôn trọng (và gia đình họ), chứ không nâng đồ vật hay con vật. Lạm dụng (お猫様・お好き cho con mèo) thành ra buồn cười.",
+      "content_jp": "目上の人の家族について話すときは、敬語を使わなければなりません。では、その人のうちのペットの話をするときは、どうすればいいでしょうか。\n「先生のお宅のお猫様はどのような食べ物がお好きですか」と言ったら……？きっと、その先生は笑ってしまうでしょう。\n👉 基本的に、動物には敬語を使いません。「先生のお宅の猫はどんな食べ物が好きですか」と言いましょう。\n\n🔑 敬語は人(とその家族)を高める言い方。物や動物は高めません。使いすぎる(お猫様・お好き)とおかしくなります。"
+    },
+    {
+      "type": "tips",
+      "title": "📚 Tổng kết Bài 11 + Bước tiếp theo",
+      "content": "🎯 Tổng kết Bài 11 (11課 相談を受ける — tiếp nhận tư vấn / cho lời khuyên):\n• ① 希望や好みを聞く — KHÔNG hỏi thẳng 「〜たいですか」 với người trên. Dùng động từ 尊敬語 (召し上がりますか) hoặc 「どのような〜がお好きですか」.\n• ② 提案する・勧める — nêu điều kiện 「〜なら」 rồi đề xuất 「…はいかがでしょうか」／「…なさったらいかがでしょうか」. ⚠️ 「とか」 không lịch sự → dùng 「など」.\n• ③ ご存じですか ↔ 存じております / 存じ上げております — hỏi người trên 'có biết' → 「ご存じですか」; tự đáp 'biết' → 「存じております」 (vật・sự việc) / 「存じ上げております」 (CON NGƯỜI).\n• ④ ご〜です — 「ご＋漢語＋です」 làm việc như 尊敬語: 「何かご心配ですか」「ご病気でご欠席です」「ご出席ですか（＝出席されますか）」.\n• 💡 Cốt lõi: tiếp nhận tư vấn = hỏi sở thích GIÁN TIẾP, đề xuất khéo theo điều kiện/nỗi lo của người trên, KHÔNG dồn ép. Yun ở p.100 hỏi thẳng & dồn ép; p.103 nắm nỗi lo (sợ bay xa) nên gợi ý Busan gần → thành công.\n• 💡 コラム 猫に敬語?: kính ngữ nâng con người, KHÔNG nâng đồ vật/động vật (「お猫様」 nghe buồn cười).\n\n📖 Tham chiếu trong sách:\n• Đáp án 練習①〜③ (Track 2-08〜2-10) → trang 198.\n• Đáp án チェック, スタイル (Track 2-12) → trang 198–199. (チェック: 1)c 2)b 3)b 4)①c ②c)\n• 会話の例 やってみましょう①: Track 2-13 → trang 199 — đã nhúng trong mục roleplay.\n• メール (やってみましょう②) đáp án → trang 199.\n• ロールカード: A (部下) → p.171, B (上司) → p.174.\n• 語彙タンク (p.106): 海外, 直行便, 苦手, 座禅, 取引先, 〜の件, ご検討いただければ幸いです…\n\n➡️ Bài tiếp theo: 12課「スピーチをする」 (trang 108) — phát biểu / diễn thuyết trước nhiều người: câu mở đầu, hỏi tương tác khán giả, trình bày, câu kết.",
+      "content_jp": "🎯 11課「相談を受ける」のまとめ:\n• ① 希望や好みを聞く:目上の人に「〜たいですか」と直接聞かない。尊敬語の動詞(召し上がりますか)や「どのような〜がお好きですか」を使う。\n• ② 提案する・勧める:「〜なら」で条件を示し、「…はいかがでしょうか」「…なさったらいかがでしょうか」で提案。⚠️「とか」はていねいでない→「など」。\n• ③ ご存じですか↔存じております/存じ上げております:聞くとき「ご存じですか」、答えるとき物・事柄は「存じております」、人は「存じ上げております」。\n• ④ ご〜です:「ご＋漢語＋です」で尊敬語と同じ働き(「何かご心配ですか」「ご病気でご欠席です」「ご出席ですか」)。\n• 💡 ポイント:相談を受けるときは、好みを遠回しに聞き、相手の条件・不安に合わせてていねいに提案し、追い詰めない(p.100は直接的・ぶしつけ↔p.103は不安をくみ取り成功)。\n• 💡 コラム「猫に敬語?」:敬語は人を高める。物や動物には使わない(「お猫様」はおかしい)。\n\n📖 本の参照:練習①〜③(Track 2-08〜2-10)→p.198、チェック・スタイル(Track 2-12)→p.198–199(チェック:1)c 2)b 3)b 4)①c ②c)、会話の例(Track 2-13)→p.199、メール→p.199、ロールカードA(部下)=p.171/B(上司)=p.174。\n➡️ 次は12課「スピーチをする」(p.108)。"
+    }
+  ]
+}

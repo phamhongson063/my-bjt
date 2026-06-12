@@ -1,0 +1,598 @@
+{
+  "id": "L14",
+  "order": 14,
+  "title": "13課 面接を受ける",
+  "titleVi": "Bài 13 — Đi phỏng vấn (xin việc / nhập học)",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 40,
+  "intro": "Bài 13 (13課) — Chương 2. Tình huống: ユン (Yun) đi phỏng vấn tuyển dụng tại một công ty; đây là lần đầu cô phỏng vấn bằng tiếng Nhật.\nỞ bản 「できますか?」, ユン (1) tự giới thiệu cộc lốc 「自己紹介します！」, kể kinh nghiệm bằng 〜てきました; (2) trả lời động cơ ứng tuyển kiểu 'thích phim Nhật, thích đạo diễn Kurosawa' — quá đời thường, không nối được với công ty; (3) khi bị hỏi 「敬語は大丈夫ですか」 thì ấp úng 「あ、えーと……きっと大丈夫です。役に立ちます。絶対。」 — vừa lấp đầy 'えーと' vừa khoe quá đà → không PR được bản thân.\nBài này học cách ĐI PHỎNG VẤN bằng keigo: tự giới thiệu, kể quá trình / kinh nghiệm khiêm nhường, trả lời 志望動機 (động cơ ứng tuyển) và việc muốn làm bằng văn trang trọng.\n\n🎯 Mục tiêu — 6 mẫu (trang 117–118):\n① 「〜てまいりました」(=「〜てくる」) — kể quá trình / kinh nghiệm bằng thể khiêm nhường: 「高校生のときから日本語の勉強をしてまいりました」.\n② 「〜ておりますN」 — dùng 「〜ております」 (khiêm nhường) bổ nghĩa cho danh từ: 「私が研究しておりますテーマは…」.\n③ 「〜次第です」(≒「〜んです」) — giải thích lý do / hoàn cảnh một cách trang trọng: 「…と思い、…感じた次第です」.\n④ 面接でよく使う改まった言い方 — đổi từ ngữ đời thường sang trang trọng: すごく→大変・非常に, どんな→どのような, 〜したいです→〜できたらと思います… (→ phụ lục p.177 / L23).\n⑤ 面接の自己紹介 — bộ khung tự giới thiệu chuẩn khi phỏng vấn (あいさつ → と申します → 来日・経歴 → 担当業務 → よろしく).\n⑥ 面接のときに気をつけたいこと — đáp 「はい」 trước rồi mới trả lời; tránh 「えーと」「そうですねえ」; PR khiêm tốn (đừng lạm dụng 「〜できます！」); đừng để bị 'dụ' đổi sang thể thường khi 面接官 hỏi kiểu casual.",
+  "intro_jp": "第2章 13課。ユンさんは、会社の採用面接を受けます。日本語の面接は初めてです。\n「できますか?」では、ユンさんは(1)「自己紹介します！」とぶっきらぼうに始め、経歴を「〜てきました」で言い、(2)志望動機を「日本の映画が好きで…黒澤明監督の作品が一番好きです」と個人的な好みで答え、御社につなげられず、(3)「敬語は大丈夫ですか」と聞かれて「あ、えーと……きっと大丈夫です。役に立ちます。絶対。」と、フィラーと言いすぎで、きちんとアピールできませんでした。\nこの課で、面接を受けるときの敬語を学びます。自己紹介、経歴の述べ方(謙譲)、志望動機ややりたいことの答え方(改まった言い方)です。\n\n🎯 学習項目(p.117–118):\n① 「〜てまいりました」(=「〜てくる」)\n② 「〜ておりますN」\n③ 「〜次第です」(≒「〜んです」)\n④ 面接でよく使う改まった言い方(すごく→大変・非常に/どんな→どのような/〜したいです→〜できたらと思います。→p.177)\n⑤ 面接の自己紹介\n⑥ 面接のときに気をつけたいこと(「はい」と返事をしてから答える/「えーと」「そうですねえ」を言わない/謙虚にアピール/つられない)",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — ユン phỏng vấn nhưng cộc lốc, trả lời đời thường & khoe quá đà (trang 116)",
+      "page": 116,
+      "image": "books/978-4866395708/images/116_1.jpg",
+      "imageAlt": "Minh hoạ trang 116 — Yun ngồi đối diện ba người phỏng vấn (面接官) bên kia bàn; các 面接官 vẻ bối rối/nhíu mày.",
+      "imageCaption": "Minh hoạ trang 116 — Yun phỏng vấn lần đầu bằng tiếng Nhật nhưng không PR được bản thân.",
+      "scene": "ユンさんは、会社の採用面接を受けます。日本語の面接は初めてです。\n(Yun đi phỏng vấn tuyển dụng. Đây là lần đầu cô phỏng vấn bằng tiếng Nhật. Đây là bản CHƯA đạt — Yun tự giới thiệu cộc lốc, trả lời động cơ quá đời thường, và khoe quá đà nên không gây được ấn tượng. Bản chuẩn xem ở 「これでOK!」 trang 119.)",
+      "lines": [
+        { "speaker": "面接官", "jp": "本日はわざわざお越しくださってありがとうございます。おかけください。", "vi": "Cảm ơn cô hôm nay đã không quản đường xa đến đây. Mời cô ngồi." },
+        { "speaker": "ユン", "jp": "はい……本日は、ありがとうございます。自己紹介します！", "vi": "Vâng… Hôm nay, xin cảm ơn. Tôi xin tự giới thiệu! (⚠️ 「自己紹介します！」 cộc lốc, thiếu mở đầu → nên là 「自己紹介をさせていただきます」)" },
+        { "speaker": "面接官", "jp": "あ、はい。", "vi": "À, vâng." },
+        { "speaker": "ユン", "jp": "ユン・ソヨンと申します。昨年、日本にまいりました。どうぞよろしくお願いいたします。", "vi": "Tôi tên là Yun So-yeon. Năm ngoái tôi đã sang Nhật. Rất mong được giúp đỡ. (⚠️ tự giới thiệu quá ngắn, chưa nêu trường lớp / chuyên ngành / kinh nghiệm)" },
+        { "speaker": "面接官", "jp": "今、大学4年生でいらっしゃるんですよね。今回、当社の採用試験にどのような動機で応募されたんですか。", "vi": "Hiện cô đang là sinh viên năm 4 đúng không? Lần này cô ứng tuyển kỳ thi tuyển dụng của công ty chúng tôi với động cơ thế nào?" },
+        { "speaker": "ユン", "jp": "はい。日本の映画が好きで、研究をしてきました。日本映画の中で黒澤明監督の作品が一番好きです。それで応募したんです。", "vi": "Vâng. Tôi thích phim Nhật nên đã nghiên cứu. Trong phim Nhật tôi thích nhất tác phẩm của đạo diễn Kurosawa Akira. Vậy nên tôi ứng tuyển ạ. (⚠️ quá đời thường: 「好きです」「〜してきました」「〜たんです」 → chưa nối được với công ty, chưa dùng 〜てまいりました/次第です)" },
+        { "speaker": "面接官", "jp": "……なるほど。日本語でする仕事ばかりですけど……敬語は大丈夫ですか。", "vi": "…Ra vậy. Toàn là công việc làm bằng tiếng Nhật đấy… kính ngữ của cô ổn chứ?" },
+        { "speaker": "ユン", "jp": "あ、えーと……はい。今勉強しています。きっと大丈夫です。役に立ちます。絶対。はい。", "vi": "À, ưmmm… Vâng. Giờ tôi đang học. Chắc chắn ổn ạ. Tôi sẽ có ích. Tuyệt đối. Vâng. (⚠️ 「えーと」 lấp filler; 「きっと大丈夫です」「絶対」 khoe quá đà → phản tác dụng (逆効果); nên khiêm tốn 「少しでもお役に立てたらと思います」)" },
+        { "speaker": "面接官", "jp": "はあ……。", "vi": "Haa… (vẻ ngao ngán)" },
+        { "speaker": "—", "jp": "ユンさんは、面接できちんとアピールすることができませんでした。", "vi": "Yun đã không thể PR bản thân một cách đàng hoàng tại buổi phỏng vấn." }
+      ],
+      "vocabHighlight": [
+        "「自己紹介します！」 → 「自己紹介をさせていただきます」 (⑤)",
+        "「研究をしてきました」 → 「研究を続けてまいりました」 (①)",
+        "「(好きで)…応募したんです」 → 「…興味深く感じ、応募いたしました次第です」 (③)",
+        "「えーと」「絶対」「きっと大丈夫です」 → bỏ filler, PR khiêm tốn (⑥)",
+        "「役に立ちます」 → 「少しでもお役に立てたらと思います」 (④⑥)"
+      ],
+      "note": "Cảnh dẫn vào Bài 13: ĐI PHỎNG VẤN. Yun sai ở: (1) mở đầu cộc lốc 「自己紹介します！」; (2) kể kinh nghiệm bằng 〜てきました, tự giới thiệu quá ngắn; (3) trả lời động cơ quá đời thường (好きです), không nối với công ty; (4) ấp úng 「えーと」 + khoe quá đà 「絶対」「きっと大丈夫」. 6 mẫu ①〜⑥ bên dưới dạy cách PR khiêm tốn & trang trọng; bản chuẩn xem ở 「これでOK!」 (trang 119).",
+      "note_jp": "この課では、面接の敬語を勉強します。ユンさんは(1)「自己紹介します！」とぶっきらぼう、(2)経歴を「〜てきました」で短く、(3)志望動機を「好きで」と個人的に答え御社につなげられず、(4)「えーと」と言いよどみ「絶対」「きっと大丈夫」と言いすぎ、が問題です。①〜⑥で謙虚で改まったアピールを学び、正しい例は「これでOK!」(p.119)で確認します。"
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ① 「〜てまいりました」 — Kể quá trình / kinh nghiệm khiêm nhường (trang 117)",
+      "page": 117,
+      "items": [
+        {
+          "pattern": "[Vて] + まいりました （「〜てまいります」=「〜てくる／〜ていく」 khiêm nhường）",
+          "patternVi": "「〜てまいりました」 = 「〜てきました」 ở thể khiêm nhường — kể việc mình đã làm / tích luỹ từ trước đến nay.",
+          "explanation": "「まいる」 là khiêm nhường ngữ (謙譲語) của 「くる／いく」. Gắn sau 「〜て」 để kể quá trình, kinh nghiệm mình đã làm liên tục đến hiện tại một cách khiêm tốn: 「〜てまいりました」 = 「〜てきました」 (lịch sự hơn). Rất hay dùng khi nói về học vấn / kinh nghiệm trong phỏng vấn.",
+          "explanation_jp": "「まいる」は「くる／いく」の謙譲語です。「〜て」に付けて、これまで続けてきたこと・経験を謙虚に述べます。「〜てまいりました」＝「〜てきました」(よりていねい)。面接で学歴・経歴を言うときによく使います。",
+          "examples": [
+            { "jp": "高校生のときから日本語の勉強をしてまいりました。", "vi": "Tôi đã học tiếng Nhật từ hồi cấp ba đến nay." },
+            { "jp": "私はこれまで、通訳の仕事にたずさわってまいりました。", "vi": "Từ trước đến nay tôi đã làm công việc phiên dịch." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ② 「〜ておりますN」 — Thể khiêm nhường bổ nghĩa cho danh từ (trang 117)",
+      "page": 117,
+      "items": [
+        {
+          "pattern": "[Vて] + おります + N （「〜ているN」 khiêm nhường）",
+          "patternVi": "「〜ております」 = 「〜ています」 (khiêm nhường) dùng để bổ nghĩa (định ngữ) cho danh từ phía sau.",
+          "explanation": "「おる」 là khiêm nhường ngữ của 「いる」. 「〜ております」 = 「〜ています」 ở thể khiêm tốn, có thể đặt TRƯỚC danh từ để bổ nghĩa: 「私が研究しておりますテーマ」 = 「私が研究しているテーマ」 (đề tài mà tôi đang nghiên cứu). Nói về việc của bản thân khi phỏng vấn thì dùng dạng này cho khiêm nhường.",
+          "explanation_jp": "「おる」は「いる」の謙譲語です。「〜ております」＝「〜ています」(謙譲)で、名詞の前に置いて修飾できます。「私が研究しておりますテーマ」＝「私が研究しているテーマ」。面接で自分のことを言うときに使います。",
+          "examples": [
+            { "jp": "私が研究しておりますテーマは、日本語の敬語についてです。", "vi": "Đề tài mà tôi đang nghiên cứu là về kính ngữ tiếng Nhật." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ③ 「〜次第です」 — Giải thích lý do / hoàn cảnh trang trọng (trang 117)",
+      "page": 117,
+      "items": [
+        {
+          "pattern": "[普通形] + 次第です （≒「〜んです／〜というわけです」）",
+          "patternVi": "「〜次第です」 ≒ 「〜んです」 — giải thích lý do / hoàn cảnh dẫn đến sự việc, nhưng trang trọng hơn nhiều.",
+          "explanation": "「〜次第です」 mang nghĩa gần giống 「〜んです」 (giải thích lý do, hoàn cảnh, kết quả), nhưng là cách nói rất trang trọng, hay dùng trong phỏng vấn / business để thuật lại 'vì thế mà tôi đã…'. Thường đứng cuối câu sau một chuỗi lý do.",
+          "explanation_jp": "「〜次第です」は「〜んです」とだいたい同じ意味(理由・事情・経緯の説明)ですが、とても改まった言い方です。面接やビジネスで「それで〜した」という経緯を述べるときに、文末で使います。",
+          "examples": [
+            { "jp": "御社のビジネスは、私の研究テーマと重なっていると思い、大変興味深く感じた次第です。", "vi": "Tôi thấy lĩnh vực kinh doanh của quý công ty trùng với đề tài nghiên cứu của mình nên đã cảm thấy vô cùng thú vị (mà ứng tuyển)." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ④ 面接でよく使う改まった言い方 — Đổi từ ngữ đời thường sang trang trọng (trang 117)",
+      "page": 117,
+      "items": [
+        {
+          "pattern": "ふつうの言い方 → 面接の改まった言い方",
+          "patternVi": "Trong phỏng vấn, đổi các từ / cách nói đời thường sang dạng trang trọng tương đương.",
+          "explanation": "Cùng một ý, nhưng phỏng vấn cần dùng từ ngữ trang trọng hơn. Học thuộc các cặp đổi hay dùng: 「おもしろい」→「興味深い」, 「すごく・とても」→「大変・非常に」, 「どんな」→「どのような」, 「〜したいです」→「〜できたらと思います / 〜できたらと考えております」.",
+          "explanation_jp": "同じ内容でも、面接ではより改まったことばを使います。「おもしろい」→「興味深い」、「すごく・とても」→「大変・非常に」、「どんな」→「どのような」、「〜したいです」→「〜できたらと思います／〜できたらと考えております」など、よく使う言い換えを覚えましょう。",
+          "warning": "📌 Các cặp đổi khác (今日→本日, 約→およそ…) xem phụ lục 「改まった言い方」 trang 177 (sẽ số hoá ở L23).",
+          "warning_jp": "📌 そのほかの改まった言い方は、付録「改まった言い方」(p.177／L23)を参照。",
+          "examples": [
+            { "jp": "「〜についておもしろいと思いました」 → 「〜について興味深く感じました」", "vi": "...thấy thú vị → ...cảm thấy rất thú vị / sâu sắc" },
+            { "jp": "「すごく」「とても」 → 「大変」「非常に」", "vi": "rất / cực kỳ → vô cùng / đặc biệt" },
+            { "jp": "「どんな」 → 「どのような」", "vi": "như thế nào / loại nào → ...(trang trọng)" },
+            { "jp": "「〜できたらいいなと考えています」 → 「〜できたらと考えております」", "vi": "mong làm được thì hay → mong có thể làm được (khiêm nhường)" },
+            { "jp": "「〜くれたらいいなと思います」 → 「〜くれたらと考えております」", "vi": "mong (ai đó) làm cho → ...(trang trọng)" },
+            { "jp": "「〜したいです」 → 「〜できたらと思います」", "vi": "muốn làm → mong có thể làm (khiêm tốn, không áp đặt)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🪪 ⑤ 面接の自己紹介 — Mẫu tự giới thiệu khi phỏng vấn (trang 117)",
+      "page": 117,
+      "items": [
+        {
+          "pattern": "あいさつ → 「〜と申します」 → 来日・経歴（〜てまいりました／ております） → 担当業務 → どうぞよろしくお願いいたします",
+          "patternVi": "Khung tự giới thiệu chuẩn: chào & cảm ơn → 「〜と申します」 → năm sang Nhật + học vấn/kinh nghiệm → công việc đang phụ trách → kết bằng 「どうぞよろしくお願いいたします」.",
+          "explanation": "Một bài tự giới thiệu khi phỏng vấn nên gồm: (1) cảm ơn vì có cơ hội phỏng vấn; (2) xin phép tự giới thiệu 「自己紹介をさせていただきます」 + tên 「〜と申します」; (3) năm sang Nhật (来日いたしまして) và học vấn / công việc đang làm (dùng 〜ております ②); (4) chốt 「どうぞよろしくお願いいたします」.",
+          "explanation_jp": "面接の自己紹介は、(1)機会へのお礼、(2)「自己紹介をさせていただきます」＋「〜と申します」、(3)来日した年・現在の学業や担当業務(「〜ております」②)、(4)「どうぞよろしくお願いいたします」で締める、という流れで構成します。",
+          "examples": [
+            { "jp": "本日は面接の機会をお作りくださいましてありがとうございます。", "vi": "Cảm ơn quý vị hôm nay đã tạo cho tôi cơ hội phỏng vấn." },
+            { "jp": "さっそくですが、自己紹介をさせていただきます。私はアレックス・スミスと申します。", "vi": "Xin phép vào luôn, tôi xin được tự giới thiệu. Tôi tên là Alex Smith." },
+            { "jp": "20XX年に来日いたしまして、現在、日本ムービーで、日本をはじめとするアジアの映画を海外に紹介する業務を担当しております。", "vi": "Tôi sang Nhật năm 20XX, hiện đang phụ trách công việc giới thiệu ra nước ngoài các bộ phim châu Á — trong đó có phim Nhật — tại công ty Nihon Movie." },
+            { "jp": "どうぞよろしくお願いいたします。", "vi": "Rất mong nhận được sự giúp đỡ ạ." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "⚠️ ⑥ 面接のときに気をつけたいこと — Những điều cần lưu ý khi phỏng vấn (trang 117–118)",
+      "page": 117,
+      "content": "Mấy điểm cần chú ý khi phỏng vấn:\n\n• Bị hỏi thì đáp 「はい」 trước rồi mới trả lời. Hạn chế nói 「えーと」「そうですねえ」 — hãy trả lời dứt khoát, rõ ràng.\n• PR bản thân càng khiêm tốn càng tốt. Nói 「〜できます！」 quá nhiều đôi khi phản tác dụng (逆効果). Ví dụ: 「お役に立ちます。」 → 「少しでもお役に立てたらと思います。」\n• 面接官 có khi dùng kính ngữ, có khi lại hỏi bằng thể thường (kiểu casual). ĐỪNG bị 'cuốn theo' (つられない) mà đổi sang thể thường — bạn vẫn trả lời bằng keigo.\n  Ví dụ câu hỏi casual của 面接官: 「なんでうちの会社を受けようと思ったの？」／「どんな仕事をしたいと思ってますか。」 → vẫn đáp bằng văn trang trọng (動機です／〜できたらと考えております).",
+      "content_jp": "面接のときに気をつけたいこと:\n\n• 質問されたら「はい」と返事をしてから答えましょう。「えーと」「そうですねえ」などはあまり言わないで、はっきり答えましょう。\n• できるだけ謙虚に自己アピールしましょう。「〜できます！」と言いすぎると、逆効果のときがあります。「お役に立ちます。」→「少しでもお役に立てたらと思います。」\n• 面接官は敬語を使ったり、他のスタイルで質問をしたりします。つられないように！\n  例:「なんでうちの会社を受けようと思ったの？」／「どんな仕事をしたいと思ってますか。」→ 敬語スタイルで答える。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習① 「どのようなN + かんたん尊敬語」で質問してみましょう (Track 2-21, trang 118)",
+      "page": 118,
+      "audio": "asset/audio/Track2-21.mp3",
+      "audioLabel": "Track 2-21 — 練習①",
+      "style": "speak",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。「どのようなN + かんたん尊敬語」で質問してみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Đổi 〈N で／を〉・〈động từ〉 thành câu hỏi của 面接官: 「どのような〈N〉で／を〈động từ + れる/られる〉んですか。」 (かんたん尊敬語 = れる/られる). Đáp án → trang 200.",
+      "note": "💡 かんたん尊敬語: する→される, 書く→書かれる, 辞める→辞められる, 作る→作られる. Đáp án theo trang 200 (Track 2-21).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "動機で・応募した",
+          "context_vi": "(cue) bằng động cơ · đã ứng tuyển",
+          "answer": "どのような動機で応募されたんですか。",
+          "answer_vi": "応募した → 応募された (れる/られる)."
+        },
+        {
+          "num": "1",
+          "context": "目的で・留学した",
+          "context_vi": "(cue) với mục đích · đã du học",
+          "answer": "どのような目的で留学されたんですか。",
+          "answer_vi": "留学した → 留学された."
+        },
+        {
+          "num": "2",
+          "context": "論文を・書いた",
+          "context_vi": "(cue) luận văn · đã viết",
+          "answer": "どのような論文を書かれたんですか。",
+          "answer_vi": "書いた → 書かれた."
+        },
+        {
+          "num": "3",
+          "context": "服を・デザインした",
+          "context_vi": "(cue) trang phục · đã thiết kế",
+          "answer": "どのような服をデザインされたんですか。",
+          "answer_vi": "デザインした → デザインされた."
+        },
+        {
+          "num": "4",
+          "context": "新商品を・開発した",
+          "context_vi": "(cue) sản phẩm mới · đã phát triển",
+          "answer": "どのような新商品を開発されたんですか。",
+          "answer_vi": "開発した → 開発された."
+        },
+        {
+          "num": "5",
+          "context": "理由で・前の会社を辞めた",
+          "context_vi": "(cue) vì lý do · đã nghỉ công ty cũ",
+          "answer": "どのような理由で前の会社を辞められたんですか。",
+          "answer_vi": "辞めた → 辞められた."
+        },
+        {
+          "num": "6",
+          "context": "方法で・この作品を作った",
+          "context_vi": "(cue) bằng phương pháp · đã làm tác phẩm này",
+          "answer": "どのような方法でこの作品を作られたんですか。",
+          "answer_vi": "作った → 作られた."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習② 「〜てまいりました」を使って言ってみましょう (Track 2-22, trang 118)",
+      "page": 118,
+      "audio": "asset/audio/Track2-22.mp3",
+      "audioLabel": "Track 2-22 — 練習②",
+      "style": "speak",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。「〜てまいりました」を使って言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Đổi 「〜てきた」 thành 「〜てまいりました」. Câu 1) và 3) còn đổi thêm 今日→本日, 去年→昨年. Đáp án → trang 200–201.",
+      "note": "💡 〜てきた → 〜てまいりました. Đổi kèm: 今日→本日, 去年→昨年. Đáp án theo trang 200–201 (Track 2-22).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "大学で研究を続けてきた",
+          "context_vi": "(cue) đã tiếp tục nghiên cứu ở đại học",
+          "answer": "大学で研究を続けてまいりました。",
+          "answer_vi": "続けてきた → 続けてまいりました."
+        },
+        {
+          "num": "1",
+          "context": "今日は自宅で準備してきた（→ 本日）",
+          "context_vi": "(cue) hôm nay đã chuẩn bị ở nhà (今日→本日)",
+          "answer": "本日は自宅で準備してまいりました。",
+          "answer_vi": "今日→本日; 準備してきた → 準備してまいりました."
+        },
+        {
+          "num": "2",
+          "context": "この5年間、日本で日本人の生活を観察してきた",
+          "context_vi": "(cue) 5 năm nay đã quan sát cuộc sống người Nhật ở Nhật",
+          "answer": "この5年間、日本で日本人の生活を観察してまいりました。",
+          "answer_vi": "観察してきた → 観察してまいりました."
+        },
+        {
+          "num": "3",
+          "context": "去年ヨーロッパでいくつかの工場を見学してきた（→ 昨年）",
+          "context_vi": "(cue) năm ngoái đã đi tham quan vài nhà máy ở châu Âu (去年→昨年)",
+          "answer": "昨年ヨーロッパでいくつかの工場を見学してまいりました。",
+          "answer_vi": "去年→昨年; 見学してきた → 見学してまいりました."
+        },
+        {
+          "num": "4",
+          "context": "研究が進んで、昔はわからなかったことが明らかになってきた",
+          "context_vi": "(cue) nghiên cứu tiến triển, những điều xưa chưa rõ nay dần sáng tỏ",
+          "answer": "研究が進んで、昔はわからなかったことが明らかになってまいりました。",
+          "answer_vi": "なってきた → なってまいりました."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — ユン tự giới thiệu chỉn chu, trả lời động cơ bằng 〜てまいりました・次第です (Track 2-23, trang 119)",
+      "page": 119,
+      "image": "books/978-4866395708/images/119_1.jpg",
+      "imageAlt": "Minh hoạ trang 119 — Yun ngồi tự tin trả lời, các 面接官 gật gù hài lòng, trên bàn có tấm ảnh/tài liệu.",
+      "imageCaption": "Minh hoạ trang 119 — Lần này Yun PR bản thân đàng hoàng và đậu phỏng vấn.",
+      "audio": "asset/audio/Track2-23.mp3",
+      "audioLabel": "Track 2-23 — これでOK!",
+      "scene": "Bản ĐÚNG: Yun mở đầu 「失礼いたします」 + cảm ơn cơ hội, tự giới thiệu đầy đủ (来日年 + 大学・専攻 + 〜ております ②), trả lời động cơ bằng 「研究を続けてまいりました」 (①) + 「応募いたしました次第です」 (③), và nói việc muốn làm bằng 「〜できたらと思っております／お役に立てたらと考えております」 (④).",
+      "lines": [
+        { "speaker": "面接官", "jp": "本日はわざわざお越しくださってありがとうございます。おかけください。", "vi": "Cảm ơn cô hôm nay đã không quản đường xa đến đây. Mời cô ngồi." },
+        { "speaker": "ユン", "jp": "はい、失礼いたします。……本日は面接の機会をくださいましてありがとうございます。ユン・ソヨンと申します。2010年に、日本にまいりまして、平成大学芸術学部映画学科で、日本映画研究を専攻しております。どうぞよろしくお願いいたします。", "vi": "Vâng, tôi xin phép. …Cảm ơn quý vị hôm nay đã cho tôi cơ hội phỏng vấn. Tôi tên là Yun So-yeon. Năm 2010 tôi sang Nhật, hiện đang chuyên ngành nghiên cứu điện ảnh Nhật Bản tại khoa Điện ảnh, Học viện Nghệ thuật, Đại học Heisei. Rất mong được giúp đỡ ạ. (⑤ tự giới thiệu đủ + ① まいりまして + ② 専攻しております)" },
+        { "speaker": "面接官", "jp": "今、大学4年生でいらっしゃるんですよね。今回、当社の採用試験にどのような動機で応募されたんですか。", "vi": "Hiện cô đang là sinh viên năm 4 đúng không? Lần này cô ứng tuyển kỳ thi tuyển dụng của công ty chúng tôi với động cơ thế nào?" },
+        { "speaker": "ユン", "jp": "はい。私は、アジアの、特に日本の映画をターゲットにして、研究を続けてまいりました。日本映画の海外輸出を多く手掛けていらっしゃる御社の事業内容を伺って興味深く感じ、応募いたしました次第です。", "vi": "Vâng. Tôi đã liên tục nghiên cứu, lấy phim châu Á — đặc biệt là phim Nhật — làm trọng tâm. Tôi được biết quý công ty thực hiện nhiều dự án xuất khẩu phim Nhật ra nước ngoài, cảm thấy rất thú vị nên đã ứng tuyển ạ. (① 続けてまいりました + 手掛けていらっしゃる(尊敬) + ③ 応募いたしました次第です)" },
+        { "speaker": "面接官", "jp": "なるほど。採用されたら、どのような仕事をしたいですか。", "vi": "Ra vậy. Nếu được tuyển, cô muốn làm công việc thế nào?" },
+        { "speaker": "ユン", "jp": "はい。世界の人々は、今、日本アニメに注目しています。しかし、私が研究しております日本の古い映画には、今のアニメの基本的な考え方があります。その良さをもっと紹介できたらと思っております。そして、世界の文化交流のお役に立てたらと考えております。", "vi": "Vâng. Hiện nay người khắp thế giới đang chú ý đến anime Nhật. Nhưng trong những bộ phim Nhật xưa mà tôi nghiên cứu lại chứa đựng tư duy nền tảng của anime ngày nay. Tôi mong có thể giới thiệu nhiều hơn cái hay đó. Và mong góp được chút sức cho giao lưu văn hoá thế giới. (② 研究しております + ④ 紹介できたらと思っております／お役に立てたらと考えております)" },
+        { "speaker": "—", "jp": "ユンさんは、きちんと自分をアピールして、面接に合格することができました。", "vi": "Yun đã PR bản thân đàng hoàng và đậu phỏng vấn." }
+      ],
+      "vocabHighlight": [
+        "失礼いたします／面接の機会をくださいましてありがとうございます — mở đầu (⑤)",
+        "2010年に日本にまいりまして／日本映画研究を専攻しております — 来日・経歴 (①②)",
+        "研究を続けてまいりました — ①",
+        "手掛けていらっしゃる御社の事業内容を伺って — 尊敬・謙譲 đúng vai",
+        "応募いたしました次第です — ③",
+        "紹介できたらと思っております／お役に立てたらと考えております — ④"
+      ],
+      "note": "So với bản 「できますか?」 (p.116): Yun (1) mở đầu lịch sự 「失礼いたします」 + cảm ơn cơ hội; (2) tự giới thiệu đủ (来日年 + 大学・専攻 + 〜ております); (3) kể quá trình bằng 「続けてまいりました」 và chốt động cơ bằng 「応募いたしました次第です」; (4) nói việc muốn làm bằng 「〜できたらと思っております／お役に立てたらと考えております」 khiêm tốn. Bảng đối chiếu ở mục kế tiếp.",
+      "note_jp": "p.116「できますか?」と比べて、ユンさんは(1)「失礼いたします」＋機会へのお礼で始め、(2)来日年・大学・専攻・「〜ております」で自己紹介し、(3)「続けてまいりました」「応募いたしました次第です」で動機を述べ、(4)「〜できたらと思っております／お役に立てたらと考えております」と謙虚にやりたいことを言いました。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh できますか → これでOK (p.116 ↔ p.119)",
+      "intro": "Bảng TỔNG HỢP đối chiếu buổi phỏng vấn CHƯA đạt (p.116 「できますか?」) ↔ bản ĐÚNG (p.119 「これでOK!」), map theo các mẫu ①〜⑥. Gom từ 2 đoạn hội thoại phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.116「できますか?」とp.119「これでOK!」を①〜⑥で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "場面",
+        "sonkeigo": "✗ p.116 (できますか)",
+        "kenjougo": "✓ p.119 (これでOK)"
+      },
+      "rows": [
+        {
+          "plain": "始め方",
+          "plainVi": "mở đầu",
+          "sonkeigo": "はい……自己紹介します！",
+          "kenjougo": "失礼いたします。面接の機会をくださいましてありがとうございます。(⑤)"
+        },
+        {
+          "plain": "自己紹介",
+          "plainVi": "giới thiệu bản thân",
+          "sonkeigo": "昨年、日本にまいりました。(quá ngắn)",
+          "kenjougo": "2010年に日本にまいりまして、…映画学科で…研究を専攻しております。(①②)"
+        },
+        {
+          "plain": "志望動機",
+          "plainVi": "động cơ ứng tuyển",
+          "sonkeigo": "映画が好きで…一番好きです。それで応募したんです。",
+          "kenjougo": "研究を続けてまいりました。…御社の事業内容を伺って…応募いたしました次第です。(①③)"
+        },
+        {
+          "plain": "やりたい仕事",
+          "plainVi": "việc muốn làm",
+          "sonkeigo": "(うまく答えられない)",
+          "kenjougo": "その良さをもっと紹介できたらと思っております。お役に立てたらと考えております。(④)"
+        },
+        {
+          "plain": "受け答え",
+          "plainVi": "thái độ trả lời",
+          "sonkeigo": "あ、えーと……きっと大丈夫です。役に立ちます。絶対。(filler・言いすぎ)",
+          "kenjougo": "「はい」から始め、謙虚に「お役に立てたらと考えております」。(⑥)"
+        }
+      ],
+      "note": "Điểm cốt lõi: phỏng vấn = mở đầu lịch sự, tự giới thiệu đủ (来日年・学業・〜ております), kể kinh nghiệm bằng 「〜てまいりました」, giải thích động cơ bằng 「〜次第です」, nói nguyện vọng KHIÊM TỐN bằng 「〜できたらと思っております／お役に立てたらと考えております」. KHÔNG cộc lốc, KHÔNG filler 「えーと」, KHÔNG khoe quá đà 「絶対」.",
+      "note_jp": "ポイント:面接は、ていねいに始め、来日年・学業・「〜ております」で自己紹介し、「〜てまいりました」で経歴、「〜次第です」で動機、「〜できたらと思っております／お役に立てたらと考えております」で謙虚に希望を述べる。ぶっきらぼう・「えーと」・「絶対」の言いすぎはしない。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — Sửa bài PR bản thân sang keigo phỏng vấn (trang 120)",
+      "page": 120,
+      "instruction": "【　】の中のことばを、面接にふさわしい改まった言い方に直してください。",
+      "instruction_vi": "Đây là đoạn tự PR (ứng tuyển công ty game). Hãy sửa từng chỗ 【　】 sang văn phỏng vấn trang trọng. Đáp án → trang 201.",
+      "note": "📝 Đoạn gốc: 「私はゲームのプログラムの開発を続けて【①きました】。【②私が使っている】ソフトの開発を多く【③手掛けている】御社の事業内容を【④聞いて】【⑤すごくおもしろく】感じました。さらに、よりよいゲームソフトを【⑥開発できたらいいなと思っています】。」 Đáp án (p.201): ①まいりました ②私が使っております ③手掛けていらっしゃる ④伺って ⑤大変興味深く ⑥開発できたらと考えております.",
+      "items": [
+        {
+          "num": "①",
+          "context": "私はゲームのプログラムの開発を続けて【①きました】。",
+          "context_vi": "Tôi đã liên tục phát triển chương trình game.",
+          "base": "きました",
+          "answer": "まいりました",
+          "answer_vi": "〜てきました → 〜てまいりました (①)."
+        },
+        {
+          "num": "②",
+          "context": "【②私が使っている】ソフトの開発を多く…",
+          "context_vi": "...phần mềm mà tôi đang dùng...",
+          "base": "私が使っている",
+          "answer": "私が使っております",
+          "answer_vi": "〜ているN → 〜ておりますN (②)."
+        },
+        {
+          "num": "③",
+          "context": "…ソフトの開発を多く【③手掛けている】御社の…",
+          "context_vi": "...quý công ty thực hiện nhiều việc phát triển phần mềm...",
+          "base": "手掛けている",
+          "answer": "手掛けていらっしゃる",
+          "answer_vi": "việc của 御社 → 尊敬語: 手掛けている → 手掛けていらっしゃる."
+        },
+        {
+          "num": "④",
+          "context": "…御社の事業内容を【④聞いて】…",
+          "context_vi": "...nghe (biết) về lĩnh vực kinh doanh của quý công ty...",
+          "base": "聞いて",
+          "answer": "伺って",
+          "answer_vi": "聞く → 伺う (謙譲語)."
+        },
+        {
+          "num": "⑤",
+          "context": "…【⑤すごくおもしろく】感じました。",
+          "context_vi": "...cảm thấy rất thú vị.",
+          "base": "すごくおもしろく",
+          "answer": "大変興味深く",
+          "answer_vi": "すごくおもしろく → 大変興味深く (④)."
+        },
+        {
+          "num": "⑥",
+          "context": "さらに、よりよいゲームソフトを【⑥開発できたらいいなと思っています】。",
+          "context_vi": "Hơn nữa, tôi mong có thể phát triển phần mềm game tốt hơn.",
+          "base": "開発できたらいいなと思っています",
+          "answer": "開発できたらと考えております",
+          "answer_vi": "〜できたらいいなと思っています → 〜できたらと考えております (④)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "🗣️ スタイルを変えてみましょう — Đổi sang văn phỏng vấn trang trọng (Track 2-24, trang 120)",
+      "page": 120,
+      "audio": "asset/audio/Track2-24.mp3",
+      "audioLabel": "Track 2-24 — スタイルを変えてみましょう",
+      "style": "speak",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Đổi câu thường sang văn phỏng vấn: 「すごく〜・おもしろい」→「〜について大変興味深く感じました」; 「〜したいです」→「〜できたらと考えております」. Đáp án → trang 201.",
+      "note": "💡 〜がおもしろい／すごく好き → 〜について大変興味深く感じました. 〜したいです → 〜できたらと考えております. Đáp án theo trang 201 (Track 2-24).",
+      "items": [
+        {
+          "num": "例1",
+          "example": true,
+          "context": "日本へ来たとき、若者のファッションがすごくおもしろかったです。",
+          "context_vi": "(cue) khi sang Nhật, thời trang giới trẻ rất thú vị.",
+          "answer": "日本へ来たとき、若者のファッションについて大変興味深く感じました。",
+          "answer_vi": "すごくおもしろかった → について大変興味深く感じました."
+        },
+        {
+          "num": "例2",
+          "example": true,
+          "context": "少しでも困っている人々の役に立ちたいです。",
+          "context_vi": "(cue) muốn giúp được dù chỉ chút ít cho người đang khó khăn.",
+          "answer": "少しでも困っている人々のお役に立てたらと考えております。",
+          "answer_vi": "役に立ちたいです → お役に立てたらと考えております."
+        },
+        {
+          "num": "1",
+          "context": "子どものときから、電車などの乗り物がすごく好きでした。",
+          "context_vi": "(cue) từ nhỏ đã rất thích tàu điện và các phương tiện.",
+          "audioStart": 30,
+          "answer": "子どものときから、電車などの乗り物について大変興味深く感じました。",
+          "answer_vi": "すごく好きでした → について大変興味深く感じました（／感じております）."
+        },
+        {
+          "num": "2",
+          "context": "たたみの文化がおもしろいと思いました。",
+          "context_vi": "(cue) thấy văn hoá chiếu tatami thú vị.",
+          "audioStart": 46,
+          "answer": "たたみの文化について大変興味深く感じました。",
+          "answer_vi": "おもしろいと思いました → について大変興味深く感じました."
+        },
+        {
+          "num": "3",
+          "context": "日本に来て5年ですが、日本の着物文化がすごくおもしろいです。",
+          "context_vi": "(cue) sang Nhật 5 năm, văn hoá kimono Nhật rất thú vị.",
+          "audioStart": 58,
+          "answer": "日本に来て5年ですが、日本の着物文化について大変興味深く感じます。",
+          "answer_vi": "すごくおもしろいです → について大変興味深く感じます."
+        },
+        {
+          "num": "4",
+          "context": "私の国の文化を、日本の人々に紹介したいです。",
+          "context_vi": "(cue) muốn giới thiệu văn hoá nước tôi với người Nhật.",
+          "audioStart": 76,
+          "answer": "私の国の文化を、日本の人々に紹介できたらと考えております。",
+          "answer_vi": "紹介したいです → 紹介できたらと考えております."
+        },
+        {
+          "num": "5",
+          "context": "日本にいる間に、いろいろなことに挑戦したいです。",
+          "context_vi": "(cue) trong thời gian ở Nhật, muốn thử thách nhiều việc.",
+          "audioStart": 91,
+          "answer": "日本にいる間に、いろいろなことに挑戦できたらと考えております。",
+          "answer_vi": "挑戦したいです → 挑戦できたらと考えております."
+        },
+        {
+          "num": "6",
+          "context": "日本語が上手になるように、毎日少しでも勉強を続けていきたいです。",
+          "context_vi": "(cue) để tiếng Nhật giỏi lên, muốn mỗi ngày cố học thêm dù chút ít.",
+          "audioStart": 106,
+          "answer": "日本語が上手になるように、毎日少しでも勉強を続けていけたらと考えております。",
+          "answer_vi": "続けていきたいです → 続けていけたらと考えております."
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎤 やってみましょう 話してみましょう — Đóng vai phỏng vấn (採用面接 & アルバイト面接) (trang 121)",
+      "page": 121,
+      "intro": "Luyện đóng vai CẶP ĐÔI (A ↔ B) hai tình huống phỏng vấn. Dựng câu theo các 「💡 Gợi ý」 (mẫu đã học ①〜⑥) rồi nói; sau đó mở 「📖 Xem bài mẫu」 để đối chiếu. Role card chi tiết: thí sinh A → p.171, người phỏng vấn B → p.175.",
+      "intro_jp": "ペアで2つの面接をロールプレイします。「💡 ヒント」(①〜⑥の型)で組み立てて話し、「📖 会話の例」で確認しましょう。ロールカード:応募者A→p.171、面接官B→p.175。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう ① — 会社の採用面接",
+          "title_vi": "Phỏng vấn tuyển dụng của công ty",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "会社の採用面接を受ける人",
+              "who_vi": "Người đi phỏng vấn tuyển dụng công ty",
+              "ref": "ロールカード p.171",
+              "jp": "あなたは会社の採用試験の面接を受けます。面接官の質問に答えてください。",
+              "vi": "Bạn đi phỏng vấn kỳ tuyển dụng của công ty. Hãy trả lời câu hỏi của người phỏng vấn."
+            },
+            {
+              "side": "B",
+              "who_jp": "面接官",
+              "who_vi": "Người phỏng vấn",
+              "ref": "ロールカード p.175",
+              "jp": "あなたは面接官です。応募者のAさんに、来日の経緯・志望動機・採用後にしたい仕事などを質問してください。",
+              "vi": "Bạn là người phỏng vấn. Hãy hỏi thí sinh A về quá trình sang Nhật, động cơ ứng tuyển, công việc muốn làm sau khi được tuyển…"
+            }
+          ],
+          "hints": [
+            { "jp": "本日は面接の機会をくださいましてありがとうございます。〜と申します。", "vi": "mở đầu + tên — ⑤" },
+            { "jp": "〜年に日本にまいりまして、…で…を専攻しております。", "vi": "来日・経歴 — ①②" },
+            { "jp": "…御社の事業内容を伺って興味深く感じ、応募いたしました次第です。", "vi": "động cơ — ③" },
+            { "jp": "…できたらと思っております／お役に立てたらと考えております。", "vi": "việc muốn làm — ④" }
+          ],
+          "model": {
+            "refSection_vi": "📖 Bài mẫu ① chính là đoạn 「これでOK!」 (採用面接, Track 2-23) ở phía trên — sách ghi rõ 「①の会話の例は『これでOK!』を見てください」.",
+            "refSection_jp": "①の会話の例は「これでOK!」(採用面接・Track 2-23)を見てください。"
+          }
+        },
+        {
+          "label": "②",
+          "title_jp": "話してみましょう ② — アルバイトの面接（コンビニ）",
+          "title_vi": "Phỏng vấn việc làm thêm (cửa hàng tiện lợi)",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "アルバイトの面接を受ける人",
+              "who_vi": "Người đi phỏng vấn việc làm thêm",
+              "ref": "ロールカード p.171",
+              "jp": "あなたはコンビニのアルバイトの面接を受けます。仕事の内容について店長に聞いてください。あなたの状況を考えながら店長の質問に答えてください。",
+              "vi": "Bạn đi phỏng vấn việc làm thêm ở cửa hàng tiện lợi. Hãy hỏi cửa hàng trưởng về nội dung công việc, và trả lời câu hỏi của cửa hàng trưởng theo tình huống thực của bạn."
+            },
+            {
+              "side": "B",
+              "who_jp": "コンビニの店長",
+              "who_vi": "Cửa hàng trưởng cửa hàng tiện lợi",
+              "ref": "ロールカード p.175",
+              "jp": "あなたはコンビニの店長です。Aさんの質問に答えてください。それから、Aさんに勤務できる曜日・時間について質問してください。",
+              "vi": "Bạn là cửa hàng trưởng. Hãy trả lời câu hỏi của A, sau đó hỏi A có thể làm vào thứ mấy / khung giờ nào."
+            }
+          ],
+          "hints": [
+            { "jp": "〜を見て、アルバイト募集の件でお電話いたしました。〜と申します。", "vi": "gọi điện ứng tuyển" },
+            { "jp": "アルバイトに応募したいのですが、面接をお願いできますでしょうか。", "vi": "xin được phỏng vấn" },
+            { "jp": "販売を希望しておりますが、商品を並べる仕事もいたします。", "vi": "nguyện vọng công việc" },
+            { "jp": "経験はございませんが、力を尽くしたいと思います。", "vi": "chưa có kinh nghiệm nhưng sẽ cố hết sức" }
+          ],
+          "model": {
+            "track": "2-25",
+            "audio": "asset/audio/Track2-25.mp3",
+            "intro_vi": "📖 Bài mẫu ② (sách, trang 201, Track 2-25) — A (ライナー) phỏng vấn việc làm thêm ở コンビニ, B là 店長. Hãy tự nói trước rồi mở ra đối chiếu.",
+            "intro_jp": "会話の例②(p.201・Track 2-25)。A(ライナー)がコンビニのアルバイト面接を受け、Bは店長です。先に自分で話してから確認しましょう。",
+            "lines": [
+              { "sp": "B", "jp": "ご応募ありがとうございます。", "vi": "Cảm ơn bạn đã ứng tuyển." },
+              { "sp": "A", "jp": "よろしくお願いいたします。さっそくですが、自己紹介をさせていただきます。ライナーと申します。日本人の夫との結婚で、5年前に来日して、現在、平成大学経済学部で経営理論を勉強しています。あのー、こちらのお仕事の内容についてお聞きしたいのですが……。", "vi": "Rất mong được giúp đỡ ạ. Xin phép vào luôn, tôi xin tự giới thiệu. Tôi tên là Reiner. Vì kết hôn với chồng người Nhật nên 5 năm trước tôi sang Nhật, hiện đang học lý thuyết quản trị tại khoa Kinh tế, Đại học Heisei. À, tôi muốn hỏi về nội dung công việc ở đây ạ…" },
+              { "sp": "B", "jp": "そうですね。特にお願いしたいのは、商品を並べることなんです。販売は店員がしますので、足りなくなったところを、商品を倉庫から出して、並べてください。", "vi": "Để xem nào. Việc tôi muốn nhờ nhất là sắp xếp hàng hoá. Việc bán hàng đã có nhân viên làm, nên chỗ nào thiếu hàng thì bạn lấy hàng từ kho ra và xếp lên kệ giúp." },
+              { "sp": "A", "jp": "わかりました。", "vi": "Tôi hiểu rồi ạ." }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 会話の例: ① = 「これでOK!」 (採用面接, Track 2-23); ② = Track 2-25 (アルバイト面接 — trang 201). Role card: A p.171, B p.175. Tự nói trước rồi mới mở đối chiếu.",
+      "answerRef_jp": "会話の例:①は「これでOK!」(採用面接・Track 2-23)、②はTrack 2-25(アルバイト面接・p.201)。ロールカードはA p.171、B p.175。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "tips",
+      "title": "🛒 アルバイトの応募でよく使う表現 — Cụm hay dùng khi ứng tuyển việc làm thêm (trang 121)",
+      "page": 121,
+      "content": "Các cụm hay dùng khi ứng tuyển việc làm thêm (アルバイト) — dùng cho tình huống đóng vai ②.\n\n📞 〈電話で〉 Khi gọi điện ứng tuyển:\n• 「〜を見て、アルバイト募集の件でお電話いたしました。〜と申します。」 — Tôi gọi điện về việc tuyển làm thêm sau khi xem 〈tin/biển〉. Tôi tên là 〜.\n• 「ご担当の〜様、いらっしゃいますか。」 — Anh/chị 〜 phụ trách có ở đó không ạ?\n• 「アルバイトに応募したいのですが、面接をお願いできますでしょうか。」 — Tôi muốn ứng tuyển làm thêm, không biết có thể xin một buổi phỏng vấn không ạ?\n• 「それでは、13日の16時にお店に伺います。」 — Vậy tôi sẽ đến cửa hàng lúc 16h ngày 13.\n• 「恐れ入りますが、お店の住所をお教えください。」 — Xin lỗi làm phiền, anh/chị cho tôi xin địa chỉ cửa hàng ạ.\n• 「書類は何をご準備したらよろしいでしょうか。」 — Tôi nên chuẩn bị những giấy tờ gì ạ?\n\n🤝 〈面接で〉 Khi phỏng vấn:\n• 「販売を希望しておりますが、商品を並べる仕事もいたします。」 — Tôi mong được làm bán hàng, nhưng việc xếp hàng hoá tôi cũng làm ạ.\n• 「前に、お菓子の販売のアルバイトをした経験がございます。」 — Trước đây tôi từng làm thêm bán bánh kẹo.\n• 「経験はございませんが、力を尽くしたいと思います。」 — Tôi chưa có kinh nghiệm, nhưng tôi sẽ cố hết sức. (✗ KHÔNG nói cộc 「経験はありません。」)\n• 「時間は、ご相談くださいましたら調整いたします。」 — Về giờ giấc, nếu anh/chị trao đổi thì tôi sẽ điều chỉnh ạ.\n• 「小さい子どもがいるので、17時までに終わらせていただきたいのですが、よろしいでしょうか。」 — Vì tôi có con nhỏ, tôi mong được nghỉ trước 17h, như vậy có được không ạ?",
+      "content_jp": "アルバイトの応募でよく使う表現(ロールプレイ②用)。\n\n📞 〈電話で〉:\n•「〜を見て、アルバイト募集の件でお電話いたしました。〜と申します。」\n•「ご担当の〜様、いらっしゃいますか。」\n•「アルバイトに応募したいのですが、面接をお願いできますでしょうか。」\n•「それでは、13日の16時にお店に伺います。」\n•「恐れ入りますが、お店の住所をお教えください。」\n•「書類は何をご準備したらよろしいでしょうか。」\n\n🤝 〈面接で〉:\n•「販売を希望しておりますが、商品を並べる仕事もいたします。」\n•「前に、お菓子の販売のアルバイトをした経験がございます。」\n•「経験はございませんが、力を尽くしたいと思います。」(✗「経験はありません。」)\n•「時間は、ご相談くださいましたら調整いたします。」\n•「小さい子どもがいるので、17時までに終わらせていただきたいのですが、よろしいでしょうか。」"
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙 — Từ vựng trọng tâm Bài 13",
+      "intro": "Từ vựng gặp trong Bài 13 (13課 面接を受ける), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.",
+      "intro_jp": "13課「面接を受ける」に出てくる語彙を、出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        { "jp": "面接", "kana": "めんせつ", "vi": "Phỏng vấn (interview)", "note": "📖 trang 116 — 「会社の採用面接を受けます」." },
+        { "jp": "面接官", "kana": "めんせつかん", "vi": "Người phỏng vấn (interviewer)", "note": "📖 trang 116." },
+        { "jp": "採用", "kana": "さいよう", "vi": "Tuyển dụng (recruitment / hiring)", "note": "📖 trang 116 — 「採用面接／採用試験」." },
+        { "jp": "応募する", "kana": "おうぼする", "vi": "Ứng tuyển / dự tuyển (to apply)", "note": "📖 trang 116 — 「どのような動機で応募されたんですか」." },
+        { "jp": "動機", "kana": "どうき", "vi": "Động cơ (motive / motivation)", "note": "📖 trang 116 — 志望動機: động cơ ứng tuyển." },
+        { "jp": "監督", "kana": "かんとく", "vi": "Đạo diễn (film director)", "note": "📖 trang 116 — 「黒澤明監督の作品」." },
+        { "jp": "アピールする", "kana": "あぴーるする", "vi": "PR / thể hiện bản thân (to appeal / promote oneself)", "note": "📖 trang 116 — 「きちんとアピールする」." },
+        { "jp": "〜てまいりました", "kana": "〜てまいりました", "vi": "Đã ~ đến nay (＝〜てきました, khiêm nhường)", "note": "📖 trang 117 — mẫu ①." },
+        { "jp": "たずさわる", "kana": "たずさわる", "vi": "Tham gia / dấn thân vào (công việc) (to be engaged in)", "note": "📖 trang 117 — 「通訳の仕事にたずさわってまいりました」." },
+        { "jp": "〜次第です", "kana": "〜しだいです", "vi": "(Sự tình là) ~ ạ (≒〜んです, trang trọng)", "note": "📖 trang 117 — mẫu ③." },
+        { "jp": "御社", "kana": "おんしゃ", "vi": "Quý công ty (your company — khi nói)", "note": "📖 trang 117 — 「御社のビジネス」 (viết: 貴社)." },
+        { "jp": "重なる", "kana": "かさなる", "vi": "Trùng / chồng lên nhau (to overlap)", "note": "📖 trang 117 — 「研究テーマと重なっている」." },
+        { "jp": "興味深い", "kana": "きょうみぶかい", "vi": "Rất thú vị / đáng quan tâm (＝とてもおもしろい)", "note": "📖 trang 117 — 「大変興味深く感じた」 (④)." },
+        { "jp": "非常に", "kana": "ひじょうに", "vi": "Vô cùng / cực kỳ (＝とても, trang trọng)", "note": "📖 trang 117 — 改まった言い方 (④)." },
+        { "jp": "どのような", "kana": "どのような", "vi": "Như thế nào / loại nào (＝どんな, trang trọng)", "note": "📖 trang 117 — 改まった言い方 (④)." },
+        { "jp": "担当する", "kana": "たんとうする", "vi": "Phụ trách / đảm nhiệm (to be in charge of)", "note": "📖 trang 117 — 「業務を担当しております」 (⑤)." },
+        { "jp": "業務", "kana": "ぎょうむ", "vi": "Nghiệp vụ / công việc (business / duties)", "note": "📖 trang 117 — 「紹介する業務を担当」 (⑤)." },
+        { "jp": "謙虚な", "kana": "けんきょな", "vi": "Khiêm tốn / khiêm nhường (humble / modest)", "note": "📖 trang 117 — 「謙虚に自己アピール」 (⑥)." },
+        { "jp": "逆効果", "kana": "ぎゃくこうか", "vi": "Phản tác dụng (counterproductive effect)", "note": "📖 trang 118 — 「言いすぎると逆効果」 (⑥)." },
+        { "jp": "専攻する", "kana": "せんこうする", "vi": "Chuyên ngành / học chuyên về (to major in)", "note": "📖 trang 119 — 「日本映画研究を専攻しております」." },
+        { "jp": "手掛ける", "kana": "てがける", "vi": "Thực hiện / đảm trách (dự án) (to handle / undertake)", "note": "📖 trang 119 — 「海外輸出を多く手掛けていらっしゃる」." },
+        { "jp": "輸出", "kana": "ゆしゅつ", "vi": "Xuất khẩu (export)", "note": "📖 trang 119 — 「日本映画の海外輸出」." },
+        { "jp": "事業内容", "kana": "じぎょうないよう", "vi": "Nội dung / lĩnh vực kinh doanh (business activities)", "note": "📖 trang 119 — 「御社の事業内容を伺って」." },
+        { "jp": "伺う", "kana": "うかがう", "vi": "Nghe / hỏi / đến thăm (＝聞く・行く, khiêm nhường)", "note": "📖 trang 119, 120 — 「事業内容を伺って」「お店に伺います」." },
+        { "jp": "注目する", "kana": "ちゅうもくする", "vi": "Chú ý / để mắt tới (to pay attention to)", "note": "📖 trang 119 — 「日本アニメに注目しています」." },
+        { "jp": "文化交流", "kana": "ぶんかこうりゅう", "vi": "Giao lưu văn hoá (cultural exchange)", "note": "📖 trang 119 — 「世界の文化交流のお役に立てたら」." },
+        { "jp": "経営理論", "kana": "けいえいりろん", "vi": "Lý thuyết quản trị / kinh doanh (management theory)", "note": "📖 trang 121 — 「経営理論を勉強しています」 (会話例②)." },
+        { "jp": "力を尽くす", "kana": "ちからをつくす", "vi": "Dốc hết sức / cố gắng hết mình (to do one's best)", "note": "📖 trang 121 — 「力を尽くしたいと思います」 (アルバイト表現)." },
+        { "jp": "調整する", "kana": "ちょうせいする", "vi": "Điều chỉnh / sắp xếp (to adjust / coordinate)", "note": "📖 trang 121 — 「時間は…調整いたします」." }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "📚 Tổng kết Bài 13 + Bước tiếp theo",
+      "content": "🎯 Tổng kết Bài 13 (13課 面接を受ける — đi phỏng vấn):\n• ① 「〜てまいりました」(=「〜てきました」 khiêm nhường) — kể quá trình / kinh nghiệm: 「日本語の勉強をしてまいりました」.\n• ② 「〜ておりますN」 — 「〜ています」 khiêm nhường, bổ nghĩa cho danh từ: 「私が研究しておりますテーマ」.\n• ③ 「〜次第です」(≒「〜んです」) — giải thích lý do / hoàn cảnh trang trọng, đứng cuối câu: 「…感じた次第です」.\n• ④ 面接でよく使う改まった言い方 — すごく→大変・非常に, どんな→どのような, 〜したいです→〜できたらと思います (→ phụ lục p.177 / L23).\n• ⑤ 面接の自己紹介 — khung: お礼 → 〜と申します → 来日年・経歴(〜ております) → 担当業務 → よろしくお願いいたします.\n• ⑥ 面接で気をつけたいこと — đáp 「はい」 trước; tránh 「えーと」「そうですねえ」; PR khiêm tốn (đừng lạm dụng 「〜できます！」); đừng để 面接官 'dụ' đổi sang thể thường.\n• 💡 Cốt lõi: phỏng vấn cần KHIÊM TỐN + TRANG TRỌNG. Yun ở p.116 cộc lốc + khoe quá đà → trượt; p.119 tự giới thiệu đủ, kể kinh nghiệm bằng 〜てまいりました, chốt động cơ bằng 〜次第です, nói nguyện vọng bằng 〜できたらと考えております → đậu.\n\n📖 Tham chiếu trong sách:\n• Đáp án 練習①〜② (Track 2-21, 2-22) → trang 200–201.\n• Đáp án チェック, スタイル (Track 2-24) → trang 201. (チェック: ①まいりました ②私が使っております ③手掛けていらっしゃる ④伺って ⑤大変興味深く ⑥開発できたらと考えております)\n• 会話の例 やってみましょう: ① = 「これでOK!」 (Track 2-23); ② = Track 2-25 (アルバイト面接) → trang 201 — đã nhúng trong roleplay.\n• Role card: 応募者A → p.171 (L21); 面接官B → p.175 (L21).\n\n➡️ Bài tiếp theo: 14課「電話の敬語」 (trang 124) — kính ngữ điện thoại: 「(社名)+の(名前)+と申しますが」, chuyển máy (取り次ぎ), đáp & để lại lời nhắn ở máy trả lời tự động.",
+      "content_jp": "🎯 13課「面接を受ける」のまとめ:\n• ① 「〜てまいりました」(＝「〜てきました」謙譲)。\n• ② 「〜ておりますN」(「〜ています」謙譲、名詞修飾)。\n• ③ 「〜次第です」(≒「〜んです」、改まった経緯説明)。\n• ④ 面接でよく使う改まった言い方(すごく→大変・非常に/どんな→どのような/〜したいです→〜できたらと思います。→p.177／L23)。\n• ⑤ 面接の自己紹介(お礼→〜と申します→来日年・経歴(〜ております)→担当業務→よろしくお願いいたします)。\n• ⑥ 面接で気をつけたいこと(「はい」と返事をしてから答える/「えーと」「そうですねえ」を言わない/謙虚にアピール/つられない)。\n• 💡 ポイント:面接は謙虚＋改まりが大切。p.116は、ぶっきらぼう・言いすぎで失敗、p.119は、自己紹介をきちんとし、〜てまいりました・〜次第です・〜できたらと考えておりますで合格。\n\n📖 本の参照:練習①〜②(Track 2-21・2-22)→p.200–201、チェック・スタイル(Track 2-24)→p.201(チェック:①まいりました ②私が使っております ③手掛けていらっしゃる ④伺って ⑤大変興味深く ⑥開発できたらと考えております)、会話の例①=「これでOK!」(Track 2-23)・②=Track 2-25(アルバイト面接)→p.201。ロールカード:応募者A→p.171、面接官B→p.175。\n➡️ 次は14課「電話の敬語」(p.124)。"
+    }
+  ]
+}

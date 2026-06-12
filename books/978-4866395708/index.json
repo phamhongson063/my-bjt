@@ -296,13 +296,16 @@
       "chapter": "第2章 - 13",
       "page": 116,
       "topics": [
-        "「〜でまいりました」 — giới thiệu đã đến từ đâu",
-        "「〜でございます」 — tự giới thiệu siêu lịch sự",
-        "面接でよく使うていねいな言い方 — cụm thường dùng",
-        "Cách trả lời câu hỏi 志望動機 / 自己PR bằng keigo"
+        "できますか? — ユン (Yun) đi phỏng vấn tuyển dụng, lần đầu phỏng vấn bằng tiếng Nhật (cộc lốc, khoe quá đà → không PR được mình)",
+        "① 「〜てまいりました」(=〜てきました) — kể quá trình / kinh nghiệm khiêm nhường",
+        "② 「〜ておりますN」 — thể khiêm nhường bổ nghĩa danh từ",
+        "③ 「〜次第です」(≒〜んです) — giải thích lý do trang trọng",
+        "④ 面接でよく使う改まった言い方 (すごく→大変・非常に, どんな→どのような, 〜したいです→〜できたらと思います)",
+        "⑤ 面接の自己紹介 + ⑥ 気をつけたいこと (「はい」từ đầu, tránh えーと, khiêm tốn, không bị 'dụ' đổi style)",
+        "練習: かんたん尊敬語(れる/られる) + 〜てまいりました (Track 2-21→2-24); roleplay 採用面接 & アルバイト面接 (role card p.171/175)"
       ],
       "estimatedMinutes": 40,
-      "status": "todo"
+      "status": "ready"
     },
     {
       "id": "L15",
@@ -313,13 +316,17 @@
       "chapter": "第2章 - 14",
       "page": 124,
       "topics": [
-        "「(社名)+の(名前)+と申しますが」 — chuẩn mở thoại business",
-        "取り次ぎでよく使うことば — chuyển máy",
-        "留守番電話に応えるとき — đáp khi gặp máy trả lời tự động",
-        "留守番電話のメッセージ — để lại lời nhắn"
+        "できますか? — アレックス (Alex) bắt máy cộc lốc, nghe nhầm tên (木村→キム), nhờ 金子部長 nghe hộ → bị nhắc nhở",
+        "① 「はい、[会社名/部署]でございます」 — bắt máy & xưng danh (でございます)",
+        "② 「いつもお世話になっております」 — câu chào chuẩn với đối tác (đáp: こちらこそ〜)",
+        "③ 「[会社名]の[名前]と申しますが、〜いらっしゃいますか」 — xưng tên người gọi (申します ≠ 申し上げます)",
+        "④ 「[名字]はただいま〜中でございまして……」 — báo người công ty MÌNH vắng theo ウチ/ソト (bỏ kính ngữ cho sếp mình)",
+        "⑤ 電話でよく使う言い方 — 7 cụm: 席を外す / 折り返し / 承る・申し伝える / もう一度おかけ / お名前を伺う / 失礼いたします / お電話かわりました",
+        "練習: 〜と申します + ただいま〜中/〜ておりまして (Track 2-26→2-28); スタイル 〜する予定です (2-30); roleplay 取り次ぎ (role card p.171/175, Track 2-31/2-32)",
+        "コラム「モリトさん？」 — 「森と申します」 bị nghe nhầm thành モリト (trang 131)"
       ],
       "estimatedMinutes": 40,
-      "status": "todo"
+      "status": "ready"
     },
     {
       "id": "L16",

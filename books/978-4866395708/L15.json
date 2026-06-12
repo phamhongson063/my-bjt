@@ -1,0 +1,622 @@
+{
+  "id": "L15",
+  "order": 15,
+  "title": "14課 電話の敬語",
+  "titleVi": "Bài 14 — Kính ngữ điện thoại",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 40,
+  "intro": "Bài 14 (14課) — Chương 2. Tình huống: アレックス (Alex) đang làm việc ở công ty thì điện thoại reo.\nỞ bản 「できますか?」, Alex bắt máy cộc lốc 「……日本ムービーです。」, không chào đáp 「お世話になっております」, nghe không ra tên người gọi (nhớ nhầm 木村 → 「キムさん」), rồi hoảng nhờ 金子部長 ra nghe hộ vì 「電話の日本語がわからない」 → bị 部長 nhắc nhở (注意される) vì không ứng đối điện thoại lịch sự được.\nBài này học KÍNH NGỮ ĐIỆN THOẠI: bắt máy & xưng công ty, chào hỏi đối tác, xưng tên người gọi (〜と申します), báo người được hỏi đang vắng theo quy tắc ウチ/ソト (bỏ kính ngữ cho người công ty MÌNH), nhận lời nhắn, và một bộ cụm cố định hay dùng khi nghe điện thoại.\n\n🎯 Mục tiêu — 4 mẫu chính + 1 bộ cụm (trang 125–126):\n① 「はい、[会社名/部署]でございます」 — bắt máy & xưng danh (でございます = です siêu lịch sự).\n② 「いつもお世話になっております」 — câu chào chuẩn với đối tác (đáp lại: 「こちらこそお世話になっております」).\n③ 「[会社名]の[名前]と申しますが、[役職]、いらっしゃいますか」 — xưng tên người gọi + hỏi gặp ai (chú ý 「申します」 ≠ 「申し上げます」).\n④ 「[名字]はただいま〜中でございまして……」 — báo người công ty MÌNH đang vắng: chỉ gọi tên họ trần, KHÔNG dùng kính ngữ cho cấp trên của mình (ウチ/ソト ▶p.19).\n⑤ 電話でよく使う言い方 — 7 tình huống: vắng tạm thời / nhờ gọi lại / nhận lời nhắn / mời gọi lại sau / hỏi lại tên / cúp máy / đổi người nghe.",
+  "intro_jp": "第2章 14課。アレックスさんが会社で仕事をしているときに、電話が鳴りました。\n「できますか?」では、アレックスさんは「……日本ムービーです。」とぶっきらぼうに出て、「お世話になっております」と返さず、相手の名前を聞き取れず(木村→「キムさん？」)、「電話の日本語がわからない」と金子部長に代わってもらい、ていねいな電話応対ができずに注意されてしまいました。\nこの課で、電話の敬語を学びます。電話に出て社名を名乗る、あいさつ、相手の名前を名乗る(〜と申します)、指名された人の不在の伝え方(ウチ/ソトで自分の会社の人には敬語を使わない)、伝言の受け方、電話でよく使う言い方です。\n\n🎯 学習項目(p.125–126):\n① 「はい、[名前/会社名]でございます」\n② 「いつもお世話になっております」\n③ 「[会社名]の[名前]と申しますが、[名前]様/役職、いらっしゃいますか」\n④ 「[名前]はただいま〜中でございまして……」(ウチとソト ▶p.19)\n⑤ 電話でよく使う言い方(指名された人が一時的にいないとき/あとで電話させるとき/伝言を預かるとき/もう一度かけてほしいとき/もう一度名前を聞きたいとき/電話を切るとき/受けている人が変わったとき)",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — Alex bắt máy cộc lốc, nghe nhầm tên, phải nhờ 部長 nghe hộ (trang 124)",
+      "page": 124,
+      "image": "books/978-4866395708/images/124_1.jpg",
+      "imageAlt": "Minh hoạ trang 124 — Alex cầm điện thoại hốt hoảng giơ tay hỏi 「キムさん？」, giấy tờ bay tứ tung; 金子部長 và một đồng nghiệp đứng cạnh vẻ khó chịu.",
+      "imageCaption": "Minh hoạ trang 124 — Alex không ứng đối điện thoại lịch sự được nên bị 金子部長 nhắc nhở.",
+      "scene": "アレックスさんが会社で仕事をしているときに、電話が鳴りました。\n(Alex đang làm việc thì điện thoại reo. Đây là bản CHƯA đạt — Alex bắt máy cộc lốc, không chào đáp, nghe nhầm tên người gọi và phải nhờ 金子部長 nghe hộ. Bản chuẩn xem ở 「これでOK!」 trang 128.)",
+      "lines": [
+        { "speaker": "アレックス", "jp": "……日本ムービーです。", "vi": "…Nihon Movie xin nghe. (⚠️ cộc lốc, thiếu 「はい」 và 「でございます」 → nên là 「はい、日本ムービー営業部でございます」)" },
+        { "speaker": "木村", "jp": "東洋映画の木村と申しますが、いつもお世話になっております。", "vi": "Tôi là Kimura bên Toyo Eiga, luôn được quý công ty quan tâm giúp đỡ." },
+        { "speaker": "アレックス", "jp": "あ、はい。", "vi": "À, vâng. (⚠️ không chào đáp 「こちらこそお世話になっております」)" },
+        { "speaker": "木村", "jp": "……橋本部長、いらっしゃいますか。", "vi": "…Trưởng phòng Hashimoto có ở đó không ạ?" },
+        { "speaker": "アレックス", "jp": "橋本部長ですか。部長さんは今……えーと、ちょっと待ってください。……金子部長ー。あのー、ちょっと電話の日本語がわからないので、出てもらえませんか。", "vi": "Trưởng phòng Hashimoto ạ? Trưởng phòng bây giờ… ưmm, đợi một chút ạ. …Trưởng phòng Kaneko ơi. À, tiếng Nhật qua điện thoại tôi không nghe rõ, anh ra nghe hộ được không? (⚠️ lúng túng, đẩy việc cho cấp trên; 「部長さんは」 thừa)" },
+        { "speaker": "金子部長", "jp": "ええ？ どなたから？", "vi": "Hả? Ai gọi đến vậy?" },
+        { "speaker": "アレックス", "jp": "名前は……えーと、キムさん……？", "vi": "Tên là… ưmm, anh Kim gì đó…? (⚠️ nghe nhầm 「木村 (Kimura)」 thành 「キム」)" },
+        { "speaker": "金子部長", "jp": "しょうがないなあ。……はい、お電話かわりました。", "vi": "Thật hết cách. …Vâng, tôi nghe máy thay đây ạ." },
+        { "speaker": "—", "jp": "アレックスさんは、ていねいな電話応対ができなくて、金子部長に注意されてしまいました。", "vi": "Alex đã không ứng đối điện thoại lịch sự được nên bị Trưởng phòng Kaneko nhắc nhở." }
+      ],
+      "vocabHighlight": [
+        "「……日本ムービーです。」 → 「はい、日本ムービー営業部でございます。」 (①)",
+        "あいさつ返し → 「こちらこそお世話になっております。」 (②)",
+        "上司の不在 → 「橋本はただいま〜中でございまして……」 — ウチ/ソトで敬語を取る (④)",
+        "「キムさん？」 → 「恐れ入りますが、もう一度お名前を伺ってもよろしいでしょうか。」 (⑤)",
+        "電話を代わってもらう → 自分で「承ります／申し伝えます」 (⑤)"
+      ],
+      "note": "Cảnh dẫn vào Bài 14: KÍNH NGỮ ĐIỆN THOẠI. Alex sai ở: (1) bắt máy cộc lốc, thiếu 「はい」「でございます」; (2) không chào đáp 「お世話になっております」; (3) lúng túng, đẩy máy cho 部長 thay vì tự ứng đối; (4) nghe nhầm tên 木村 → 「キム」 mà không hỏi lại lịch sự. 4 mẫu ①〜④ + bộ cụm ⑤ bên dưới dạy cách bắt máy, chào, xưng danh, báo vắng & nhận lời nhắn; bản chuẩn xem ở 「これでOK!」 (trang 128).",
+      "note_jp": "この課では、電話の敬語を勉強します。アレックスさんは(1)「……です」とぶっきらぼうに出て、(2)あいさつを返さず、(3)自分で応対せず部長に代わってもらい、(4)相手の名前を聞き間違えても聞き直さない、が問題です。①〜④＋⑤で名乗り・あいさつ・取り次ぎ・伝言を学び、正しい例は「これでOK!」(p.128)で確認します。"
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ① 「はい、[会社名/部署]でございます」 — Bắt máy & xưng danh (trang 125)",
+      "page": 125,
+      "items": [
+        {
+          "pattern": "はい、[会社名／部署名] + でございます",
+          "patternVi": "「でございます」 = 「です」 ở thể siêu lịch sự — dùng khi bắt máy xưng tên công ty / bộ phận.",
+          "explanation": "Khi bắt máy ở công ty, mở đầu bằng 「はい」 rồi xưng tên công ty (hoặc bộ phận) + 「でございます」. 「でございます」 là dạng lịch sự cao nhất của 「です」 (lịch sự hơn 「です」 và 「でございます」 ≠ kính ngữ với người nghe, mà là 丁寧語). Không bắt máy trống không kiểu 「〜です」.",
+          "explanation_jp": "会社で電話に出るときは、「はい」と言ってから、社名(または部署名)＋「でございます」と名乗ります。「でございます」は「です」のとてもていねいな言い方(丁寧語)です。",
+          "examples": [
+            { "jp": "はい、日本ムービーでございます。", "vi": "Vâng, Nihon Movie xin nghe ạ." },
+            { "jp": "はい、日本ムービー営業部でございます。", "vi": "Vâng, phòng Kinh doanh Nihon Movie xin nghe ạ." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ② 「いつもお世話になっております」 — Câu chào chuẩn với đối tác (trang 125)",
+      "page": 125,
+      "items": [
+        {
+          "pattern": "いつもお世話になっております ／ こちらこそお世話になっております",
+          "patternVi": "Câu chào cố định luôn nói với người có quan hệ công việc; khi được chào thì đáp lại 「こちらこそ〜」.",
+          "explanation": "「いつもお世話になっております」 là câu chào (あいさつ) bạn LUÔN nói với người/công ty có quan hệ làm ăn — mở đầu điện thoại, gặp mặt, email. Khi đối phương chào trước, đáp lại bằng 「こちらこそお世話になっております」.",
+          "explanation_jp": "「いつもお世話になっております」は、仕事で関係がある人にいつも言うあいさつのことばです。相手から言われたら「こちらこそお世話になっております」と返します。",
+          "examples": [
+            { "jp": "A：いつもお世話になっております。", "vi": "A: Luôn cảm ơn anh/chị đã quan tâm giúp đỡ ạ." },
+            { "jp": "B：こちらこそお世話になっております。", "vi": "B: Chính tôi mới phải cảm ơn anh/chị ạ." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ③ 「[会社名]の[名前]と申しますが、〜いらっしゃいますか」 — Xưng tên người gọi & hỏi gặp ai (trang 125)",
+      "page": 125,
+      "items": [
+        {
+          "pattern": "[会社名]の[名前]と申しますが、[名前]様／[役職]、いらっしゃいますか",
+          "patternVi": "Khi gọi đến: xưng 「công ty + tên + と申します」 rồi hỏi gặp người cần gặp bằng 「〜いらっしゃいますか」.",
+          "explanation": "Khi GỌI đến công ty khác, hãy xưng danh: 「[công ty]の[tên]と申しますが」 (申します = khiêm nhường của 言う/称する, nói về tên MÌNH), rồi hỏi 「[tên]様／[chức vụ]、いらっしゃいますか」 (いらっしゃる = sonkeigo của いる).",
+          "explanation_jp": "他社に電話をかけるときは、「[会社名]の[名前]と申しますが」と名乗り、「[名前]様／役職、いらっしゃいますか」と取り次ぎを頼みます。「申す」は「言う」の謙譲語です。",
+          "warning": "📌 Phân biệt 「申します」 ≠ 「申し上げます」: 「申します」 = chỉ khiêm nhường hoá hành động 'nói' của mình (xưng tên). 「申し上げます」 = 'nói VỚI/đến (người trên)', có hướng tới đối tượng được nâng. VD: 「この件については私から直接社長に申し上げます」 (Việc này tôi sẽ trực tiếp thưa với giám đốc).",
+          "warning_jp": "📌 「申します」と「申し上げます」に注意。「申します」は自分の「言う」を低めるだけ(名乗りなど)。「申し上げます」は(目上の)相手に向かって「言う」。例:「この件については私から直接社長に申し上げます。」",
+          "examples": [
+            { "jp": "東洋映画の木村と申しますが、橋本部長、いらっしゃいますか。", "vi": "Tôi là Kimura bên Toyo Eiga, cho hỏi Trưởng phòng Hashimoto có ở đó không ạ?" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ④ 「[名字]はただいま〜中でございまして……」 — Báo người công ty MÌNH đang vắng (ウチ/ソト, trang 125)",
+      "page": 125,
+      "items": [
+        {
+          "pattern": "[名字] + は + ただいま + 〜中でございまして…… ／ 〜ておりまして……",
+          "patternVi": "Báo người công ty mình đang vắng: chỉ gọi tên họ trần, BỎ kính ngữ — vì với người ngoài (ソト) thì người công ty mình là ウチ.",
+          "explanation": "Khi nói VỀ người trong công ty mình với người công ty khác, dù là cấp trên cũng chỉ gọi bằng TÊN HỌ trần (橋本, không 橋本部長); và KHÔNG dùng kính ngữ cho hành động của cấp trên (đây là quy tắc ウチ/ソト ▶p.19). Báo vắng bằng 「ただいま〜中でございまして……／〜ておりまして……」 (bỏ lửng để mềm).",
+          "explanation_jp": "自分の会社の人のことを、他の会社の人に話すときは、上司でも名字だけで呼びます(「橋本部長」→「橋本」)。また、上司がすることでも、尊敬語は使いません(ウチとソト ▶p.19)。不在は「ただいま〜中でございまして……／〜ておりまして……」と伝えます。",
+          "warning": "✗ 「橋本部長はただいま会議に参加していらっしゃいまして……。」(dùng 部長 + いらっしゃる cho người công ty mình → SAI)\n○ 「橋本はただいま会議に参加しておりまして／会議中でございまして……。」",
+          "warning_jp": "✗「橋本部長はただいま会議に参加していらっしゃいまして……。」\n○「橋本はただいま会議に参加しておりまして／参加中でございまして……。」",
+          "examples": [
+            { "jp": "A：橋本部長、いらっしゃいますか。", "vi": "A: Cho hỏi Trưởng phòng Hashimoto có ở đó không ạ?" },
+            { "jp": "B：橋本はただいま会議中でございまして……。", "vi": "B: Hashimoto hiện đang trong cuộc họp ạ… (gọi tên trần, bỏ kính ngữ)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ⑤ 電話でよく使う言い方 — Bộ cụm cố định khi nghe điện thoại (trang 126)",
+      "page": 126,
+      "intro": "7 tình huống thường gặp khi nghe/chuyển điện thoại, mỗi tình huống một câu mẫu. Nhớ nguyên cụm để dùng phản xạ.",
+      "intro_jp": "電話の取り次ぎでよくある7つの場面と、それぞれの決まり文句。フレーズごと覚えて使いましょう。",
+      "items": [
+        {
+          "pattern": "〈指名された人が一時的にいないとき〉 — Khi người được hỏi tạm thời không có mặt",
+          "explanation": "Báo người đó vừa rời chỗ tạm thời (席を外す = rời khỏi bàn / chỗ ngồi).",
+          "explanation_jp": "指名された人が、一時的に席を離れているとき。",
+          "examples": [
+            { "jp": "橋本はただいま席を外しておりまして……。", "vi": "Hashimoto hiện đang rời khỏi chỗ ạ…" }
+          ]
+        },
+        {
+          "pattern": "〈指名された人にあとで電話させるとき〉 — Khi sẽ cho người đó gọi lại sau",
+          "explanation": "Đề nghị cho người được hỏi gọi lại (折り返し = gọi lại; 〜させる: cho/để người đó gọi).",
+          "explanation_jp": "指名された人から、あとで電話をかけ直させるとき。",
+          "examples": [
+            { "jp": "折り返し橋本に電話させましょうか。", "vi": "Để tôi cho Hashimoto gọi lại cho anh/chị nhé?" }
+          ]
+        },
+        {
+          "pattern": "〈伝言を預かるとき〉 — Khi nhận lời nhắn",
+          "explanation": "Nhận lời nhắn hộ. 承る = khiêm nhường của 受ける/聞く; 申し伝える = chuyển lời (khiêm nhường).",
+          "explanation_jp": "相手の伝言を預かるとき。「承る」は「受ける・聞く」の謙譲語、「申し伝える」は伝言を伝える謙譲語。",
+          "examples": [
+            { "jp": "よろしければ、私がご用件を承りますが……。", "vi": "Nếu được, tôi xin tiếp nhận nội dung giúp anh/chị ạ…" },
+            { "jp": "承知いたしました。(橋本に)申し伝えます。私、スミスが承りました。", "vi": "Tôi rõ rồi ạ. Tôi sẽ chuyển lời (cho Hashimoto). Tôi, Smith, đã tiếp nhận ạ." }
+          ]
+        },
+        {
+          "pattern": "〈あとでもう一度かけてほしいとき〉 — Khi muốn người gọi gọi lại lần nữa",
+          "explanation": "Nhờ người gọi gọi lại sau (お〜いただけますでしょうか = nhờ cực lịch sự); hoặc đáp sẽ gọi lại từ phía mình.",
+          "explanation_jp": "あとでもう一度かけ直してほしいとき。",
+          "examples": [
+            { "jp": "A：恐れ入りますが、10分後に／4時過ぎにもう一度おかけいただけますでしょうか。", "vi": "A: Phiền anh/chị, sau 10 phút / sau 4 giờ gọi lại giúp tôi một lần nữa được không ạ?" },
+            { "jp": "B：それでは、10分後に／4時過ぎにこちらからおかけします。", "vi": "B: Vậy sau 10 phút / sau 4 giờ tôi sẽ gọi lại từ phía tôi ạ." }
+          ]
+        },
+        {
+          "pattern": "〈もう一度相手の名前を聞きたいとき〉 — Khi muốn hỏi lại tên người gọi",
+          "explanation": "Nghe không rõ tên thì hỏi lại lịch sự, KHÔNG đoán bừa. 伺う = khiêm nhường của 聞く.",
+          "explanation_jp": "相手の名前を聞き取れなかったとき、ていねいに聞き直す。",
+          "examples": [
+            { "jp": "失礼ですが、もう一度お名前を伺ってもよろしいでしょうか。", "vi": "Xin lỗi, tôi có thể hỏi lại tên anh/chị một lần nữa được không ạ?" }
+          ]
+        },
+        {
+          "pattern": "〈電話を切るとき〉 — Khi cúp máy",
+          "explanation": "Câu chào trước khi cúp máy.",
+          "explanation_jp": "電話を切るときのあいさつ。",
+          "examples": [
+            { "jp": "失礼いたします。", "vi": "Tôi xin phép ạ. (chào cúp máy)" }
+          ]
+        },
+        {
+          "pattern": "〈電話を受けている人が変わったとき〉 — Khi đổi người nghe máy",
+          "explanation": "Khi người khác tiếp nhận thay, báo đã đổi người + xưng danh.",
+          "explanation_jp": "電話を受けている人が交代したとき、代わったことを伝えて名乗る。",
+          "examples": [
+            { "jp": "お電話かわりました。橋本です。", "vi": "Tôi nghe máy thay đây ạ. Tôi là Hashimoto." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習① 「〜と申します」を使って言ってみましょう (Track 2-26, trang 127)",
+      "page": 127,
+      "audio": "asset/audio/Track2-26.mp3",
+      "audioLabel": "Track 2-26 — 練習①",
+      "style": "speak",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。「〜と申します」を使って言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Từ 「[công ty], [tên]」 → 「[người cần gặp]」, dựng câu xưng danh khi gọi điện: 「[công ty]の[tên]と申しますが、[người]、いらっしゃいますか。」 Đáp án → trang 201.",
+      "note": "💡 [会社名]の[名前]と申しますが、[役職／名前]様、いらっしゃいますか。 Đáp án theo trang 201 (Track 2-26).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "「A社、山田」から「田中課長」へ",
+          "context_vi": "(cue) từ 「A社・山田」 → gặp 「Trưởng nhóm Tanaka」",
+          "answer": "A社の山田と申しますが、田中課長、いらっしゃいますか。",
+          "answer_vi": "[công ty]の[tên]と申しますが + [chức vụ]、いらっしゃいますか。"
+        },
+        {
+          "num": "1",
+          "context": "「さくら広告、中田」から「橋本部長」へ",
+          "context_vi": "(cue) từ 「Sakura Koukoku・Nakata」 → gặp 「Trưởng phòng Hashimoto」",
+          "answer": "さくら広告の中田と申しますが、橋本部長、いらっしゃいますか。",
+          "answer_vi": "Sakura Quảng cáo · Nakata gọi gặp Trưởng phòng Hashimoto."
+        },
+        {
+          "num": "2",
+          "context": "「東京証券、川口」から「田中課長」へ",
+          "context_vi": "(cue) từ 「Tokyo Shouken・Kawaguchi」 → gặp 「Trưởng nhóm Tanaka」",
+          "answer": "東京証券の川口と申しますが、田中課長、いらっしゃいますか。",
+          "answer_vi": "Tokyo Chứng khoán · Kawaguchi gọi gặp Trưởng nhóm Tanaka."
+        },
+        {
+          "num": "3",
+          "context": "「富士旅行、本田」から「中村みどり」へ",
+          "context_vi": "(cue) từ 「Fuji Ryokou・Honda」 → gặp 「Nakamura Midori」",
+          "answer": "富士旅行の本田と申しますが、中村みどり様、いらっしゃいますか。",
+          "answer_vi": "Tên người (không chức vụ) → thêm 様: 中村みどり様。"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習② 「ただいま〜中でございまして」で言ってみましょう (Track 2-27, trang 127)",
+      "page": 127,
+      "audio": "asset/audio/Track2-27.mp3",
+      "audioLabel": "Track 2-27 — 練習②",
+      "style": "speak",
+      "instruction": "例のように言ってみましょう。",
+      "instruction_vi": "Nghe hết rồi luyện. A hỏi gặp người; theo từ khoá 【…】, đáp báo người công ty mình đang bận bằng 「[tên họ]はただいま〜中でございまして……。」 (gọi tên trần, bỏ kính ngữ). Đáp án → trang 201.",
+      "note": "💡 [名字]はただいま[名詞]中でございまして……。 Đáp án theo trang 201 (Track 2-27).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "A：橋本部長、いらっしゃいますか。／B：【電話】",
+          "context_vi": "(cue) A hỏi gặp Trưởng phòng Hashimoto · từ khoá 【điện thoại】",
+          "answer": "橋本はただいま電話中でございまして……。",
+          "answer_vi": "橋本部長 → 橋本 (trần); 電話 → 電話中でございまして."
+        },
+        {
+          "num": "1",
+          "context": "A：橋本部長、いらっしゃいますか。／B：【会議】",
+          "context_vi": "(cue) hỏi gặp Trưởng phòng Hashimoto · 【họp】",
+          "answer": "橋本はただいま会議中でございまして……。",
+          "answer_vi": "会議 → 会議中でございまして."
+        },
+        {
+          "num": "2",
+          "context": "A：山田係長、いらっしゃいますか。／B：【接客】",
+          "context_vi": "(cue) hỏi gặp Trưởng nhóm Yamada · 【tiếp khách】",
+          "answer": "山田はただいま接客中でございまして……。",
+          "answer_vi": "山田係長 → 山田; 接客 → 接客中でございまして."
+        },
+        {
+          "num": "3",
+          "context": "A：渡辺様、いらっしゃいますか。／B：【海外に出張】",
+          "context_vi": "(cue) hỏi gặp Watanabe · 【đi công tác nước ngoài】",
+          "answer": "渡辺はただいま海外に出張中でございまして……。",
+          "answer_vi": "渡辺様 → 渡辺; 海外に出張 → 海外に出張中でございまして."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習③ 「ただいま〜ておりまして」で言ってみましょう (Track 2-28, trang 127)",
+      "page": 127,
+      "audio": "asset/audio/Track2-28.mp3",
+      "audioLabel": "Track 2-28 — 練習③",
+      "style": "speak",
+      "instruction": "例のように言ってみましょう。",
+      "instruction_vi": "Nghe hết rồi luyện. Từ khoá là một cụm 「〜ている」 → đáp 「[tên họ]はただいま〜ておりまして……。」 (〜ている → 〜ておる khiêm nhường). Đáp án → trang 201.",
+      "note": "💡 [名字]はただいま[Vて]おりまして……。(〜ている → 〜ておる) Đáp án theo trang 201 (Track 2-28).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "A：橋本部長、いらっしゃいますか。／B：【他の電話に出ている】",
+          "context_vi": "(cue) hỏi gặp Trưởng phòng Hashimoto · 【đang nghe máy khác】",
+          "answer": "橋本はただいま他の電話に出ておりまして……。",
+          "answer_vi": "出ている → 出ておりまして."
+        },
+        {
+          "num": "1",
+          "context": "A：林マネージャー、いらっしゃいますか。／B：【席をはずしている】",
+          "context_vi": "(cue) hỏi gặp Quản lý Hayashi · 【đang rời chỗ】",
+          "answer": "林はただいま席をはずしておりまして……。",
+          "answer_vi": "席をはずしている → 席をはずしておりまして."
+        },
+        {
+          "num": "2",
+          "context": "A：本田チーフ、いらっしゃいますか。／B：【外に出ている】",
+          "context_vi": "(cue) hỏi gặp Trưởng nhóm Honda · 【đang ra ngoài】",
+          "answer": "本田はただいま外に出ておりまして……。",
+          "answer_vi": "外に出ている → 外に出ておりまして."
+        },
+        {
+          "num": "3",
+          "context": "A：大山様、いらっしゃいますか。／B：【休暇を取っている】",
+          "context_vi": "(cue) hỏi gặp Oyama · 【đang nghỉ phép】",
+          "answer": "大山はただいま休暇を取っておりまして……。",
+          "answer_vi": "休暇を取っている → 休暇を取っておりまして."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — Alex bắt máy chỉn chu, báo 部長 đi công tác & nhận lời nhắn (Track 2-29, trang 128)",
+      "page": 128,
+      "image": "books/978-4866395708/images/128_1.jpg",
+      "imageAlt": "Minh hoạ trang 128 — Alex bình tĩnh cầm điện thoại ghi chép; 金子部長 và đồng nghiệp đứng cạnh vẻ hài lòng.",
+      "imageCaption": "Minh hoạ trang 128 — Lần này Alex ứng đối điện thoại lịch sự, trôi chảy.",
+      "audio": "asset/audio/Track2-29.mp3",
+      "audioLabel": "Track 2-29 — これでOK!",
+      "scene": "Bản ĐÚNG: Alex bắt máy 「はい、日本ムービー営業部でございます」 + chào đáp, báo 橋本 đi công tác nước ngoài bằng quy tắc ウチ/ソト (gọi tên trần, bỏ kính ngữ), nhận lời nhắn 「承りました／申し伝えます」 và hỏi lại tên một cách lịch sự.",
+      "lines": [
+        { "speaker": "アレックス", "jp": "はい、日本ムービー営業部でございます。", "vi": "Vâng, phòng Kinh doanh Nihon Movie xin nghe ạ. (① はい〜でございます)" },
+        { "speaker": "木村", "jp": "こちら、東洋映画の木村と申しますが、いつもお世話になっております。", "vi": "Tôi là Kimura bên Toyo Eiga, luôn cảm ơn quý công ty đã quan tâm giúp đỡ. (③ と申します)" },
+        { "speaker": "アレックス", "jp": "こちらこそお世話になっております。", "vi": "Chính chúng tôi mới phải cảm ơn anh ạ. (② chào đáp)" },
+        { "speaker": "木村", "jp": "橋本部長、いらっしゃいますか。", "vi": "Cho hỏi Trưởng phòng Hashimoto có ở đó không ạ?" },
+        { "speaker": "アレックス", "jp": "申し訳ございません。橋本はただいま海外に出張中でございまして。来週戻る予定でございます。", "vi": "Tôi xin lỗi ạ. Hashimoto hiện đang đi công tác nước ngoài. Dự kiến tuần sau sẽ về ạ. (④ 橋本/出張中でございまして — bỏ kính ngữ cho người công ty mình)" },
+        { "speaker": "木村", "jp": "そうですか。それでは、メールをお送りしておきますので。お戻りになりましたら、ご覧いただくようにお伝えいただけますか。急ぎませんので。", "vi": "Vậy à. Thế thì tôi sẽ gửi mail trước. Khi anh ấy về, nhờ anh nhắn lại để anh ấy xem giúp nhé. Không gấp đâu ạ." },
+        { "speaker": "アレックス", "jp": "承知いたしました。申し伝えます。私、スミスが承りました。あのー、恐れ入りますが、もう一度お名前を伺ってもよろしいでしょうか。", "vi": "Tôi rõ rồi ạ. Tôi sẽ chuyển lời. Tôi, Smith, đã tiếp nhận ạ. À, phiền anh, tôi có thể hỏi lại tên anh một lần nữa được không ạ? (⑤ 承りました／お名前を伺っても)" },
+        { "speaker": "木村", "jp": "東洋映画の木村と申します。よろしくお願いいたします。", "vi": "Tôi là Kimura bên Toyo Eiga. Mong được giúp đỡ ạ." },
+        { "speaker": "アレックス", "jp": "木村様ですね。ありがとうございます。それでは、失礼いたします。", "vi": "Anh Kimura đúng không ạ. Cảm ơn anh. Vậy tôi xin phép ạ. (⑤ 失礼いたします)" },
+        { "speaker": "—", "jp": "アレックスさんは、電話でしっかり対応することができました。", "vi": "Alex đã ứng đối điện thoại một cách chỉn chu." }
+      ],
+      "vocabHighlight": [
+        "はい、日本ムービー営業部でございます — bắt máy (①)",
+        "こちらこそお世話になっております — chào đáp (②)",
+        "橋本はただいま海外に出張中でございまして — báo vắng, ウチ/ソト (④)",
+        "承知いたしました／申し伝えます／承りました — nhận lời nhắn (⑤)",
+        "恐れ入りますが、もう一度お名前を伺っても — hỏi lại tên (⑤)"
+      ],
+      "note": "So với bản 「できますか?」 (p.124): Alex (1) bắt máy 「はい、〜でございます」; (2) chào đáp 「こちらこそ〜」; (3) tự ứng đối, báo 橋本 đi công tác bằng quy tắc ウチ/ソト (橋本, không 部長 + không kính ngữ); (4) nhận lời nhắn 「承りました／申し伝えます」 và hỏi lại tên lịch sự 「お名前を伺っても〜」 thay vì đoán bừa. Bảng đối chiếu ở mục kế tiếp.",
+      "note_jp": "p.124「できますか?」と比べて、アレックスさんは(1)「はい、〜でございます」と出て、(2)「こちらこそ〜」と返し、(3)自分で対応し、ウチ/ソトで「橋本は〜出張中でございまして」と不在を伝え、(4)「承りました／申し伝えます」と伝言を受け、「お名前を伺っても〜」と聞き直しました。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh できますか → これでOK (p.124 ↔ p.128)",
+      "intro": "Bảng TỔNG HỢP đối chiếu cuộc gọi CHƯA đạt (p.124 「できますか?」) ↔ bản ĐÚNG (p.128 「これでOK!」), map theo các mẫu ①〜⑤. Gom từ 2 đoạn hội thoại phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.124「できますか?」とp.128「これでOK!」を①〜⑤で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "場面",
+        "sonkeigo": "✗ p.124 (できますか)",
+        "kenjougo": "✓ p.128 (これでOK)"
+      },
+      "rows": [
+        {
+          "plain": "電話に出る",
+          "plainVi": "bắt máy",
+          "sonkeigo": "……日本ムービーです。",
+          "kenjougo": "はい、日本ムービー営業部でございます。(①)"
+        },
+        {
+          "plain": "あいさつ返し",
+          "plainVi": "chào đáp",
+          "sonkeigo": "あ、はい。",
+          "kenjougo": "こちらこそお世話になっております。(②)"
+        },
+        {
+          "plain": "上司の不在",
+          "plainVi": "báo cấp trên vắng",
+          "sonkeigo": "部長さんは今……えーと、ちょっと待ってください。(混乱)",
+          "kenjougo": "橋本はただいま海外に出張中でございまして。来週戻る予定でございます。(④)"
+        },
+        {
+          "plain": "対応",
+          "plainVi": "ứng đối",
+          "sonkeigo": "電話の日本語がわからないので、出てもらえませんか。(部長に丸投げ)",
+          "kenjougo": "承知いたしました。申し伝えます。私、スミスが承りました。(⑤)"
+        },
+        {
+          "plain": "名前の確認",
+          "plainVi": "xác nhận tên",
+          "sonkeigo": "名前は……えーと、キムさん……？(聞き間違い)",
+          "kenjougo": "恐れ入りますが、もう一度お名前を伺ってもよろしいでしょうか。(⑤)"
+        }
+      ],
+      "note": "Điểm cốt lõi: điện thoại = bắt máy 「はい〜でございます」, chào đáp 「こちらこそ〜」, báo người công ty mình vắng theo ウチ/ソト (tên trần + bỏ kính ngữ), nhận lời nhắn 「承りました／申し伝えます」, nghe không rõ thì hỏi lại 「お名前を伺っても〜」 — KHÔNG đẩy máy cho người khác, KHÔNG đoán bừa tên.",
+      "note_jp": "ポイント:電話は「はい〜でございます」で出て、「こちらこそ〜」と返し、自社の人の不在はウチ/ソトで(名字＋敬語なし)伝え、「承りました／申し伝えます」で伝言を受け、聞き取れなければ「お名前を伺っても〜」と聞き直す。丸投げ・聞き間違いのまま進めない。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — Chọn cách nói đúng trong cuộc gọi (trang 129)",
+      "page": 129,
+      "instruction": "【　】の中から、正しいものを選んでください。",
+      "instruction_vi": "Chọn phương án đúng cho từng chỗ 【　】 trong đoạn điện thoại. Bấm chọn rồi 確認. Đáp án → trang 202.",
+      "note": "📝 Đáp án (p.202): ① c でございます ② a になって ③ c 橋本は ④ b うけたまわりました.",
+      "items": [
+        {
+          "num": "①",
+          "context": "アレックス：はい、日本ムービー営業部【①】。",
+          "context_vi": "Bắt máy xưng bộ phận → cần 「でございます」 (① mẫu).",
+          "options": ["でおります", "でいらっしゃいます", "でございます"],
+          "answerIndex": 2,
+          "answer_vi": "営業部でございます。(① — 丁寧語 của です)."
+        },
+        {
+          "num": "②",
+          "context": "木村：…いつもお世話【②】おります。橋本部長、いらっしゃいますか。",
+          "context_vi": "Câu chào cố định 「お世話になっております」 (② mẫu).",
+          "options": ["になって", "いたして", "をして"],
+          "answerIndex": 0,
+          "answer_vi": "お世話になっております。(②)."
+        },
+        {
+          "num": "③",
+          "context": "アレックス：【③】ただいま海外に出張中でございまして。",
+          "context_vi": "Nói về cấp trên công ty MÌNH với người ngoài → tên họ trần (ウチ/ソト, ④).",
+          "options": ["橋本さんは", "橋本部長は", "橋本は"],
+          "answerIndex": 2,
+          "answer_vi": "橋本は。(④ — bỏ さん/部長 với người ngoài)."
+        },
+        {
+          "num": "④",
+          "context": "アレックス：…私、スミスが【④】。",
+          "context_vi": "Nhận lời nhắn → 「承りました」 (⑤ mẫu).",
+          "options": ["もらいました", "うけたまわりました", "うけました"],
+          "answerIndex": 1,
+          "answer_vi": "承りました。(⑤ — khiêm nhường của 受ける)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "🗣️ スタイルを変えてみましょう — Đáp về người công ty mình bằng 〜する予定です (Track 2-30, trang 129)",
+      "page": 129,
+      "audio": "asset/audio/Track2-30.mp3",
+      "audioLabel": "Track 2-30 — スタイルを変えてみましょう",
+      "style": "speak",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Nghe hết rồi luyện. A hỏi bằng kính ngữ (戻られます／なさいます／いらっしゃいます). Theo từ khoá của B, đáp về người công ty MÌNH: gọi tên trần + 「〜する予定です」 (bỏ kính ngữ). Đáp án → trang 202.",
+      "note": "💡 A: 尊敬語 hỏi → B: [tên họ trần] + [thời điểm] + 〜する予定です. Đáp án theo trang 202 (Track 2-30).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "A：金子部長はいつ戻られますか。／B：【来週木曜】",
+          "context_vi": "(cue) A hỏi Trưởng phòng Kaneko bao giờ về · 【thứ Năm tuần sau】",
+          "answer": "金子は来週木曜に戻る予定です。",
+          "answer_vi": "金子部長 → 金子; 戻られます → 戻る予定です."
+        },
+        {
+          "num": "1",
+          "context": "A：木村様はいつ休暇から戻られますか。／B：【8月26日】",
+          "context_vi": "(cue) A hỏi Kimura bao giờ đi nghỉ về · 【26/8】",
+          "audioStart": 16,
+          "answer": "木村は8月26日に戻る予定です。",
+          "answer_vi": "木村様 → 木村; 戻る予定です."
+        },
+        {
+          "num": "2",
+          "context": "A：金子部長は明日何時に出社なさいますか。／B：【10時】",
+          "context_vi": "(cue) A hỏi mai Trưởng phòng Kaneko mấy giờ đến công ty · 【10 giờ】",
+          "audioStart": 31,
+          "answer": "金子は明日10時に出社する予定です。",
+          "answer_vi": "出社なさいます → 出社する予定です."
+        },
+        {
+          "num": "3",
+          "context": "A：橋本部長は明日の会議に出席なさいますか。／B：【はい】",
+          "context_vi": "(cue) A hỏi mai Trưởng phòng Hashimoto có dự họp không · 【có】",
+          "audioStart": 46,
+          "answer": "はい。橋本は明日の会議に出席する予定です。",
+          "answer_vi": "出席なさいますか → 出席する予定です."
+        },
+        {
+          "num": "4",
+          "context": "A：スミス様は来週どちらにいらっしゃいますか。／B：【大阪支店に出張】",
+          "context_vi": "(cue) A hỏi tuần sau Smith đi đâu · 【công tác chi nhánh Osaka】",
+          "audioStart": 61,
+          "answer": "スミスは来週大阪支店に出張する予定です。",
+          "answer_vi": "いらっしゃいますか → 出張する予定です."
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎤 やってみましょう 話してみましょう — Đóng vai nghe & nhận điện thoại (trang 130)",
+      "page": 130,
+      "intro": "Luyện đóng vai CẶP ĐÔI (A = người NHẬN máy ở 日本ムービー ↔ B = người GỌI đến). Dựng câu theo 「💡 Gợi ý」 (mẫu đã học ①〜⑤) rồi nói; sau đó mở 「📖 Bài mẫu」 (会話の例) để đối chiếu. Role card: A → p.171, B → p.175.",
+      "intro_jp": "ペアで電話のロールプレイ(A＝日本ムービーで電話を受ける人 ↔ B＝かけてくる人)。「💡 ヒント」(①〜⑤の型)で組み立てて話し、「📖 会話の例」で確認しましょう。ロールカード:A→p.171、B→p.175。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう ① — 田中課長への伝言(出張中)",
+          "title_vi": "Nhận lời nhắn cho Trưởng nhóm Tanaka (đang đi công tác)",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "日本ムービー営業部の社員",
+              "who_vi": "Nhân viên phòng Kinh doanh Nihon Movie (nhận máy)",
+              "ref": "ロールカード p.171",
+              "jp": "あなたは日本ムービー営業部の社員です。電話を取って、伝言をあずかってください。田中課長は中国に出張しています。来週木曜日に帰国する予定です。",
+              "vi": "Bạn là nhân viên phòng Kinh doanh Nihon Movie. Hãy bắt máy và nhận lời nhắn. Trưởng nhóm Tanaka đang đi công tác Trung Quốc, dự kiến thứ Năm tuần sau về nước."
+            },
+            {
+              "side": "B",
+              "who_jp": "さくら広告の社員",
+              "who_vi": "Nhân viên Sakura Quảng cáo (gọi đến)",
+              "ref": "ロールカード p.175",
+              "jp": "あなたはさくら広告の社員です。日本ムービーの田中課長と話したいので、電話をかけてください。来月の会議の件で話したいです。詳しいことはメールで送ります。",
+              "vi": "Bạn là nhân viên Sakura Quảng cáo. Bạn muốn nói chuyện với Trưởng nhóm Tanaka của Nihon Movie nên gọi điện đến. Bạn muốn trao đổi về cuộc họp tháng sau; chi tiết sẽ gửi qua mail."
+            }
+          ],
+          "hints": [
+            { "jp": "いつもお世話になっております。〜の〜と申しますが、田中課長、いらっしゃいますか。", "vi": "B mở thoại + xưng danh — ②③" },
+            { "jp": "田中はただいま中国に出張中でございまして……。来週木曜日に帰国する予定です。", "vi": "A báo vắng — ④" },
+            { "jp": "ご伝言を承りましょうか。／よろしければご用件を承ります。", "vi": "A đề nghị nhận lời nhắn — ⑤" },
+            { "jp": "来月の会議の件で、詳しいことはメールでお送りいたします。", "vi": "B nội dung lời nhắn" }
+          ],
+          "model": {
+            "track": "2-31",
+            "audio": "asset/audio/Track2-31.mp3",
+            "intro_vi": "📖 Bài mẫu ① (sách, trang 202, Track 2-31) — B (さくら広告・中田) gọi gặp 田中課長, A báo đang đi công tác Trung Quốc & nhận lời nhắn. Hãy tự nói trước rồi mở đối chiếu.",
+            "intro_jp": "会話の例①(p.202・Track 2-31)。B(さくら広告・中田)が田中課長を呼び、Aが中国出張中と伝えて伝言を受けます。先に自分で話してから確認しましょう。",
+            "lines": [
+              { "sp": "A", "jp": "日本ムービー営業部でございます。", "vi": "Phòng Kinh doanh Nihon Movie xin nghe ạ." },
+              { "sp": "B", "jp": "いつもお世話になっております。さくら広告の中田と申しますが、田中課長、いらっしゃいますか。", "vi": "Luôn cảm ơn quý công ty đã giúp đỡ. Tôi là Nakata bên Sakura Quảng cáo, cho hỏi Trưởng nhóm Tanaka có ở đó không ạ?" },
+              { "sp": "A", "jp": "あ、田中は、ただいま中国に出張中でございまして……。", "vi": "À, Tanaka hiện đang đi công tác Trung Quốc ạ…" },
+              { "sp": "B", "jp": "あ、そうですか。", "vi": "À, vậy à." },
+              { "sp": "A", "jp": "来週の木曜日に帰国する予定です。", "vi": "Dự kiến thứ Năm tuần sau sẽ về nước ạ." },
+              { "sp": "B", "jp": "そうですか。来月の会議のことでお電話したんですが、詳しいことはメールでお送りいたします。ご連絡ありましたら、ご覧いただくようお伝えください。", "vi": "Vậy à. Tôi gọi về chuyện cuộc họp tháng sau, chi tiết tôi sẽ gửi qua mail. Khi có liên lạc thì nhờ anh nhắn anh ấy xem giúp ạ." },
+              { "sp": "A", "jp": "承知いたしました。", "vi": "Tôi rõ rồi ạ." },
+              { "sp": "B", "jp": "よろしくお願いいたします。", "vi": "Mong được giúp đỡ ạ." }
+            ]
+          }
+        },
+        {
+          "label": "②",
+          "title_jp": "話してみましょう ② — 橋本部長への取り次ぎ(席を外している)",
+          "title_vi": "Chuyển máy cho Trưởng phòng Hashimoto (đang vắng chỗ)",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "日本ムービー営業部の社員",
+              "who_vi": "Nhân viên phòng Kinh doanh Nihon Movie (nhận máy)",
+              "ref": "ロールカード p.171",
+              "jp": "あなたは日本ムービー営業部の社員です。電話を取ってください。橋本部長は今席にいません。どこに行ったかわかりません。あとで電話させると伝えてください。",
+              "vi": "Bạn là nhân viên phòng Kinh doanh Nihon Movie. Hãy bắt máy. Trưởng phòng Hashimoto giờ không có ở chỗ, bạn cũng không biết đi đâu. Hãy nói sẽ cho gọi lại sau."
+            },
+            {
+              "side": "B",
+              "who_jp": "東洋映画の社員",
+              "who_vi": "Nhân viên Toyo Eiga (gọi đến)",
+              "ref": "ロールカード p.175",
+              "jp": "あなたは東洋映画の社員です。日本ムービーの橋本部長と話したいので、電話をかけてください。あとでもう一度電話をかけてください。",
+              "vi": "Bạn là nhân viên Toyo Eiga. Bạn muốn nói chuyện với Trưởng phòng Hashimoto của Nihon Movie nên gọi điện đến. Lát nữa bạn sẽ gọi lại một lần nữa."
+            }
+          ],
+          "hints": [
+            { "jp": "いつもお世話になっております。〜の〜と申しますが、橋本部長、いらっしゃいますか。", "vi": "B mở thoại + xưng danh — ②③" },
+            { "jp": "橋本はただいま席をはずしておりまして……。", "vi": "A báo vắng — ④⑤" },
+            { "jp": "戻りましたら折り返しお電話させましょうか。", "vi": "A đề nghị gọi lại — ⑤" },
+            { "jp": "では〜ごろにもう一度お電話いたしますとお伝えください。", "vi": "B nhờ nhắn — ⑤" }
+          ],
+          "model": {
+            "track": "2-32",
+            "audio": "asset/audio/Track2-32.mp3",
+            "intro_vi": "📖 Bài mẫu ② (sách, trang 202, Track 2-32) — B (東洋映画・川口) gọi gặp 橋本部長, A báo đang vắng chỗ & đề nghị gọi lại; B nói sẽ tự gọi lại lúc 11h. Hãy tự nói trước rồi mở đối chiếu.",
+            "intro_jp": "会話の例②(p.202・Track 2-32)。B(東洋映画・川口)が橋本部長を呼び、Aが席を外していると伝えます。Bは11時ごろにかけ直すと言います。先に自分で話してから確認しましょう。",
+            "lines": [
+              { "sp": "A", "jp": "日本ムービー営業部でございます。", "vi": "Phòng Kinh doanh Nihon Movie xin nghe ạ." },
+              { "sp": "B", "jp": "いつもお世話になっております。東洋映画の川口と申しますが、橋本部長、いらっしゃいますか。", "vi": "Luôn cảm ơn quý công ty đã giúp đỡ. Tôi là Kawaguchi bên Toyo Eiga, cho hỏi Trưởng phòng Hashimoto có ở đó không ạ?" },
+              { "sp": "A", "jp": "あ、橋本は、ただいま席をはずしておりますが。", "vi": "À, Hashimoto hiện đang rời khỏi chỗ ạ." },
+              { "sp": "B", "jp": "あ、そうですか。", "vi": "À, vậy à." },
+              { "sp": "A", "jp": "すぐ戻ると思いますが、戻りましたら折り返し電話させましょうか。", "vi": "Chắc anh ấy sẽ về ngay thôi, khi về tôi cho anh ấy gọi lại nhé?" },
+              { "sp": "B", "jp": "いえ。では11時ごろにもう一度お電話いたしますとお伝えください。", "vi": "Không cần đâu ạ. Vậy nhờ anh nhắn là khoảng 11 giờ tôi sẽ gọi lại một lần nữa ạ." },
+              { "sp": "A", "jp": "承知いたしました。", "vi": "Tôi rõ rồi ạ." }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 会話の例: ① = Track 2-31 (田中課長 đi công tác — trang 202); ② = Track 2-32 (橋本部長 vắng chỗ — trang 202). Role card: A p.171, B p.175. Tự nói trước rồi mới mở đối chiếu.",
+      "answerRef_jp": "会話の例:①はTrack 2-31(田中課長・出張)、②はTrack 2-32(橋本部長・席を外す)、ともにp.202。ロールカードはA p.171、B p.175。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "tips",
+      "title": "🗒️ コラム「モリトさん？」 — Vì sao 「森と申します」 bị nghe thành 「モリト」 (trang 131)",
+      "page": 131,
+      "content": "Một mẩu chuyện vui của tác giả về chính mẫu ③ 「〜と申します」:\n\nMột hôm, một sinh viên người nước ngoài nhắn lại cho tôi (thầy Kaneko):\n• Sinh viên: 「金子先生、モリトさんから電話がありました。お電話くださいとのことです。」 (Thầy Kaneko, có chị Morito gọi đến. Chị ấy bảo thầy gọi lại ạ.)\n• Kaneko: 「モリトさん？……森戸さん？ 知らない人だな。」 (Morito? …Morito (森戸)? Người lạ nhỉ.)\n• Sinh viên: 「女の人で、ていねいに話す人……日本語のクラスのことで話したいとおっしゃっていましたよ。」 (Một chị, nói rất lịch sự… bảo muốn trao đổi về lớp tiếng Nhật ạ.)\n• Kaneko: 「ああ。森さんね？ モリトさんじゃなくて、モリさん！」 (À, chị Mori (森) chứ gì? Không phải Morito, là Mori!)\n• Sinh viên: 「……すみません。」 (…Em xin lỗi ạ.)\n\n💡 Vì sao thành ra thế? Vì chị Mori đã nói 「森と申します」 (Mori-to-moushimasu). Bạn sinh viên nghe dính 「森」 + 「と」 thành một cái tên 「モリト」.\n\n📌 Bài học: phần 「〜と申します」 là CHỖ dễ nghe nhầm tên nhất. Nghe không chắc thì luôn hỏi lại 「恐れ入りますが、もう一度お名前を伺ってもよろしいでしょうか。」 (⑤) — đừng đoán bừa.",
+      "content_jp": "③「〜と申します」にまつわる、著者(金子先生)の小話です。\n\nある日、外国人の学生が私(金子)にメッセージを伝えてくれました。\n• 学生:「金子先生、モリトさんから電話がありました。お電話くださいとのことです。」\n• 金子:「モリトさん？……森戸さん？ 知らない人だな。」\n• 学生:「女の人で、ていねいに話す人……日本語のクラスのことで話したいとおっしゃっていましたよ。」\n• 金子:「ああ。森さんね？ モリトさんじゃなくて、モリさん！」\n• 学生:「……すみません。」\n\n💡 どうしてこうなったかわかりますか。森さんが「森と申します」と言ったからです。「森」＋「と」を一つの名前「モリト」と聞いてしまったのです。\n\n📌 ポイント:「〜と申します」は名前を聞き間違えやすいところ。自信がなければ必ず「恐れ入りますが、もう一度お名前を伺ってもよろしいでしょうか。」(⑤)と聞き直しましょう。"
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Từ vựng trọng tâm Bài 14 (trang 130)",
+      "intro": "Từ vựng gặp trong Bài 14 (14課 電話の敬語), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.",
+      "intro_jp": "14課「電話の敬語」に出てくる語彙を、出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        { "jp": "〜の件", "kana": "〜のけん", "vi": "Việc / vấn đề về ~ (＝〜のこと)", "note": "📖 trang 125 — 「来月の会議の件で」." },
+        { "jp": "直接", "kana": "ちょくせつ", "vi": "Trực tiếp (directly)", "note": "📖 trang 125 — 「私から直接社長に申し上げます」." },
+        { "jp": "参加する", "kana": "さんかする", "vi": "Tham gia (to participate / join)", "note": "📖 trang 125 — 「会議に参加しております」." },
+        { "jp": "席をはずす", "kana": "せきをはずす", "vi": "Rời khỏi chỗ / bàn làm việc (to be away from one's desk)", "note": "📖 trang 126 — 「ただいま席を外しておりまして」 (⑤)." },
+        { "jp": "ただいま", "kana": "ただいま", "vi": "Bây giờ / vừa nãy (＝今)", "note": "📖 trang 126 — 「ただいま〜中でございまして」." },
+        { "jp": "折り返し", "kana": "おりかえし", "vi": "Gọi lại / hồi đáp ngay (call back)", "note": "📖 trang 126 — 「折り返し橋本に電話させましょうか」 (⑤)." },
+        { "jp": "伝言", "kana": "でんごん", "vi": "Lời nhắn (message)", "note": "📖 trang 126 — 「伝言を預かる」 (⑤)." },
+        { "jp": "用件", "kana": "ようけん", "vi": "Việc cần / nội dung công việc (matter / business)", "note": "📖 trang 126 — 「ご用件を承ります」 (⑤)." },
+        { "jp": "承る", "kana": "うけたまわる", "vi": "Tiếp nhận / nghe (＝受ける・聞く, khiêm nhường)", "note": "📖 trang 126 — 「私、スミスが承りました」 (⑤)." },
+        { "jp": "承知する", "kana": "しょうちする", "vi": "Hiểu / nhận lời (＝わかる, khiêm nhường)", "note": "📖 trang 126 — 「承知いたしました」." },
+        { "jp": "申し伝える", "kana": "もうしつたえる", "vi": "Chuyển / nhắn lại lời (to pass on a message, khiêm nhường)", "note": "📖 trang 126 — 「橋本に申し伝えます」 (⑤)." },
+        { "jp": "恐れ入りますが", "kana": "おそれいりますが", "vi": "Xin lỗi làm phiền nhưng ~ (＝すみませんが, lịch sự)", "note": "📖 trang 126 — 「恐れ入りますが、もう一度お名前を〜」 (⑤)." },
+        { "jp": "〜時過ぎに", "kana": "〜じすぎに", "vi": "Sau ~ giờ một chút (a little past ~ o'clock)", "note": "📖 trang 126 — 「4時過ぎにもう一度おかけ〜」 (⑤)." },
+        { "jp": "接客", "kana": "せっきゃく", "vi": "Tiếp khách / phục vụ khách (serving a customer)", "note": "📖 trang 127 — 「山田はただいま接客中でございまして」 (練習②)." },
+        { "jp": "海外", "kana": "かいがい", "vi": "Nước ngoài (＝外国, với người Nhật)", "note": "📖 trang 127 — 「海外に出張中でございまして」 (練習②)." },
+        { "jp": "マネージャー", "kana": "まねーじゃー", "vi": "Quản lý (manager)", "note": "📖 trang 127 — 「林マネージャー」 (練習③)." },
+        { "jp": "チーフ", "kana": "ちーふ", "vi": "Trưởng nhóm / chủ nhiệm (chief)", "note": "📖 trang 127 — 「本田チーフ」 (練習③)." },
+        { "jp": "休暇を取る", "kana": "きゅうかをとる", "vi": "Lấy ngày nghỉ / nghỉ phép (to take time off)", "note": "📖 trang 127 — 「休暇を取っておりまして」 (練習③)." },
+        { "jp": "戻る", "kana": "もどる", "vi": "Quay về / trở lại (＝帰る)", "note": "📖 trang 128, 129 — 「来週戻る予定でございます」." },
+        { "jp": "出社する", "kana": "しゅっしゃする", "vi": "Đến công ty / đi làm (＝会社に行く)", "note": "📖 trang 129 — 「明日10時に出社する予定です」 (スタイル)." },
+        { "jp": "支店", "kana": "してん", "vi": "Chi nhánh (branch / location)", "note": "📖 trang 129 — 「大阪支店に出張する予定です」 (スタイル)." },
+        { "jp": "でございます", "kana": "でございます", "vi": "Là ~ ạ (＝です, 丁寧語 cao)", "note": "📖 trang 125 — bắt máy & dạng lịch sự cao (①)." },
+        { "jp": "いらっしゃいますか", "kana": "いらっしゃいますか", "vi": "Có ở đó không ạ (＝いますか, sonkeigo)", "note": "📖 trang 125 — hỏi gặp người (③)." }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "📚 Tổng kết Bài 14 + Bước tiếp theo",
+      "content": "🎯 Tổng kết Bài 14 (14課 電話の敬語 — kính ngữ điện thoại):\n• ① 「はい、[会社名/部署]でございます」 — bắt máy & xưng danh (でございます = です siêu lịch sự).\n• ② 「いつもお世話になっております」 — câu chào chuẩn với đối tác; đáp lại 「こちらこそお世話になっております」.\n• ③ 「[会社名]の[名前]と申しますが、[役職/名前]様、いらっしゃいますか」 — xưng tên người gọi + hỏi gặp ai. Chú ý 「申します」 (xưng tên mình) ≠ 「申し上げます」 (nói VỚI người trên).\n• ④ 「[名字]はただいま〜中でございまして……」 — báo người công ty MÌNH đang vắng: chỉ gọi tên họ trần + BỎ kính ngữ cho cấp trên của mình (ウチ/ソト ▶p.19/L01).\n• ⑤ 電話でよく使う言い方 — 7 cụm: 席を外しておりまして / 折り返し電話させましょうか / ご用件を承ります・申し伝えます / もう一度おかけいただけますでしょうか / お名前を伺ってもよろしいでしょうか / 失礼いたします / お電話かわりました.\n• 💡 Cốt lõi: với người ngoài (ソト), người công ty mình (kể cả sếp) là ウチ → gọi tên trần, bỏ kính ngữ; nghe không rõ tên thì HỎI LẠI, đừng đoán bừa; tự ứng đối thay vì đẩy máy cho người khác.\n\n📖 Tham chiếu trong sách:\n• Đáp án 練習①〜③ (Track 2-26, 2-27, 2-28) → trang 201.\n• Đáp án チェック (①c ②a ③c ④b) & スタイル (Track 2-30) → trang 202.\n• 会話の例 やってみましょう: ① = Track 2-31 (田中課長・出張); ② = Track 2-32 (橋本部長・席を外す) → trang 202 — đã nhúng trong roleplay.\n• Role card: A (日本ムービー社員) → p.171 (L21); B (さくら広告/東洋映画) → p.175 (L21).\n• コラム「モリトさん？」 → trang 131 (đã nhúng phía trên).\n\n➡️ Bài tiếp theo: 15課「インタビューをする」 (trang 132) — phỏng vấn chủ động: nói rõ mục đích, đào sâu câu chuyện đối phương, trả lời câu khó, câu xác nhận lại.",
+      "content_jp": "🎯 14課「電話の敬語」のまとめ:\n• ① 「はい、[会社名/部署]でございます」(名乗り)。\n• ② 「いつもお世話になっております」(あいさつ、返しは「こちらこそ〜」)。\n• ③ 「[会社名]の[名前]と申しますが、〜いらっしゃいますか」(「申します」≠「申し上げます」)。\n• ④ 「[名字]はただいま〜中でございまして……」(ウチ/ソトで自社の人は名字＋敬語なし ▶p.19)。\n• ⑤ 電話でよく使う言い方(席を外しておりまして/折り返し電話させましょうか/ご用件を承ります・申し伝えます/もう一度おかけいただけますでしょうか/お名前を伺ってもよろしいでしょうか/失礼いたします/お電話かわりました)。\n• 💡 ポイント:ソトの人には、自社の人(上司も)はウチ→名字・敬語なし。聞き取れなければ聞き直す。自分で対応する。\n\n📖 本の参照:練習①〜③(Track 2-26・2-27・2-28)→p.201、チェック(①c ②a ③c ④b)・スタイル(Track 2-30)→p.202、会話の例①=Track 2-31(田中課長・出張)・②=Track 2-32(橋本部長・席を外す)→p.202。ロールカード:A→p.171、B→p.175。コラム「モリトさん？」→p.131。\n➡️ 次は15課「インタビューをする」(p.132)。"
+    }
+  ]
+}

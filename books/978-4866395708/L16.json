@@ -1,0 +1,581 @@
+{
+  "id": "L16",
+  "order": 16,
+  "title": "15課 インタビューをする",
+  "titleVi": "Bài 15 — Phỏng vấn chủ động (đi hỏi người khác)",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 35,
+  "intro": "Bài 15 (15課) — Chương 2. Tình huống: アレックス (Alex) lần đầu phỏng vấn bằng tiếng Nhật. Đối tượng là 林美香 (Hayashi Mika), người phụ trách phục trang (衣装) cho bộ phim mới 『アジアンナイト』.\nỞ bản 「できますか?」, Alex quá căng thẳng (緊張): chỉ chăm chăm đọc câu hỏi đã chuẩn bị, không bám theo câu trả lời của 林さん để hỏi sâu thêm, nên không 「引き出す」 (khơi gợi) được câu chuyện hay từ đối phương.\nBài này học KỸ THUẬT PHỎNG VẤN bằng kính ngữ: cảm ơn khi người ta dành thời gian, NHẮC LẠI lời đối phương, ĐÀO SÂU câu chuyện bằng câu hỏi nối, TRẢ LỜI câu hỏi của họ đúng kính ngữ, và XÁC NHẬN khi nghe chưa rõ.\n\n🎯 Mục tiêu — 5 kỹ thuật (敬語で言ってみましょう, trang 133):\n① 「お〜中／〜ところ、ありがとうございます」 — cảm ơn / xin lỗi vì đã làm phiền dù đang bận/mệt/nghỉ.\n② 相手の話をくり返す — nhắc lại lời đối phương (đổi sang sonkeigo) để thể hiện đang lắng nghe & dẫn dắt tiếp.\n③ 相手の話を広げる — đào sâu bằng câu hỏi nối (どちらに〜／どんな〜) dùng sonkeigo.\n④ 相手の質問に答える — trả lời câu hỏi của họ: việc CỦA MÌNH (nhất là hướng tới phía họ) → kenjougo (拝見します／伺います).\n⑤ 確認したいとき — xác nhận khi nghe chưa rõ (今、何とおっしゃいましたでしょうか／〜とおっしゃいますと……).",
+  "intro_jp": "第2章 15課。アレックスさんは初めて日本語でインタビューをします。相手は、新しい映画『アジアンナイト』の衣装を担当した林美香さんです。\n「できますか?」では、アレックスさんは緊張していて、用意した質問を読むだけで、林さんの話に合わせて広げることができず、上手に話を引き出せませんでした。\nこの課で、インタビューの敬語を学びます。時間をいただいたお礼、相手の話をくり返す、相手の話を広げる(質問を重ねる)、相手の質問に答える(自分のことは謙譲語)、聞き取れないときの確認のしかたです。\n\n🎯 学習項目(敬語で言ってみましょう・p.133):\n① 「お〜中／〜ところ、ありがとうございます」(お忙しい中・お疲れのところ など)\n② 相手の話をくり返す(尊敬語に変えて)\n③ 相手の話を広げる(質問を重ねる・尊敬語)\n④ 相手の質問に答える(自分のことは謙譲語:拝見します／伺います)\n⑤ 確認したいとき(今、何とおっしゃいましたでしょうか/〜とおっしゃいますと……)",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — Alex căng thẳng, chỉ đọc câu hỏi, không đào sâu được câu chuyện (trang 132)",
+      "page": 132,
+      "image": "books/978-4866395708/images/132_1.jpg",
+      "imageAlt": "Minh hoạ trang 132 — Alex (mặc vest, ngồi ghế đạo diễn, tay che miệng vẻ lúng túng) đang phỏng vấn 林美香 (mặc kimono, ngồi đối diện).",
+      "imageCaption": "Minh hoạ trang 132 — Alex quá căng thẳng nên không khơi gợi được câu chuyện của 林さん.",
+      "scene": "アレックスさんは初めて日本語でインタビューをします。相手は、新しい映画『アジアンナイト』の衣装を担当した林美香さんです。\n(Alex lần đầu phỏng vấn bằng tiếng Nhật. Đây là bản CHƯA đạt — Alex chỉ đọc câu hỏi đã soạn, không bám theo câu trả lời để hỏi sâu. Bản chuẩn xem ở 「これでOK!」 trang 135.)",
+      "lines": [
+        { "speaker": "アレックス", "jp": "林さん、本日はお忙しいのにすみません。日本ムービーのアレックス・スミスと申します。……き、着物がきれいですね。", "vi": "Chị Hayashi, hôm nay chị bận mà tôi xin lỗi đã làm phiền. Tôi là Alex Smith bên Nihon Movie. …Ki, kimono đẹp quá ạ. (⚠️ 「お忙しいのにすみません」 nên trang trọng hơn: 「お忙しい中、〜ありがとうございます」; mở thoại còn lúng túng)" },
+        { "speaker": "林", "jp": "あ、ありがとうございます。よろしくお願いします。林です。", "vi": "À, cảm ơn anh. Mong được giúp đỡ. Tôi là Hayashi." },
+        { "speaker": "アレックス", "jp": "さっそくインタビューをお願いします。新しい映画は、アジアが舞台ですね。映画の衣装で特に工夫したことは、何ですか。", "vi": "Tôi xin vào phỏng vấn luôn ạ. Bộ phim mới lấy bối cảnh châu Á nhỉ. Về phục trang trong phim, điều chị đặc biệt dụng công là gì ạ?" },
+        { "speaker": "林", "jp": "工夫したことですか。アジアの昔の衣装を参考にしたんです。アジアのどこかという設定になっているので、デザインは自由に考えることができたんですよ。……あ、アレックスさんは、映画はご覧になりましたよね？ いかがでしたか。", "vi": "Điều dụng công ấy à. Tôi đã tham khảo trang phục cổ của châu Á. Vì bối cảnh là 'đâu đó ở châu Á' nên tôi được tự do sáng tạo thiết kế. …À, anh Alex xem phim rồi đúng không? Anh thấy thế nào?" },
+        { "speaker": "アレックス", "jp": "あ、はい、もちろん、見ました。えーと、次の質問……大変だったことは何ですか。", "vi": "À, vâng, tất nhiên, tôi xem rồi. Ưmm, câu hỏi tiếp theo… Điều vất vả là gì ạ? (⚠️ 林さん hỏi ngược lại 「いかがでしたか」 nhưng Alex không đáp, chỉ vội đọc câu kế tiếp → không nối chuyện)" },
+        { "speaker": "林", "jp": "え？ あ、次の質問ね……そ、そうですねえ。メイクですね……。", "vi": "Ơ? À, câu hỏi tiếp theo à… ờ, để xem nhỉ. Là khâu trang điểm ạ…. (không khí chùng xuống vì cuộc nói chuyện không mở ra được)" },
+        { "speaker": "—", "jp": "アレックスさんは緊張していて、林さんの話を上手に引き出すことができませんでした。", "vi": "Alex quá căng thẳng nên đã không khơi gợi được câu chuyện của chị Hayashi một cách khéo léo." }
+      ],
+      "vocabHighlight": [
+        "「お忙しいのにすみません」 → 「お忙しい中、〜ありがとうございます」 (①)",
+        "林さんの話を受けて → くり返す/広げる (②③) thay vì đọc câu kế",
+        "「ご覧になりましたよね？いかがでしたか」 → tự trả lời bằng 拝見しました (④) rồi nối tiếp"
+      ],
+      "note": "Cảnh dẫn vào Bài 15: KỸ THUẬT PHỎNG VẤN. Alex chưa đạt ở: (1) lời cảm ơn mở đầu chưa trang trọng; (2) chỉ đọc lần lượt câu hỏi đã soạn, không NHẮC LẠI/ĐÀO SÂU câu trả lời của 林さん; (3) bị hỏi ngược 「いかがでしたか」 nhưng né, không trả lời rồi nối tiếp. 5 kỹ thuật ①〜⑤ bên dưới dạy cách cảm ơn, nhắc lại, đào sâu, trả lời và xác nhận; bản chuẩn xem ở 「これでOK!」 (trang 135).",
+      "note_jp": "この課では、インタビューの敬語(話の引き出し方)を勉強します。アレックスさんは(1)最初のお礼が改まっていない、(2)用意した質問を順に読むだけで、林さんの答えをくり返したり広げたりしない、(3)「いかがでしたか」と聞き返されても答えずに次へ進む、が問題です。①〜⑤で、お礼・くり返し・広げ方・答え方・確認を学び、正しい例は「これでOK!」(p.135)で確認します。"
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ① 「お〜中／〜ところ、ありがとうございます」 — Cảm ơn vì đã dành thời gian (trang 133)",
+      "page": 133,
+      "items": [
+        {
+          "pattern": "お[忙しい/寒い…]中／お[急ぎ/疲れ/休み]のところ + ありがとうございます／申し訳ありません",
+          "patternVi": "Đặt trước lời cảm ơn / xin lỗi để ghi nhận đối phương đang bận / mệt / nghỉ mà vẫn dành thời gian cho mình.",
+          "explanation": "Khi nhờ ai đó dành thời gian (phỏng vấn, gặp gỡ…), mở đầu bằng cụm ghi nhận hoàn cảnh của họ: 「お+[tính từ]+中」 hoặc 「お+[danh từ]+のところ」, rồi nối 「わざわざありがとうございます」 (cảm ơn) hoặc 「申し訳ありません」 (xin lỗi vì làm phiền). Lịch sự và 'có lòng' hơn hẳn 「お忙しいのにすみません」.",
+          "explanation_jp": "相手に時間をもらうとき(インタビュー・面会など)は、まず相手の状況を気づかう「お〜中/お〜のところ」を言ってから、「わざわざありがとうございます」または「申し訳ありません」と続けます。「お忙しいのにすみません」より、ずっとていねいで心がこもります。",
+          "examples": [
+            { "jp": "お忙しい中／お寒い中／雨の中、わざわざありがとうございます。", "vi": "Anh/chị đang bận / trời lạnh / trời mưa mà vẫn đến, cảm ơn anh/chị rất nhiều ạ." },
+            { "jp": "お急ぎのところ／お疲れのところ／お休みのところ、申し訳ありません。", "vi": "Anh/chị đang vội / đang mệt / đang nghỉ mà tôi làm phiền, thật xin lỗi ạ." },
+            { "jp": "本日はお忙しい中、取材をさせていただきましてありがとうございます。", "vi": "Hôm nay anh/chị bận mà vẫn cho tôi phỏng vấn, cảm ơn anh/chị rất nhiều ạ." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ② 相手の話をくり返す — Nhắc lại lời đối phương (đổi sang sonkeigo, trang 133)",
+      "page": 133,
+      "items": [
+        {
+          "pattern": "[đối phương vừa nói X] → 「(あ、)X んですか／X でいらっしゃるんですか」 + いかがでしたか",
+          "patternVi": "Nhắc lại điều họ vừa nói, ĐỔI động từ của họ sang sonkeigo → thể hiện mình đang nghe & mở đường nói tiếp.",
+          "explanation": "Một mẹo phỏng vấn cơ bản: NHẮC LẠI (くり返す) chính điều đối phương vừa kể, nhưng chuyển động từ của HỌ sang sonkeigo (行った → いらっしゃった, 作っている → 作っていらっしゃる). Vừa cho thấy bạn đang chăm chú nghe, vừa khơi để họ kể tiếp. Thường nối thêm 「いかがでしたか」 / 「すごいですね」.",
+          "explanation_jp": "インタビューの基本のコツ。相手が言ったことを、相手の動作を尊敬語に変えてくり返します(行った→いらっしゃった、作っている→作っていらっしゃる)。「ちゃんと聞いていますよ」という気持ちが伝わり、相手は話を続けやすくなります。「いかがでしたか」「すごいですね」などを添えます。",
+          "examples": [
+            { "jp": "A：先週、京都に行ったんです。\nB：あ、京都にいらっしゃったんですか。いかがでしたか。", "vi": "A: Tuần trước tôi đi Kyoto đấy.\nB: À, anh/chị đã đi Kyoto à? Thế nào ạ? (行った → いらっしゃった)" },
+            { "jp": "A：忙しくても毎日お弁当を作ってるんです。\nB：え、すごいですね。毎日作っていらっしゃるんですか。", "vi": "A: Dù bận tôi vẫn làm cơm hộp mỗi ngày.\nB: Ồ, giỏi thật. Anh/chị làm mỗi ngày luôn à? (作ってる → 作っていらっしゃる)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ③ 相手の話を広げる — Đào sâu câu chuyện bằng câu hỏi nối (trang 133)",
+      "page": 133,
+      "items": [
+        {
+          "pattern": "どちらに〜／どんな〜 + [Vられる／お〜になる]んですか （＋ なるほど。）",
+          "patternVi": "Sau khi nghe, hỏi nối bằng câu hỏi cụ thể (どちら／どんな…) dùng sonkeigo để đối phương kể sâu hơn.",
+          "explanation": "Không chỉ nhắc lại, mà ĐÀO SÂU (広げる): từ điều họ vừa nói, đặt câu hỏi cụ thể hơn (どちらに / どんな…) bằng sonkeigo (出かけられる, お撮りになる) để họ kể chi tiết. Đáp lại bằng 「なるほど」 để giữ nhịp. Đây là chìa khoá để '引き出す' (khơi gợi) một cuộc phỏng vấn hay.",
+          "explanation_jp": "くり返すだけでなく、相手の話をさらに「広げる」。相手が言ったことから、もっと具体的な質問(どちらに/どんな〜)を尊敬語(出かけられる・お撮りになる)でします。「なるほど」と相づちを打ちながら聞きます。これが、いい話を「引き出す」コツです。",
+          "examples": [
+            { "jp": "A：よくアジアに旅行に出かけるんです。\nB：どちらに出かけられるんですか。", "vi": "A: Tôi hay đi du lịch châu Á.\nB: Anh/chị thường đi đâu ạ? (出かける → 出かけられる)" },
+            { "jp": "A：いいデザインを見つけたら、写真を撮るんです。\nB：どんな写真をお撮りになるんですか。", "vi": "A: Hễ thấy thiết kế hay là tôi chụp ảnh.\nB: Anh/chị chụp những bức ảnh thế nào ạ? (撮る → お撮りになる)" },
+            { "jp": "なるほど。", "vi": "Ra vậy / Thì ra là thế. (相づち — giữ nhịp khi nghe)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ④ 相手の質問に答える — Trả lời câu hỏi của họ: việc của mình dùng kenjougo (trang 133)",
+      "page": 133,
+      "items": [
+        {
+          "pattern": "Q（尊敬語で聞かれる） → A: [自分のこと] = 普通／謙譲語（拝見します・伺います）",
+          "patternVi": "Khi bị hỏi (bằng sonkeigo), trả lời về VIỆC CỦA MÌNH; việc hướng tới phía đối phương → dùng kenjougo.",
+          "explanation": "Trong phỏng vấn bạn cũng bị hỏi ngược. Đối phương hỏi bằng sonkeigo về bạn (お好きですか / 学ばれた / ご存じ / ご覧になった / お見えになる). Bạn trả lời về VIỆC CỦA MÌNH bằng thể thường lịch sự; và nếu hành động hướng tới đồ/nơi CỦA HỌ thì dùng KENJOUGO: メールを見る → 拝見しました, (相手の場所へ) 行く → 伺います.",
+          "explanation_jp": "インタビューでは自分も質問されます。相手は尊敬語であなたのことを聞きます(お好きですか/学ばれた/ご存じ/ご覧になった/お見えになる)。あなたは自分のことを答えます。相手のもの・場所に向かう動作は謙譲語に:メールを見る→拝見しました、(相手の場所へ)行く→伺います。",
+          "warning": "📌 「ご存じ」(sonkeigo, hỏi về HỌ biết không) ↔ trả lời 「知っていました」; 「ご覧になる」(sonkeigo, HỌ xem) ↔ tự mình thì 「拝見しました」(kenjougo); 「お見えになる」(＝来る, sonkeigo) ↔ tự mình đến chỗ họ thì 「伺います」(kenjougo).",
+          "warning_jp": "📌 「ご存じ」(尊敬・相手が知る) ↔ 自分は「知っていました」。「ご覧になる」(尊敬・相手が見る) ↔ 自分は「拝見しました」(謙譲)。「お見えになる」(＝来る・尊敬) ↔ 自分が相手の所へは「伺います」(謙譲)。",
+          "examples": [
+            { "jp": "Q：どのような映画がお好きですか。 — A：日本のアニメが好きです。", "vi": "Q: Anh/chị thích phim kiểu nào ạ? — A: Tôi thích anime Nhật." },
+            { "jp": "Q：大学では何を学ばれたんですか。 — A：心理学を学びました。", "vi": "Q: Ở đại học anh/chị đã học gì ạ? (学ばれた = sonkeigo) — A: Tôi học tâm lý học." },
+            { "jp": "Q：映画の原作についてはご存じでいらっしゃいましたか。 — A：ええ、知っていました。", "vi": "Q: Anh/chị có biết về nguyên tác của phim không ạ? (ご存じ) — A: Vâng, tôi có biết." },
+            { "jp": "Q：昨日お送りしたメール、ご覧になりましたか。 — A：はい、拝見しました。", "vi": "Q: Mail tôi gửi hôm qua, anh/chị xem chưa ạ? — A: Vâng, tôi đã xem rồi. (mail của HỌ gửi → 拝見しました, kenjougo)" },
+            { "jp": "Q：明日何時ごろお見えになりますか。 — A：午後1時に伺います。", "vi": "Q: Mai khoảng mấy giờ anh/chị tới ạ? (お見えになる) — A: 1 giờ chiều tôi sẽ tới ạ. (đến chỗ HỌ → 伺います, kenjougo)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ⑤ 確認したいとき — Xác nhận khi nghe chưa rõ (trang 133)",
+      "page": 133,
+      "items": [
+        {
+          "pattern": "今、何とおっしゃいましたでしょうか。／ 〜と、おっしゃいますと……。／ その「〜」というのは、どのような意味ですか。",
+          "patternVi": "Nghe chưa rõ hoặc muốn hiểu kỹ → hỏi lại lịch sự, đừng đoán bừa hay bỏ qua.",
+          "explanation": "Khi không nghe rõ hoặc chưa hiểu từ nào, hãy xác nhận lịch sự thay vì đoán bừa: 「今、何とおっしゃいましたでしょうか」 (xin nhắc lại), 「〜と、おっしゃいますと……」 (ý anh/chị nói 〜 là…?), 「その『〜』というのは、どのような意味ですか」 (từ '〜' nghĩa là gì ạ?). 「おっしゃる」 = sonkeigo của 言う.",
+          "explanation_jp": "聞き取れなかったり、意味がわからなかったりしたときは、適当に流さず、ていねいに確認します。「今、何とおっしゃいましたでしょうか」「〜と、おっしゃいますと……」「その『〜』というのは、どのような意味ですか」。「おっしゃる」は「言う」の尊敬語です。",
+          "examples": [
+            { "jp": "今、何とおっしゃいましたでしょうか。", "vi": "Vừa rồi anh/chị nói gì ạ? (xin nhắc lại)" },
+            { "jp": "「貧乏旅行」と、おっしゃいますと……。", "vi": "'Du lịch tiết kiệm' — ý anh/chị là…? (gợi để họ giải thích thêm)" },
+            { "jp": "その「インフラ」というのは、どのような意味ですか。", "vi": "Từ 'hạ tầng (infra)' đó nghĩa là gì ạ?" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習① 相手の話をくり返す・広げる (Track 2-33, trang 134)",
+      "page": 134,
+      "audio": "asset/audio/Track2-33.mp3",
+      "audioLabel": "Track 2-33 — 練習①",
+      "style": "speak",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。例のように言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi mới luyện. Nghe đối phương kể, NHẮC LẠI bằng sonkeigo: 「えっ、〜（尊敬語）んですか。」 Đáp án → trang 202.",
+      "note": "💡 [động từ của đối phương → sonkeigo] + んですか。 (見る→ご覧になる, する→なさる/〜ていらっしゃる, 行く→いらっしゃる). Đáp án theo trang 202 (Track 2-33).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "よく相撲を見るんですよ。",
+          "context_vi": "(cue) Tôi hay xem sumo đấy.",
+          "answer": "えっ、相撲をご覧になるんですか。",
+          "answer_vi": "見る → ご覧になる (sonkeigo)."
+        },
+        {
+          "num": "1",
+          "context": "毎朝、ジョギングしているんですよ。",
+          "context_vi": "(cue) Sáng nào tôi cũng chạy bộ đấy.",
+          "answer": "えっ、毎朝、ジョギングしていらっしゃるんですか。",
+          "answer_vi": "している → していらっしゃる (sonkeigo)."
+        },
+        {
+          "num": "2",
+          "context": "娘が3人いるんですよ。",
+          "context_vi": "(cue) Tôi có 3 cô con gái đấy.",
+          "answer": "えっ、娘さんが3人いらっしゃるんですか。",
+          "answer_vi": "娘 → 娘さん; いる → いらっしゃる (sonkeigo)."
+        },
+        {
+          "num": "3",
+          "context": "インドネシアに行ったんですよ。",
+          "context_vi": "(cue) Tôi đã đi Indonesia đấy.",
+          "answer": "えっ、インドネシアにいらっしゃったんですか。",
+          "answer_vi": "行った → いらっしゃった (sonkeigo)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習② 相手の質問に答える (Track 2-34, trang 134)",
+      "page": 134,
+      "audio": "asset/audio/Track2-34.mp3",
+      "audioLabel": "Track 2-34 — 練習②",
+      "style": "speak",
+      "instruction": "例のように言ってみましょう。",
+      "instruction_vi": "Nghe hết rồi luyện. A hỏi bằng sonkeigo; theo từ khoá của B, đáp về VIỆC CỦA MÌNH bằng thể thường: 「そうですね。〜（ています／予定です）。」 Đáp án → trang 202.",
+      "note": "💡 B đáp về bản thân → bỏ kính ngữ, dùng thể thường lịch sự (読まれます → 読んでいます). Đáp án theo trang 202 (Track 2-34).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "A：いつもどのような音楽を聞いていらっしゃいますか。／B：【ジャズ】",
+          "context_vi": "(cue) A hỏi thường nghe nhạc gì · 【jazz】",
+          "answer": "そうですね。ジャズを聞いています。",
+          "answer_vi": "聞いていらっしゃいます → 聞いています (về mình)."
+        },
+        {
+          "num": "1",
+          "context": "A：どのような本を読まれますか。／B：【中国の小説】",
+          "context_vi": "(cue) A hỏi đọc sách kiểu nào · 【tiểu thuyết Trung Quốc】",
+          "answer": "そうですね。中国の小説を読んでいます。",
+          "answer_vi": "読まれますか → 読んでいます."
+        },
+        {
+          "num": "2",
+          "context": "A：いつごろ日本へお帰りになりますか。／B：【11月ごろ】",
+          "context_vi": "(cue) A hỏi khoảng bao giờ về Nhật · 【khoảng tháng 11】",
+          "answer": "そうですね。11月ごろ帰ります。／帰る予定です。",
+          "answer_vi": "お帰りになりますか → 帰ります／帰る予定です."
+        },
+        {
+          "num": "3",
+          "context": "A：毎晩だいたい何時にお休みになりますか。／B：【12時までに】",
+          "context_vi": "(cue) A hỏi tối thường mấy giờ đi ngủ · 【trước 12 giờ】",
+          "answer": "そうですね。12時までに寝ます。／寝るようにしています。",
+          "answer_vi": "お休みになりますか → 寝ます／寝るようにしています."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習③ ええ／いいえで答える (Track 2-35, trang 134)",
+      "page": 134,
+      "audio": "asset/audio/Track2-35.mp3",
+      "audioLabel": "Track 2-35 — 練習③",
+      "style": "speak",
+      "instruction": "例のように答えてみましょう。",
+      "instruction_vi": "Nghe hết rồi luyện. A hỏi bằng sonkeigo; theo cue 【ええ／いいえ…】, đáp gọn về VIỆC CỦA MÌNH bằng thể thường. Đáp án → trang 202.",
+      "note": "💡 ええ → khẳng định việc mình (予約しました／よくわかりました); いいえ → phủ định (まだ〜ていません). Đáp án theo trang 202 (Track 2-35).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "A：毎日お忙しいですね。／B：【ええ】／【いいえ】",
+          "context_vi": "(cue) A: Ngày nào cũng bận nhỉ. · 【ええ】／【いいえ】",
+          "answer": "（ええ）ええ、毎日忙しいですよ。／（いいえ）いいえ、あまり忙しくないですよ。",
+          "answer_vi": "Đáp về mình bằng thể thường, bỏ kính ngữ."
+        },
+        {
+          "num": "1",
+          "context": "A：もう新幹線の予約、されましたか。／B：【ええ】",
+          "context_vi": "(cue) A hỏi đã đặt vé Shinkansen chưa · 【ええ】",
+          "answer": "ええ、予約しました。",
+          "answer_vi": "されましたか → 予約しました."
+        },
+        {
+          "num": "2",
+          "context": "A：昼ご飯、召し上がりましたか。／B：【いいえ】",
+          "context_vi": "(cue) A hỏi đã ăn trưa chưa · 【いいえ】",
+          "answer": "いいえ、まだ食べていません。",
+          "answer_vi": "召し上がりましたか → （まだ）食べていません."
+        },
+        {
+          "num": "3",
+          "context": "A：おわかりになりましたか。／B：【ええ、よく】",
+          "context_vi": "(cue) A hỏi đã hiểu chưa · 【ええ、rõ】",
+          "answer": "ええ、よくわかりました。",
+          "answer_vi": "おわかりになりましたか → よくわかりました."
+        },
+        {
+          "num": "4",
+          "context": "A：チケットはお持ちですか。／B：【ええ】",
+          "context_vi": "(cue) A hỏi đã có vé chưa · 【ええ】",
+          "answer": "ええ、持っています。",
+          "answer_vi": "お持ちですか → 持っています."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — Alex phỏng vấn trôi chảy, biết nhắc lại & đào sâu câu chuyện (Track 2-36, trang 135)",
+      "page": 135,
+      "image": "books/978-4866395708/images/135_1.jpg",
+      "imageAlt": "Minh hoạ trang 135 — Alex (ngồi ghế đạo diễn) bắt nhịp tốt; 林美香 (kimono) hào hứng vung tay kể chuyện.",
+      "imageCaption": "Minh hoạ trang 135 — Lần này Alex dẫn dắt khéo, khơi gợi được câu chuyện của chị Hayashi.",
+      "audio": "asset/audio/Track2-36.mp3",
+      "audioLabel": "Track 2-36 — これでOK!",
+      "scene": "Bản ĐÚNG: Alex cảm ơn trang trọng (お忙しい中), nhắc lại lời 林さん (参考になさった), đào sâu (例えばどのようなデザイン), và khi bị hỏi ngược thì tự đáp 拝見しました rồi nối tiếp.",
+      "lines": [
+        { "speaker": "アレックス", "jp": "本日はお忙しい中、取材をさせていただきましてありがとうございます。日本ムービーのアレックス・スミスと申します。どうぞよろしくお願いいたします。林さん、今回の映画は、アジアが舞台ですね。そこで、衣装で特に工夫されたことについてお話を伺いたいんですが、それはどのようなことでしょうか。", "vi": "Hôm nay chị bận mà vẫn cho tôi phỏng vấn, cảm ơn chị rất nhiều ạ. Tôi là Alex Smith bên Nihon Movie. Mong được chị giúp đỡ. Chị Hayashi, bộ phim lần này lấy bối cảnh châu Á nhỉ. Tôi muốn nghe chị kể về điều chị đặc biệt dụng công ở phục trang, đó là gì ạ? (① お忙しい中、〜ありがとうございます／伺いたい)" },
+        { "speaker": "林", "jp": "工夫したことですか。アジアの昔の衣装を参考にしてデザインしたんです。この映画はアジアのどこかという設定になっているので、自由に考えることができたんですよ。", "vi": "Điều dụng công ấy à. Tôi đã thiết kế dựa trên trang phục cổ của châu Á. Phim lấy bối cảnh 'đâu đó ở châu Á' nên tôi được tự do sáng tạo." },
+        { "speaker": "アレックス", "jp": "あ、そうですか。昔の衣装を参考になさったんですね。例えばどのようなデザインでしょうか。", "vi": "À, vậy à. Chị đã tham khảo trang phục cổ ạ. Ví dụ là những thiết kế thế nào ạ? (② くり返す: 参考になさった ＋ ③ 広げる: 例えばどのような)" },
+        { "speaker": "林", "jp": "そうですね。ヘアスタイルは中国風に、服は韓国の服を参考に、そして、持ち物や髪の飾りは日本の物を、という感じです……あ、アレックスさんは、映画はご覧になりましたよね？", "vi": "Để xem nhỉ. Kiểu tóc thì theo phong cách Trung Quốc, trang phục tham khảo đồ Hàn Quốc, còn đồ mang theo và phụ kiện tóc thì dùng đồ Nhật… À, anh Alex xem phim rồi đúng không?" },
+        { "speaker": "アレックス", "jp": "ええ、拝見しました。", "vi": "Vâng, tôi đã xem rồi ạ. (④ trả lời câu hỏi ngược: 見る về mình → 拝見しました, kenjougo)" },
+        { "speaker": "林", "jp": "映画のヒロインが着ていたあの服をご覧になったでしょう？ あの服は……", "vi": "Anh thấy bộ đồ mà nữ chính mặc rồi chứ? Bộ đó là…" },
+        { "speaker": "—", "jp": "アレックスさんは、林さんとの会話を上手に進めて、話を引き出すことができました。", "vi": "Alex đã dẫn dắt cuộc nói chuyện với chị Hayashi một cách khéo léo và khơi gợi được câu chuyện." }
+      ],
+      "vocabHighlight": [
+        "お忙しい中、取材をさせていただきまして〜 — cảm ơn mở đầu (①)",
+        "昔の衣装を参考になさったんですね — nhắc lại bằng sonkeigo (②)",
+        "例えばどのようなデザインでしょうか — đào sâu (③)",
+        "ええ、拝見しました — tự trả lời câu hỏi ngược bằng kenjougo (④)"
+      ],
+      "note": "So với bản 「できますか?」 (p.132): Alex (1) cảm ơn trang trọng 「お忙しい中、〜ありがとうございます」; (2) NHẮC LẠI lời 林さん 「参考になさったんですね」; (3) ĐÀO SÂU 「例えばどのようなデザインでしょうか」; (4) khi 林さん hỏi ngược 「ご覧になりましたよね？」 thì tự đáp 「拝見しました」 rồi để chị kể tiếp → khơi gợi (引き出す) được câu chuyện. Bảng đối chiếu ở mục kế tiếp.",
+      "note_jp": "p.132「できますか?」と比べて、アレックスさんは(1)「お忙しい中、〜ありがとうございます」と改まって礼を言い、(2)「参考になさったんですね」と相手の話をくり返し、(3)「例えばどのようなデザインでしょうか」と広げ、(4)聞き返されたら「拝見しました」と答えて、話を引き出せました。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh できますか → これでOK (p.132 ↔ p.135)",
+      "intro": "Bảng TỔNG HỢP đối chiếu cuộc phỏng vấn CHƯA đạt (p.132 「できますか?」) ↔ bản ĐÚNG (p.135 「これでOK!」), map theo 4 kỹ thuật ①〜④. Gom từ 2 đoạn hội thoại phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.132「できますか?」とp.135「これでOK!」を①〜④で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "場面",
+        "sonkeigo": "✗ p.132 (できますか)",
+        "kenjougo": "✓ p.135 (これでOK)"
+      },
+      "rows": [
+        {
+          "plain": "最初のお礼",
+          "plainVi": "lời cảm ơn mở đầu",
+          "sonkeigo": "本日はお忙しいのにすみません。",
+          "kenjougo": "本日はお忙しい中、取材をさせていただきましてありがとうございます。(①)"
+        },
+        {
+          "plain": "相手の話を受ける",
+          "plainVi": "tiếp nhận lời đối phương",
+          "sonkeigo": "（聞き流して）えーと、次の質問……。",
+          "kenjougo": "昔の衣装を参考になさったんですね。(② くり返す)"
+        },
+        {
+          "plain": "話を広げる",
+          "plainVi": "đào sâu câu chuyện",
+          "sonkeigo": "（用意した質問を読むだけ）",
+          "kenjougo": "例えばどのようなデザインでしょうか。(③ 広げる)"
+        },
+        {
+          "plain": "聞き返されたとき",
+          "plainVi": "khi bị hỏi ngược",
+          "sonkeigo": "あ、はい、もちろん、見ました。（で終わり）",
+          "kenjougo": "ええ、拝見しました。（→相手が話を続ける）(④)"
+        },
+        {
+          "plain": "結果",
+          "plainVi": "kết quả",
+          "sonkeigo": "話を上手に引き出せなかった。",
+          "kenjougo": "会話を上手に進めて、話を引き出せた。"
+        }
+      ],
+      "note": "Điểm cốt lõi: phỏng vấn hay = KHÔNG chỉ đọc câu hỏi đã soạn. Hãy cảm ơn trang trọng (お〜中), NHẮC LẠI lời đối phương bằng sonkeigo, ĐÀO SÂU bằng câu hỏi nối, và khi bị hỏi ngược thì TRẢ LỜI (việc mình → kenjougo) rồi nối tiếp. Như vậy mới 引き出す được câu chuyện.",
+      "note_jp": "ポイント:いいインタビューは、用意した質問を読むだけにしない。「お〜中」で改まって礼を言い、相手の話を尊敬語でくり返し、質問を重ねて広げ、聞き返されたら答える(自分のことは謙譲語)。そうして話を引き出す。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — Chọn cách nói đúng trong cuộc phỏng vấn (trang 136)",
+      "page": 136,
+      "instruction": "【　】の中から、正しいものを選んでください。",
+      "instruction_vi": "Chọn phương án đúng cho từng chỗ 【　】 trong đoạn hội thoại. B nhắc lại/hỏi về việc của A → dùng SONKEIGO. Bấm chọn rồi 確認. Đáp án → trang 203.",
+      "note": "📝 Đáp án (p.203): ① a 行かれた ② b めしあがった ③ b お会いになった ④ b 帰られた. (Đều là việc của A → sonkeigo)",
+      "items": [
+        {
+          "num": "①",
+          "context": "A：昨日、新宿に行きました。／B：そうですか。新宿に【①】んですか。",
+          "context_vi": "B nhắc lại việc A đi → sonkeigo của 行く.",
+          "options": ["行かれた", "まいった", "うかがった"],
+          "answerIndex": 0,
+          "answer_vi": "行かれた (sonkeigo). まいった/うかがった = kenjougo (việc mình) → sai."
+        },
+        {
+          "num": "②",
+          "context": "A：で、有名な店でてんぷらを食べたんですよ。／B：てんぷらを【②】んですね。",
+          "context_vi": "B nhắc lại việc A ăn → sonkeigo của 食べる.",
+          "options": ["いただいた", "めしあがった", "めしあげた"],
+          "answerIndex": 1,
+          "answer_vi": "めしあがった (召し上がる, sonkeigo). いただいた = kenjougo; めしあげた = không có từ này."
+        },
+        {
+          "num": "③",
+          "context": "A：小学校のときの先生に会ったんですよ。／B：え？ 偶然【③】んですか！",
+          "context_vi": "B nhắc lại việc A gặp → sonkeigo của 会う.",
+          "options": ["お目にかかった", "お会いになった", "お会いした"],
+          "answerIndex": 1,
+          "answer_vi": "お会いになった (sonkeigo). お目にかかった/お会いした = kenjougo (việc mình) → sai."
+        },
+        {
+          "num": "④",
+          "context": "A：先生とお酒を飲んで、うちに帰ったんです。／B：何時ごろに【④】んですか。",
+          "context_vi": "B hỏi việc A về nhà → sonkeigo của 帰る (れる/られる).",
+          "options": ["帰された", "帰られた", "帰させた"],
+          "answerIndex": 1,
+          "answer_vi": "帰られた (れる/られる, sonkeigo). 帰された/帰させた = sai nghĩa."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "🗣️ スタイルを変えてみましょう — Đổi từ thân mật sang câu hỏi sonkeigo (Track 2-37, trang 136)",
+      "page": 136,
+      "audio": "asset/audio/Track2-37.mp3",
+      "audioLabel": "Track 2-37 — スタイルを変えてみましょう",
+      "style": "speak",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Nghe hết rồi luyện. A nói kiểu thân mật (〜んだ); theo từ khoá nghi vấn của B, đào sâu bằng câu hỏi sonkeigo: 「そうですか。〜（尊敬語）んですか。」 Đáp án → trang 203.",
+      "note": "💡 そうですか。+ [từ hỏi] + [động từ A → sonkeigo（れる/られる・お〜になる）] + んですか。 Đáp án theo trang 203 (Track 2-37).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "A：海外でたくさん買い物するんだ。／B：【どちら】",
+          "context_vi": "(cue) A: Tôi mua sắm nhiều ở nước ngoài. · 【ở đâu】",
+          "answer": "そうですか。どちらで買い物されるんですか。",
+          "answer_vi": "買い物する → 買い物される (sonkeigo)."
+        },
+        {
+          "num": "1",
+          "context": "A：大学のときたくさん外国語を習ったんだ。／B：【何語】",
+          "context_vi": "(cue) A: Hồi đại học tôi học nhiều ngoại ngữ. · 【tiếng gì】",
+          "audioStart": 15,
+          "answer": "そうですか。何語を習われたんですか。",
+          "answer_vi": "習った → 習われた (sonkeigo)."
+        },
+        {
+          "num": "2",
+          "context": "A：息子が結婚したんだ。／B：【いつ】",
+          "context_vi": "(cue) A: Con trai tôi vừa kết hôn. · 【bao giờ】",
+          "audioStart": 29,
+          "answer": "そうですか。いつ結婚されたんですか。",
+          "answer_vi": "結婚した → 結婚された (sonkeigo)."
+        },
+        {
+          "num": "3",
+          "context": "A：僕はお酒が好きなんだ。／B：【どのような】",
+          "context_vi": "(cue) A: Tôi thích rượu. · 【loại nào】",
+          "audioStart": 42,
+          "answer": "そうですか。どのようなお酒がお好きなんですか。",
+          "answer_vi": "好き → お好き (sonkeigo)."
+        },
+        {
+          "num": "4",
+          "context": "A：昨日、新宿駅で東洋映画の人に会ったよ。／B：【どなた】",
+          "context_vi": "(cue) A: Hôm qua tôi gặp người của Toyo Eiga ở ga Shinjuku. · 【ai】",
+          "audioStart": 56,
+          "answer": "そうですか。どなたに会われたんですか。",
+          "answer_vi": "誰 → どなた; 会った → 会われた (sonkeigo)."
+        },
+        {
+          "num": "5",
+          "context": "A：先週、ホーチミンへ出張に行ったんだ。／B：【どうして】",
+          "context_vi": "(cue) A: Tuần trước tôi đi công tác Hồ Chí Minh. · 【tại sao】",
+          "audioStart": 70,
+          "answer": "そうですか。どうして出張に行かれたんですか。",
+          "answer_vi": "行った → 行かれた (sonkeigo)."
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎤 やってみましょう 話してみましょう — Đóng vai phỏng vấn bạn cùng lớp & sở thích (trang 137)",
+      "page": 137,
+      "intro": "Luyện đóng vai CẶP ĐÔI (A = người phỏng vấn ↔ B = người được phỏng vấn). Dùng 5 kỹ thuật ①〜⑤ (cảm ơn → hỏi → nhắc lại → đào sâu → xác nhận) để dẫn dắt; sau đó mở 「📖 Bài mẫu」 (会話の例) để đối chiếu. Role card: A → p.171, B → p.175.",
+      "intro_jp": "ペアでインタビューのロールプレイ(A＝インタビューする人 ↔ B＝受ける人)。①〜⑤の型(お礼→質問→くり返し→広げる→確認)で進めて話し、「📖 会話の例」で確認しましょう。ロールカード:A→p.171、B→p.175。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう ① — クラスメートに「日本語を勉強する理由」をインタビュー",
+          "title_vi": "Phỏng vấn bạn cùng lớp về lý do học tiếng Nhật",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "日本語学校の学生(インタビューする人)",
+              "who_vi": "Học sinh trường tiếng Nhật (người phỏng vấn)",
+              "ref": "ロールカード p.171",
+              "jp": "あなたは日本語学校の学生です。クラスメートにインタビューをします。まず、インタビューの機会をもらったことについてのお礼を言ってください。どうして日本語を勉強しているか聞いてください。",
+              "vi": "Bạn là học sinh trường tiếng Nhật. Hãy phỏng vấn một bạn cùng lớp. Trước hết, cảm ơn vì được cho cơ hội phỏng vấn. Hãy hỏi vì sao bạn ấy đang học tiếng Nhật (và đào sâu thêm)."
+            },
+            {
+              "side": "B",
+              "who_jp": "日本語学校の学生(受ける人)",
+              "who_vi": "Học sinh trường tiếng Nhật (người được phỏng vấn)",
+              "ref": "ロールカード p.175",
+              "jp": "あなたは日本語学校の学生です。Aさんのインタビューを受けます。Aさんの質問に答えてください。",
+              "vi": "Bạn là học sinh trường tiếng Nhật. Bạn được A phỏng vấn. Hãy trả lời các câu hỏi của A (kể lý do, có thể nói thêm dự định tương lai)."
+            }
+          ],
+          "hints": [
+            { "jp": "本日はお忙しい中、インタビューに応じていただきましてありがとうございます。", "vi": "A mở đầu cảm ơn — ①" },
+            { "jp": "〜さんはどうして日本語を勉強なさってるんですか。", "vi": "A hỏi lý do (sonkeigo)" },
+            { "jp": "〜を学ばれるんですか。／〜とお考えですか。", "vi": "A nhắc lại & đào sâu — ②③" },
+            { "jp": "実は、来年から大学院で〜を学びたいと思っているんです。", "vi": "B trả lời về mình (kenjougo: 考えております)" }
+          ],
+          "model": {
+            "track": "2-38",
+            "audio": "asset/audio/Track2-38.mp3",
+            "intro_vi": "📖 Bài mẫu ① (sách, trang 203, Track 2-38) — A phỏng vấn タム (Tam): vì sao học tiếng Nhật → muốn học kiến trúc ở cao học, nghiên cứu hạ tầng. A liên tục nhắc lại & đào sâu. Hãy tự nói trước rồi mở đối chiếu.",
+            "intro_jp": "会話の例①(p.203・Track 2-38)。Aがタムさんに「どうして日本語を勉強?」とインタビュー。タムさんは大学院で建築を学びたい、インフラを研究したい、と答えます。Aはくり返し・広げながら進めます。先に自分で話してから確認しましょう。",
+            "lines": [
+              { "sp": "A", "jp": "本日はお忙しい中、インタビューに応じていただきましてありがとうございます。アレックスと申します。どうぞよろしくお願いいたします。さて、タムさん、今私たちはクラスで一緒に日本語を勉強しているんですが、一つお聞きしたいと思います。タムさんはどうして日本語を勉強なさってるんですか。", "vi": "Hôm nay bạn bận mà vẫn nhận lời phỏng vấn, cảm ơn bạn rất nhiều. Mình là Alex. Mong được giúp đỡ. Nào, bạn Tam, hiện chúng ta đang cùng học tiếng Nhật trong lớp, mình muốn hỏi một điều. Vì sao bạn lại học tiếng Nhật vậy? (① お忙しい中 + 勉強なさってる)" },
+              { "sp": "B", "jp": "そうですね。実は、来年から大学院で建築を学びたいと思っているんです。", "vi": "Để xem nhỉ. Thật ra, từ năm sau mình muốn học kiến trúc ở cao học." },
+              { "sp": "A", "jp": "建築を学ばれるんですか。", "vi": "Bạn sẽ học kiến trúc à? (② くり返す: 学ばれる)" },
+              { "sp": "B", "jp": "ええ。私の国では経済が発展して、今インフラの整備が進んでいるんです。橋とか道路とかについて研究したいと考えているんです。", "vi": "Ừ. Ở nước mình kinh tế đang phát triển, hiện việc xây dựng hạ tầng đang được đẩy mạnh. Mình muốn nghiên cứu về cầu, đường…" },
+              { "sp": "A", "jp": "でも、建築と日本語？ 何か関係があるとお考えですか。", "vi": "Nhưng kiến trúc và tiếng Nhật? Bạn nghĩ có liên quan gì sao? (③ 広げる: お考えですか)" },
+              { "sp": "B", "jp": "論文を読むときには必要です。それに、研究するとき、実際に日本のあちこちに橋や道路の見学に行くと思うんですが、地元の人に直接日本語でいろいろお聞きしてみたいと考えております。日本語で本当のところをお聞きになりたいんで……そうですか。", "vi": "Khi đọc luận văn thì cần. Hơn nữa, khi nghiên cứu, mình nghĩ sẽ đi tham quan cầu đường khắp Nhật, và muốn trực tiếp hỏi người địa phương nhiều thứ bằng tiếng Nhật. (kenjougo: お聞きしてみたい／考えております)" }
+            ]
+          }
+        },
+        {
+          "label": "②",
+          "title_jp": "話してみましょう ② — 相手の「趣味」をインタビュー",
+          "title_vi": "Phỏng vấn về sở thích của đối phương",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "インタビューをする人",
+              "who_vi": "Người đi phỏng vấn",
+              "ref": "ロールカード p.171",
+              "jp": "最初に、Bさんの趣味を聞いて、質問を考えてください。そして、インタビューをしてください。まず、インタビューの機会をもらったことへのお礼を言ってください。どうしてその趣味を持つようになったか聞いてください。どんなときにその趣味を楽しむか聞いてください。",
+              "vi": "Trước hết, hỏi xem B có sở thích gì rồi nghĩ câu hỏi. Sau đó tiến hành phỏng vấn: cảm ơn vì cơ hội phỏng vấn, hỏi vì sao B có sở thích đó, hỏi B thường tận hưởng sở thích đó khi nào (nhớ nhắc lại & đào sâu)."
+            },
+            {
+              "side": "B",
+              "who_jp": "インタビューを受ける人",
+              "who_vi": "Người được phỏng vấn",
+              "ref": "ロールカード p.175",
+              "jp": "Aさんがあなたの趣味についてインタビューをします。Aさんの質問に答えてください。",
+              "vi": "A sẽ phỏng vấn bạn về sở thích. Hãy trả lời các câu hỏi của A (kể về sở thích, lý do bắt đầu, khi nào tận hưởng)."
+            }
+          ],
+          "hints": [
+            { "jp": "突然で失礼ですが、今日は〜さんのご趣味についてお話をお聞かせください。", "vi": "A mở đầu + xin nghe — ①" },
+            { "jp": "どのようなご趣味をお持ちでしょうか。", "vi": "A hỏi sở thích (sonkeigo)" },
+            { "jp": "〜というより……。／〜とおっしゃいますと……。", "vi": "B nói thêm / A xác nhận — ⑤" },
+            { "jp": "どうしてその趣味をお持ちになったんですか。", "vi": "A đào sâu lý do — ③" }
+          ],
+          "model": {
+            "track": "2-39",
+            "audio": "asset/audio/Track2-39.mp3",
+            "intro_vi": "📖 Bài mẫu ② (sách, trang 203, Track 2-39) — A phỏng vấn マリア (Maria) về sở thích: 一人旅 (du lịch một mình / 'du lịch tiết kiệm'). A nhắc lại, đào sâu lý do, và xác nhận khi nghe lạ. Hãy tự nói trước rồi mở đối chiếu.",
+            "intro_jp": "会話の例②(p.203・Track 2-39)。Aがマリアさんに趣味をインタビュー。趣味は「一人旅(貧乏旅行)」。Aはくり返し・確認・広げながら理由を引き出します。先に自分で話してから確認しましょう。",
+            "lines": [
+              { "sp": "A", "jp": "マリアさん、突然で失礼ですが、今日はマリアさんの趣味についてお話をお聞かせください。マリアさんはどのようなご趣味をお持ちでしょうか。", "vi": "Maria, đường đột thế này thật xin lỗi, hôm nay cho mình nghe về sở thích của bạn nhé. Bạn có sở thích thế nào vậy? (① お聞かせください／お持ちでしょうか)" },
+              { "sp": "B", "jp": "そうですね。私の趣味は……一人旅ですね。", "vi": "Để xem nhỉ. Sở thích của mình là… đi du lịch một mình." },
+              { "sp": "A", "jp": "一人旅？", "vi": "Du lịch một mình à? (② くり返す)" },
+              { "sp": "B", "jp": "ええ。ちょっと時間ができると、すぐどこかに出かけています。", "vi": "Ừ. Hễ có chút thời gian là mình lại đi đâu đó ngay." },
+              { "sp": "A", "jp": "お時間ができるとすぐにお出かけになる……。", "vi": "Có thời gian là bạn đi ngay… (② くり返す bằng sonkeigo: お出かけになる)" },
+              { "sp": "B", "jp": "一人旅というより……貧乏旅行です。", "vi": "Nói là du lịch một mình thì… đúng hơn là du lịch tiết kiệm (bụi)." },
+              { "sp": "A", "jp": "どうして一人旅のご趣味をお持ちになったんですか。", "vi": "Vì sao bạn lại có sở thích du lịch một mình vậy? (③ 広げる: lý do)" },
+              { "sp": "B", "jp": "前にとても忙しくて、ゆっくりいろいろなことを考える時間がなかったんです。東京で働いていると、次々にいろいろな仕事が飛んできて……。", "vi": "Trước đây mình rất bận, không có thời gian thong thả suy nghĩ. Làm việc ở Tokyo thì hết việc này đến việc khác dồn tới…" },
+              { "sp": "A", "jp": "それで、一人旅をしたいと思うようになられたんですね。", "vi": "Thế nên bạn dần muốn đi du lịch một mình phải không? (② くり返す/まとめ: なられた)" },
+              { "sp": "B", "jp": "ええ。", "vi": "Đúng vậy." }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 会話の例: ① = Track 2-38 (タム — lý do học tiếng Nhật / kiến trúc — trang 203); ② = Track 2-39 (マリア — sở thích 一人旅 — trang 203). Role card: A p.171, B p.175. Tự nói trước rồi mới mở đối chiếu.",
+      "answerRef_jp": "会話の例:①はTrack 2-38(タム・日本語を勉強する理由/建築)、②はTrack 2-39(マリア・趣味の一人旅)、ともにp.203。ロールカードはA p.171、B p.175。先に自分で話してから確認しましょう。"
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Từ vựng trọng tâm Bài 15 (trang 137)",
+      "intro": "Từ vựng gặp trong Bài 15 (15課 インタビューをする), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.",
+      "intro_jp": "15課「インタビューをする」に出てくる語彙を、出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        { "jp": "舞台", "kana": "ぶたい", "vi": "Bối cảnh / sân khấu (setting)", "note": "📖 trang 132 — 「アジアが舞台ですね」." },
+        { "jp": "衣装", "kana": "いしょう", "vi": "Phục trang / trang phục (costume)", "note": "📖 trang 132 — 「映画の衣装で工夫したこと」." },
+        { "jp": "工夫する", "kana": "くふうする", "vi": "Dụng công / nghĩ cách (to devise)", "note": "📖 trang 132 — 「特に工夫したこと」." },
+        { "jp": "参考にする", "kana": "さんこうにする", "vi": "Lấy làm tham khảo (to refer to)", "note": "📖 trang 132 — 「昔の衣装を参考にした」." },
+        { "jp": "設定", "kana": "せってい", "vi": "Bối cảnh dàn dựng / thiết lập (setting)", "note": "📖 trang 132 — 「アジアのどこかという設定」." },
+        { "jp": "デザイン", "kana": "でざいん", "vi": "Thiết kế (design)", "note": "📖 trang 132." },
+        { "jp": "自由に", "kana": "じゆうに", "vi": "Một cách tự do (freely)", "note": "📖 trang 132 — 「自由に考えることができた」." },
+        { "jp": "メイク", "kana": "めいく", "vi": "Trang điểm (makeup)", "note": "📖 trang 132." },
+        { "jp": "わざわざ", "kana": "わざわざ", "vi": "Cất công / đặc biệt (going to the trouble)", "note": "📖 trang 133 — 「わざわざありがとうございます」 (①)." },
+        { "jp": "弁当", "kana": "べんとう", "vi": "Cơm hộp (bento)", "note": "📖 trang 133 — 「毎日お弁当を作ってる」 (②)." },
+        { "jp": "学ぶ", "kana": "まなぶ", "vi": "Học / nghiên cứu (to study / learn)", "note": "📖 trang 133 — 「何を学ばれたんですか」 (④)." },
+        { "jp": "心理学", "kana": "しんりがく", "vi": "Tâm lý học (psychology)", "note": "📖 trang 133 — 「心理学を学びました」 (④)." },
+        { "jp": "原作", "kana": "げんさく", "vi": "Nguyên tác / nguyên gốc (original work)", "note": "📖 trang 133 — 「映画の原作についてご存じ〜」 (④)." },
+        { "jp": "お見えになる", "kana": "おみえになる", "vi": "Tới / đến (＝来る／いらっしゃる, sonkeigo)", "note": "📖 trang 133 — 「明日何時ごろお見えになりますか」 (④)." },
+        { "jp": "相撲", "kana": "すもう", "vi": "Sumo (đấu vật Nhật)", "note": "📖 trang 134 — 「よく相撲を見るんですよ」 (練習①)." },
+        { "jp": "インドネシア", "kana": "いんどねしあ", "vi": "Indonesia", "note": "📖 trang 134 — 「インドネシアに行ったんですよ」 (練習①)." },
+        { "jp": "ジャズ", "kana": "じゃず", "vi": "Nhạc jazz", "note": "📖 trang 134 — 「ジャズを聞いています」 (練習②)." },
+        { "jp": "小説", "kana": "しょうせつ", "vi": "Tiểu thuyết (novel)", "note": "📖 trang 134 — 「中国の小説を読んでいます」 (練習②)." },
+        { "jp": "取材", "kana": "しゅざい", "vi": "Phỏng vấn / đưa tin lấy tư liệu (interview / coverage)", "note": "📖 trang 135 — 「取材をさせていただきまして」 (これでOK ①)." },
+        { "jp": "〜風", "kana": "〜ふう", "vi": "Phong cách ~ / kiểu ~ (-style)", "note": "📖 trang 135 — 「ヘアスタイルは中国風に」." },
+        { "jp": "持ち物", "kana": "もちもの", "vi": "Đồ mang theo / đạo cụ (prop)", "note": "📖 trang 135 — 「持ち物や髪の飾り」." },
+        { "jp": "飾り", "kana": "かざり", "vi": "Phụ kiện / vật trang trí (decoration)", "note": "📖 trang 135 — 「髪の飾りは日本の物を」." },
+        { "jp": "ヒロイン", "kana": "ひろいん", "vi": "Nữ chính (heroine)", "note": "📖 trang 135 — 「映画のヒロインが着ていた服」." },
+        { "jp": "偶然", "kana": "ぐうぜん", "vi": "Tình cờ / ngẫu nhiên (coincidentally)", "note": "📖 trang 136 — 「え？ 偶然〜！」 (チェック ③)." },
+        { "jp": "海外", "kana": "かいがい", "vi": "Nước ngoài (＝外国, với người Nhật)", "note": "📖 trang 136 — 「海外でたくさん買い物する」 (スタイル)." },
+        { "jp": "ホーチミン", "kana": "ほーちみん", "vi": "Thành phố Hồ Chí Minh (Ho Chi Minh)", "note": "📖 trang 136 — 「ホーチミンへ出張に行った」 (スタイル)." }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "📚 Tổng kết Bài 15 + Bước tiếp theo",
+      "content": "🎯 Tổng kết Bài 15 (15課 インタビューをする — phỏng vấn chủ động):\n• ① 「お〜中／〜ところ、ありがとうございます／申し訳ありません」 — cảm ơn / xin lỗi vì người ta dành thời gian dù bận/mệt/nghỉ.\n• ② 相手の話をくり返す — nhắc lại điều đối phương vừa nói, ĐỔI động từ của họ sang sonkeigo (行った→いらっしゃった, 作ってる→作っていらっしゃる) → cho thấy đang lắng nghe.\n• ③ 相手の話を広げる — đào sâu bằng câu hỏi nối cụ thể (どちらに／どんな…) dùng sonkeigo (出かけられる, お撮りになる); đáp 「なるほど」.\n• ④ 相手の質問に答える — khi bị hỏi ngược, trả lời về VIỆC CỦA MÌNH; hành động hướng tới đồ/nơi của họ → KENJOUGO (見る→拝見します, 行く→伺います).\n• ⑤ 確認したいとき — nghe chưa rõ thì hỏi lại lịch sự 「今、何とおっしゃいましたでしょうか／〜とおっしゃいますと……／その『〜』というのはどのような意味ですか」, đừng đoán bừa.\n• 💡 Cốt lõi: phỏng vấn hay KHÔNG phải đọc lần lượt câu hỏi đã soạn, mà BÁM theo câu trả lời để くり返す → 広げる, nhờ đó 「話を引き出す」 (khơi gợi được câu chuyện).\n\n📖 Tham chiếu trong sách:\n• Đáp án 練習①〜③ (Track 2-33, 2-34, 2-35) → trang 202.\n• Đáp án チェック (①a ②b ③b ④b) & スタイル (Track 2-37) → trang 203.\n• 会話の例 やってみましょう: ① = Track 2-38 (タム・日本語/建築); ② = Track 2-39 (マリア・趣味/一人旅) → trang 203 — đã nhúng trong roleplay.\n• Role card: A (インタビューをする人) → p.171 (L21); B (インタビューを受ける人) → p.175 (L21).\n\n➡️ Bài tiếp theo: 16課「報告をする」 (trang 138) — báo cáo: báo gọn một câu trước, báo theo trình tự, báo sự cố, nêu cảm nhận.",
+      "content_jp": "🎯 15課「インタビューをする」のまとめ:\n• ① 「お〜中／〜ところ、ありがとうございます/申し訳ありません」(時間をいただいたお礼)。\n• ② 相手の話をくり返す(相手の動作を尊敬語に:行った→いらっしゃった など)。\n• ③ 相手の話を広げる(具体的な質問を重ねる・尊敬語、「なるほど」)。\n• ④ 相手の質問に答える(自分のこと。相手のもの・場所に向かう動作は謙譲語:見る→拝見します、行く→伺います)。\n• ⑤ 確認したいとき(「今、何とおっしゃいましたでしょうか/〜とおっしゃいますと……/その『〜』というのはどのような意味ですか」)。\n• 💡 ポイント:用意した質問を読むだけにしない。相手の答えを受けて、くり返す→広げる。そうして「話を引き出す」。\n\n📖 本の参照:練習①〜③(Track 2-33・2-34・2-35)→p.202、チェック(①a ②b ③b ④b)・スタイル(Track 2-37)→p.203、会話の例①=Track 2-38(タム・日本語/建築)・②=Track 2-39(マリア・趣味/一人旅)→p.203。ロールカード:A→p.171、B→p.175。\n➡️ 次は16課「報告をする」(p.138)。"
+    }
+  ]
+}

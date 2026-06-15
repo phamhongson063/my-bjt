@@ -196,54 +196,69 @@
       "columns": {
         "plain": "呼びかけのことば",
         "sonkeigo": "使えるスタイル (○)",
-        "kenjougo": "Sắc thái / Ghi chú"
+        "kenjougo": "Sắc thái / Ghi chú",
+        "example": "例文"
       },
       "rows": [
         {
           "plain": "ねえ、／あのね、",
           "plainVi": "này, / này này,",
           "sonkeigo": "友達",
-          "kenjougo": "Chỉ với bạn bè (rất thân mật)"
+          "kenjougo": "Chỉ với bạn bè (rất thân mật)",
+          "example": "ねえ、ちょっとこれ手伝ってくれない？",
+          "exampleVi": "Này, giúp tớ cái này một chút được không?"
         },
         {
           "plain": "あのー、",
           "plainVi": "à, / ờ thì,",
           "sonkeigo": "友達／ですます／敬語",
-          "kenjougo": "Dùng được mọi phong cách (an toàn nhất)"
+          "kenjougo": "Dùng được mọi phong cách (an toàn nhất)",
+          "example": "あのー、ちょっとお伺いしたいことがあるのですが。",
+          "exampleVi": "À, em có chút việc muốn hỏi ạ."
         },
         {
           "plain": "悪いんだけど、／悪いけど、",
           "plainVi": "ngại quá nhưng, / phiền cái là,",
           "sonkeigo": "友達／ですます",
-          "kenjougo": "Thân mật → lịch sự thường; KHÔNG dùng kính ngữ"
+          "kenjougo": "Thân mật → lịch sự thường; KHÔNG dùng kính ngữ",
+          "example": "悪いんだけど、ちょっと手伝ってもらえる？",
+          "exampleVi": "Ngại quá nhưng, giúp tớ một chút được không?"
         },
         {
           "plain": "よかったら、",
           "plainVi": "nếu được thì,",
           "sonkeigo": "友達／ですます",
-          "kenjougo": "Thân mật → lịch sự thường; bản kính ngữ là 「よろしかったら」"
+          "kenjougo": "Thân mật → lịch sự thường; bản kính ngữ là 「よろしかったら」",
+          "example": "よかったら、一緒に来てもらえませんか。",
+          "exampleVi": "Nếu được thì cùng đi với mình nhé?"
         },
         {
           "plain": "すみませんが、",
           "plainVi": "xin lỗi nhưng,",
           "sonkeigo": "ですます／敬語",
-          "kenjougo": "Lịch sự thường → kính ngữ"
+          "kenjougo": "Lịch sự thường → kính ngữ",
+          "example": "すみませんが、少し静かにしていただけませんか。",
+          "exampleVi": "Xin lỗi nhưng, anh/chị yên lặng một chút được không ạ?"
         },
         {
           "plain": "よろしかったら、",
           "plainVi": "nếu (anh/chị thấy) tiện,",
           "sonkeigo": "ですます／敬語",
-          "kenjougo": "Lịch sự thường → kính ngữ"
+          "kenjougo": "Lịch sự thường → kính ngữ",
+          "example": "よろしかったら、お名前を教えていただけませんか。",
+          "exampleVi": "Nếu anh/chị thấy tiện, cho em xin tên được không ạ?"
         },
         {
           "plain": "申し訳ありませんが、／恐縮ですが、／恐れ入りますが、",
           "plainVi": "thành thật xin lỗi nhưng, / thật ngại quá nhưng,",
           "sonkeigo": "敬語",
-          "kenjougo": "Chỉ kính ngữ (trang trọng nhất)"
+          "kenjougo": "Chỉ kính ngữ (trang trọng nhất)",
+          "example": "恐れ入りますが、少々お待ちいただけませんでしょうか。",
+          "exampleVi": "Thật ngại quá nhưng, anh/chị vui lòng đợi một chút được không ạ?"
         }
       ],
-      "note": "Đi từ trên xuống độ trang trọng tăng dần. 「あのー、」 dùng được cả ba phong cách. Mời tha thiết/trang trọng thì chọn cụm hàng dưới.",
-      "note_jp": "上から下へていねいさが上がります。「あのー、」はどのスタイルでも使えます。"
+      "note": "Đi từ trên xuống độ trang trọng tăng dần. 「あのー、」 dùng được cả ba phong cách. Mời tha thiết/trang trọng thì chọn cụm hàng dưới. (Cột 例文 là câu ví dụ minh hoạ để luyện, không có trong sách.)",
+      "note_jp": "上から下へていねいさが上がります。「あのー、」はどのスタイルでも使えます。（例文は練習用で、本にはありません。）"
     },
     {
       "type": "verbtable",
@@ -254,66 +269,85 @@
       "columns": {
         "plain": "文末の表現",
         "sonkeigo": "使えるスタイル (○)",
-        "kenjougo": "Độ trang trọng / Ghi chú"
+        "kenjougo": "Độ trang trọng / Ghi chú",
+        "example": "例文 (cùng việc: xin địa chỉ)"
       },
       "rows": [
         {
           "plain": "〜て（よ／ね）。",
           "plainVi": "… nhé / … đi.",
           "sonkeigo": "友達",
-          "kenjougo": "Thân mật nhất"
+          "kenjougo": "Thân mật nhất",
+          "example": "住所、教えてよ。",
+          "exampleVi": "Cho tớ địa chỉ đi."
         },
         {
           "plain": "〜てくれない?",
           "plainVi": "… giúp (tớ) không?",
           "sonkeigo": "友達",
-          "kenjougo": "Thân mật"
+          "kenjougo": "Thân mật",
+          "example": "住所、教えてくれない？",
+          "exampleVi": "Cho tớ địa chỉ được không?"
         },
         {
           "plain": "〜てくれませんか。",
           "plainVi": "… giúp được không?",
           "sonkeigo": "ですます",
-          "kenjougo": "Lịch sự thường"
+          "kenjougo": "Lịch sự thường",
+          "example": "住所を教えてくれませんか。",
+          "exampleVi": "Cho mình xin địa chỉ được không?"
         },
         {
           "plain": "〜てもらえませんか。",
           "plainVi": "… giúp được không ạ?",
           "sonkeigo": "ですます",
-          "kenjougo": "Lịch sự thường"
+          "kenjougo": "Lịch sự thường",
+          "example": "住所を教えてもらえませんか。",
+          "exampleVi": "Cho mình xin địa chỉ được không ạ?"
         },
         {
           "plain": "〜いただけませんか。",
           "plainVi": "… giúp được không ạ? (khiêm nhường)",
           "sonkeigo": "ですます／敬語",
-          "kenjougo": "Lịch sự thường → kính ngữ"
+          "kenjougo": "Lịch sự thường → kính ngữ",
+          "example": "住所を教えていただけませんか。",
+          "exampleVi": "Anh/chị cho em xin địa chỉ được không ạ?"
         },
         {
           "plain": "〜いただけませんでしょうか。",
           "plainVi": "… giúp được không ạ? (lịch sự hơn)",
           "sonkeigo": "ですます／敬語",
-          "kenjougo": "Lịch sự thường → kính ngữ"
+          "kenjougo": "Lịch sự thường → kính ngữ",
+          "example": "住所を教えていただけませんでしょうか。",
+          "exampleVi": "Anh/chị cho em xin địa chỉ được không ạ? (mềm/lịch sự hơn)"
         },
         {
           "plain": "〜いただきたいんですが……。",
           "plainVi": "em mong (anh/chị) … ạ…",
           "sonkeigo": "ですます／敬語",
-          "kenjougo": "Lịch sự thường → kính ngữ"
+          "kenjougo": "Lịch sự thường → kính ngữ",
+          "example": "住所を教えていただきたいんですが……。",
+          "exampleVi": "Em muốn xin anh/chị địa chỉ ạ…"
         },
         {
           "plain": "〜いただけないかと思いまして……。",
           "plainVi": "không biết (anh/chị) có thể … được không…",
           "sonkeigo": "敬語",
-          "kenjougo": "Chỉ kính ngữ (rất khiêm tốn)"
+          "kenjougo": "Chỉ kính ngữ (rất khiêm tốn)",
+          "example": "住所を教えていただけないかと思いまして……。",
+          "exampleVi": "Em đang nghĩ không biết có thể xin anh/chị địa chỉ được không ạ…"
         },
         {
           "plain": "〜いただけるとありがたいんですが……。",
           "plainVi": "nếu (anh/chị) … thì em rất biết ơn…",
           "sonkeigo": "敬語",
-          "kenjougo": "Chỉ kính ngữ (trang trọng / hạ mình nhất)"
+          "kenjougo": "Chỉ kính ngữ (trang trọng / hạ mình nhất)",
+          "example": "住所を教えていただけるとありがたいんですが……。",
+          "exampleVi": "Nếu anh/chị cho em địa chỉ thì em rất biết ơn ạ…"
         }
       ],
-      "note": "⚠️ Lưu ý: 「〜てください」 nghe nghiêng về SẮC THÁI MỆNH LỆNH / CHỈ THỊ hơn là nhờ vả, nên khi nhờ người trên hãy dùng các mẫu 「〜いただけませんか」 trở lên. 「〜まして」「〜んですが…」 bỏ lửng chỉ dùng khi NÓI, không dùng khi viết.",
-      "note_jp": "⚠️「〜てください」はお願いより「指示のニュアンス」があるので注意しましょう。「〜まして」「〜んですが…」は話しことば(書くときは使いません)。"
+      "note": "⚠️ Lưu ý: 「〜てください」 nghe nghiêng về SẮC THÁI MỆNH LỆNH / CHỈ THỊ hơn là nhờ vả, nên khi nhờ người trên hãy dùng các mẫu 「〜いただけませんか」 trở lên. 「〜まして」「〜んですが…」 bỏ lửng chỉ dùng khi NÓI, không dùng khi viết. (Cột 例文 lấy chung 1 việc 「住所を教える」 để bạn thấy cùng yêu cầu leo thang lịch sự ra sao — câu minh hoạ để luyện, không có trong sách.)",
+      "note_jp": "⚠️「〜てください」はお願いより「指示のニュアンス」があるので注意しましょう。「〜まして」「〜んですが…」は話しことば(書くときは使いません)。（例文は同じ「住所を教える」で統一した練習用で、本にはありません。）"
     },
     {
       "type": "quiz",

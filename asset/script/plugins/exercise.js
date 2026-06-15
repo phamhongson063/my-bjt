@@ -144,22 +144,28 @@ export class ExercisePlugin extends SectionPlugin {
           section.audio && item.audioStart != null
             ? `<button type="button" class="ex-play-btn" data-start="${item.audioStart}" data-end="${item.audioEnd}" title="Nghe câu này">🎧</button>`
             : "";
+        const speakOpts = item.example
+          ? { revealed: true }
+          : { visible: true, label: "👂 Hiện đáp án" };
         const subRowsHtml = item.subAnswers
-          .map((sub) => {
-            const opts = item.example
-              ? { revealed: true }
-              : { visible: true, label: "👂 Hiện đáp án" };
-            return `
+          ? item.subAnswers
+              .map(
+                (sub) => `
                 <div class="exercise-sub-row ex-style-row">
                   <span class="ex-style-label ${STYLE_CLASS[sub.num] || ""}">${
-              sub.num
-            }</span>
+                  sub.num
+                }</span>
                   <div class="ex-sub-body">
-                    ${answerBlock(sub.answer, sub.answer_vi, opts)}
+                    ${answerBlock(sub.answer, sub.answer_vi, speakOpts)}
+                  </div>
+                </div>`
+              )
+              .join("")
+          : `<div class="exercise-sub-row ex-style-row">
+                  <div class="ex-sub-body">
+                    ${answerBlock(item.answer, item.answer_vi, speakOpts)}
                   </div>
                 </div>`;
-          })
-          .join("");
         row.innerHTML = `
               <div class="ex-question">
                 ${numLabel}

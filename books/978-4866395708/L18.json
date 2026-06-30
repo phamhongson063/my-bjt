@@ -1,0 +1,846 @@
+{
+  "id": "L18",
+  "order": 18,
+  "title": "17課 司会の敬語",
+  "titleVi": "Bài 17 — Kính ngữ của MC / người dẫn chương trình",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 35,
+  "intro": "Bài 17 (17課) — Chương 2. Tình huống: tiệc chia tay (送別会) của lớp seminar đại học. アレックス (Alex) lần đầu làm MC (司会) bằng tiếng Nhật.\nỞ bản 「できますか?」, Alex KHÔNG biết phải nói gì: mở màn cộc lốc 「えー、皆さん。始めます。」, không tự giới thiệu mình là MC, lúng túng 「ここに…えーと、います」, rồi quăng luôn phần nâng ly cho 斎藤先生 — cả buổi rời rạc.\nBài này học KÍNH NGỮ DẪN CHƯƠNG TRÌNH: trước đám đông thì nói trang trọng hơn ngày thường một chút, dùng các mẫu câu MC để mở màn, tự giới thiệu, đón khách bằng tràng vỗ tay, giới thiệu nhân vật, và hô nâng ly.\n\n🎯 Mục tiêu — 4 mẫu (敬語で言ってみましょう, trang 147):\n① 「皆さんお集まりですので」 — 「お/ご+[Vます]+です」 (dạng rút gọn của 「お〜になっていらっしゃいます」).\n② 「そろそろ始めたいと思います」 — 「〜たいと思います／〜させていただきます」 (mềm hơn 「始めます」, tránh áp đặt).\n③ 「私、本日の司会を務めます〜と申します」 — MC tự giới thiệu.\n④ 司会の表現 — bộ câu MC hay dùng (đón khách bằng vỗ tay, nâng ly, chào/đóng tiệc).",
+  "intro_jp": "第2章 17課。大学のゼミの送別会で、アレックスさんは初めて日本語で司会をします。\n「できますか?」では、アレックスさんは何を話したらいいかわからず、「えー、皆さん。始めます。」と始め、自分が司会だと名乗らず、「ここに…えーと、います」とまごつき、乾杯をいきなり斎藤先生にお願いしてしまいました。\nこの課で、司会の敬語を学びます。大勢の前では少していねいに話し、司会の決まった言い方で、始め・自己紹介・お迎え(拍手)・紹介・乾杯の音頭をします。\n\n🎯 学習項目(敬語で言ってみましょう・p.147):\n① 「皆さんお集まりですので」(「お/ご+[Vます]+です」＝「お〜になっていらっしゃいます」の短い形)\n② 「そろそろ始めたいと思います」(「〜たいと思います／〜させていただきます」。「始めます」は押しつけがましい)\n③ 「私、本日の司会を務めます〜と申します」(司会の自己紹介)\n④ 司会の表現(大きな拍手でお迎えください/乾杯の音頭/お開き など)",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — Alex lần đầu làm MC, không biết nói gì, mở màn rời rạc (trang 146)",
+      "page": 146,
+      "image": "books/978-4866395708/images/146_1.jpg",
+      "imageAlt": "Minh hoạ trang 146 — Alex (cầm giấy, vẻ lúng túng) đứng làm MC giữa nhóm người dự tiệc, có bóng thoại 「次は何と話そう！」「あとは先生にお願いしたい」.",
+      "imageCaption": "Minh hoạ trang 146 — Alex bối rối không biết nói gì tiếp, chỉ mong nhờ thầy 斎藤 lo phần còn lại.",
+      "scene": "今日は、大学のゼミの送別会です。アレックスさんは初めて日本語で司会をします。\n(Hôm nay là tiệc chia tay của lớp seminar đại học. Alex lần đầu làm MC bằng tiếng Nhật. Đây là bản CHƯA đạt. Bản chuẩn xem ở 「これでOK!」 trang 150.)",
+      "lines": [
+        {
+          "speaker": "アレックス",
+          "jp": "えー、皆さん。始めます。もうすぐ帰国されるアニタさん、イシュトバンさんご夫妻のために、お集まりくださってありがとうございます。こ、ここにイシュトバンさんとアニタさんが……えーと、います。えーと……じゃあ、乾杯をします。乾杯は斎藤先生にお願いします。",
+          "vi": "Ờ, mọi người ơi. Bắt đầu nhé. Cảm ơn mọi người đã tới dự vì vợ chồng anh Ishtvan và chị Anita sắp về nước. Đ-đây, chị Ishtvan và Anita đang… ờmm, có ở đây. Ờ… vậy thì, nâng ly nhé. Phần nâng ly nhờ thầy Saito ạ. (⚠️ Mở màn cộc 「始めます」; không tự giới thiệu mình là MC; 「…います」 lúng túng; quăng luôn phần nâng ly cho thầy)"
+        },
+        {
+          "speaker": "—",
+          "jp": "アレックスさんは何を話したらいいかわかりませんでした。",
+          "vi": "Alex đã không biết phải nói gì."
+        }
+      ],
+      "vocabHighlight": [
+        "「始めます」 → 「皆さんお集まりですので、そろそろ始めたいと思います」 (①②)",
+        "(không tự giới thiệu) → 「私、本日司会を務めます〜と申します」 (③)",
+        "「ここに…います」 → 「お二人をお迎えしましょう。大きな拍手でお迎えください」 (④)",
+        "「乾杯をします」 → 「前途を祝して、乾杯をしたいと思います。乾杯の音頭は〜先生に」 (④)"
+      ],
+      "note": "Cảnh dẫn vào Bài 17: KÍNH NGỮ MC. Alex chưa đạt ở: (1) mở màn cộc lốc 「始めます」 — nên 「お集まりですので、そろそろ始めたいと思います」; (2) không tự giới thiệu mình là người dẫn; (3) đón khách lúng túng 「ここに…います」 thay vì 「大きな拍手でお迎えください」; (4) hô nâng ly trống không rồi đẩy hết cho 斎藤先生. 4 mẫu ①〜④ bên dưới dạy cách mở màn, tự giới thiệu, đón/giới thiệu, và hô nâng ly; bản chuẩn xem ở 「これでOK!」 (trang 150).",
+      "note_jp": "この課では、司会の敬語を勉強します。アレックスさんは(1)「始めます」がぶっきらぼう(「お集まりですので、そろそろ始めたいと思います」)、(2)自分が司会だと名乗らない、(3)「ここに…います」とまごつく(「大きな拍手でお迎えください」)、(4)乾杯を急に先生に丸投げ、が問題です。①〜④で、始め方・自己紹介・お迎え／紹介・乾杯の音頭を学び、正しい例は「これでOK!」(p.150)で確認します。"
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ① 「皆さんお集まりですので」 — 「お/ご+[Vます]+です」 (trang 147)",
+      "page": 147,
+      "intro": "いつも友達スタイルで話していても、大勢の人の前で話すときは、少していねいに話します。",
+      "intro_jp": "いつも友達スタイルで話していても、大勢の人の前で話すときは、少していねいに話します。",
+      "items": [
+        {
+          "pattern": "お/ご + [Vます] + です ／ お/ご + [Vます] + でいらっしゃいます",
+          "patternVi": "Dạng RÚT GỌN của 「お〜になっていらっしゃいます」 — dùng khi nói trước đám đông.",
+          "explanation": "Trước đám đông, MC nâng độ lịch sự. 「お/ご+[Vます]+です」 là dạng RÚT GỌN của 「お+[Vます]+になっていらっしゃいます」. Chuỗi đầy đủ: 集まります → お集まりになります → お集まりになっていらっしゃいます → お集まりです／お集まりでいらっしゃいます. Lưu ý vài dạng đặc biệt: そろう → おそろいです; 見える(＝来る/いらっしゃる) → お見えです.",
+          "explanation_jp": "大勢の前では、司会はていねいさを上げます。「お/ご+[Vます]+です」は「お+[Vます]+になっていらっしゃいます」の短い形です。集まります→お集まりになります→お集まりになっていらっしゃいます→お集まりです／お集まりでいらっしゃいます。特別な形:そろう→おそろいです、見える(＝来る/いらっしゃる)→お見えです。",
+          "examples": [
+            {
+              "jp": "皆さんお集まりですので、(そろそろ始めましょう。)",
+              "vi": "Vì mọi người đã tề tựu rồi, (xin phép bắt đầu ạ.)"
+            },
+            {
+              "jp": "皆さんおそろいですので、",
+              "vi": "Vì mọi người đã đông đủ rồi, (そろう → おそろいです)"
+            },
+            {
+              "jp": "皆さんお見えですので、",
+              "vi": "Vì mọi người đã tới rồi, (見える → お見えです, ＝来る/いらっしゃる)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ② 「そろそろ始めたいと思います」 — 〜たいと思います／〜させていただきます (trang 147)",
+      "page": 147,
+      "items": [
+        {
+          "pattern": "[Vます] → 〜たいと思います ／ 〜させていただきます",
+          "patternVi": "Mềm hoá hành động của MC — tránh cảm giác 'tự quyết, áp đặt'.",
+          "explanation": "「始めます」 cho cảm giác MC tự ý quyết định bắt đầu. Nói 「始めたいと思います」 (tôi muốn bắt đầu) hay 「始めさせていただきます」 (xin phép được bắt đầu) tạo cảm giác 'đã được mọi người đồng thuận / được cấp trên cho phép', nghe nhã hơn nhiều.",
+          "explanation_jp": "「始めます」は、司会が一人で決めて始めるという感じがあります。「始めたいと思います」や「始めさせていただきます」と言うと、みんなに理解されている・目上から許可をもらっているというイメージになり、ずっとやわらかくなります。",
+          "warning": "⚠️ Nhưng 「〜させていただきます」 dùng QUÁ NHIỀU lại thành rườm rà / khách sáo thái quá — hãy dùng vừa phải.",
+          "warning_jp": "⚠️ ただし「〜させていただきます」をたくさん使うと、押しつけがましい(くどい)感じがありますから気をつけましょう。",
+          "examples": [
+            {
+              "jp": "そろそろ始めたいと思います。／始めさせていただきます。",
+              "vi": "Xin phép bắt đầu ạ. (mềm hơn 「始めます」)"
+            },
+            {
+              "jp": "お二人の前途を祝して、乾杯をしたいと思います。",
+              "vi": "Xin chúc mừng tương lai của hai bạn, và mời nâng ly ạ."
+            },
+            {
+              "jp": "それでは、次のプログラムに進みたいと思います。",
+              "vi": "Vậy thì, xin phép chuyển sang chương trình tiếp theo ạ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ③ 「私、本日の司会を務めます〜と申します」 — MC tự giới thiệu (trang 147)",
+      "page": 147,
+      "items": [
+        {
+          "pattern": "私、[本日の司会を務めます／〜の友人で／〜からまいりました] + [tên] + と申します",
+          "patternVi": "MC tự giới thiệu: nêu vai trò / quan hệ / xuất thân, rồi 「〜と申します」.",
+          "explanation": "MC cần tự giới thiệu rõ ngay từ đầu (Alex ở bản できますか đã quên). Cấu trúc: 「私、」 + một mệnh đề bổ nghĩa cho tên (vai trò hôm nay / quan hệ / nơi đến) + 「[tên]と申します」. 「務めます」 = đảm nhận (vai/việc).",
+          "explanation_jp": "司会は最初に自分をはっきり名乗ります(「できますか?」のアレックスさんは名乗りを忘れました)。形は「私、」＋名前を修飾する句(今日の役割／関係／出身)＋「[名前]と申します」。「務めます」は役・仕事を引き受けるという意味です。",
+          "examples": [
+            {
+              "jp": "私、本日の司会を務めますアレックスと申します。",
+              "vi": "Tôi là Alex, người đảm nhận vai trò MC hôm nay."
+            },
+            {
+              "jp": "私、イシュトバンさんの友人で、アレックス・スミスと申します。",
+              "vi": "Tôi là Alex Smith, bạn của anh Ishtvan."
+            },
+            {
+              "jp": "私、中国からまいりました、チョウ・リョウと申します。",
+              "vi": "Tôi là Trương Lượng, đến từ Trung Quốc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ④ 司会の表現 — Bộ câu MC hay dùng (trang 147–148)",
+      "page": 147,
+      "items": [
+        {
+          "pattern": "迎える (đón khách / mời lên)",
+          "patternVi": "Mời nhân vật ra mắt và đề nghị khán giả vỗ tay.",
+          "explanation": "Mời nhân vật chính ra và đề nghị mọi người chào đón bằng tràng vỗ tay.",
+          "explanation_jp": "主役を迎え、みんなに拍手をお願いします。",
+          "examples": [
+            {
+              "jp": "それではまず、お二人をお迎えしましょう。大きな拍手でお迎えください。",
+              "vi": "Vậy thì trước hết, ta cùng chào đón hai bạn nào. Xin một tràng pháo tay thật lớn ạ."
+            }
+          ]
+        },
+        {
+          "pattern": "乾杯 (hô nâng ly)",
+          "patternVi": "Chúc & mời nâng ly, nhờ người hô khẩu lệnh.",
+          "explanation": "Nêu lời chúc (chúc tương lai / chúc thành công & sức khoẻ) rồi mời nâng ly; nhờ một người 'hô' khẩu lệnh nâng ly (乾杯の音頭).",
+          "explanation_jp": "お祝いのことば(前途/ご活躍とご健康)を述べてから乾杯に進み、乾杯の音頭をどなたかにお願いします。",
+          "examples": [
+            {
+              "jp": "〜さんの前途を祝して／今後のご活躍とご健康を祈って、乾杯をしたいと思います。",
+              "vi": "Xin chúc mừng tương lai của ~ / Chúc ~ thành đạt và mạnh khoẻ, và mời nâng ly ạ."
+            },
+            {
+              "jp": "乾杯の音頭は〜先生にお願いしたいと思います。",
+              "vi": "Phần hô nâng ly, xin nhờ thầy/cô ~ ạ."
+            },
+            {
+              "jp": "お手元のグラスをお持ちください。",
+              "vi": "Xin quý vị cầm ly trên tay (trước mặt) lên ạ."
+            }
+          ]
+        },
+        {
+          "pattern": "あいさつ・進行・締め (chào / điều phối / đóng tiệc)",
+          "patternVi": "Mời phát biểu, mời phát biểu chúc mừng, mời thưởng thức, và đóng tiệc.",
+          "explanation": "Các câu điều phối: mời ai đó phát biểu vài lời, mời người lớn nói lời chúc, mời mọi người thong thả thưởng thức, và tuyên bố kết thúc tiệc (お開きにする = kết thúc tiệc).",
+          "explanation_jp": "進行の表現:一言あいさつをお願いする、目上にお祝いのことばをお願いする、ゆっくり楽しんでもらう、そしてお開き(＝パーティーを終わりにする)。",
+          "examples": [
+            {
+              "jp": "ここで一言ごあいさつ申し上げます。",
+              "vi": "Đến đây, tôi xin có vài lời ạ."
+            },
+            {
+              "jp": "では、〜様にお祝いのことばをいただきたいと思います。",
+              "vi": "Vậy xin mời ~ phát biểu đôi lời chúc mừng ạ."
+            },
+            {
+              "jp": "ごゆっくりお楽しみください。",
+              "vi": "Xin quý vị cứ thong thả thưởng thức ạ."
+            },
+            {
+              "jp": "そろそろお開きにしたいと思います。",
+              "vi": "Cũng đã đến lúc, xin phép kết thúc buổi tiệc ạ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習① 「お/ご〜です」を使って言う (Track 2-46, trang 148)",
+      "page": 148,
+      "audio": "asset/audio/Track2-46.mp3",
+      "audioLabel": "Track 2-46 — 練習①",
+      "style": "speak",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。「お/ご〜です」を使って言ってみましょう。",
+      "instruction_vi": "Nghe hết rồi luyện. Đổi 「〜しています」 sang dạng rút gọn 「お/ご+[Vます]+です」. Đáp án → trang 204.",
+      "note": "💡 [Vます] → お/ご + [Vます] + です。 Đáp án theo trang 204 (Track 2-46).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "先生はロビーで休んでいます。",
+          "context_vi": "(cue) Thầy đang nghỉ ở sảnh.",
+          "answer": "先生はロビーでお休みです。",
+          "answer_vi": "休んでいます → お休みです."
+        },
+        {
+          "num": "1",
+          "context": "お客様が玄関で待っています。",
+          "context_vi": "(cue) Khách đang đợi ở cửa.",
+          "answer": "お客様が玄関でお待ちです。",
+          "answer_vi": "待っています → お待ちです."
+        },
+        {
+          "num": "2",
+          "context": "社長は今、お客様と話しています。",
+          "context_vi": "(cue) Giám đốc đang nói chuyện với khách.",
+          "answer": "社長は今、お客様とお話しです。",
+          "answer_vi": "話しています → お話しです."
+        },
+        {
+          "num": "3",
+          "context": "先生は大学で動物について研究しています。",
+          "context_vi": "(cue) Thầy nghiên cứu về động vật ở đại học.",
+          "answer": "先生は大学で動物についてご研究です。",
+          "answer_vi": "研究しています → ご研究です (gốc Hán-Nhật → ご)."
+        },
+        {
+          "num": "4",
+          "context": "山田さんはいろいろな分野で活躍しています。",
+          "context_vi": "(cue) Anh Yamada hoạt động sôi nổi ở nhiều lĩnh vực.",
+          "answer": "山田さんはいろいろな分野でご活躍です。",
+          "answer_vi": "活躍しています → ご活躍です."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習② 「お/ご〜ですので（から）〜ましょう」を使って言う (Track 2-47, trang 148)",
+      "page": 148,
+      "audio": "asset/audio/Track2-47.mp3",
+      "audioLabel": "Track 2-47 — 練習②",
+      "style": "speak",
+      "instruction": "「お/ご〜ですので/から〜ましょう」を使って言ってみましょう。",
+      "instruction_vi": "Đổi 「〜しているから…しよう」 (thân mật) sang câu MC 「お/ご〜ですので（から）〜ましょう」. Đáp án → trang 205.",
+      "note": "💡 [lý do]お/ご〜ですので(から) + [đề nghị]お〜しましょう／〜ましょう。 Đáp án theo trang 205 (Track 2-47).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "集まっているから発表を始めよう。",
+          "context_vi": "(cue) Tập trung rồi nên bắt đầu phát biểu thôi.",
+          "answer": "お集まりですので（から）発表を始めましょう。",
+          "answer_vi": "集まっている → お集まりです."
+        },
+        {
+          "num": "1",
+          "context": "みんなそろっているからスピーチを始めよう。【皆さん】",
+          "context_vi": "(cue) Mọi người đông đủ rồi nên bắt đầu phần phát biểu. · 【皆さん】",
+          "answer": "皆さんおそろいですから（ので）スピーチを始めましょう。",
+          "answer_vi": "そろっている → おそろいです (dạng đặc biệt)."
+        },
+        {
+          "num": "2",
+          "context": "先生はまだお客さんと話しているから、待とう。【お待ちしましょう】",
+          "context_vi": "(cue) Thầy vẫn đang nói chuyện với khách nên ta đợi đã. · 【お待ちしましょう】",
+          "answer": "先生はまだお客さんとお話しですから（ので）、お待ちしましょう。",
+          "answer_vi": "話している → お話しです; 待とう → お待ちしましょう."
+        },
+        {
+          "num": "3",
+          "context": "先生がロビーで待っているから、お茶を出そう。",
+          "context_vi": "(cue) Thầy đang đợi ở sảnh nên mang trà ra thôi.",
+          "answer": "先生がロビーでお待ちですから（ので）、お茶をお出ししましょう。",
+          "answer_vi": "待っている → お待ちです; 出そう → お出ししましょう."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習③ 「〜たいと思います」を使って言う (Track 2-48, trang 148)",
+      "page": 148,
+      "audio": "asset/audio/Track2-48.mp3",
+      "audioLabel": "Track 2-48 — 練習③",
+      "style": "speak",
+      "instruction": "「〜たいと思います」を使って言ってみましょう。",
+      "instruction_vi": "Đổi sang dạng MC mềm 「〜たいと思います」. Đáp án → trang 205.",
+      "note": "💡 [hành động] + たいと思います。 Đáp án theo trang 205 (Track 2-48).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "そろそろ発表を始める",
+          "context_vi": "(cue) Cũng đến lúc bắt đầu phát biểu.",
+          "answer": "そろそろ発表を始めたいと思います。",
+          "answer_vi": "始める → 始めたいと思います."
+        },
+        {
+          "num": "1",
+          "context": "スピーチを先生にお願いする",
+          "context_vi": "(cue) Nhờ thầy phát biểu.",
+          "answer": "スピーチを先生にお願いしたいと思います。",
+          "answer_vi": "お願いする → お願いしたいと思います."
+        },
+        {
+          "num": "2",
+          "context": "ここで乾杯する",
+          "context_vi": "(cue) Nâng ly ở đây.",
+          "answer": "ここで乾杯したいと思います。",
+          "answer_vi": "乾杯する → 乾杯したいと思います."
+        },
+        {
+          "num": "3",
+          "context": "次に進む",
+          "context_vi": "(cue) Chuyển sang phần kế.",
+          "answer": "次に進みたいと思います。",
+          "answer_vi": "進む → 進みたいと思います."
+        },
+        {
+          "num": "4",
+          "context": "そろそろお開きにする",
+          "context_vi": "(cue) Cũng đến lúc kết thúc tiệc.",
+          "answer": "そろそろお開きにしたいと思います。",
+          "answer_vi": "お開きにする → お開きにしたいと思います."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習④ 「〜と申します」で自己紹介する (Track 2-49, trang 149)",
+      "page": 149,
+      "audio": "asset/audio/Track2-49.mp3",
+      "audioLabel": "Track 2-49 — 練習④",
+      "style": "speak",
+      "instruction": "例のように言ってみましょう。",
+      "instruction_vi": "Theo gợi ý [tên・vai trò], ghép thành câu MC tự giới thiệu 「[mệnh đề bổ nghĩa]+[tên]と申します／でございます」. Đáp án → trang 205.",
+      "note": "💡 [vai trò/việc làm: 務めます／いたします／させていただきます] + [tên] + と申します／でございます。 Đáp án theo trang 205 (Track 2-49).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "田中です・今日、司会をします",
+          "context_vi": "(cue) Tôi là Tanaka · hôm nay làm MC",
+          "answer": "本日、司会を務めます田中と申します。",
+          "answer_vi": "司会をします → 司会を務めます…と申します."
+        },
+        {
+          "num": "1",
+          "context": "チョウです・今日、発表をします【いたします】",
+          "context_vi": "(cue) Tôi là Trương · hôm nay phát biểu · 【いたします】",
+          "answer": "本日、発表をいたしますチョウと申します。",
+          "answer_vi": "発表をします → 発表をいたします (kenjougo)."
+        },
+        {
+          "num": "2",
+          "context": "ライナーです・さっき、ご紹介いただきました【先ほど】",
+          "context_vi": "(cue) Tôi là Liner · vừa nãy được giới thiệu · 【先ほど】",
+          "answer": "先ほど、ご紹介いただきましたライナーと申します。",
+          "answer_vi": "さっき → 先ほど (trang trọng)."
+        },
+        {
+          "num": "3",
+          "context": "株式会社アスクです・プレゼンテーションをします【でございます／させていただきます】",
+          "context_vi": "(cue) Công ty Ask · sẽ thuyết trình · 【でございます／させていただきます】",
+          "answer": "プレゼンテーションをさせていただきます株式会社アスクでございます。",
+          "answer_vi": "します → させていただきます; です → でございます (xưng danh công ty)."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — Alex dẫn chương trình trôi chảy, đủ các bước MC (Track 2-50, trang 150)",
+      "page": 150,
+      "image": "books/978-4866395708/images/150_1.jpg",
+      "imageAlt": "Minh hoạ trang 150 — Alex (nâng ly, tươi cười) dẫn tiệc; mọi người quanh bàn cùng nâng ly chúc mừng vợ chồng khách.",
+      "imageCaption": "Minh hoạ trang 150 — Lần này Alex mở màn, tự giới thiệu, đón khách và hô nâng ly đâu ra đó.",
+      "audio": "asset/audio/Track2-50.mp3",
+      "audioLabel": "Track 2-50 — これでOK!",
+      "scene": "Bản ĐÚNG: Alex mở màn bằng 「お集まりですので、始めたいと思います」, tự giới thiệu là MC, mời khách ra bằng 「大きな拍手でお迎えください」, giới thiệu ngắn về khách, rồi hô nâng ly và nhờ thầy 斎藤 làm 乾杯の音頭.",
+      "lines": [
+        {
+          "speaker": "アレックス",
+          "jp": "えー、皆さんおそろいですので、そろそろ始めたいと思います。",
+          "vi": "Ờ, vì mọi người đã đông đủ, xin phép bắt đầu ạ. (①②)"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "本日はもうすぐ帰国されるイシュトバンさん、アニタさんご夫妻のために、お集まりくださってありがとうございます。私、本日司会を務めますアレックス・スミスと申します。イシュトバンさんには、友人としてお世話になっています。",
+          "vi": "Hôm nay, cảm ơn mọi người đã tới dự vì vợ chồng anh Ishtvan và chị Anita sắp về nước. Tôi là Alex Smith, người đảm nhận vai trò MC hôm nay. Tôi là bạn và đã được anh Ishtvan giúp đỡ nhiều. (③ 司会を務めます〜と申します)"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "それではまず、お二人をお迎えしましょう。イシュトバンさんとアニタさんです。大きな拍手でお迎えください。",
+          "vi": "Vậy thì trước hết, ta cùng chào đón hai bạn nào. Anh Ishtvan và chị Anita. Xin một tràng pháo tay thật lớn ạ. (④ お迎えください)"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "ここでお二人を簡単にご紹介します。イシュトバンさんは東都大学の研究員として勤務されていました。",
+          "vi": "Đến đây xin giới thiệu ngắn về hai bạn. Anh Ishtvan từng làm nghiên cứu viên tại Đại học Tōto. (giới thiệu — 勤務されていました: sonkeigo)"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "お二人の前途を祝して、乾杯をしたいと思います。乾杯の音頭は斎藤先生にお願いしたいと思います。",
+          "vi": "Xin chúc mừng tương lai của hai bạn, và mời nâng ly ạ. Phần hô nâng ly, xin nhờ thầy Saito ạ. (④ 前途を祝して／乾杯の音頭)"
+        },
+        {
+          "speaker": "—",
+          "jp": "アレックスさんは、いい司会ができました。",
+          "vi": "Alex đã dẫn chương trình rất tốt."
+        }
+      ],
+      "vocabHighlight": [
+        "皆さんおそろいですので (① お/ご〜です)",
+        "そろそろ始めたいと思います (② 〜たいと思います)",
+        "私、本日司会を務めますアレックス・スミスと申します (③)",
+        "大きな拍手でお迎えください (④ 迎える)",
+        "前途を祝して、乾杯をしたいと思います／乾杯の音頭は〜先生に (④ 乾杯)"
+      ],
+      "note": "So với bản できますか: cùng buổi tiệc nhưng (1) mở màn bằng 「お集まりですので、始めたいと思います」 thay vì 「始めます」; (2) tự giới thiệu rõ là MC; (3) đón khách bằng 「大きな拍手でお迎えください」 thay vì lúng túng; (4) giới thiệu ngắn về khách; (5) hô nâng ly có lời chúc 前途を祝して rồi mới nhờ thầy làm 乾杯の音頭.",
+      "note_jp": "「できますか?」と同じ送別会ですが、(1)「始めます」ではなく「お集まりですので、始めたいと思います」、(2)司会だと名乗る、(3)まごつかず「大きな拍手でお迎えください」、(4)お客を簡単に紹介、(5)「前途を祝して」と述べてから乾杯の音頭を先生にお願いする、という点が違います。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh できますか → これでOK (p.146 ↔ p.150)",
+      "intro": "Bảng TỔNG HỢP đối chiếu phần dẫn chương trình CHƯA đạt (p.146 「できますか?」) ↔ bản ĐÚNG (p.150 「これでOK!」), map theo 4 mẫu ①〜④. Gom từ 2 đoạn hội thoại phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.146「できますか?」とp.150「これでOK!」を①〜④で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "場面",
+        "sonkeigo": "✗ p.146 (できますか)",
+        "kenjougo": "✓ p.150 (これでOK)"
+      },
+      "rows": [
+        {
+          "plain": "始め方",
+          "plainVi": "mở màn (①②)",
+          "sonkeigo": "えー、皆さん。始めます。",
+          "kenjougo": "皆さんおそろいですので、そろそろ始めたいと思います。"
+        },
+        {
+          "plain": "自己紹介",
+          "plainVi": "tự giới thiệu (③)",
+          "sonkeigo": "（名乗らない）",
+          "kenjougo": "私、本日司会を務めますアレックス・スミスと申します。"
+        },
+        {
+          "plain": "お客を迎える",
+          "plainVi": "đón khách (④)",
+          "sonkeigo": "ここにイシュトバンさんとアニタさんが……えーと、います。",
+          "kenjougo": "お二人をお迎えしましょう。大きな拍手でお迎えください。"
+        },
+        {
+          "plain": "紹介",
+          "plainVi": "giới thiệu khách",
+          "sonkeigo": "（紹介なし）",
+          "kenjougo": "ここでお二人を簡単にご紹介します。〜研究員として勤務されていました。"
+        },
+        {
+          "plain": "乾杯",
+          "plainVi": "hô nâng ly (④)",
+          "sonkeigo": "じゃあ、乾杯をします。乾杯は斎藤先生にお願いします。",
+          "kenjougo": "お二人の前途を祝して、乾杯をしたいと思います。乾杯の音頭は斎藤先生にお願いしたいと思います。"
+        },
+        {
+          "plain": "結果",
+          "plainVi": "kết quả",
+          "sonkeigo": "何を話したらいいかわからなかった。",
+          "kenjougo": "いい司会ができた。"
+        }
+      ],
+      "note": "Điểm cốt lõi: MC trước đám đông = nâng độ lịch sự (お/ご〜です・〜たいと思います), TỰ GIỚI THIỆU rõ là người dẫn, đón khách bằng 「大きな拍手でお迎えください」, và hô nâng ly có lời chúc (前途を祝して) rồi mới giao 乾杯の音頭.",
+      "note_jp": "ポイント:大勢の前の司会は、ていねいさを上げ(お/ご〜です・〜たいと思います)、司会だと名乗り、「大きな拍手でお迎えください」で迎え、「前途を祝して」と述べてから乾杯の音頭をお願いする。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — Chọn cách nói đúng của MC (trang 151)",
+      "page": 151,
+      "instruction": "【　】の中から、正しいものを選んでください。",
+      "instruction_vi": "Chọn phương án đúng cho từng chỗ 【　】. Bấm chọn rồi 確認. Đáp án → trang 205.",
+      "note": "📝 Đáp án (p.205): 1) a(お書きです) · 2) お作りです · 3) a(お呼びし) · 4) a(ごらんいただきたい) · 5) ①c(務めさせていただく) ②b(申します).",
+      "items": [
+        {
+          "num": "1",
+          "context": "A：先生は何をしていらっしゃいますか。／B：先生はとなりの部屋で原稿を【 ? 】。",
+          "context_vi": "「お/ご〜です」 cho việc thầy đang làm.",
+          "options": ["お書きです", "お書いてです", "お書きます"],
+          "answerIndex": 0,
+          "answer_vi": "お書きです — 「お+[Vます]+です」 (書きます → お書きです)."
+        },
+        {
+          "num": "2",
+          "context": "A：課長は今、何を作っていらっしゃいますか。／B：課長は……プレゼンテーションのスライドを【　　　】。",
+          "context_vi": "「お/ご〜です」 của 作る.",
+          "answer": "お作りです",
+          "answer_vi": "作っています → お作りです."
+        },
+        {
+          "num": "3",
+          "context": "では、今日の主役を【 ? 】ましょう。",
+          "context_vi": "Kenjougo của 呼ぶ (việc MC làm → khiêm nhường).",
+          "options": ["お呼びし", "お呼びでし", "お呼びになり"],
+          "answerIndex": 0,
+          "answer_vi": "お呼びし — お呼びしましょう (kenjougo, việc của MC). お呼びになり = sonkeigo → sai vai."
+        },
+        {
+          "num": "4",
+          "context": "では、次のスライドを【 ? 】と思います。",
+          "context_vi": "Mời khán giả xem → đề nghị họ 「ご覧いただく」.",
+          "options": ["ごらんいただきたい", "はいけんしていただきたい", "ごらんしていただきたい"],
+          "answerIndex": 0,
+          "answer_vi": "ごらんいただきたい — ご覧いただきたい (mời người nghe xem). 拝見 = mình xem (sai vai); ごらんして = dạng sai."
+        },
+        {
+          "num": "5",
+          "context": "私、本日マネージャーを【①】チョウ・リョウと【②】。",
+          "context_vi": "① MC tự nhận vai (khiêm nhường) · ② xưng tên.",
+          "subAnswers": [
+            {
+              "num": "①",
+              "options": ["務める", "務められていただく", "務めさせていただく"],
+              "answerIndex": 2,
+              "answer_vi": "務めさせていただく — xin phép đảm nhận (khiêm nhường). 「務められていただく」 sai dạng."
+            },
+            {
+              "num": "②",
+              "options": ["思います", "申します", "おっしゃいます"],
+              "answerIndex": 1,
+              "answer_vi": "申します — 「〜と申します」 (xưng tên, kenjougo). おっしゃいます = sonkeigo → sai vai."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "🗣️ スタイルを変えてみましょう — Nâng lên giọng MC trang trọng (Track 2-51, trang 151)",
+      "page": 151,
+      "audio": "asset/audio/Track2-51.mp3",
+      "audioLabel": "Track 2-51 — スタイルを変えてみましょう",
+      "style": "speak",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Nghe hết rồi luyện. Nâng câu thường lên giọng MC trang trọng (〜様, ご〜でいらっしゃいます, お見えです, 〜たいと思います, お願いいたします). Đáp án → trang 205.",
+      "note": "💡 さん → 様; します → いたします; しています → ご〜でいらっしゃいます; 来ています → お見えです; します → 〜たいと思います. Đáp án theo trang 205 (Track 2-51).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "皆さん、集まっているからそろそろ始めます。",
+          "context_vi": "(cue) Mọi người tập trung rồi nên sắp bắt đầu.",
+          "audioStart": 0,
+          "answer": "皆様、お集まりですのでそろそろ始めたいと思います。",
+          "answer_vi": "皆さん→皆様; 集まっている→お集まりです; 始めます→始めたいと思います."
+        },
+        {
+          "num": "1",
+          "context": "スピーチを株式会社アジア映画の山田さんにお願いします。【山田様】",
+          "context_vi": "(cue) Nhờ anh Yamada (Asia Eiga) phát biểu. · 【山田様】",
+          "audioStart": 15,
+          "answer": "スピーチを株式会社アジア映画の山田様にお願いいたします。",
+          "answer_vi": "山田さん→山田様; お願いします→お願いいたします."
+        },
+        {
+          "num": "2",
+          "context": "渡辺さんは大学で日本の音楽について研究しています。【渡辺様】",
+          "context_vi": "(cue) Anh Watanabe nghiên cứu âm nhạc Nhật ở đại học. · 【渡辺様】",
+          "audioStart": 32,
+          "answer": "渡辺様は大学で日本の音楽についてご研究でいらっしゃいます。",
+          "answer_vi": "渡辺さん→渡辺様; 研究しています→ご研究でいらっしゃいます."
+        },
+        {
+          "num": "3",
+          "context": "今日の主役が来ていますから、拍手で迎えましょう。【本日・お見えです】",
+          "context_vi": "(cue) Nhân vật chính hôm nay đã tới nên ta vỗ tay chào đón. · 【本日・お見えです】",
+          "audioStart": 48,
+          "answer": "本日の主役がお見えですから、拍手でお迎えしましょう。",
+          "answer_vi": "今日→本日; 来ています→お見えです; 迎えましょう→お迎えしましょう."
+        },
+        {
+          "num": "4",
+          "context": "それでは、次のプログラムに進みます。",
+          "context_vi": "(cue) Vậy thì, chuyển sang chương trình tiếp theo.",
+          "audioStart": 62,
+          "answer": "それでは次のプログラムに進みたいと思います。",
+          "answer_vi": "進みます→進みたいと思います."
+        },
+        {
+          "num": "5",
+          "context": "そろそろお開きにします。",
+          "context_vi": "(cue) Cũng đến lúc kết thúc tiệc.",
+          "audioStart": 74,
+          "answer": "そろそろお開きにしたいと思います。",
+          "answer_vi": "お開きにします→お開きにしたいと思います."
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎤 やってみましょう 話してみましょう — Làm MC tiệc đón tân thành viên & hô nâng ly (Track 2-52, trang 152)",
+      "page": 152,
+      "intro": "Tự luyện SẢN XUẤT: bạn được giao làm MC một buổi tiệc chào mừng (歓迎会). Hãy giới thiệu thành viên mới và hô nâng ly, theo template dưới đây (tự giới thiệu → giới thiệu thành viên mới → kể điều nghe được về họ → kết thúc phần giới thiệu → hô nâng ly). Tự nói trước, rồi mở 「📖 Bài mẫu」 (あいさつの例) để đối chiếu.",
+      "intro_jp": "自分で話す練習です。歓迎会で司会をすることになりました。新入生を紹介して、乾杯の音頭をとってください。下の型で進めましょう(自己紹介→新入生を紹介→聞いた話を紹介→紹介を終える→乾杯)。先に自分で話してから、「📖 あいさつの例」で確認しましょう。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう — 歓迎会の司会(新入生の紹介＋乾杯の音頭)",
+          "title_vi": "Làm MC tiệc chào mừng — giới thiệu thành viên mới & hô nâng ly",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "司会者(あなた)",
+              "who_vi": "Người dẫn chương trình (bạn)",
+              "jp": "歓迎会で、司会をすることになりました。新入生(新しいクラスメート)を紹介して、乾杯の音頭をとってください。下の型(①〜⑥)に沿って話しましょう。",
+              "vi": "Bạn được giao làm MC tiệc chào mừng. Hãy giới thiệu thành viên/bạn học mới và hô nâng ly. Nói theo template ①〜⑥ dưới đây."
+            }
+          ],
+          "hints": [
+            {
+              "jp": "皆さん、こんにちは。Aクラスの①____です。本日は、新しいクラスメートをお迎えするために、パーティーを準備しました。",
+              "vi": "自己紹介をする — MC tự giới thiệu + nêu mục đích tiệc"
+            },
+            {
+              "jp": "②____さんをご紹介いたします。②____さんは、③____。",
+              "vi": "クラスメートを紹介する — giới thiệu thành viên mới"
+            },
+            {
+              "jp": "④____。",
+              "vi": "クラスメートから聞いた話を紹介する — kể điều nghe được về họ"
+            },
+            {
+              "jp": "皆さん、どうぞよろしくお願いいたします。簡単ですが、これで⑤____。",
+              "vi": "紹介を終える — kết thúc phần giới thiệu (ご紹介を終わります)"
+            },
+            {
+              "jp": "それでは②____さんのご活躍を⑥____。乾杯！",
+              "vi": "乾杯する — hô nâng ly (ご活躍をお祈りして、乾杯をしたいと思います)"
+            }
+          ],
+          "model": {
+            "track": "2-52",
+            "audio": "asset/audio/Track2-52.mp3",
+            "intro_vi": "📖 Bài mẫu (sách, trang 205, Track 2-52) — MC マイケル giới thiệu bạn mới ジョン (từ Bắc Kinh, làm ngành IT) rồi hô nâng ly. Hãy tự nói trước rồi mở đối chiếu.",
+            "intro_jp": "あいさつの例(p.205・Track 2-52)。司会マイケルが、新しいクラスメート、ジョンさん(北京出身・IT関係の会社)を紹介して乾杯の音頭をとります。先に自分で話してから確認しましょう。",
+            "lines": [
+              {
+                "sp": "A",
+                "jp": "皆さん、こんにちは。Aクラスのマイケルです。本日は、新しいクラスメートをお迎えするために、パーティーを準備しました。",
+                "vi": "Chào mọi người. Mình là Michael lớp A. Hôm nay, để chào đón bạn học mới, chúng ta đã chuẩn bị buổi tiệc này.",
+                "note_vi": "① 自己紹介をする"
+              },
+              {
+                "sp": "A",
+                "jp": "ジョンさんをご紹介いたします。ジョンさんは、中国の北京からいらっしゃいました。今、IT関係の会社にお勤めです。",
+                "vi": "Xin giới thiệu bạn John. Bạn John đến từ Bắc Kinh, Trung Quốc. Hiện bạn ấy đang làm ở một công ty về IT.",
+                "note_vi": "②③ クラスメートを紹介する (いらっしゃいました／お勤めです)"
+              },
+              {
+                "sp": "A",
+                "jp": "日本語のクラスは7時からなので、仕事が終わってからいらっしゃるとおっしゃっていました。",
+                "vi": "Lớp tiếng Nhật bắt đầu từ 7 giờ, nên bạn ấy bảo sẽ tới sau khi tan làm.",
+                "note_vi": "④ 聞いた話を紹介する (おっしゃっていました)"
+              },
+              {
+                "sp": "A",
+                "jp": "皆さん、どうぞよろしくお願いします。簡単ですが、これでご紹介を終わります。",
+                "vi": "Mong mọi người giúp đỡ bạn ấy nhé. Tuy ngắn gọn nhưng phần giới thiệu xin kết thúc tại đây.",
+                "note_vi": "⑤ 紹介を終える"
+              },
+              {
+                "sp": "A",
+                "jp": "それではジョンさんのご活躍をお祈りして、乾杯をしたいと思います。乾杯！",
+                "vi": "Vậy thì, xin chúc bạn John gặt hái thành công, và mời mọi người nâng ly. Cạn ly!",
+                "note_vi": "⑥ 乾杯する"
+              }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 あいさつの例: Track 2-52 — MC マイケル giới thiệu ジョン (Bắc Kinh / IT) → trang 205. Đây là BÀI MẪU để đối chiếu, không phải đáp án cố định: hãy giới thiệu thành viên mới của riêng bạn theo cùng trình tự ①〜⑥.",
+      "answerRef_jp": "あいさつの例:Track 2-52(司会マイケル・ジョンさんの紹介)、p.205。これは確認用の例で、決まった答えではありません。自分のクラスの新入生について、同じ①〜⑥の流れで話しましょう。"
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Từ vựng trọng tâm Bài 17 (trang 153)",
+      "intro": "Từ vựng gặp trong Bài 17 (17課 司会の敬語), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.",
+      "intro_jp": "17課「司会の敬語」に出てくる語彙を、出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        {
+          "jp": "帰国する",
+          "kana": "きこくする",
+          "vi": "Về nước (＝国へ帰る)",
+          "note": "📖 trang 146 — 「もうすぐ帰国される」."
+        },
+        {
+          "jp": "夫妻",
+          "kana": "ふさい",
+          "vi": "Hai vợ chồng (＝夫婦, cách nói trang trọng)",
+          "note": "📖 trang 146 — 「アニタさん、イシュトバンさんご夫妻」."
+        },
+        {
+          "jp": "乾杯する",
+          "kana": "かんぱいする",
+          "vi": "Nâng ly / cạn ly (to toast)",
+          "note": "📖 trang 146."
+        },
+        {
+          "jp": "そろう",
+          "kana": "そろう",
+          "vi": "Tề tựu / đông đủ (to be all together)",
+          "note": "📖 trang 147 — 「おそろいです」 (①)."
+        },
+        {
+          "jp": "お見えだ",
+          "kana": "おみえだ",
+          "vi": "Đã đến (＝いらっしゃる, sonkeigo của 来る)",
+          "note": "📖 trang 147 — 「お見えです」 (①)."
+        },
+        {
+          "jp": "そろそろ",
+          "kana": "そろそろ",
+          "vi": "Sắp / cũng đến lúc (It's about time to...)",
+          "note": "📖 trang 147 — 「そろそろ始めたいと思います」 (②)."
+        },
+        {
+          "jp": "務める",
+          "kana": "つとめる",
+          "vi": "Đảm nhận (vai / việc) (to perform a role)",
+          "note": "📖 trang 147 — 「司会を務めます」 (③)."
+        },
+        {
+          "jp": "友人",
+          "kana": "ゆうじん",
+          "vi": "Bạn (＝友達, trang trọng)",
+          "note": "📖 trang 147 — 「イシュトバンさんの友人で」 (③)."
+        },
+        {
+          "jp": "拍手",
+          "kana": "はくしゅ",
+          "vi": "Vỗ tay / tràng pháo tay (applause)",
+          "note": "📖 trang 147 — 「大きな拍手でお迎えください」 (④)."
+        },
+        {
+          "jp": "前途を祝して",
+          "kana": "ぜんとをしゅくして",
+          "vi": "Chúc cho tương lai (to the bright future of)",
+          "note": "📖 trang 147 — 「お二人の前途を祝して」 (④)."
+        },
+        {
+          "jp": "今後のご活躍とご健康を祈って",
+          "kana": "こんごのごかつやくとごけんこうをいのって",
+          "vi": "Chúc thành đạt & mạnh khoẻ (We wish you future success and good health)",
+          "note": "📖 trang 147 — câu chúc khi nâng ly (④)."
+        },
+        {
+          "jp": "乾杯の音頭",
+          "kana": "かんぱいのおんど",
+          "vi": "Người hô khẩu lệnh nâng ly (toast)",
+          "note": "📖 trang 147 — 「乾杯の音頭は〜先生に」 (④)."
+        },
+        {
+          "jp": "お手元の",
+          "kana": "おてもとの",
+          "vi": "(thứ) trước mặt / trên tay quý vị (in front of you)",
+          "note": "📖 trang 147 — 「お手元のグラスをお持ちください」 (④)."
+        },
+        {
+          "jp": "一言",
+          "kana": "ひとこと",
+          "vi": "Một lời / vài lời (a word)",
+          "note": "📖 trang 148 — 「ここで一言ごあいさつ申し上げます」 (④)."
+        },
+        {
+          "jp": "お開きにする",
+          "kana": "おひらきにする",
+          "vi": "Kết thúc (tiệc…) (＝パーティーなどを終わりにする)",
+          "note": "📖 trang 148 — 「そろそろお開きにしたいと思います」 (④)."
+        },
+        {
+          "jp": "分野",
+          "kana": "ぶんや",
+          "vi": "Lĩnh vực / ngành (field / area)",
+          "note": "📖 trang 148 — 「いろいろな分野でご活躍」 (練習①)."
+        },
+        {
+          "jp": "プレゼンテーション",
+          "kana": "ぷれぜんてーしょん",
+          "vi": "Thuyết trình (presentation)",
+          "note": "📖 trang 149 — 練習④."
+        },
+        {
+          "jp": "株式会社",
+          "kana": "かぶしきがいしゃ",
+          "vi": "Công ty cổ phần (Inc.; Co., Ltd.)",
+          "note": "📖 trang 149 — 「株式会社アスクでございます」 (練習④)."
+        },
+        {
+          "jp": "研究員",
+          "kana": "けんきゅういん",
+          "vi": "Nghiên cứu viên (researcher)",
+          "note": "📖 trang 150 — 「研究員として勤務されていました」 (これでOK)."
+        },
+        {
+          "jp": "勤務する",
+          "kana": "きんむする",
+          "vi": "Làm việc (ở công ty…) (＝会社などで働く)",
+          "note": "📖 trang 150 — 「勤務されていました」 (これでOK)."
+        },
+        {
+          "jp": "原稿",
+          "kana": "げんこう",
+          "vi": "Bản thảo / văn bản (manuscript / text)",
+          "note": "📖 trang 151 — 「原稿をお書きです」 (チェック 1))."
+        },
+        {
+          "jp": "主役",
+          "kana": "しゅやく",
+          "vi": "Nhân vật chính / khách chính (main guest)",
+          "note": "📖 trang 151 — 「今日の主役」 (チェック 3))."
+        },
+        {
+          "jp": "スライド",
+          "kana": "すらいど",
+          "vi": "Slide (trình chiếu)",
+          "note": "📖 trang 151 — 「次のスライドをごらんいただきたい」 (チェック 4))."
+        },
+        {
+          "jp": "マネージャー",
+          "kana": "まねーじゃー",
+          "vi": "Quản lý (manager)",
+          "note": "📖 trang 151 — 「マネージャーを務めさせていただく」 (チェック 5))."
+        },
+        {
+          "jp": "清聴する",
+          "kana": "せいちょうする",
+          "vi": "Lắng nghe (＝静かに聞く; thường dùng 「ご清聴ありがとうございました」)",
+          "note": "📖 trang 151."
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "📚 Tổng kết Bài 17 + Bước tiếp theo",
+      "content": "🎯 Tổng kết Bài 17 (17課 司会の敬語 — kính ngữ của MC):\n• Nguyên tắc: dù ngày thường nói thân mật, trước ĐÁM ĐÔNG thì nói trang trọng hơn một chút.\n• ① 「お/ご+[Vます]+です」 — dạng rút gọn của 「お〜になっていらっしゃいます」 (集まります→お集まりです). Đặc biệt: そろう→おそろいです; 見える→お見えです.\n• ② 「〜たいと思います／〜させていただきます」 — mềm hơn 「始めます」 (tránh cảm giác MC tự quyết); nhưng đừng lạm dụng 「〜させていただきます」 kẻo rườm rà.\n• ③ 「私、本日の司会を務めます〜と申します」 — MC PHẢI tự giới thiệu: vai trò/quan hệ/xuất thân + 「〜と申します」.\n• ④ 司会の表現 — bộ câu: đón khách 「大きな拍手でお迎えください」; nâng ly 「前途を祝して／ご活躍とご健康を祈って、乾杯をしたいと思います」「乾杯の音頭は〜にお願いします」「お手元のグラスをお持ちください」; điều phối/đóng tiệc 「一言ごあいさつ申し上げます」「ごゆっくりお楽しみください」「そろそろお開きにしたいと思います」.\n• 💡 Cốt lõi: mở màn (お集まりですので…始めたいと) → tự giới thiệu là MC → đón & giới thiệu khách (拍手でお迎え) → hô nâng ly (前途を祝して + 乾杯の音頭) → đóng tiệc (お開き).\n\n📖 Tham chiếu trong sách:\n• Đáp án 練習① (Track 2-46) → trang 204; 練習②③④ (Track 2-47, 2-48, 2-49) → trang 205.\n• Đáp án チェック (1)a 2)お作りです 3)a 4)a 5)①c②b) & スタイル (Track 2-51) → trang 205.\n• あいさつの例 やってみましょう: Track 2-52 (司会マイケル・ジョン紹介) → trang 205 — đã nhúng trong roleplay.\n\n➡️ Bài tiếp theo: 18課「メールの敬語」 (trang 154) — kính ngữ email: cấu trúc chuẩn (件名/宛先/挨拶/本文/結び), truyền thông tin, khác biệt nói vs viết, các cụm hay dùng (お世話になっております / 何卒よろしく / 取り急ぎ).",
+      "content_jp": "🎯 17課「司会の敬語」のまとめ:\n• 原則:いつも友達スタイルでも、大勢の前では少していねいに話す。\n• ① 「お/ご+[Vます]+です」(「お〜になっていらっしゃいます」の短い形。集まります→お集まりです。特別形:そろう→おそろいです、見える→お見えです)。\n• ② 「〜たいと思います／〜させていただきます」(「始めます」よりやわらかい。ただし「〜させていただきます」の多用に注意)。\n• ③ 「私、本日の司会を務めます〜と申します」(司会は必ず名乗る)。\n• ④ 司会の表現(「大きな拍手でお迎えください」/「前途を祝して…乾杯をしたいと思います」「乾杯の音頭は〜に」「お手元のグラスをお持ちください」/「一言ごあいさつ申し上げます」「ごゆっくりお楽しみください」「そろそろお開きにしたいと思います」)。\n• 💡 流れ:始め(お集まりですので…始めたいと)→名乗り→お迎え・紹介(拍手でお迎え)→乾杯(前途を祝して＋音頭)→お開き。\n\n📖 本の参照:練習①(Track 2-46)→p.204、練習②③④(Track 2-47・2-48・2-49)→p.205、チェック(1)a 2)お作りです 3)a 4)a 5)①c②b・スタイル(Track 2-51)→p.205、あいさつの例(Track 2-52・司会マイケル)→p.205。\n➡️ 次は18課「メールの敬語」(p.154)。"
+    }
+  ]
+}

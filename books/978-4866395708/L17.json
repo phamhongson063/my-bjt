@@ -1,0 +1,914 @@
+{
+  "id": "L17",
+  "order": 17,
+  "title": "16課 報告をする",
+  "titleVi": "Bài 16 — Báo cáo (tường thuật lại buổi phỏng vấn / kết quả)",
+  "level": "初級修了 → N3",
+  "phase": "第2章: 場面別敬語トレーニング",
+  "estimatedMinutes": 35,
+  "intro": "Bài 16 (16課) — Chương 2. Tình huống: アレックス (Alex) báo cáo cho 金子部長 về buổi phỏng vấn 林美香 (người phụ trách phục trang phim 『アジアンナイト』, đã gặp ở Bài 15).\nỞ bản 「できますか?」, Alex báo cáo LỘN XỘN: kể tuồn tuột không theo trình tự, không phân biệt rõ ai nói (trộn việc của mình với lời 林さん) nên 部長 phải hỏi 「え？ 誰が？」, rồi 「ちょ、ちょっと！ なんか、よくわからないんだけど。」 — người nghe không theo kịp.\nBài này học CÁCH BÁO CÁO rõ ràng bằng kính ngữ: báo theo TRÌNH TỰ, thuật lại điều NGHE được, cho XEM ảnh/tài liệu, nêu CẢM NHẬN, và KẾT THÚC rồi nhận câu hỏi.\n\n🎯 Mục tiêu — 5 kỹ thuật (敬語で言ってみましょう, trang 139):\n① 順を追って報告する — báo theo trình tự (まず → 次に → その次に／それから → 最後に, đóng phần bằng 以上).\n② 聞いたことを話す — thuật lại lời người khác bằng 「〜とのことです」 (＝〜そうです); động từ của nhân vật trong chuyện thường để KÍNH NGỮ.\n③ 見せる — cho xem (ご覧ください／ご覧いただけますでしょうか／ご覧いただくとおわかりのように).\n④ 感想を言う — nêu cảm nhận / đề xuất (〜だと思いました／〜のではないでしょうか／〜たほうがいいと思います).\n⑤ 報告を終えて質問を受ける — kết thúc & mời câu hỏi (以上で報告を終わります／ご質問がおありでしたらどうぞ).",
+  "intro_jp": "第2章 16課。アレックスさんは、林美香さん(映画『アジアンナイト』の衣装担当・15課でインタビューした人)へのインタビューについて、金子部長に報告します。\n「できますか?」では、アレックスさんの報告がわかりにくく、順序がなく、誰の話かもはっきりしないので、部長に「え？ 誰が？」「ちょ、ちょっと！ なんか、よくわからないんだけど。」と言われてしまいました。\nこの課で、わかりやすく報告する敬語を学びます。順を追って話す、聞いたことを話す、見せる、感想を言う、報告を終えて質問を受ける、です。\n\n🎯 学習項目(敬語で言ってみましょう・p.139):\n① 順を追って報告する(まず→次に→その次に／それから→最後に、以上)\n② 聞いたことを話す(「〜とのことです」＝「〜そうです」、話中の登場人物には敬語)\n③ 見せる(ご覧ください／ご覧いただけますでしょうか／ご覧いただくとおわかりのように)\n④ 感想を言う(〜だと思いました／〜のではないでしょうか／〜たほうがいいと思います)\n⑤ 報告を終えて質問を受ける(以上で報告を終わります／ご質問がおありでしたらどうぞ)",
+  "sections": [
+    {
+      "type": "dialogue",
+      "title": "💬 できますか? — Alex báo cáo lộn xộn, không theo trình tự, 部長 không hiểu (trang 138)",
+      "page": 138,
+      "image": "books/978-4866395708/images/138_1.jpg",
+      "imageAlt": "Minh hoạ trang 138 — Alex (đứng, cầm ảnh) báo cáo cho 金子部長 và một đồng nghiệp đang ngồi quanh bàn tròn, vẻ mặt khó hiểu.",
+      "imageCaption": "Minh hoạ trang 138 — Alex báo cáo không rõ ràng nên 金子部長 không theo kịp.",
+      "scene": "アレックスさんは映画衣装デザイナーの林美香さんにインタビューをしました。今日は会社でその報告をします。\n(Alex đã phỏng vấn 林美香 — designer phục trang phim. Hôm nay anh báo cáo lại tại công ty. Đây là bản CHƯA đạt — kể lộn xộn, không rõ ai nói gì. Bản chuẩn xem ở 「これでOK!」 trang 141.)",
+      "lines": [
+        {
+          "speaker": "アレックス",
+          "jp": "先週、林美香さんにインタビューしました。私は、映画の衣装で特に工夫した点は何ですかと聞いたら、アジアの昔の衣装を参考にしてデザインしました。",
+          "vi": "Tuần trước tôi đã phỏng vấn chị Hayashi Mika. Tôi hỏi điều đặc biệt dụng công ở phục trang phim là gì, thì đã tham khảo trang phục cổ châu Á để thiết kế. (⚠️ Trộn lẫn: 「私は…聞いたら」 rồi 「…デザインしました」 — rốt cuộc AI thiết kế? Phải là 「〜なさったとのことです」)"
+        },
+        {
+          "speaker": "金子部長",
+          "jp": "え？ 誰が？",
+          "vi": "Ơ? Ai cơ?"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "えーと、林さんです。あー、モデルにしたものは何ですかと聞いたら、答えは、ヘアスタイルは中国の唐時代のものを参考にしました。こちらの写真を見てください。女優のヘアスタイルと昔の人形のヘアスタイルは似ています。この林さんのやり方は実にユニークです。",
+          "vi": "Ưmm, là chị Hayashi ạ. À, tôi hỏi lấy gì làm mẫu, thì câu trả lời là, kiểu tóc tham khảo từ thời Đường của Trung Quốc. Anh xem tấm ảnh này đi. Kiểu tóc của nữ diễn viên và kiểu tóc búp bê xưa giống nhau. Cách làm của chị Hayashi thật là độc đáo. (⚠️ Không theo trình tự; 「写真を見てください」 cộc → phải 「ご覧ください」; chỉ nêu sự thật, thiếu cảm nhận của mình)"
+        },
+        {
+          "speaker": "金子部長",
+          "jp": "ちょ、ちょっと！ なんか、よくわからないんだけど。",
+          "vi": "Kh, khoan đã! Sao tôi nghe chẳng hiểu gì cả."
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "えーと、すみません。",
+          "vi": "Ưmm, tôi xin lỗi ạ."
+        },
+        {
+          "speaker": "—",
+          "jp": "アレックスさんは、わかりやすく報告をすることができませんでした。",
+          "vi": "Alex đã không thể báo cáo một cách dễ hiểu."
+        }
+      ],
+      "vocabHighlight": [
+        "「〜デザインしました」 → 「〜なさったとのことです」 (② thuật lại lời người khác + kính ngữ)",
+        "(thiếu trình tự) → まず／次に／最後に (① 順を追って)",
+        "「写真を見てください」 → 「ご覧ください／ご覧いただくとおわかりのように」 (③ 見せる)",
+        "「ユニークです」 → 「ユニークだと思いました／〜のではないでしょうか」 (④ 感想)"
+      ],
+      "note": "Cảnh dẫn vào Bài 16: CÁCH BÁO CÁO. Alex chưa đạt ở: (1) không theo trình tự, kể tuồn tuột; (2) trộn việc của mình với lời 林さん nên 部長 phải hỏi 「誰が？」 — phải tách rõ bằng 「〜とのことです」; (3) mời xem ảnh cộc lốc 「見てください」; (4) chỉ nêu sự thật, thiếu nhận định/đề xuất; (5) kết thúc tụt dốc 「すみません」. 5 kỹ thuật ①〜⑤ bên dưới dạy báo theo trình tự, thuật lại, cho xem, nêu cảm nhận, kết & nhận câu hỏi; bản chuẩn xem ở 「これでOK!」 (trang 141).",
+      "note_jp": "この課では、わかりやすく報告する敬語を勉強します。アレックスさんは(1)順序がなく話が飛ぶ、(2)自分のことと林さんの話が混ざって「誰が？」と聞き返される(「〜とのことです」で分ける)、(3)「写真を見てください」が改まっていない、(4)事実だけで感想がない、(5)最後が「すみません」で締まらない、が問題です。①〜⑤で、順を追う・聞いたことを話す・見せる・感想を言う・締めて質問を受ける、を学び、正しい例は「これでOK!」(p.141)で確認します。"
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ① 順を追って報告する — Báo cáo theo trình tự (trang 139)",
+      "page": 139,
+      "items": [
+        {
+          "pattern": "まず → 次に → その次に／それから → 最後に ／ 以上(、〜についてご報告しました)",
+          "patternVi": "Chia báo cáo dài thành các mốc bằng từ nối trình tự; nội dung từng phần nối bằng 「〜について」.",
+          "explanation": "Báo cáo dài dễ khiến người nghe lạc 'đang ở đâu'. Hãy đặt MỐC bằng các từ nối: 「まず」 (trước hết) → 「次に」 (tiếp theo) → 「その次に」／「それから」 (tiếp đến) → 「最後に」 (cuối cùng). Khi đóng một phần hoặc cả bài, dùng 「以上、〜についてご報告しました」. Nội dung báo cáo về cái gì thì nối bằng 「〜について」.",
+          "explanation_jp": "長い報告は、聞いている人が「今どこの話か」わからなくなりがちです。「まず」→「次に」→「その次に／それから」→「最後に」で順番の目印を付けましょう。一つの部分や報告全体を締めるときは「以上、〜についてご報告しました」。何についての報告かは「〜について」でつなぎます。",
+          "examples": [
+            {
+              "jp": "まず、この映画の概要についてご報告します。",
+              "vi": "Trước hết, tôi xin báo cáo về khái quát bộ phim."
+            },
+            {
+              "jp": "次に、インタビューの結果についてお話しします。",
+              "vi": "Tiếp theo, tôi xin nói về kết quả phỏng vấn."
+            },
+            {
+              "jp": "その次に、〜／それから、〜／最後に、〜",
+              "vi": "Tiếp đến, ~ / Sau đó, ~ / Cuối cùng, ~"
+            },
+            {
+              "jp": "以上、概要についてご報告しました。",
+              "vi": "Trên đây là phần báo cáo về khái quát."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ② 聞いたことを話す — Thuật lại điều nghe được (trang 139)",
+      "page": 139,
+      "items": [
+        {
+          "pattern": "〜とのことです (＝〜そうです)",
+          "patternVi": "Thuật lại lời người khác; trang trọng hơn 「〜そうです」.",
+          "explanation": "Khi báo cáo điều NGHE được từ người khác (kết quả phỏng vấn, lời cấp trên…), dùng 「〜とのことです」 (＝ 「〜そうです」, trang trọng hơn). Quan trọng: động từ chỉ HÀNH ĐỘNG của nhân vật trong câu chuyện thường để ở KÍNH NGỮ (した → なさった), để tách rõ 'đây là lời của họ, không phải việc của mình'.",
+          "explanation_jp": "人から聞いたこと(インタビューの結果、上司の話など)を報告するときは「〜とのことです」(＝「〜そうです」、より改まった言い方)を使います。ポイントは、話の中の人の動作はふつう敬語にすること(した→なさった)。そうすると「これは自分のことではなく、その人の話だ」とはっきり伝わります。",
+          "warning": "📝 話中の登場人物には敬語を使うことが多いです (khi thuật lại lời/việc của nhân vật trong câu chuyện, thường dùng kính ngữ cho nhân vật đó).",
+          "warning_jp": "📝 話中の登場人物には敬語を使うことが多いです。",
+          "examples": [
+            {
+              "jp": "工夫したことについてお話しくださいという質問に対しては、「アジアの民族衣装をテーマになさった」とのことです。",
+              "vi": "Với câu hỏi 'xin chị kể về điều đã dụng công', chị ấy cho biết 'đã lấy trang phục dân tộc châu Á làm chủ đề'."
+            },
+            {
+              "jp": "このヘアスタイルは、日本の江戸時代のものを参考になさったとのことです。",
+              "vi": "Kiểu tóc này, được biết chị ấy đã tham khảo từ thời Edo của Nhật."
+            },
+            {
+              "jp": "「とのことです」＝「そうです」",
+              "vi": "「とのことです」 = 「そうです」 (cùng nghĩa 'nghe nói là ~', 「とのことです」 trang trọng hơn)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ③ 見せる — Cho xem ảnh / tài liệu (trang 139)",
+      "page": 139,
+      "items": [
+        {
+          "pattern": "(こちらを)ご覧ください。／ご覧いただけますでしょうか。／ご覧いただくとおわかりのように、〜",
+          "patternVi": "Mời người nghe xem, và dẫn dắt nội dung từ thứ họ đang xem.",
+          "explanation": "Khi cho người nghe xem ảnh/tài liệu: mời xem bằng 「ご覧ください」 (mời xem), lịch sự hơn là 「ご覧いただけますでしょうか」. Để dẫn nội dung từ thứ họ đang nhìn, dùng 「ご覧いただくとおわかりのように、〜」 / 「ご覧になるとおわかりのように、〜」 (như quý vị xem thì rõ, ~). 「見てください」 trong báo cáo trang trọng là cộc.",
+          "explanation_jp": "写真や資料を見せるときは、「ご覧ください」(より丁寧に「ご覧いただけますでしょうか」)で見るよう促し、「ご覧いただくとおわかりのように〜」「ご覧になるとおわかりのように〜」で見ているものから内容を説明します。改まった報告で「見てください」はぶっきらぼうです。",
+          "examples": [
+            {
+              "jp": "こちらの写真をご覧ください。／こちらの写真をご覧いただけますでしょうか。",
+              "vi": "Xin quý vị xem tấm ảnh này. / Quý vị có thể xem giúp tấm ảnh này không ạ?"
+            },
+            {
+              "jp": "ご覧いただくとおわかりのように、デザインはアジア各国の民族衣装の一部分を集めたものになっております。",
+              "vi": "Như quý vị xem thì rõ, thiết kế là tập hợp một phần trang phục dân tộc của các nước châu Á."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ④ 感想を言う — Nêu cảm nhận / đề xuất (trang 139)",
+      "page": 139,
+      "items": [
+        {
+          "pattern": "〜だと思いました。／〜のではないでしょうか。／〜たほうがいいと思います。",
+          "patternVi": "Sau khi thuật sự việc, thêm nhận định / gợi ý / đề xuất của mình.",
+          "explanation": "Báo cáo hay không chỉ thuật sự việc — nên thêm NHẬN ĐỊNH của mình: khẳng định nhẹ 「〜だと思いました」 (tôi thấy rằng ~), gợi ý mềm 「〜のではないでしょうか」 (chẳng phải ~ hay sao?), và đề xuất 「〜たほうがいいと思います」 (tôi nghĩ nên ~). Như vậy báo cáo mới có giá trị tham khảo cho người nghe.",
+          "explanation_jp": "いい報告は事実を伝えるだけではありません。自分の考えも加えましょう。やわらかい断定「〜だと思いました」、控えめな提案「〜のではないでしょうか」、提案「〜たほうがいいと思います」。そうすると、聞く人の参考になる報告になります。",
+          "examples": [
+            {
+              "jp": "この林さんのやり方はとてもユニークだと思いました。",
+              "vi": "Tôi thấy cách làm này của chị Hayashi rất độc đáo."
+            },
+            {
+              "jp": "特にこの衣装は映画の中でも注目されるのではないでしょうか。",
+              "vi": "Đặc biệt bộ phục trang này, chẳng phải sẽ được chú ý trong phim hay sao ạ?"
+            },
+            {
+              "jp": "映画の営業を行うときに、この点は強調したほうがいいと思います。",
+              "vi": "Khi làm marketing cho phim, tôi nghĩ nên nhấn mạnh điểm này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "🎯 ⑤ 報告を終えて質問を受ける — Kết thúc & nhận câu hỏi (trang 139)",
+      "page": 139,
+      "items": [
+        {
+          "pattern": "以上で報告を終わります。／以上、〜についてご報告しました。＋ 何か質問はありませんか。／ご質問がおありでしたらどうぞ。",
+          "patternVi": "Đóng báo cáo gọn gàng rồi mời câu hỏi.",
+          "explanation": "Kết thúc báo cáo bằng 「以上で報告を終わります」 (báo cáo đến đây kết thúc) hoặc tóm lại 「以上、〜についてご報告しました」, rồi MỜI câu hỏi: 「何か質問はありませんか」 hoặc trang trọng hơn 「ご質問がおありでしたらどうぞ」. Lưu ý 「おありです／おありでしたら」 là sonkeigo của 「ある」 (có).",
+          "explanation_jp": "報告は「以上で報告を終わります」または「以上、〜についてご報告しました」で締め、「何か質問はありませんか」「ご質問がおありでしたらどうぞ」で質問を促します。「おありです／おありでしたら」は「ある」の尊敬語です。",
+          "examples": [
+            {
+              "jp": "以上で報告を終わります。",
+              "vi": "Báo cáo của tôi đến đây là kết thúc."
+            },
+            {
+              "jp": "以上、林美香さんのインタビューについてご報告しました。",
+              "vi": "Trên đây là phần báo cáo về buổi phỏng vấn chị Hayashi Mika."
+            },
+            {
+              "jp": "何か質問はありませんか。／ご質問がおありでしたらどうぞ。",
+              "vi": "Có câu hỏi nào không ạ? / Nếu quý vị có câu hỏi, xin mời ạ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習① 「ご覧いただくとおわかりのように」で言う (Track 2-40, trang 140)",
+      "page": 140,
+      "audio": "asset/audio/Track2-40.mp3",
+      "audioLabel": "Track 2-40 — 練習①",
+      "style": "speak",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。例のように言ってみましょう。",
+      "instruction_vi": "Nghe hết một lượt rồi luyện. Theo gợi ý [đồ vật・động tác・わかる・kết quả], ghép thành: 「〜は、[Vて]いただくとおわかりのように、〜」. Động từ 見る → ご覧, あります → ございます. Đáp án → trang 203.",
+      "note": "💡 [đối tượng]は、[動作のV]ていただく(／ご覧いただく) とおわかりのように、[kết quả]。 Đáp án theo trang 203 (Track 2-40).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "このかばん・持つ・わかる・とても軽いです",
+          "context_vi": "(cue) Cái cặp này · cầm · biết · rất nhẹ",
+          "answer": "このかばんは、持っていただくとおわかりのようにとても軽いです。",
+          "answer_vi": "持つ → 持っていただく + とおわかりのように."
+        },
+        {
+          "num": "1",
+          "context": "この町・地図で見る・わかる・公園がたくさんあります",
+          "context_vi": "(cue) Thị trấn này · nhìn trên bản đồ · biết · có nhiều công viên",
+          "answer": "この町は、地図でご覧いただくとおわかりのように、公園がたくさんございます。",
+          "answer_vi": "見る → ご覧いただく; あります → ございます (lịch sự)."
+        },
+        {
+          "num": "2",
+          "context": "このペン・使う・わかる・持ちやすいデザインになっています",
+          "context_vi": "(cue) Cây bút này · dùng · biết · thiết kế dễ cầm",
+          "answer": "このペンは、使っていただくとおわかりのように、持ちやすいデザインになっております。",
+          "answer_vi": "使う → 使っていただく; なっています → なっております (lịch sự)."
+        },
+        {
+          "num": "3",
+          "context": "「モナリザ」・実際に見る・わかる・それほど大きい絵ではありません",
+          "context_vi": "(cue) 'Mona Lisa' · xem thực tế · biết · không phải bức tranh to đến vậy",
+          "answer": "「モナリザ」は、実際にご覧いただくとおわかりのようにそれほど大きい絵ではありません。",
+          "answer_vi": "実際に見る → 実際にご覧いただく + とおわかりのように."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習② 「〜とのことです」を使って言う (Track 2-41, trang 140)",
+      "page": 140,
+      "audio": "asset/audio/Track2-41.mp3",
+      "audioLabel": "Track 2-41 — 練習②",
+      "style": "speak",
+      "instruction": "「〜とのことです」を使って言ってみましょう。",
+      "instruction_vi": "Thuật lại bằng 「〜とのことです」 — động từ của nhân vật đổi sang KÍNH NGỮ (出席する→出席される, 会う→会われる, 来る→いらっしゃる, する→なさる). Đáp án → trang 203–204.",
+      "note": "💡 [động từ của nhân vật → sonkeigo] + とのことです。 Đáp án theo trang 203–204 (Track 2-41).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "課長は明日、会議に出席します",
+          "context_vi": "(cue) Trưởng phòng ngày mai dự họp.",
+          "answer": "課長は明日、会議に出席されるとのことです。",
+          "answer_vi": "出席します → 出席される (sonkeigo) + とのことです."
+        },
+        {
+          "num": "1",
+          "context": "課長は大阪でお客さんに会いました",
+          "context_vi": "(cue) Trưởng phòng đã gặp khách ở Osaka.",
+          "answer": "課長は大阪でお客さんに会われたとのことです。",
+          "answer_vi": "会いました → 会われた (sonkeigo)."
+        },
+        {
+          "num": "2",
+          "context": "部長はあとでもう一度来ます",
+          "context_vi": "(cue) Trưởng ban lát nữa sẽ đến lần nữa.",
+          "answer": "部長はあとでもう一度いらっしゃるとのことです。",
+          "answer_vi": "来ます → いらっしゃる (sonkeigo của 来る)."
+        },
+        {
+          "num": "3",
+          "context": "お客さんは午後にもう一度電話してきます",
+          "context_vi": "(cue) Khách chiều sẽ gọi điện lại lần nữa.",
+          "answer": "お客さんは午後にもう一度電話してこられるとのことです。",
+          "answer_vi": "電話してきます → 電話してこられる (sonkeigo)."
+        },
+        {
+          "num": "4",
+          "context": "林さんはデザインでアジアの民族衣装をテーマにしました",
+          "context_vi": "(cue) Chị Hayashi đã lấy trang phục dân tộc châu Á làm chủ đề thiết kế.",
+          "answer": "林さんはデザインでアジアの民族衣装をテーマになさったとのことです。",
+          "answer_vi": "テーマにしました → テーマになさった (なさる = sonkeigo của する)."
+        },
+        {
+          "num": "5",
+          "context": "アレックスさんの日本の最初の印象はみんなが忙しそうにしていたことです",
+          "context_vi": "(cue) Ấn tượng đầu tiên về Nhật của Alex là mọi người trông đều bận rộn.",
+          "answer": "アレックスさんの日本の最初の印象はみんなが忙しそうにしていたことだとのことです。",
+          "answer_vi": "Vế danh từ 「〜ことです」 → thêm だ trước とのことです: 「〜ことだとのことです」."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ 練習③ 順を追って報告する (Track 2-42, trang 140)",
+      "page": 140,
+      "audio": "asset/audio/Track2-42.mp3",
+      "audioLabel": "Track 2-42 — 練習③",
+      "style": "speak",
+      "instruction": "例のように言ってみましょう。",
+      "instruction_vi": "Theo gợi ý [từ nối trình tự・nội dung・động từ], ghép thành 「[まず/次に…]、[nội dung]について[お話しします/お伝えします/ご説明します/ご報告します]」. Đáp án → trang 204.",
+      "note": "💡 [まず／次に／その次に／最後に]、[nội dung]について + [動詞の謙譲形:お話しします／お伝えします／ご説明します／ご報告します]。 Đáp án theo trang 204 (Track 2-42).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "まず・調査の概要・話す",
+          "context_vi": "(cue) trước hết · khái quát khảo sát · nói",
+          "answer": "まず、調査の概要についてお話しします。",
+          "answer_vi": "話す → お話しします (kenjougo)."
+        },
+        {
+          "num": "1",
+          "context": "次に・その結果・伝える",
+          "context_vi": "(cue) tiếp theo · kết quả đó · truyền đạt",
+          "answer": "次に、その結果についてお伝えします。",
+          "answer_vi": "伝える → お伝えします (kenjougo)."
+        },
+        {
+          "num": "2",
+          "context": "その次に・調査の分析方法・説明する",
+          "context_vi": "(cue) tiếp đến · phương pháp phân tích khảo sát · giải thích",
+          "answer": "その次に、調査の分析方法についてご説明します。",
+          "answer_vi": "説明する → ご説明します (kenjougo)."
+        },
+        {
+          "num": "3",
+          "context": "最後に・今回の調査でわかったこと・報告する",
+          "context_vi": "(cue) cuối cùng · điều biết được qua khảo sát lần này · báo cáo",
+          "answer": "最後に、今回の調査でわかったことについてご報告します。",
+          "answer_vi": "報告する → ご報告します (kenjougo)."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "✅ これでOK! — Alex báo cáo mạch lạc, theo trình tự, có cảm nhận (Track 2-43, trang 141)",
+      "page": 141,
+      "image": "books/978-4866395708/images/141_1.jpg",
+      "imageAlt": "Minh hoạ trang 141 — Alex (đứng, cầm ảnh) báo cáo trôi chảy; 金子部長 và đồng nghiệp ngồi nghe gật gù.",
+      "imageCaption": "Minh hoạ trang 141 — Lần này Alex gom ý theo trình tự, báo cáo gọn gàng và dễ hiểu.",
+      "audio": "asset/audio/Track2-43.mp3",
+      "audioLabel": "Track 2-43 — これでOK!",
+      "scene": "Bản ĐÚNG: Alex mở đầu nêu rõ sẽ báo cáo về gì, đi theo trình tự (まず → 次に), thuật lại lời 林さん bằng 「〜とのことです」, mời xem ảnh bằng 「ご覧になるとおわかりのように」, thêm cảm nhận, và kết bằng 「以上で報告を終わります。ご質問がおありの方はどうぞ」.",
+      "lines": [
+        {
+          "speaker": "アレックス",
+          "jp": "これから、先週行いました林美香さんへのインタビューについて、ご報告いたします。",
+          "vi": "Sau đây, tôi xin báo cáo về buổi phỏng vấn chị Hayashi Mika mà tôi đã thực hiện tuần trước. (mở đầu nêu rõ chủ đề báo cáo)"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "まず、映画の衣装で特に工夫した点について伺いました。この質問に対しては、アジアの昔の衣装を参考にしてデザインなさったとのことです。",
+          "vi": "Trước hết, tôi đã hỏi về điểm đặc biệt dụng công ở phục trang phim. Với câu hỏi này, được biết chị ấy đã tham khảo trang phục cổ châu Á để thiết kế. (① まず ＋ ② 〜なさったとのことです)"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "さらに、モデルにしたものは何かなど、いろいろ伺うことができました。こちらの写真をご覧になるとおわかりのように、このヘアスタイルは、中国の唐時代のものを参考にしたとのことです。この林さんのやり方は実にユニークだと思いました。衣装を見たくて映画館に行く観客もいるのではないでしょうか。",
+          "vi": "Hơn nữa, tôi còn hỏi được nhiều điều như lấy gì làm mẫu… Như quý vị xem tấm ảnh này thì rõ, kiểu tóc này được tham khảo từ thời Đường của Trung Quốc. Tôi thấy cách làm của chị Hayashi thật độc đáo. Chẳng phải sẽ có khán giả đến rạp chỉ vì muốn ngắm phục trang hay sao? (③ ご覧になるとおわかりのように ＋ ④ 〜だと思いました／〜のではないでしょうか)"
+        },
+        {
+          "speaker": "アレックス",
+          "jp": "次に、一番大変だったことについて伺いました。……林さんのユニークな衣装デザインが見られることが、新作映画『アジアンナイト』のセールスポイントだと思います。以上で報告を終わります。ご質問がおありの方はどうぞ。",
+          "vi": "Tiếp theo, tôi đã hỏi về điều vất vả nhất. …Tôi cho rằng việc có thể chiêm ngưỡng thiết kế phục trang độc đáo của chị Hayashi chính là điểm bán hàng (sales point) của phim mới 『Asian Night』. Báo cáo của tôi đến đây là kết thúc. Quý vị nào có câu hỏi xin mời ạ. (① 次に ＋ ④ 感想 ＋ ⑤ 以上で報告を終わります／ご質問がおありの方はどうぞ)"
+        },
+        {
+          "speaker": "—",
+          "jp": "アレックスさんはポイントをまとめて上手に報告することができました。",
+          "vi": "Alex đã gom được các ý chính và báo cáo một cách khéo léo."
+        }
+      ],
+      "vocabHighlight": [
+        "ご報告いたします (mở đầu nêu chủ đề)",
+        "まず…／次に… (① 順を追って)",
+        "〜なさった／〜したとのことです (② 聞いたことを話す)",
+        "ご覧になるとおわかりのように (③ 見せる)",
+        "〜だと思いました／〜のではないでしょうか (④ 感想)",
+        "以上で報告を終わります／ご質問がおありの方はどうぞ (⑤ 締め)"
+      ],
+      "note": "So với bản できますか: cùng nội dung (phỏng vấn 林さん về phục trang) nhưng (1) mở đầu nêu rõ 'sẽ báo cáo về gì'; (2) đi theo trình tự まず→次に; (3) tách rõ lời 林さん bằng 「〜とのことです」 (không còn ai làm gì); (4) mời xem ảnh lịch sự; (5) thêm cảm nhận & đề xuất; (6) kết gọn rồi mời câu hỏi.",
+      "note_jp": "「できますか?」と同じ内容(林さんへの衣装のインタビュー)ですが、(1)最初に「何を報告するか」を言う、(2)まず→次にで順を追う、(3)「〜とのことです」で林さんの話だと分ける、(4)ていねいに写真を見せる、(5)感想・提案を加える、(6)締めて質問を促す、という点が違います。"
+    },
+    {
+      "type": "verbtable",
+      "title": "📊 So sánh できますか → これでOK (p.138 ↔ p.141)",
+      "intro": "Bảng TỔNG HỢP đối chiếu báo cáo CHƯA đạt (p.138 「できますか?」) ↔ bản ĐÚNG (p.141 「これでOK!」), map theo 5 kỹ thuật ①〜⑤. Gom từ 2 đoạn hội thoại phía trên (không phải mục riêng trong sách).",
+      "intro_jp": "p.138「できますか?」とp.141「これでOK!」を①〜⑤で対照させた表です(本にある項目ではありません)。",
+      "columns": {
+        "plain": "場面",
+        "sonkeigo": "✗ p.138 (できますか)",
+        "kenjougo": "✓ p.141 (これでOK)"
+      },
+      "rows": [
+        {
+          "plain": "報告の始め方",
+          "plainVi": "cách mở đầu",
+          "sonkeigo": "先週、林美香さんにインタビューしました。私は…",
+          "kenjougo": "これから、先週行いました林美香さんへのインタビューについて、ご報告いたします。"
+        },
+        {
+          "plain": "順序",
+          "plainVi": "trình tự (①)",
+          "sonkeigo": "（順序がなく、話が飛ぶ）",
+          "kenjougo": "まず…／次に… で順を追う。"
+        },
+        {
+          "plain": "誰の話か",
+          "plainVi": "ai nói (②)",
+          "sonkeigo": "アジアの昔の衣装を参考にしてデザインしました。（→「誰が？」）",
+          "kenjougo": "アジアの昔の衣装を参考にしてデザインなさったとのことです。"
+        },
+        {
+          "plain": "写真の見せ方",
+          "plainVi": "cho xem ảnh (③)",
+          "sonkeigo": "こちらの写真を見てください。",
+          "kenjougo": "こちらの写真をご覧になるとおわかりのように…"
+        },
+        {
+          "plain": "感想",
+          "plainVi": "cảm nhận (④)",
+          "sonkeigo": "この林さんのやり方は実にユニークです。（事実だけ）",
+          "kenjougo": "実にユニークだと思いました。／〜のではないでしょうか。"
+        },
+        {
+          "plain": "締め",
+          "plainVi": "kết thúc (⑤)",
+          "sonkeigo": "えーと、すみません。（尻すぼみ）",
+          "kenjougo": "以上で報告を終わります。ご質問がおありの方はどうぞ。"
+        },
+        {
+          "plain": "結果",
+          "plainVi": "kết quả",
+          "sonkeigo": "わかりやすく報告できなかった。",
+          "kenjougo": "ポイントをまとめて上手に報告できた。"
+        }
+      ],
+      "note": "Điểm cốt lõi: báo cáo hay = ĐI THEO TRÌNH TỰ (まず→次に→最後に), TÁCH RÕ lời người khác bằng 「〜とのことです」 (＋kính ngữ cho nhân vật), CHO XEM lịch sự bằng 「ご覧…」, thêm CẢM NHẬN/đề xuất, rồi KẾT gọn và mời câu hỏi.",
+      "note_jp": "ポイント:いい報告は、順を追い(まず→次に→最後に)、「〜とのことです」で人の話を分け(登場人物は敬語)、「ご覧…」でていねいに見せ、感想・提案を加え、締めて質問を促す。"
+    },
+    {
+      "type": "exercise",
+      "title": "✏️ チェックしましょう — Chọn cách nói đúng trong báo cáo (trang 142)",
+      "page": 142,
+      "instruction": "【　】の中から、正しいものを選んでください。",
+      "instruction_vi": "Chọn phương án đúng cho từng chỗ 【　】. Bấm chọn rồi 確認. Đáp án → trang 204.",
+      "note": "📝 Đáp án (p.204): 1) ①b(まず) ②c(以上) ③a(次に) ④a(その次に) · 2) されたとの／なさったとの · 3) c(おわかりのように) · 4) b(おありでしたら).",
+      "items": [
+        {
+          "num": "1",
+          "context": "①【 ? 】この調査の概要についてご報告します。／②【 ? 】調査の概要についてご報告しました。／③【 ? 】分析の方法についてお話しします。／④【 ? 】分析結果についてご説明します。",
+          "context_vi": "Chọn từ nối trình tự cho 4 chỗ ① ② ③ ④ (mở đầu → đóng phần → chuyển phần → tiếp nối).",
+          "subAnswers": [
+            {
+              "num": "①",
+              "options": ["次に", "まず", "以上"],
+              "answerIndex": 1,
+              "answer_vi": "まず — mở đầu báo cáo phần đầu tiên."
+            },
+            {
+              "num": "②",
+              "options": ["次に", "まず", "以上"],
+              "answerIndex": 2,
+              "answer_vi": "以上 — 「以上、〜ご報告しました」 đóng phần vừa báo."
+            },
+            {
+              "num": "③",
+              "options": ["次に", "まず", "以上"],
+              "answerIndex": 0,
+              "answer_vi": "次に — chuyển sang phần kế tiếp."
+            },
+            {
+              "num": "④",
+              "options": ["その次に", "それで", "以上"],
+              "answerIndex": 0,
+              "answer_vi": "その次に — tiếp nối phần sau nữa."
+            }
+          ]
+        },
+        {
+          "num": "2",
+          "context": "林さんのお話によると、この衣装は韓国の民族衣装を参考に【　　　】ことです。",
+          "context_vi": "Thuật lại lời 林さん → động từ để kính ngữ + 「とのことです」.",
+          "answer": "されたとの／なさったとの",
+          "answer_vi": "参考にした → 参考にされた／参考になさった (sonkeigo) ＋ とのことです → 「参考にされたとのことです／参考になさったとのことです」."
+        },
+        {
+          "num": "3",
+          "context": "地図をご覧になると、【 ? 】、教会は街の中心にあります。",
+          "context_vi": "Dẫn nội dung từ thứ người nghe đang xem.",
+          "options": ["おわかりように", "わかりように", "おわかりのように"],
+          "answerIndex": 2,
+          "answer_vi": "おわかりのように — 「ご覧になるとおわかりのように」 (như quý vị xem thì rõ)."
+        },
+        {
+          "num": "4",
+          "context": "ご質問が【 ? 】どうぞ。",
+          "context_vi": "「ある」 sonkeigo trong câu mời câu hỏi.",
+          "options": ["ありでしたら", "おありでしたら", "おありなったら"],
+          "answerIndex": 1,
+          "answer_vi": "おありでしたら — 「おありです」 là sonkeigo của 「ある」; 「おありなったら」 sai dạng."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "🗣️ スタイルを変えてみましょう — Đổi 「〜そうです」 sang 敬語 / 友達 (Track 2-44, trang 142)",
+      "page": 142,
+      "audio": "asset/audio/Track2-44.mp3",
+      "audioLabel": "Track 2-44 — スタイルを変えてみましょう",
+      "style": "speak",
+      "instruction": "全部最後まで聞いてから、言う練習を始めてください。",
+      "instruction_vi": "Nghe hết rồi luyện. Mỗi câu 「〜そうです」 (nghe nói ~) đổi sang 2 style: 敬語 = 「〜（尊敬語）とのことです」; 友達 = 「〜って」 (xem lại p.36 「〜って」). Đáp án → trang 204.",
+      "note": "💡 敬語: [động từ → sonkeigo] + とのことです。 ／ 友達: [câu thường] + って。 Đáp án theo trang 204 (Track 2-44).",
+      "items": [
+        {
+          "num": "例",
+          "example": true,
+          "context": "明日鈴木さんが来るそうです。",
+          "context_vi": "(cue) Nghe nói mai anh Suzuki đến.",
+          "audioStart": 0,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "明日鈴木さんがいらっしゃるとのことです。",
+              "answer_vi": "来る → いらっしゃる (sonkeigo) + とのことです."
+            },
+            {
+              "num": "友達",
+              "answer": "明日鈴木さんが来るって。",
+              "answer_vi": "〜そうです → 〜って (thân mật)."
+            }
+          ]
+        },
+        {
+          "num": "1",
+          "context": "田中さんはお酒をあまり飲まないそうです。",
+          "context_vi": "(cue) Nghe nói anh Tanaka không uống rượu mấy.",
+          "audioStart": 17,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "田中さんはお酒をあまり召し上がらないとのことです。",
+              "answer_vi": "飲まない → 召し上がらない (sonkeigo)."
+            },
+            {
+              "num": "友達",
+              "answer": "田中さんはお酒をあまり飲まないって。",
+              "answer_vi": "〜って."
+            }
+          ]
+        },
+        {
+          "num": "2",
+          "context": "加藤さんは7時の飛行機で到着するそうです。",
+          "context_vi": "(cue) Nghe nói anh Kato đến bằng chuyến bay 7 giờ.",
+          "audioStart": 34,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "加藤さんは7時の飛行機で到着されるとのことです。",
+              "answer_vi": "到着する → 到着される (sonkeigo)."
+            },
+            {
+              "num": "友達",
+              "answer": "加藤さんは7時の飛行機で到着するって。",
+              "answer_vi": "〜って."
+            }
+          ]
+        },
+        {
+          "num": "3",
+          "context": "田中課長は加藤さんに会えなかったそうです。",
+          "context_vi": "(cue) Nghe nói trưởng phòng Tanaka đã không gặp được anh Kato.",
+          "audioStart": 53,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "田中課長は加藤さんにお会いになれなかったとのことです。",
+              "answer_vi": "会えなかった → お会いになれなかった (sonkeigo, dạng khả năng phủ định)."
+            },
+            {
+              "num": "友達",
+              "answer": "田中課長は加藤さんに会えなかったって。",
+              "answer_vi": "〜って."
+            }
+          ]
+        },
+        {
+          "num": "4",
+          "context": "林さんはアジアの民族衣装を参考にするそうです。",
+          "context_vi": "(cue) Nghe nói chị Hayashi sẽ tham khảo trang phục dân tộc châu Á.",
+          "audioStart": 71,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "林さんはアジアの民族衣装を参考にされるとのことです。",
+              "answer_vi": "参考にする → 参考にされる (sonkeigo)."
+            },
+            {
+              "num": "友達",
+              "answer": "林さんはアジアの民族衣装を参考にするって。",
+              "answer_vi": "〜って."
+            }
+          ]
+        },
+        {
+          "num": "5",
+          "context": "林さんはよくアジアの大都市に出かけるそうです。",
+          "context_vi": "(cue) Nghe nói chị Hayashi hay đi tới các đô thị lớn ở châu Á.",
+          "audioStart": 92,
+          "subAnswers": [
+            {
+              "num": "敬語",
+              "answer": "林さんはよくアジアの大都市に出かけられるとのことです。",
+              "answer_vi": "出かける → 出かけられる (sonkeigo)."
+            },
+            {
+              "num": "友達",
+              "answer": "林さんはよくアジアの大都市に出かけるって。",
+              "answer_vi": "〜って."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "title": "🎤 やってみましょう 話してみましょう — Phỏng vấn về địa điểm du lịch & báo cáo lại (Track 2-45, trang 143)",
+      "page": 143,
+      "intro": "Tự luyện SẢN XUẤT: phỏng vấn ai đó về địa điểm du lịch yêu thích, chuẩn bị ảnh, rồi BÁO CÁO lại bằng template dưới đây (① mở đầu → ②③ truyền đạt câu hỏi & câu trả lời → ④ cho xem ảnh → ⑤ cảm nhận → 次に／その次に／最後に → 締め). Hãy tự nói trước, rồi mở 「📖 Bài mẫu」 (報告の例) để đối chiếu.",
+      "intro_jp": "自分で話す練習です。お気に入りの観光地について誰かにインタビューし、写真も準備して、下の型で報告しましょう(①始める→②③質問とその答え→④写真を見せる→⑤感想→次に／その次に／最後に→締め)。先に自分で話してから、「📖 報告の例」で確認しましょう。",
+      "scenarios": [
+        {
+          "label": "①",
+          "title_jp": "話してみましょう — お気に入りの観光地についてインタビューして報告する",
+          "title_vi": "Phỏng vấn về địa điểm du lịch yêu thích rồi báo cáo lại",
+          "roles": [
+            {
+              "side": "A",
+              "who_jp": "報告する人(あなた)",
+              "who_vi": "Người báo cáo (bạn)",
+              "jp": "お気に入りの観光地について、誰かにインタビューして、報告してください。写真も準備してください。下の型(①〜⑤)に沿って、順を追って報告しましょう。",
+              "vi": "Hãy phỏng vấn ai đó về địa điểm du lịch yêu thích của họ, rồi báo cáo lại (nhớ chuẩn bị ảnh). Báo cáo theo template ①〜⑤ dưới đây, đi theo trình tự."
+            }
+          ],
+          "hints": [
+            {
+              "jp": "これから、①____さんへのインタビューの結果について、ご報告いたします。",
+              "vi": "① 報告を始める — mở đầu nêu phỏng vấn ai"
+            },
+            {
+              "jp": "まず、②____について伺いました。この質問に対しては、③____とのことです。",
+              "vi": "②③ 質問とその答えを伝える — 〜とのことです"
+            },
+            {
+              "jp": "こちらの写真をご覧になるとおわかりのように、④____とのことです。",
+              "vi": "④ 写真を見せる — ご覧になるとおわかりのように"
+            },
+            {
+              "jp": "⑤____(〜だと思いました／〜のではないでしょうか)",
+              "vi": "⑤ 感想を言う"
+            },
+            {
+              "jp": "次に、…… その次に、…… 最後に、……",
+              "vi": "「次に」「その次に」「最後に」で続ける"
+            },
+            {
+              "jp": "以上で報告を終わります。ご質問がおありの方はどうぞ。",
+              "vi": "締め — kết thúc & mời câu hỏi"
+            }
+          ],
+          "model": {
+            "track": "2-45",
+            "audio": "asset/audio/Track2-45.mp3",
+            "intro_vi": "📖 Bài mẫu (sách, trang 204, Track 2-45) — báo cáo về buổi phỏng vấn 浅田かおり: địa điểm yêu thích là 清水 (Shimizu, tỉnh Shizuoka). Người báo cáo đi theo trình tự, dùng 〜とのことです, cho xem ảnh & bản đồ, rồi kết. Hãy tự nói trước rồi mở đối chiếu.",
+            "intro_jp": "報告の例(p.204・Track 2-45)。浅田かおりさんへのインタビューの報告。お好きな観光地は静岡県の清水。順を追い、「〜とのことです」で伝え、写真と地図を見せて締めます。先に自分で話してから確認しましょう。",
+            "lines": [
+              {
+                "sp": "A",
+                "jp": "これから、浅田かおりさんへのインタビューの結果について、ご報告いたします。",
+                "vi": "Sau đây, tôi xin báo cáo về kết quả phỏng vấn chị Asada Kaori.",
+                "note_vi": "① 報告を始める"
+              },
+              {
+                "sp": "A",
+                "jp": "まず、浅田さんがお好きな観光地について伺いました。この質問に対しては、静岡県の清水が一番お好きだとのことです。",
+                "vi": "Trước hết, tôi đã hỏi về địa điểm du lịch chị ấy yêu thích. Với câu hỏi này, được biết chị ấy thích nhất là Shimizu thuộc tỉnh Shizuoka.",
+                "note_vi": "②③ 質問とその答え + 〜とのことです (登場人物に敬語: お好きだ)"
+              },
+              {
+                "sp": "A",
+                "jp": "こちらの写真をご覧になるとおわかりのように、清水からは富士山も見られます。お茶やみかんも有名です。清水の港には、大きな魚のマーケットがあるとのことです。",
+                "vi": "Như quý vị xem tấm ảnh này thì rõ, từ Shimizu còn có thể ngắm núi Phú Sĩ. Trà và quýt cũng nổi tiếng. Nghe nói ở cảng Shimizu có một khu chợ cá lớn.",
+                "note_vi": "④ 写真を見せる + 〜とのことです"
+              },
+              {
+                "sp": "A",
+                "jp": "ですから、清水の町にはたくさんのおすしの店があって、ご覧のようなおいしいまぐろのおすしが、安く食べられるとのことでした。清水の場所はこちらの地図をご覧ください。",
+                "vi": "Vì vậy, ở thị trấn Shimizu có rất nhiều quán sushi, và nghe nói có thể ăn sushi cá ngừ ngon như trong ảnh với giá rẻ. Vị trí Shimizu xin quý vị xem bản đồ này.",
+                "note_vi": "⑤ ＋ 地図を見せる (ご覧ください)"
+              },
+              {
+                "sp": "A",
+                "jp": "……以上で報告を終わります。ご質問がおありの方はどうぞ。はい。石田さん、お願いします。",
+                "vi": "…Báo cáo của tôi đến đây là kết thúc. Quý vị nào có câu hỏi xin mời ạ. Vâng, mời anh/chị Ishida.",
+                "note_vi": "締め — 以上で報告を終わります／ご質問がおありの方はどうぞ"
+              }
+            ]
+          }
+        }
+      ],
+      "answerRef": "📖 報告の例: Track 2-45 — phỏng vấn 浅田かおり về 清水 (Shizuoka) — trang 204. Đây là BÀI MẪU để đối chiếu, không phải đáp án cố định: hãy báo cáo về địa điểm của riêng bạn theo cùng trình tự ①〜⑤.",
+      "answerRef_jp": "報告の例:Track 2-45(浅田かおり・清水の報告)、p.204。これは確認用の例で、決まった答えではありません。自分の選んだ観光地について、同じ①〜⑤の流れで報告しましょう。"
+    },
+    {
+      "type": "vocab",
+      "title": "📒 語彙タンク — Từ vựng trọng tâm Bài 16 (trang 144)",
+      "intro": "Từ vựng gặp trong Bài 16 (16課 報告をする), gom theo trang xuất hiện. Bấm 🔊 để nghe phát âm.",
+      "intro_jp": "16課「報告をする」に出てくる語彙を、出てきたページ順にまとめています。🔊で発音が聞けます。",
+      "items": [
+        {
+          "jp": "衣装",
+          "kana": "いしょう",
+          "vi": "Phục trang / trang phục (costume)",
+          "note": "📖 trang 138."
+        },
+        {
+          "jp": "工夫する",
+          "kana": "くふうする",
+          "vi": "Dụng công / nghĩ cách (to devise)",
+          "note": "📖 trang 138 — 「特に工夫した点」."
+        },
+        {
+          "jp": "参考にする",
+          "kana": "さんこうにする",
+          "vi": "Lấy làm tham khảo (to refer to)",
+          "note": "📖 trang 138."
+        },
+        {
+          "jp": "デザインする",
+          "kana": "でざいんする",
+          "vi": "Thiết kế (to design)",
+          "note": "📖 trang 138."
+        },
+        {
+          "jp": "モデル",
+          "kana": "もでる",
+          "vi": "Mẫu / hình mẫu (model)",
+          "note": "📖 trang 138 — 「モデルにしたもの」."
+        },
+        {
+          "jp": "唐時代",
+          "kana": "とうじだい",
+          "vi": "Thời Đường (Tang Dynasty)",
+          "note": "📖 trang 138 — 「中国の唐時代のもの」."
+        },
+        {
+          "jp": "女優",
+          "kana": "じょゆう",
+          "vi": "Nữ diễn viên (actress)",
+          "note": "📖 trang 138."
+        },
+        {
+          "jp": "ヘアスタイル",
+          "kana": "へあすたいる",
+          "vi": "Kiểu tóc (hairstyle)",
+          "note": "📖 trang 138."
+        },
+        {
+          "jp": "実に",
+          "kana": "じつに",
+          "vi": "Thật là ~ (＝本当に／とても)",
+          "note": "📖 trang 138 — 「実にユニークです」."
+        },
+        {
+          "jp": "ユニーク",
+          "kana": "ゆにーく",
+          "vi": "Độc đáo (unique)",
+          "note": "📖 trang 138."
+        },
+        {
+          "jp": "概要",
+          "kana": "がいよう",
+          "vi": "Khái quát / sơ lược (overview)",
+          "note": "📖 trang 139 — 「映画の概要についてご報告」 (①)."
+        },
+        {
+          "jp": "結果",
+          "kana": "けっか",
+          "vi": "Kết quả (result)",
+          "note": "📖 trang 139 — 「インタビューの結果」 (①)."
+        },
+        {
+          "jp": "民族衣装",
+          "kana": "みんぞくいしょう",
+          "vi": "Trang phục dân tộc (ethnic costume)",
+          "note": "📖 trang 139 — 「アジアの民族衣装をテーマに」 (②)."
+        },
+        {
+          "jp": "テーマ",
+          "kana": "てーま",
+          "vi": "Chủ đề (theme / subject)",
+          "note": "📖 trang 139."
+        },
+        {
+          "jp": "江戸時代",
+          "kana": "えどじだい",
+          "vi": "Thời Edo (Edo period)",
+          "note": "📖 trang 139 — 「日本の江戸時代のもの」 (②)."
+        },
+        {
+          "jp": "各国",
+          "kana": "かっこく",
+          "vi": "Các nước (countries)",
+          "note": "📖 trang 139 — 「アジア各国の民族衣装」 (③)."
+        },
+        {
+          "jp": "一部分",
+          "kana": "いちぶぶん",
+          "vi": "Một phần (some / a portion)",
+          "note": "📖 trang 139 — 「一部分を集めたもの」 (③)."
+        },
+        {
+          "jp": "注目する",
+          "kana": "ちゅうもくする",
+          "vi": "Chú ý / để mắt tới (to give attention)",
+          "note": "📖 trang 139 — 「映画の中でも注目される」 (④)."
+        },
+        {
+          "jp": "営業",
+          "kana": "えいぎょう",
+          "vi": "Kinh doanh / marketing (sales)",
+          "note": "📖 trang 139 — 「映画の営業を行うとき」 (④)."
+        },
+        {
+          "jp": "強調する",
+          "kana": "きょうちょうする",
+          "vi": "Nhấn mạnh (＝強く言う)",
+          "note": "📖 trang 139 — 「この点は強調したほうがいい」 (④)."
+        },
+        {
+          "jp": "モナリザ",
+          "kana": "もなりざ",
+          "vi": "Mona Lisa (蒙娜丽莎)",
+          "note": "📖 trang 140 — 練習① 3)."
+        },
+        {
+          "jp": "実際に",
+          "kana": "じっさいに",
+          "vi": "Thực tế / trên thực tế (in fact / actually)",
+          "note": "📖 trang 140 — 「実際にご覧いただくと」 (練習①)."
+        },
+        {
+          "jp": "印象",
+          "kana": "いんしょう",
+          "vi": "Ấn tượng (impression)",
+          "note": "📖 trang 140 — 「日本の最初の印象」 (練習②)."
+        },
+        {
+          "jp": "調査",
+          "kana": "ちょうさ",
+          "vi": "Khảo sát / điều tra (survey / research)",
+          "note": "📖 trang 140 — 「調査の概要」 (練習③)."
+        },
+        {
+          "jp": "分析方法",
+          "kana": "ぶんせきほうほう",
+          "vi": "Phương pháp phân tích (method of analysis)",
+          "note": "📖 trang 140 — 「調査の分析方法」 (練習③)."
+        },
+        {
+          "jp": "観客",
+          "kana": "かんきゃく",
+          "vi": "Khán giả (audience)",
+          "note": "📖 trang 141 — 「映画館に行く観客」 (これでOK)."
+        },
+        {
+          "jp": "新作",
+          "kana": "しんさく",
+          "vi": "Tác phẩm mới (＝新しい作品)",
+          "note": "📖 trang 141 — 「新作映画『アジアンナイト』」 (これでOK)."
+        },
+        {
+          "jp": "到着する",
+          "kana": "とうちゃくする",
+          "vi": "Đến nơi (＝着く)",
+          "note": "📖 trang 142 — 「7時の飛行機で到着する」 (スタイル)."
+        },
+        {
+          "jp": "大都市",
+          "kana": "だいとし",
+          "vi": "Đô thị lớn (major city)",
+          "note": "📖 trang 143 — 「アジアの大都市に出かける」 (スタイル)."
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "🗒️ コラム「ていねいに言うとちょっと皮肉」 — Cố tình lịch sự = mỉa mai (trang 145)",
+      "page": 145,
+      "content": "Một mẩu thú vị về sắc thái của tiếng Nhật:\n\nĐôi khi, ngay cả với người THÂN, người Nhật CỐ Ý dùng từ ngữ lịch sự / kính ngữ — để… châm biếm (皮肉).\n• Với người bạn đến muộn: 「やっといらっしゃいましたね。」 (Ồ, rốt cuộc 'ngài' cũng đến rồi cơ đấy.)\n• Khi bị nhắc đi nhắc lại một chuyện: 「はいはい、承知いたしました！」 (Vâng vâng, tôi đã 'rõ' ạ!)\n\n💡 Vì sao thành mỉa mai? Với người mà ngày thường mình luôn nói kiểu thân mật (友達スタイル), việc CỐ TÌNH chuyển sang 敬語スタイル tạo cảm giác 'xa cách giả tạo' → mang nghĩa châm biếm.\n\n📌 Bài học: kính ngữ không chỉ để 'lịch sự' — dùng đúng chỗ là tôn trọng, nhưng dùng cố ý sai bối cảnh (với người thân) lại thành mỉa mai. Đọc được sắc thái này, và biết dùng khéo, cũng là một phần năng lực tiếng Nhật.",
+      "content_jp": "日本語のニュアンスについての小話です。\n\n約束の時間に遅れた友達に「やっといらっしゃいましたね」と言ったり、何度も同じことを言われたときに「はいはい、承知いたしました！」と言ったり、親しい関係でも、わざとていねいな言葉を使うことがあります。\n\n💡 いつもは友達スタイルで話している人に、わざわざ敬語スタイルを使うと、皮肉の意味になるときがあります。\n\n📌 上手に使って皮肉を言えるのも、日本語の能力ですよ。"
+    },
+    {
+      "type": "tips",
+      "title": "📚 Tổng kết Bài 16 + Bước tiếp theo",
+      "content": "🎯 Tổng kết Bài 16 (16課 報告をする — báo cáo):\n• ① 順を追って報告する — đi theo trình tự: まず → 次に → その次に／それから → 最後に, đóng từng phần / cả bài bằng 「以上、〜についてご報告しました」; nội dung nối bằng 「〜について」.\n• ② 聞いたことを話す — thuật lại điều nghe được bằng 「〜とのことです」 (＝〜そうです, trang trọng hơn); động từ của nhân vật trong chuyện để KÍNH NGỮ (した→なさった) để tách rõ 'đây là lời của họ'.\n• ③ 見せる — cho xem: 「ご覧ください／ご覧いただけますでしょうか」, dẫn nội dung bằng 「ご覧(になる/いただく)とおわかりのように、〜」. 「見てください」 là cộc.\n• ④ 感想を言う — thêm nhận định/đề xuất: 「〜だと思いました」 (khẳng định nhẹ), 「〜のではないでしょうか」 (gợi ý mềm), 「〜たほうがいいと思います」 (đề xuất).\n• ⑤ 報告を終えて質問を受ける — kết: 「以上で報告を終わります／以上、〜についてご報告しました」 ＋ mời câu hỏi 「何か質問はありませんか／ご質問がおありでしたらどうぞ」 (「おありです」 = sonkeigo của ある).\n• 💡 Cốt lõi: báo cáo dễ hiểu = ĐI THEO TRÌNH TỰ + TÁCH RÕ lời người khác (〜とのことです) + CHO XEM lịch sự + thêm CẢM NHẬN + KẾT gọn.\n\n📖 Tham chiếu trong sách:\n• Đáp án 練習①〜③ (Track 2-40, 2-41, 2-42) → trang 203–204.\n• Đáp án チェック (1) ①b ②c ③a ④a · 2) されたとの／なさったとの · 3) c · 4) b) & スタイル (Track 2-44) → trang 204.\n• 報告の例 やってみましょう: Track 2-45 (浅田かおり・清水) → trang 204 — đã nhúng trong roleplay.\n• コラム「ていねいに言うとちょっと皮肉」 (trang 145) — đã nhúng phía trên.\n\n➡️ Bài tiếp theo: 17課「司会の敬語」 (trang 146) — kính ngữ của MC / người điều phối: mở đầu cảm ơn, mời đặt câu hỏi, truyền đạt thông báo, hỏi cảm nhận khán giả.",
+      "content_jp": "🎯 16課「報告をする」のまとめ:\n• ① 順を追って報告する(まず→次に→その次に／それから→最後に、「以上、〜についてご報告しました」、「〜について」)。\n• ② 聞いたことを話す(「〜とのことです」＝「〜そうです」。話中の登場人物は敬語:した→なさった)。\n• ③ 見せる(「ご覧ください／ご覧いただけますでしょうか」「ご覧(になる/いただく)とおわかりのように〜」。「見てください」はぶっきらぼう)。\n• ④ 感想を言う(「〜だと思いました」「〜のではないでしょうか」「〜たほうがいいと思います」)。\n• ⑤ 報告を終えて質問を受ける(「以上で報告を終わります／以上、〜についてご報告しました」＋「何か質問はありませんか／ご質問がおありでしたらどうぞ」。「おありです」は「ある」の尊敬語)。\n• 💡 ポイント:わかりやすい報告＝順を追う＋「〜とのことです」で人の話を分ける＋ていねいに見せる＋感想を加える＋締める。\n\n📖 本の参照:練習①〜③(Track 2-40・2-41・2-42)→p.203–204、チェック(1)①b②c③a④a・2)されたとの／なさったとの・3)c・4)b)・スタイル(Track 2-44)→p.204、報告の例(Track 2-45・浅田かおり・清水)→p.204。\n➡️ 次は17課「司会の敬語」(p.146)。"
+    }
+  ]
+}

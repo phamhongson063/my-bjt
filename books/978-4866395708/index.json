@@ -352,36 +352,41 @@
       "id": "L17",
       "order": 17,
       "title": "報告をする",
-      "titleVi": "Báo cáo (kết quả/sự cố)",
+      "titleVi": "Bài 16 — Báo cáo (tường thuật lại buổi phỏng vấn / kết quả)",
       "phase": 2,
       "chapter": "第2章 - 16",
       "page": 138,
       "topics": [
-        "まず、ひと言で報告する — báo gọn một câu trước",
-        "順を追って報告する — báo theo trình tự",
-        "「このようなトラブルがあって…」 — báo sự cố",
-        "感想を言う — nêu cảm nhận"
+        "できますか? — Alex báo cáo cho 金子部長 về buổi phỏng vấn 林美香 nhưng lộn xộn, không theo trình tự, 部長 「誰が？」「よくわからない」",
+        "① 順を追って報告する — báo theo trình tự (まず → 次に → その次に／それから → 最後に, đóng phần bằng 以上)",
+        "② 聞いたことを話す — thuật lại lời người khác 「〜とのことです」(＝〜そうです); động từ của nhân vật để KÍNH NGỮ",
+        "③ 見せる — cho xem (ご覧ください／ご覧いただけますでしょうか／ご覧いただくとおわかりのように)",
+        "④ 感想を言う — nêu cảm nhận/đề xuất (〜だと思いました／〜のではないでしょうか／〜たほうがいいと思います)",
+        "⑤ 報告を終えて質問を受ける — kết thúc & mời câu hỏi (以上で報告を終わります／ご質問がおありでしたらどうぞ)",
+        "練習: 〜とおわかりのように + 〜とのことです + 順を追って (Track 2-40→2-42); チェック + スタイル 〜そうです→敬語/友達 (2-44); やってみましょう 観光地インタビューの報告 (Track 2-45)",
+        "コラム「ていねいに言うとちょっと皮肉」 — cố tình dùng kính ngữ với người thân = mỉa mai (trang 145)"
       ],
       "estimatedMinutes": 35,
-      "status": "todo"
+      "status": "ready"
     },
     {
       "id": "L18",
       "order": 18,
       "title": "司会の敬語",
-      "titleVi": "Kính ngữ MC / Người điều phối",
+      "titleVi": "Bài 17 — Kính ngữ của MC / người dẫn chương trình",
       "phase": 2,
       "chapter": "第2章 - 17",
       "page": 146,
       "topics": [
-        "「〜中、お集まりいただきまして」 — mở đầu cảm ơn",
-        "「ご質問がおありでしたら」 — mời đặt câu hỏi",
-        "報告を伝える — truyền đạt thông báo",
-        "感想を聞く — hỏi cảm nhận khán giả",
-        "「私、本日の司会を務めます〜と申します」"
+        "できますか? — Alex lần đầu làm MC tiệc chia tay (送別会), không biết nói gì, mở màn rời rạc, quên tự giới thiệu, quăng phần nâng ly cho 斎藤先生",
+        "① 「皆さんお集まりですので」 — 「お/ご+[Vます]+です」 (dạng rút gọn của 「お〜になっていらっしゃいます」; そろう→おそろい, 見える→お見え)",
+        "② 「そろそろ始めたいと思います」 — 「〜たいと思います／〜させていただきます」 (mềm hơn 「始めます」, tránh áp đặt)",
+        "③ 「私、本日の司会を務めます〜と申します」 — MC tự giới thiệu",
+        "④ 司会の表現 — bộ câu MC (大きな拍手でお迎えください / 前途を祝して乾杯 / 乾杯の音頭 / お開きにする)",
+        "練習: お/ご〜です + 〜ですので〜ましょう + 〜たいと思います + 〜と申します (Track 2-46→2-49); チェック + スタイル (2-51); やってみましょう 歓迎会の司会 (Track 2-52)"
       ],
       "estimatedMinutes": 35,
-      "status": "todo"
+      "status": "ready"
     },
     {
       "id": "L19",
